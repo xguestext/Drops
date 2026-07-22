@@ -1,5 +1,5 @@
 @echo off
-rem Desliga o vigia de drops (mata qualquer python rodando o alerta_drops.py).
-powershell -NoProfile -Command "Get-CimInstance Win32_Process | Where-Object { $_.CommandLine -like '*alerta_drops.py*' } | ForEach-Object { Stop-Process -Id $_.ProcessId -Force }"
-echo Vigia parado (se estava rodando).
+rem Desliga o Drops Radar (bandeja, vigia antigo e janela do site).
+powershell -NoProfile -Command "Get-CimInstance Win32_Process | Where-Object { $_.CommandLine -match 'drops_tray.py|alerta_drops.py|viewer_site.py' -and $_.Name -like 'python*' } | ForEach-Object { Stop-Process -Id $_.ProcessId -Force }"
+echo Drops Radar parado (se estava rodando).
 pause

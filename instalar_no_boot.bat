@@ -6,7 +6,7 @@ echo @echo off
 echo cd /d "%~dp0"
 echo set PYW=%%LOCALAPPDATA%%\Programs\Python\Python314\pythonw.exe
 echo if not exist "%%PYW%%" set PYW=pythonw
-echo start "" "%%PYW%%" alerta_drops.py
+echo start "" "%%PYW%%" drops_tray.py
 ) > "%ALVO%"
 echo Pronto: o vigia liga junto com o Windows.
 echo Pra desfazer, rode desinstalar_do_boot.bat
