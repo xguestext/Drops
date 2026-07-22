@@ -114,6 +114,15 @@
   .link{margin-left:auto;font-size:12.5px;color:var(--blue);text-decoration:none;font-weight:500}
   .link:hover{text-decoration:underline}
 
+  .bgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+  .bcard{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--amber);
+    border-radius:12px;padding:13px;display:flex;gap:12px;align-items:flex-start}
+  .bimgs{display:flex;gap:5px;flex:none}
+  .bimgs img{width:42px;height:42px;border-radius:7px;object-fit:contain;background:var(--panel2);border:1px solid var(--line)}
+  .bimgs .bph{width:42px;height:42px;border-radius:7px;display:flex;align-items:center;justify-content:center;background:var(--panel2);font-size:18px}
+  .binfo{min-width:0}
+  .btitle{font-size:14px;font-weight:600;line-height:1.3}
+  .bnote{font-size:12px;color:var(--faint);margin-top:4px;line-height:1.35}
   .empty{color:var(--faint);font-size:14px;padding:36px 0;text-align:center}
   footer{margin-top:40px;color:var(--faint);font-size:12px;text-align:center}
   @media (max-width:560px){ .stats{grid-template-columns:repeat(2,1fr)} .search{margin-left:0;width:100%} .search input{width:100%} }
@@ -147,6 +156,7 @@
 
   <div id="banner"></div>
   <div id="content"></div>
+  <div id="badges"></div>
 
   <footer>atualiza sozinho a cada 5 min · dados via GitHub Actions</footer>
 </div>
@@ -165,6 +175,9 @@ const SAMPLE = { updated_at:new Date(Date.now()-4*60000).toISOString(), ok:true,
   {name:"Marvel Rivals — Season 2", game:"Marvel Rivals", status:"ACTIVE", start_at:null, end_at:new Date(Date.now()+4*D).toISOString(), availability:"open", channels:[], reward_type:"game", rewards:[{name:"Costume"},{name:"Spray"}]},
   {name:"Dead by Daylight Drops", game:"Dead by Daylight", status:"ACTIVE", start_at:null, end_at:new Date(Date.now()+6*D).toISOString(), availability:"open", channels:[], reward_type:"game", rewards:[{name:"Charm"},{name:"Cosmetic"},{name:"Bloodpoints"}]},
   {name:"Community Sub Badge", game:"Just Chatting", status:"ACTIVE", start_at:null, end_at:new Date(Date.now()+12*H).toISOString(), availability:"open", channels:[], reward_type:"platform", rewards:[{name:"Sub Badge"}]}
+], badges:[
+  {title:"Final Fantasy XIV Fan Festival 2026 EU", start_at:new Date(Date.now()+2*D).toISOString(), end_at:null, note:null, images:[]},
+  {title:"Marvel Tokon Open Beta", start_at:new Date(Date.now()+2*D).toISOString(), end_at:null, note:"Badge do Spider-Man por subscribe/gift de sub", images:[]}
 ]};
 
 const esc = s => (s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -211,6 +224,21 @@ function card(c){
     ${when}
     <div class="rewards">${rw}${more}</div>
     <div class="foot">${c.details_url?`<a class="link" href="${esc(c.details_url)}" target="_blank" rel="noopener">ver detalhes ↗</a>`:""}</div>
+  </div>`;
+}
+
+function badgeCard(b){
+  const r = rel(b.start_at);
+  const imgs = (b.images||[]).slice(0,3).map(u=>`<img src="${esc(u)}" loading="lazy" onerror="this.remove()">`).join("")
+    || `<div class="bph">🏷️</div>`;
+  const when = r ? `<div class="when">${r.future?"começa em":"desde"} <b>${r.text}</b> · ${r.date}</div>` : "";
+  return `<div class="bcard">
+    <div class="bimgs">${imgs}</div>
+    <div class="binfo">
+      <div class="btitle">${esc(b.title||"")}</div>
+      ${when}
+      ${b.note?`<div class="bnote">${esc(b.note)}</div>`:""}
+    </div>
   </div>`;
 }
 
@@ -271,6 +299,12 @@ function render(){
   let html = section("up","Em breve",up) + section("live","Ativos agora",live);
   if(!html) html = `<div class="empty">${d.ok?"Nada por aqui com os filtros atuais.":"Sem campanhas ainda."}</div>`;
   document.getElementById("content").innerHTML = html;
+
+  const badges = (d.badges||[]).filter(b => !state.q || (b.title||"").toLowerCase().includes(state.q));
+  document.getElementById("badges").innerHTML = badges.length
+    ? `<div class="section-h"><span class="sdot" style="background:var(--amber)"></span><h2>Badges chegando</h2><span class="n">${badges.length}</span><span class="rule"></span></div>
+       <div class="bgrid">${badges.map(badgeCard).join("")}</div>`
+    : "";
 }
 
 async function load(){

@@ -1,15 +1,16 @@
 {
-  "updated_at": "2026-07-22T22:01:18Z",
+  "updated_at": "2026-07-22T22:29:18Z",
   "ok": true,
-  "source": "sunkwi+fenris",
-  "source_updated": "2026-07-22T22:01:01.597Z",
+  "source": "sunkwi+fenris+twitchdrops+streamdatabase",
+  "source_updated": "2026-07-22T22:29:01.422Z",
   "counts": {
-    "total": 85,
-    "upcoming": 4,
-    "active": 81,
-    "game_drops": 82,
+    "total": 89,
+    "upcoming": 5,
+    "active": 84,
+    "game_drops": 86,
     "platform": 3,
-    "fechadas_descartadas": 43
+    "badges": 5,
+    "fechadas_descartadas": 42
   },
   "campaigns": [
     {
@@ -31,7 +32,8 @@
           "name": "Beta Test Raffle Ticket",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/44f62bae-4090-4a29-ba4b-28470a4fd799.png"
         }
-      ]
+      ],
+      "src": "fenris"
     },
     {
       "id": "bf45b48e-5d71-4f58-9848-985349dca004",
@@ -52,7 +54,8 @@
           "name": "Radiant Wilds Chest",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png"
         }
-      ]
+      ],
+      "src": "fenris"
     },
     {
       "id": "235403b7-fa15-40a5-bed1-64547ef361c8",
@@ -73,7 +76,8 @@
           "name": "2 Hour Reward",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f2cb7c7c-7ecd-423e-af93-0d2fc21fcd96.png"
         }
-      ]
+      ],
+      "src": "fenris"
     },
     {
       "id": "23aa1ecb-698b-4a90-9946-26b44e63fda1",
@@ -110,7 +114,34 @@
           "name": "Exotic Stellar Marrow *1",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/acea0c2a-1ee4-4071-8f10-db5731e5228b.png"
         }
-      ]
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": null,
+      "name": "2 drops",
+      "status": "UPCOMING",
+      "start_at": "2026-07-23T16:00:00Z",
+      "end_at": "2026-08-13T15:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/7f767e11-1c42-4aef-b43e-8ffa921009bb.jpeg",
+      "details_url": "https://twitchdrops.app/game/for-honor",
+      "game": "For Honor",
+      "game_slug": "for-honor",
+      "game_box": null,
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "2 XP Boosts",
+          "image": null
+        },
+        {
+          "name": "4 XP Boosts",
+          "image": null
+        }
+      ],
+      "src": "twitchdrops"
     },
     {
       "id": "adbe5148-18d4-43df-a32a-507e5acbc01b",
@@ -143,7 +174,8 @@
           "name": "Crystal*120",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/59d90596-0bb4-4b35-8eca-73c1dda58212.jpeg"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "7eef3464-58fd-4168-9910-f25145a76391",
@@ -184,7 +216,8 @@
           "name": "Infused Stone Glider",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6c0d8ded-90f9-410a-9bf3-cf0aa597ecef.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "8e8ee750-a5c3-4afd-9681-e5ee0e664449",
@@ -221,7 +254,8 @@
           "name": "Rose Orb (Bound)*200",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/591deeea-e677-4c02-9afd-840a008bf62e.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "3ecdb9e5-db13-4126-93dd-fd6627474284",
@@ -258,7 +292,8 @@
           "name": "Darkness",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82725820-1433-49a2-9351-a3d8ee1768e5.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "5d3ed0bd-3b50-4223-8e24-c3a4e936cbb5",
@@ -295,7 +330,8 @@
           "name": "Twitch Stun Grenade Skin",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c5c8dfdf-d1b9-4611-94a5-2f738fd21b2a.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "91f4d3e6-8113-4f1e-89d6-3b4ebd77c080",
@@ -352,7 +388,8 @@
           "name": "60min Speedup*1",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cdc2c1d8-ce40-43dd-8183-4c6a29bb1522.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "284538a6-9d7e-4614-984b-a5abe5d4b8f7",
@@ -381,7 +418,8 @@
           "name": "Scout Outfit",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1ec8c7c4-c9de-4f39-8ad6-1611f452ee33.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "be0bbe2d-4500-4324-856e-d0aaa66db9b3",
@@ -422,7 +460,8 @@
           "name": "Beach Capeline",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/45fa3931-3b01-4ee0-b899-9c449a94b84e.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "64bce2d8-430a-4bdd-b748-22873f8e0596",
@@ -443,7 +482,8 @@
           "name": "Purple Resonance Gift Bun",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d998841a-b013-4aee-9d65-bd843bb2580c.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "50683bfa-9860-4c47-bd25-e55803adf8d0",
@@ -464,7 +504,70 @@
           "name": "Kurnas Table House Deco",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ccca8931-4bbe-44b6-be9c-6408fa58ece9.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": null,
+      "name": "11 drops",
+      "status": "ACTIVE",
+      "start_at": "2026-07-02T11:00:00Z",
+      "end_at": "2026-08-07T08:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/158879df-4744-4bde-9366-56afa75e5e24.png",
+      "details_url": "https://twitchdrops.app/game/marvel-rivals",
+      "game": "Marvel Rivals",
+      "game_slug": "marvel-rivals",
+      "game_box": null,
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Jubilee Badge",
+          "image": null
+        },
+        {
+          "name": "100 CHRONO TOKENS - 1",
+          "image": null
+        },
+        {
+          "name": "Wolverine Spray",
+          "image": null
+        },
+        {
+          "name": "NUMBER ONE FAN Emoji",
+          "image": null
+        },
+        {
+          "name": "100 CHRONO TOKENS - 2",
+          "image": null
+        },
+        {
+          "name": "Wolverine Emote",
+          "image": null
+        },
+        {
+          "name": "Wolverine Costume",
+          "image": null
+        },
+        {
+          "name": "Captain America Spray",
+          "image": null
+        },
+        {
+          "name": "Captain America Nameplate",
+          "image": null
+        },
+        {
+          "name": "Captain America Emote",
+          "image": null
+        },
+        {
+          "name": "Captain America Costume",
+          "image": null
+        }
+      ],
+      "src": "twitchdrops"
     },
     {
       "id": "7b53497a-83e3-440e-928a-220b232e1f4e",
@@ -485,7 +588,8 @@
           "name": "Rust Charity '26 Box",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0604efdb-74a3-4ef3-a3aa-6d5ed608f3ef.jpeg"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "ccb6e65a-3bf6-428d-8b28-e43242bb76f2",
@@ -506,7 +610,8 @@
           "name": "Twitch mask",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/147670e5-bd68-4efe-abd1-e8af3d1b0806.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "5abf7bca-ddbc-4466-88e7-a8f047fc90ca",
@@ -539,7 +644,8 @@
           "name": "Kuiper Shard & Gold Boost",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2fae5738-d730-4f95-a107-df5d39bc85eb.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "d543f454-1677-40ec-9517-11f7e9ef4140",
@@ -560,7 +666,8 @@
           "name": "Rust Charity '26 Bed",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d74de0bf-0201-434e-9681-81b6fc919533.jpeg"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "d1d87bdc-4f35-4d3c-8a34-c4e66bee4f0a",
@@ -581,7 +688,8 @@
           "name": "Rust Charity '26 Backpack",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b042b8b4-5d9d-4c25-90a5-ed7d3ca45c23.jpeg"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "42d6f4bf-4007-485f-8eea-5d5172e66dd1",
@@ -606,7 +714,8 @@
           "name": "Purple Duffel Bag",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/58135b91-b75f-4406-9867-d23ddf179002.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "56235860-ec68-469b-aae2-3b7b23e4ae89",
@@ -631,7 +740,38 @@
           "name": "Cheetah Claw Cat",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/109d672a-dd01-496a-a88c-57a998575a48.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": null,
+      "name": "3 drops",
+      "status": "ACTIVE",
+      "start_at": "2026-07-08T10:01:00Z",
+      "end_at": "2026-08-02T21:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/3565fcb0-fdb1-427e-8983-6d3b4c2df9ca.png",
+      "details_url": "https://twitchdrops.app/game/assassins-creed-black-flag-resynced",
+      "game": "Assassin&#39;s Creed Black Flag Resynced",
+      "game_slug": "assassins-creed-black-flag-resynced",
+      "game_box": null,
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "AC Black Flag Resynced",
+          "image": null
+        },
+        {
+          "name": "Rustborne Swords",
+          "image": null
+        },
+        {
+          "name": "Cheetah Claw Cat",
+          "image": null
+        }
+      ],
+      "src": "twitchdrops"
     },
     {
       "id": "5e849195-65b9-4512-9a23-9a004d057a80",
@@ -664,7 +804,8 @@
           "name": "Raptoodle Avatar",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/89bced1a-253d-427c-9524-59406de83ad1.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "1faf15d6-2529-430a-a218-daa2ddbbb60d",
@@ -685,7 +826,8 @@
           "name": "Rust Charity '26 Furnace",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/95e893c9-605f-49da-ae9e-ca8c0103733e.jpeg"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "59225e6f-6c78-47bf-a404-62d49661b60f",
@@ -710,7 +852,8 @@
           "name": "Neon Blade",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f63039f9-2229-411b-bc79-b108d4f52e02.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "69c38a89-bfa4-479e-a98c-4d15477a1d92",
@@ -743,7 +886,58 @@
           "name": "Exclusive Skin (S6)",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/88aac49c-19af-4df4-a872-4c20febf10af.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": null,
+      "name": "8 drops",
+      "status": "ACTIVE",
+      "start_at": "2026-07-09T07:51:27Z",
+      "end_at": "2026-07-31T23:29:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/b4ceb263-19c2-411c-a374-0db35a69432e.png",
+      "details_url": "https://twitchdrops.app/game/modern-warships",
+      "game": "Modern Warships",
+      "game_slug": "modern-warships",
+      "game_box": null,
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "1 Day of Premium",
+          "image": null
+        },
+        {
+          "name": "100 UP&#39;s",
+          "image": null
+        },
+        {
+          "name": "Tactical Consumables Set",
+          "image": null
+        },
+        {
+          "name": "2 Days of Premium",
+          "image": null
+        },
+        {
+          "name": "Advanced Consumables",
+          "image": null
+        },
+        {
+          "name": "200 UP&#39;s",
+          "image": null
+        },
+        {
+          "name": "15 Authorization Keys",
+          "image": null
+        },
+        {
+          "name": "Camo Charming Ornament",
+          "image": null
+        }
+      ],
+      "src": "twitchdrops"
     },
     {
       "id": "78960b7e-e3fe-4577-a5cb-504530529c31",
@@ -768,7 +962,8 @@
           "name": "300x Trade Bars",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d1673cae-8e6f-4f70-84ff-7e4932418d88.jpeg"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "cf12e660-f5a1-4b95-9e3c-ff6e559b7ca3",
@@ -813,7 +1008,8 @@
           "name": "Trip Report",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/22269781-56d4-445f-a701-1c0cfda2a6a9.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "d42acb8a-5fbf-4a6e-9b5b-2a59eb80e9a0",
@@ -834,7 +1030,8 @@
           "name": "AC Black Flag Resynced",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3c03bd7c-fe9e-4a37-bc7e-9234b4dc86ad.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "6dca3768-f3d0-4bad-a71b-f853083ebef6",
@@ -883,7 +1080,8 @@
           "name": "CharacterSkin01",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4606b211-7040-48fe-b436-ee88e430bbc6.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "dd903ec5-ee8f-446d-a215-8ab06b9816cf",
@@ -920,7 +1118,8 @@
           "name": "Archboss Furniture Chest",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e06ff3e0-5a59-44cd-aa55-4501c5fd2455.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "d0566872-b348-4c07-b8d4-a440b397318f",
@@ -953,7 +1152,8 @@
           "name": "Night Watchmen Banner",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e54bfd58-6d40-4037-82b8-4f20c4c7dedf.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "79863c30-90e5-48f3-b371-f887014a6d5d",
@@ -990,7 +1190,8 @@
           "name": "Medium Resonance Potion*5",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e9b9b21f-280e-420f-bed3-2a8cd19aa2c3.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "c15482ab-63b3-4c28-9ec4-795dfeb4cf04",
@@ -1015,7 +1216,8 @@
           "name": "One mystery Trait skin",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/489a0b5d-2468-4fc0-aa3f-949d24f71119.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "223dd948-fa01-4fba-a84f-584e08297b57",
@@ -1036,7 +1238,8 @@
           "name": "Cheerful Roman Market",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1757a671-0dbb-4885-af86-a9b672a680bc.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "b9bd1d24-427d-42c4-af34-95c83f741997",
@@ -1057,7 +1260,8 @@
           "name": "Killer Inn",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/16b0d414-7963-4ab7-8c31-d97059ad4fba.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "f2271661-4399-4136-bd6c-a5dfb65ae1fb",
@@ -1078,7 +1282,8 @@
           "name": "Ayane",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/32e43985-e409-4ec6-9bff-709344cafa00.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "69c62241-125d-40a6-aaba-254282997937",
@@ -1099,7 +1304,30 @@
           "name": "Cool Cattiva",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/00decc49-b543-41b3-bd83-fa0e11da595b.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": null,
+      "name": "1 drop",
+      "status": "ACTIVE",
+      "start_at": "2026-07-10T07:30:00Z",
+      "end_at": "2026-07-25T07:29:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/666f6c49-1872-467f-a8d9-3d6f6867a46e.png",
+      "details_url": "https://twitchdrops.app/game/street-fighter-6",
+      "game": "Street Fighter 6",
+      "game_slug": "street-fighter-6",
+      "game_box": null,
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Jamie’s EX 01 Color",
+          "image": null
+        }
+      ],
+      "src": "twitchdrops"
     },
     {
       "id": "987bd67a-7bf2-48df-91fe-8fa825194e13",
@@ -1132,7 +1360,8 @@
           "name": "Captain America Costume",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2d3bce64-f91f-4408-a4bd-78bc48cd1022.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "d0b32c6c-0583-4909-be91-f12686c3d5f0",
@@ -1161,7 +1390,8 @@
           "name": "Rainbow Tube",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c487aafe-e678-4474-9984-25b28cd55ef0.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "2af08a58-3c8f-426b-a990-2661b373ec1f",
@@ -1190,7 +1420,8 @@
           "name": "Red Star Ring*100",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4cdca36c-1b31-430a-8f76-6110c387e219.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "e6b691af-a611-4dfb-84d8-8420d3a460f1",
@@ -1223,7 +1454,8 @@
           "name": "2h Reward",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a939fe81-3f62-40a5-83fe-063e11112fa9.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "31d071f0-4490-42c4-9262-d6abe48be8f1",
@@ -1268,7 +1500,8 @@
           "name": "Athletic Sports Shirt",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/04f70fa8-b619-4b2f-a28b-af57cd60127b.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "291c52fb-8ed0-4189-977c-11f52755cb3a",
@@ -1293,7 +1526,8 @@
           "name": "Data Diver Tracker",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bb8e544b-63f7-4e4d-9616-c0ecc10c3d77.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "729991f7-5f38-49a8-a350-03b6e18063e0",
@@ -1346,7 +1580,8 @@
           "name": "Life Preserver Spray",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/481b121b-b0ec-4555-975a-72c92fedf130.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "a5298b5c-a0a7-4502-9a2a-bd37e2eaf393",
@@ -1383,7 +1618,8 @@
           "name": "Stellar Jade*30",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/35243e27-46dd-438a-b460-7bfafe547f18.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "4445d76a-1f80-464f-8c2b-2a3547b6fabb",
@@ -1420,7 +1656,8 @@
           "name": "Fate Amulet*1",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3f770f2c-b05e-4f2d-8102-a7aa9becfd4d.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "560a2c7c-786d-40c0-8766-ecf573ac87f7",
@@ -1457,7 +1694,8 @@
           "name": "Regular Hero Draw Ticket3",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6e1a261d-56c3-4c62-8d89-08d6c88d7a18.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "920a7a30-2c54-427c-b2ed-e0c82ffea5d5",
@@ -1494,7 +1732,8 @@
           "name": "Oroberyl*150",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1a7cfcc3-2ba4-4d43-a43c-82f91304ff3b.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "a9cd5a95-09a4-4136-a688-9fd17f72a2f2",
@@ -1551,7 +1790,8 @@
           "name": "Full Drops Chest",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/801b1427-1412-408f-a144-54d8f17af67d.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "0c8bbf28-4ce6-4be4-b0b3-0ba6ec1d7b97",
@@ -1608,7 +1848,8 @@
           "name": "Drops 15 Hour Reward",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3b52ed93-8d81-4d5d-a6a3-e25c3d141a54.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "2009a4c3-affc-47a5-97f2-1d742dfb2d73",
@@ -1629,7 +1870,8 @@
           "name": "Meccha Chameleon",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/dc41dfe9-5c6c-43a0-9c0f-32c8b509c489.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "06851d51-9ba9-4479-9438-387e3bac393d",
@@ -1650,7 +1892,8 @@
           "name": "Perlica",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/766b679b-99ac-403c-86f6-4f6351468a72.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "ac2a73c3-46a5-46c5-aac3-997046dd683a",
@@ -1683,7 +1926,8 @@
           "name": "Footy Pack",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f4234046-849a-4c38-992b-3a2c57ffc47d.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "5ed51220-3050-40e6-bcfb-708b75bce6a6",
@@ -1708,7 +1952,8 @@
           "name": "Twitch Container 15.6",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1903c727-8fef-40e2-8515-8dd8fecd14d7.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "e9ef6f87-42e0-4816-8a38-d9183aacb654",
@@ -1729,7 +1974,8 @@
           "name": "SAND",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/63737b49-850b-4a1a-abb6-c6175be2f892.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "006f68de-5c85-4efc-94b1-175bbc8fad89",
@@ -1770,7 +2016,8 @@
           "name": "2.8 Shiny Bubbles x100",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b7c3e526-fd64-48fa-810d-0d8bca144a0d.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "aca451b3-60b3-463f-abcb-f860c36ca32d",
@@ -1791,7 +2038,8 @@
           "name": "26.7 Боевая задача #2",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/83163fc6-9e8d-4ead-9bc3-8236d63dd869.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "430a7e80-61e4-4933-83b5-db3d9f679f1f",
@@ -1828,7 +2076,8 @@
           "name": "Twitch Érme (1 db)",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/14f9a9c0-fb51-4ad7-9109-f4aef7d9c9ac.jpeg"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "853aa320-88ad-46a8-9231-7d8370503317",
@@ -1849,7 +2098,8 @@
           "name": "Soulframe Preludes Key",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0308cb07-413f-4930-99ef-38fcf55dca45.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "11342a7c-daab-48bb-b48a-62714a0a91f6",
@@ -1890,7 +2140,8 @@
           "name": "Drop Reward 6 - SW3",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a3b44b04-b045-492a-8749-8abd95a757eb.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "a70f46c0-7a52-4c98-81ca-c1a546e4bfd1",
@@ -1947,7 +2198,8 @@
           "name": "EAS10#1 Witness Emblem10",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e82d26b5-5eca-4654-bc33-201c19b5fe2f.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "fb3b2363-5bee-44aa-ac51-b6178834d926",
@@ -1992,7 +2244,8 @@
           "name": "Market Coins Bundle 7",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/043434c4-1e73-40ae-80ec-ac836737e748.jpeg"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "52b6716d-f8d7-4f3b-9272-b0c5cdac90f3",
@@ -2021,7 +2274,8 @@
           "name": "Tactical Consumables Set",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/203e1a32-c0fc-4a46-bbb9-0ca0a0e5e046.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "067b6ff5-5ef3-4f86-a504-5e71fda550f0",
@@ -2042,7 +2296,8 @@
           "name": "Jarritos",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f7cbf9e4-a48c-45bc-b18b-046a6d393457.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "48669d13-0d92-454f-b5a7-2bdfac833291",
@@ -2063,7 +2318,8 @@
           "name": "Special Random Gift",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/066c42e3-2599-4297-a7ec-25971442bdb3.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "d609bbd4-6d95-4bb9-8a3a-d84182d34fb6",
@@ -2112,7 +2368,8 @@
           "name": "Shiny Enphosed Skin",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5944c433-ca4d-44c8-a082-2b76071890a9.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "f8347ac2-91cd-4cb4-bd54-310bfa5aa0e5",
@@ -2137,7 +2394,8 @@
           "name": "Level Up Training Orb x1",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/50d71948-5201-44ee-8be2-5c474a145646.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "2feb174c-9a32-4e50-b257-3f4eb930d151",
@@ -2218,7 +2476,8 @@
           "name": "Fishing Sharks Teeth Drop",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/99f74d87-07fe-4821-b1b7-e89426aea396.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "0d1644dc-1880-48b4-b5fc-f4ce083ad0e1",
@@ -2263,7 +2522,8 @@
           "name": "Cranial Blast",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/22d296cb-b0b9-41d5-beec-04e1302b21d4.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "d5e6ea2f-7eb8-42c9-b91f-8bfaaa510369",
@@ -2284,7 +2544,8 @@
           "name": "Cool Cat",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9b79bc30-f04e-450b-ab9e-42555b1b447f.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "f62ff062-9fbd-4d88-97b3-136de223f20c",
@@ -2313,7 +2574,8 @@
           "name": "10 Enhanced Med Kits",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/16e8e3bc-c27f-4b69-9740-c5bbd95dbce2.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "40856f0f-a221-4ed8-932f-42900f298278",
@@ -2334,7 +2596,8 @@
           "name": "Rematch Nations Cup",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7d0b334d-dba5-4c4c-8c6b-b49a1d23716f.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "16ca1ede-fc0d-4bd0-a622-d34895a945f8",
@@ -2359,32 +2622,8 @@
           "name": "Ghostly Infusion",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8a494732-93ac-4436-9f83-2f61050adfb7.png"
         }
-      ]
-    },
-    {
-      "id": "3e1aef3e-77a0-4873-98c2-855eb81df0be",
-      "name": "GOALS - 22nd of July",
-      "status": "ACTIVE",
-      "start_at": "2026-07-21T22:01:00Z",
-      "end_at": "2026-07-22T21:58:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f37babce-fa70-4126-8185-f1a01f2b37bb.png",
-      "details_url": "https://playgoals.com/twitch-drops",
-      "game": "GOALS",
-      "game_slug": "goals",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/951160620_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 300,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Common+ Pack [1 Player]",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82a4b7fe-7458-4b59-b909-ebc30fc91521.png"
-        },
-        {
-          "name": "Uncommon+ Pack [1 Player]",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png"
-        }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "25291aed-82e2-4204-84b2-744228bc97ce",
@@ -2405,7 +2644,8 @@
           "name": "Radiant Wilds Chest",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "a17f0572-bb21-4778-b8ff-9e73bed27df3",
@@ -2426,7 +2666,8 @@
           "name": "2 Hour Reward",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f2cb7c7c-7ecd-423e-af93-0d2fc21fcd96.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "c8ca48a3-8269-4e33-80ef-61dbcbecc108",
@@ -2451,7 +2692,8 @@
           "name": "Random Charm",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/db2b74bc-3dd8-4dc9-a7d2-948939911455.jpeg"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "396e2b60-3175-4f4c-a2ff-3a890005e976",
@@ -2476,7 +2718,8 @@
           "name": "2 x XP Boosters ",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2d2ef39f-22b4-473a-977b-26d5c4e50d4f.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "4dd2170a-4601-4802-9306-ea354ccd4da1",
@@ -2497,7 +2740,8 @@
           "name": "Regalia of Awakening",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "63e0c877-017d-4101-819d-ca205951eb07",
@@ -2526,7 +2770,8 @@
           "name": "PMV",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d43ba6de-39c5-4bfb-a19d-4d7e10ae0c7c.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "09538e06-6481-4d6c-a0e5-e180645dede2",
@@ -2547,7 +2792,8 @@
           "name": "Twitch Reward Chest",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "7c0ae1d0-4684-4e4e-be32-ce3f04b0b13c",
@@ -2572,7 +2818,8 @@
           "name": "Uncommon+ Pack [1 Player]",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "4a47a3a3-4889-4ca7-9db1-426ca0d92367",
@@ -2593,7 +2840,8 @@
           "name": "Relink Fabicon badge",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b7f5b40a-ee44-44b9-a87a-c4f903ff52e6.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "b2b6e067-de4c-4828-bd6b-d93b3f499543",
@@ -2614,7 +2862,8 @@
           "name": "Jubilee Badge",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/591f101b-0872-48d0-bb2c-2cd2671b08c2.png"
         }
-      ]
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "ac1bf14d-b33d-427e-8e5a-bce9df10a5e7",
@@ -2635,7 +2884,53 @@
           "name": "Hotline Badge",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fd8bf18b-3105-4030-93c3-0aa7387dde35.png"
         }
+      ],
+      "src": "sunkwi"
+    }
+  ],
+  "badges": [
+    {
+      "title": "Final Fantasy XIV Fan Festival 2026 EU",
+      "start_at": "2026-07-24T00:00:00Z",
+      "end_at": "2026-07-26T23:59:00Z",
+      "note": null,
+      "images": [
+        "https://static-cdn.jtvnw.net/badges/v1/96e02b5f-f444-48ba-889f-591c7ad18e59/3",
+        "https://static-cdn.jtvnw.net/badges/v1/df82d637-1c58-4dd9-a439-b2518c5fbf5f/3"
       ]
+    },
+    {
+      "title": "Marvel Tōkon Open Beta",
+      "start_at": "2026-07-24T00:00:00Z",
+      "end_at": "2026-07-26T23:59:00Z",
+      "note": "The Spiderman badge will be available for subscribing or gifting a subscription.",
+      "images": []
+    },
+    {
+      "title": "La Velada VI",
+      "start_at": "2026-07-25T00:00:00Z",
+      "end_at": "2026-07-25T23:59:00Z",
+      "note": null,
+      "images": [
+        "https://static-cdn.jtvnw.net/badges/v1/e767e17a-252a-4047-9365-910f4f05a883/3"
+      ]
+    },
+    {
+      "title": "Final Fantasy XIV Fan Festival 2026 JP",
+      "start_at": "2026-10-30T00:00:00Z",
+      "end_at": "2026-11-01T23:59:00Z",
+      "note": null,
+      "images": [
+        "https://static-cdn.jtvnw.net/badges/v1/1826cb5f-32a9-409a-9829-f6f47ea68239/3",
+        "https://static-cdn.jtvnw.net/badges/v1/e7d696ad-4479-4e44-bceb-5643f80bef38/3"
+      ]
+    },
+    {
+      "title": "TwitchCon 2027 Berlin",
+      "start_at": "2027-05-22T00:00:00Z",
+      "end_at": "2027-05-23T23:59:00Z",
+      "note": "TwitchCon events have always come with their own badges. It’s expected to be the same case this year. Stay tuned!",
+      "images": []
     }
   ],
   "error": null,

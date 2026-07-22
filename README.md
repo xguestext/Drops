@@ -4,9 +4,10 @@ Site estático + grátis que lista as campanhas de **drops da Twitch** — **só
 qualquer streamer** (campanhas fechadas de canais específicos são descartadas e nem aparecem) —
 separando **item de jogo** de **badge/emote/plataforma**.
 
-- **Fonte:** uma API pública agregadora de drops ([sunkwi](https://twitch-drops-api.sunkwi.com/)),
-  que já faz o scraping da Twitch. Ou seja: **sem token, sem login, sem conta descartável, sem
-  anti-bot**. O checador não toca a Twitch — só consome JSON de terceiro.
+- **Fontes (todas de terceiros, sem token/login/anti-bot — o checador NUNCA toca a Twitch):**
+  - **drops de item:** [sunkwi](https://twitch-drops-api.sunkwi.com/) (ativos) + [fenris](https://twitch-drops.fenrisapps.com/campaigns) (em breve) + [twitchdrops.app](https://twitchdrops.app/) (preenche lacunas). Fundidas por id + chave difusa (jogo+dia).
+  - **badges chegando:** [streamdatabase.com/events](https://www.streamdatabase.com/events) (eventos de badge global — categoria à parte dos drops).
+  - Motivo de várias fontes: cada agregador espelha a GQL da Twitch mas **perde campanhas diferentes**; juntando, o site fica mais completo. Nenhuma fonte pública antecede a Twitch (a origem é a GQL dela).
 - **Checador** (`checker.py`): roda no **GitHub Actions** a cada 30 min, filtra e escreve `data/drops.json`.
 - **Site** (`index.html`): página única, sem build, lê o JSON e se atualiza sozinha a cada 5 min.
 - Hospedado no **GitHub Pages** → abre de qualquer PC.
