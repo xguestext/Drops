@@ -262,6 +262,8 @@ function render(){
       <b>Não consegui atualizar agora.</b> ${esc(d.error||"fonte de drops indisponível no momento")}
       ${d.raw_hint?`<span class="hint">${esc(d.raw_hint)}</span>`:""}
     </div>`;
+  } else if(d.warn){
+    banner.innerHTML = `<div class="banner"><b>Aviso:</b> ${esc(d.warn)}</div>`;
   }
 
   const all = camps.filter(passes);

@@ -1,18 +1,117 @@
 {
-  "updated_at": "2026-07-22T21:45:34Z",
+  "updated_at": "2026-07-22T22:01:18Z",
   "ok": true,
-  "source": "sunkwi",
-  "source_updated": "2026-07-22T21:45:02.082Z",
+  "source": "sunkwi+fenris",
+  "source_updated": "2026-07-22T22:01:01.597Z",
   "counts": {
-    "total": 80,
-    "upcoming": 0,
-    "active": 80,
-    "game_drops": 77,
+    "total": 85,
+    "upcoming": 4,
+    "active": 81,
+    "game_drops": 82,
     "platform": 3,
-    "fechadas_descartadas": 42,
-    "expiradas_descartadas": 0
+    "fechadas_descartadas": 43
   },
   "campaigns": [
+    {
+      "id": "9b2fb9cc-dcb8-4d67-b18a-cf2f43ceeb27",
+      "name": "Dichotomy Beta Test Drops",
+      "status": "UPCOMING",
+      "start_at": "2026-07-23T02:00:00.000Z",
+      "end_at": "2026-07-25T15:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Silver Palace",
+      "game_slug": "silver-palace",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1673502163_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 30,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Beta Test Raffle Ticket",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/44f62bae-4090-4a29-ba4b-28470a4fd799.png"
+        }
+      ]
+    },
+    {
+      "id": "bf45b48e-5d71-4f58-9848-985349dca004",
+      "name": "Radiant Wilds 15 - #4/7",
+      "status": "UPCOMING",
+      "start_at": "2026-07-23T10:00:00.000Z",
+      "end_at": "2026-07-24T09:29:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Albion Online",
+      "game_slug": "albion-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Radiant Wilds Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png"
+        }
+      ]
+    },
+    {
+      "id": "235403b7-fa15-40a5-bed1-64547ef361c8",
+      "name": "2026 BDO Drops (Jul 23)",
+      "status": "UPCOMING",
+      "start_at": "2026-07-23T12:00:00.000Z",
+      "end_at": "2026-07-24T11:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Black Desert",
+      "game_slug": "black-desert",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "2 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f2cb7c7c-7ecd-423e-af93-0d2fc21fcd96.png"
+        }
+      ]
+    },
+    {
+      "id": "23aa1ecb-698b-4a90-9946-26b44e63fda1",
+      "name": "Season 3 Summer Drops",
+      "status": "UPCOMING",
+      "start_at": "2026-07-23T12:30:00.000Z",
+      "end_at": "2026-08-19T12:29:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Blue Protocol: Star Resonance",
+      "game_slug": "star-resonance",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/266795834_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 300,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Rose Orb (Bound) *100",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/468c1ce5-b768-45fc-ad1c-1952720b4c44.png"
+        },
+        {
+          "name": "Starland Medal *500",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e29209b0-d16c-4305-8fc6-82e5899eb289.png"
+        },
+        {
+          "name": "Starland Medal *1000",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a8921287-0cde-4332-ab0a-6c515b521516.png"
+        },
+        {
+          "name": "Rose Orb (Bound) *200",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/96189751-d09c-4636-87c4-3706aef5b04e.png"
+        },
+        {
+          "name": "Exotic Stellar Marrow *1",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/acea0c2a-1ee4-4071-8f10-db5731e5228b.png"
+        }
+      ]
+    },
     {
       "id": "adbe5148-18d4-43df-a32a-507e5acbc01b",
       "name": "V8.9 Special Drops",
@@ -2451,6 +2550,31 @@
       ]
     },
     {
+      "id": "7c0ae1d0-4684-4e4e-be32-ce3f04b0b13c",
+      "name": "GOALS - 23nd of July",
+      "status": "ACTIVE",
+      "start_at": "2026-07-22T22:01:00Z",
+      "end_at": "2026-07-23T21:58:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/b7e3d17c-3ac4-4dea-8f71-89ff724e524c.png",
+      "details_url": "https://playgoals.com/twitch-drops",
+      "game": "GOALS",
+      "game_slug": "goals",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/951160620_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 300,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Common+ Pack [1 Player]",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82a4b7fe-7458-4b59-b909-ebc30fc91521.png"
+        },
+        {
+          "name": "Uncommon+ Pack [1 Player]",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png"
+        }
+      ]
+    },
+    {
       "id": "4a47a3a3-4889-4ca7-9db1-426ca0d92367",
       "name": "Relink Fabicon badge",
       "status": "ACTIVE",
@@ -2515,5 +2639,6 @@
     }
   ],
   "error": null,
+  "warn": null,
   "raw_hint": null
 }
