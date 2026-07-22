@@ -46,10 +46,12 @@
   .stat.game .v{color:var(--purple-lt)} .stat.plat .v{color:var(--faint)}
 
   .controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:18px 0 4px}
-  .chip{background:var(--panel);border:1px solid var(--line);color:var(--dim);
-    padding:7px 13px;border-radius:999px;font-size:13px;cursor:pointer;user-select:none;transition:.15s}
-  .chip:hover{color:var(--txt);border-color:#3a3a42}
-  .chip.on{background:rgba(145,71,255,.15);border-color:var(--purple);color:#fff}
+  .segbar{display:inline-flex;background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:3px}
+  .seg{background:transparent;border:none;color:var(--dim);padding:7px 15px;border-radius:999px;
+    font-size:13px;cursor:pointer;font-family:inherit;transition:.15s;white-space:nowrap}
+  .seg:hover{color:var(--txt)}
+  .seg.on{background:var(--purple);color:#fff;font-weight:600}
+  .seg.on.badges{background:var(--amber);color:#1a1205}
   .search{margin-left:auto}
   .search input{background:var(--panel);border:1px solid var(--line);color:var(--txt);
     padding:8px 13px;border-radius:999px;font-size:13px;width:200px;outline:none;font-family:inherit}
@@ -144,10 +146,13 @@
 
   <div class="stats" id="stats"></div>
 
-  <div class="controls" id="controls">
-    <span class="chip on" data-f="upcoming">Em breve</span>
-    <span class="chip on" data-f="active">Ativos</span>
-    <span class="chip" data-f="hideplat">Esconder badges</span>
+  <div class="controls">
+    <div class="segbar" id="seg">
+      <button class="seg on" data-v="tudo">Tudo</button>
+      <button class="seg" data-v="upcoming">Em breve</button>
+      <button class="seg" data-v="active">Ativos</button>
+      <button class="seg badges" data-v="badges">Badges</button>
+    </div>
     <span class="search"><input id="q" type="search" placeholder="buscar jogo…" aria-label="buscar jogo"></span>
   </div>
 
@@ -160,7 +165,7 @@
 
 <script>
 const H = 3600000, D = 86400000;
-const state = { data:null, preview:false, filters:{upcoming:true,active:true,hideplat:false}, q:"" };
+const state = { data:null, preview:false, view:"tudo", q:"" };
 
 // Só é usado quando o arquivo é aberto localmente (file://), pra você ver o layout.
 // Publicado no Pages, o fetch funciona e estes dados NUNCA aparecem.
@@ -243,10 +248,9 @@ function badgeCard(b){
 }
 
 function passes(c){
-  const f=state.filters;
-  if(c.status==="UPCOMING"&&!f.upcoming) return false;
-  if(c.status==="ACTIVE"&&!f.active) return false;
-  if(f.hideplat&&c.reward_type==="platform") return false;
+  if(state.view==="badges") return false;
+  if(state.view==="upcoming" && c.status!=="UPCOMING") return false;
+  if(state.view==="active" && c.status!=="ACTIVE") return false;
   if(state.q && !(((c.game||"")+" "+(c.name||"")).toLowerCase().includes(state.q))) return false;
   return true;
 }
@@ -297,14 +301,15 @@ function render(){
   const all = camps.filter(passes);
   const up = all.filter(c=>c.status==="UPCOMING"), live = all.filter(c=>c.status==="ACTIVE");
   let html = section("up","Em breve",up) + section("live","Ativos agora",live);
-  if(!html) html = `<div class="empty">${d.ok?"Nada por aqui com os filtros atuais.":"Sem campanhas ainda."}</div>`;
+  if(!html && state.view!=="badges") html = `<div class="empty">${d.ok?"Nada por aqui.":"Sem campanhas ainda."}</div>`;
   document.getElementById("content").innerHTML = html;
 
-  const badges = (d.badges||[]).filter(b => !state.q || (b.title||"").toLowerCase().includes(state.q));
+  const showBadges = state.view==="tudo" || state.view==="badges";
+  const badges = showBadges ? (d.badges||[]).filter(b => !state.q || (b.title||"").toLowerCase().includes(state.q)) : [];
   document.getElementById("badges").innerHTML = badges.length
     ? `<div class="section-h"><span class="sdot" style="background:var(--amber)"></span><h2>Badges chegando</h2><span class="n">${badges.length}</span><span class="rule"></span></div>
        <div class="bgrid">${badges.map(badgeCard).join("")}</div>`
-    : "";
+    : (state.view==="badges" ? `<div class="empty">Nenhuma badge chegando no momento.</div>` : "");
 }
 
 async function load(){
@@ -320,10 +325,11 @@ async function load(){
   render();
 }
 
-document.getElementById("controls").addEventListener("click", e=>{
-  const chip=e.target.closest(".chip"); if(!chip) return;
-  const f=chip.dataset.f; state.filters[f]=!state.filters[f];
-  chip.classList.toggle("on",state.filters[f]); render();
+document.getElementById("seg").addEventListener("click", e=>{
+  const b=e.target.closest(".seg"); if(!b) return;
+  state.view=b.dataset.v;
+  document.querySelectorAll("#seg .seg").forEach(x=>x.classList.toggle("on", x===b));
+  render();
 });
 document.getElementById("q").addEventListener("input", e=>{ state.q=e.target.value.trim().toLowerCase(); render(); });
 document.getElementById("refresh").addEventListener("click", load);
