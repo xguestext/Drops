@@ -2,3 +2,7 @@ __pycache__/
 *.pyc
 .DS_Store
 .venv/
+
+# vigia local (config tem webhook do Discord = SEGREDO; estado e' pessoal)
+alerta_config.json
+alerta_estado.json

@@ -282,19 +282,16 @@ def write(result):
         result["ok"], result.get("counts"), result.get("warn"), result.get("error")))
 
 
-def main():
-    result = {
-        "updated_at": now_iso(), "ok": False, "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-        "source_updated": None, "counts": {}, "campaigns": [], "badges": [],
-        "error": None, "warn": None, "raw_hint": None,
-    }
+def coletar(incluir_badges=True):
+    """Junta as fontes e devolve {camps, badges, fechadas, erros, source_updated}.
+    Usado pelo main() (site) e pelo alerta_drops.py (vigia local)."""
     agora = now_utc().strftime("%Y-%m-%dT%H:%M:%S.999Z")
     camps, fechadas_ids, erros = [], set(), []
+    badges, src_upd = [], None
 
     # 1) sunkwi (ativos, com aberto/fechado)
     try:
         camps, fechadas_ids, src_upd = carrega_sunkwi()
-        result["source_updated"] = src_upd
     except Exception as e:
         erros.append("sunkwi: %s" % type(e).__name__)
 
@@ -318,29 +315,21 @@ def main():
 
     # 3) twitchdrops.app (preenche o que 1 e 2 perdem)
     try:
-        add = 0
         for c in carrega_twitchdrops(agora):
             k = fuzzy_key(c)
             if k in keys_ja:
                 continue
             camps.append(c)
             keys_ja.add(k)
-            add += 1
     except Exception as e:
         erros.append("twitchdrops: %s" % type(e).__name__)
 
     # 4) badges chegando
-    try:
-        result["badges"] = carrega_badges(agora)
-    except Exception as e:
-        erros.append("streamdatabase(badges): %s" % type(e).__name__)
-
-    if camps:
-        result["ok"] = True
-        if erros:
-            result["warn"] = "Fonte parcial fora do ar: " + "; ".join(erros)
-    else:
-        result["error"] = "Nenhuma fonte de drops respondeu (%s)." % ("; ".join(erros) or "?")
+    if incluir_badges:
+        try:
+            badges = carrega_badges(agora)
+        except Exception as e:
+            erros.append("streamdatabase(badges): %s" % type(e).__name__)
 
     order_status = {"UPCOMING": 0, "ACTIVE": 1}
     camps.sort(key=lambda c: (
@@ -348,6 +337,27 @@ def main():
         0 if c["reward_type"] == "game" else 1,
         c.get("start_at") or "",
     ))
+    return {"camps": camps, "badges": badges, "fechadas": fechadas_ids,
+            "erros": erros, "source_updated": src_upd}
+
+
+def main():
+    result = {
+        "updated_at": now_iso(), "ok": False, "source": "sunkwi+fenris+twitchdrops+streamdatabase",
+        "source_updated": None, "counts": {}, "campaigns": [], "badges": [],
+        "error": None, "warn": None, "raw_hint": None,
+    }
+    col = coletar()
+    camps, fechadas_ids, erros = col["camps"], col["fechadas"], col["erros"]
+    result["source_updated"] = col["source_updated"]
+    result["badges"] = col["badges"]
+
+    if camps:
+        result["ok"] = True
+        if erros:
+            result["warn"] = "Fonte parcial fora do ar: " + "; ".join(erros)
+    else:
+        result["error"] = "Nenhuma fonte de drops respondeu (%s)." % ("; ".join(erros) or "?")
 
     result["campaigns"] = camps
     result["counts"] = {
