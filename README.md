@@ -1,8 +1,8 @@
 # Drops Radar
 
-Site estático + grátis que lista as campanhas de **drops da Twitch**, priorizando as
-**abertas a qualquer streamer** (não os drops fechados de canais específicos) e separando
-**item de jogo** de **badge/emote/plataforma**.
+Site estático + grátis que lista as campanhas de **drops da Twitch** — **só as abertas a
+qualquer streamer** (campanhas fechadas de canais específicos são descartadas pelo checador
+e nem aparecem) — separando **item de jogo** de **badge/emote/plataforma**.
 
 - **Checador** (`checker.py`): roda no **GitHub Actions** (nunca na sua máquina), busca os
   drops via GQL e escreve `data/drops.json`.
@@ -41,8 +41,8 @@ Site estático + grátis que lista as campanhas de **drops da Twitch**, prioriza
 
 | Eixo | Valor | Como é detectado |
 |------|-------|------------------|
-| Disponibilidade | **Aberto** (todos os canais) | `allow.channels` vazio → prioridade |
-| | **Fechado** (canais específicos) | `allow.channels` tem lista |
+| Disponibilidade | **Aberto** (todos os canais) | `allow.channels` vazio → é o que o site mostra |
+| | **Fechado** (canais específicos) | `allow.channels` tem lista → **descartado, nem entra no site** |
 | Recompensa | **Item de jogo** | recompensas não batem nas pistas de plataforma |
 | | **Badge/plataforma** | nome bate em badge/emote/sub/bits/etc |
 

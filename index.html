@@ -43,7 +43,7 @@
   .stat .v{font-size:25px;font-weight:700;font-variant-numeric:tabular-nums;line-height:1}
   .stat .l{font-size:11px;font-weight:600;letter-spacing:.5px;text-transform:uppercase;color:var(--faint);margin-top:6px}
   .stat.up .v{color:var(--blue)} .stat.live .v{color:var(--green)}
-  .stat.open .v{color:var(--purple-lt)} .stat.lock .v{color:var(--amber)}
+  .stat.game .v{color:var(--purple-lt)} .stat.plat .v{color:var(--faint)}
 
   .controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:18px 0 4px}
   .chip{background:var(--panel);border:1px solid var(--line);color:var(--dim);
@@ -77,7 +77,6 @@
   .card.up{--stripe:var(--blue)} .card.live{--stripe:var(--green)}
   .card.up,.card.live{border-left-color:var(--stripe)}
   .card:hover.up,.card:hover.live{border-left-color:var(--stripe)}
-  .card.restricted{opacity:.82}
   .top{display:flex;gap:12px}
   .box{width:50px;height:68px;border-radius:7px;flex:none;position:relative;overflow:hidden;
     background:linear-gradient(135deg,#26262e,#1a1a20)}
@@ -95,8 +94,6 @@
   .pill .pd{width:6px;height:6px;border-radius:50%}
   .p-up{background:rgba(62,166,255,.14);color:var(--blue)} .p-up .pd{background:var(--blue)}
   .p-live{background:rgba(46,193,106,.13);color:var(--green)} .p-live .pd{background:var(--green)}
-  .p-open{background:rgba(46,193,106,.12);color:var(--green)} .p-open .pd{background:var(--green)}
-  .p-lock{background:rgba(240,168,60,.13);color:var(--amber)} .p-lock .pd{background:var(--amber)}
   .p-game{background:rgba(145,71,255,.14);color:var(--purple-lt)} .p-game .pd{background:var(--purple)}
   .p-plat{background:#232329;color:var(--faint)} .p-plat .pd{background:var(--faint)}
 
@@ -114,7 +111,6 @@
   .more{font-size:12px;color:var(--faint);align-self:center}
 
   .foot{display:flex;align-items:center;margin-top:auto;padding-top:3px}
-  .chans{font-size:12px;color:var(--faint);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:58%}
   .link{margin-left:auto;font-size:12.5px;color:var(--blue);text-decoration:none;font-weight:500}
   .link:hover{text-decoration:underline}
 
@@ -132,7 +128,7 @@
       <span class="dot"></span>
       <div>
         <h1>Drops Radar</h1>
-        <div class="sub">campanhas de drops da Twitch — abertas a todos os streamers primeiro</div>
+        <div class="sub">drops da Twitch — só campanhas abertas a qualquer streamer</div>
       </div>
     </div>
     <div class="spacer"></div>
@@ -145,8 +141,6 @@
   <div class="controls" id="controls">
     <span class="chip on" data-f="upcoming">Em breve</span>
     <span class="chip on" data-f="active">Ativos</span>
-    <span class="chip on" data-f="open">Abertos</span>
-    <span class="chip on" data-f="restricted">Fechados</span>
     <span class="chip" data-f="hideplat">Esconder badges</span>
     <span class="search"><input id="q" type="search" placeholder="buscar jogo…" aria-label="buscar jogo"></span>
   </div>
@@ -159,15 +153,14 @@
 
 <script>
 const H = 3600000, D = 86400000;
-const state = { data:null, preview:false, filters:{upcoming:true,active:true,open:true,restricted:true,hideplat:false}, q:"" };
+const state = { data:null, preview:false, filters:{upcoming:true,active:true,hideplat:false}, q:"" };
 
 // Só é usado quando o arquivo é aberto localmente (file://), pra você ver o layout.
 // Publicado no Pages, o fetch funciona e estes dados NUNCA aparecem.
 const SAMPLE = { updated_at:new Date(Date.now()-4*60000).toISOString(), ok:true, campaigns:[
   {name:"Rust Twitch Drops — Round 32", game:"Rust", status:"UPCOMING", start_at:new Date(Date.now()+3*D).toISOString(), end_at:new Date(Date.now()+8*D).toISOString(), availability:"open", channels:[], reward_type:"game", rewards:[{name:"Frontier Hoodie"},{name:"Frontier Pants"},{name:"Frontier Boots"},{name:"Frontier Gloves"}]},
   {name:"Once Human — Lançamento", game:"Once Human", status:"UPCOMING", start_at:new Date(Date.now()+5*D).toISOString(), end_at:null, availability:"open", channels:[], reward_type:"game", rewards:[{name:"Deviant Skin"},{name:"Backpack"},{name:"Emote Pack"}]},
-  {name:"Apex Legends — Split Event", game:"Apex Legends", status:"UPCOMING", start_at:new Date(Date.now()+18*H).toISOString(), end_at:null, availability:"restricted", channels:["ImperialHal","NiceWigg","Aceu"], reward_type:"game", rewards:[{name:"Weapon Charm"}]},
-  {name:"ESL Emote Drop", game:"Counter-Strike 2", status:"UPCOMING", start_at:new Date(Date.now()+1*D).toISOString(), end_at:null, availability:"restricted", channels:["ESL_CSGO","BLASTPremier"], reward_type:"platform", rewards:[{name:"Sub Emote"}]},
+  {name:"TwitchCon Viewer Badge", game:"Just Chatting", status:"UPCOMING", start_at:new Date(Date.now()+2*D).toISOString(), end_at:null, availability:"open", channels:[], reward_type:"platform", rewards:[{name:"TwitchCon Badge"}]},
   {name:"VALORANT Champions Drops", game:"VALORANT", status:"ACTIVE", start_at:null, end_at:new Date(Date.now()+2*D).toISOString(), availability:"open", channels:[], reward_type:"game", rewards:[{name:"Champions Card"},{name:"Player Card"}]},
   {name:"Marvel Rivals — Season 2", game:"Marvel Rivals", status:"ACTIVE", start_at:null, end_at:new Date(Date.now()+4*D).toISOString(), availability:"open", channels:[], reward_type:"game", rewards:[{name:"Costume"},{name:"Spray"}]},
   {name:"Dead by Daylight Drops", game:"Dead by Daylight", status:"ACTIVE", start_at:null, end_at:new Date(Date.now()+6*D).toISOString(), availability:"open", channels:[], reward_type:"game", rewards:[{name:"Charm"},{name:"Cosmetic"},{name:"Bloodpoints"}]},
@@ -201,10 +194,7 @@ function card(c){
   }).join("");
   const more = (c.rewards||[]).length>3 ? `<span class="more">+${c.rewards.length-3}</span>` : "";
 
-  const chans = c.availability==="restricted"
-    ? `<div class="chans">${esc((c.channels||[]).slice(0,3).join(", "))}${(c.channels||[]).length>3?" …":""}</div>` : "";
-
-  return `<div class="card ${up?"up":"live"} ${c.availability}">
+  return `<div class="card ${up?"up":"live"}">
     <div class="top">
       ${boxHtml}
       <div class="ttl">
@@ -214,12 +204,11 @@ function card(c){
     </div>
     <div class="pills">
       <span class="pill ${up?"p-up":"p-live"}"><span class="pd"></span>${up?"Em breve":"Ativo"}</span>
-      <span class="pill ${c.availability==="open"?"p-open":"p-lock"}"><span class="pd"></span>${c.availability==="open"?"Todos os canais":"Canais específicos"}</span>
       <span class="pill ${c.reward_type==="game"?"p-game":"p-plat"}"><span class="pd"></span>${c.reward_type==="game"?"Item de jogo":"Badge / plataforma"}</span>
     </div>
     ${when}
     <div class="rewards">${rw}${more}</div>
-    <div class="foot">${chans}${c.details_url?`<a class="link" href="${esc(c.details_url)}" target="_blank" rel="noopener">ver detalhes ↗</a>`:""}</div>
+    <div class="foot">${c.details_url?`<a class="link" href="${esc(c.details_url)}" target="_blank" rel="noopener">ver detalhes ↗</a>`:""}</div>
   </div>`;
 }
 
@@ -227,8 +216,6 @@ function passes(c){
   const f=state.filters;
   if(c.status==="UPCOMING"&&!f.upcoming) return false;
   if(c.status==="ACTIVE"&&!f.active) return false;
-  if(c.availability==="open"&&!f.open) return false;
-  if(c.availability==="restricted"&&!f.restricted) return false;
   if(f.hideplat&&c.reward_type==="platform") return false;
   if(state.q && !(((c.game||"")+" "+(c.name||"")).toLowerCase().includes(state.q))) return false;
   return true;
@@ -242,10 +229,10 @@ function section(cls,title,list){
 
 function renderStats(camps){
   const tiles = [
-    ["up",   camps.filter(c=>c.status==="UPCOMING").length,        "Em breve"],
-    ["live", camps.filter(c=>c.status==="ACTIVE").length,          "Ativos"],
-    ["open", camps.filter(c=>c.availability==="open").length,      "Abertos a todos"],
-    ["lock", camps.filter(c=>c.availability==="restricted").length,"Canais específicos"],
+    ["up",   camps.filter(c=>c.status==="UPCOMING").length,      "Em breve"],
+    ["live", camps.filter(c=>c.status==="ACTIVE").length,        "Ativos"],
+    ["game", camps.filter(c=>c.reward_type==="game").length,     "Itens de jogo"],
+    ["plat", camps.filter(c=>c.reward_type==="platform").length, "Badges"],
   ];
   document.getElementById("stats").innerHTML = tiles
     .map(([k,v,l])=>`<div class="stat ${k}"><div class="v">${v}</div><div class="l">${l}</div></div>`).join("");

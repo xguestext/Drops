@@ -6,11 +6,11 @@ Twitch Drops Radar - checador.
 Roda no GitHub Actions (NUNCA na maquina do dono, pra nao vazar IP real pra Twitch).
 Busca as campanhas de drops via GQL, categoriza e escreve data/drops.json.
 
-Dois eixos de categoria:
-  availability: "open"       -> vale em QUALQUER canal do jogo (liberado pra todos os streamers) [PRIORIDADE]
-                "restricted" -> so em canais especificos (fechado)
-  reward_type:  "game"       -> item de jogo (drop "de verdade")
-                "platform"   -> badge/emote/coisa da Twitch (ruido)
+Regras:
+  - Campanha FECHADA (allow.channels com lista = so canais especificos) e DESCARTADA aqui:
+    o dono do site so quer as abertas a qualquer streamer (allow.channels vazio).
+  - reward_type: "game"     -> item de jogo (drop "de verdade")
+                 "platform" -> badge/emote/coisa da Twitch (ruido, filtravel no site)
 
 So usa a biblioteca padrao (urllib) -> sem 'pip install', sem dependencia.
 """
@@ -152,13 +152,15 @@ def main():
             write(result)
             return
 
-        camps = [normalize(c) for c in (user.get("dropCampaigns") or []) if c]
+        todas = [normalize(c) for c in (user.get("dropCampaigns") or []) if c]
 
-        # Ordena: EM BREVE antes de ATIVO; aberto antes de fechado; item de jogo antes de badge; data.
+        # Fechadas (so canais especificos) ficam DE FORA do site.
+        camps = [c for c in todas if c["availability"] == "open"]
+
+        # Ordena: EM BREVE antes de ATIVO; item de jogo antes de badge; data.
         order_status = {"UPCOMING": 0, "ACTIVE": 1}
         camps.sort(key=lambda c: (
             order_status.get(c["status"], 2),
-            0 if c["availability"] == "open" else 1,
             0 if c["reward_type"] == "game" else 1,
             c.get("start_at") or "",
         ))
@@ -168,10 +170,9 @@ def main():
             "total": len(camps),
             "upcoming": sum(1 for c in camps if c["status"] == "UPCOMING"),
             "active": sum(1 for c in camps if c["status"] == "ACTIVE"),
-            "open": sum(1 for c in camps if c["availability"] == "open"),
-            "restricted": sum(1 for c in camps if c["availability"] == "restricted"),
             "game_drops": sum(1 for c in camps if c["reward_type"] == "game"),
             "platform": sum(1 for c in camps if c["reward_type"] == "platform"),
+            "fechadas_descartadas": len(todas) - len(camps),
         }
         result["ok"] = True
 
