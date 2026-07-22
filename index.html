@@ -180,9 +180,11 @@ function rel(ts){
 function card(c){
   const up = c.status==="UPCOMING";
   const r = rel(up ? c.start_at : c.end_at);
+  const mins = c.required_minutes ? ` · ${c.required_minutes} min` : "";
   const when = r ? (up
-      ? `<div class="when">começa em <b>${r.text}</b> · ${r.date}</div>`
-      : `<div class="when">termina em <b>${r.text}</b> · ${r.date}</div>`) : "";
+      ? `<div class="when">começa em <b>${r.text}</b> · ${r.date}${mins}</div>`
+      : `<div class="when">termina em <b>${r.text}</b> · ${r.date}${mins}</div>`)
+    : (mins ? `<div class="when">assistir${mins}</div>` : "");
 
   const box = tmpl(c.game_box,72,96) || tmpl(c.image,72,96);
   const initial = ((c.game||"?").trim().charAt(0) || "?").toUpperCase();
@@ -256,9 +258,8 @@ function render(){
   renderStats(camps);
 
   if(!d.ok){
-    const needsToken = (d.error||"").includes("TWITCH_OAUTH") || (d.error||"").includes("currentUser");
-    banner.innerHTML = `<div class="banner ${needsToken?"":"err"}">
-      <b>${needsToken?"Falta configurar o acesso.":"Não consegui atualizar."}</b> ${esc(d.error||"erro desconhecido")}
+    banner.innerHTML = `<div class="banner err">
+      <b>Não consegui atualizar agora.</b> ${esc(d.error||"fonte de drops indisponível no momento")}
       ${d.raw_hint?`<span class="hint">${esc(d.raw_hint)}</span>`:""}
     </div>`;
   }

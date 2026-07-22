@@ -23,8 +23,6 @@ jobs:
           python-version: "3.12"
 
       - name: Buscar drops
-        env:
-          TWITCH_OAUTH: ${{ secrets.TWITCH_OAUTH }}
         run: python checker.py
 
       - name: Commitar dados
