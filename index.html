@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Drops Radar</title>
+<style>
+  /* Commit deliberado ao tema escuro: é a linguagem visual nativa da Twitch, onde os drops vivem. */
+  :root{
+    --bg:#0d0d10; --panel:#17171b; --panel2:#1e1e24; --line:#2a2a32;
+    --txt:#efeff1; --dim:#b0b0bb; --faint:#787885;
+    --purple:#9147ff; --purple-lt:#c9a6ff;
+    --blue:#3ea6ff; --green:#2ec16a; --amber:#f0a83c; --red:#ff5c5c;
+    --radius:14px;
+    --font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  html,body{background:var(--bg);margin:0}
+  *{box-sizing:border-box}
+  body{color:var(--txt);font-family:var(--font);line-height:1.45;-webkit-font-smoothing:antialiased}
+  a{color:inherit}
+  ::selection{background:rgba(145,71,255,.35)}
+  :focus-visible{outline:2px solid var(--purple);outline-offset:2px;border-radius:6px}
+  .wrap{max-width:1180px;margin:0 auto;padding:24px 20px 72px}
+  .preview-tag{display:inline-block;font-size:11px;font-weight:600;letter-spacing:.4px;color:var(--purple-lt);
+    background:rgba(145,71,255,.12);border:1px solid rgba(145,71,255,.3);padding:4px 10px;border-radius:999px;margin-bottom:14px}
+
+  header{display:flex;flex-wrap:wrap;align-items:center;gap:14px}
+  .logo{display:flex;align-items:center;gap:11px}
+  .logo .dot{width:11px;height:11px;border-radius:50%;background:var(--purple);
+    box-shadow:0 0 0 4px rgba(145,71,255,.16);animation:pulse 2.4s infinite}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.45}}
+  h1{font-size:20px;font-weight:700;margin:0;letter-spacing:.2px}
+  .sub{color:var(--faint);font-size:12.5px;margin-top:1px}
+  .spacer{flex:1}
+  .updated{font-size:12.5px;color:var(--dim);text-align:right;font-variant-numeric:tabular-nums}
+  .updated b{color:var(--txt);font-weight:600}
+  .btn{background:var(--panel2);border:1px solid var(--line);color:var(--dim);
+    padding:7px 12px;border-radius:9px;font-size:13px;cursor:pointer;transition:.15s;font-family:inherit}
+  .btn:hover{color:var(--txt);border-color:#3a3a42}
+
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:20px 0 6px}
+  .stat{background:var(--panel);border:1px solid var(--line);border-radius:11px;padding:12px 14px}
+  .stat .v{font-size:25px;font-weight:700;font-variant-numeric:tabular-nums;line-height:1}
+  .stat .l{font-size:11px;font-weight:600;letter-spacing:.5px;text-transform:uppercase;color:var(--faint);margin-top:6px}
+  .stat.up .v{color:var(--blue)} .stat.live .v{color:var(--green)}
+  .stat.open .v{color:var(--purple-lt)} .stat.lock .v{color:var(--amber)}
+
+  .controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:18px 0 4px}
+  .chip{background:var(--panel);border:1px solid var(--line);color:var(--dim);
+    padding:7px 13px;border-radius:999px;font-size:13px;cursor:pointer;user-select:none;transition:.15s}
+  .chip:hover{color:var(--txt);border-color:#3a3a42}
+  .chip.on{background:rgba(145,71,255,.15);border-color:var(--purple);color:#fff}
+  .search{margin-left:auto}
+  .search input{background:var(--panel);border:1px solid var(--line);color:var(--txt);
+    padding:8px 13px;border-radius:999px;font-size:13px;width:200px;outline:none;font-family:inherit}
+  .search input:focus{border-color:var(--purple)}
+
+  .banner{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--amber);
+    padding:14px 16px;border-radius:10px;margin:18px 0 4px;font-size:13.5px;color:var(--dim)}
+  .banner b{color:var(--txt)}
+  .banner code{background:#000;padding:1px 6px;border-radius:5px;color:#e6d3ff;font-size:12px}
+  .banner .hint{color:var(--faint);font-size:12px;display:block;margin-top:6px;word-break:break-word}
+  .banner.err{border-left-color:var(--red)}
+
+  .section-h{display:flex;align-items:center;gap:9px;margin:28px 0 12px}
+  .section-h .sdot{width:8px;height:8px;border-radius:50%}
+  .section-h.up .sdot{background:var(--blue)} .section-h.live .sdot{background:var(--green)}
+  .section-h h2{font-size:14px;font-weight:700;margin:0;letter-spacing:.2px}
+  .section-h .n{color:var(--faint);font-size:13px;font-variant-numeric:tabular-nums}
+  .rule{flex:1;height:1px;background:var(--line)}
+
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(322px,1fr));gap:14px}
+
+  .card{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--line);
+    border-radius:var(--radius);padding:15px 15px 14px;display:flex;flex-direction:column;gap:11px;transition:.15s}
+  .card:hover{border-color:#3a3a42;transform:translateY(-1px)}
+  .card.up{--stripe:var(--blue)} .card.live{--stripe:var(--green)}
+  .card.up,.card.live{border-left-color:var(--stripe)}
+  .card:hover.up,.card:hover.live{border-left-color:var(--stripe)}
+  .card.restricted{opacity:.82}
+  .top{display:flex;gap:12px}
+  .box{width:50px;height:68px;border-radius:7px;flex:none;position:relative;overflow:hidden;
+    background:linear-gradient(135deg,#26262e,#1a1a20)}
+  .box .bi{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+    color:var(--faint);font-size:19px;font-weight:700}
+  .box img{position:relative;z-index:1;width:100%;height:100%;object-fit:cover;display:block}
+  .ttl{min-width:0}
+  .ttl .game{font-size:11px;color:var(--purple-lt);font-weight:600;text-transform:uppercase;letter-spacing:.5px;
+    white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .ttl .name{font-size:14.5px;font-weight:600;margin-top:3px;line-height:1.3}
+
+  .pills{display:flex;flex-wrap:wrap;gap:6px}
+  .pill{font-size:11.5px;padding:3px 9px;border-radius:999px;font-weight:600;
+    display:inline-flex;gap:6px;align-items:center;white-space:nowrap}
+  .pill .pd{width:6px;height:6px;border-radius:50%}
+  .p-up{background:rgba(62,166,255,.14);color:var(--blue)} .p-up .pd{background:var(--blue)}
+  .p-live{background:rgba(46,193,106,.13);color:var(--green)} .p-live .pd{background:var(--green)}
+  .p-open{background:rgba(46,193,106,.12);color:var(--green)} .p-open .pd{background:var(--green)}
+  .p-lock{background:rgba(240,168,60,.13);color:var(--amber)} .p-lock .pd{background:var(--amber)}
+  .p-game{background:rgba(145,71,255,.14);color:var(--purple-lt)} .p-game .pd{background:var(--purple)}
+  .p-plat{background:#232329;color:var(--faint)} .p-plat .pd{background:var(--faint)}
+
+  .when{font-size:13px;color:var(--dim);font-variant-numeric:tabular-nums}
+  .when b{color:var(--txt);font-weight:600}
+
+  .rewards{display:flex;flex-wrap:wrap;gap:7px}
+  .rw{display:flex;align-items:center;gap:6px;background:var(--panel2);border:1px solid var(--line);
+    padding:4px 10px;border-radius:8px;font-size:12px;color:var(--dim);max-width:100%}
+  .rw::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--purple);opacity:.6;flex:none}
+  .rw.has-img{padding-left:4px}
+  .rw.has-img::before{display:none}
+  .rw img{width:20px;height:20px;border-radius:4px;object-fit:cover;flex:none;background:#000}
+  .rw span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:150px}
+  .more{font-size:12px;color:var(--faint);align-self:center}
+
+  .foot{display:flex;align-items:center;margin-top:auto;padding-top:3px}
+  .chans{font-size:12px;color:var(--faint);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:58%}
+  .link{margin-left:auto;font-size:12.5px;color:var(--blue);text-decoration:none;font-weight:500}
+  .link:hover{text-decoration:underline}
+
+  .empty{color:var(--faint);font-size:14px;padding:36px 0;text-align:center}
+  footer{margin-top:40px;color:var(--faint);font-size:12px;text-align:center}
+  @media (max-width:560px){ .stats{grid-template-columns:repeat(2,1fr)} .search{margin-left:0;width:100%} .search input{width:100%} }
+  @media (prefers-reduced-motion:reduce){ .logo .dot{animation:none} .card:hover{transform:none} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div id="pvtag"></div>
+  <header>
+    <div class="logo">
+      <span class="dot"></span>
+      <div>
+        <h1>Drops Radar</h1>
+        <div class="sub">campanhas de drops da Twitch — abertas a todos os streamers primeiro</div>
+      </div>
+    </div>
+    <div class="spacer"></div>
+    <div class="updated" id="updated">carregando…</div>
+    <button class="btn" id="refresh">Atualizar</button>
+  </header>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="controls" id="controls">
+    <span class="chip on" data-f="upcoming">Em breve</span>
+    <span class="chip on" data-f="active">Ativos</span>
+    <span class="chip on" data-f="open">Abertos</span>
+    <span class="chip on" data-f="restricted">Fechados</span>
+    <span class="chip" data-f="hideplat">Esconder badges</span>
+    <span class="search"><input id="q" type="search" placeholder="buscar jogo…" aria-label="buscar jogo"></span>
+  </div>
+
+  <div id="banner"></div>
+  <div id="content"></div>
+
+  <footer>atualiza sozinho a cada 5 min · dados via GitHub Actions</footer>
+</div>
+
+<script>
+const H = 3600000, D = 86400000;
+const state = { data:null, preview:false, filters:{upcoming:true,active:true,open:true,restricted:true,hideplat:false}, q:"" };
+
+// Só é usado quando o arquivo é aberto localmente (file://), pra você ver o layout.
+// Publicado no Pages, o fetch funciona e estes dados NUNCA aparecem.
+const SAMPLE = { updated_at:new Date(Date.now()-4*60000).toISOString(), ok:true, campaigns:[
+  {name:"Rust Twitch Drops — Round 32", game:"Rust", status:"UPCOMING", start_at:new Date(Date.now()+3*D).toISOString(), end_at:new Date(Date.now()+8*D).toISOString(), availability:"open", channels:[], reward_type:"game", rewards:[{name:"Frontier Hoodie"},{name:"Frontier Pants"},{name:"Frontier Boots"},{name:"Frontier Gloves"}]},
+  {name:"Once Human — Lançamento", game:"Once Human", status:"UPCOMING", start_at:new Date(Date.now()+5*D).toISOString(), end_at:null, availability:"open", channels:[], reward_type:"game", rewards:[{name:"Deviant Skin"},{name:"Backpack"},{name:"Emote Pack"}]},
+  {name:"Apex Legends — Split Event", game:"Apex Legends", status:"UPCOMING", start_at:new Date(Date.now()+18*H).toISOString(), end_at:null, availability:"restricted", channels:["ImperialHal","NiceWigg","Aceu"], reward_type:"game", rewards:[{name:"Weapon Charm"}]},
+  {name:"ESL Emote Drop", game:"Counter-Strike 2", status:"UPCOMING", start_at:new Date(Date.now()+1*D).toISOString(), end_at:null, availability:"restricted", channels:["ESL_CSGO","BLASTPremier"], reward_type:"platform", rewards:[{name:"Sub Emote"}]},
+  {name:"VALORANT Champions Drops", game:"VALORANT", status:"ACTIVE", start_at:null, end_at:new Date(Date.now()+2*D).toISOString(), availability:"open", channels:[], reward_type:"game", rewards:[{name:"Champions Card"},{name:"Player Card"}]},
+  {name:"Marvel Rivals — Season 2", game:"Marvel Rivals", status:"ACTIVE", start_at:null, end_at:new Date(Date.now()+4*D).toISOString(), availability:"open", channels:[], reward_type:"game", rewards:[{name:"Costume"},{name:"Spray"}]},
+  {name:"Dead by Daylight Drops", game:"Dead by Daylight", status:"ACTIVE", start_at:null, end_at:new Date(Date.now()+6*D).toISOString(), availability:"open", channels:[], reward_type:"game", rewards:[{name:"Charm"},{name:"Cosmetic"},{name:"Bloodpoints"}]},
+  {name:"Community Sub Badge", game:"Just Chatting", status:"ACTIVE", start_at:null, end_at:new Date(Date.now()+12*H).toISOString(), availability:"open", channels:[], reward_type:"platform", rewards:[{name:"Sub Badge"}]}
+]};
+
+const esc = s => (s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const tmpl = (url,w,h) => url ? url.replace("{width}",w).replace("{height}",h) : "";
+
+function rel(ts){
+  if(!ts) return null;
+  const d=new Date(ts), diff=d-new Date(), a=Math.abs(diff);
+  let t = a<H ? Math.round(a/60000)+" min" : a<D ? Math.round(a/H)+" h" : Math.round(a/D)+" dia"+(Math.round(a/D)>1?"s":"");
+  return { future:diff>0, text:t, date:d.toLocaleDateString("pt-BR",{day:"2-digit",month:"2-digit"}) };
+}
+
+function card(c){
+  const up = c.status==="UPCOMING";
+  const r = rel(up ? c.start_at : c.end_at);
+  const when = r ? (up
+      ? `<div class="when">começa em <b>${r.text}</b> · ${r.date}</div>`
+      : `<div class="when">termina em <b>${r.text}</b> · ${r.date}</div>`) : "";
+
+  const box = tmpl(c.game_box,72,96) || tmpl(c.image,72,96);
+  const initial = ((c.game||"?").trim().charAt(0) || "?").toUpperCase();
+  const boxHtml = `<div class="box"><span class="bi">${esc(initial)}</span>${box?`<img src="${esc(box)}" loading="lazy" onerror="this.remove()">`:""}</div>`;
+
+  const rw = (c.rewards||[]).slice(0,3).map(x=>{
+    const img = tmpl(x.image,44,44);
+    return `<span class="rw${img?" has-img":""}">${img?`<img src="${esc(img)}" loading="lazy" onerror="this.remove()">`:""}<span>${esc(x.name)}</span></span>`;
+  }).join("");
+  const more = (c.rewards||[]).length>3 ? `<span class="more">+${c.rewards.length-3}</span>` : "";
+
+  const chans = c.availability==="restricted"
+    ? `<div class="chans">${esc((c.channels||[]).slice(0,3).join(", "))}${(c.channels||[]).length>3?" …":""}</div>` : "";
+
+  return `<div class="card ${up?"up":"live"} ${c.availability}">
+    <div class="top">
+      ${boxHtml}
+      <div class="ttl">
+        <div class="game">${esc(c.game||"—")}</div>
+        <div class="name">${esc(c.name||"")}</div>
+      </div>
+    </div>
+    <div class="pills">
+      <span class="pill ${up?"p-up":"p-live"}"><span class="pd"></span>${up?"Em breve":"Ativo"}</span>
+      <span class="pill ${c.availability==="open"?"p-open":"p-lock"}"><span class="pd"></span>${c.availability==="open"?"Todos os canais":"Canais específicos"}</span>
+      <span class="pill ${c.reward_type==="game"?"p-game":"p-plat"}"><span class="pd"></span>${c.reward_type==="game"?"Item de jogo":"Badge / plataforma"}</span>
+    </div>
+    ${when}
+    <div class="rewards">${rw}${more}</div>
+    <div class="foot">${chans}${c.details_url?`<a class="link" href="${esc(c.details_url)}" target="_blank" rel="noopener">ver detalhes ↗</a>`:""}</div>
+  </div>`;
+}
+
+function passes(c){
+  const f=state.filters;
+  if(c.status==="UPCOMING"&&!f.upcoming) return false;
+  if(c.status==="ACTIVE"&&!f.active) return false;
+  if(c.availability==="open"&&!f.open) return false;
+  if(c.availability==="restricted"&&!f.restricted) return false;
+  if(f.hideplat&&c.reward_type==="platform") return false;
+  if(state.q && !(((c.game||"")+" "+(c.name||"")).toLowerCase().includes(state.q))) return false;
+  return true;
+}
+
+function section(cls,title,list){
+  if(!list.length) return "";
+  return `<div class="section-h ${cls}"><span class="sdot"></span><h2>${title}</h2><span class="n">${list.length}</span><span class="rule"></span></div>
+          <div class="grid">${list.map(card).join("")}</div>`;
+}
+
+function renderStats(camps){
+  const tiles = [
+    ["up",   camps.filter(c=>c.status==="UPCOMING").length,        "Em breve"],
+    ["live", camps.filter(c=>c.status==="ACTIVE").length,          "Ativos"],
+    ["open", camps.filter(c=>c.availability==="open").length,      "Abertos a todos"],
+    ["lock", camps.filter(c=>c.availability==="restricted").length,"Canais específicos"],
+  ];
+  document.getElementById("stats").innerHTML = tiles
+    .map(([k,v,l])=>`<div class="stat ${k}"><div class="v">${v}</div><div class="l">${l}</div></div>`).join("");
+}
+
+function render(){
+  const d = state.data;
+  const upd = document.getElementById("updated");
+  const banner = document.getElementById("banner");
+  banner.innerHTML = "";
+
+  document.getElementById("pvtag").innerHTML = state.preview
+    ? `<span class="preview-tag">preview local · dados de exemplo (a live vem do checador)</span>` : "";
+
+  if(!d){ document.getElementById("content").innerHTML = `<div class="empty">carregando…</div>`; return; }
+
+  if(d.updated_at){ const r=rel(d.updated_at); upd.innerHTML = `atualizado <b>há ${r?r.text:"—"}</b>`; }
+  else upd.textContent = "ainda sem dados";
+
+  const camps = d.campaigns || [];
+  renderStats(camps);
+
+  if(!d.ok){
+    const needsToken = (d.error||"").includes("TWITCH_OAUTH") || (d.error||"").includes("currentUser");
+    banner.innerHTML = `<div class="banner ${needsToken?"":"err"}">
+      <b>${needsToken?"Falta configurar o acesso.":"Não consegui atualizar."}</b> ${esc(d.error||"erro desconhecido")}
+      ${d.raw_hint?`<span class="hint">${esc(d.raw_hint)}</span>`:""}
+    </div>`;
+  }
+
+  const all = camps.filter(passes);
+  const up = all.filter(c=>c.status==="UPCOMING"), live = all.filter(c=>c.status==="ACTIVE");
+  let html = section("up","Em breve",up) + section("live","Ativos agora",live);
+  if(!html) html = `<div class="empty">${d.ok?"Nada por aqui com os filtros atuais.":"Sem campanhas ainda."}</div>`;
+  document.getElementById("content").innerHTML = html;
+}
+
+async function load(){
+  // Local (file://) nunca tem dado real -> mostra o layout com dados de exemplo.
+  if(location.protocol === "file:"){ state.data = SAMPLE; state.preview = true; render(); return; }
+  try{
+    const res = await fetch("data/drops.json?t="+Date.now(), {cache:"no-store"});
+    state.data = await res.json();
+    state.preview = false;
+  }catch(e){
+    state.data = {ok:false, error:"Não achei o data/drops.json (o checador ainda não rodou?)."};
+  }
+  render();
+}
+
+document.getElementById("controls").addEventListener("click", e=>{
+  const chip=e.target.closest(".chip"); if(!chip) return;
+  const f=chip.dataset.f; state.filters[f]=!state.filters[f];
+  chip.classList.toggle("on",state.filters[f]); render();
+});
+document.getElementById("q").addEventListener("input", e=>{ state.q=e.target.value.trim().toLowerCase(); render(); });
+document.getElementById("refresh").addEventListener("click", load);
+
+load();
+setInterval(load, 5*60*1000);
+</script>
+</body>
+</html>
