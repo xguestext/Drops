@@ -69,12 +69,13 @@ def fuzzy_key(c):
 def sunkwi_rewards(rw):
     out, seen = [], set()
     for tbd in rw.get("timeBasedDrops") or []:
+        mins = tbd.get("requiredMinutesWatched")
         for edge in tbd.get("benefitEdges") or []:
             b = (edge or {}).get("benefit") or {}
             key = b.get("id") or b.get("name")
             if b.get("name") and key not in seen:
                 seen.add(key)
-                out.append({"name": b["name"], "image": b.get("imageAssetURL")})
+                out.append({"name": b["name"], "image": b.get("imageAssetURL"), "minutes": mins})
     return out
 
 
@@ -167,13 +168,14 @@ def normaliza_fenris(o):
     game = o.get("game") or {}
     rewards, seen, mins = [], set(), []
     for tbd in o.get("timeBasedDrops") or []:
-        if tbd.get("requiredMinutesWatched"):
-            mins.append(tbd["requiredMinutesWatched"])
+        m = tbd.get("requiredMinutesWatched")
+        if m:
+            mins.append(m)
         for b in tbd.get("benefits") or []:
             key = b.get("benefitId") or b.get("name")
             if b.get("name") and key not in seen:
                 seen.add(key)
-                rewards.append({"name": b["name"], "image": b.get("imageAssetUrl")})
+                rewards.append({"name": b["name"], "image": b.get("imageAssetUrl"), "minutes": m})
     return {
         "id": o.get("id"), "name": o.get("name"), "status": None,
         "start_at": _dt(o.get("startAt")), "end_at": _dt(o.get("endAt")),
@@ -218,7 +220,7 @@ def carrega_twitchdrops(agora):
             nm = rnames[k] if k < len(rnames) else "Recompensa"
             im = rimgs[k] if k < len(rimgs) else None
             if nm:
-                rewards.append({"name": nm, "image": im})
+                rewards.append({"name": nm, "image": im, "minutes": None})
         out.append({
             "id": None,
             "name": ("%s drop%s" % (drops, "" if drops == "1" else "s")),

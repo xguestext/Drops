@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-22T22:32:14Z",
+  "updated_at": "2026-07-22T22:43:54Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-22T22:32:01.247Z",
+  "source_updated": "2026-07-22T22:43:02.323Z",
   "counts": {
     "total": 89,
     "upcoming": 5,
@@ -30,7 +30,8 @@
       "rewards": [
         {
           "name": "Beta Test Raffle Ticket",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/44f62bae-4090-4a29-ba4b-28470a4fd799.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/44f62bae-4090-4a29-ba4b-28470a4fd799.png",
+          "minutes": 30
         }
       ],
       "src": "fenris"
@@ -52,7 +53,8 @@
       "rewards": [
         {
           "name": "Radiant Wilds Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
+          "minutes": 180
         }
       ],
       "src": "fenris"
@@ -74,7 +76,8 @@
       "rewards": [
         {
           "name": "2 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f2cb7c7c-7ecd-423e-af93-0d2fc21fcd96.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f2cb7c7c-7ecd-423e-af93-0d2fc21fcd96.png",
+          "minutes": 120
         }
       ],
       "src": "fenris"
@@ -96,23 +99,28 @@
       "rewards": [
         {
           "name": "Rose Orb (Bound) *100",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/468c1ce5-b768-45fc-ad1c-1952720b4c44.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/468c1ce5-b768-45fc-ad1c-1952720b4c44.png",
+          "minutes": 15
         },
         {
           "name": "Starland Medal *500",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e29209b0-d16c-4305-8fc6-82e5899eb289.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e29209b0-d16c-4305-8fc6-82e5899eb289.png",
+          "minutes": 30
         },
         {
           "name": "Starland Medal *1000",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a8921287-0cde-4332-ab0a-6c515b521516.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a8921287-0cde-4332-ab0a-6c515b521516.png",
+          "minutes": 60
         },
         {
           "name": "Rose Orb (Bound) *200",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/96189751-d09c-4636-87c4-3706aef5b04e.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/96189751-d09c-4636-87c4-3706aef5b04e.png",
+          "minutes": 180
         },
         {
           "name": "Exotic Stellar Marrow *1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/acea0c2a-1ee4-4071-8f10-db5731e5228b.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/acea0c2a-1ee4-4071-8f10-db5731e5228b.png",
+          "minutes": 300
         }
       ],
       "src": "fenris"
@@ -134,11 +142,13 @@
       "rewards": [
         {
           "name": "2 XP Boosts",
-          "image": null
+          "image": null,
+          "minutes": null
         },
         {
           "name": "4 XP Boosts",
-          "image": null
+          "image": null,
+          "minutes": null
         }
       ],
       "src": "twitchdrops"
@@ -160,19 +170,23 @@
       "rewards": [
         {
           "name": "Stamina Potion*1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/dcdebbe1-2c09-4831-a713-4c3fdbe512ad.jpeg"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/dcdebbe1-2c09-4831-a713-4c3fdbe512ad.jpeg",
+          "minutes": 15
         },
         {
           "name": "Phase Shifter*1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3bb9c19d-4d85-4cbb-b6c1-7f5cd0f120e2.jpeg"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3bb9c19d-4d85-4cbb-b6c1-7f5cd0f120e2.jpeg",
+          "minutes": 30
         },
         {
           "name": "Asterite*1500",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7fd1b062-a6cf-4a95-a8bb-4c3e01e0661c.jpeg"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7fd1b062-a6cf-4a95-a8bb-4c3e01e0661c.jpeg",
+          "minutes": 60
         },
         {
           "name": "Crystal*120",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/59d90596-0bb4-4b35-8eca-73c1dda58212.jpeg"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/59d90596-0bb4-4b35-8eca-73c1dda58212.jpeg",
+          "minutes": 180
         }
       ],
       "src": "sunkwi"
@@ -194,27 +208,33 @@
       "rewards": [
         {
           "name": "Twitch Mana Flare",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a0b7b0a5-e124-4cc5-b441-64f874f11c64.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a0b7b0a5-e124-4cc5-b441-64f874f11c64.png",
+          "minutes": 30
         },
         {
           "name": "Twitch Diving Knife",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9d2996ba-9212-43b7-95d8-4a791218a1c3.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9d2996ba-9212-43b7-95d8-4a791218a1c3.png",
+          "minutes": 45
         },
         {
           "name": "Infused Stone Skimmer",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5f03c052-9435-4cfa-a744-684b71cb599f.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5f03c052-9435-4cfa-a744-684b71cb599f.png",
+          "minutes": 60
         },
         {
           "name": "Twitch Sail",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/37663ec8-cdcc-482e-9f49-21ea42d835d2.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/37663ec8-cdcc-482e-9f49-21ea42d835d2.png",
+          "minutes": 90
         },
         {
           "name": "Infused Watering Can",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9ac7b0f3-c7ec-4478-8a35-23b153c90c2d.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9ac7b0f3-c7ec-4478-8a35-23b153c90c2d.png",
+          "minutes": 120
         },
         {
           "name": "Infused Stone Glider",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6c0d8ded-90f9-410a-9bf3-cf0aa597ecef.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6c0d8ded-90f9-410a-9bf3-cf0aa597ecef.png",
+          "minutes": 0
         }
       ],
       "src": "sunkwi"
@@ -236,23 +256,28 @@
       "rewards": [
         {
           "name": "Advanced Materials-S*5",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8b157693-5cd7-4576-8df8-416267e2ebfa.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8b157693-5cd7-4576-8df8-416267e2ebfa.png",
+          "minutes": 300
         },
         {
           "name": "Rose Orb (Bound)*100",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/32fcd7e4-e180-4dcb-83cb-6da05b46a120.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/32fcd7e4-e180-4dcb-83cb-6da05b46a120.png",
+          "minutes": 15
         },
         {
           "name": "Modification Crystal*1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/37b9e544-9885-4402-bfd3-70374ad9bfd9.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/37b9e544-9885-4402-bfd3-70374ad9bfd9.png",
+          "minutes": 30
         },
         {
           "name": "Dye Pack - Select*5",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5d1c7aad-ba71-4595-9709-378fdd6b88c1.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5d1c7aad-ba71-4595-9709-378fdd6b88c1.png",
+          "minutes": 60
         },
         {
           "name": "Rose Orb (Bound)*200",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/591deeea-e677-4c02-9afd-840a008bf62e.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/591deeea-e677-4c02-9afd-840a008bf62e.png",
+          "minutes": 180
         }
       ],
       "src": "sunkwi"
@@ -274,23 +299,28 @@
       "rewards": [
         {
           "name": "Volcano",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/deb0d2b4-013f-458d-abbc-dd3211887333.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/deb0d2b4-013f-458d-abbc-dd3211887333.png",
+          "minutes": 60
         },
         {
           "name": "Frozen",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/15195594-f9b1-4891-aab3-bf13b7dd5fa0.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/15195594-f9b1-4891-aab3-bf13b7dd5fa0.png",
+          "minutes": 120
         },
         {
           "name": "Acid",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7428137f-35fc-45f3-96a6-0efa39c611ba.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7428137f-35fc-45f3-96a6-0efa39c611ba.png",
+          "minutes": 180
         },
         {
           "name": "Blood",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e673051b-4e6a-4995-99e6-b4c72ee29b38.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e673051b-4e6a-4995-99e6-b4c72ee29b38.png",
+          "minutes": 360
         },
         {
           "name": "Darkness",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82725820-1433-49a2-9351-a3d8ee1768e5.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82725820-1433-49a2-9351-a3d8ee1768e5.png",
+          "minutes": 480
         }
       ],
       "src": "sunkwi"
@@ -312,23 +342,28 @@
       "rewards": [
         {
           "name": "Red Drop Gift Box",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/92b7583e-3e16-40fe-a5f1-25943ed40438.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/92b7583e-3e16-40fe-a5f1-25943ed40438.png",
+          "minutes": 60
         },
         {
           "name": "Universal Key (Limited)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2865102e-408e-40fe-b0c6-bb8f8b2e0545.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2865102e-408e-40fe-b0c6-bb8f8b2e0545.png",
+          "minutes": 120
         },
         {
           "name": "Twitch Flashbang Skin",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2fc48d37-498f-4d5c-926f-c6c3e10c6788.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2fc48d37-498f-4d5c-926f-c6c3e10c6788.png",
+          "minutes": 240
         },
         {
           "name": "Red Drop Gift Box",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d7725274-2216-424b-ad5c-bbb5652b688e.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d7725274-2216-424b-ad5c-bbb5652b688e.png",
+          "minutes": 300
         },
         {
           "name": "Twitch Stun Grenade Skin",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c5c8dfdf-d1b9-4611-94a5-2f738fd21b2a.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c5c8dfdf-d1b9-4611-94a5-2f738fd21b2a.png",
+          "minutes": 360
         }
       ],
       "src": "sunkwi"
@@ -350,43 +385,53 @@
       "rewards": [
         {
           "name": "Gem",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9f487000-8fc2-4b6d-aa3f-b18ae7286f06.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9f487000-8fc2-4b6d-aa3f-b18ae7286f06.png",
+          "minutes": 30
         },
         {
           "name": "Elite Hero Badge S*5",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e49b7d42-7d24-41cb-9051-abb1cdf19b54.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e49b7d42-7d24-41cb-9051-abb1cdf19b54.png",
+          "minutes": 30
         },
         {
           "name": "Battle Manual*5",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5973ed5a-369e-456a-a36a-2ff88b273ac4.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5973ed5a-369e-456a-a36a-2ff88b273ac4.png",
+          "minutes": 30
         },
         {
           "name": "Stamina Recovery I*5",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0dabdecf-5c82-4961-9c94-e1255bbd67b7.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0dabdecf-5c82-4961-9c94-e1255bbd67b7.png",
+          "minutes": 30
         },
         {
           "name": "Normal Search Map*2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4dec7f68-6d68-4061-9f54-260cc5c2f315.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4dec7f68-6d68-4061-9f54-260cc5c2f315.png",
+          "minutes": 30
         },
         {
           "name": "5m Speedup*12",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d51c0708-e671-4631-81a6-695b73497c3c.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d51c0708-e671-4631-81a6-695b73497c3c.png",
+          "minutes": 30
         },
         {
           "name": "67 Exclusive Emote",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1fef8a74-9a5b-4db0-aa90-21dbcbab07c7.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1fef8a74-9a5b-4db0-aa90-21dbcbab07c7.png",
+          "minutes": 30
         },
         {
           "name": "VIP EXP*1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/38f8a7a8-28a4-4ef9-b8fa-59af3d9e399c.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/38f8a7a8-28a4-4ef9-b8fa-59af3d9e399c.png",
+          "minutes": 30
         },
         {
           "name": "Advanced Search Map*1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bb3d7332-e53b-49f3-b5c3-40991d194b4a.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bb3d7332-e53b-49f3-b5c3-40991d194b4a.png",
+          "minutes": 15
         },
         {
           "name": "60min Speedup*1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cdc2c1d8-ce40-43dd-8183-4c6a29bb1522.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cdc2c1d8-ce40-43dd-8183-4c6a29bb1522.png",
+          "minutes": 15
         }
       ],
       "src": "sunkwi"
@@ -408,15 +453,18 @@
       "rewards": [
         {
           "name": "Scout Dress",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/519fd3eb-cba2-4e2b-9b51-1e8577ef4900.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/519fd3eb-cba2-4e2b-9b51-1e8577ef4900.png",
+          "minutes": 120
         },
         {
           "name": "Scout Cap",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/81346e35-7246-4dea-af78-4c269755f994.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/81346e35-7246-4dea-af78-4c269755f994.png",
+          "minutes": 180
         },
         {
           "name": "Scout Outfit",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1ec8c7c4-c9de-4f39-8ad6-1611f452ee33.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1ec8c7c4-c9de-4f39-8ad6-1611f452ee33.png",
+          "minutes": 60
         }
       ],
       "src": "sunkwi"
@@ -438,27 +486,33 @@
       "rewards": [
         {
           "name": "Tail Mermaid",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f805ae3-8ee0-422e-99cf-8a89030d843d.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f805ae3-8ee0-422e-99cf-8a89030d843d.png",
+          "minutes": 180
         },
         {
           "name": "Managon Beachball",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2cd811a2-f9a0-45d9-9fd9-90d5aa11d248.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2cd811a2-f9a0-45d9-9fd9-90d5aa11d248.png",
+          "minutes": 360
         },
         {
           "name": "Mop Parasol",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ebd333b1-6c2e-45ad-8640-0d5b13ab14cd.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ebd333b1-6c2e-45ad-8640-0d5b13ab14cd.png",
+          "minutes": 360
         },
         {
           "name": "Summer Bikini Body",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e67ba8f3-788e-4cd3-8473-dd0110ef9e8a.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e67ba8f3-788e-4cd3-8473-dd0110ef9e8a.png",
+          "minutes": 60
         },
         {
           "name": "Summer Bikini Legs",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fb0dcfbe-8b99-457c-ab35-8b47a940ed67.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fb0dcfbe-8b99-457c-ab35-8b47a940ed67.png",
+          "minutes": 60
         },
         {
           "name": "Beach Capeline",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/45fa3931-3b01-4ee0-b899-9c449a94b84e.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/45fa3931-3b01-4ee0-b899-9c449a94b84e.png",
+          "minutes": 180
         }
       ],
       "src": "sunkwi"
@@ -480,7 +534,8 @@
       "rewards": [
         {
           "name": "Purple Resonance Gift Bun",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d998841a-b013-4aee-9d65-bd843bb2580c.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d998841a-b013-4aee-9d65-bd843bb2580c.png",
+          "minutes": 60
         }
       ],
       "src": "sunkwi"
@@ -502,7 +557,8 @@
       "rewards": [
         {
           "name": "Kurnas Table House Deco",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ccca8931-4bbe-44b6-be9c-6408fa58ece9.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ccca8931-4bbe-44b6-be9c-6408fa58ece9.png",
+          "minutes": 360
         }
       ],
       "src": "sunkwi"
@@ -524,47 +580,58 @@
       "rewards": [
         {
           "name": "Jubilee Badge",
-          "image": null
+          "image": null,
+          "minutes": null
         },
         {
           "name": "100 CHRONO TOKENS - 1",
-          "image": null
+          "image": null,
+          "minutes": null
         },
         {
           "name": "Wolverine Spray",
-          "image": null
+          "image": null,
+          "minutes": null
         },
         {
           "name": "NUMBER ONE FAN Emoji",
-          "image": null
+          "image": null,
+          "minutes": null
         },
         {
           "name": "100 CHRONO TOKENS - 2",
-          "image": null
+          "image": null,
+          "minutes": null
         },
         {
           "name": "Wolverine Emote",
-          "image": null
+          "image": null,
+          "minutes": null
         },
         {
           "name": "Wolverine Costume",
-          "image": null
+          "image": null,
+          "minutes": null
         },
         {
           "name": "Captain America Spray",
-          "image": null
+          "image": null,
+          "minutes": null
         },
         {
           "name": "Captain America Nameplate",
-          "image": null
+          "image": null,
+          "minutes": null
         },
         {
           "name": "Captain America Emote",
-          "image": null
+          "image": null,
+          "minutes": null
         },
         {
           "name": "Captain America Costume",
-          "image": null
+          "image": null,
+          "minutes": null
         }
       ],
       "src": "twitchdrops"
@@ -586,7 +653,8 @@
       "rewards": [
         {
           "name": "Rust Charity '26 Box",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0604efdb-74a3-4ef3-a3aa-6d5ed608f3ef.jpeg"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0604efdb-74a3-4ef3-a3aa-6d5ed608f3ef.jpeg",
+          "minutes": 120
         }
       ],
       "src": "sunkwi"
@@ -608,7 +676,8 @@
       "rewards": [
         {
           "name": "Twitch mask",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/147670e5-bd68-4efe-abd1-e8af3d1b0806.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/147670e5-bd68-4efe-abd1-e8af3d1b0806.png",
+          "minutes": 60
         }
       ],
       "src": "sunkwi"
@@ -630,19 +699,23 @@
       "rewards": [
         {
           "name": "Grand Reward Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c13f3174-2541-4f52-8896-d07bb1dcb498.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c13f3174-2541-4f52-8896-d07bb1dcb498.png",
+          "minutes": 150
         },
         {
           "name": "Twitch Color Paints",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d7997dbe-9e27-4183-84e9-e3a610aa24a2.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d7997dbe-9e27-4183-84e9-e3a610aa24a2.png",
+          "minutes": 30
         },
         {
           "name": "Triple EXP Boost Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0869632f-6a7c-40c7-ad24-9ce83ad03984.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0869632f-6a7c-40c7-ad24-9ce83ad03984.png",
+          "minutes": 60
         },
         {
           "name": "Kuiper Shard & Gold Boost",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2fae5738-d730-4f95-a107-df5d39bc85eb.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2fae5738-d730-4f95-a107-df5d39bc85eb.png",
+          "minutes": 120
         }
       ],
       "src": "sunkwi"
@@ -664,7 +737,8 @@
       "rewards": [
         {
           "name": "Rust Charity '26 Bed",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d74de0bf-0201-434e-9681-81b6fc919533.jpeg"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d74de0bf-0201-434e-9681-81b6fc919533.jpeg",
+          "minutes": 120
         }
       ],
       "src": "sunkwi"
@@ -686,7 +760,8 @@
       "rewards": [
         {
           "name": "Rust Charity '26 Backpack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b042b8b4-5d9d-4c25-90a5-ed7d3ca45c23.jpeg"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b042b8b4-5d9d-4c25-90a5-ed7d3ca45c23.jpeg",
+          "minutes": 120
         }
       ],
       "src": "sunkwi"
@@ -708,11 +783,13 @@
       "rewards": [
         {
           "name": "Bastion Mace",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8feca160-148b-47ca-8094-4d623ffd1d25.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8feca160-148b-47ca-8094-4d623ffd1d25.png",
+          "minutes": 0
         },
         {
           "name": "Purple Duffel Bag",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/58135b91-b75f-4406-9867-d23ddf179002.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/58135b91-b75f-4406-9867-d23ddf179002.png",
+          "minutes": 0
         }
       ],
       "src": "sunkwi"
@@ -734,11 +811,13 @@
       "rewards": [
         {
           "name": "Rustborne Swords",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4b12cb83-7dce-4006-a45f-be63a2159c2f.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4b12cb83-7dce-4006-a45f-be63a2159c2f.png",
+          "minutes": 120
         },
         {
           "name": "Cheetah Claw Cat",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/109d672a-dd01-496a-a88c-57a998575a48.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/109d672a-dd01-496a-a88c-57a998575a48.png",
+          "minutes": 240
         }
       ],
       "src": "sunkwi"
@@ -760,15 +839,18 @@
       "rewards": [
         {
           "name": "AC Black Flag Resynced",
-          "image": null
+          "image": null,
+          "minutes": null
         },
         {
           "name": "Rustborne Swords",
-          "image": null
+          "image": null,
+          "minutes": null
         },
         {
           "name": "Cheetah Claw Cat",
-          "image": null
+          "image": null,
+          "minutes": null
         }
       ],
       "src": "twitchdrops"
@@ -790,19 +872,23 @@
       "rewards": [
         {
           "name": "Thatch CCv2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4e79390a-f145-4017-8ccf-c982785ca495.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4e79390a-f145-4017-8ccf-c982785ca495.png",
+          "minutes": 30
         },
         {
           "name": "Nix CCv2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b957d0cb-5ada-4dea-9f07-1669a6aae3e0.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b957d0cb-5ada-4dea-9f07-1669a6aae3e0.png",
+          "minutes": 60
         },
         {
           "name": "Red Raptor CCv2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f7fa1391-38f7-46ed-b1dd-464b67d216e7.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f7fa1391-38f7-46ed-b1dd-464b67d216e7.png",
+          "minutes": 120
         },
         {
           "name": "Raptoodle Avatar",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/89bced1a-253d-427c-9524-59406de83ad1.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/89bced1a-253d-427c-9524-59406de83ad1.png",
+          "minutes": 180
         }
       ],
       "src": "sunkwi"
@@ -824,7 +910,8 @@
       "rewards": [
         {
           "name": "Rust Charity '26 Furnace",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/95e893c9-605f-49da-ae9e-ca8c0103733e.jpeg"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/95e893c9-605f-49da-ae9e-ca8c0103733e.jpeg",
+          "minutes": 120
         }
       ],
       "src": "sunkwi"
@@ -846,11 +933,13 @@
       "rewards": [
         {
           "name": "Iron-Armed Rose",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/20a2594e-52c0-4133-ba21-e59d0d18feb0.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/20a2594e-52c0-4133-ba21-e59d0d18feb0.png",
+          "minutes": 30
         },
         {
           "name": "Neon Blade",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f63039f9-2229-411b-bc79-b108d4f52e02.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f63039f9-2229-411b-bc79-b108d4f52e02.png",
+          "minutes": 120
         }
       ],
       "src": "sunkwi"
@@ -872,19 +961,23 @@
       "rewards": [
         {
           "name": "Zeni ×3,000 (S6)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/192372ef-dae6-4951-b316-5a39856c3419.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/192372ef-dae6-4951-b316-5a39856c3419.png",
+          "minutes": 30
         },
         {
           "name": "Exclusive Stamp (S6)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a0df78a1-4a1c-4809-992f-0a1115b7351e.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a0df78a1-4a1c-4809-992f-0a1115b7351e.png",
+          "minutes": 60
         },
         {
           "name": "P6G-Capsule ×5 (S6)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1c9b5b03-f4a3-419b-86e5-f4f317a8a730.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1c9b5b03-f4a3-419b-86e5-f4f317a8a730.png",
+          "minutes": 180
         },
         {
           "name": "Exclusive Skin (S6)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/88aac49c-19af-4df4-a872-4c20febf10af.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/88aac49c-19af-4df4-a872-4c20febf10af.png",
+          "minutes": 360
         }
       ],
       "src": "sunkwi"
@@ -906,35 +999,43 @@
       "rewards": [
         {
           "name": "1 Day of Premium",
-          "image": null
+          "image": null,
+          "minutes": null
         },
         {
           "name": "100 UP&#39;s",
-          "image": null
+          "image": null,
+          "minutes": null
         },
         {
           "name": "Tactical Consumables Set",
-          "image": null
+          "image": null,
+          "minutes": null
         },
         {
           "name": "2 Days of Premium",
-          "image": null
+          "image": null,
+          "minutes": null
         },
         {
           "name": "Advanced Consumables",
-          "image": null
+          "image": null,
+          "minutes": null
         },
         {
           "name": "200 UP&#39;s",
-          "image": null
+          "image": null,
+          "minutes": null
         },
         {
           "name": "15 Authorization Keys",
-          "image": null
+          "image": null,
+          "minutes": null
         },
         {
           "name": "Camo Charming Ornament",
-          "image": null
+          "image": null,
+          "minutes": null
         }
       ],
       "src": "twitchdrops"
@@ -956,11 +1057,13 @@
       "rewards": [
         {
           "name": "100x Trade Bars",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/41ebc7f3-bb30-48db-8e61-913f86f18220.jpeg"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/41ebc7f3-bb30-48db-8e61-913f86f18220.jpeg",
+          "minutes": 60
         },
         {
           "name": "300x Trade Bars",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d1673cae-8e6f-4f70-84ff-7e4932418d88.jpeg"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d1673cae-8e6f-4f70-84ff-7e4932418d88.jpeg",
+          "minutes": 300
         }
       ],
       "src": "sunkwi"
@@ -982,31 +1085,38 @@
       "rewards": [
         {
           "name": "Approach Vector",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cb70d957-b466-444d-85bc-2bffcee21487.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cb70d957-b466-444d-85bc-2bffcee21487.png",
+          "minutes": 0
         },
         {
           "name": "Charmalure BFR Titan",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5f873925-645b-4fdd-854c-cb25059eba2a.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5f873925-645b-4fdd-854c-cb25059eba2a.png",
+          "minutes": 0
         },
         {
           "name": "Charmalure V9S",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82af500b-64c3-4921-84c0-dd0649bdaa5f.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82af500b-64c3-4921-84c0-dd0649bdaa5f.png",
+          "minutes": 0
         },
         {
           "name": "Charmalure Chimera-XB",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0abe8e49-315a-4ee3-94af-5029b4595a26.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0abe8e49-315a-4ee3-94af-5029b4595a26.png",
+          "minutes": 0
         },
         {
           "name": "Launch Paperwork",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/59e77f2d-e6b1-4e93-8f9e-8c37750d8fbc.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/59e77f2d-e6b1-4e93-8f9e-8c37750d8fbc.png",
+          "minutes": 120
         },
         {
           "name": "Sonia The Sonar",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d5783539-a1c0-453a-a6b6-32a28ccedcda.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d5783539-a1c0-453a-a6b6-32a28ccedcda.png",
+          "minutes": 240
         },
         {
           "name": "Trip Report",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/22269781-56d4-445f-a701-1c0cfda2a6a9.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/22269781-56d4-445f-a701-1c0cfda2a6a9.png",
+          "minutes": 60
         }
       ],
       "src": "sunkwi"
@@ -1028,7 +1138,8 @@
       "rewards": [
         {
           "name": "AC Black Flag Resynced",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3c03bd7c-fe9e-4a37-bc7e-9234b4dc86ad.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3c03bd7c-fe9e-4a37-bc7e-9234b4dc86ad.png",
+          "minutes": 0
         }
       ],
       "src": "sunkwi"
@@ -1050,35 +1161,43 @@
       "rewards": [
         {
           "name": "Spray01",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/76614258-2454-4a27-b7f0-163912cab65f.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/76614258-2454-4a27-b7f0-163912cab65f.png",
+          "minutes": 15
         },
         {
           "name": "Whistle02",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/be2c9012-416e-41fa-8ef5-39e74e2db6ef.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/be2c9012-416e-41fa-8ef5-39e74e2db6ef.png",
+          "minutes": 15
         },
         {
           "name": "CharacterSkin015",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/44dd08ca-b73b-4469-993c-9f26b81de003.jpeg"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/44dd08ca-b73b-4469-993c-9f26b81de003.jpeg",
+          "minutes": 15
         },
         {
           "name": "VictoryEmote01",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/72b38db2-c2be-4a87-b7fd-db3d69882ab3.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/72b38db2-c2be-4a87-b7fd-db3d69882ab3.png",
+          "minutes": 60
         },
         {
           "name": "Emote02",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4c5971ea-9da9-421d-86ea-40b59f394358.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4c5971ea-9da9-421d-86ea-40b59f394358.png",
+          "minutes": 60
         },
         {
           "name": "CharacterSkin014",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/78d4551e-aadd-49c4-8346-d4c5468de680.jpeg"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/78d4551e-aadd-49c4-8346-d4c5468de680.jpeg",
+          "minutes": 60
         },
         {
           "name": "Emote04",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c8a512b4-5bbd-4a23-b36a-612a3b86d25b.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c8a512b4-5bbd-4a23-b36a-612a3b86d25b.png",
+          "minutes": 90
         },
         {
           "name": "CharacterSkin01",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4606b211-7040-48fe-b436-ee88e430bbc6.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4606b211-7040-48fe-b436-ee88e430bbc6.png",
+          "minutes": 90
         }
       ],
       "src": "sunkwi"
@@ -1100,23 +1219,28 @@
       "rewards": [
         {
           "name": "Ornate Coin x300",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/37d4e309-d3df-41d1-95c9-f048161fea1e.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/37d4e309-d3df-41d1-95c9-f048161fea1e.png",
+          "minutes": 120
         },
         {
           "name": "Armor Rune Chest x10",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/61699600-ea2c-4462-817f-ce77901f4794.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/61699600-ea2c-4462-817f-ce77901f4794.png",
+          "minutes": 240
         },
         {
           "name": "Star Crystals x300",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/60c12e19-f333-49fc-b2cf-40a1eb2a0a90.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/60c12e19-f333-49fc-b2cf-40a1eb2a0a90.png",
+          "minutes": 360
         },
         {
           "name": "Trait Resonance Stone x10",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6361e3a4-5874-4480-8243-5b13d9102dd5.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6361e3a4-5874-4480-8243-5b13d9102dd5.png",
+          "minutes": 480
         },
         {
           "name": "Archboss Furniture Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e06ff3e0-5a59-44cd-aa55-4501c5fd2455.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e06ff3e0-5a59-44cd-aa55-4501c5fd2455.png",
+          "minutes": 600
         }
       ],
       "src": "sunkwi"
@@ -1138,19 +1262,23 @@
       "rewards": [
         {
           "name": "The Sun Lover",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/77848c43-a938-46db-bd92-c0f47f3cd9bd.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/77848c43-a938-46db-bd92-c0f47f3cd9bd.png",
+          "minutes": 0
         },
         {
           "name": "Night Watchman Title",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/31f0cc7d-4bb3-4caa-8f74-6cc28d4ff39d.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/31f0cc7d-4bb3-4caa-8f74-6cc28d4ff39d.png",
+          "minutes": 60
         },
         {
           "name": "Night Watchman Avatar",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4b522287-f84e-433e-840e-faeba84ebc63.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4b522287-f84e-433e-840e-faeba84ebc63.png",
+          "minutes": 120
         },
         {
           "name": "Night Watchmen Banner",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e54bfd58-6d40-4037-82b8-4f20c4c7dedf.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e54bfd58-6d40-4037-82b8-4f20c4c7dedf.png",
+          "minutes": 180
         }
       ],
       "src": "sunkwi"
@@ -1172,23 +1300,28 @@
       "rewards": [
         {
           "name": "Advanced Energy Bag*2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/dc445112-62f6-47c5-b817-50a82b3deb79.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/dc445112-62f6-47c5-b817-50a82b3deb79.png",
+          "minutes": 90
         },
         {
           "name": "Astrite*50",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/97ed034b-0697-49e8-bfcf-a17001146ac2.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/97ed034b-0697-49e8-bfcf-a17001146ac2.png",
+          "minutes": 120
         },
         {
           "name": "Advanced Energy Core*3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2c257406-1f67-4769-b267-891afa01fe05.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2c257406-1f67-4769-b267-891afa01fe05.png",
+          "minutes": 60
         },
         {
           "name": "Shell Credit*25000",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5de55a85-a6d8-4fd8-84f6-72d9d5f84ad1.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5de55a85-a6d8-4fd8-84f6-72d9d5f84ad1.png",
+          "minutes": 15
         },
         {
           "name": "Medium Resonance Potion*5",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e9b9b21f-280e-420f-bed3-2a8cd19aa2c3.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e9b9b21f-280e-420f-bed3-2a8cd19aa2c3.png",
+          "minutes": 30
         }
       ],
       "src": "sunkwi"
@@ -1210,11 +1343,13 @@
       "rewards": [
         {
           "name": "Twitchwalker skin",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d214580b-abc9-42dd-9ca0-44f4e1046467.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d214580b-abc9-42dd-9ca0-44f4e1046467.png",
+          "minutes": 60
         },
         {
           "name": "One mystery Trait skin",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/489a0b5d-2468-4fc0-aa3f-949d24f71119.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/489a0b5d-2468-4fc0-aa3f-949d24f71119.png",
+          "minutes": 180
         }
       ],
       "src": "sunkwi"
@@ -1236,7 +1371,8 @@
       "rewards": [
         {
           "name": "Cheerful Roman Market",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1757a671-0dbb-4885-af86-a9b672a680bc.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1757a671-0dbb-4885-af86-a9b672a680bc.png",
+          "minutes": 120
         }
       ],
       "src": "sunkwi"
@@ -1258,7 +1394,8 @@
       "rewards": [
         {
           "name": "Killer Inn",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/16b0d414-7963-4ab7-8c31-d97059ad4fba.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/16b0d414-7963-4ab7-8c31-d97059ad4fba.png",
+          "minutes": 0
         }
       ],
       "src": "sunkwi"
@@ -1280,7 +1417,8 @@
       "rewards": [
         {
           "name": "Ayane",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/32e43985-e409-4ec6-9bff-709344cafa00.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/32e43985-e409-4ec6-9bff-709344cafa00.png",
+          "minutes": 0
         }
       ],
       "src": "sunkwi"
@@ -1302,7 +1440,8 @@
       "rewards": [
         {
           "name": "Cool Cattiva",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/00decc49-b543-41b3-bd83-fa0e11da595b.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/00decc49-b543-41b3-bd83-fa0e11da595b.png",
+          "minutes": 0
         }
       ],
       "src": "sunkwi"
@@ -1324,7 +1463,8 @@
       "rewards": [
         {
           "name": "Jamie’s EX 01 Color",
-          "image": null
+          "image": null,
+          "minutes": null
         }
       ],
       "src": "twitchdrops"
@@ -1346,19 +1486,23 @@
       "rewards": [
         {
           "name": "Captain America Spray",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/eb698dc3-1764-4a59-8ce7-e9b7221cfda9.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/eb698dc3-1764-4a59-8ce7-e9b7221cfda9.png",
+          "minutes": 30
         },
         {
           "name": "Captain America Nameplate",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/af6e77af-6590-4978-9113-6883c9530e62.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/af6e77af-6590-4978-9113-6883c9530e62.png",
+          "minutes": 60
         },
         {
           "name": "Captain America Emote",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/75d42a2c-7734-42b7-8925-fc8538d53b29.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/75d42a2c-7734-42b7-8925-fc8538d53b29.png",
+          "minutes": 120
         },
         {
           "name": "Captain America Costume",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2d3bce64-f91f-4408-a4bd-78bc48cd1022.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2d3bce64-f91f-4408-a4bd-78bc48cd1022.png",
+          "minutes": 240
         }
       ],
       "src": "sunkwi"
@@ -1380,15 +1524,18 @@
       "rewards": [
         {
           "name": "Beta Cube",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0cec2803-b58a-4efa-8e97-43e6df202f11.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0cec2803-b58a-4efa-8e97-43e6df202f11.png",
+          "minutes": 60
         },
         {
           "name": "White Flippers",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/02eb9d7f-a4de-4c58-88c9-5dfe156db197.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/02eb9d7f-a4de-4c58-88c9-5dfe156db197.png",
+          "minutes": 180
         },
         {
           "name": "Rainbow Tube",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c487aafe-e678-4474-9984-25b28cd55ef0.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c487aafe-e678-4474-9984-25b28cd55ef0.png",
+          "minutes": 360
         }
       ],
       "src": "sunkwi"
@@ -1410,15 +1557,18 @@
       "rewards": [
         {
           "name": "Ring*3000",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c0cce25b-9552-452b-bfce-4803e7775a5b.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c0cce25b-9552-452b-bfce-4803e7775a5b.png",
+          "minutes": 15
         },
         {
           "name": "Tune-Up Wrench*300",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/57e41d7f-f569-4bf2-9953-f588d85ea8bd.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/57e41d7f-f569-4bf2-9953-f588d85ea8bd.png",
+          "minutes": 30
         },
         {
           "name": "Red Star Ring*100",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4cdca36c-1b31-430a-8f76-6110c387e219.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4cdca36c-1b31-430a-8f76-6110c387e219.png",
+          "minutes": 60
         }
       ],
       "src": "sunkwi"
@@ -1440,19 +1590,23 @@
       "rewards": [
         {
           "name": "30m Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5ecfe1be-95a8-4ef4-b818-a2214a2caa78.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5ecfe1be-95a8-4ef4-b818-a2214a2caa78.png",
+          "minutes": 30
         },
         {
           "name": "1h Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6e886979-fe10-4135-b06b-a1db212840af.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6e886979-fe10-4135-b06b-a1db212840af.png",
+          "minutes": 60
         },
         {
           "name": "1h 30m Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/65bf6caf-7b79-49f8-9b45-5043f6b2d929.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/65bf6caf-7b79-49f8-9b45-5043f6b2d929.png",
+          "minutes": 90
         },
         {
           "name": "2h Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a939fe81-3f62-40a5-83fe-063e11112fa9.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a939fe81-3f62-40a5-83fe-063e11112fa9.png",
+          "minutes": 120
         }
       ],
       "src": "sunkwi"
@@ -1474,31 +1628,38 @@
       "rewards": [
         {
           "name": "Otto Kress Profile Icon",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1f415709-f39b-48fb-83b7-0b0cd630d9e5.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1f415709-f39b-48fb-83b7-0b0cd630d9e5.png",
+          "minutes": 30
         },
         {
           "name": "Neon Profile Icon Frame",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/09230397-f99a-4e03-9cbd-319b26b66369.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/09230397-f99a-4e03-9cbd-319b26b66369.png",
+          "minutes": 60
         },
         {
           "name": "Tube Steak Cell Item",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ec355319-5ea2-4c5f-882f-a7adb8538751.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ec355319-5ea2-4c5f-882f-a7adb8538751.png",
+          "minutes": 120
         },
         {
           "name": "Batting Helmet",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b69645dd-f1f1-498a-b835-2fd437468b35.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b69645dd-f1f1-498a-b835-2fd437468b35.png",
+          "minutes": 180
         },
         {
           "name": "Ball & Mitt Cell Item",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/673bf4c5-7a1e-47ec-ab6d-511169d4fa6a.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/673bf4c5-7a1e-47ec-ab6d-511169d4fa6a.png",
+          "minutes": 240
         },
         {
           "name": "Baseball Catcher Pants",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f4b30d1a-e5c7-4702-bd36-ef07994da64f.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f4b30d1a-e5c7-4702-bd36-ef07994da64f.png",
+          "minutes": 300
         },
         {
           "name": "Athletic Sports Shirt",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/04f70fa8-b619-4b2f-a28b-af57cd60127b.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/04f70fa8-b619-4b2f-a28b-af57cd60127b.png",
+          "minutes": 360
         }
       ],
       "src": "sunkwi"
@@ -1520,11 +1681,13 @@
       "rewards": [
         {
           "name": "Samurai Weapon Charm",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4ea93b42-00cc-46a0-a984-453e0ec2096c.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4ea93b42-00cc-46a0-a984-453e0ec2096c.png",
+          "minutes": 30
         },
         {
           "name": "Data Diver Tracker",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bb8e544b-63f7-4e4d-9616-c0ecc10c3d77.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bb8e544b-63f7-4e4d-9616-c0ecc10c3d77.png",
+          "minutes": 60
         }
       ],
       "src": "sunkwi"
@@ -1546,39 +1709,48 @@
       "rewards": [
         {
           "name": "Dev Lifeguard Lifeweaver",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8035674a-71a9-469a-a55f-e8b9e3f4fed8.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8035674a-71a9-469a-a55f-e8b9e3f4fed8.png",
+          "minutes": 240
         },
         {
           "name": "Dev Lifeguard Roadhog",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6110e056-87ff-452d-b2ea-983f0e68bd84.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6110e056-87ff-452d-b2ea-983f0e68bd84.png",
+          "minutes": 300
         },
         {
           "name": "RoT S3 Lootbox",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ee0d34d7-fab4-4d5b-b751-b98b3bbc4ea4.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ee0d34d7-fab4-4d5b-b751-b98b3bbc4ea4.png",
+          "minutes": 420
         },
         {
           "name": "RoT S3 Epic Lootbox",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/15b7dce8-26a2-4b27-91a2-892551834013.jpeg"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/15b7dce8-26a2-4b27-91a2-892551834013.jpeg",
+          "minutes": 600
         },
         {
           "name": "Dev Lifeguard Mercy",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4dc40e22-9447-48d7-8849-34fa0e011851.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4dc40e22-9447-48d7-8849-34fa0e011851.png",
+          "minutes": 30
         },
         {
           "name": "Dev Lifeguard Junkrat",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c5d00c91-17d1-4a26-a661-74ab36f45a97.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c5d00c91-17d1-4a26-a661-74ab36f45a97.png",
+          "minutes": 60
         },
         {
           "name": "Dev Lifeguard Lucio",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5f2a834e-5b70-4210-8cb3-b1692a21f0d1.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5f2a834e-5b70-4210-8cb3-b1692a21f0d1.png",
+          "minutes": 120
         },
         {
           "name": "Dev Lifeguard Kiriko",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/87774450-f28c-4677-ac90-c291bf94fe9c.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/87774450-f28c-4677-ac90-c291bf94fe9c.png",
+          "minutes": 180
         },
         {
           "name": "Life Preserver Spray",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/481b121b-b0ec-4555-975a-72c92fedf130.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/481b121b-b0ec-4555-975a-72c92fedf130.png",
+          "minutes": 360
         }
       ],
       "src": "sunkwi"
@@ -1600,23 +1772,28 @@
       "rewards": [
         {
           "name": "Credit*20000",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bdf2a93f-96e5-4544-9972-4b4d8eabddc9.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bdf2a93f-96e5-4544-9972-4b4d8eabddc9.png",
+          "minutes": 15
         },
         {
           "name": "Lost Gold Fragment*4",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e8254bd0-87ab-491a-b5bf-2ba99d9ecf6f.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e8254bd0-87ab-491a-b5bf-2ba99d9ecf6f.png",
+          "minutes": 30
         },
         {
           "name": "Condensed Aether*5",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f5cb5327-04fc-4537-ad6a-142b9bfa89fe.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f5cb5327-04fc-4537-ad6a-142b9bfa89fe.png",
+          "minutes": 45
         },
         {
           "name": "Traveler's Guide*3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/10953670-5011-471e-b873-b1ef4901ba6e.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/10953670-5011-471e-b873-b1ef4901ba6e.png",
+          "minutes": 60
         },
         {
           "name": "Stellar Jade*30",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/35243e27-46dd-438a-b460-7bfafe547f18.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/35243e27-46dd-438a-b460-7bfafe547f18.png",
+          "minutes": 120
         }
       ],
       "src": "sunkwi"
@@ -1638,23 +1815,28 @@
       "rewards": [
         {
           "name": "Coin*10000",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e59f8d27-abee-475f-85ff-33d09d7f2311.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e59f8d27-abee-475f-85ff-33d09d7f2311.png",
+          "minutes": 30
         },
         {
           "name": "Dragon's Blood*100",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ccdd05d5-dc58-4989-85d1-6169eed56d8b.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ccdd05d5-dc58-4989-85d1-6169eed56d8b.png",
+          "minutes": 60
         },
         {
           "name": "B Bounty*1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9a6b956d-7400-4e41-bea4-3fcfc3b7cc81.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9a6b956d-7400-4e41-bea4-3fcfc3b7cc81.png",
+          "minutes": 90
         },
         {
           "name": "Jade*200",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f9291cb8-6fc9-4a85-a85a-199117ac3774.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f9291cb8-6fc9-4a85-a85a-199117ac3774.png",
+          "minutes": 120
         },
         {
           "name": "Fate Amulet*1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3f770f2c-b05e-4f2d-8102-a7aa9becfd4d.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3f770f2c-b05e-4f2d-8102-a7aa9becfd4d.png",
+          "minutes": 180
         }
       ],
       "src": "sunkwi"
@@ -1676,23 +1858,28 @@
       "rewards": [
         {
           "name": "Supreme Mastery EXP x 10",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d603c2ab-5dbd-454f-a8b4-a0c1d5c81be7.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d603c2ab-5dbd-454f-a8b4-a0c1d5c81be7.png",
+          "minutes": 15
         },
         {
           "name": "Special Refinement Stone",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1ec9f367-f7a4-4437-a37b-b37b1362d520.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1ec9f367-f7a4-4437-a37b-b37b1362d520.png",
+          "minutes": 30
         },
         {
           "name": "Special Tier Up Stone",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/76742864-6f47-4ef6-9a55-2a1bc53058e4.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/76742864-6f47-4ef6-9a55-2a1bc53058e4.png",
+          "minutes": 60
         },
         {
           "name": "Cube Key Bundle",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/24692bcd-69e8-498a-af9a-d5a2d145272e.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/24692bcd-69e8-498a-af9a-d5a2d145272e.png",
+          "minutes": 90
         },
         {
           "name": "Regular Hero Draw Ticket3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6e1a261d-56c3-4c62-8d89-08d6c88d7a18.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6e1a261d-56c3-4c62-8d89-08d6c88d7a18.png",
+          "minutes": 120
         }
       ],
       "src": "sunkwi"
@@ -1714,23 +1901,28 @@
       "rewards": [
         {
           "name": "T-Credit*10000",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/09a55be4-d2a0-405d-a6d4-fd48e81b99d6.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/09a55be4-d2a0-405d-a6d4-fd48e81b99d6.png",
+          "minutes": 15
         },
         {
           "name": "I-Combat Record*15",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b69ff1b6-b738-4b00-9c07-28d17ab788c0.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b69ff1b6-b738-4b00-9c07-28d17ab788c0.png",
+          "minutes": 30
         },
         {
           "name": "Arms INSP Set*3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1426a275-21a9-4e3b-8345-bbff7126679e.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1426a275-21a9-4e3b-8345-bbff7126679e.png",
+          "minutes": 60
         },
         {
           "name": "E-Cognitive Carrier*10",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d9eb0582-6060-4aa7-9c1d-1de278cfde6c.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d9eb0582-6060-4aa7-9c1d-1de278cfde6c.png",
+          "minutes": 90
         },
         {
           "name": "Oroberyl*150",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1a7cfcc3-2ba4-4d43-a43c-82f91304ff3b.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1a7cfcc3-2ba4-4d43-a43c-82f91304ff3b.png",
+          "minutes": 120
         }
       ],
       "src": "sunkwi"
@@ -1752,43 +1944,53 @@
       "rewards": [
         {
           "name": "Mana Regeneration Potion",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0001f23d-9a47-4cfb-817e-fc43e6e959c2.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0001f23d-9a47-4cfb-817e-fc43e6e959c2.png",
+          "minutes": 15
         },
         {
           "name": "Middle Scroll Package",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b67d39c6-c11d-4d5b-ab21-6c39fdc361b6.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b67d39c6-c11d-4d5b-ab21-6c39fdc361b6.png",
+          "minutes": 30
         },
         {
           "name": "Mani's Valkyrie x11 Card",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3d15023d-2ed6-4908-9e42-3c2b1afff60a.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3d15023d-2ed6-4908-9e42-3c2b1afff60a.png",
+          "minutes": 60
         },
         {
           "name": "Galar's Mead",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d61394dc-24af-4c47-8d52-806ce8db0bfb.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d61394dc-24af-4c47-8d52-806ce8db0bfb.png",
+          "minutes": 180
         },
         {
           "name": "Enh.Stone Selection Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/46a11d57-431e-4c04-a38c-15fa67e2aacd.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/46a11d57-431e-4c04-a38c-15fa67e2aacd.png",
+          "minutes": 300
         },
         {
           "name": "Mani's Disir x11 Card",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e3955d29-1d89-46ca-bd22-430545bd94a4.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e3955d29-1d89-46ca-bd22-430545bd94a4.png",
+          "minutes": 420
         },
         {
           "name": "Mid Craft Mat Selector",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/eb98ed8b-350e-4d84-be65-cdc41985173b.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/eb98ed8b-350e-4d84-be65-cdc41985173b.png",
+          "minutes": 540
         },
         {
           "name": "Boss Feather",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/36358fa7-a940-4e85-a05d-8a65711f6ae6.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/36358fa7-a940-4e85-a05d-8a65711f6ae6.png",
+          "minutes": 660
         },
         {
           "name": "Lesser Horn",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3dfc6c88-1c46-4e4e-b3dc-b4070e4bccc3.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3dfc6c88-1c46-4e4e-b3dc-b4070e4bccc3.png",
+          "minutes": 780
         },
         {
           "name": "Full Drops Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/801b1427-1412-408f-a144-54d8f17af67d.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/801b1427-1412-408f-a144-54d8f17af67d.png",
+          "minutes": 900
         }
       ],
       "src": "sunkwi"
@@ -1810,43 +2012,53 @@
       "rewards": [
         {
           "name": "Drops 15 Min Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/17c71ec1-8797-4015-be5c-dfa02696be79.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/17c71ec1-8797-4015-be5c-dfa02696be79.png",
+          "minutes": 15
         },
         {
           "name": "Drops 30 Min Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8b3f917a-cc9f-4c65-ba26-35e70f95a14a.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8b3f917a-cc9f-4c65-ba26-35e70f95a14a.png",
+          "minutes": 30
         },
         {
           "name": "Drops 1 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f51c3465-982c-4a64-9615-7f6ae4ae4c8f.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f51c3465-982c-4a64-9615-7f6ae4ae4c8f.png",
+          "minutes": 60
         },
         {
           "name": "Drops 3 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/40547837-577f-4793-a442-a55c4f35b902.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/40547837-577f-4793-a442-a55c4f35b902.png",
+          "minutes": 180
         },
         {
           "name": "Drops 5 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/26a98a59-1677-4259-8382-74daa1c38b30.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/26a98a59-1677-4259-8382-74daa1c38b30.png",
+          "minutes": 300
         },
         {
           "name": "Drops 7 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c13936c6-d1a7-4e77-a34a-34d7ba31c0df.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c13936c6-d1a7-4e77-a34a-34d7ba31c0df.png",
+          "minutes": 420
         },
         {
           "name": "Drops 9 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5de8b9af-630d-4df4-8c5f-f2ccf2fba0f0.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5de8b9af-630d-4df4-8c5f-f2ccf2fba0f0.png",
+          "minutes": 540
         },
         {
           "name": "Drops 11 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/31d8c770-3324-4a0c-b9c1-0c1285ceb259.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/31d8c770-3324-4a0c-b9c1-0c1285ceb259.png",
+          "minutes": 660
         },
         {
           "name": "Drops 13 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/15416d20-56f1-4ddd-a4d9-cafb8b42b26f.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/15416d20-56f1-4ddd-a4d9-cafb8b42b26f.png",
+          "minutes": 780
         },
         {
           "name": "Drops 15 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3b52ed93-8d81-4d5d-a6a3-e25c3d141a54.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3b52ed93-8d81-4d5d-a6a3-e25c3d141a54.png",
+          "minutes": 900
         }
       ],
       "src": "sunkwi"
@@ -1868,7 +2080,8 @@
       "rewards": [
         {
           "name": "Meccha Chameleon",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/dc41dfe9-5c6c-43a0-9c0f-32c8b509c489.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/dc41dfe9-5c6c-43a0-9c0f-32c8b509c489.png",
+          "minutes": 0
         }
       ],
       "src": "sunkwi"
@@ -1890,7 +2103,8 @@
       "rewards": [
         {
           "name": "Perlica",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/766b679b-99ac-403c-86f6-4f6351468a72.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/766b679b-99ac-403c-86f6-4f6351468a72.png",
+          "minutes": 0
         }
       ],
       "src": "sunkwi"
@@ -1912,19 +2126,23 @@
       "rewards": [
         {
           "name": "Enhanced CP",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/03adc5a2-a70c-4d55-a9e5-114f9fa75f56.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/03adc5a2-a70c-4d55-a9e5-114f9fa75f56.png",
+          "minutes": 60
         },
         {
           "name": "July GС Pack 1 Lab",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5a8de09d-a09c-408f-b523-59c8f4fdd57d.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5a8de09d-a09c-408f-b523-59c8f4fdd57d.png",
+          "minutes": 120
         },
         {
           "name": "Fifth Round Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f468d27b-2eb5-455f-9a40-86048215a81c.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f468d27b-2eb5-455f-9a40-86048215a81c.png",
+          "minutes": 180
         },
         {
           "name": "Footy Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f4234046-849a-4c38-992b-3a2c57ffc47d.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f4234046-849a-4c38-992b-3a2c57ffc47d.png",
+          "minutes": 240
         }
       ],
       "src": "sunkwi"
@@ -1946,11 +2164,13 @@
       "rewards": [
         {
           "name": "Update 15.6 Mission #1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9c03482a-38db-4bf1-9dda-a467ea835d25.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9c03482a-38db-4bf1-9dda-a467ea835d25.png",
+          "minutes": 90
         },
         {
           "name": "Twitch Container 15.6",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1903c727-8fef-40e2-8515-8dd8fecd14d7.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1903c727-8fef-40e2-8515-8dd8fecd14d7.png",
+          "minutes": 180
         }
       ],
       "src": "sunkwi"
@@ -1972,7 +2192,8 @@
       "rewards": [
         {
           "name": "SAND",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/63737b49-850b-4a1a-abb6-c6175be2f892.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/63737b49-850b-4a1a-abb6-c6175be2f892.png",
+          "minutes": 0
         }
       ],
       "src": "sunkwi"
@@ -1994,27 +2215,33 @@
       "rewards": [
         {
           "name": "2.8 Diamond×10",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0f6cc41f-e364-47e5-ad7c-8167c92a645e.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0f6cc41f-e364-47e5-ad7c-8167c92a645e.png",
+          "minutes": 15
         },
         {
           "name": "2.8 Diamond×20",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/89607247-2e87-4295-8151-e56840c09dfb.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/89607247-2e87-4295-8151-e56840c09dfb.png",
+          "minutes": 30
         },
         {
           "name": "2.8 Bling×20,000",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/01bec71d-c222-45fe-81dc-9271618fd818.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/01bec71d-c222-45fe-81dc-9271618fd818.png",
+          "minutes": 45
         },
         {
           "name": "2.8 Thread of Purity×100",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d9c5b80e-f78f-4cc5-991b-552299b12b6a.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d9c5b80e-f78f-4cc5-991b-552299b12b6a.png",
+          "minutes": 60
         },
         {
           "name": "2.8 Shining Particle×100",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f987c846-d581-4d29-8716-69fa16bd5c1e.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f987c846-d581-4d29-8716-69fa16bd5c1e.png",
+          "minutes": 90
         },
         {
           "name": "2.8 Shiny Bubbles x100",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b7c3e526-fd64-48fa-810d-0d8bca144a0d.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b7c3e526-fd64-48fa-810d-0d8bca144a0d.png",
+          "minutes": 120
         }
       ],
       "src": "sunkwi"
@@ -2036,7 +2263,8 @@
       "rewards": [
         {
           "name": "26.7 Боевая задача #2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/83163fc6-9e8d-4ead-9bc3-8236d63dd869.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/83163fc6-9e8d-4ead-9bc3-8236d63dd869.png",
+          "minutes": 240
         }
       ],
       "src": "sunkwi"
@@ -2058,23 +2286,28 @@
       "rewards": [
         {
           "name": "Gladiátor Köpeny (100 db)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e4eaaa38-1338-4754-bff0-391eda477350.jpeg"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e4eaaa38-1338-4754-bff0-391eda477350.jpeg",
+          "minutes": 120
         },
         {
           "name": "Gladiátor Gyűrű (1 db)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d7470587-7583-4aa5-8087-b358ee61c736.jpeg"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d7470587-7583-4aa5-8087-b358ee61c736.jpeg",
+          "minutes": 300
         },
         {
           "name": "Szerencsekő (1 db)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/065b2f7f-ab94-4a40-a213-08f0c2a872ae.jpeg"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/065b2f7f-ab94-4a40-a213-08f0c2a872ae.jpeg",
+          "minutes": 600
         },
         {
           "name": "Twitch Érme (1 db)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0a4c38ba-2bcd-4d53-8b6e-f7f4a2e3a547.jpeg"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0a4c38ba-2bcd-4d53-8b6e-f7f4a2e3a547.jpeg",
+          "minutes": 840
         },
         {
           "name": "Twitch Érme (1 db)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/14f9a9c0-fb51-4ad7-9109-f4aef7d9c9ac.jpeg"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/14f9a9c0-fb51-4ad7-9109-f4aef7d9c9ac.jpeg",
+          "minutes": 900
         }
       ],
       "src": "sunkwi"
@@ -2096,7 +2329,8 @@
       "rewards": [
         {
           "name": "Soulframe Preludes Key",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0308cb07-413f-4930-99ef-38fcf55dca45.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0308cb07-413f-4930-99ef-38fcf55dca45.png",
+          "minutes": 30
         }
       ],
       "src": "sunkwi"
@@ -2118,27 +2352,33 @@
       "rewards": [
         {
           "name": "Drop Reward 1 - SW3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/51fdbc96-c4b0-42ec-964c-8d83a89d7035.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/51fdbc96-c4b0-42ec-964c-8d83a89d7035.png",
+          "minutes": 30
         },
         {
           "name": "Drop Reward 2 - SW3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f8af9bb3-918f-466c-8100-c12e16df8646.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f8af9bb3-918f-466c-8100-c12e16df8646.png",
+          "minutes": 60
         },
         {
           "name": "Drop Reward 3 - SW3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/02d13e15-0bda-4ccc-91d6-2be8b8220ac4.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/02d13e15-0bda-4ccc-91d6-2be8b8220ac4.png",
+          "minutes": 90
         },
         {
           "name": "Drop Reward 4 - SW3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/89b58848-b6fc-41a5-8576-8d0398362ef6.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/89b58848-b6fc-41a5-8576-8d0398362ef6.png",
+          "minutes": 120
         },
         {
           "name": "Drop Reward 5 - SW3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2590a3e3-81de-4ad6-8787-2c76c33df76f.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2590a3e3-81de-4ad6-8787-2c76c33df76f.png",
+          "minutes": 180
         },
         {
           "name": "Drop Reward 6 - SW3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a3b44b04-b045-492a-8749-8abd95a757eb.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a3b44b04-b045-492a-8749-8abd95a757eb.png",
+          "minutes": 240
         }
       ],
       "src": "sunkwi"
@@ -2160,43 +2400,53 @@
       "rewards": [
         {
           "name": "EAS10#1 4x Gold CoinPouch",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f59d2c6f-076f-4382-9208-4474600db63e.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f59d2c6f-076f-4382-9208-4474600db63e.png",
+          "minutes": 720
         },
         {
           "name": "EAS10#1 Witness Emblem50",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b43b6afc-3913-4a89-bcc1-f4fa137dfc02.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b43b6afc-3913-4a89-bcc1-f4fa137dfc02.png",
+          "minutes": 840
         },
         {
           "name": "EAS10#1 Lockpick Set",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7594c965-702c-4dee-8d0c-722b4594152f.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7594c965-702c-4dee-8d0c-722b4594152f.png",
+          "minutes": 300
         },
         {
           "name": "EAS10#1 Not Ifrit",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9cbd65bc-437e-41b1-a5ab-ea0696e372aa.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9cbd65bc-437e-41b1-a5ab-ea0696e372aa.png",
+          "minutes": 900
         },
         {
           "name": "EAS10#1 15x Reward Tokens",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/77a3b0e0-54ca-412b-87ba-55385557acbb.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/77a3b0e0-54ca-412b-87ba-55385557acbb.png",
+          "minutes": 420
         },
         {
           "name": "EAS10#1 Rare PotionBundle",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/eb6bd6f4-edde-4cec-802e-e0ba34e6b99e.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/eb6bd6f4-edde-4cec-802e-e0ba34e6b99e.png",
+          "minutes": 480
         },
         {
           "name": "EAS10#1 Witness Emblem30",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f84b8829-4a4f-4521-940b-cfafb9042b33.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f84b8829-4a4f-4521-940b-cfafb9042b33.png",
+          "minutes": 600
         },
         {
           "name": "EAS10#1 Healing Supplies",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/48dab176-24a7-43cb-883e-4fff6c883506.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/48dab176-24a7-43cb-883e-4fff6c883506.png",
+          "minutes": 120
         },
         {
           "name": "EAS10#1 Witness Emblem20",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/619ae613-7473-4c97-ae64-d0d1707dd26c.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/619ae613-7473-4c97-ae64-d0d1707dd26c.png",
+          "minutes": 240
         },
         {
           "name": "EAS10#1 Witness Emblem10",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e82d26b5-5eca-4654-bc33-201c19b5fe2f.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e82d26b5-5eca-4654-bc33-201c19b5fe2f.png",
+          "minutes": 60
         }
       ],
       "src": "sunkwi"
@@ -2218,31 +2468,38 @@
       "rewards": [
         {
           "name": "Market Coins Bundle 1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/903496ad-de97-41ff-ad97-12f099e20ea8.jpeg"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/903496ad-de97-41ff-ad97-12f099e20ea8.jpeg",
+          "minutes": 120
         },
         {
           "name": "Market Coins Bundle 2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c237f9f4-051c-4fed-b454-abb32c3e77bb.jpeg"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c237f9f4-051c-4fed-b454-abb32c3e77bb.jpeg",
+          "minutes": 240
         },
         {
           "name": "Market Coins Bundle 3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/32d7e22a-e073-4507-8b82-500ebb448395.jpeg"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/32d7e22a-e073-4507-8b82-500ebb448395.jpeg",
+          "minutes": 360
         },
         {
           "name": "Market Coins Bundle 4",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/620d7b83-3e6a-4d84-bb47-f04c18c57868.jpeg"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/620d7b83-3e6a-4d84-bb47-f04c18c57868.jpeg",
+          "minutes": 480
         },
         {
           "name": "Market Coins Bundle 5",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0b8e4f8a-acdc-4e46-8a69-86f52c8bea5c.jpeg"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0b8e4f8a-acdc-4e46-8a69-86f52c8bea5c.jpeg",
+          "minutes": 600
         },
         {
           "name": "Market Coins Bundle 6",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3ac43663-e809-40fa-9afa-b37999ee4dac.jpeg"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3ac43663-e809-40fa-9afa-b37999ee4dac.jpeg",
+          "minutes": 720
         },
         {
           "name": "Market Coins Bundle 7",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/043434c4-1e73-40ae-80ec-ac836737e748.jpeg"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/043434c4-1e73-40ae-80ec-ac836737e748.jpeg",
+          "minutes": 840
         }
       ],
       "src": "sunkwi"
@@ -2264,15 +2521,18 @@
       "rewards": [
         {
           "name": "1 Day of Premium",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/075db935-cd69-42db-a87f-d436973f45e3.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/075db935-cd69-42db-a87f-d436973f45e3.png",
+          "minutes": 30
         },
         {
           "name": "100 UP's",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8c6bf298-85b3-4521-8994-3d59e637d713.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8c6bf298-85b3-4521-8994-3d59e637d713.png",
+          "minutes": 60
         },
         {
           "name": "Tactical Consumables Set",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/203e1a32-c0fc-4a46-bbb9-0ca0a0e5e046.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/203e1a32-c0fc-4a46-bbb9-0ca0a0e5e046.png",
+          "minutes": 90
         }
       ],
       "src": "sunkwi"
@@ -2294,7 +2554,8 @@
       "rewards": [
         {
           "name": "Jarritos",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f7cbf9e4-a48c-45bc-b18b-046a6d393457.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f7cbf9e4-a48c-45bc-b18b-046a6d393457.png",
+          "minutes": 900
         }
       ],
       "src": "sunkwi"
@@ -2316,7 +2577,8 @@
       "rewards": [
         {
           "name": "Special Random Gift",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/066c42e3-2599-4297-a7ec-25971442bdb3.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/066c42e3-2599-4297-a7ec-25971442bdb3.png",
+          "minutes": 60
         }
       ],
       "src": "sunkwi"
@@ -2338,35 +2600,43 @@
       "rewards": [
         {
           "name": "Light Streamer Colour",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9b3a7478-794d-4e50-9d46-545fed9ad1b4.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9b3a7478-794d-4e50-9d46-545fed9ad1b4.png",
+          "minutes": 90
         },
         {
           "name": "Deep Streamer Colour",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9d40daa3-c2a9-4d74-9bed-1b9dfc5c3d33.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9d40daa3-c2a9-4d74-9bed-1b9dfc5c3d33.png",
+          "minutes": 90
         },
         {
           "name": "Normal Streamer Colour",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bdde71b5-8700-4021-a1b3-b4cda13071e3.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bdde71b5-8700-4021-a1b3-b4cda13071e3.png",
+          "minutes": 90
         },
         {
           "name": "Twitch Slide - Static",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1e23ffba-3ddd-4af0-94c0-6f4209b32d5e.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1e23ffba-3ddd-4af0-94c0-6f4209b32d5e.png",
+          "minutes": 150
         },
         {
           "name": "Twitch Slide - Animated",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/02ab6372-5ccc-4e3c-847b-2a1d0282a335.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/02ab6372-5ccc-4e3c-847b-2a1d0282a335.png",
+          "minutes": 150
         },
         {
           "name": "Streamer Soul Skin",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8afe3d94-82e5-46ac-a9c1-8a0be662efe2.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8afe3d94-82e5-46ac-a9c1-8a0be662efe2.png",
+          "minutes": 300
         },
         {
           "name": "Enphosed Pongon Skin",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/83dec337-d6d3-4599-8692-be8e5352c677.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/83dec337-d6d3-4599-8692-be8e5352c677.png",
+          "minutes": 300
         },
         {
           "name": "Shiny Enphosed Skin",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5944c433-ca4d-44c8-a082-2b76071890a9.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5944c433-ca4d-44c8-a082-2b76071890a9.png",
+          "minutes": 300
         }
       ],
       "src": "sunkwi"
@@ -2388,11 +2658,13 @@
       "rewards": [
         {
           "name": "x2 Basic T3 Iso-8 Orb",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a24b7c3f-f471-4e3c-a28f-3851de3a4681.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a24b7c3f-f471-4e3c-a28f-3851de3a4681.png",
+          "minutes": 60
         },
         {
           "name": "Level Up Training Orb x1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/50d71948-5201-44ee-8be2-5c474a145646.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/50d71948-5201-44ee-8be2-5c474a145646.png",
+          "minutes": 120
         }
       ],
       "src": "sunkwi"
@@ -2414,67 +2686,83 @@
       "rewards": [
         {
           "name": "Fishing Bronze Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f2483ed6-caca-4982-832b-30a5788da2a3.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f2483ed6-caca-4982-832b-30a5788da2a3.png",
+          "minutes": 60
         },
         {
           "name": "Hunting Bronze Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e161beb4-1b29-4111-9157-46998164cc56.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e161beb4-1b29-4111-9157-46998164cc56.png",
+          "minutes": 60
         },
         {
           "name": "Fishing Silver Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba14718d-6cf5-4a25-9700-a7519603b571.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba14718d-6cf5-4a25-9700-a7519603b571.png",
+          "minutes": 180
         },
         {
           "name": "Hunting Silver Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c4ddccc8-db23-4340-8ee5-c7575da873c9.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c4ddccc8-db23-4340-8ee5-c7575da873c9.png",
+          "minutes": 180
         },
         {
           "name": "Hunting Gold Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/87a1284b-9471-4b76-92f3-1202af94c2e6.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/87a1284b-9471-4b76-92f3-1202af94c2e6.png",
+          "minutes": 300
         },
         {
           "name": "Fishing Gold Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/51cc6079-9e26-478e-b010-ebe250c9c28d.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/51cc6079-9e26-478e-b010-ebe250c9c28d.png",
+          "minutes": 300
         },
         {
           "name": "Hunting Random Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d71ed699-e335-4b36-aa07-08f9468620e5.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d71ed699-e335-4b36-aa07-08f9468620e5.png",
+          "minutes": 480
         },
         {
           "name": "Fishing Random Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2f407975-b01a-400c-b3bb-01196c8ab130.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2f407975-b01a-400c-b3bb-01196c8ab130.png",
+          "minutes": 480
         },
         {
           "name": "Hunting Epic Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7b186897-73e8-4934-aedc-87108a6fd854.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7b186897-73e8-4934-aedc-87108a6fd854.png",
+          "minutes": 900
         },
         {
           "name": "Fishing Epic Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f4b13e63-2abe-4d63-9984-2cb5ddda4735.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f4b13e63-2abe-4d63-9984-2cb5ddda4735.png",
+          "minutes": 900
         },
         {
           "name": "Albino/Mystic Token",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4e3d0638-dcbb-4a08-bbbe-4dc2bcafcaa1.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4e3d0638-dcbb-4a08-bbbe-4dc2bcafcaa1.png",
+          "minutes": 0
         },
         {
           "name": "Gold Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c21cec4b-555b-4584-99c0-e215ab2556c6.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c21cec4b-555b-4584-99c0-e215ab2556c6.png",
+          "minutes": 0
         },
         {
           "name": "Fishing Legendary Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/dffd0a91-125a-4a6d-a136-348971b519c1.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/dffd0a91-125a-4a6d-a136-348971b519c1.png",
+          "minutes": 0
         },
         {
           "name": "Hunting Legendary Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4e55f494-532a-47f9-b5e9-5357dd697909.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4e55f494-532a-47f9-b5e9-5357dd697909.png",
+          "minutes": 0
         },
         {
           "name": "Hunting Antler Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b6ef7240-4f53-4bd3-92a2-7f6666fd3699.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b6ef7240-4f53-4bd3-92a2-7f6666fd3699.png",
+          "minutes": 0
         },
         {
           "name": "Fishing Sharks Teeth Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/99f74d87-07fe-4821-b1b7-e89426aea396.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/99f74d87-07fe-4821-b1b7-e89426aea396.png",
+          "minutes": 0
         }
       ],
       "src": "sunkwi"
@@ -2496,31 +2784,38 @@
       "rewards": [
         {
           "name": "15 min Hardware XP Boost",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/71857667-4389-4cc8-8692-184baee87996.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/71857667-4389-4cc8-8692-184baee87996.png",
+          "minutes": 90
         },
         {
           "name": "Razor Wire",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ca6d2ed2-c86b-4b03-b48f-69aff8fe0515.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ca6d2ed2-c86b-4b03-b48f-69aff8fe0515.png",
+          "minutes": 120
         },
         {
           "name": "30 min Hardware XP Boost",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f65b980-fde5-42b3-bf70-8fa0c90b03a6.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f65b980-fde5-42b3-bf70-8fa0c90b03a6.png",
+          "minutes": 150
         },
         {
           "name": "Starved Yeti",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0d2e308b-de83-42d6-8ac7-a9d173a32d4d.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0d2e308b-de83-42d6-8ac7-a9d173a32d4d.png",
+          "minutes": 180
         },
         {
           "name": "60 min Hardware XP Boost",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d744c889-6f8a-469e-8631-ac0234abc13e.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d744c889-6f8a-469e-8631-ac0234abc13e.png",
+          "minutes": 210
         },
         {
           "name": "Badlands Assault",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f7fc8fbd-9b71-498e-95f4-eee1aa1a325b.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f7fc8fbd-9b71-498e-95f4-eee1aa1a325b.png",
+          "minutes": 240
         },
         {
           "name": "Cranial Blast",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/22d296cb-b0b9-41d5-beec-04e1302b21d4.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/22d296cb-b0b9-41d5-beec-04e1302b21d4.png",
+          "minutes": 60
         }
       ],
       "src": "sunkwi"
@@ -2542,7 +2837,8 @@
       "rewards": [
         {
           "name": "Cool Cat",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9b79bc30-f04e-450b-ab9e-42555b1b447f.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9b79bc30-f04e-450b-ab9e-42555b1b447f.png",
+          "minutes": 120
         }
       ],
       "src": "sunkwi"
@@ -2564,15 +2860,18 @@
       "rewards": [
         {
           "name": "(4) x3 Vehicle XP Booster",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6c916fdb-2a57-4801-89fd-dfb1b6b5c0f6.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6c916fdb-2a57-4801-89fd-dfb1b6b5c0f6.png",
+          "minutes": 240
         },
         {
           "name": "(2) x6 Commander Booster",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2df920df-bdfb-423d-a80a-a9d270995b06.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2df920df-bdfb-423d-a80a-a9d270995b06.png",
+          "minutes": 480
         },
         {
           "name": "10 Enhanced Med Kits",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/16e8e3bc-c27f-4b69-9740-c5bbd95dbce2.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/16e8e3bc-c27f-4b69-9740-c5bbd95dbce2.png",
+          "minutes": 120
         }
       ],
       "src": "sunkwi"
@@ -2594,7 +2893,8 @@
       "rewards": [
         {
           "name": "Rematch Nations Cup",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7d0b334d-dba5-4c4c-8c6b-b49a1d23716f.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7d0b334d-dba5-4c4c-8c6b-b49a1d23716f.png",
+          "minutes": 30
         }
       ],
       "src": "sunkwi"
@@ -2616,11 +2916,13 @@
       "rewards": [
         {
           "name": "Ravenpacks",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c1a6dc91-810d-4d68-ad0e-9a959ad99673.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c1a6dc91-810d-4d68-ad0e-9a959ad99673.png",
+          "minutes": 60
         },
         {
           "name": "Ghostly Infusion",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8a494732-93ac-4436-9f83-2f61050adfb7.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8a494732-93ac-4436-9f83-2f61050adfb7.png",
+          "minutes": 900
         }
       ],
       "src": "sunkwi"
@@ -2642,7 +2944,8 @@
       "rewards": [
         {
           "name": "Radiant Wilds Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
+          "minutes": 180
         }
       ],
       "src": "sunkwi"
@@ -2664,7 +2967,8 @@
       "rewards": [
         {
           "name": "2 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f2cb7c7c-7ecd-423e-af93-0d2fc21fcd96.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f2cb7c7c-7ecd-423e-af93-0d2fc21fcd96.png",
+          "minutes": 120
         }
       ],
       "src": "sunkwi"
@@ -2686,11 +2990,13 @@
       "rewards": [
         {
           "name": "Supply Crate",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/02add676-a7a5-48e1-a0b3-1882544705a5.jpeg"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/02add676-a7a5-48e1-a0b3-1882544705a5.jpeg",
+          "minutes": 30
         },
         {
           "name": "Random Charm",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/db2b74bc-3dd8-4dc9-a7d2-948939911455.jpeg"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/db2b74bc-3dd8-4dc9-a7d2-948939911455.jpeg",
+          "minutes": 240
         }
       ],
       "src": "sunkwi"
@@ -2712,11 +3018,13 @@
       "rewards": [
         {
           "name": "5000 Credits",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/efa90470-9e3c-4d31-ba73-ab1bdefc574e.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/efa90470-9e3c-4d31-ba73-ab1bdefc574e.png",
+          "minutes": 30
         },
         {
           "name": "2 x XP Boosters ",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2d2ef39f-22b4-473a-977b-26d5c4e50d4f.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2d2ef39f-22b4-473a-977b-26d5c4e50d4f.png",
+          "minutes": 120
         }
       ],
       "src": "sunkwi"
@@ -2738,7 +3046,8 @@
       "rewards": [
         {
           "name": "Regalia of Awakening",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
+          "minutes": 240
         }
       ],
       "src": "sunkwi"
@@ -2760,15 +3069,18 @@
       "rewards": [
         {
           "name": "155 Boosters",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/80c547ce-4c02-403e-881b-0185a1fe4131.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/80c547ce-4c02-403e-881b-0185a1fe4131.png",
+          "minutes": 120
         },
         {
           "name": "PMB",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7afff8e4-2fc8-43f6-b0ac-ad682ab974f7.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7afff8e4-2fc8-43f6-b0ac-ad682ab974f7.png",
+          "minutes": 240
         },
         {
           "name": "PMV",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d43ba6de-39c5-4bfb-a19d-4d7e10ae0c7c.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d43ba6de-39c5-4bfb-a19d-4d7e10ae0c7c.png",
+          "minutes": 360
         }
       ],
       "src": "sunkwi"
@@ -2790,7 +3102,8 @@
       "rewards": [
         {
           "name": "Twitch Reward Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
+          "minutes": 180
         }
       ],
       "src": "sunkwi"
@@ -2812,11 +3125,13 @@
       "rewards": [
         {
           "name": "Common+ Pack [1 Player]",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82a4b7fe-7458-4b59-b909-ebc30fc91521.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82a4b7fe-7458-4b59-b909-ebc30fc91521.png",
+          "minutes": 60
         },
         {
           "name": "Uncommon+ Pack [1 Player]",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png",
+          "minutes": 300
         }
       ],
       "src": "sunkwi"
@@ -2838,7 +3153,8 @@
       "rewards": [
         {
           "name": "Relink Fabicon badge",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b7f5b40a-ee44-44b9-a87a-c4f903ff52e6.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b7f5b40a-ee44-44b9-a87a-c4f903ff52e6.png",
+          "minutes": 0
         }
       ],
       "src": "sunkwi"
@@ -2860,7 +3176,8 @@
       "rewards": [
         {
           "name": "Jubilee Badge",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/591f101b-0872-48d0-bb2c-2cd2671b08c2.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/591f101b-0872-48d0-bb2c-2cd2671b08c2.png",
+          "minutes": 0
         }
       ],
       "src": "sunkwi"
@@ -2882,7 +3199,8 @@
       "rewards": [
         {
           "name": "Hotline Badge",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fd8bf18b-3105-4030-93c3-0aa7387dde35.png"
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fd8bf18b-3105-4030-93c3-0aa7387dde35.png",
+          "minutes": 0
         }
       ],
       "src": "sunkwi"

@@ -100,19 +100,16 @@
   .when{font-size:13px;color:var(--dim);font-variant-numeric:tabular-nums}
   .when b{color:var(--txt);font-weight:600}
 
-  .rewards{display:flex;flex-wrap:wrap;gap:7px}
-  .rw{display:flex;align-items:center;gap:6px;background:var(--panel2);border:1px solid var(--line);
-    padding:4px 10px;border-radius:8px;font-size:12px;color:var(--dim);max-width:100%}
-  .rw::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--purple);opacity:.6;flex:none}
-  .rw.has-img{padding-left:4px}
-  .rw.has-img::before{display:none}
-  .rw img{width:20px;height:20px;border-radius:4px;object-fit:cover;flex:none;background:#000}
-  .rw span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:150px}
-  .more{font-size:12px;color:var(--faint);align-self:center}
-
-  .foot{display:flex;align-items:center;margin-top:auto;padding-top:3px}
-  .link{margin-left:auto;font-size:12.5px;color:var(--blue);text-decoration:none;font-weight:500}
-  .link:hover{text-decoration:underline}
+  .rw-h{font-size:11px;font-weight:600;letter-spacing:.4px;text-transform:uppercase;color:var(--faint);margin-top:2px}
+  .rewards{display:flex;flex-direction:column;gap:6px;margin-top:1px}
+  .rw{display:flex;align-items:center;gap:9px;background:var(--panel2);border:1px solid var(--line);
+    padding:5px 10px;border-radius:8px;font-size:12.5px}
+  .rw .rw-img{width:26px;height:26px;border-radius:5px;object-fit:cover;flex:none;background:#000}
+  .rw .rw-ph{width:26px;height:26px;border-radius:5px;flex:none;background:var(--panel);border:1px solid var(--line);
+    display:flex;align-items:center;justify-content:center}
+  .rw .rw-ph::after{content:"";width:6px;height:6px;border-radius:50%;background:var(--purple);opacity:.65}
+  .rw .rw-name{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--txt)}
+  .rw .rw-min{flex:none;color:var(--amber);font-size:11.5px;font-weight:600;font-variant-numeric:tabular-nums;white-space:nowrap}
 
   .bgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
   .bcard{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--amber);
@@ -168,7 +165,7 @@ const state = { data:null, preview:false, filters:{upcoming:true,active:true,hid
 // Só é usado quando o arquivo é aberto localmente (file://), pra você ver o layout.
 // Publicado no Pages, o fetch funciona e estes dados NUNCA aparecem.
 const SAMPLE = { updated_at:new Date(Date.now()-4*60000).toISOString(), ok:true, campaigns:[
-  {name:"Rust Twitch Drops — Round 32", game:"Rust", status:"UPCOMING", start_at:new Date(Date.now()+3*D).toISOString(), end_at:new Date(Date.now()+8*D).toISOString(), availability:"open", channels:[], reward_type:"game", rewards:[{name:"Frontier Hoodie"},{name:"Frontier Pants"},{name:"Frontier Boots"},{name:"Frontier Gloves"}]},
+  {name:"Rust Twitch Drops — Round 32", game:"Rust", status:"UPCOMING", start_at:new Date(Date.now()+3*D).toISOString(), end_at:new Date(Date.now()+8*D).toISOString(), availability:"open", channels:[], reward_type:"game", required_minutes:180, rewards:[{name:"Frontier Hoodie",minutes:30},{name:"Frontier Pants",minutes:60},{name:"Frontier Boots",minutes:120},{name:"Frontier Gloves",minutes:180}]},
   {name:"Once Human — Lançamento", game:"Once Human", status:"UPCOMING", start_at:new Date(Date.now()+5*D).toISOString(), end_at:null, availability:"open", channels:[], reward_type:"game", rewards:[{name:"Deviant Skin"},{name:"Backpack"},{name:"Emote Pack"}]},
   {name:"TwitchCon Viewer Badge", game:"Just Chatting", status:"UPCOMING", start_at:new Date(Date.now()+2*D).toISOString(), end_at:null, availability:"open", channels:[], reward_type:"platform", rewards:[{name:"TwitchCon Badge"}]},
   {name:"VALORANT Champions Drops", game:"VALORANT", status:"ACTIVE", start_at:null, end_at:new Date(Date.now()+2*D).toISOString(), availability:"open", channels:[], reward_type:"game", rewards:[{name:"Champions Card"},{name:"Player Card"}]},
@@ -193,21 +190,25 @@ function rel(ts){
 function card(c){
   const up = c.status==="UPCOMING";
   const r = rel(up ? c.start_at : c.end_at);
-  const mins = c.required_minutes ? ` · ${c.required_minutes} min` : "";
+  const endD = up && c.end_at ? rel(c.end_at) : null;
   const when = r ? (up
-      ? `<div class="when">começa em <b>${r.text}</b> · ${r.date}${mins}</div>`
-      : `<div class="when">termina em <b>${r.text}</b> · ${r.date}${mins}</div>`)
-    : (mins ? `<div class="when">assistir${mins}</div>` : "");
+      ? `<div class="when">começa em <b>${r.text}</b> · ${r.date}${endD?` → até ${endD.date}`:""}</div>`
+      : `<div class="when">termina em <b>${r.text}</b> · ${r.date}</div>`)
+    : "";
 
   const box = tmpl(c.game_box,72,96) || tmpl(c.image,72,96);
   const initial = ((c.game||"?").trim().charAt(0) || "?").toUpperCase();
   const boxHtml = `<div class="box"><span class="bi">${esc(initial)}</span>${box?`<img src="${esc(box)}" loading="lazy" onerror="this.remove()">`:""}</div>`;
 
-  const rw = (c.rewards||[]).slice(0,3).map(x=>{
-    const img = tmpl(x.image,44,44);
-    return `<span class="rw${img?" has-img":""}">${img?`<img src="${esc(img)}" loading="lazy" onerror="this.remove()">`:""}<span>${esc(x.name)}</span></span>`;
+  const list = (c.rewards||[]).map(x=>{
+    const img = tmpl(x.image,52,52);
+    const thumb = img ? `<img class="rw-img" src="${esc(img)}" loading="lazy" onerror="this.style.display='none'">` : `<span class="rw-ph"></span>`;
+    const m = x.minutes ? `<span class="rw-min">${x.minutes} min</span>` : "";
+    return `<div class="rw">${thumb}<span class="rw-name">${esc(x.name)}</span>${m}</div>`;
   }).join("");
-  const more = (c.rewards||[]).length>3 ? `<span class="more">+${c.rewards.length-3}</span>` : "";
+  const rewards = list
+    ? `<div class="rw-h">Recompensas${c.required_minutes?` · até ${c.required_minutes} min assistindo`:""}</div><div class="rewards">${list}</div>`
+    : "";
 
   return `<div class="card ${up?"up":"live"}">
     <div class="top">
@@ -222,8 +223,7 @@ function card(c){
       <span class="pill ${c.reward_type==="game"?"p-game":"p-plat"}"><span class="pd"></span>${c.reward_type==="game"?"Item de jogo":"Badge / plataforma"}</span>
     </div>
     ${when}
-    <div class="rewards">${rw}${more}</div>
-    <div class="foot">${c.details_url?`<a class="link" href="${esc(c.details_url)}" target="_blank" rel="noopener">ver detalhes ↗</a>`:""}</div>
+    ${rewards}
   </div>`;
 }
 
