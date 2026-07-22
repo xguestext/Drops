@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-07-22T22:43:54Z",
+  "updated_at": "2026-07-22T23:58:14Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-22T22:43:02.323Z",
+  "source_updated": "2026-07-22T23:58:01.416Z",
   "counts": {
-    "total": 89,
-    "upcoming": 5,
-    "active": 84,
-    "game_drops": 86,
+    "total": 90,
+    "upcoming": 7,
+    "active": 83,
+    "game_drops": 87,
     "platform": 3,
     "badges": 5,
     "fechadas_descartadas": 42
@@ -126,32 +126,108 @@
       "src": "fenris"
     },
     {
-      "id": null,
-      "name": "2 drops",
+      "id": "11d111bb-eac9-4bc7-9f3d-d64f22f697b7",
+      "name": "Update 15.6 Drop: Week 2",
       "status": "UPCOMING",
-      "start_at": "2026-07-23T16:00:00Z",
+      "start_at": "2026-07-23T16:00:00.000Z",
+      "end_at": "2026-07-30T15:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "World of Warships",
+      "game_slug": "world-of-warships",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/32502_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Update 15.6 Mission #2",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e5bd5bb1-7b0a-4a04-ad21-6cd3c0322e47.png",
+          "minutes": 90
+        },
+        {
+          "name": "Twitch Container 15.6",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1903c727-8fef-40e2-8515-8dd8fecd14d7.png",
+          "minutes": 180
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "78336fb5-4a18-40f7-9bbb-c2b8142e212e",
+      "name": "FH - Y10 Season 2 - II",
+      "status": "UPCOMING",
+      "start_at": "2026-07-23T16:00:00.000Z",
       "end_at": "2026-08-13T15:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/7f767e11-1c42-4aef-b43e-8ffa921009bb.jpeg",
-      "details_url": "https://twitchdrops.app/game/for-honor",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
       "game": "For Honor",
       "game_slug": "for-honor",
-      "game_box": null,
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/490382-285x380.jpg",
       "availability": "open",
-      "required_minutes": null,
+      "required_minutes": 240,
       "reward_type": "game",
       "rewards": [
         {
           "name": "2 XP Boosts",
-          "image": null,
-          "minutes": null
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/507f8d4c-8db3-4513-870f-ccc89931ab4f.png",
+          "minutes": 60
+        },
+        {
+          "name": "1 Scavenger Crate",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ebabe2df-c29c-4a95-8359-f88e716f08ff.png",
+          "minutes": 60
         },
         {
           "name": "4 XP Boosts",
-          "image": null,
-          "minutes": null
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/da9bdc1d-f394-4e7c-ad72-87816a094e6e.png",
+          "minutes": 120
+        },
+        {
+          "name": "2 Scavenger Crates",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/db4cfc05-556f-4e53-95ce-5002c0ec58cd.png",
+          "minutes": 120
+        },
+        {
+          "name": "3 Days Champion Status",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2265e8ce-1077-4f54-a54b-2702f2057980.png",
+          "minutes": 120
+        },
+        {
+          "name": "4 Scavenger Creates",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a2d5878b-e602-497a-8a20-8e758250d490.png",
+          "minutes": 240
+        },
+        {
+          "name": "7 Days Champion Status",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9f00fd4c-ecba-4ff5-b27c-bac50cfd7537.png",
+          "minutes": 240
         }
       ],
-      "src": "twitchdrops"
+      "src": "fenris"
+    },
+    {
+      "id": "172a6fb8-0a6a-403c-83e8-b58edf1f923c",
+      "name": "Mobile Drop 105",
+      "status": "UPCOMING",
+      "start_at": "2026-07-23T17:59:00.000Z",
+      "end_at": "2026-07-24T17:56:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Rise Online",
+      "game_slug": "rise-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Regalia of Awakening",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
+          "minutes": 240
+        }
+      ],
+      "src": "fenris"
     },
     {
       "id": "adbe5148-18d4-43df-a32a-507e5acbc01b",
@@ -187,54 +263,6 @@
           "name": "Crystal*120",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/59d90596-0bb4-4b35-8eca-73c1dda58212.jpeg",
           "minutes": 180
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "7eef3464-58fd-4168-9910-f25145a76391",
-      "name": "Explore the Deep",
-      "status": "ACTIVE",
-      "start_at": "2026-06-25T15:00:00Z",
-      "end_at": "2026-07-22T23:29:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a75d231e-6fc7-45d3-b937-3de5b515ef83.png",
-      "details_url": "https://rewards.voyagersofnera.gg/",
-      "game": "Voyagers of Nera",
-      "game_slug": "voyagers-of-nera",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1374834939_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Twitch Mana Flare",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a0b7b0a5-e124-4cc5-b441-64f874f11c64.png",
-          "minutes": 30
-        },
-        {
-          "name": "Twitch Diving Knife",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9d2996ba-9212-43b7-95d8-4a791218a1c3.png",
-          "minutes": 45
-        },
-        {
-          "name": "Infused Stone Skimmer",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5f03c052-9435-4cfa-a744-684b71cb599f.png",
-          "minutes": 60
-        },
-        {
-          "name": "Twitch Sail",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/37663ec8-cdcc-482e-9f49-21ea42d835d2.png",
-          "minutes": 90
-        },
-        {
-          "name": "Infused Watering Can",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9ac7b0f3-c7ec-4478-8a35-23b153c90c2d.png",
-          "minutes": 120
-        },
-        {
-          "name": "Infused Stone Glider",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6c0d8ded-90f9-410a-9bf3-cf0aa597ecef.png",
-          "minutes": 0
         }
       ],
       "src": "sunkwi"
