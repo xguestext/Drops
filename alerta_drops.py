@@ -27,6 +27,7 @@ import re
 import sys
 import time
 import base64
+import socket
 import argparse
 import datetime
 import subprocess
@@ -287,6 +288,14 @@ def main():
     st = carrega_estado()
     if args.uma_vez:
         ciclo(cfg, st)
+        return
+
+    # instancia unica: se ja tem um vigia rodando, este sai quieto (evita aviso dobrado)
+    trava = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    try:
+        trava.bind(("127.0.0.1", 58311))
+    except OSError:
+        log("ja existe um vigia rodando; saindo.")
         return
 
     log("vigia ligado. intervalo: %s min. excluidos: %s" % (
