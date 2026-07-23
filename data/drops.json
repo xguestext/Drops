@@ -1,84 +1,18 @@
 {
-  "updated_at": "2026-07-23T11:23:07Z",
+  "updated_at": "2026-07-23T12:56:40Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-23T11:23:01.556Z",
+  "source_updated": "2026-07-23T12:56:01.540Z",
   "counts": {
-    "total": 89,
-    "upcoming": 7,
-    "active": 82,
-    "game_drops": 87,
+    "total": 86,
+    "upcoming": 5,
+    "active": 81,
+    "game_drops": 84,
     "platform": 2,
     "badges": 5,
     "fechadas_descartadas": 44
   },
   "campaigns": [
-    {
-      "id": "235403b7-fa15-40a5-bed1-64547ef361c8",
-      "name": "2026 BDO Drops (Jul 23)",
-      "status": "UPCOMING",
-      "start_at": "2026-07-23T12:00:00.000Z",
-      "end_at": "2026-07-24T11:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Black Desert",
-      "game_slug": "black-desert",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "2 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f2cb7c7c-7ecd-423e-af93-0d2fc21fcd96.png",
-          "minutes": 120
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "23aa1ecb-698b-4a90-9946-26b44e63fda1",
-      "name": "Season 3 Summer Drops",
-      "status": "UPCOMING",
-      "start_at": "2026-07-23T12:30:00.000Z",
-      "end_at": "2026-08-19T12:29:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Blue Protocol: Star Resonance",
-      "game_slug": "star-resonance",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/266795834_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 300,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Rose Orb (Bound) *100",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/468c1ce5-b768-45fc-ad1c-1952720b4c44.png",
-          "minutes": 15
-        },
-        {
-          "name": "Starland Medal *500",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e29209b0-d16c-4305-8fc6-82e5899eb289.png",
-          "minutes": 30
-        },
-        {
-          "name": "Starland Medal *1000",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a8921287-0cde-4332-ab0a-6c515b521516.png",
-          "minutes": 60
-        },
-        {
-          "name": "Rose Orb (Bound) *200",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/96189751-d09c-4636-87c4-3706aef5b04e.png",
-          "minutes": 180
-        },
-        {
-          "name": "Exotic Stellar Marrow *1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/acea0c2a-1ee4-4071-8f10-db5731e5228b.png",
-          "minutes": 300
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "1fd7d264-7028-4506-bc3c-b810650b14fa",
       "name": "Bikini Bottom Hype",
@@ -233,49 +167,6 @@
         }
       ],
       "src": "twitchdrops"
-    },
-    {
-      "id": "8e8ee750-a5c3-4afd-9681-e5ee0e664449",
-      "name": "Season 3 Special Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-06-26T12:30:00Z",
-      "end_at": "2026-07-23T12:29:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/66510009-4b6d-4973-870d-eb44ebcec99b.png",
-      "details_url": "https://www.playbpsr.com/twitch_bind",
-      "game": "Blue Protocol: Star Resonance",
-      "game_slug": "star-resonance",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/266795834_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 300,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Advanced Materials-S*5",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8b157693-5cd7-4576-8df8-416267e2ebfa.png",
-          "minutes": 300
-        },
-        {
-          "name": "Rose Orb (Bound)*100",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/32fcd7e4-e180-4dcb-83cb-6da05b46a120.png",
-          "minutes": 15
-        },
-        {
-          "name": "Modification Crystal*1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/37b9e544-9885-4402-bfd3-70374ad9bfd9.png",
-          "minutes": 30
-        },
-        {
-          "name": "Dye Pack - Select*5",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5d1c7aad-ba71-4595-9709-378fdd6b88c1.png",
-          "minutes": 60
-        },
-        {
-          "name": "Rose Orb (Bound)*200",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/591deeea-e677-4c02-9afd-840a008bf62e.png",
-          "minutes": 180
-        }
-      ],
-      "src": "sunkwi"
     },
     {
       "id": "3ecdb9e5-db13-4126-93dd-fd6627474284",
@@ -2581,104 +2472,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "2feb174c-9a32-4e50-b257-3f4eb930d151",
-      "name": "Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-07-21T11:42:19Z",
-      "end_at": "2026-07-23T11:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d65f61f5-861e-4c45-8d4f-2af47ac62088.png",
-      "details_url": "https://huntclubonstream.lovable.app/legal",
-      "game": "Hunt Club On Stream",
-      "game_slug": "hunt-club-on-stream",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2097881176_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 900,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Fishing Bronze Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f2483ed6-caca-4982-832b-30a5788da2a3.png",
-          "minutes": 60
-        },
-        {
-          "name": "Hunting Bronze Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e161beb4-1b29-4111-9157-46998164cc56.png",
-          "minutes": 60
-        },
-        {
-          "name": "Fishing Silver Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba14718d-6cf5-4a25-9700-a7519603b571.png",
-          "minutes": 180
-        },
-        {
-          "name": "Hunting Silver Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c4ddccc8-db23-4340-8ee5-c7575da873c9.png",
-          "minutes": 180
-        },
-        {
-          "name": "Hunting Gold Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/87a1284b-9471-4b76-92f3-1202af94c2e6.png",
-          "minutes": 300
-        },
-        {
-          "name": "Fishing Gold Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/51cc6079-9e26-478e-b010-ebe250c9c28d.png",
-          "minutes": 300
-        },
-        {
-          "name": "Hunting Random Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d71ed699-e335-4b36-aa07-08f9468620e5.png",
-          "minutes": 480
-        },
-        {
-          "name": "Fishing Random Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2f407975-b01a-400c-b3bb-01196c8ab130.png",
-          "minutes": 480
-        },
-        {
-          "name": "Hunting Epic Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7b186897-73e8-4934-aedc-87108a6fd854.png",
-          "minutes": 900
-        },
-        {
-          "name": "Fishing Epic Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f4b13e63-2abe-4d63-9984-2cb5ddda4735.png",
-          "minutes": 900
-        },
-        {
-          "name": "Albino/Mystic Token",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4e3d0638-dcbb-4a08-bbbe-4dc2bcafcaa1.png",
-          "minutes": 0
-        },
-        {
-          "name": "Gold Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c21cec4b-555b-4584-99c0-e215ab2556c6.png",
-          "minutes": 0
-        },
-        {
-          "name": "Fishing Legendary Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/dffd0a91-125a-4a6d-a136-348971b519c1.png",
-          "minutes": 0
-        },
-        {
-          "name": "Hunting Legendary Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4e55f494-532a-47f9-b5e9-5357dd697909.png",
-          "minutes": 0
-        },
-        {
-          "name": "Hunting Antler Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b6ef7240-4f53-4bd3-92a2-7f6666fd3699.png",
-          "minutes": 0
-        },
-        {
-          "name": "Fishing Sharks Teeth Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/99f74d87-07fe-4821-b1b7-e89426aea396.png",
-          "minutes": 0
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "0d1644dc-1880-48b4-b5fc-f4ce083ad0e1",
       "name": "Season 4 Launch",
       "status": "ACTIVE",
@@ -2834,29 +2627,6 @@
           "name": "Ghostly Infusion",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8a494732-93ac-4436-9f83-2f61050adfb7.png",
           "minutes": 900
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "a17f0572-bb21-4778-b8ff-9e73bed27df3",
-      "name": "2026 BDO Drops (Jul 22)",
-      "status": "ACTIVE",
-      "start_at": "2026-07-22T12:00:00Z",
-      "end_at": "2026-07-23T11:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/58193c7d-f58d-4e7c-bb6d-8f34e0e4b2e6.png",
-      "details_url": "https://www.naeu.playblackdesert.com/News/Detail?groupContentNo=5878",
-      "game": "Black Desert",
-      "game_slug": "black-desert",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "2 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f2cb7c7c-7ecd-423e-af93-0d2fc21fcd96.png",
-          "minutes": 120
         }
       ],
       "src": "sunkwi"
@@ -3200,6 +2970,72 @@
           "name": "Prismadium x 20",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2b1b7f52-9ed0-4901-abe5-77df4e01e16a.png",
           "minutes": 15
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "235403b7-fa15-40a5-bed1-64547ef361c8",
+      "name": "2026 BDO Drops (Jul 23)",
+      "status": "ACTIVE",
+      "start_at": "2026-07-23T12:00:00Z",
+      "end_at": "2026-07-24T11:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/b946419a-4154-44c7-a4d8-862bd86118f3.png",
+      "details_url": "https://www.naeu.playblackdesert.com/News/Detail?groupContentNo=5878",
+      "game": "Black Desert",
+      "game_slug": "black-desert",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "2 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f2cb7c7c-7ecd-423e-af93-0d2fc21fcd96.png",
+          "minutes": 120
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "23aa1ecb-698b-4a90-9946-26b44e63fda1",
+      "name": "Season 3 Summer Drops",
+      "status": "ACTIVE",
+      "start_at": "2026-07-23T12:30:00Z",
+      "end_at": "2026-08-19T12:29:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d2cf9f3b-74c4-475c-9f13-595fd48ed370.png",
+      "details_url": "https://www.playbpsr.com/twitch_bind",
+      "game": "Blue Protocol: Star Resonance",
+      "game_slug": "star-resonance",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/266795834_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 300,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Rose Orb (Bound) *100",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/468c1ce5-b768-45fc-ad1c-1952720b4c44.png",
+          "minutes": 15
+        },
+        {
+          "name": "Starland Medal *500",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e29209b0-d16c-4305-8fc6-82e5899eb289.png",
+          "minutes": 30
+        },
+        {
+          "name": "Starland Medal *1000",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a8921287-0cde-4332-ab0a-6c515b521516.png",
+          "minutes": 60
+        },
+        {
+          "name": "Rose Orb (Bound) *200",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/96189751-d09c-4636-87c4-3706aef5b04e.png",
+          "minutes": 180
+        },
+        {
+          "name": "Exotic Stellar Marrow *1",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/acea0c2a-1ee4-4071-8f10-db5731e5228b.png",
+          "minutes": 300
         }
       ],
       "src": "sunkwi"
