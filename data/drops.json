@@ -1,84 +1,18 @@
 {
-  "updated_at": "2026-07-23T09:06:07Z",
+  "updated_at": "2026-07-23T11:23:07Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-23T09:06:01.431Z",
+  "source_updated": "2026-07-23T11:23:01.556Z",
   "counts": {
-    "total": 90,
-    "upcoming": 8,
+    "total": 89,
+    "upcoming": 7,
     "active": 82,
-    "game_drops": 88,
+    "game_drops": 87,
     "platform": 2,
     "badges": 5,
-    "fechadas_descartadas": 43
+    "fechadas_descartadas": 44
   },
   "campaigns": [
-    {
-      "id": "bf45b48e-5d71-4f58-9848-985349dca004",
-      "name": "Radiant Wilds 15 - #4/7",
-      "status": "UPCOMING",
-      "start_at": "2026-07-23T10:00:00.000Z",
-      "end_at": "2026-07-24T09:29:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Albion Online",
-      "game_slug": "albion-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Radiant Wilds Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
-          "minutes": 180
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "c4f34d04-c271-4383-9fc2-51156f95d400",
-      "name": "Endless Summer",
-      "status": "UPCOMING",
-      "start_at": "2026-07-23T10:00:00.000Z",
-      "end_at": "2026-08-05T09:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Crystal of Atlan",
-      "game_slug": "crystal-of-atlan",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/741249831_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Prismadium x 20",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2b1b7f52-9ed0-4901-abe5-77df4e01e16a.png",
-          "minutes": 15
-        },
-        {
-          "name": "Bound Gold x 500K",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e952feed-e168-4660-97ab-ede82f93095f.png",
-          "minutes": 30
-        },
-        {
-          "name": "Spare Part Supply Box x20",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/438d2bce-c54e-4df2-a5cf-68f057a8f4aa.png",
-          "minutes": 60
-        },
-        {
-          "name": "Enhancement Funds x1,000k",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/204b4ab7-f41a-4ba3-b6db-5aa4d0867193.png",
-          "minutes": 120
-        },
-        {
-          "name": "Potent Catalyst x1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/35ad3688-6361-4147-8a88-c796c200f098.png",
-          "minutes": 180
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "235403b7-fa15-40a5-bed1-64547ef361c8",
       "name": "2026 BDO Drops (Jul 23)",
@@ -273,42 +207,32 @@
       "src": "fenris"
     },
     {
-      "id": "adbe5148-18d4-43df-a32a-507e5acbc01b",
-      "name": "V8.9 Special Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-06-25T10:00:00Z",
-      "end_at": "2026-07-23T09:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/72fc5e93-55ac-4389-bec8-3ce21e665ea8.png",
-      "details_url": "https://act.hoyoverse.com/puzzle/bh3/pz_gg2nWmyfbo/index.html?game_biz=bh3_global&utm_source=web&utm_medium=twitchdrops",
-      "game": "Honkai Impact 3rd",
-      "game_slug": "honkai-impact-3rd",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/506230_IGDB-120x160.jpg",
+      "id": null,
+      "name": "2 drops",
+      "status": "UPCOMING",
+      "start_at": "2026-07-24T10:00:00Z",
+      "end_at": "2026-07-27T09:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/8e4b1370-0b4f-45aa-851f-85377af4e224.png",
+      "details_url": "https://twitchdrops.app/game/infestation-the-new-z",
+      "game": "Infestation: The New Z",
+      "game_slug": "infestation-the-new-z",
+      "game_box": null,
       "availability": "open",
-      "required_minutes": 180,
+      "required_minutes": null,
       "reward_type": "game",
       "rewards": [
         {
-          "name": "Stamina Potion*1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/dcdebbe1-2c09-4831-a713-4c3fdbe512ad.jpeg",
-          "minutes": 15
+          "name": "Medieval 2026",
+          "image": null,
+          "minutes": null
         },
         {
-          "name": "Phase Shifter*1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3bb9c19d-4d85-4cbb-b6c1-7f5cd0f120e2.jpeg",
-          "minutes": 30
-        },
-        {
-          "name": "Asterite*1500",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7fd1b062-a6cf-4a95-a8bb-4c3e01e0661c.jpeg",
-          "minutes": 60
-        },
-        {
-          "name": "Crystal*120",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/59d90596-0bb4-4b35-8eca-73c1dda58212.jpeg",
-          "minutes": 180
+          "name": "Walter Legs",
+          "image": null,
+          "minutes": null
         }
       ],
-      "src": "sunkwi"
+      "src": "twitchdrops"
     },
     {
       "id": "8e8ee750-a5c3-4afd-9681-e5ee0e664449",
@@ -2915,29 +2839,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "25291aed-82e2-4204-84b2-744228bc97ce",
-      "name": "Radiant Wilds 15 - #3/7",
-      "status": "ACTIVE",
-      "start_at": "2026-07-22T10:00:00Z",
-      "end_at": "2026-07-23T09:29:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/737a9e28-01be-465c-ae53-56f560ae5a65.png",
-      "details_url": "https://forum.albiononline.com/index.php/Thread/214756-New-Twitch-Drops-Launching-Monday-July-28-2025/",
-      "game": "Albion Online",
-      "game_slug": "albion-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Radiant Wilds Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
-          "minutes": 180
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "a17f0572-bb21-4778-b8ff-9e73bed27df3",
       "name": "2026 BDO Drops (Jul 22)",
       "status": "ACTIVE",
@@ -3233,6 +3134,72 @@
           "name": "50 LP",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9e33b6d0-46b2-4763-b980-4eb99fba40e6.png",
           "minutes": 300
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "bf45b48e-5d71-4f58-9848-985349dca004",
+      "name": "Radiant Wilds 15 - #4/7",
+      "status": "ACTIVE",
+      "start_at": "2026-07-23T10:00:00Z",
+      "end_at": "2026-07-24T09:29:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/3dc4c476-9c74-418f-b4c9-554e6c899c95.png",
+      "details_url": "https://forum.albiononline.com/index.php/Thread/214756-New-Twitch-Drops-Launching-Monday-July-28-2025/",
+      "game": "Albion Online",
+      "game_slug": "albion-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Radiant Wilds Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
+          "minutes": 180
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "c4f34d04-c271-4383-9fc2-51156f95d400",
+      "name": "Endless Summer",
+      "status": "ACTIVE",
+      "start_at": "2026-07-23T10:00:00Z",
+      "end_at": "2026-08-05T09:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/0f85aee4-8752-42ec-a6fe-3ecbcf12df6f.png",
+      "details_url": "https://twitch-drop.games.skystone.games/",
+      "game": "Crystal of Atlan",
+      "game_slug": "crystal-of-atlan",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/741249831_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Potent Catalyst x1",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/35ad3688-6361-4147-8a88-c796c200f098.png",
+          "minutes": 180
+        },
+        {
+          "name": "Enhancement Funds x1,000k",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/204b4ab7-f41a-4ba3-b6db-5aa4d0867193.png",
+          "minutes": 120
+        },
+        {
+          "name": "Spare Part Supply Box x20",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/438d2bce-c54e-4df2-a5cf-68f057a8f4aa.png",
+          "minutes": 60
+        },
+        {
+          "name": "Bound Gold x 500K",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e952feed-e168-4660-97ab-ede82f93095f.png",
+          "minutes": 30
+        },
+        {
+          "name": "Prismadium x 20",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2b1b7f52-9ed0-4901-abe5-77df4e01e16a.png",
+          "minutes": 15
         }
       ],
       "src": "sunkwi"
