@@ -6,16 +6,17 @@ Drops Radar - programa de bandeja (fica na setinha perto do relogio).
 - Clique no icone         -> abre o site numa janela propria (viewer_site.py)
 - Botao direito           -> menu: Abrir / Testar notificacao / Sair
 - Vigia em segundo plano  -> drop novo EM BREVE (aberto a todos) ou BADGE nova chegando:
-                             notificacao CUSTOM bonita (capa do jogo, quando comeca, o que e,
-                             etiqueta DROP/BADGE). Some sozinha apos N segundos, PAUSA com o
-                             mouse em cima e FECHA no clique. Discord junto, se tiver webhook.
-- Liga com o Windows (bat na pasta Inicializar) e morre no desligar ou no Sair.
+                             notificacao desenhada IGUAL ao card do site (capa, pills,
+                             "comeca em X", recompensas com minutos). Some sozinha apos
+                             N segundos, PAUSA com o mouse em cima e FECHA no clique.
+- Liga com o Windows e morre no desligar ou no Sair.
 
 Uso: pythonw drops_tray.py          (normal, invisivel)
-     python  drops_tray.py --demo   (so mostra 2 notificacoes de exemplo e sai)
+     python  drops_tray.py --demo   (mostra 2 notificacoes de exemplo e sai)
 """
 import io
 import os
+import re
 import sys
 import queue
 import ctypes
@@ -25,14 +26,13 @@ import subprocess
 import datetime
 import urllib.request
 import tkinter as tk
-import tkinter.font as tkfont
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, AQUI)
 import checker            # noqa: E402
 import alerta_drops as al  # noqa: E402  (config/estado/discord/formatacao)
 
-from PIL import Image, ImageDraw, ImageTk  # noqa: E402
+from PIL import Image, ImageDraw, ImageTk, ImageFont  # noqa: E402
 import pystray             # noqa: E402
 
 SITE = "https://xguestext.github.io/Drops/"
@@ -40,133 +40,244 @@ PYW = os.path.join(os.environ.get("LOCALAPPDATA", ""), r"Programs\Python\Python3
 if not os.path.exists(PYW):
     PYW = "pythonw"
 
-# cores (mesmas do site)
-BG, CARD, LINHA = "#0d0d10", "#17171b", "#2a2a32"
+# paleta do site
+CARD, CARD2, LINHA = "#17171b", "#1e1e24", "#2a2a32"
 TXT, DIM, FAINT = "#efeff1", "#b0b0bb", "#787885"
-AZUL, VERDE, AMBAR, ROXO = "#3ea6ff", "#2ec16a", "#f0a83c", "#9147ff"
+AZUL, VERDE, AMBAR, ROXO, ROXO_LT = "#3ea6ff", "#2ec16a", "#f0a83c", "#9147ff", "#c9a6ff"
+# fundos das pills (cor com alpha ja misturada no fundo do card)
+PILL_AZUL, PILL_VERDE, PILL_ROXO, PILL_AMBAR, PILL_CINZA = "#1c2b3b", "#1a2d25", "#281e3b", "#352b20", "#232329"
+CHAVE_TRANSP = "#010101"   # cor que o tk torna transparente (cantos redondos de verdade)
 
 try:
-    ctypes.windll.shcore.SetProcessDpiAwareness(1)  # notificacao nitida em tela escalada
+    ctypes.windll.shcore.SetProcessDpiAwareness(1)
 except Exception:
     pass
 
 
+def fonte(px, peso="regular"):
+    nomes = {"regular": ["segoeui.ttf"], "bold": ["segoeuib.ttf", "seguisb.ttf", "segoeui.ttf"],
+             "semi": ["seguisb.ttf", "segoeuib.ttf", "segoeui.ttf"]}
+    for n in nomes.get(peso, ["segoeui.ttf"]):
+        try:
+            return ImageFont.truetype(n, px)
+        except Exception:
+            continue
+    return ImageFont.load_default()
+
+
 def rel_curto(iso):
-    """'em 2 dias' / 'em 5 h' / 'em 32 min'"""
     try:
         dt = datetime.datetime.fromisoformat(iso.replace("Z", "+00:00"))
         s = (dt - datetime.datetime.now(datetime.timezone.utc)).total_seconds()
         if s <= 0:
             return "agora"
         if s < 3600:
-            return "em %d min" % round(s / 60)
+            return "%d min" % round(s / 60)
         if s < 86400:
-            return "em %d h" % round(s / 3600)
+            return "%d h" % round(s / 3600)
         d = round(s / 86400)
-        return "em %d dia%s" % (d, "s" if d > 1 else "")
+        return "%d dia%s" % (d, "s" if d > 1 else "")
     except Exception:
-        return ""
+        return "?"
+
+
+def data_curta(iso):
+    try:
+        return datetime.datetime.fromisoformat(iso.replace("Z", "+00:00")).astimezone().strftime("%d/%m")
+    except Exception:
+        return "?"
 
 
 def baixa_imagem(url, alvo):
-    """Baixa e recorta a imagem pro tamanho do card. None se falhar."""
     if not url:
         return None
-    url = url.replace("{width}", "144").replace("{height}", "192")
+    url = url.replace("{width}", str(alvo[0] * 2)).replace("{height}", str(alvo[1] * 2))
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "drops-radar-tray/1.0"})
         with urllib.request.urlopen(req, timeout=15) as r:
             img = Image.open(io.BytesIO(r.read())).convert("RGB")
-        img.thumbnail((alvo[0] * 2, alvo[1] * 2))
-        img = img.resize(alvo, Image.LANCZOS)
         return img
     except Exception:
         return None
 
 
-def imagem_placeholder(letra, alvo, cor=ROXO):
-    img = Image.new("RGB", alvo, "#1e1e24")
+def cobre(img, alvo):
+    """Recorta a imagem pra preencher o alvo (tipo object-fit: cover)."""
+    if img is None:
+        return None
+    r_alvo = alvo[0] / alvo[1]
+    r_img = img.width / img.height
+    if r_img > r_alvo:
+        w = int(img.height * r_alvo)
+        x = (img.width - w) // 2
+        img = img.crop((x, 0, x + w, img.height))
+    else:
+        h = int(img.width / r_alvo)
+        y = (img.height - h) // 2
+        img = img.crop((0, y, img.width, y + h))
+    return img.resize(alvo, Image.LANCZOS)
+
+
+def arredonda(img, raio):
+    m = Image.new("L", img.size, 0)
+    ImageDraw.Draw(m).rounded_rectangle([0, 0, img.width - 1, img.height - 1], raio, fill=255)
+    out = img.convert("RGBA")
+    out.putalpha(m)
+    return out
+
+
+def placeholder(letra, alvo, cor=ROXO_LT):
+    img = Image.new("RGB", alvo, CARD2)
     d = ImageDraw.Draw(img)
-    d.rectangle([0, 0, alvo[0] - 1, alvo[1] - 1], outline="#2a2a32")
-    try:
-        from PIL import ImageFont
-        f = ImageFont.truetype("segoeuib.ttf", int(alvo[1] * 0.42))
-    except Exception:
-        f = None
+    f = fonte(int(alvo[1] * 0.42), "bold")
     d.text((alvo[0] / 2, alvo[1] / 2), (letra or "?")[:1].upper(), fill=cor, font=f, anchor="mm")
     return img
 
 
-# ---------------- notificacao custom ----------------
+def _corta(d, txt, f, maxw):
+    if d.textlength(txt, font=f) <= maxw:
+        return txt
+    while txt and d.textlength(txt + "…", font=f) > maxw:
+        txt = txt[:-1]
+    return txt + "…"
+
+
+def renderiza_card(dado):
+    """Desenha a notificacao IGUAL ao card do site. Retorna PIL RGB (fundo CHAVE_TRANSP)."""
+    S = 2                       # superamostragem pra ficar nitido
+    W = 420 * S
+    pad = 16 * S
+    stripe = dado.get("cor", AZUL)
+
+    f_eyebrow = fonte(11 * S, "bold")
+    f_nome = fonte(15 * S, "semi")
+    f_pill = fonte(10 * S, "semi")
+    f_tempo = fonte(11 * S)
+    f_tempo_b = fonte(11 * S, "bold")
+    f_head = fonte(9 * S, "bold")
+    f_rw = fonte(10 * S)
+    f_min = fonte(10 * S, "bold")
+
+    box_w, box_h = 56 * S, 76 * S
+    rewards = dado.get("rewards") or []
+    n_rw = min(len(rewards), 2)
+    extra = len(rewards) - n_rw
+    tem_nota = bool(dado.get("nota"))
+
+    y_top = pad + max(box_h, 68 * S)
+    y_pills = y_top + 10 * S
+    y_tempo = y_pills + 24 * S + 10 * S
+    y_head = y_tempo + 18 * S + 12 * S
+    y_rw = y_head + (16 * S if (rewards or tem_nota) else 0)
+    H = y_rw + n_rw * (34 * S + 6 * S) + (16 * S if extra > 0 else 0) \
+        + (20 * S if tem_nota else 0) + pad
+    if not rewards and not tem_nota:
+        H = y_tempo + 18 * S + pad
+
+    base = Image.new("RGB", (W, H), CHAVE_TRANSP)
+    d = ImageDraw.Draw(base)
+    r = 14 * S
+    # card com listra colorida na esquerda (igual ao site)
+    d.rounded_rectangle([0, 0, W - 1, H - 1], r, fill=stripe)
+    d.rounded_rectangle([3 * S, 0, W - 1, H - 1], r, fill=CARD, outline=LINHA, width=S)
+
+    # capa
+    box = cobre(dado.get("box"), (box_w, box_h)) or placeholder(dado.get("titulo"), (box_w, box_h))
+    base.paste(arredonda(box, 8 * S), (pad + 2 * S, pad), arredonda(box, 8 * S))
+
+    tx = pad + 2 * S + box_w + 12 * S
+    maxw = W - tx - pad
+    # eyebrow (nome do jogo em roxo, maiusculo)
+    d.text((tx, pad + 2 * S), _corta(d, (dado.get("eyebrow") or "").upper(), f_eyebrow, maxw),
+           fill=dado.get("cor_eyebrow", ROXO_LT), font=f_eyebrow)
+    # titulo (nome da campanha)
+    titulo = _corta(d, dado.get("titulo") or "", f_nome, maxw)
+    d.text((tx, pad + 20 * S), titulo, fill=TXT, font=f_nome)
+
+    # pills
+    x = pad + 2 * S
+    for txt_p, cor_txt, cor_bg in dado.get("pills") or []:
+        wt = d.textlength(txt_p, font=f_pill)
+        wp = int(wt + 30 * S)
+        d.rounded_rectangle([x, y_pills, x + wp, y_pills + 22 * S], 11 * S, fill=cor_bg)
+        d.ellipse([x + 10 * S, y_pills + 8 * S, x + 16 * S, y_pills + 14 * S], fill=cor_txt)
+        d.text((x + 21 * S, y_pills + 4 * S), txt_p, fill=cor_txt, font=f_pill)
+        x += wp + 7 * S
+
+    # linha do tempo: segmentos (texto, cor, negrito)
+    x = pad + 2 * S
+    for seg, cor_s, b in dado.get("tempo") or []:
+        f = f_tempo_b if b else f_tempo
+        d.text((x, y_tempo), seg, fill=cor_s, font=f)
+        x += d.textlength(seg, font=f)
+
+    # recompensas
+    if rewards:
+        d.text((pad + 2 * S, y_head), (dado.get("head") or "RECOMPENSAS"), fill=FAINT, font=f_head)
+        y = y_rw
+        for nome_r, min_r, img_r in rewards[:n_rw]:
+            d.rounded_rectangle([pad + 2 * S, y, W - pad, y + 34 * S], 8 * S,
+                                fill=CARD2, outline=LINHA, width=S)
+            xi = pad + 8 * S
+            th = cobre(img_r, (24 * S, 24 * S)) if img_r else None
+            if th is not None:
+                th = arredonda(th, 5 * S)
+                base.paste(th, (int(xi), int(y + 5 * S)), th)
+            else:
+                d.ellipse([xi + 8 * S, y + 14 * S, xi + 14 * S, y + 20 * S], fill=ROXO)
+            min_txt = ("%d min" % min_r) if min_r else ""
+            wmin = d.textlength(min_txt, font=f_min) if min_txt else 0
+            d.text((xi + 32 * S, y + 9 * S),
+                   _corta(d, nome_r or "", f_rw, W - pad - xi - 40 * S - wmin - 12 * S),
+                   fill=TXT, font=f_rw)
+            if min_txt:
+                d.text((W - pad - 10 * S - wmin, y + 9 * S), min_txt, fill=AMBAR, font=f_min)
+            y += 40 * S
+        if extra > 0:
+            d.text((pad + 2 * S, y), "+%d recompensa%s" % (extra, "s" if extra > 1 else ""),
+                   fill=FAINT, font=f_rw)
+    elif tem_nota:
+        d.text((pad + 2 * S, y_head), _corta(d, dado["nota"], f_rw, W - 2 * pad), fill=DIM, font=f_rw)
+
+    return base.resize((W // S, H // S), Image.LANCZOS)
+
+
+# ---------------- notificacao (janela) ----------------
 
 class Notificacao(tk.Toplevel):
     ABERTAS = []
 
-    def __init__(self, root, titulo, etiqueta, cor, linha1, linha2, pil_img, segundos=12):
+    def __init__(self, root, pil_card, segundos=12):
         super().__init__(root)
         self.overrideredirect(True)
         self.attributes("-topmost", True)
-        self.configure(bg=LINHA)
+        self.configure(bg=CHAVE_TRANSP)
+        try:
+            self.attributes("-transparentcolor", CHAVE_TRANSP)  # cantos redondos de verdade
+        except tk.TclError:
+            pass
 
-        self.restante = int(segundos * 10)   # decimos de segundo
+        self.restante = int(segundos * 10)
         self.pausado = False
 
-        W, H = 400, 116
-        borda = tk.Frame(self, bg=LINHA)
-        borda.pack(fill="both", expand=True)
-        faixa = tk.Frame(borda, bg=cor, width=4)
-        faixa.pack(side="left", fill="y")
-        card = tk.Frame(borda, bg=CARD)
-        card.pack(side="left", fill="both", expand=True, padx=(0, 1), pady=1)
+        self._img = ImageTk.PhotoImage(pil_card)
+        lbl = tk.Label(self, image=self._img, bg=CHAVE_TRANSP, bd=0)
+        lbl.pack()
+        lbl.bind("<Button-1>", lambda e: self.fechar())
+        lbl.bind("<Enter>", lambda e: setattr(self, "pausado", True))
+        lbl.bind("<Leave>", lambda e: setattr(self, "pausado", False))
 
-        f_tit = tkfont.Font(family="Segoe UI", size=11, weight="bold")
-        f_tag = tkfont.Font(family="Segoe UI", size=8, weight="bold")
-        f_txt = tkfont.Font(family="Segoe UI", size=9)
-
-        self._img = ImageTk.PhotoImage(pil_img)
-        lbl_img = tk.Label(card, image=self._img, bg=CARD, bd=0)
-        lbl_img.pack(side="left", padx=(12, 10), pady=12)
-
-        corpo = tk.Frame(card, bg=CARD)
-        corpo.pack(side="left", fill="both", expand=True, pady=10)
-
-        topo = tk.Frame(corpo, bg=CARD)
-        topo.pack(fill="x", anchor="w")
-        tk.Label(topo, text=titulo, font=f_tit, fg=TXT, bg=CARD, anchor="w").pack(side="left")
-        tk.Label(topo, text=" " + etiqueta + " ", font=f_tag, fg="#101014", bg=cor).pack(side="left", padx=8)
-
-        tk.Label(corpo, text=linha1, font=f_txt, fg=DIM, bg=CARD, anchor="w",
-                 wraplength=280, justify="left").pack(fill="x", anchor="w", pady=(3, 0))
-        tk.Label(corpo, text=linha2, font=f_txt, fg=FAINT, bg=CARD, anchor="w",
-                 wraplength=280, justify="left").pack(fill="x", anchor="w", pady=(2, 0))
-
-        # posicao: canto inferior direito, empilhando pra cima
+        W, H = pil_card.width, pil_card.height
         self.update_idletasks()
         sw, sh = self.winfo_screenwidth(), self.winfo_screenheight()
-        ocupado = sum(n.winfo_height() + 10 for n in Notificacao.ABERTAS if n.winfo_exists())
-        x = sw - W - 16
-        y = sh - 56 - H - ocupado
-        self.geometry("%dx%d+%d+%d" % (W, H, x, y))
+        ocupado = sum(n._h + 10 for n in Notificacao.ABERTAS if n.winfo_exists())
+        self._h = H
+        self.geometry("%dx%d+%d+%d" % (W, H, sw - W - 16, sh - 58 - H - ocupado))
         Notificacao.ABERTAS.append(self)
 
-        # clique fecha; mouse em cima pausa o relogio
-        for w in self._todos_widgets(self):
-            w.bind("<Button-1>", lambda e: self.fechar())
-            w.bind("<Enter>", lambda e: self._pausa(True))
-            w.bind("<Leave>", lambda e: self._pausa(False))
-
-        # fade in
         self.attributes("-alpha", 0.0)
-        self._fade(0.0, +0.12)
+        self._fade(0.0, +0.14)
         self.after(100, self._tic)
-
-    def _todos_widgets(self, w):
-        yield w
-        for c in w.winfo_children():
-            yield from self._todos_widgets(c)
-
-    def _pausa(self, v):
-        self.pausado = v
 
     def _fade(self, a, passo):
         a = max(0.0, min(1.0, a + passo))
@@ -185,12 +296,12 @@ class Notificacao(tk.Toplevel):
         if not self.pausado:
             self.restante -= 1
             if self.restante <= 0:
-                self._fade(1.0, -0.12)
+                self._fade(1.0, -0.14)
                 return
         self.after(100, self._tic)
 
     def fechar(self):
-        self._fade(1.0, -0.25)
+        self._fade(1.0, -0.3)
 
     def _some(self):
         try:
@@ -202,33 +313,48 @@ class Notificacao(tk.Toplevel):
 
 # ---------------- montagem dos avisos ----------------
 
-def notif_drop(q, c, comecou=False):
-    img = baixa_imagem(c.get("game_box") or c.get("image"), (64, 86)) \
-        or imagem_placeholder(c.get("game"), (64, 86))
+def monta_drop(c, comecou=False):
+    box = baixa_imagem(c.get("game_box") or c.get("image"), (56, 76))
+    pill_tipo = ("Item de jogo", ROXO_LT, PILL_ROXO) if c.get("reward_type") == "game" \
+        else ("Badge / plataforma", FAINT, PILL_CINZA)
     if comecou:
-        etiqueta, cor = "DROP · COMEÇOU", VERDE
-        linha1 = "Já dá pra farmar · termina %s" % al.hora_local(c.get("end_at"))
+        pills = [("Ativo", VERDE, PILL_VERDE), pill_tipo]
+        tempo = [("termina em ", DIM, False), (rel_curto(c.get("end_at")), TXT, True),
+                 (" · até %s" % data_curta(c.get("end_at")), DIM, False)]
+        cor = VERDE
     else:
-        etiqueta, cor = "DROP · EM BREVE", AZUL
-        linha1 = "Começa %s (%s) · todos os canais" % (
-            al.hora_local(c.get("start_at")), rel_curto(c.get("start_at")))
-    q.put(("popup", dict(titulo=c.get("game") or "?", etiqueta=etiqueta, cor=cor,
-                         linha1=linha1, linha2=al.resumo_recompensas(c, 3), img=img)))
+        pills = [("Em breve", AZUL, PILL_AZUL), pill_tipo]
+        tempo = [("começa em ", DIM, False), (rel_curto(c.get("start_at")), TXT, True),
+                 (" · %s" % data_curta(c.get("start_at")), DIM, False)]
+        if c.get("end_at"):
+            tempo.append((" → até %s" % data_curta(c.get("end_at")), DIM, False))
+        cor = AZUL
+    rewards = [(r.get("name"), r.get("minutes"), baixa_imagem(r.get("image"), (24, 24)))
+               for r in (c.get("rewards") or [])[:3]]
+    head = "RECOMPENSAS"
+    if c.get("required_minutes"):
+        head += " · ATÉ %d MIN ASSISTINDO" % c["required_minutes"]
+    return dict(cor=cor, eyebrow=c.get("game"), cor_eyebrow=ROXO_LT,
+                titulo=c.get("name") or c.get("game"), pills=pills, tempo=tempo,
+                head=head, rewards=rewards, box=box)
 
 
-def notif_badge(q, b):
-    img = baixa_imagem((b.get("images") or [None])[0], (56, 56))
-    img = img or imagem_placeholder(b.get("title"), (56, 56), AMBAR)
-    # centraliza badge menor num quadro do mesmo tamanho do card de drop
-    quadro = Image.new("RGB", (64, 86), CARD)
-    quadro.paste(img, (4, 15))
-    q.put(("popup", dict(titulo=(b.get("title") or "?")[:34], etiqueta="BADGE · CHEGANDO", cor=AMBAR,
-                         linha1="Começa %s (%s)" % (al.hora_local(b.get("start_at")), rel_curto(b.get("start_at"))),
-                         linha2=(b.get("note") or "Badge global de evento da Twitch")[:90], img=quadro)))
+def monta_badge(b):
+    box = baixa_imagem((b.get("images") or [None])[0], (56, 56))
+    if box is not None:
+        q = Image.new("RGB", (56, 76), CARD2)
+        q.paste(cobre(box, (48, 48)), (4, 14))
+        box = q
+    tempo = [("começa em ", DIM, False), (rel_curto(b.get("start_at")), TXT, True),
+             (" · %s" % data_curta(b.get("start_at")), DIM, False)]
+    return dict(cor=AMBAR, eyebrow="Badge da Twitch", cor_eyebrow=AMBAR,
+                titulo=b.get("title"), tempo=tempo,
+                pills=[("Em breve", AZUL, PILL_AZUL), ("Badge", AMBAR, PILL_AMBAR)],
+                rewards=[], nota=(b.get("note") or "Badge global de evento da Twitch")[:70],
+                box=box)
 
 
 def chave_badge(b):
-    import re
     return re.sub(r"[^a-z0-9]", "", (b.get("title") or "").lower()) + "|" + (b.get("start_at") or "")[:10]
 
 
@@ -255,19 +381,17 @@ def vigia(q, parar):
                     vistos[al.chave(c)] = c.get("start_at") or ""
                 st["primeira_vez"] = False
 
-            # drops novos "em breve"
             for c in ups:
                 k = al.chave(c)
                 if k not in vistos:
                     vistos[k] = c.get("start_at") or ""
-                    notif_drop(q, c)
+                    q.put(("popup", monta_drop(c)))
                     al.discord(cfg, "🔜 %s" % (c.get("game") or "?"),
                                "**%s**\nComeça **%s** · aberto a todos os canais\n%s"
                                % (c.get("name") or "", al.hora_local(c.get("start_at")),
                                   al.resumo_recompensas(c)), al.AZUL,
                                c.get("image") or c.get("game_box"))
 
-            # vigiado comecou
             if cfg.get("avisar_quando_comecar", True):
                 por_chave = {al.chave(c): c for c in atv}
                 for k in list(vistos.keys()):
@@ -275,14 +399,13 @@ def vigia(q, parar):
                     if c and k not in avisados:
                         avisados.add(k)
                         st["avisados_inicio"] = sorted(avisados)
-                        notif_drop(q, c, comecou=True)
+                        q.put(("popup", monta_drop(c, comecou=True)))
                         al.discord(cfg, "🟢 %s — começou!" % (c.get("game") or "?"),
                                    "**%s**\nJá dá pra farmar · termina %s\n%s"
                                    % (c.get("name") or "", al.hora_local(c.get("end_at")),
                                       al.resumo_recompensas(c)), al.VERDE,
                                    c.get("image") or c.get("game_box"))
 
-            # badges novas chegando
             vb = st["vistos_badges"]
             for b in col["badges"]:
                 if al.bloqueado(b.get("title"), cfg):
@@ -292,23 +415,22 @@ def vigia(q, parar):
                     continue
                 vb[k] = b.get("start_at") or ""
                 if not primeira_badge:
-                    notif_badge(q, b)
+                    q.put(("popup", monta_badge(b)))
                     al.discord(cfg, "🏅 %s" % (b.get("title") or "?"),
                                "Badge chegando · começa **%s**\n%s"
                                % (al.hora_local(b.get("start_at")), b.get("note") or ""),
                                0xF0A83C, (b.get("images") or [None])[0])
             primeira_badge = False
 
-            # limpeza de vistos mortos
             existentes = {al.chave(c) for c in camps}
             for k in list(vistos.keys()):
                 if k not in existentes and k in avisados:
                     del vistos[k]
             st["avisados_inicio"] = [k for k in avisados if k in vistos or k in existentes]
-            agora10 = (datetime.datetime.now(datetime.timezone.utc)
-                       - datetime.timedelta(days=10)).strftime("%Y-%m-%dT%H:%M:%SZ")
+            corte = (datetime.datetime.now(datetime.timezone.utc)
+                     - datetime.timedelta(days=10)).strftime("%Y-%m-%dT%H:%M:%SZ")
             for k in list(vb.keys()):
-                if (vb[k] or "9999") < agora10:
+                if (vb[k] or "9999") < corte:
                     del vb[k]
 
             al.salva_estado(st)
@@ -323,7 +445,6 @@ def vigia(q, parar):
 # ---------------- bandeja ----------------
 
 def icone_bandeja():
-    """Presentinho roxo (drop) desenhado na mao."""
     img = Image.new("RGBA", (64, 64), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
     d.rounded_rectangle([6, 20, 58, 58], 10, fill=ROXO)
@@ -332,6 +453,29 @@ def icone_bandeja():
     d.rounded_rectangle([10, 8, 30, 22], 7, outline=ROXO, width=5)
     d.rounded_rectangle([34, 8, 54, 22], 7, outline=ROXO, width=5)
     return img
+
+
+def exemplo_para_teste(q):
+    """Tenta usar um drop e uma badge REAIS; se a rede falhar, usa exemplos fixos."""
+    try:
+        col = checker.coletar(incluir_badges=True)
+        cfg = al.carrega_config()
+        ups = [c for c in col["camps"] if al.relevante(c, cfg) and c.get("status") == "UPCOMING"] \
+            or [c for c in col["camps"] if al.relevante(c, cfg)]
+        if ups:
+            q.put(("popup", monta_drop(ups[0])))
+        if col["badges"]:
+            q.put(("popup", monta_badge(col["badges"][0])))
+        if ups or col["badges"]:
+            return
+    except Exception:
+        pass
+    amanha = (datetime.datetime.now(datetime.timezone.utc)
+              + datetime.timedelta(hours=49 / 60 * 60)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    q.put(("popup", monta_drop({"game": "Silver Palace", "name": "Dichotomy Beta Test Drops",
+                                "status": "UPCOMING", "start_at": amanha, "end_at": None,
+                                "reward_type": "game", "required_minutes": 30,
+                                "rewards": [{"name": "Beta Test Raffle Ticket", "minutes": 30}]})))
 
 
 def main():
@@ -358,15 +502,7 @@ def main():
         viewer["p"] = subprocess.Popen([PYW, os.path.join(AQUI, "viewer_site.py")], cwd=AQUI)
 
     def testar(*_):
-        fake = {"game": "Rust", "name": "Twitch Drops - Round 33", "status": "UPCOMING",
-                "start_at": (datetime.datetime.now(datetime.timezone.utc)
-                             + datetime.timedelta(days=2)).strftime("%Y-%m-%dT%H:%M:%SZ"),
-                "end_at": None, "game_box": None, "image": None,
-                "rewards": [{"name": "Frontier Hoodie"}, {"name": "Frontier Pants"},
-                            {"name": "Frontier Boots"}, {"name": "Frontier Gloves"}]}
-        notif_drop(q, fake)
-        notif_badge(q, {"title": "TwitchCon 2027 Berlin", "start_at": fake["start_at"],
-                        "note": "Badge global de evento da Twitch", "images": []})
+        threading.Thread(target=exemplo_para_teste, args=(q,), daemon=True).start()
 
     def sair(icon=None, *_):
         parar.set()
@@ -383,8 +519,7 @@ def main():
                     return
                 if tipo == "popup":
                     cfg = al.carrega_config()
-                    Notificacao(root, dado["titulo"], dado["etiqueta"], dado["cor"],
-                                dado["linha1"], dado["linha2"], dado["img"],
+                    Notificacao(root, renderiza_card(dado),
                                 segundos=int(cfg.get("notificacao_segundos", 12)))
         except queue.Empty:
             pass
@@ -392,7 +527,7 @@ def main():
 
     if demo:
         testar()
-        root.after(20000, root.destroy)
+        root.after(25000, root.destroy)
         processa_fila()
         root.mainloop()
         return
