@@ -1,41 +1,18 @@
 {
-  "updated_at": "2026-07-23T16:55:20Z",
+  "updated_at": "2026-07-23T18:09:39Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-23T16:55:01.567Z",
+  "source_updated": "2026-07-23T18:09:01.579Z",
   "counts": {
-    "total": 94,
+    "total": 95,
     "upcoming": 9,
-    "active": 85,
-    "game_drops": 92,
+    "active": 86,
+    "game_drops": 93,
     "platform": 2,
     "badges": 5,
-    "fechadas_descartadas": 49
+    "fechadas_descartadas": 48
   },
   "campaigns": [
-    {
-      "id": "172a6fb8-0a6a-403c-83e8-b58edf1f923c",
-      "name": "Mobile Drop 105",
-      "status": "UPCOMING",
-      "start_at": "2026-07-23T17:59:00.000Z",
-      "end_at": "2026-07-24T17:56:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Rise Online",
-      "game_slug": "rise-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Regalia of Awakening",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
-          "minutes": 240
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "7c2e84e9-24bb-4573-82bd-adfe5bfda02e",
       "name": "GOALS - 24th of July",
@@ -244,6 +221,29 @@
         }
       ],
       "src": "fenris"
+    },
+    {
+      "id": null,
+      "name": "1 drop",
+      "status": "UPCOMING",
+      "start_at": "2026-07-24T17:00:00Z",
+      "end_at": "2026-07-25T16:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/9b8c08e1-c734-48ba-a07e-e259408b1017.png",
+      "details_url": "https://twitchdrops.app/game/ea-sports-college-football-27",
+      "game": "EA Sports College Football 27",
+      "game_slug": "ea-sports-college-football-27",
+      "game_box": null,
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "CFB Twitch Pack",
+          "image": null,
+          "minutes": null
+        }
+      ],
+      "src": "twitchdrops"
     },
     {
       "id": "3ecdb9e5-db13-4126-93dd-fd6627474284",
@@ -2694,29 +2694,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "4dd2170a-4601-4802-9306-ea354ccd4da1",
-      "name": "Mobile Drop 104",
-      "status": "ACTIVE",
-      "start_at": "2026-07-22T17:59:00Z",
-      "end_at": "2026-07-23T17:56:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d92cf114-d535-41f8-8306-fcd183adbbac.png",
-      "details_url": "https://mobile.riseonlineworld.com/usercp?do=twitch",
-      "game": "Rise Online",
-      "game_slug": "rise-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Regalia of Awakening",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
-          "minutes": 240
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "63e0c877-017d-4101-819d-ca205951eb07",
       "name": "Spider-Showdown Weekend ",
       "status": "ACTIVE",
@@ -3234,6 +3211,62 @@
         {
           "name": "7 Days Champion Status",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9f00fd4c-ecba-4ff5-b27c-bac50cfd7537.png",
+          "minutes": 240
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "61a43ee4-5342-40a5-8afa-320d6860b823",
+      "name": "RLCS LCQ",
+      "status": "ACTIVE",
+      "start_at": "2026-07-23T16:49:23Z",
+      "end_at": "2026-07-27T01:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/477ef123-5279-4eed-bc94-24b74b1ad709.jpeg",
+      "details_url": "https://www.epicgames.com/id/login",
+      "game": "Rocket League",
+      "game_slug": "rocket-league",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/30921-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 270,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "RLCS 2025 Very Rare Drop",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9695bf74-ff0f-4a31-b469-1e9de6d29441.jpeg",
+          "minutes": 60
+        },
+        {
+          "name": "RLCS 2025 Import Drop",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/39e9ee43-b4ce-481d-a026-4d4bbbdf9a83.jpeg",
+          "minutes": 150
+        },
+        {
+          "name": "RLCS 2025 Exotic Drop",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f5de5791-aa6d-411c-b06e-92d8fd8766f9.jpeg",
+          "minutes": 270
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "172a6fb8-0a6a-403c-83e8-b58edf1f923c",
+      "name": "Mobile Drop 105",
+      "status": "ACTIVE",
+      "start_at": "2026-07-23T17:59:00Z",
+      "end_at": "2026-07-24T17:56:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/5c4976df-d92f-4b76-8180-aef692c6d134.png",
+      "details_url": "https://mobile.riseonlineworld.com/usercp?do=twitch",
+      "game": "Rise Online",
+      "game_slug": "rise-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Regalia of Awakening",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
           "minutes": 240
         }
       ],
