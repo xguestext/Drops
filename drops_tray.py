@@ -3,14 +3,15 @@
 """
 Drops Radar - widget de desktop + bandeja.
 
-- BOLINHA sempre visivel POR CIMA de tudo: presentinho + contagem de drops "em breve".
-  Arrasta pra onde quiser (posicao fica salva). Passou o MOUSE -> abre o PAINEL.
-  Clique = abre/fecha o painel fixo. Botao direito = menu (atualizar/esconder/sair).
-- PAINEL local (nada de site): Em breve / Ativos / Badges chegando, igual ao visual
-  do site, renderizado aqui no PC com os dados que o vigia ja baixou.
-- NOTIFICACOES (cards iguais ao site) empilham EM CIMA da bolinha: 1, 2, 3...
-  Some sozinha, mouse em cima pausa, clique fecha.
-- Icone na bandeja continua: painel / site / testar / sair. Liga no boot, morre no desligar.
+- BOLINHA sempre por cima de tudo: presentinho + BADGE com o numero de drops/badges
+  que voce AINDA NAO VIU (abriu o painel = zera, igual notificacao de mensagem).
+  * CLIQUE (esquerdo)      -> abre o painel com os drops e badges
+  * BOTAO DIREITO arrasta  -> move a bolinha (posicao fica salva)
+  * BOTAO DIREITO (soltar sem arrastar) -> menu (atualizar / site / esconder / sair)
+- PAINEL: janela local bonita (painel.html renderizado pelo Edge em modo app, com os
+  dados que o vigia escreve no disco — sem depender do site).
+- NOTIFICACOES (cards iguais ao site) empilham em cima da bolinha.
+- Liga no boot, morre no desligar ou no Sair.
 
 Uso: pythonw drops_tray.py          (normal)
      python  drops_tray.py --demo   (bolinha + painel + 2 notificacoes de exemplo)
@@ -19,9 +20,11 @@ import io
 import os
 import re
 import sys
+import json
 import queue
 import ctypes
 import socket
+import pathlib
 import threading
 import subprocess
 import datetime
@@ -47,10 +50,11 @@ AZUL, VERDE, AMBAR, ROXO, ROXO_LT = "#3ea6ff", "#2ec16a", "#f0a83c", "#9147ff", 
 PILL_AZUL, PILL_VERDE, PILL_ROXO, PILL_AMBAR, PILL_CINZA = "#1c2b3b", "#1a2d25", "#281e3b", "#352b20", "#232329"
 CHAVE_TRANSP = "#010101"
 
-# dados compartilhados entre vigia (thread) e interface
 CACHE = {"ups": [], "atv": [], "badges": [], "quando": None}
-THUMBS = {}           # url -> PIL.Image (originalzinha)
-WIDGET = {"bolinha": None, "painel": None, "icon": None}
+THUMBS = {}
+VISTO = {"panel": set()}
+WIDGET = {"bolinha": None, "icon": None}
+PAINEL_PROC = {"p": None}
 
 try:
     ctypes.windll.shcore.SetProcessDpiAwareness(1)
@@ -92,7 +96,7 @@ def data_curta(iso):
         return "?"
 
 
-def baixa_imagem(url, alvo=None):
+def baixa_imagem(url):
     if not url:
         return None
     if url in THUMBS:
@@ -141,11 +145,6 @@ def placeholder(letra, alvo, cor=ROXO_LT):
     return img
 
 
-def thumb_tk(url, letra, alvo, raio=6):
-    img = cobre(baixa_imagem(url), alvo) or placeholder(letra, alvo)
-    return ImageTk.PhotoImage(arredonda(img, raio))
-
-
 def _corta(d, txt, f, maxw):
     if d.textlength(txt, font=f) <= maxw:
         return txt
@@ -154,11 +153,10 @@ def _corta(d, txt, f, maxw):
     return txt + "…"
 
 
-def desenha_presente(d, x, y, t, cor=ROXO):
-    """Presentinho vetorial num quadrado t x t a partir de (x, y)."""
+def desenha_presente(d, x, y, t, cor=ROXO, furo=CARD):
     d.rounded_rectangle([x + t * .08, y + t * .30, x + t * .92, y + t * .92], t * .14, fill=cor)
-    d.rectangle([x + t * .44, y + t * .30, x + t * .56, y + t * .92], fill=CARD)
-    d.rectangle([x + t * .08, y + t * .48, x + t * .92, y + t * .57], fill=CARD)
+    d.rectangle([x + t * .44, y + t * .30, x + t * .56, y + t * .92], fill=furo)
+    d.rectangle([x + t * .08, y + t * .48, x + t * .92, y + t * .57], fill=furo)
     d.rounded_rectangle([x + t * .14, y + t * .10, x + t * .46, y + t * .32], t * .10, outline=cor, width=max(2, int(t * .08)))
     d.rounded_rectangle([x + t * .54, y + t * .10, x + t * .86, y + t * .32], t * .10, outline=cor, width=max(2, int(t * .08)))
 
@@ -166,7 +164,7 @@ def desenha_presente(d, x, y, t, cor=ROXO):
 # ================= notificacao (card igual ao site) =================
 
 def renderiza_card(dado):
-    S = 2
+    S = 3
     W = 420 * S
     pad = 16 * S
     stripe = dado.get("cor", AZUL)
@@ -286,13 +284,14 @@ class Notificacao(tk.Toplevel):
         ocupado = sum(n._h + 10 for n in Notificacao.ABERTAS if n.winfo_exists())
 
         b = WIDGET.get("bolinha")
-        if b and b.winfo_exists() and b.state() != "withdrawn":
-            # empilha EM CIMA da bolinha
+        try:
+            visivel = b and b.winfo_exists() and b.state() != "withdrawn"
+        except tk.TclError:
+            visivel = False
+        if visivel:
             bx, by = b.winfo_rootx(), b.winfo_rooty()
             x = max(8, min(bx + b.winfo_width() - W, sw - W - 8))
-            y = by - 10 - H - ocupado
-            if y < 8:
-                y = 8
+            y = max(8, by - 10 - H - ocupado)
         else:
             x, y = sw - W - 16, sh - 58 - H - ocupado
         self.geometry("%dx%d+%d+%d" % (W, H, x, y))
@@ -379,7 +378,69 @@ def chave_badge(b):
     return re.sub(r"[^a-z0-9]", "", (b.get("title") or "").lower()) + "|" + (b.get("start_at") or "")[:10]
 
 
-# ================= bolinha (widget sempre por cima) =================
+# ================= painel (Edge modo app, local) =================
+
+def acha_navegador():
+    pf86 = os.environ.get("ProgramFiles(x86)", r"C:\Program Files (x86)")
+    pf = os.environ.get("ProgramFiles", r"C:\Program Files")
+    lad = os.environ.get("LOCALAPPDATA", "")
+    for c in [os.path.join(pf86, r"Microsoft\Edge\Application\msedge.exe"),
+              os.path.join(pf, r"Microsoft\Edge\Application\msedge.exe"),
+              os.path.join(pf, r"Google\Chrome\Application\chrome.exe"),
+              os.path.join(pf86, r"Google\Chrome\Application\chrome.exe"),
+              os.path.join(lad, r"Google\Chrome\Application\chrome.exe")]:
+        if os.path.exists(c):
+            return c
+    return None
+
+
+def abrir_painel():
+    """Abre o painel local (e marca tudo como visto -> badge da bolinha zera)."""
+    b = WIDGET.get("bolinha")
+    chaves = {al.chave(c) for c in CACHE["ups"]} | {chave_badge(x) for x in CACHE["badges"]}
+    VISTO["panel"] |= chaves
+    if b and b.winfo_exists():
+        b.desenha(0)
+
+    p = PAINEL_PROC.get("p")
+    if p and p.poll() is None:
+        return
+    url = pathlib.Path(os.path.join(AQUI, "painel.html")).as_uri()
+    nav = acha_navegador()
+    if not nav:
+        import webbrowser
+        webbrowser.open(url)
+        return
+    W, Hh = 560, 780
+    sw = b.winfo_screenwidth() if b else 1920
+    sh = b.winfo_screenheight() if b else 1080
+    if b and b.winfo_exists():
+        bx, by = b.winfo_rootx(), b.winfo_rooty()
+        x = max(8, min(bx + b.winfo_width() - W, sw - W - 8))
+        y = by - Hh - 12
+        if y < 8:
+            y = max(8, min(by + b.winfo_height() + 12, sh - Hh - 8))
+    else:
+        x, y = sw - W - 40, max(8, sh - Hh - 80)
+    perfil = os.path.join(os.environ.get("LOCALAPPDATA", AQUI), "DropsRadarPainel")
+    PAINEL_PROC["p"] = subprocess.Popen(
+        [nav, "--app=" + url, "--window-size=%d,%d" % (W, Hh),
+         "--window-position=%d,%d" % (x, y), "--user-data-dir=" + perfil,
+         "--no-first-run", "--no-default-browser-check"])
+
+
+def escreve_dados_painel():
+    dados = {"atualizado": CACHE.get("quando"),
+             "ups": CACHE["ups"], "atv": CACHE["atv"], "badges": CACHE["badges"]}
+    tmp = os.path.join(AQUI, "painel_dados.js.tmp")
+    with open(tmp, "w", encoding="utf-8") as f:
+        f.write("window.DADOS = ")
+        json.dump(dados, f, ensure_ascii=False)
+        f.write(";")
+    os.replace(tmp, os.path.join(AQUI, "painel_dados.js"))
+
+
+# ================= bolinha =================
 
 class Bolinha(tk.Toplevel):
     def __init__(self, root, ao_clicar, menu_acoes):
@@ -395,46 +456,46 @@ class Bolinha(tk.Toplevel):
         self._drag = None
         self._moveu = False
 
-        self.lbl = tk.Label(self, bg=CHAVE_TRANSP, bd=0)
+        self.lbl = tk.Label(self, bg=CHAVE_TRANSP, bd=0, cursor="hand2")
         self.lbl.pack()
-        self.lbl.bind("<ButtonPress-1>", self._press)
-        self.lbl.bind("<B1-Motion>", self._move)
-        self.lbl.bind("<ButtonRelease-1>", self._solta)
-        self.lbl.bind("<Enter>", lambda e: self.after(250, self._hover))
+        self.lbl.bind("<ButtonRelease-1>", lambda e: self.ao_clicar())
+        self.lbl.bind("<ButtonPress-3>", self._press)
+        self.lbl.bind("<B3-Motion>", self._move)
+        self.lbl.bind("<ButtonRelease-3>", self._solta)
         self._menu = tk.Menu(self, tearoff=0, bg=CARD, fg=TXT,
                              activebackground=ROXO, activeforeground="#fff", bd=0)
         for nome, fn in menu_acoes:
             self._menu.add_command(label=nome, command=fn)
-        self.lbl.bind("<Button-3>", lambda e: self._menu.tk_popup(e.x_root, e.y_root))
 
         st = al.carrega_estado()
         sw, sh = self.winfo_screenwidth(), self.winfo_screenheight()
-        x, y = (st.get("widget_pos") or [sw - 120, sh - 170])
-        x = max(0, min(int(x), sw - 90))
-        y = max(0, min(int(y), sh - 60))
+        x, y = (st.get("widget_pos") or [sw - 110, sh - 170])
+        x = max(0, min(int(x), sw - 70))
+        y = max(0, min(int(y), sh - 70))
         self.desenha(0)
         self.geometry("+%d+%d" % (x, y))
 
-    def desenha(self, n_up):
-        S = 2
-        txt = str(n_up)
-        f = fonte(15 * S, "bold")
-        base_probe = Image.new("RGB", (1, 1))
-        wt = ImageDraw.Draw(base_probe).textlength(txt, font=f)
-        W = int(56 * S + wt + 18 * S)
-        H = 44 * S
+    def desenha(self, n_novos):
+        S = 4
+        W, H = 60 * S, 58 * S
         img = Image.new("RGB", (W, H), CHAVE_TRANSP)
         d = ImageDraw.Draw(img)
-        d.rounded_rectangle([0, 0, W - 1, H - 1], H // 2, fill=CARD, outline=LINHA, width=S)
-        desenha_presente(d, 10 * S, 8 * S, 28 * S)
-        d.text((46 * S, H / 2), txt, fill=TXT, font=f, anchor="lm")
-        if n_up > 0:
-            d.ellipse([W - 14 * S, 6 * S, W - 6 * S, 14 * S], fill=AZUL)
+        # corpo
+        d.rounded_rectangle([2 * S, 10 * S, 50 * S, 58 * S - 2 * S], 15 * S,
+                            fill=CARD, outline=LINHA, width=S)
+        desenha_presente(d, 11 * S, 18 * S, 30 * S)
+        # badge de nao-vistos (some quando 0)
+        if n_novos > 0:
+            txt = "9+" if n_novos > 9 else str(n_novos)
+            f = fonte(11 * S, "bold")
+            r = 11 * S
+            cx, cy = 46 * S, 12 * S
+            d.ellipse([cx - r, cy - r, cx + r, cy + r], fill=AZUL, outline=CARD, width=2 * S)
+            d.text((cx, cy - S), txt, fill="#08131d", font=f, anchor="mm")
         self._pil = img.resize((W // S, H // S), Image.LANCZOS)
         self._img = ImageTk.PhotoImage(self._pil)
         self.lbl.configure(image=self._img)
 
-    # arrastar
     def _press(self, e):
         self._drag = (e.x_root, e.y_root, self.winfo_x(), self.winfo_y())
         self._moveu = False
@@ -453,159 +514,8 @@ class Bolinha(tk.Toplevel):
             st["widget_pos"] = [self.winfo_x(), self.winfo_y()]
             al.salva_estado(st)
         else:
-            self.ao_clicar()
+            self._menu.tk_popup(e.x_root, e.y_root)
         self._drag = None
-
-    def _hover(self):
-        px, py = self.winfo_pointerxy()
-        if (self.winfo_rootx() <= px < self.winfo_rootx() + self.winfo_width()
-                and self.winfo_rooty() <= py < self.winfo_rooty() + self.winfo_height()):
-            self.ao_clicar(hover=True)
-
-
-# ================= painel local (os drops, igual ao site) =================
-
-class Painel(tk.Toplevel):
-    def __init__(self, root, bolinha, fixo=False):
-        super().__init__(root)
-        self.overrideredirect(True)
-        self.attributes("-topmost", True)
-        self.configure(bg=LINHA)
-        self.fixo = fixo
-        self.bolinha = bolinha
-        self._refs = []
-
-        W, Hmax = 470, 620
-        casca = tk.Frame(self, bg=BG)
-        casca.pack(fill="both", expand=True, padx=1, pady=1)
-
-        head = tk.Frame(casca, bg=BG)
-        head.pack(fill="x", padx=14, pady=(12, 6))
-        tk.Label(head, text="Drops Radar", font=("Segoe UI", 12, "bold"),
-                 fg=TXT, bg=BG).pack(side="left")
-        q = CACHE.get("quando")
-        atras = ("atualizado há %s" % rel_curto(q)) if q else "carregando…"
-        atras = atras.replace("há agora", "agora")
-        tk.Label(head, text=atras, font=("Segoe UI", 9), fg=FAINT, bg=BG).pack(side="left", padx=10)
-        if fixo:
-            fx = tk.Label(head, text="✕", font=("Segoe UI", 11, "bold"), fg=FAINT, bg=BG, cursor="hand2")
-            fx.pack(side="right")
-            fx.bind("<Button-1>", lambda e: self.destroy())
-
-        # area com rolagem
-        self.cv = tk.Canvas(casca, bg=BG, highlightthickness=0, width=W - 2)
-        self.cv.pack(fill="both", expand=True)
-        self.corpo = tk.Frame(self.cv, bg=BG)
-        self.cv.create_window((0, 0), window=self.corpo, anchor="nw", width=W - 2)
-        self.corpo.bind("<Configure>", lambda e: self.cv.configure(scrollregion=self.cv.bbox("all")))
-        for w in (self.cv, self.corpo):
-            w.bind("<MouseWheel>", self._roda)
-
-        self._monta()
-
-        self.update_idletasks()
-        h = min(Hmax, self.corpo.winfo_reqheight() + 46)
-        self.cv.configure(height=h - 46)
-
-        sw, sh = self.winfo_screenwidth(), self.winfo_screenheight()
-        bx, by = bolinha.winfo_rootx(), bolinha.winfo_rooty()
-        x = max(8, min(bx + bolinha.winfo_width() - W, sw - W - 8))
-        y = by - h - 10
-        if y < 8:
-            y = min(by + bolinha.winfo_height() + 10, sh - h - 8)
-        self.geometry("%dx%d+%d+%d" % (W, h, x, y))
-        self.bind("<Escape>", lambda e: self.destroy())
-        if not fixo:
-            self.after(400, self._vigia_mouse)
-
-    def _roda(self, e):
-        self.cv.yview_scroll(-1 if e.delta > 0 else 1, "units")
-
-    def _secao(self, titulo, cor, n):
-        f = tk.Frame(self.corpo, bg=BG)
-        f.pack(fill="x", padx=14, pady=(10, 4))
-        tk.Frame(f, bg=cor, width=8, height=8).pack(side="left", pady=4)
-        tk.Label(f, text=" " + titulo, font=("Segoe UI", 9, "bold"), fg=TXT, bg=BG).pack(side="left")
-        tk.Label(f, text=" %d" % n, font=("Segoe UI", 9), fg=FAINT, bg=BG).pack(side="left")
-
-    def _linha(self, thumb, cima, meio, baixo, extra=None, extra_cor=AMBAR, h_thumb=(40, 54)):
-        row = tk.Frame(self.corpo, bg=CARD)
-        row.pack(fill="x", padx=14, pady=3)
-        inner = tk.Frame(row, bg=CARD)
-        inner.pack(fill="x", padx=10, pady=7)
-        img = thumb
-        if img is not None:
-            self._refs.append(img)
-            tk.Label(inner, image=img, bg=CARD, bd=0).pack(side="left", padx=(0, 10))
-        tx = tk.Frame(inner, bg=CARD)
-        tx.pack(side="left", fill="x", expand=True)
-        if cima:
-            tk.Label(tx, text=cima, font=("Segoe UI", 8, "bold"), fg=ROXO_LT, bg=CARD,
-                     anchor="w").pack(fill="x")
-        tk.Label(tx, text=meio, font=("Segoe UI", 10, "bold"), fg=TXT, bg=CARD,
-                 anchor="w").pack(fill="x")
-        if baixo:
-            tk.Label(tx, text=baixo, font=("Segoe UI", 9), fg=DIM, bg=CARD,
-                     anchor="w").pack(fill="x")
-        if extra:
-            tk.Label(inner, text=extra, font=("Segoe UI", 9, "bold"), fg=extra_cor,
-                     bg=CARD).pack(side="right", padx=4)
-
-    def _monta(self):
-        ups, atv, badges = CACHE["ups"], CACHE["atv"], CACHE["badges"]
-        if not ups and not atv and not badges:
-            tk.Label(self.corpo, text="Primeira checagem em andamento…\nAbre de novo em alguns segundos.",
-                     font=("Segoe UI", 10), fg=DIM, bg=BG, justify="center").pack(pady=30)
-            return
-
-        if ups:
-            self._secao("EM BREVE", AZUL, len(ups))
-            for c in ups:
-                th = thumb_tk(c.get("game_box") or c.get("image"), c.get("game"), (40, 54))
-                nrec = len(c.get("rewards") or [])
-                extra = ("%d min" % c["required_minutes"]) if c.get("required_minutes") else \
-                    ("%d rec." % nrec if nrec else None)
-                self._linha(th, (c.get("game") or "").upper(),
-                            c.get("name") or c.get("game") or "?",
-                            "começa em %s · %s" % (rel_curto(c.get("start_at")), data_curta(c.get("start_at"))),
-                            extra)
-        if badges:
-            self._secao("BADGES CHEGANDO", AMBAR, len(badges))
-            for b in badges:
-                th = thumb_tk((b.get("images") or [None])[0], b.get("title"), (36, 36), raio=8)
-                self._linha(th, "BADGE DA TWITCH",
-                            (b.get("title") or "?")[:44],
-                            "começa em %s · %s" % (rel_curto(b.get("start_at")), data_curta(b.get("start_at"))),
-                            None)
-        if atv:
-            self._secao("ATIVOS AGORA", VERDE, len(atv))
-            for c in atv[:40]:
-                th = thumb_tk(c.get("game_box") or c.get("image"), c.get("game"), (32, 44))
-                self._linha(th, None,
-                            c.get("game") or "?",
-                            "termina em %s · %s" % (rel_curto(c.get("end_at")), data_curta(c.get("end_at"))),
-                            None)
-            if len(atv) > 40:
-                tk.Label(self.corpo, text="+%d ativos" % (len(atv) - 40), font=("Segoe UI", 9),
-                         fg=FAINT, bg=BG).pack(pady=(2, 8))
-        tk.Frame(self.corpo, bg=BG, height=8).pack()
-
-    def _vigia_mouse(self):
-        """Painel aberto por hover: fecha quando o mouse sai dele e da bolinha."""
-        if not self.winfo_exists():
-            return
-        px, py = self.winfo_pointerxy()
-
-        def dentro(w, folga=24):
-            try:
-                return (w.winfo_rootx() - folga <= px < w.winfo_rootx() + w.winfo_width() + folga
-                        and w.winfo_rooty() - folga <= py < w.winfo_rooty() + w.winfo_height() + folga)
-            except tk.TclError:
-                return False
-        if dentro(self) or dentro(self.bolinha):
-            self.after(300, self._vigia_mouse)
-        else:
-            self.destroy()
 
 
 # ================= vigia (thread) =================
@@ -625,15 +535,10 @@ def vigia(q, parar, forca):
             atv = [c for c in camps if c.get("status") == "ACTIVE"]
             badges = [b for b in col["badges"] if not al.bloqueado(b.get("title"), cfg)]
 
-            # alimenta o painel + pre-baixa as capas (pro hover abrir instantaneo)
             CACHE.update(ups=ups, atv=atv, badges=badges,
                          quando=datetime.datetime.now(datetime.timezone.utc)
                          .strftime("%Y-%m-%dT%H:%M:%SZ"))
-            for c in ups + atv[:40]:
-                baixa_imagem(c.get("game_box") or c.get("image"))
-            for b in badges:
-                baixa_imagem((b.get("images") or [None])[0])
-            q.put(("atualiza", len(ups)))
+            escreve_dados_painel()
 
             vistos = st.setdefault("vistos_upcoming", {})
             avisados = set(st.setdefault("avisados_inicio", []))
@@ -682,6 +587,13 @@ def vigia(q, parar, forca):
                                0xF0A83C, (b.get("images") or [None])[0])
             primeira_badge = False
 
+            # badge da bolinha: o que existe agora e o user ainda nao viu no painel
+            chaves_atual = {al.chave(c) for c in ups} | {chave_badge(b) for b in badges}
+            VISTO["panel"] &= chaves_atual                      # esquece o que ja saiu do ar
+            n_novos = len(chaves_atual - VISTO["panel"])
+            st["panel_vistos"] = sorted(VISTO["panel"])
+            q.put(("atualiza", n_novos))
+
             existentes = {al.chave(c) for c in camps}
             for k in list(vistos.keys()):
                 if k not in existentes and k in avisados:
@@ -694,7 +606,8 @@ def vigia(q, parar, forca):
                     del vb[k]
 
             al.salva_estado(st)
-            al.log("ciclo ok: %d em-breve, %d ativos, %d badges" % (len(ups), len(atv), len(badges)))
+            al.log("ciclo ok: %d em-breve, %d ativos, %d badges, %d nao-vistos" %
+                   (len(ups), len(atv), len(badges), n_novos))
         except Exception as e:
             al.log("erro no ciclo (%s: %s)" % (type(e).__name__, e))
 
@@ -717,20 +630,19 @@ def icone_bandeja():
 
 def exemplo_para_teste(q):
     try:
-        if CACHE["ups"] or CACHE["badges"]:
-            if CACHE["ups"]:
-                q.put(("popup", monta_drop(CACHE["ups"][0])))
-            if CACHE["badges"]:
-                q.put(("popup", monta_badge(CACHE["badges"][0])))
-            return
-        col = checker.coletar(incluir_badges=True)
-        cfg = al.carrega_config()
-        ups = [c for c in col["camps"] if al.relevante(c, cfg) and c.get("status") == "UPCOMING"] \
-            or [c for c in col["camps"] if al.relevante(c, cfg)]
-        if ups:
-            q.put(("popup", monta_drop(ups[0])))
-        if col["badges"]:
-            q.put(("popup", monta_badge(col["badges"][0])))
+        if not CACHE["ups"] and not CACHE["badges"]:
+            cfg = al.carrega_config()
+            col = checker.coletar(incluir_badges=True)
+            camps = [c for c in col["camps"] if al.relevante(c, cfg)]
+            CACHE.update(ups=[c for c in camps if c["status"] == "UPCOMING"],
+                         atv=[c for c in camps if c["status"] == "ACTIVE"],
+                         badges=[b for b in col["badges"] if not al.bloqueado(b.get("title"), cfg)],
+                         quando=datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"))
+            escreve_dados_painel()
+        if CACHE["ups"]:
+            q.put(("popup", monta_drop(CACHE["ups"][0])))
+        if CACHE["badges"]:
+            q.put(("popup", monta_badge(CACHE["badges"][0])))
     except Exception:
         pass
 
@@ -745,6 +657,9 @@ def main():
         except OSError:
             al.log("ja tem um Drops Radar rodando; saindo.")
             return
+
+    st0 = al.carrega_estado()
+    VISTO["panel"] = set(st0.get("panel_vistos") or [])
 
     root = tk.Tk()
     root.withdraw()
@@ -765,20 +680,16 @@ def main():
     def sair(icon=None, *_):
         parar.set()
         forca.set()
+        p = PAINEL_PROC.get("p")
+        if p and p.poll() is None:
+            try:
+                p.terminate()
+            except Exception:
+                pass
         ic = WIDGET.get("icon")
         if ic:
             ic.stop()
         q.put(("sair", None))
-
-    def alterna_painel(hover=False):
-        p = WIDGET.get("painel")
-        if p and p.winfo_exists():
-            if hover:
-                return
-            p.destroy()
-            WIDGET["painel"] = None
-            return
-        WIDGET["painel"] = Painel(root, WIDGET["bolinha"], fixo=not hover)
 
     def atualiza_agora(*_):
         forca.set()
@@ -791,7 +702,8 @@ def main():
         else:
             b.withdraw()
 
-    WIDGET["bolinha"] = Bolinha(root, alterna_painel, [
+    WIDGET["bolinha"] = Bolinha(root, abrir_painel, [
+        ("Abrir painel", abrir_painel),
         ("Atualizar agora", atualiza_agora),
         ("Abrir site", abrir_site),
         ("Esconder bolinha", alterna_bolinha),
@@ -809,49 +721,24 @@ def main():
                     cfg = al.carrega_config()
                     Notificacao(root, renderiza_card(dado),
                                 segundos=int(cfg.get("notificacao_segundos", 12)))
-                if tipo == "atualiza":
+                elif tipo == "atualiza":
                     b = WIDGET["bolinha"]
                     if b and b.winfo_exists():
                         b.desenha(dado or 0)
+                elif tipo == "__painel__":
+                    abrir_painel()
         except queue.Empty:
             pass
         root.after(200, processa_fila)
 
     if demo:
         def demo_seq():
-            try:
-                cfg = al.carrega_config()
-                col = checker.coletar(incluir_badges=True)
-                camps = [c for c in col["camps"] if al.relevante(c, cfg)]
-                CACHE.update(ups=[c for c in camps if c["status"] == "UPCOMING"],
-                             atv=[c for c in camps if c["status"] == "ACTIVE"],
-                             badges=[b for b in col["badges"] if not al.bloqueado(b.get("title"), cfg)],
-                             quando=datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"))
-                for c in CACHE["ups"] + CACHE["atv"][:40]:
-                    baixa_imagem(c.get("game_box") or c.get("image"))
-                for b in CACHE["badges"]:
-                    baixa_imagem((b.get("images") or [None])[0])
-                q.put(("atualiza", len(CACHE["ups"])))
-                q.put(("demo_painel", None))
-                exemplo_para_teste(q)
-            except Exception as e:
-                al.log("demo: %s" % e)
-        def processa_demo():
-            try:
-                while True:
-                    tipo, dado = q.get_nowait()
-                    if tipo == "popup":
-                        Notificacao(root, renderiza_card(dado), segundos=14)
-                    if tipo == "atualiza":
-                        WIDGET["bolinha"].desenha(dado or 0)
-                    if tipo == "demo_painel":
-                        WIDGET["painel"] = Painel(root, WIDGET["bolinha"], fixo=True)
-            except queue.Empty:
-                pass
-            root.after(200, processa_demo)
+            exemplo_para_teste(q)
+            q.put(("atualiza", 2))
+            q.put(("__painel__", None))
         threading.Thread(target=demo_seq, daemon=True).start()
         root.after(35000, root.destroy)
-        processa_demo()
+        processa_fila()
         root.mainloop()
         return
 
@@ -866,30 +753,9 @@ def main():
     icon = pystray.Icon("drops_radar", icone_bandeja(), "Drops Radar", menu)
     WIDGET["icon"] = icon
 
-    def processa_fila2():
-        try:
-            while True:
-                tipo, dado = q.get_nowait()
-                if tipo == "sair":
-                    root.destroy()
-                    return
-                if tipo == "popup":
-                    cfg = al.carrega_config()
-                    Notificacao(root, renderiza_card(dado),
-                                segundos=int(cfg.get("notificacao_segundos", 12)))
-                elif tipo == "atualiza":
-                    b = WIDGET["bolinha"]
-                    if b and b.winfo_exists():
-                        b.desenha(dado or 0)
-                elif tipo == "__painel__":
-                    alterna_painel()
-        except queue.Empty:
-            pass
-        root.after(200, processa_fila2)
-
     threading.Thread(target=icon.run, daemon=True).start()
     threading.Thread(target=vigia, args=(q, parar, forca), daemon=True).start()
-    processa_fila2()
+    processa_fila()
     root.mainloop()
 
 

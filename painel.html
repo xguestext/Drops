@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Drops Radar</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎁</text></svg>">
+<meta name="color-scheme" content="dark">
+<style>
+  :root{
+    --bg:#0d0d10; --card:#17171b; --card2:#1e1e24; --line:#2a2a32;
+    --txt:#efeff1; --dim:#b0b0bb; --faint:#787885;
+    --azul:#3ea6ff; --verde:#2ec16a; --ambar:#f0a83c; --roxo:#9147ff; --roxolt:#c9a6ff;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{background:var(--bg); color:var(--txt); font-family:"Segoe UI",-apple-system,Roboto,Arial,sans-serif;
+       font-size:14px; line-height:1.4; -webkit-font-smoothing:antialiased; padding:14px 14px 30px}
+  ::-webkit-scrollbar{width:9px} ::-webkit-scrollbar-thumb{background:#26262c;border-radius:9px}
+  ::-webkit-scrollbar-track{background:transparent}
+
+  header{display:flex; align-items:center; gap:10px; margin-bottom:10px}
+  .dot{width:10px;height:10px;border-radius:50%;background:var(--roxo);box-shadow:0 0 0 4px rgba(145,71,255,.15)}
+  h1{font-size:16px;margin:0;font-weight:700}
+  .upd{color:var(--faint);font-size:11.5px;margin-left:auto}
+
+  .sec{display:flex;align-items:center;gap:8px;margin:16px 2px 8px}
+  .sec .sd{width:8px;height:8px;border-radius:50%}
+  .sec h2{font-size:12px;margin:0;font-weight:700;letter-spacing:.3px}
+  .sec .n{color:var(--faint);font-size:11.5px}
+  .sec .rule{flex:1;height:1px;background:var(--line)}
+
+  .card{background:var(--card); border:1px solid var(--line); border-left:3px solid var(--line);
+        border-radius:12px; padding:11px 12px; margin-bottom:8px}
+  .card.up{border-left-color:var(--azul)} .card.live{border-left-color:var(--verde)}
+  .card.bad{border-left-color:var(--ambar)}
+  .top{display:flex;gap:10px}
+  .box{width:44px;height:60px;border-radius:7px;object-fit:cover;flex:none;background:var(--card2)}
+  .box.badge{height:44px;width:44px;object-fit:contain;padding:4px}
+  .ph{width:44px;height:60px;border-radius:7px;flex:none;background:var(--card2);
+      display:flex;align-items:center;justify-content:center;color:var(--roxolt);font-weight:700;font-size:17px}
+  .ttl{min-width:0;flex:1}
+  .game{font-size:10px;color:var(--roxolt);font-weight:700;text-transform:uppercase;letter-spacing:.4px;
+        white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .game.amber{color:var(--ambar)}
+  .name{font-size:13px;font-weight:600;line-height:1.25;margin-top:2px}
+  .when{font-size:11.5px;color:var(--dim);margin-top:3px}
+  .when b{color:var(--txt)}
+  .mins{margin-left:auto;flex:none;align-self:flex-start;color:var(--ambar);font-weight:700;font-size:11px;
+        background:#352b20;border-radius:99px;padding:3px 8px}
+  .rws{margin-top:8px;display:flex;flex-direction:column;gap:5px}
+  .rw{display:flex;align-items:center;gap:8px;background:var(--card2);border:1px solid var(--line);
+      border-radius:8px;padding:4px 8px;font-size:11.5px}
+  .rw img{width:20px;height:20px;border-radius:4px;object-fit:cover;background:#000;flex:none}
+  .rw .pt{width:5px;height:5px;border-radius:50%;background:var(--roxo);opacity:.7;flex:none;margin:0 8px}
+  .rw span{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--txt)}
+  .rw b{color:var(--ambar);font-size:10.5px;flex:none}
+  .note{font-size:11.5px;color:var(--dim);margin-top:6px}
+  .vazio{color:var(--faint);text-align:center;padding:40px 8px;font-size:13px}
+  .mais{color:var(--faint);font-size:11.5px;text-align:center;margin:4px 0 10px}
+</style>
+</head>
+<body>
+<header><span class="dot"></span><h1>Drops Radar</h1><span class="upd" id="upd"></span></header>
+<div id="c"></div>
+<script src="painel_dados.js"></script>
+<script>
+const esc = s => (s||"").replace(/[&<>"]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const tm  = (u,w,h) => (u||"").replace("{width}",w).replace("{height}",h);
+const H=3600000, D=86400000;
+
+function rel(iso){
+  if(!iso) return "?";
+  const s = new Date(iso) - new Date();
+  if(s<=0) return "agora";
+  if(s<H) return Math.round(s/60000)+" min";
+  if(s<D) return Math.round(s/H)+" h";
+  const d = Math.round(s/D); return d+" dia"+(d>1?"s":"");
+}
+function dt(iso){ try{ return new Date(iso).toLocaleDateString("pt-BR",{day:"2-digit",month:"2-digit"}); }catch(e){ return "?"; } }
+
+function boxImg(c, cls){
+  const u = tm(c.game_box||c.image, 88, 120);
+  return u ? `<img class="box ${cls||""}" src="${esc(u)}" loading="lazy" onerror="this.outerHTML='<div class=ph>${esc((c.game||"?")[0].toUpperCase())}</div>'">`
+           : `<div class="ph">${esc(((c.game||c.title||"?")[0]).toUpperCase())}</div>`;
+}
+function rws(c, lim){
+  const L = (c.rewards||[]);
+  const rows = L.slice(0, lim).map(r=>{
+    const im = tm(r.image, 40, 40);
+    return `<div class="rw">${im?`<img src="${esc(im)}" loading="lazy" onerror="this.remove()">`:`<span class="pt"></span>`}<span>${esc(r.name)}</span>${r.minutes?`<b>${r.minutes} min</b>`:""}</div>`;
+  }).join("");
+  const extra = L.length-lim>0 ? `<div class="mais">+${L.length-lim} recompensas</div>` : "";
+  return rows ? `<div class="rws">${rows}</div>${extra}` : "";
+}
+function sec(cor, titulo, n){
+  return `<div class="sec"><span class="sd" style="background:${cor}"></span><h2>${titulo}</h2><span class="n">${n}</span><span class="rule"></span></div>`;
+}
+
+function render(){
+  const d = window.DADOS;
+  const c = document.getElementById("c");
+  if(!d){ c.innerHTML = `<div class="vazio">Primeira checagem em andamento…<br>isso leva alguns segundos.</div>`; return; }
+  document.getElementById("upd").textContent = "atualizado há " + rel2(d.atualizado);
+  let h = "";
+  if(d.ups && d.ups.length){
+    h += sec("var(--azul)", "EM BREVE", d.ups.length);
+    h += d.ups.map(x=>`
+      <div class="card up"><div class="top">${boxImg(x)}
+        <div class="ttl"><div class="game">${esc(x.game)}</div><div class="name">${esc(x.name||x.game)}</div>
+          <div class="when">começa em <b>${rel(x.start_at)}</b> · ${dt(x.start_at)}${x.end_at?` → até ${dt(x.end_at)}`:""}</div></div>
+        ${x.required_minutes?`<span class="mins">${x.required_minutes} min</span>`:""}</div>
+        ${rws(x, 4)}</div>`).join("");
+  }
+  if(d.badges && d.badges.length){
+    h += sec("var(--ambar)", "BADGES CHEGANDO", d.badges.length);
+    h += d.badges.map(b=>{
+      const im = (b.images||[])[0];
+      return `<div class="card bad"><div class="top">
+        ${im?`<img class="box badge" src="${esc(im)}" loading="lazy" onerror="this.outerHTML='<div class=ph>🏅</div>'">`:`<div class="ph">🏅</div>`}
+        <div class="ttl"><div class="game amber">Badge da Twitch</div><div class="name">${esc(b.title)}</div>
+          <div class="when">começa em <b>${rel(b.start_at)}</b> · ${dt(b.start_at)}</div>
+          ${b.note?`<div class="note">${esc(b.note)}</div>`:""}</div></div></div>`;
+    }).join("");
+  }
+  if(d.atv && d.atv.length){
+    h += sec("var(--verde)", "ATIVOS AGORA", d.atv.length);
+    h += d.atv.map(x=>`
+      <div class="card live"><div class="top">${boxImg(x)}
+        <div class="ttl"><div class="game">${esc(x.game)}</div><div class="name">${esc(x.name||x.game)}</div>
+          <div class="when">termina em <b>${rel(x.end_at)}</b> · ${dt(x.end_at)}</div></div>
+        ${x.required_minutes?`<span class="mins">${x.required_minutes} min</span>`:""}</div>
+        ${rws(x, 3)}</div>`).join("");
+  }
+  c.innerHTML = h || `<div class="vazio">Nenhum drop aberto a todos no momento.</div>`;
+}
+function rel2(iso){
+  if(!iso) return "—";
+  const s = new Date() - new Date(iso);
+  if(s < 90000) return "agora";
+  if(s < H) return Math.round(s/60000)+" min";
+  return Math.round(s/H)+" h";
+}
+render();
+setTimeout(()=>location.reload(), 60000);
+</script>
+</body>
+</html>
