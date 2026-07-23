@@ -493,14 +493,34 @@ def acha_navegador():
     return None
 
 
+_u32.FindWindowW.argtypes = [ctypes.c_wchar_p, ctypes.c_wchar_p]
+_u32.FindWindowW.restype = ctypes.c_void_p
+_u32.SetWindowPos.argtypes = [ctypes.c_void_p, ctypes.c_void_p, ctypes.c_int,
+                              ctypes.c_int, ctypes.c_int, ctypes.c_int, ctypes.c_uint]
+_u32.SetForegroundWindow.argtypes = [ctypes.c_void_p]
+
+
 def abrir_painel():
     """Abre o painel local (e marca tudo como visto -> badge da bolinha zera)."""
+    import time
     b = WIDGET.get("bolinha")
     chaves = {al.chave(c) for c in CACHE["ups"]} | {chave_badge(x) for x in CACHE["badges"]}
     VISTO["panel"] |= chaves
     if b and b.winfo_exists():
         b.desenha(0)
 
+    # trava 1: se a janela JA EXISTE, so traz pra frente (nunca abre outra)
+    h = _u32.FindWindowW(None, "Drops Radar")
+    if h:
+        _u32.SetWindowPos(h, ctypes.c_void_p(-1), 0, 0, 0, 0, 0x0001 | 0x0002 | 0x0040)
+        _u32.SetForegroundWindow(h)
+        return
+    # trava 2: anti clique-duplo (janela demora ~2s pra nascer)
+    agora = time.monotonic()
+    if agora - PAINEL_PROC.get("t", 0) < 3.0:
+        return
+    PAINEL_PROC["t"] = agora
+    # trava 3: processo lancador ainda vivo
     p = PAINEL_PROC.get("p")
     if p and p.poll() is None:
         return
@@ -532,12 +552,11 @@ def abrir_painel():
 def _painel_sempre_na_frente():
     """Acha a janela do painel e crava ela POR CIMA de tudo (HWND_TOPMOST)."""
     import time
-    u = ctypes.windll.user32
     for _ in range(30):
-        h = u.FindWindowW(None, "Drops Radar")
+        h = _u32.FindWindowW(None, "Drops Radar")
         if h:
             # -1 = HWND_TOPMOST | NOSIZE(1) + NOMOVE(2) + SHOWWINDOW(0x40)
-            u.SetWindowPos(h, -1, 0, 0, 0, 0, 0x0001 | 0x0002 | 0x0040)
+            _u32.SetWindowPos(h, ctypes.c_void_p(-1), 0, 0, 0, 0, 0x0001 | 0x0002 | 0x0040)
             return
         time.sleep(0.5)
 
