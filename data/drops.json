@@ -1,46 +1,18 @@
 {
-  "updated_at": "2026-07-23T20:57:08Z",
+  "updated_at": "2026-07-23T22:03:41Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-23T20:57:01.435Z",
+  "source_updated": "2026-07-23T22:03:01.365Z",
   "counts": {
-    "total": 96,
-    "upcoming": 10,
-    "active": 86,
-    "game_drops": 94,
+    "total": 87,
+    "upcoming": 7,
+    "active": 80,
+    "game_drops": 85,
     "platform": 2,
     "badges": 5,
     "fechadas_descartadas": 48
   },
   "campaigns": [
-    {
-      "id": "7c2e84e9-24bb-4573-82bd-adfe5bfda02e",
-      "name": "GOALS - 24th of July",
-      "status": "UPCOMING",
-      "start_at": "2026-07-23T22:01:00.000Z",
-      "end_at": "2026-07-24T21:58:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "GOALS",
-      "game_slug": "goals",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/951160620_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 300,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Common+ Pack [1 Player]",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82a4b7fe-7458-4b59-b909-ebc30fc91521.png",
-          "minutes": 60
-        },
-        {
-          "name": "Uncommon+ Pack [1 Player]",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png",
-          "minutes": 300
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "0aad7f62-5d78-44fa-8f61-057709f82caa",
       "name": "July Drops",
@@ -221,57 +193,6 @@
         }
       ],
       "src": "fenris"
-    },
-    {
-      "id": null,
-      "name": "1 drop",
-      "status": "UPCOMING",
-      "start_at": "2026-07-24T17:00:00Z",
-      "end_at": "2026-07-25T16:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/9b8c08e1-c734-48ba-a07e-e259408b1017.png",
-      "details_url": "https://twitchdrops.app/game/ea-sports-college-football-27",
-      "game": "EA Sports College Football 27",
-      "game_slug": "ea-sports-college-football-27",
-      "game_box": null,
-      "availability": "open",
-      "required_minutes": null,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "CFB Twitch Pack",
-          "image": null,
-          "minutes": null
-        }
-      ],
-      "src": "twitchdrops"
-    },
-    {
-      "id": null,
-      "name": "2 drops",
-      "status": "UPCOMING",
-      "start_at": "2026-07-24T20:00:00Z",
-      "end_at": "2026-07-31T23:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/3671f719-d820-4283-8459-8e7d666762c1.png",
-      "details_url": "https://twitchdrops.app/game/path-of-exile",
-      "game": "Path of Exile",
-      "game_slug": "path-of-exile",
-      "game_box": null,
-      "availability": "open",
-      "required_minutes": null,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Nautical Explorer&#39;s Back",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "Allflame Crafting Bench",
-          "image": null,
-          "minutes": null
-        }
-      ],
-      "src": "twitchdrops"
     },
     {
       "id": "3ecdb9e5-db13-4126-93dd-fd6627474284",
@@ -532,79 +453,6 @@
       "src": "sunkwi"
     },
     {
-      "id": null,
-      "name": "11 drops",
-      "status": "ACTIVE",
-      "start_at": "2026-07-02T11:00:00Z",
-      "end_at": "2026-08-07T08:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/158879df-4744-4bde-9366-56afa75e5e24.png",
-      "details_url": "https://twitchdrops.app/game/marvel-rivals",
-      "game": "Marvel Rivals",
-      "game_slug": "marvel-rivals",
-      "game_box": null,
-      "availability": "open",
-      "required_minutes": null,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Jubilee Badge",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "100 CHRONO TOKENS - 1",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "Wolverine Spray",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "NUMBER ONE FAN Emoji",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "100 CHRONO TOKENS - 2",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "Wolverine Emote",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "Wolverine Costume",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "Captain America Spray",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "Captain America Nameplate",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "Captain America Emote",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "Captain America Costume",
-          "image": null,
-          "minutes": null
-        }
-      ],
-      "src": "twitchdrops"
-    },
-    {
       "id": "7b53497a-83e3-440e-928a-220b232e1f4e",
       "name": "Rust Charity '26 Box",
       "status": "ACTIVE",
@@ -791,39 +639,6 @@
       "src": "sunkwi"
     },
     {
-      "id": null,
-      "name": "3 drops",
-      "status": "ACTIVE",
-      "start_at": "2026-07-08T10:01:00Z",
-      "end_at": "2026-08-02T21:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/3565fcb0-fdb1-427e-8983-6d3b4c2df9ca.png",
-      "details_url": "https://twitchdrops.app/game/assassins-creed-black-flag-resynced",
-      "game": "Assassin&#39;s Creed Black Flag Resynced",
-      "game_slug": "assassins-creed-black-flag-resynced",
-      "game_box": null,
-      "availability": "open",
-      "required_minutes": null,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "AC Black Flag Resynced",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "Rustborne Swords",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "Cheetah Claw Cat",
-          "image": null,
-          "minutes": null
-        }
-      ],
-      "src": "twitchdrops"
-    },
-    {
       "id": "5e849195-65b9-4512-9a23-9a004d057a80",
       "name": "Brawlhalla - Heatwave",
       "status": "ACTIVE",
@@ -949,64 +764,6 @@
         }
       ],
       "src": "sunkwi"
-    },
-    {
-      "id": null,
-      "name": "8 drops",
-      "status": "ACTIVE",
-      "start_at": "2026-07-09T07:51:27Z",
-      "end_at": "2026-07-31T23:29:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/b4ceb263-19c2-411c-a374-0db35a69432e.png",
-      "details_url": "https://twitchdrops.app/game/modern-warships",
-      "game": "Modern Warships",
-      "game_slug": "modern-warships",
-      "game_box": null,
-      "availability": "open",
-      "required_minutes": null,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "1 Day of Premium",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "100 UP&#39;s",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "Tactical Consumables Set",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "2 Days of Premium",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "Advanced Consumables",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "200 UP&#39;s",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "15 Authorization Keys",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "Camo Charming Ornament",
-          "image": null,
-          "minutes": null
-        }
-      ],
-      "src": "twitchdrops"
     },
     {
       "id": "78960b7e-e3fe-4577-a5cb-504530529c31",
@@ -1370,29 +1127,6 @@
         }
       ],
       "src": "sunkwi"
-    },
-    {
-      "id": null,
-      "name": "1 drop",
-      "status": "ACTIVE",
-      "start_at": "2026-07-10T07:30:00Z",
-      "end_at": "2026-07-25T07:29:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/666f6c49-1872-467f-a8d9-3d6f6867a46e.png",
-      "details_url": "https://twitchdrops.app/game/street-fighter-6",
-      "game": "Street Fighter 6",
-      "game_slug": "street-fighter-6",
-      "game_box": null,
-      "availability": "open",
-      "required_minutes": null,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Jamie’s EX 01 Color",
-          "image": null,
-          "minutes": null
-        }
-      ],
-      "src": "twitchdrops"
     },
     {
       "id": "987bd67a-7bf2-48df-91fe-8fa825194e13",
@@ -2755,90 +2489,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "09538e06-6481-4d6c-a0e5-e180645dede2",
-      "name": "July Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-07-22T21:06:54Z",
-      "end_at": "2026-07-23T20:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/dd68e0ee-9c91-4960-bbfa-a37e574c54c1.png",
-      "details_url": "https://www.quinfall.com/twitch-drops",
-      "game": "The Quinfall",
-      "game_slug": "the-quinfall",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Twitch Reward Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
-          "minutes": 180
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": null,
-      "name": "3 drops",
-      "status": "ACTIVE",
-      "start_at": "2026-07-22T22:00:00Z",
-      "end_at": "2026-07-30T15:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/b84f0aea-f52e-43fe-997e-d8b0f901bc5c.png",
-      "details_url": "https://twitchdrops.app/game/world-of-warships",
-      "game": "World of Warships",
-      "game_slug": "world-of-warships",
-      "game_box": null,
-      "availability": "open",
-      "required_minutes": null,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Update 15.6: 250 CT",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "Update 15.6 Mission #2",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "Twitch Container 15.6",
-          "image": null,
-          "minutes": null
-        }
-      ],
-      "src": "twitchdrops"
-    },
-    {
-      "id": "7c0ae1d0-4684-4e4e-be32-ce3f04b0b13c",
-      "name": "GOALS - 23nd of July",
-      "status": "ACTIVE",
-      "start_at": "2026-07-22T22:01:00Z",
-      "end_at": "2026-07-23T21:58:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/b7e3d17c-3ac4-4dea-8f71-89ff724e524c.png",
-      "details_url": "https://playgoals.com/twitch-drops",
-      "game": "GOALS",
-      "game_slug": "goals",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/951160620_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 300,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Common+ Pack [1 Player]",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82a4b7fe-7458-4b59-b909-ebc30fc91521.png",
-          "minutes": 60
-        },
-        {
-          "name": "Uncommon+ Pack [1 Player]",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png",
-          "minutes": 300
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "9b2fb9cc-dcb8-4d67-b18a-cf2f43ceeb27",
       "name": "Dichotomy Beta Test Drops",
       "status": "ACTIVE",
@@ -3301,6 +2951,34 @@
       "src": "sunkwi"
     },
     {
+      "id": "7c2e84e9-24bb-4573-82bd-adfe5bfda02e",
+      "name": "GOALS - 24th of July",
+      "status": "ACTIVE",
+      "start_at": "2026-07-23T22:01:00Z",
+      "end_at": "2026-07-24T21:58:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/037590a8-bf3e-4f7e-a021-646e32969bce.png",
+      "details_url": "https://playgoals.com/twitch-drops",
+      "game": "GOALS",
+      "game_slug": "goals",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/951160620_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 300,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Common+ Pack [1 Player]",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82a4b7fe-7458-4b59-b909-ebc30fc91521.png",
+          "minutes": 60
+        },
+        {
+          "name": "Uncommon+ Pack [1 Player]",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png",
+          "minutes": 300
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
       "id": "4a47a3a3-4889-4ca7-9db1-426ca0d92367",
       "name": "Relink Fabicon badge",
       "status": "ACTIVE",
@@ -3393,6 +3071,6 @@
     }
   ],
   "error": null,
-  "warn": null,
+  "warn": "Fonte parcial fora do ar: twitchdrops: AttributeError",
   "raw_hint": null
 }
