@@ -1,41 +1,18 @@
 {
-  "updated_at": "2026-07-23T12:56:40Z",
+  "updated_at": "2026-07-23T15:09:01Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-23T12:56:01.540Z",
+  "source_updated": "2026-07-23T15:09:01.500Z",
   "counts": {
-    "total": 86,
+    "total": 88,
     "upcoming": 5,
-    "active": 81,
-    "game_drops": 84,
+    "active": 83,
+    "game_drops": 86,
     "platform": 2,
     "badges": 5,
-    "fechadas_descartadas": 44
+    "fechadas_descartadas": 46
   },
   "campaigns": [
-    {
-      "id": "1fd7d264-7028-4506-bc3c-b810650b14fa",
-      "name": "Bikini Bottom Hype",
-      "status": "UPCOMING",
-      "start_at": "2026-07-23T13:00:00.000Z",
-      "end_at": "2026-07-27T03:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Fortnite",
-      "game_slug": "fortnite",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/33214-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 60,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "The Helm Guitar",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/92280f6a-a7bc-425a-86b5-622ba7017cea.jpeg",
-          "minutes": 60
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "78336fb5-4a18-40f7-9bbb-c2b8142e212e",
       "name": "FH - Y10 Season 2 - II",
@@ -162,6 +139,29 @@
         },
         {
           "name": "Walter Legs",
+          "image": null,
+          "minutes": null
+        }
+      ],
+      "src": "twitchdrops"
+    },
+    {
+      "id": null,
+      "name": "1 drop",
+      "status": "UPCOMING",
+      "start_at": "2026-07-24T14:00:00Z",
+      "end_at": "2026-07-26T21:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/0544c69a-d35a-418f-a3a9-5f0991e9c84f.png",
+      "details_url": "https://twitchdrops.app/game/dofus-touch",
+      "game": "DOFUS Touch",
+      "game_slug": "dofus-touch",
+      "game_box": null,
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "10th Anniversary Gift",
           "image": null,
           "minutes": null
         }
@@ -3036,6 +3036,62 @@
           "name": "Exotic Stellar Marrow *1",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/acea0c2a-1ee4-4071-8f10-db5731e5228b.png",
           "minutes": 300
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "1fd7d264-7028-4506-bc3c-b810650b14fa",
+      "name": "Bikini Bottom Hype",
+      "status": "ACTIVE",
+      "start_at": "2026-07-23T13:00:00Z",
+      "end_at": "2026-07-27T03:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/212546d6-e4ef-4962-8f8d-5e1acff37599.jpeg",
+      "details_url": "https://www.fortnite.com/twitch-drops",
+      "game": "Fortnite",
+      "game_slug": "fortnite",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/33214-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 60,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "The Helm Guitar",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/92280f6a-a7bc-425a-86b5-622ba7017cea.jpeg",
+          "minutes": 60
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "62f12ab8-ba9a-4919-973b-ecda63cd855d",
+      "name": "America Launch Drop",
+      "status": "ACTIVE",
+      "start_at": "2026-07-23T13:00:00Z",
+      "end_at": "2026-08-06T12:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/cc61dca6-cdec-4c65-910a-e01be560a971.png",
+      "details_url": "https://roocamer.gnjoy.game/event/CreatorFactionRally-v2",
+      "game": "Ragnarok Origin: Classic",
+      "game_slug": "ragnarok-origin-classic",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/758919967_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Kickoff Cache",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/040c1f75-de99-4af2-bb0a-d523e4254c20.jpeg",
+          "minutes": 30
+        },
+        {
+          "name": "All-Star Cache",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9fd617d2-aaac-4360-8077-f4636f7f9ec9.png",
+          "minutes": 60
+        },
+        {
+          "name": "Champion’s Cache",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/565dd06e-8df8-4472-9f37-2edd6e41dd01.png",
+          "minutes": 180
         }
       ],
       "src": "sunkwi"
