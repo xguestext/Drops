@@ -21,6 +21,7 @@ Regras (pedido do dono):
 import json
 import os
 import re
+import html
 import datetime
 import urllib.request
 import urllib.error
@@ -208,12 +209,12 @@ def carrega_twitchdrops(agora):
         if endat and endat < agora:                       # ja expirou
             continue
         title_m = re.search(r'card-title">([^<]+)<', body)
-        game = (title_m.group(1).strip() if title_m else (_attr(attrs, "data-game") or "").title())
+        game = html.unescape(title_m.group(1).strip() if title_m else (_attr(attrs, "data-game") or "").title())
         thumb = re.search(r'class="card-thumb"[^>]*src="([^"]+)"', body) \
             or re.search(r'src="([^"]+)"[^>]*class="card-thumb"', body)
         drops = _attr(attrs, "data-drops") or "?"
         rimgs = re.findall(r'class="reward-thumb"[^>]*src="([^"]+)"', body)
-        rnames = [re.sub(r"\s+", " ", x).strip()
+        rnames = [html.unescape(re.sub(r"\s+", " ", x).strip())
                   for x in re.findall(r'class="reward-name">([^<]*)<', body)]
         rewards = []
         for k in range(max(len(rimgs), len(rnames))):

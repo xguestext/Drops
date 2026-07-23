@@ -57,9 +57,109 @@ WIDGET = {"bolinha": None, "icon": None}
 PAINEL_PROC = {"p": None}
 
 try:
-    ctypes.windll.shcore.SetProcessDpiAwareness(1)
+    ctypes.windll.shcore.SetProcessDpiAwareness(2)
 except Exception:
-    pass
+    try:
+        ctypes.windll.shcore.SetProcessDpiAwareness(1)
+    except Exception:
+        pass
+try:
+    # escala real da tela (150% -> 1.5): tudo e' desenhado JA no tamanho fisico,
+    # entao o Windows nao estica nada = zero pixelado
+    ESCALA = max(1.0, ctypes.windll.user32.GetDpiForSystem() / 96.0)
+except Exception:
+    ESCALA = 1.0
+
+
+def px(v):
+    return int(v * ESCALA)
+
+
+# ---- janela com transparencia REAL por pixel (borda lisa, sem serrilhado) ----
+import ctypes.wintypes as _wt  # noqa: E402
+
+_u32, _g32 = ctypes.windll.user32, ctypes.windll.gdi32
+_u32.GetDC.argtypes = [ctypes.c_void_p]
+_u32.GetParent.restype = ctypes.c_void_p
+_u32.GetParent.argtypes = [ctypes.c_void_p]
+_u32.GetWindowLongW.argtypes = [ctypes.c_void_p, ctypes.c_int]
+_u32.SetWindowLongW.argtypes = [ctypes.c_void_p, ctypes.c_int, ctypes.c_long]
+_g32.CreateCompatibleDC.argtypes = [ctypes.c_void_p]
+_g32.CreateCompatibleDC.restype = ctypes.c_void_p
+_g32.CreateDIBSection.restype = ctypes.c_void_p
+_g32.CreateDIBSection.argtypes = [ctypes.c_void_p, ctypes.c_void_p, ctypes.c_uint32,
+                                  ctypes.POINTER(ctypes.c_void_p), ctypes.c_void_p, ctypes.c_uint32]
+_g32.SelectObject.restype = ctypes.c_void_p
+_g32.SelectObject.argtypes = [ctypes.c_void_p, ctypes.c_void_p]
+_g32.DeleteObject.argtypes = [ctypes.c_void_p]
+_g32.DeleteDC.argtypes = [ctypes.c_void_p]
+_u32.GetDC.restype = ctypes.c_void_p
+_u32.ReleaseDC.argtypes = [ctypes.c_void_p, ctypes.c_void_p]
+_u32.UpdateLayeredWindow.argtypes = [ctypes.c_void_p, ctypes.c_void_p, ctypes.c_void_p,
+                                     ctypes.c_void_p, ctypes.c_void_p, ctypes.c_void_p,
+                                     ctypes.c_uint32, ctypes.c_void_p, ctypes.c_uint32]
+
+
+class _BLEND(ctypes.Structure):
+    _fields_ = [("op", ctypes.c_ubyte), ("flags", ctypes.c_ubyte),
+                ("alpha", ctypes.c_ubyte), ("formato", ctypes.c_ubyte)]
+
+
+class _BIH(ctypes.Structure):
+    _fields_ = [("size", ctypes.c_uint32), ("w", ctypes.c_int32), ("h", ctypes.c_int32),
+                ("planes", ctypes.c_uint16), ("bits", ctypes.c_uint16),
+                ("comp", ctypes.c_uint32), ("imgsize", ctypes.c_uint32),
+                ("xppm", ctypes.c_int32), ("yppm", ctypes.c_int32),
+                ("used", ctypes.c_uint32), ("imp", ctypes.c_uint32)]
+
+
+def torna_layered(win, pil_rgba, alpha=255, pos=None):
+    """Pinta a janela com a imagem RGBA usando alpha por pixel (UpdateLayeredWindow)."""
+    from PIL import ImageChops
+    try:
+        hwnd = int(win.wm_frame(), 16)
+    except Exception:
+        hwnd = _u32.GetParent(win.winfo_id())
+    if not hwnd:
+        return
+    GWL_EXSTYLE = -20
+    est = _u32.GetWindowLongW(hwnd, GWL_EXSTYLE)
+    _u32.SetWindowLongW(hwnd, GWL_EXSTYLE, est | 0x00080000)   # WS_EX_LAYERED
+
+    w, h = pil_rgba.size
+    a = pil_rgba.getchannel("A")
+    pm = ImageChops.multiply(pil_rgba.convert("RGB"), Image.merge("RGB", (a, a, a)))
+    r_, g_, b_ = pm.split()
+    dados = Image.merge("RGBA", (b_, g_, r_, a)).tobytes()
+
+    bmi = _BIH()
+    ctypes.memset(ctypes.byref(bmi), 0, ctypes.sizeof(bmi))
+    bmi.size = ctypes.sizeof(bmi)
+    bmi.w, bmi.h, bmi.planes, bmi.bits = w, -h, 1, 32
+
+    sdc = _u32.GetDC(None)
+    mdc = _g32.CreateCompatibleDC(sdc)
+    bits = ctypes.c_void_p()
+    hbmp = _g32.CreateDIBSection(sdc, ctypes.byref(bmi), 0, ctypes.byref(bits), None, 0)
+    if not hbmp:
+        _g32.DeleteDC(mdc)
+        _u32.ReleaseDC(None, sdc)
+        return
+    ctypes.memmove(bits, dados, len(dados))
+    velho = _g32.SelectObject(mdc, hbmp)
+
+    if pos is None:
+        pos = (win.winfo_x(), win.winfo_y())
+    pt_dst = _wt.POINT(int(pos[0]), int(pos[1]))
+    tam = _wt.SIZE(w, h)
+    pt_src = _wt.POINT(0, 0)
+    blend = _BLEND(0, 0, max(0, min(255, int(alpha))), 1)
+    _u32.UpdateLayeredWindow(hwnd, sdc, ctypes.byref(pt_dst), ctypes.byref(tam),
+                             mdc, ctypes.byref(pt_src), 0, ctypes.byref(blend), 2)
+    _g32.SelectObject(mdc, velho)
+    _g32.DeleteObject(hbmp)
+    _g32.DeleteDC(mdc)
+    _u32.ReleaseDC(None, sdc)
 
 
 def fonte(px, peso="regular"):
@@ -194,7 +294,7 @@ def renderiza_card(dado):
     if not rewards and not tem_nota:
         H = y_tempo + 18 * S + pad
 
-    base = Image.new("RGB", (W, H), CHAVE_TRANSP)
+    base = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(base)
     r = 14 * S
     d.rounded_rectangle([0, 0, W - 1, H - 1], r, fill=stripe)
@@ -252,7 +352,7 @@ def renderiza_card(dado):
     elif tem_nota:
         d.text((pad + 2 * S, y_head), _corta(d, dado["nota"], f_rw, W - 2 * pad), fill=DIM, font=f_rw)
 
-    return base.resize((W // S, H // S), Image.LANCZOS)
+    return base.resize((px(W // S), px(H // S)), Image.LANCZOS)
 
 
 class Notificacao(tk.Toplevel):
@@ -262,16 +362,13 @@ class Notificacao(tk.Toplevel):
         super().__init__(root)
         self.overrideredirect(True)
         self.attributes("-topmost", True)
-        self.configure(bg=CHAVE_TRANSP)
-        try:
-            self.attributes("-transparentcolor", CHAVE_TRANSP)
-        except tk.TclError:
-            pass
+        self.configure(bg="black")
         self.restante = int(segundos * 10)
         self.pausado = False
+        self._card = pil_card
 
         self._img = ImageTk.PhotoImage(pil_card)
-        lbl = tk.Label(self, image=self._img, bg=CHAVE_TRANSP, bd=0)
+        lbl = tk.Label(self, image=self._img, bg="black", bd=0)
         lbl.pack()
         lbl.bind("<Button-1>", lambda e: self.fechar())
         lbl.bind("<Enter>", lambda e: setattr(self, "pausado", True))
@@ -281,7 +378,7 @@ class Notificacao(tk.Toplevel):
         self._h = H
         self.update_idletasks()
         sw, sh = self.winfo_screenwidth(), self.winfo_screenheight()
-        ocupado = sum(n._h + 10 for n in Notificacao.ABERTAS if n.winfo_exists())
+        ocupado = sum(n._h + px(10) for n in Notificacao.ABERTAS if n.winfo_exists())
 
         b = WIDGET.get("bolinha")
         try:
@@ -291,21 +388,23 @@ class Notificacao(tk.Toplevel):
         if visivel:
             bx, by = b.winfo_rootx(), b.winfo_rooty()
             x = max(8, min(bx + b.winfo_width() - W, sw - W - 8))
-            y = max(8, by - 10 - H - ocupado)
+            y = max(8, by - px(10) - H - ocupado)
         else:
-            x, y = sw - W - 16, sh - 58 - H - ocupado
+            x, y = sw - W - px(16), sh - px(58) - H - ocupado
         self.geometry("%dx%d+%d+%d" % (W, H, x, y))
         Notificacao.ABERTAS.append(self)
-
-        self.attributes("-alpha", 0.0)
-        self._fade(0.0, +0.14)
+        self.update_idletasks()
+        torna_layered(self, self._card, 0, pos=(x, y))
+        self._fade(0.0, +0.15)
         self.after(100, self._tic)
 
     def _fade(self, a, passo):
-        a = max(0.0, min(1.0, a + passo))
         try:
-            self.attributes("-alpha", a)
-        except tk.TclError:
+            if not self.winfo_exists():
+                return
+            a = max(0.0, min(1.0, a + passo))
+            torna_layered(self, self._card, int(a * 255))
+        except Exception:
             return
         if 0.0 < a < 1.0:
             self.after(20, self._fade, a, passo)
@@ -411,22 +510,36 @@ def abrir_painel():
         import webbrowser
         webbrowser.open(url)
         return
-    W, Hh = 560, 780
+    W, Hh = px(560), px(780)
     sw = b.winfo_screenwidth() if b else 1920
     sh = b.winfo_screenheight() if b else 1080
     if b and b.winfo_exists():
         bx, by = b.winfo_rootx(), b.winfo_rooty()
         x = max(8, min(bx + b.winfo_width() - W, sw - W - 8))
-        y = by - Hh - 12
+        y = by - Hh - px(12)
         if y < 8:
-            y = max(8, min(by + b.winfo_height() + 12, sh - Hh - 8))
+            y = max(8, min(by + b.winfo_height() + px(12), sh - Hh - 8))
     else:
-        x, y = sw - W - 40, max(8, sh - Hh - 80)
+        x, y = sw - W - px(40), max(8, sh - Hh - px(80))
     perfil = os.path.join(os.environ.get("LOCALAPPDATA", AQUI), "DropsRadarPainel")
     PAINEL_PROC["p"] = subprocess.Popen(
         [nav, "--app=" + url, "--window-size=%d,%d" % (W, Hh),
          "--window-position=%d,%d" % (x, y), "--user-data-dir=" + perfil,
          "--no-first-run", "--no-default-browser-check"])
+    threading.Thread(target=_painel_sempre_na_frente, daemon=True).start()
+
+
+def _painel_sempre_na_frente():
+    """Acha a janela do painel e crava ela POR CIMA de tudo (HWND_TOPMOST)."""
+    import time
+    u = ctypes.windll.user32
+    for _ in range(30):
+        h = u.FindWindowW(None, "Drops Radar")
+        if h:
+            # -1 = HWND_TOPMOST | NOSIZE(1) + NOMOVE(2) + SHOWWINDOW(0x40)
+            u.SetWindowPos(h, -1, 0, 0, 0, 0, 0x0001 | 0x0002 | 0x0040)
+            return
+        time.sleep(0.5)
 
 
 def escreve_dados_painel():
@@ -447,16 +560,13 @@ class Bolinha(tk.Toplevel):
         super().__init__(root)
         self.overrideredirect(True)
         self.attributes("-topmost", True)
-        self.configure(bg=CHAVE_TRANSP)
-        try:
-            self.attributes("-transparentcolor", CHAVE_TRANSP)
-        except tk.TclError:
-            pass
+        self.configure(bg="black")
         self.ao_clicar = ao_clicar
         self._drag = None
         self._moveu = False
+        self._ultimo = 0
 
-        self.lbl = tk.Label(self, bg=CHAVE_TRANSP, bd=0, cursor="hand2")
+        self.lbl = tk.Label(self, bg="black", bd=0, cursor="hand2")
         self.lbl.pack()
         self.lbl.bind("<ButtonRelease-1>", lambda e: self.ao_clicar())
         self.lbl.bind("<ButtonPress-3>", self._press)
@@ -469,32 +579,44 @@ class Bolinha(tk.Toplevel):
 
         st = al.carrega_estado()
         sw, sh = self.winfo_screenwidth(), self.winfo_screenheight()
-        x, y = (st.get("widget_pos") or [sw - 110, sh - 170])
-        x = max(0, min(int(x), sw - 70))
-        y = max(0, min(int(y), sh - 70))
-        self.desenha(0)
+        x, y = (st.get("widget_pos") or [sw - px(120), sh - px(180)])
+        x = max(0, min(int(x), sw - px(80)))
+        y = max(0, min(int(y), sh - px(80)))
         self.geometry("+%d+%d" % (x, y))
+        self.update_idletasks()
+        self.desenha(0)
 
     def desenha(self, n_novos):
+        self._ultimo = n_novos
         S = 4
-        W, H = 60 * S, 58 * S
-        img = Image.new("RGB", (W, H), CHAVE_TRANSP)
+        W, H = 74 * S, 70 * S
+        img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
         d = ImageDraw.Draw(img)
+        # sombra suave
+        for i, alfa in ((6, 26), (4, 42), (2, 60)):
+            d.rounded_rectangle([4 * S - i, 14 * S - i + 2 * S, 62 * S + i, 68 * S + i - 2 * S],
+                                19 * S, fill=(0, 0, 0, alfa))
         # corpo
-        d.rounded_rectangle([2 * S, 10 * S, 50 * S, 58 * S - 2 * S], 15 * S,
+        d.rounded_rectangle([4 * S, 14 * S, 62 * S, 68 * S], 18 * S,
                             fill=CARD, outline=LINHA, width=S)
-        desenha_presente(d, 11 * S, 18 * S, 30 * S)
+        desenha_presente(d, 15 * S, 24 * S, 36 * S)
         # badge de nao-vistos (some quando 0)
         if n_novos > 0:
             txt = "9+" if n_novos > 9 else str(n_novos)
-            f = fonte(11 * S, "bold")
-            r = 11 * S
-            cx, cy = 46 * S, 12 * S
-            d.ellipse([cx - r, cy - r, cx + r, cy + r], fill=AZUL, outline=CARD, width=2 * S)
-            d.text((cx, cy - S), txt, fill="#08131d", font=f, anchor="mm")
-        self._pil = img.resize((W // S, H // S), Image.LANCZOS)
-        self._img = ImageTk.PhotoImage(self._pil)
+            f = fonte(13 * S, "bold")
+            r = 13 * S
+            cx, cy = 58 * S, 15 * S
+            d.ellipse([cx - r, cy - r, cx + r, cy + r], fill=AZUL, outline="#0d0d10", width=2 * S)
+            d.text((cx, cy - S), txt, fill="#06121c", font=f, anchor="mm")
+        pil = img.resize((px(W // S), px(H // S)), Image.LANCZOS)
+        self._pil = pil
+        self._img = ImageTk.PhotoImage(pil)
         self.lbl.configure(image=self._img)
+        try:
+            self.update_idletasks()
+            torna_layered(self, pil, 255)
+        except Exception:
+            pass
 
     def _press(self, e):
         self._drag = (e.x_root, e.y_root, self.winfo_x(), self.winfo_y())
@@ -699,6 +821,7 @@ def main():
         if b.state() == "withdrawn":
             b.deiconify()
             b.attributes("-topmost", True)
+            b.desenha(b._ultimo)
         else:
             b.withdraw()
 
@@ -753,8 +876,19 @@ def main():
     icon = pystray.Icon("drops_radar", icone_bandeja(), "Drops Radar", menu)
     WIDGET["icon"] = icon
 
+    def reafirma_topo():
+        b = WIDGET["bolinha"]
+        try:
+            if b and b.winfo_exists() and b.state() != "withdrawn":
+                b.attributes("-topmost", True)
+                b.lift()
+        except tk.TclError:
+            pass
+        root.after(3000, reafirma_topo)
+
     threading.Thread(target=icon.run, daemon=True).start()
     threading.Thread(target=vigia, args=(q, parar, forca), daemon=True).start()
+    reafirma_topo()
     processa_fila()
     root.mainloop()
 
