@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-22T23:58:14Z",
+  "updated_at": "2026-07-23T03:14:38Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-22T23:58:01.416Z",
+  "source_updated": "2026-07-23T03:14:01.581Z",
   "counts": {
     "total": 90,
     "upcoming": 7,
@@ -13,29 +13,6 @@
     "fechadas_descartadas": 42
   },
   "campaigns": [
-    {
-      "id": "9b2fb9cc-dcb8-4d67-b18a-cf2f43ceeb27",
-      "name": "Dichotomy Beta Test Drops",
-      "status": "UPCOMING",
-      "start_at": "2026-07-23T02:00:00.000Z",
-      "end_at": "2026-07-25T15:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Silver Palace",
-      "game_slug": "silver-palace",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1673502163_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 30,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Beta Test Raffle Ticket",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/44f62bae-4090-4a29-ba4b-28470a4fd799.png",
-          "minutes": 30
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "bf45b48e-5d71-4f58-9848-985349dca004",
       "name": "Radiant Wilds 15 - #4/7",
@@ -124,6 +101,29 @@
         }
       ],
       "src": "fenris"
+    },
+    {
+      "id": null,
+      "name": "1 drop",
+      "status": "UPCOMING",
+      "start_at": "2026-07-23T13:00:00Z",
+      "end_at": "2026-07-27T03:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/212546d6-e4ef-4962-8f8d-5e1acff37599.jpeg",
+      "details_url": "https://twitchdrops.app/game/fortnite",
+      "game": "Fortnite",
+      "game_slug": "fortnite",
+      "game_box": null,
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "The Helm Pickaxe",
+          "image": null,
+          "minutes": null
+        }
+      ],
+      "src": "twitchdrops"
     },
     {
       "id": "11d111bb-eac9-4bc7-9f3d-d64f22f697b7",
@@ -564,29 +564,6 @@
           "name": "Purple Resonance Gift Bun",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d998841a-b013-4aee-9d65-bd843bb2580c.png",
           "minutes": 60
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "50683bfa-9860-4c47-bd25-e55803adf8d0",
-      "name": "Sarducaa Kurnas Table",
-      "status": "ACTIVE",
-      "start_at": "2026-07-01T19:00:00Z",
-      "end_at": "2026-07-22T23:58:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d51a4fac-28b1-4fd1-b07e-e1a1451606f3.png",
-      "details_url": "https://www.mortalonline2.com/new-twitch-drop-info-reckoning-tagmaton-effigy",
-      "game": "Mortal Online 2",
-      "game_slug": "mortal-online-2",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/517282_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 360,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Kurnas Table House Deco",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ccca8931-4bbe-44b6-be9c-6408fa58ece9.png",
-          "minutes": 360
         }
       ],
       "src": "sunkwi"
@@ -2138,44 +2115,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "ac2a73c3-46a5-46c5-aac3-997046dd683a",
-      "name": "July 3",
-      "status": "ACTIVE",
-      "start_at": "2026-07-16T09:00:00Z",
-      "end_at": "2026-07-22T23:58:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ed828190-ca03-447a-b754-f768b2117114.png",
-      "details_url": "https://portal.uflgame.com/twitch/drops",
-      "game": "UFL",
-      "game_slug": "ufl",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1471416868_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Enhanced CP",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/03adc5a2-a70c-4d55-a9e5-114f9fa75f56.png",
-          "minutes": 60
-        },
-        {
-          "name": "July GС Pack 1 Lab",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5a8de09d-a09c-408f-b523-59c8f4fdd57d.png",
-          "minutes": 120
-        },
-        {
-          "name": "Fifth Round Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f468d27b-2eb5-455f-9a40-86048215a81c.png",
-          "minutes": 180
-        },
-        {
-          "name": "Footy Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f4234046-849a-4c38-992b-3a2c57ffc47d.png",
-          "minutes": 240
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "5ed51220-3050-40e6-bcfb-708b75bce6a6",
       "name": "Update 15.6 Drop: Week 1",
       "status": "ACTIVE",
@@ -3160,6 +3099,77 @@
           "name": "Uncommon+ Pack [1 Player]",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png",
           "minutes": 300
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "9b2fb9cc-dcb8-4d67-b18a-cf2f43ceeb27",
+      "name": "Dichotomy Beta Test Drops",
+      "status": "ACTIVE",
+      "start_at": "2026-07-23T02:00:00Z",
+      "end_at": "2026-07-25T15:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/1b91f9c5-15d1-4a57-8ab3-34231dc0d9bc.png",
+      "details_url": "https://silverpalace.elementagames.com/special/twitch-bind",
+      "game": "Silver Palace",
+      "game_slug": "silver-palace",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1673502163_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 30,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Beta Test Raffle Ticket",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/44f62bae-4090-4a29-ba4b-28470a4fd799.png",
+          "minutes": 30
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "615fc480-e578-4f78-a5ba-0ddef9292bdd",
+      "name": "Where Winds Meet August",
+      "status": "ACTIVE",
+      "start_at": "2026-07-23T02:00:00Z",
+      "end_at": "2026-08-20T01:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/3b400ed9-ebe9-4352-855c-f428d64ba486.png",
+      "details_url": "https://www.wherewindsmeetgame.com/twitchdrops/",
+      "game": "Where Winds Meet",
+      "game_slug": "where-winds-meet",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1630982727_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "15min drop August",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2814edce-d482-4771-94d1-df3dcd4dc82d.png",
+          "minutes": 15
+        },
+        {
+          "name": "30min drop August",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ef7008da-b3c8-4f07-a347-a1710975b1e3.png",
+          "minutes": 30
+        },
+        {
+          "name": "60min drop August",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8e48261b-bd56-46dc-bdab-e75c35d491ac.png",
+          "minutes": 60
+        },
+        {
+          "name": "120min drop August",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e6dac638-4e49-42ea-9e89-a669241525b8.png",
+          "minutes": 120
+        },
+        {
+          "name": "180min drop August",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e8ca8b25-6bc5-42a9-bb85-f86206c3b67a.png",
+          "minutes": 180
+        },
+        {
+          "name": "240min drop August",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/75b45339-13e2-46d8-a265-28049d78d4fe.png",
+          "minutes": 240
         }
       ],
       "src": "sunkwi"
