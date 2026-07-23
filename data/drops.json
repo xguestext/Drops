@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-07-23T19:54:09Z",
+  "updated_at": "2026-07-23T20:57:08Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-23T19:54:01.567Z",
+  "source_updated": "2026-07-23T20:57:01.435Z",
   "counts": {
-    "total": 95,
-    "upcoming": 9,
+    "total": 96,
+    "upcoming": 10,
     "active": 86,
-    "game_drops": 93,
+    "game_drops": 94,
     "platform": 2,
     "badges": 5,
     "fechadas_descartadas": 48
@@ -239,6 +239,34 @@
       "rewards": [
         {
           "name": "CFB Twitch Pack",
+          "image": null,
+          "minutes": null
+        }
+      ],
+      "src": "twitchdrops"
+    },
+    {
+      "id": null,
+      "name": "2 drops",
+      "status": "UPCOMING",
+      "start_at": "2026-07-24T20:00:00Z",
+      "end_at": "2026-07-31T23:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/3671f719-d820-4283-8459-8e7d666762c1.png",
+      "details_url": "https://twitchdrops.app/game/path-of-exile",
+      "game": "Path of Exile",
+      "game_slug": "path-of-exile",
+      "game_box": null,
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Nautical Explorer&#39;s Back",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Allflame Crafting Bench",
           "image": null,
           "minutes": null
         }
