@@ -1,69 +1,18 @@
 {
-  "updated_at": "2026-07-24T13:25:39Z",
+  "updated_at": "2026-07-24T15:12:27Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-24T13:25:01.478Z",
+  "source_updated": "2026-07-24T15:12:01.410Z",
   "counts": {
-    "total": 92,
-    "upcoming": 11,
-    "active": 81,
-    "game_drops": 90,
+    "total": 91,
+    "upcoming": 9,
+    "active": 82,
+    "game_drops": 89,
     "platform": 2,
     "badges": 5,
-    "fechadas_descartadas": 44
+    "fechadas_descartadas": 47
   },
   "campaigns": [
-    {
-      "id": "46a5e58d-5e18-473a-89e1-069fc9655c02",
-      "name": "10th Anniversary - Week 3",
-      "status": "UPCOMING",
-      "start_at": "2026-07-24T14:00:00.000Z",
-      "end_at": "2026-07-26T21:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "DOFUS Touch",
-      "game_slug": "dofus-touch",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/505045_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "10th Anniversary Gift",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f46515bc-40c4-46e6-9e58-4637f743c567.png",
-          "minutes": 120
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "26935687-0a71-4e48-a978-71f63abd8e1f",
-      "name": "Hunt 1896 (Week 1, Pt. 2)",
-      "status": "UPCOMING",
-      "start_at": "2026-07-24T15:00:00.000Z",
-      "end_at": "2026-07-26T14:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Hunt: Showdown 1896",
-      "game_slug": "hunt-showdown",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/500188_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Supply Crate",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a168187c-e97a-4070-a7a5-aeccdafba6a2.jpeg",
-          "minutes": 30
-        },
-        {
-          "name": "Random Legendary Skin",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bb3b7cf8-4517-412b-8b64-5caca7a8d1e0.jpeg",
-          "minutes": 240
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "366fc540-904b-4d81-919b-fce65e5b5373",
       "name": "DF RISE Series S1 Drops",
@@ -1956,29 +1905,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "aca451b3-60b3-463f-abcb-f860c36ca32d",
-      "name": "Обновление 26.7: Часть 2",
-      "status": "ACTIVE",
-      "start_at": "2026-07-17T15:00:00Z",
-      "end_at": "2026-07-24T14:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/484de7e7-1a7b-4dbb-a10f-33c61353f5bb.jpeg",
-      "details_url": "https://krbli.ru/4dDrG8N",
-      "game": "Mir Korabley",
-      "game_slug": "mir-korabley",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2133072147_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "26.7 Боевая задача #2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/83163fc6-9e8d-4ead-9bc3-8236d63dd869.png",
-          "minutes": 240
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "853aa320-88ad-46a8-9231-7d8370503317",
       "name": "Soulframe Preludes Key",
       "status": "ACTIVE",
@@ -2445,34 +2371,6 @@
           "name": "Ghostly Infusion",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8a494732-93ac-4436-9f83-2f61050adfb7.png",
           "minutes": 900
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "c8ca48a3-8269-4e33-80ef-61dbcbecc108",
-      "name": "Hunt 1896 (Week 1, Pt. 1)",
-      "status": "ACTIVE",
-      "start_at": "2026-07-22T15:00:00Z",
-      "end_at": "2026-07-24T14:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a4cc947d-8125-4f1b-8742-978f966636e8.jpeg",
-      "details_url": "https://www.huntshowdown.com/twitchdrops",
-      "game": "Hunt: Showdown 1896",
-      "game_slug": "hunt-showdown",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/500188_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Supply Crate",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/02add676-a7a5-48e1-a0b3-1882544705a5.jpeg",
-          "minutes": 30
-        },
-        {
-          "name": "Random Charm",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/db2b74bc-3dd8-4dc9-a7d2-948939911455.jpeg",
-          "minutes": 240
         }
       ],
       "src": "sunkwi"
@@ -3154,6 +3052,100 @@
           "name": "2 Hour Reward",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f2cb7c7c-7ecd-423e-af93-0d2fc21fcd96.png",
           "minutes": 120
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "46a5e58d-5e18-473a-89e1-069fc9655c02",
+      "name": "10th Anniversary - Week 3",
+      "status": "ACTIVE",
+      "start_at": "2026-07-24T14:00:00Z",
+      "end_at": "2026-07-26T21:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/0544c69a-d35a-418f-a3a9-5f0991e9c84f.png",
+      "details_url": "https://account.ankama.com/fr/twitch",
+      "game": "DOFUS Touch",
+      "game_slug": "dofus-touch",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/505045_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "10th Anniversary Gift",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f46515bc-40c4-46e6-9e58-4637f743c567.png",
+          "minutes": 120
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "59c27354-8ddd-46f3-b133-f9e6dd383727",
+      "name": "NW2 SUMMER DROPS #2",
+      "status": "ACTIVE",
+      "start_at": "2026-07-24T14:00:00Z",
+      "end_at": "2026-07-31T21:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/40a33093-291f-4863-a3aa-c2fc730fa7e8.png",
+      "details_url": "https://twitch.nextworld2.com/",
+      "game": "NextWorld2",
+      "game_slug": "nextworld2",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/544682640_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 900,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Gladiátor Köpeny (100 db)",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/680045bf-1308-4f95-9def-f0c0ce1e47c1.jpeg",
+          "minutes": 120
+        },
+        {
+          "name": "Gladiátor Gyűrű (1 db)",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/28890cee-72b8-4ef7-b14c-00fe5531fbf4.jpeg",
+          "minutes": 300
+        },
+        {
+          "name": "Sárkány Tűzkő (5 db)",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ddf54fd9-ea55-4f33-9b97-38f49d2e21d4.png",
+          "minutes": 600
+        },
+        {
+          "name": "Twitch Érme (1 db)",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3aa3dd8a-e821-4e17-bf04-1f364c68d34e.jpeg",
+          "minutes": 840
+        },
+        {
+          "name": "Funnykini Jelmez (1 db)",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5577cb49-47ea-4ce8-a073-1232be4cabcd.jpeg",
+          "minutes": 900
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "26935687-0a71-4e48-a978-71f63abd8e1f",
+      "name": "Hunt 1896 (Week 1, Pt. 2)",
+      "status": "ACTIVE",
+      "start_at": "2026-07-24T15:00:00Z",
+      "end_at": "2026-07-26T14:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/fab80010-6753-4a86-9c2e-1c5987a3ed87.jpeg",
+      "details_url": "https://www.huntshowdown.com/twitchdrops",
+      "game": "Hunt: Showdown 1896",
+      "game_slug": "hunt-showdown",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/500188_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Supply Crate",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a168187c-e97a-4070-a7a5-aeccdafba6a2.jpeg",
+          "minutes": 30
+        },
+        {
+          "name": "Random Legendary Skin",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bb3b7cf8-4517-412b-8b64-5caca7a8d1e0.jpeg",
+          "minutes": 240
         }
       ],
       "src": "sunkwi"
