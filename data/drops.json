@@ -1,102 +1,18 @@
 {
-  "updated_at": "2026-07-24T09:42:45Z",
+  "updated_at": "2026-07-24T11:38:29Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-24T09:42:02.525Z",
+  "source_updated": "2026-07-24T11:38:01.593Z",
   "counts": {
-    "total": 94,
-    "upcoming": 15,
-    "active": 79,
-    "game_drops": 92,
+    "total": 93,
+    "upcoming": 12,
+    "active": 81,
+    "game_drops": 91,
     "platform": 2,
     "badges": 5,
-    "fechadas_descartadas": 42
+    "fechadas_descartadas": 45
   },
   "campaigns": [
-    {
-      "id": "199de791-278f-444f-ab6b-dd49b4890b18",
-      "name": "Medieval 2026 Part 3",
-      "status": "UPCOMING",
-      "start_at": "2026-07-24T10:00:00.000Z",
-      "end_at": "2026-07-27T09:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Infestation: The New Z",
-      "game_slug": "infestation-the-new-z",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/491289_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 300,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Medieval 2026",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8f7ca076-6706-4b04-99ae-7a4cd1cc7939.png",
-          "minutes": 30
-        },
-        {
-          "name": "Walter Legs",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4d4154ea-90ac-4e05-896c-9166f4b18a76.png",
-          "minutes": 300
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "e42827c4-13f3-4d1f-80f5-7dcf8a44f682",
-      "name": "Radiant Wilds 15 - #5/7",
-      "status": "UPCOMING",
-      "start_at": "2026-07-24T10:00:00.000Z",
-      "end_at": "2026-07-25T09:29:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Albion Online",
-      "game_slug": "albion-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Radiant Wilds Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
-          "minutes": 180
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "1fb7ba3c-d622-4e7c-8e13-ff316b157786",
-      "name": "Biohazard Loot Rush Drops",
-      "status": "UPCOMING",
-      "start_at": "2026-07-24T10:00:00.000Z",
-      "end_at": "2026-08-18T08:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Arena Breakout: Infinite",
-      "game_slug": "arena-breakout-infinite",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/401587136_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 600,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Twitch Tear Gas Skin",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b86a405c-3542-46a4-9b1d-f04a758588c1.png",
-          "minutes": 240
-        },
-        {
-          "name": "Twitch Flashbang Skin",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/368f08fa-3813-4efb-be87-f2fcddf49dbe.png",
-          "minutes": 480
-        },
-        {
-          "name": "Twitch Stun Grenade Skin",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9546d09b-4e89-4113-bd07-bc39fa23eb41.png",
-          "minutes": 600
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "f99a27bf-e217-4146-8a91-d7864e1dfbd0",
       "name": "2026 BDO Drops (Jul 24)",
@@ -829,34 +745,6 @@
           "name": "Rust Charity '26 Backpack",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b042b8b4-5d9d-4c25-90a5-ed7d3ca45c23.jpeg",
           "minutes": 120
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "42d6f4bf-4007-485f-8eea-5d5172e66dd1",
-      "name": "ARC Raiders Summer Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-07-07T11:00:00Z",
-      "end_at": "2026-07-24T10:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a3bc1034-80db-46e6-b6f0-e801516d5c6d.png",
-      "details_url": "https://arcraiders.com/twitch-drops/",
-      "game": "ARC Raiders",
-      "game_slug": "arc-raiders",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/464339927-120x160.jpg",
-      "availability": "open",
-      "required_minutes": null,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Bastion Mace",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8feca160-148b-47ca-8094-4d623ffd1d25.png",
-          "minutes": 0
-        },
-        {
-          "name": "Purple Duffel Bag",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/58135b91-b75f-4406-9867-d23ddf179002.png",
-          "minutes": 0
         }
       ],
       "src": "sunkwi"
@@ -2114,49 +2002,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "430a7e80-61e4-4933-83b5-db3d9f679f1f",
-      "name": "NW2 SUMMER DROPS #1",
-      "status": "ACTIVE",
-      "start_at": "2026-07-17T16:00:00Z",
-      "end_at": "2026-07-24T09:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/77c619fe-f6bf-45cd-bf95-fa5dfdd3daa5.png",
-      "details_url": "https://twitch.nextworld2.com/",
-      "game": "NextWorld2",
-      "game_slug": "nextworld2",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/544682640_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 900,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Gladiátor Köpeny (100 db)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e4eaaa38-1338-4754-bff0-391eda477350.jpeg",
-          "minutes": 120
-        },
-        {
-          "name": "Gladiátor Gyűrű (1 db)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d7470587-7583-4aa5-8087-b358ee61c736.jpeg",
-          "minutes": 300
-        },
-        {
-          "name": "Szerencsekő (1 db)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/065b2f7f-ab94-4a40-a213-08f0c2a872ae.jpeg",
-          "minutes": 600
-        },
-        {
-          "name": "Twitch Érme (1 db)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0a4c38ba-2bcd-4d53-8b6e-f7f4a2e3a547.jpeg",
-          "minutes": 840
-        },
-        {
-          "name": "Twitch Érme (1 db)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/14f9a9c0-fb51-4ad7-9109-f4aef7d9c9ac.jpeg",
-          "minutes": 900
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "853aa320-88ad-46a8-9231-7d8370503317",
       "name": "Soulframe Preludes Key",
       "status": "ACTIVE",
@@ -2874,6 +2719,29 @@
       "src": "sunkwi"
     },
     {
+      "id": "be84c350-3e7a-4b66-96e2-a5dc7273fb08",
+      "name": "007 First Light #3",
+      "status": "ACTIVE",
+      "start_at": "2026-07-23T11:00:00Z",
+      "end_at": "2026-08-20T10:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/c0373c8f-b2f3-4fa6-840d-0210d999cd8a.jpeg",
+      "details_url": "https://account.ioi.dk/",
+      "game": "007 First Light",
+      "game_slug": "007-first-light",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/229772247_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 60,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Resplendent Death",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4ce01d12-0365-44cc-a340-b620cb40175f.jpeg",
+          "minutes": 60
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
       "id": "235403b7-fa15-40a5-bed1-64547ef361c8",
       "name": "2026 BDO Drops (Jul 23)",
       "status": "ACTIVE",
@@ -3230,6 +3098,90 @@
       "src": "sunkwi"
     },
     {
+      "id": "e42827c4-13f3-4d1f-80f5-7dcf8a44f682",
+      "name": "Radiant Wilds 15 - #5/7",
+      "status": "ACTIVE",
+      "start_at": "2026-07-24T10:00:00Z",
+      "end_at": "2026-07-25T09:29:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ab64c926-038a-470b-ae1c-56a81c761367.png",
+      "details_url": "https://forum.albiononline.com/index.php/Thread/214756-New-Twitch-Drops-Launching-Monday-July-28-2025/",
+      "game": "Albion Online",
+      "game_slug": "albion-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Radiant Wilds Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
+          "minutes": 180
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "1fb7ba3c-d622-4e7c-8e13-ff316b157786",
+      "name": "Biohazard Loot Rush Drops",
+      "status": "ACTIVE",
+      "start_at": "2026-07-24T10:00:00Z",
+      "end_at": "2026-08-18T08:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/62608049-81e1-43e2-a827-2f63f723e2ce.jpeg",
+      "details_url": "https://www.arenabreakoutinfinite.com/twitchdrops",
+      "game": "Arena Breakout: Infinite",
+      "game_slug": "arena-breakout-infinite",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/401587136_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 600,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Twitch Tear Gas Skin",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b86a405c-3542-46a4-9b1d-f04a758588c1.png",
+          "minutes": 240
+        },
+        {
+          "name": "Twitch Flashbang Skin",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/368f08fa-3813-4efb-be87-f2fcddf49dbe.png",
+          "minutes": 480
+        },
+        {
+          "name": "Twitch Stun Grenade Skin",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9546d09b-4e89-4113-bd07-bc39fa23eb41.png",
+          "minutes": 600
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "199de791-278f-444f-ab6b-dd49b4890b18",
+      "name": "Medieval 2026 Part 3",
+      "status": "ACTIVE",
+      "start_at": "2026-07-24T10:00:00Z",
+      "end_at": "2026-07-27T09:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/8e4b1370-0b4f-45aa-851f-85377af4e224.png",
+      "details_url": "https://playnewz.com/news",
+      "game": "Infestation: The New Z",
+      "game_slug": "infestation-the-new-z",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/491289_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 300,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Medieval 2026",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8f7ca076-6706-4b04-99ae-7a4cd1cc7939.png",
+          "minutes": 30
+        },
+        {
+          "name": "Walter Legs",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4d4154ea-90ac-4e05-896c-9166f4b18a76.png",
+          "minutes": 300
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
       "id": "4a47a3a3-4889-4ca7-9db1-426ca0d92367",
       "name": "Relink Fabicon badge",
       "status": "ACTIVE",
@@ -3297,7 +3249,7 @@
     },
     {
       "title": "Final Fantasy XIV Fan Festival 2026 EU",
-      "start_at": "2026-07-25T09:00:00Z",
+      "start_at": "2026-07-25T08:00:00Z",
       "end_at": null,
       "note": null,
       "images": [
