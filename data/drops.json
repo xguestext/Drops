@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-07-24T04:10:45Z",
+  "updated_at": "2026-07-24T07:04:32Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-24T04:10:01.528Z",
+  "source_updated": "2026-07-24T07:04:01.514Z",
   "counts": {
-    "total": 92,
+    "total": 93,
     "upcoming": 11,
-    "active": 81,
-    "game_drops": 90,
+    "active": 82,
+    "game_drops": 91,
     "platform": 2,
     "badges": 5,
     "fechadas_descartadas": 46
@@ -3124,6 +3124,29 @@
           "name": "Twitch Reward Chest",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
           "minutes": 180
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "5e6273b3-8f0b-4f98-beba-5b510eb663ae",
+      "name": "Spider-Man",
+      "status": "ACTIVE",
+      "start_at": "2026-07-24T07:00:00Z",
+      "end_at": "2026-07-27T06:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ca9e7f73-bb5c-47bf-b9da-1dbf727804d3.png",
+      "details_url": "https://help.twitch.tv/s/article/twitch-chat-badges-guide",
+      "game": "MARVEL TŌKON: Fighting Souls",
+      "game_slug": "marvel-tokon-fighting-souls",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/630009802_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Spider-Man",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f6347c09-1d36-489c-91b6-b5efe9721da5.png",
+          "minutes": 0
         }
       ],
       "src": "sunkwi"
