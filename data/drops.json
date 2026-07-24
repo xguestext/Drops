@@ -1,69 +1,18 @@
 {
-  "updated_at": "2026-07-24T21:35:26Z",
+  "updated_at": "2026-07-24T22:57:17Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-24T21:35:02.509Z",
+  "source_updated": "2026-07-24T22:57:01.552Z",
   "counts": {
-    "total": 92,
-    "upcoming": 7,
+    "total": 90,
+    "upcoming": 5,
     "active": 85,
-    "game_drops": 90,
+    "game_drops": 88,
     "platform": 2,
-    "badges": 5,
-    "fechadas_descartadas": 49
+    "badges": 3,
+    "fechadas_descartadas": 50
   },
   "campaigns": [
-    {
-      "id": "cd420746-0c6e-45e2-b1b2-6415e0a0b44d",
-      "name": "GOALS - 25th of July",
-      "status": "UPCOMING",
-      "start_at": "2026-07-24T22:01:00.000Z",
-      "end_at": "2026-07-25T21:58:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "GOALS",
-      "game_slug": "goals",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/951160620_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 300,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Common+ Pack [1 Player]",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82a4b7fe-7458-4b59-b909-ebc30fc91521.png",
-          "minutes": 60
-        },
-        {
-          "name": "Uncommon+ Pack [1 Player]",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png",
-          "minutes": 300
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "dad57679-0e94-4c35-b38d-562373b6eaff",
-      "name": "FF14 Fan Fest 2026 - EU",
-      "status": "UPCOMING",
-      "start_at": "2026-07-24T22:01:00.000Z",
-      "end_at": "2026-07-26T21:58:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "FINAL FANTASY XIV ONLINE",
-      "game_slug": "final-fantasy-xiv-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/24241_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 60,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Moogle Chat",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2b2a8ab8-8ef8-4637-a9b3-6dc1f40998c8.png",
-          "minutes": 60
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "9301ccb5-dfc7-4200-bc06-a7eceecbfded",
       "name": "EA Season 10 Drops 2",
@@ -993,29 +942,6 @@
           "name": "Medium Resonance Potion*5",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e9b9b21f-280e-420f-bed3-2a8cd19aa2c3.png",
           "minutes": 30
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "223dd948-fa01-4fba-a84f-584e08297b57",
-      "name": "Anno 117 - Summer Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-07-10T07:00:00Z",
-      "end_at": "2026-07-24T21:58:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/36a2d3ae-08d6-49d9-bba4-b23525b60ef2.png",
-      "details_url": "https://ubi.li/aTJ6n",
-      "game": "Anno 117: Pax Romana",
-      "game_slug": "anno-117-pax-romana",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1637021799_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Cheerful Roman Market",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1757a671-0dbb-4885-af86-a9b672a680bc.png",
-          "minutes": 120
         }
       ],
       "src": "sunkwi"
@@ -2678,34 +2604,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "7c2e84e9-24bb-4573-82bd-adfe5bfda02e",
-      "name": "GOALS - 24th of July",
-      "status": "ACTIVE",
-      "start_at": "2026-07-23T22:01:00Z",
-      "end_at": "2026-07-24T21:58:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/037590a8-bf3e-4f7e-a021-646e32969bce.png",
-      "details_url": "https://playgoals.com/twitch-drops",
-      "game": "GOALS",
-      "game_slug": "goals",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/951160620_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 300,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Common+ Pack [1 Player]",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82a4b7fe-7458-4b59-b909-ebc30fc91521.png",
-          "minutes": 60
-        },
-        {
-          "name": "Uncommon+ Pack [1 Player]",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png",
-          "minutes": 300
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "0aad7f62-5d78-44fa-8f61-057709f82caa",
       "name": "July Drops",
       "status": "ACTIVE",
@@ -3174,6 +3072,57 @@
       "src": "sunkwi"
     },
     {
+      "id": "cd420746-0c6e-45e2-b1b2-6415e0a0b44d",
+      "name": "GOALS - 25th of July",
+      "status": "ACTIVE",
+      "start_at": "2026-07-24T22:01:00Z",
+      "end_at": "2026-07-25T21:58:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ae1c3b86-dad6-48cc-b561-0d0a7519f580.png",
+      "details_url": "https://playgoals.com/twitch-drops",
+      "game": "GOALS",
+      "game_slug": "goals",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/951160620_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 300,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Common+ Pack [1 Player]",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82a4b7fe-7458-4b59-b909-ebc30fc91521.png",
+          "minutes": 60
+        },
+        {
+          "name": "Uncommon+ Pack [1 Player]",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png",
+          "minutes": 300
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "dad57679-0e94-4c35-b38d-562373b6eaff",
+      "name": "FF14 Fan Fest 2026 - EU",
+      "status": "ACTIVE",
+      "start_at": "2026-07-24T22:01:00Z",
+      "end_at": "2026-07-26T21:58:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/2d1cd52b-5918-4de3-8286-c442a7e61504.png",
+      "details_url": "https://www.twitch.tv/drops/campaigns",
+      "game": "FINAL FANTASY XIV ONLINE",
+      "game_slug": "final-fantasy-xiv-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/24241_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 60,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Moogle Chat",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2b2a8ab8-8ef8-4637-a9b3-6dc1f40998c8.png",
+          "minutes": 60
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
       "id": "4a47a3a3-4889-4ca7-9db1-426ca0d92367",
       "name": "Relink Fabicon badge",
       "status": "ACTIVE",
@@ -3221,24 +3170,6 @@
     }
   ],
   "badges": [
-    {
-      "title": "Final Fantasy XIV Fan Festival 2026 EU",
-      "start_at": "2026-07-24T22:01:00Z",
-      "end_at": "2026-07-26T21:58:00Z",
-      "note": null,
-      "images": [
-        "https://static-cdn.jtvnw.net/badges/v1/96e02b5f-f444-48ba-889f-591c7ad18e59/3"
-      ]
-    },
-    {
-      "title": "Final Fantasy XIV Fan Festival 2026 EU",
-      "start_at": "2026-07-25T08:00:00Z",
-      "end_at": null,
-      "note": null,
-      "images": [
-        "https://static-cdn.jtvnw.net/badges/v1/df82d637-1c58-4dd9-a439-b2518c5fbf5f/3"
-      ]
-    },
     {
       "title": "La Velada VI",
       "start_at": "2026-07-25T17:00:00Z",
