@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-07-24T00:55:13Z",
+  "updated_at": "2026-07-24T04:10:45Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-24T00:55:01.617Z",
+  "source_updated": "2026-07-24T04:10:01.528Z",
   "counts": {
     "total": 92,
     "upcoming": 11,
     "active": 81,
     "game_drops": 90,
     "platform": 2,
-    "badges": 4,
-    "fechadas_descartadas": 47
+    "badges": 5,
+    "fechadas_descartadas": 46
   },
   "campaigns": [
     {
@@ -3182,8 +3182,7 @@
       "end_at": "2026-07-26T21:58:00Z",
       "note": null,
       "images": [
-        "https://static-cdn.jtvnw.net/badges/v1/96e02b5f-f444-48ba-889f-591c7ad18e59/3",
-        "https://static-cdn.jtvnw.net/badges/v1/df82d637-1c58-4dd9-a439-b2518c5fbf5f/3"
+        "https://static-cdn.jtvnw.net/badges/v1/96e02b5f-f444-48ba-889f-591c7ad18e59/3"
       ]
     },
     {
@@ -3193,6 +3192,15 @@
       "note": null,
       "images": [
         "https://static-cdn.jtvnw.net/badges/v1/e767e17a-252a-4047-9365-910f4f05a883/3"
+      ]
+    },
+    {
+      "title": "Final Fantasy XIV Fan Festival 2026 EU",
+      "start_at": "2026-07-25T09:00:00Z",
+      "end_at": null,
+      "note": null,
+      "images": [
+        "https://static-cdn.jtvnw.net/badges/v1/df82d637-1c58-4dd9-a439-b2518c5fbf5f/3"
       ]
     },
     {
