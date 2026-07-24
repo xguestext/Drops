@@ -1,46 +1,18 @@
 {
-  "updated_at": "2026-07-24T18:55:47Z",
+  "updated_at": "2026-07-24T20:17:53Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-24T18:55:01.612Z",
+  "source_updated": "2026-07-24T20:17:02.563Z",
   "counts": {
     "total": 93,
-    "upcoming": 8,
-    "active": 85,
+    "upcoming": 7,
+    "active": 86,
     "game_drops": 91,
     "platform": 2,
     "badges": 5,
-    "fechadas_descartadas": 50
+    "fechadas_descartadas": 49
   },
   "campaigns": [
-    {
-      "id": "fd99cd4b-02e5-4f1a-8664-8c8c01576129",
-      "name": "CotA Week 1 Drops",
-      "status": "UPCOMING",
-      "start_at": "2026-07-24T20:00:00.000Z",
-      "end_at": "2026-07-31T23:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Path of Exile",
-      "game_slug": "path-of-exile",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/29307_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Allflame Crafting Bench",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ec00b424-838b-48f4-be02-46d12da8a03c.png",
-          "minutes": 0
-        },
-        {
-          "name": "Nautical Explorer's Back",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/eb3384ae-da90-4d82-b37a-9f1fc85a46a4.png",
-          "minutes": 180
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "cd420746-0c6e-45e2-b1b2-6415e0a0b44d",
       "name": "GOALS - 25th of July",
@@ -3197,6 +3169,34 @@
           "name": "Regalia of Awakening",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
           "minutes": 240
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "fd99cd4b-02e5-4f1a-8664-8c8c01576129",
+      "name": "CotA Week 1 Drops",
+      "status": "ACTIVE",
+      "start_at": "2026-07-24T20:00:00Z",
+      "end_at": "2026-07-31T23:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/3671f719-d820-4283-8459-8e7d666762c1.png",
+      "details_url": "https://www.pathofexile.com/twitchdrops",
+      "game": "Path of Exile",
+      "game_slug": "path-of-exile",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/29307_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Nautical Explorer's Back",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/eb3384ae-da90-4d82-b37a-9f1fc85a46a4.png",
+          "minutes": 180
+        },
+        {
+          "name": "Allflame Crafting Bench",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ec00b424-838b-48f4-be02-46d12da8a03c.png",
+          "minutes": 0
         }
       ],
       "src": "sunkwi"
