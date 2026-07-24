@@ -1,18 +1,69 @@
 {
-  "updated_at": "2026-07-24T07:04:32Z",
+  "updated_at": "2026-07-24T09:42:45Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-24T07:04:01.514Z",
+  "source_updated": "2026-07-24T09:42:02.525Z",
   "counts": {
-    "total": 93,
-    "upcoming": 11,
-    "active": 82,
-    "game_drops": 91,
+    "total": 94,
+    "upcoming": 15,
+    "active": 79,
+    "game_drops": 92,
     "platform": 2,
     "badges": 5,
-    "fechadas_descartadas": 46
+    "fechadas_descartadas": 42
   },
   "campaigns": [
+    {
+      "id": "199de791-278f-444f-ab6b-dd49b4890b18",
+      "name": "Medieval 2026 Part 3",
+      "status": "UPCOMING",
+      "start_at": "2026-07-24T10:00:00.000Z",
+      "end_at": "2026-07-27T09:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Infestation: The New Z",
+      "game_slug": "infestation-the-new-z",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/491289_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 300,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Medieval 2026",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8f7ca076-6706-4b04-99ae-7a4cd1cc7939.png",
+          "minutes": 30
+        },
+        {
+          "name": "Walter Legs",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4d4154ea-90ac-4e05-896c-9166f4b18a76.png",
+          "minutes": 300
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "e42827c4-13f3-4d1f-80f5-7dcf8a44f682",
+      "name": "Radiant Wilds 15 - #5/7",
+      "status": "UPCOMING",
+      "start_at": "2026-07-24T10:00:00.000Z",
+      "end_at": "2026-07-25T09:29:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Albion Online",
+      "game_slug": "albion-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Radiant Wilds Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
+          "minutes": 180
+        }
+      ],
+      "src": "fenris"
+    },
     {
       "id": "1fb7ba3c-d622-4e7c-8e13-ff316b157786",
       "name": "Biohazard Loot Rush Drops",
@@ -42,57 +93,6 @@
           "name": "Twitch Stun Grenade Skin",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9546d09b-4e89-4113-bd07-bc39fa23eb41.png",
           "minutes": 600
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "e42827c4-13f3-4d1f-80f5-7dcf8a44f682",
-      "name": "Radiant Wilds 15 - #5/7",
-      "status": "UPCOMING",
-      "start_at": "2026-07-24T10:00:00.000Z",
-      "end_at": "2026-07-25T09:29:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Albion Online",
-      "game_slug": "albion-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Radiant Wilds Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
-          "minutes": 180
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "199de791-278f-444f-ab6b-dd49b4890b18",
-      "name": "Medieval 2026 Part 3",
-      "status": "UPCOMING",
-      "start_at": "2026-07-24T10:00:00.000Z",
-      "end_at": "2026-07-27T09:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Infestation: The New Z",
-      "game_slug": "infestation-the-new-z",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/491289_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 300,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Medieval 2026",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8f7ca076-6706-4b04-99ae-7a4cd1cc7939.png",
-          "minutes": 30
-        },
-        {
-          "name": "Walter Legs",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4d4154ea-90ac-4e05-896c-9166f4b18a76.png",
-          "minutes": 300
         }
       ],
       "src": "fenris"
@@ -172,6 +172,72 @@
       "src": "fenris"
     },
     {
+      "id": "366fc540-904b-4d81-919b-fce65e5b5373",
+      "name": "DF RISE Series S1 Drops",
+      "status": "UPCOMING",
+      "start_at": "2026-07-24T16:00:00.000Z",
+      "end_at": "2026-07-27T03:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Delta Force",
+      "game_slug": "delta-force",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1282866981_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 90,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Basic Armament S. Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/dd0a1a53-9e0d-4065-a423-4cbb3c4afe1d.png",
+          "minutes": 15
+        },
+        {
+          "name": "Ops Challenge Supply Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/498299c1-e4a4-4934-90d6-0c160cf45e4c.png",
+          "minutes": 30
+        },
+        {
+          "name": "C Card - C Graffiti",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/62f2ee2b-1faf-4709-b683-a41bf164c967.png",
+          "minutes": 45
+        },
+        {
+          "name": "Standard Gear Ticket",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5fd451a9-9119-4ce7-9c7e-c0957c4bad38.png",
+          "minutes": 60
+        },
+        {
+          "name": "M249 - Action Time",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/800d809d-48db-4db3-9036-6d5d2abae451.png",
+          "minutes": 90
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "420934a7-db62-4949-b766-105aa270b874",
+      "name": "Marble Day 258",
+      "status": "UPCOMING",
+      "start_at": "2026-07-24T16:00:00.000Z",
+      "end_at": "2026-07-25T15:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Marbles on Stream",
+      "game_slug": "marbles-on-stream",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/509511_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "15 Community Coins",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3924503a-4e48-4899-af4a-13f13f70e9b4.png",
+          "minutes": 120
+        }
+      ],
+      "src": "fenris"
+    },
+    {
       "id": "b37845d3-4f76-4445-b5b6-63f608727141",
       "name": "CFB Live",
       "status": "UPCOMING",
@@ -215,6 +281,39 @@
           "name": "CFB Twitch Pack",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/114ded74-3484-4ff3-957c-daa822b83096.png",
           "minutes": 240
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "b74e14f7-66e6-44dc-8ef6-c966e009d88b",
+      "name": "July Week 4",
+      "status": "UPCOMING",
+      "start_at": "2026-07-24T17:00:00.000Z",
+      "end_at": "2026-07-31T16:44:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "MARVEL Contest of Champions",
+      "game_slug": "marvel-contest-of-champions",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/461221_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 90,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Open Drop Reward 1-SW4",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/05d1632e-a9e0-4d2b-848e-52d9fe4fec8f.png",
+          "minutes": 30
+        },
+        {
+          "name": "Open Drop Reward 2-SW4",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5f4ea508-4505-488e-918e-8cf31bce3249.png",
+          "minutes": 60
+        },
+        {
+          "name": "Open Drop Reward 3-SW4",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/60b49a5a-b34d-4019-9d47-05d7b563e51b.png",
+          "minutes": 90
         }
       ],
       "src": "fenris"
@@ -271,29 +370,6 @@
       "src": "fenris"
     },
     {
-      "id": "dad57679-0e94-4c35-b38d-562373b6eaff",
-      "name": "FF14 Fan Fest 2026 - EU",
-      "status": "UPCOMING",
-      "start_at": "2026-07-24T22:01:00.000Z",
-      "end_at": "2026-07-26T21:58:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "FINAL FANTASY XIV ONLINE",
-      "game_slug": "final-fantasy-xiv-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/24241_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 60,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Moogle Chat",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2b2a8ab8-8ef8-4637-a9b3-6dc1f40998c8.png",
-          "minutes": 60
-        }
-      ],
-      "src": "fenris"
-    },
-    {
       "id": "cd420746-0c6e-45e2-b1b2-6415e0a0b44d",
       "name": "GOALS - 25th of July",
       "status": "UPCOMING",
@@ -317,6 +393,97 @@
           "name": "Uncommon+ Pack [1 Player]",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png",
           "minutes": 300
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "dad57679-0e94-4c35-b38d-562373b6eaff",
+      "name": "FF14 Fan Fest 2026 - EU",
+      "status": "UPCOMING",
+      "start_at": "2026-07-24T22:01:00.000Z",
+      "end_at": "2026-07-26T21:58:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "FINAL FANTASY XIV ONLINE",
+      "game_slug": "final-fantasy-xiv-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/24241_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 60,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Moogle Chat",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2b2a8ab8-8ef8-4637-a9b3-6dc1f40998c8.png",
+          "minutes": 60
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "9301ccb5-dfc7-4200-bc06-a7eceecbfded",
+      "name": "EA Season 10 Drops 2",
+      "status": "UPCOMING",
+      "start_at": "2026-07-25T00:00:00.000Z",
+      "end_at": "2026-07-31T23:58:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Dark and Darker",
+      "game_slug": "dark-and-darker",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2009321156_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 900,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "EAS10#2 Witness Emblem10",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3d94c238-4450-44c3-b6be-9b47fce079d2.png",
+          "minutes": 60
+        },
+        {
+          "name": "EAS10#2 Healing Supplies",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/62705a93-9f83-42f5-94ea-df8aed9e6c56.png",
+          "minutes": 120
+        },
+        {
+          "name": "EAS10#2 Witness Emblem20",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5aa5de23-b9b6-4ec5-a640-1c16a4195f7f.png",
+          "minutes": 240
+        },
+        {
+          "name": "EAS10#2 Lockpick Set",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1d051f97-6446-45dc-8cf7-beb99a3e0c06.png",
+          "minutes": 300
+        },
+        {
+          "name": "EAS10#2 15x Reward Tokens",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cd3e3ddd-3f44-4b27-9863-ce48b37f1c32.png",
+          "minutes": 420
+        },
+        {
+          "name": "EAS10#2 Rare PotionBundle",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3b5ea200-2473-42a0-a8fa-c360d3ebd47f.png",
+          "minutes": 480
+        },
+        {
+          "name": "EAS10#2 Witness Emblem30",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/163e995a-c524-45ed-ba7d-3d1ff63a0e2a.png",
+          "minutes": 600
+        },
+        {
+          "name": "EAS10#2 4x Gold CoinPouch",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7dd91316-38af-4aaa-be3b-6bf82ccff282.png",
+          "minutes": 720
+        },
+        {
+          "name": "EAS10#2 Witness Emblem50",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/48ffea91-a8b1-42c3-bbc7-846020197ff5.png",
+          "minutes": 840
+        },
+        {
+          "name": "EAS10#2 Mystic Campfire",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ede71fd0-8a7a-412b-b4fd-dfda45e98b44.png",
+          "minutes": 900
         }
       ],
       "src": "fenris"
@@ -360,49 +527,6 @@
           "name": "Darkness",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82725820-1433-49a2-9351-a3d8ee1768e5.png",
           "minutes": 480
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "5d3ed0bd-3b50-4223-8e24-c3a4e936cbb5",
-      "name": "S6 Launch Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-06-30T09:00:00Z",
-      "end_at": "2026-07-24T08:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/9e671ba5-ea0b-4323-8ff7-7911e970b113.png",
-      "details_url": "https://www.arenabreakoutinfinite.com/twitchdrops",
-      "game": "Arena Breakout: Infinite",
-      "game_slug": "arena-breakout-infinite",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/401587136_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 360,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Red Drop Gift Box",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/92b7583e-3e16-40fe-a5f1-25943ed40438.png",
-          "minutes": 60
-        },
-        {
-          "name": "Universal Key (Limited)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2865102e-408e-40fe-b0c6-bb8f8b2e0545.png",
-          "minutes": 120
-        },
-        {
-          "name": "Twitch Flashbang Skin",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2fc48d37-498f-4d5c-926f-c6c3e10c6788.png",
-          "minutes": 240
-        },
-        {
-          "name": "Red Drop Gift Box",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d7725274-2216-424b-ad5c-bbb5652b688e.png",
-          "minutes": 300
-        },
-        {
-          "name": "Twitch Stun Grenade Skin",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c5c8dfdf-d1b9-4611-94a5-2f738fd21b2a.png",
-          "minutes": 360
         }
       ],
       "src": "sunkwi"
@@ -2476,29 +2600,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "40856f0f-a221-4ed8-932f-42900f298278",
-      "name": "Rematch Nations Cup",
-      "status": "ACTIVE",
-      "start_at": "2026-07-21T14:34:41Z",
-      "end_at": "2026-07-24T07:58:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/0683ee38-78a1-4114-8eec-1a94a54a9f4f.png",
-      "details_url": "https://www.twitch.tv/drops/campaigns",
-      "game": "REMATCH",
-      "game_slug": "rematch",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1362102608_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 30,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Rematch Nations Cup",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7d0b334d-dba5-4c4c-8c6b-b49a1d23716f.png",
-          "minutes": 30
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "16ca1ede-fc0d-4bd0-a622-d34895a945f8",
       "name": "July 3",
       "status": "ACTIVE",
@@ -2725,29 +2826,6 @@
           "name": "50 LP",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9e33b6d0-46b2-4763-b980-4eb99fba40e6.png",
           "minutes": 300
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "bf45b48e-5d71-4f58-9848-985349dca004",
-      "name": "Radiant Wilds 15 - #4/7",
-      "status": "ACTIVE",
-      "start_at": "2026-07-23T10:00:00Z",
-      "end_at": "2026-07-24T09:29:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/3dc4c476-9c74-418f-b4c9-554e6c899c95.png",
-      "details_url": "https://forum.albiononline.com/index.php/Thread/214756-New-Twitch-Drops-Launching-Monday-July-28-2025/",
-      "game": "Albion Online",
-      "game_slug": "albion-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Radiant Wilds Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
-          "minutes": 180
         }
       ],
       "src": "sunkwi"
