@@ -1,41 +1,18 @@
 {
-  "updated_at": "2026-07-24T17:02:43Z",
+  "updated_at": "2026-07-24T18:55:47Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-24T17:02:01.464Z",
+  "source_updated": "2026-07-24T18:55:01.612Z",
   "counts": {
-    "total": 94,
-    "upcoming": 9,
+    "total": 93,
+    "upcoming": 8,
     "active": 85,
-    "game_drops": 92,
+    "game_drops": 91,
     "platform": 2,
     "badges": 5,
-    "fechadas_descartadas": 48
+    "fechadas_descartadas": 50
   },
   "campaigns": [
-    {
-      "id": "def6ab20-2774-4b3c-a8ff-7a9ab2f49d2f",
-      "name": "Mobile Drop 106",
-      "status": "UPCOMING",
-      "start_at": "2026-07-24T17:59:00.000Z",
-      "end_at": "2026-07-25T17:56:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Rise Online",
-      "game_slug": "rise-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Regalia of Awakening",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
-          "minutes": 240
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "fd99cd4b-02e5-4f1a-8664-8c8c01576129",
       "name": "CotA Week 1 Drops",
@@ -2261,7 +2238,7 @@
       "details_url": "https://ravendawn.online/myaccount/twitch",
       "game": "Ravendawn",
       "game_slug": "ravendawn",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/262400435_IGDB-120x160.jpg",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/262400435-120x160.jpg",
       "availability": "open",
       "required_minutes": 900,
       "reward_type": "game",
@@ -2757,29 +2734,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "172a6fb8-0a6a-403c-83e8-b58edf1f923c",
-      "name": "Mobile Drop 105",
-      "status": "ACTIVE",
-      "start_at": "2026-07-23T17:59:00Z",
-      "end_at": "2026-07-24T17:56:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/5c4976df-d92f-4b76-8180-aef692c6d134.png",
-      "details_url": "https://mobile.riseonlineworld.com/usercp?do=twitch",
-      "game": "Rise Online",
-      "game_slug": "rise-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Regalia of Awakening",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
-          "minutes": 240
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "7c2e84e9-24bb-4573-82bd-adfe5bfda02e",
       "name": "GOALS - 24th of July",
       "status": "ACTIVE",
@@ -3220,6 +3174,29 @@
           "name": "Closed Playtest Key",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3049c1f0-7d1d-4ded-bd2c-b6f63bc3cfa2.png",
           "minutes": 30
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "def6ab20-2774-4b3c-a8ff-7a9ab2f49d2f",
+      "name": "Mobile Drop 106",
+      "status": "ACTIVE",
+      "start_at": "2026-07-24T17:59:00Z",
+      "end_at": "2026-07-25T17:56:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/3114eeed-e787-4648-9ac2-d94892625694.png",
+      "details_url": "https://mobile.riseonlineworld.com/usercp?do=twitch",
+      "game": "Rise Online",
+      "game_slug": "rise-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Regalia of Awakening",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
+          "minutes": 240
         }
       ],
       "src": "sunkwi"
