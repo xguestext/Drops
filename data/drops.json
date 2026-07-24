@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-07-24T20:17:53Z",
+  "updated_at": "2026-07-24T21:35:26Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-24T20:17:02.563Z",
+  "source_updated": "2026-07-24T21:35:02.509Z",
   "counts": {
-    "total": 93,
+    "total": 92,
     "upcoming": 7,
-    "active": 86,
-    "game_drops": 91,
+    "active": 85,
+    "game_drops": 90,
     "platform": 2,
     "badges": 5,
     "fechadas_descartadas": 49
@@ -993,34 +993,6 @@
           "name": "Medium Resonance Potion*5",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e9b9b21f-280e-420f-bed3-2a8cd19aa2c3.png",
           "minutes": 30
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "c15482ab-63b3-4c28-9ec4-795dfeb4cf04",
-      "name": "Skin Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-07-10T07:00:00Z",
-      "end_at": "2026-07-24T20:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/5e22b931-b159-4ff3-98a7-d42d497d1ff2.png",
-      "details_url": "https://tidesoftomorrow.thqnordic.com/",
-      "game": "Tides of Tomorrow",
-      "game_slug": "tides-of-tomorrow",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/779124963_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Twitchwalker skin",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d214580b-abc9-42dd-9ca0-44f4e1046467.png",
-          "minutes": 60
-        },
-        {
-          "name": "One mystery Trait skin",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/489a0b5d-2468-4fc0-aa3f-949d24f71119.png",
-          "minutes": 180
         }
       ],
       "src": "sunkwi"
@@ -3259,21 +3231,21 @@
       ]
     },
     {
-      "title": "La Velada VI",
-      "start_at": "2026-07-25T00:00:00Z",
-      "end_at": "2026-07-25T23:59:00Z",
-      "note": null,
-      "images": [
-        "https://static-cdn.jtvnw.net/badges/v1/e767e17a-252a-4047-9365-910f4f05a883/3"
-      ]
-    },
-    {
       "title": "Final Fantasy XIV Fan Festival 2026 EU",
       "start_at": "2026-07-25T08:00:00Z",
       "end_at": null,
       "note": null,
       "images": [
         "https://static-cdn.jtvnw.net/badges/v1/df82d637-1c58-4dd9-a439-b2518c5fbf5f/3"
+      ]
+    },
+    {
+      "title": "La Velada VI",
+      "start_at": "2026-07-25T17:00:00Z",
+      "end_at": "2026-07-25T23:59:00Z",
+      "note": null,
+      "images": [
+        "https://static-cdn.jtvnw.net/badges/v1/e767e17a-252a-4047-9365-910f4f05a883/3"
       ]
     },
     {
