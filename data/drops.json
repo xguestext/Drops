@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-07-25T22:49:32Z",
+  "updated_at": "2026-07-25T23:55:31Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-25T22:49:02.525Z",
+  "source_updated": "2026-07-25T23:55:02.882Z",
   "counts": {
-    "total": 78,
-    "upcoming": 5,
+    "total": 80,
+    "upcoming": 7,
     "active": 73,
-    "game_drops": 78,
+    "game_drops": 80,
     "platform": 0,
     "badges": 2,
-    "fechadas_descartadas": 53
+    "fechadas_descartadas": 52
   },
   "campaigns": [
     {
@@ -164,6 +164,57 @@
           "name": "Golden Hair T.: Precision",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/993b83cb-b4b6-4ad3-b9bd-e45c8a060a9e.jpeg",
           "minutes": 240
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "daf3ac5c-787d-45c4-9e83-623ab97e4aed",
+      "name": "Mobile Drop 108",
+      "status": "UPCOMING",
+      "start_at": "2026-07-26T17:59:00.000Z",
+      "end_at": "2026-07-27T17:56:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Rise Online",
+      "game_slug": "rise-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Regalia of Awakening",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
+          "minutes": 240
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "14bc553c-cc6c-4f40-8fc9-16b08086d264",
+      "name": "GOALS - 27th of July",
+      "status": "UPCOMING",
+      "start_at": "2026-07-26T22:01:00.000Z",
+      "end_at": "2026-07-27T21:58:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "GOALS",
+      "game_slug": "goals",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/951160620_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 300,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Common+ Pack [1 Player]",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82a4b7fe-7458-4b59-b909-ebc30fc91521.png",
+          "minutes": 60
+        },
+        {
+          "name": "Uncommon+ Pack [1 Player]",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png",
+          "minutes": 300
         }
       ],
       "src": "fenris"
