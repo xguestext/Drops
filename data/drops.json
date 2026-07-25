@@ -1,71 +1,18 @@
 {
-  "updated_at": "2026-07-25T10:09:06Z",
+  "updated_at": "2026-07-25T11:41:47Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-25T10:09:01.592Z",
+  "source_updated": "2026-07-25T11:41:01.515Z",
   "counts": {
-    "total": 83,
-    "upcoming": 6,
+    "total": 82,
+    "upcoming": 5,
     "active": 77,
-    "game_drops": 83,
+    "game_drops": 82,
     "platform": 0,
     "badges": 3,
-    "fechadas_descartadas": 52
+    "fechadas_descartadas": 54
   },
   "campaigns": [
-    {
-      "id": "94b05c28-7258-4789-8de3-8983ead6eb6d",
-      "name": "July Week 4",
-      "status": "UPCOMING",
-      "start_at": "2026-07-25T11:00:00.000Z",
-      "end_at": "2026-08-01T10:57:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "SMITE 2",
-      "game_slug": "smite-2",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2094865572-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 840,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Market Coins Bundle 1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/903496ad-de97-41ff-ad97-12f099e20ea8.jpeg",
-          "minutes": 120
-        },
-        {
-          "name": "Market Coins Bundle 2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c237f9f4-051c-4fed-b454-abb32c3e77bb.jpeg",
-          "minutes": 240
-        },
-        {
-          "name": "Market Coins Bundle 3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/32d7e22a-e073-4507-8b82-500ebb448395.jpeg",
-          "minutes": 360
-        },
-        {
-          "name": "Market Coins Bundle 4",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/620d7b83-3e6a-4d84-bb47-f04c18c57868.jpeg",
-          "minutes": 480
-        },
-        {
-          "name": "Market Coins Bundle 5",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0b8e4f8a-acdc-4e46-8a69-86f52c8bea5c.jpeg",
-          "minutes": 600
-        },
-        {
-          "name": "Market Coins Bundle 6",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3ac43663-e809-40fa-9afa-b37999ee4dac.jpeg",
-          "minutes": 720
-        },
-        {
-          "name": "Market Coins Bundle 7",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/043434c4-1e73-40ae-80ec-ac836737e748.jpeg",
-          "minutes": 840
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "31f09d22-c084-4791-a1d7-67432c4d0b27",
       "name": "2026 BDO Drops (Jul 25)",
@@ -1557,59 +1504,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "fb3b2363-5bee-44aa-ac51-b6178834d926",
-      "name": "July Week 3",
-      "status": "ACTIVE",
-      "start_at": "2026-07-18T11:00:00Z",
-      "end_at": "2026-07-25T10:57:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a6d25444-f305-414f-abcb-39ed5c685d8b.jpeg",
-      "details_url": "https://www.smite2.com/news/closed-alpha-twitch-drops/",
-      "game": "SMITE 2",
-      "game_slug": "smite-2",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2094865572-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 840,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Market Coins Bundle 1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/903496ad-de97-41ff-ad97-12f099e20ea8.jpeg",
-          "minutes": 120
-        },
-        {
-          "name": "Market Coins Bundle 2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c237f9f4-051c-4fed-b454-abb32c3e77bb.jpeg",
-          "minutes": 240
-        },
-        {
-          "name": "Market Coins Bundle 3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/32d7e22a-e073-4507-8b82-500ebb448395.jpeg",
-          "minutes": 360
-        },
-        {
-          "name": "Market Coins Bundle 4",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/620d7b83-3e6a-4d84-bb47-f04c18c57868.jpeg",
-          "minutes": 480
-        },
-        {
-          "name": "Market Coins Bundle 5",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0b8e4f8a-acdc-4e46-8a69-86f52c8bea5c.jpeg",
-          "minutes": 600
-        },
-        {
-          "name": "Market Coins Bundle 6",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3ac43663-e809-40fa-9afa-b37999ee4dac.jpeg",
-          "minutes": 720
-        },
-        {
-          "name": "Market Coins Bundle 7",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/043434c4-1e73-40ae-80ec-ac836737e748.jpeg",
-          "minutes": 840
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "52b6716d-f8d7-4f3b-9272-b0c5cdac90f3",
       "name": "Weekly Supply Drops #25",
       "status": "ACTIVE",
@@ -2948,6 +2842,59 @@
           "name": "Radiant Wilds Chest",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
           "minutes": 180
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "94b05c28-7258-4789-8de3-8983ead6eb6d",
+      "name": "July Week 4",
+      "status": "ACTIVE",
+      "start_at": "2026-07-25T11:00:00Z",
+      "end_at": "2026-08-01T10:57:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/25118e42-4b1e-4506-8680-103b059954b1.jpeg",
+      "details_url": "https://www.smite2.com/news/closed-alpha-twitch-drops/",
+      "game": "SMITE 2",
+      "game_slug": "smite-2",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2094865572-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 840,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Market Coins Bundle 1",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/903496ad-de97-41ff-ad97-12f099e20ea8.jpeg",
+          "minutes": 120
+        },
+        {
+          "name": "Market Coins Bundle 2",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c237f9f4-051c-4fed-b454-abb32c3e77bb.jpeg",
+          "minutes": 240
+        },
+        {
+          "name": "Market Coins Bundle 3",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/32d7e22a-e073-4507-8b82-500ebb448395.jpeg",
+          "minutes": 360
+        },
+        {
+          "name": "Market Coins Bundle 4",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/620d7b83-3e6a-4d84-bb47-f04c18c57868.jpeg",
+          "minutes": 480
+        },
+        {
+          "name": "Market Coins Bundle 5",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0b8e4f8a-acdc-4e46-8a69-86f52c8bea5c.jpeg",
+          "minutes": 600
+        },
+        {
+          "name": "Market Coins Bundle 6",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3ac43663-e809-40fa-9afa-b37999ee4dac.jpeg",
+          "minutes": 720
+        },
+        {
+          "name": "Market Coins Bundle 7",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/043434c4-1e73-40ae-80ec-ac836737e748.jpeg",
+          "minutes": 840
         }
       ],
       "src": "sunkwi"
