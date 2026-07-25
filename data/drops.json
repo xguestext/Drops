@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-07-25T14:46:06Z",
+  "updated_at": "2026-07-25T15:59:59Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-25T14:46:02.056Z",
+  "source_updated": "2026-07-25T15:59:01.568Z",
   "counts": {
-    "total": 81,
-    "upcoming": 4,
+    "total": 84,
+    "upcoming": 7,
     "active": 77,
-    "game_drops": 81,
+    "game_drops": 84,
     "platform": 0,
     "badges": 3,
     "fechadas_descartadas": 54
@@ -121,6 +121,100 @@
           "name": "10 Hour Reward",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2028f89d-65d6-4ced-91b2-c0d6770fa23f.png",
           "minutes": 600
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "063c125e-5a26-4637-b377-0fbdf725cd63",
+      "name": "Dragonkin - July Update",
+      "status": "UPCOMING",
+      "start_at": "2026-07-26T08:00:00.000Z",
+      "end_at": "2026-08-10T23:29:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Dragonkin: The Banished",
+      "game_slug": "dragonkin-the-banished",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1249868373_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Death Animation",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bc7223a1-1f56-4e9a-b7eb-7efc5deb2c39.png",
+          "minutes": 60
+        },
+        {
+          "name": "Portal Animation",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/001fee1c-7888-4954-9a33-6fc23b7fe9c9.png",
+          "minutes": 120
+        },
+        {
+          "name": "Wyrmling Trail Cosmetic",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/94c2d0a1-02bd-4aad-9798-f3978efbf9ea.png",
+          "minutes": 180
+        },
+        {
+          "name": "Wings Cosmetic",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e0fcf8b5-21ac-42ff-ba84-dd999d5e1fc7.png",
+          "minutes": 180
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "1367ec91-f7cb-4264-a1a5-95bcbc2e4490",
+      "name": "Radiant Wilds 15 - #7/7",
+      "status": "UPCOMING",
+      "start_at": "2026-07-26T10:00:00.000Z",
+      "end_at": "2026-07-27T09:29:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Albion Online",
+      "game_slug": "albion-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Radiant Wilds Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
+          "minutes": 180
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "d9c9f689-af39-4fe6-a09f-f60cd6f3f24b",
+      "name": "Hunt 1896 (Week 1, Pt. 3)",
+      "status": "UPCOMING",
+      "start_at": "2026-07-26T15:00:00.000Z",
+      "end_at": "2026-07-29T14:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Hunt: Showdown 1896",
+      "game_slug": "hunt-showdown",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/500188_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Supply Crate",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/816bf951-f833-4e45-b01e-0ec860d2d904.jpeg",
+          "minutes": 30
+        },
+        {
+          "name": "Random Avatar",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3e51e861-4c00-42d7-83c5-58e67d7ced87.jpeg",
+          "minutes": 120
+        },
+        {
+          "name": "Golden Hair T.: Precision",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/993b83cb-b4b6-4ad3-b9bd-e45c8a060a9e.jpeg",
+          "minutes": 240
         }
       ],
       "src": "fenris"
