@@ -1,41 +1,18 @@
 {
-  "updated_at": "2026-07-25T11:41:47Z",
+  "updated_at": "2026-07-25T13:13:24Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-25T11:41:01.515Z",
+  "source_updated": "2026-07-25T13:13:01.500Z",
   "counts": {
-    "total": 82,
-    "upcoming": 5,
+    "total": 81,
+    "upcoming": 4,
     "active": 77,
-    "game_drops": 82,
+    "game_drops": 81,
     "platform": 0,
     "badges": 3,
     "fechadas_descartadas": 54
   },
   "campaigns": [
-    {
-      "id": "31f09d22-c084-4791-a1d7-67432c4d0b27",
-      "name": "2026 BDO Drops (Jul 25)",
-      "status": "UPCOMING",
-      "start_at": "2026-07-25T12:00:00.000Z",
-      "end_at": "2026-07-26T00:29:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Black Desert",
-      "game_slug": "black-desert",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "2 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f2cb7c7c-7ecd-423e-af93-0d2fc21fcd96.png",
-          "minutes": 120
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "a0ca2a9d-509a-40ba-9818-7b67773203be",
       "name": "Mobile Drop 107",
@@ -2344,29 +2321,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "f99a27bf-e217-4146-8a91-d7864e1dfbd0",
-      "name": "2026 BDO Drops (Jul 24)",
-      "status": "ACTIVE",
-      "start_at": "2026-07-24T12:00:00Z",
-      "end_at": "2026-07-25T11:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/c5135446-f3f8-41ae-89df-e4fe84ebde09.png",
-      "details_url": "https://www.naeu.playblackdesert.com/News/Detail?groupContentNo=5878",
-      "game": "Black Desert",
-      "game_slug": "black-desert",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "2 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f2cb7c7c-7ecd-423e-af93-0d2fc21fcd96.png",
-          "minutes": 120
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "46a5e58d-5e18-473a-89e1-069fc9655c02",
       "name": "10th Anniversary - Week 3",
       "status": "ACTIVE",
@@ -2895,6 +2849,29 @@
           "name": "Market Coins Bundle 7",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/043434c4-1e73-40ae-80ec-ac836737e748.jpeg",
           "minutes": 840
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "31f09d22-c084-4791-a1d7-67432c4d0b27",
+      "name": "2026 BDO Drops (Jul 25)",
+      "status": "ACTIVE",
+      "start_at": "2026-07-25T12:00:00Z",
+      "end_at": "2026-07-26T00:29:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d9ca7b5e-efc6-4e27-a1e1-37cf46cb0efa.png",
+      "details_url": "https://www.naeu.playblackdesert.com/News/Detail?groupContentNo=5878",
+      "game": "Black Desert",
+      "game_slug": "black-desert",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "2 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f2cb7c7c-7ecd-423e-af93-0d2fc21fcd96.png",
+          "minutes": 120
         }
       ],
       "src": "sunkwi"
