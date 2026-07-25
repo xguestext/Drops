@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-07-25T15:59:59Z",
+  "updated_at": "2026-07-25T17:09:29Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-25T15:59:01.568Z",
+  "source_updated": "2026-07-25T17:09:01.585Z",
   "counts": {
-    "total": 84,
+    "total": 80,
     "upcoming": 7,
-    "active": 77,
-    "game_drops": 84,
+    "active": 73,
+    "game_drops": 80,
     "platform": 0,
-    "badges": 3,
-    "fechadas_descartadas": 54
+    "badges": 2,
+    "fechadas_descartadas": 55
   },
   "campaigns": [
     {
@@ -1915,29 +1915,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "9b2fb9cc-dcb8-4d67-b18a-cf2f43ceeb27",
-      "name": "Dichotomy Beta Test Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-07-23T02:00:00.000Z",
-      "end_at": "2026-07-25T15:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Silver Palace",
-      "game_slug": "silver-palace",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1673502163_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 30,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Beta Test Raffle Ticket",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/44f62bae-4090-4a29-ba4b-28470a4fd799.png",
-          "minutes": 30
-        }
-      ],
-      "src": "fenris"
-    },
-    {
       "id": "615fc480-e578-4f78-a5ba-0ddef9292bdd",
       "name": "Where Winds Meet August",
       "status": "ACTIVE",
@@ -2189,29 +2166,6 @@
           "name": "Champion’s Cache",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/565dd06e-8df8-4472-9f37-2edd6e41dd01.png",
           "minutes": 180
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "e88ed4e9-a383-49bf-a53d-7f8f17196786",
-      "name": "Dichotomy Drops Round 2",
-      "status": "ACTIVE",
-      "start_at": "2026-07-23T16:00:00Z",
-      "end_at": "2026-07-25T15:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/97007f14-d20a-4d37-a695-4c5160aefc94.png",
-      "details_url": "https://silverpalace.elementagames.com/special/twitch-bind",
-      "game": "Silver Palace",
-      "game_slug": "silver-palace",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1673502163_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 30,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Beta Test Raffle Ticket",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/017468b5-e283-405d-a6a6-6a6821bb3570.png",
-          "minutes": 30
         }
       ],
       "src": "sunkwi"
@@ -2509,29 +2463,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "420934a7-db62-4949-b766-105aa270b874",
-      "name": "Marble Day 258",
-      "status": "ACTIVE",
-      "start_at": "2026-07-24T16:00:00Z",
-      "end_at": "2026-07-25T15:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/0a125603-0a71-487f-ae75-a1c0e2bea52d.png",
-      "details_url": "https://pixelbypixel.studio/twitch-drops/",
-      "game": "Marbles on Stream",
-      "game_slug": "marbles-on-stream",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/509511_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "15 Community Coins",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3924503a-4e48-4899-af4a-13f13f70e9b4.png",
-          "minutes": 120
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "366fc540-904b-4d81-919b-fce65e5b5373",
       "name": "DF RISE Series S1 Drops",
       "status": "ACTIVE",
@@ -2570,54 +2501,6 @@
           "name": "M249 - Action Time",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/800d809d-48db-4db3-9036-6d5d2abae451.png",
           "minutes": 90
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "b37845d3-4f76-4445-b5b6-63f608727141",
-      "name": "CFB Live",
-      "status": "ACTIVE",
-      "start_at": "2026-07-24T17:00:00Z",
-      "end_at": "2026-07-25T16:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/9b8c08e1-c734-48ba-a07e-e259408b1017.png",
-      "details_url": "https://help.twitch.tv/s/article/mission-based-drops?language=en_US",
-      "game": "EA Sports College Football 27",
-      "game_slug": "ea-sports-college-football-27",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1678532194_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "CFB Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/42787148-86c5-458c-a74f-1b265bd7ba3f.png",
-          "minutes": 15
-        },
-        {
-          "name": "CFB Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a711dfc3-bb7e-4694-8541-1164f872c774.png",
-          "minutes": 30
-        },
-        {
-          "name": "CFB Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1effe9a6-8c75-40e9-8371-a3357348e91e.png",
-          "minutes": 60
-        },
-        {
-          "name": "CFB Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cde53831-386c-4a36-9403-c09ce8a8622f.png",
-          "minutes": 120
-        },
-        {
-          "name": "CFB Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c3671ac7-8305-444c-bbe2-9de487737e97.png",
-          "minutes": 180
-        },
-        {
-          "name": "CFB Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/114ded74-3484-4ff3-957c-daa822b83096.png",
-          "minutes": 240
         }
       ],
       "src": "sunkwi"
@@ -2972,15 +2855,6 @@
     }
   ],
   "badges": [
-    {
-      "title": "La Velada VI",
-      "start_at": "2026-07-25T17:00:00Z",
-      "end_at": "2026-07-26T00:59:00Z",
-      "note": null,
-      "images": [
-        "https://static-cdn.jtvnw.net/badges/v1/e767e17a-252a-4047-9365-910f4f05a883/3"
-      ]
-    },
     {
       "title": "Final Fantasy XIV Fan Festival 2026 JP",
       "start_at": "2026-10-30T00:00:00Z",
