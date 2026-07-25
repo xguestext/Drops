@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-07-25T06:11:49Z",
+  "updated_at": "2026-07-25T08:28:48Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-25T06:11:01.521Z",
+  "source_updated": "2026-07-25T08:28:01.554Z",
   "counts": {
-    "total": 87,
-    "upcoming": 5,
-    "active": 82,
-    "game_drops": 85,
-    "platform": 2,
+    "total": 84,
+    "upcoming": 7,
+    "active": 77,
+    "game_drops": 84,
+    "platform": 0,
     "badges": 3,
     "fechadas_descartadas": 51
   },
@@ -159,6 +159,67 @@
           "name": "Uncommon+ Pack [1 Player]",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png",
           "minutes": 300
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "efddd262-8faf-4a50-9604-0fd371693859",
+      "name": "July Drops",
+      "status": "UPCOMING",
+      "start_at": "2026-07-26T00:00:00.000Z",
+      "end_at": "2026-07-26T23:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "The Quinfall",
+      "game_slug": "the-quinfall",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 300,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Twitch Reward Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
+          "minutes": 150
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "8a4ee70f-6f05-48a8-9800-9beca06aab7e",
+      "name": "Heidel Ball 2026 Drops",
+      "status": "UPCOMING",
+      "start_at": "2026-07-26T00:30:00.000Z",
+      "end_at": "2026-07-29T11:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Black Desert",
+      "game_slug": "black-desert",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 600,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "1 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a65d5915-5a9b-451f-a00e-a2621dafc7ed.png",
+          "minutes": 60
+        },
+        {
+          "name": "3 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b880b499-e642-45e8-85c7-ed050265c928.png",
+          "minutes": 180
+        },
+        {
+          "name": "5 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1c05e4e9-90d8-47d3-a1af-108ac7806cf0.png",
+          "minutes": 300
+        },
+        {
+          "name": "10 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2028f89d-65d6-4ced-91b2-c0d6770fa23f.png",
+          "minutes": 600
         }
       ],
       "src": "fenris"
@@ -788,44 +849,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "d0566872-b348-4c07-b8d4-a440b397318f",
-      "name": "Summer Drops Fest",
-      "status": "ACTIVE",
-      "start_at": "2026-07-09T23:04:53Z",
-      "end_at": "2026-07-25T06:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/57a9bf1d-1aa7-4e58-ada1-bd9eebde305f.png",
-      "details_url": "https://store.steampowered.com/news/app/2352620/view/689762798147731463",
-      "game": "FELLOWSHIP",
-      "game_slug": "fellowship-1",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/177579460_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "The Sun Lover",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/77848c43-a938-46db-bd92-c0f47f3cd9bd.png",
-          "minutes": 0
-        },
-        {
-          "name": "Night Watchman Title",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/31f0cc7d-4bb3-4caa-8f74-6cc28d4ff39d.png",
-          "minutes": 60
-        },
-        {
-          "name": "Night Watchman Avatar",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4b522287-f84e-433e-840e-faeba84ebc63.png",
-          "minutes": 120
-        },
-        {
-          "name": "Night Watchmen Banner",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e54bfd58-6d40-4037-82b8-4f20c4c7dedf.png",
-          "minutes": 180
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "79863c30-90e5-48f3-b371-f887014a6d5d",
       "name": "V3.5 Wuthering Waves",
       "status": "ACTIVE",
@@ -864,29 +887,6 @@
           "name": "Medium Resonance Potion*5",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e9b9b21f-280e-420f-bed3-2a8cd19aa2c3.png",
           "minutes": 30
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "69c62241-125d-40a6-aaba-254282997937",
-      "name": "Cool Cattiva badge",
-      "status": "ACTIVE",
-      "start_at": "2026-07-10T07:00:00Z",
-      "end_at": "2026-07-25T06:58:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/41b693a0-dab9-440a-bbc0-7c15d99fea38.png",
-      "details_url": "https://help.twitch.tv/s/article/twitch-chat-badges-guide",
-      "game": "Palworld",
-      "game_slug": "palworld",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1036710512_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": null,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Cool Cattiva",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/00decc49-b543-41b3-bd83-fa0e11da595b.png",
-          "minutes": 0
         }
       ],
       "src": "sunkwi"
@@ -1481,29 +1481,6 @@
           "name": "Drops 15 Hour Reward",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3b52ed93-8d81-4d5d-a6a3-e25c3d141a54.png",
           "minutes": 900
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "2009a4c3-affc-47a5-97f2-1d742dfb2d73",
-      "name": "Meccha Chameleon badge",
-      "status": "ACTIVE",
-      "start_at": "2026-07-16T07:00:00Z",
-      "end_at": "2026-07-25T06:58:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/fffef8c7-6a6d-4485-b06f-721d3ae55d6e.png",
-      "details_url": "https://help.twitch.tv/s/article/twitch-chat-badges-guide ",
-      "game": "MECCHA CHAMELEON",
-      "game_slug": "meccha-chamereon",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1820839024_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": null,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Meccha Chameleon",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/dc41dfe9-5c6c-43a0-9c0f-32c8b509c489.png",
-          "minutes": 0
         }
       ],
       "src": "sunkwi"
@@ -2994,52 +2971,6 @@
           "name": "EAS10#2 4x Gold CoinPouch",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7dd91316-38af-4aaa-be3b-6bf82ccff282.png",
           "minutes": 720
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "4a47a3a3-4889-4ca7-9db1-426ca0d92367",
-      "name": "Relink Fabicon badge",
-      "status": "ACTIVE",
-      "start_at": "2026-07-10T07:00:00Z",
-      "end_at": "2026-07-25T06:58:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/959586a3-da7b-4c4e-aa0f-59196b93316b.png",
-      "details_url": "https://help.twitch.tv/s/article/twitch-chat-badges-guide ",
-      "game": "Granblue Fantasy: Relink",
-      "game_slug": "granblue-fantasy-relink",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/493081_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": null,
-      "reward_type": "platform",
-      "rewards": [
-        {
-          "name": "Relink Fabicon badge",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b7f5b40a-ee44-44b9-a87a-c4f903ff52e6.png",
-          "minutes": 0
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "b2b6e067-de4c-4828-bd6b-d93b3f499543",
-      "name": "Jubilee Badge",
-      "status": "ACTIVE",
-      "start_at": "2026-07-10T07:00:00Z",
-      "end_at": "2026-07-25T06:58:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/158879df-4744-4bde-9366-56afa75e5e24.png",
-      "details_url": "https://help.twitch.tv/s/article/twitch-chat-badges-guide",
-      "game": "Marvel Rivals",
-      "game_slug": "marvel-rivals",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1264310518_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": null,
-      "reward_type": "platform",
-      "rewards": [
-        {
-          "name": "Jubilee Badge",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/591f101b-0872-48d0-bb2c-2cd2671b08c2.png",
-          "minutes": 0
         }
       ],
       "src": "sunkwi"
