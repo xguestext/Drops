@@ -1,41 +1,18 @@
 {
-  "updated_at": "2026-07-26T08:18:08Z",
+  "updated_at": "2026-07-26T10:17:13Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-26T08:18:01.571Z",
+  "source_updated": "2026-07-26T10:17:01.533Z",
   "counts": {
-    "total": 80,
-    "upcoming": 7,
+    "total": 79,
+    "upcoming": 6,
     "active": 73,
-    "game_drops": 80,
+    "game_drops": 79,
     "platform": 0,
     "badges": 2,
-    "fechadas_descartadas": 51
+    "fechadas_descartadas": 53
   },
   "campaigns": [
-    {
-      "id": "1367ec91-f7cb-4264-a1a5-95bcbc2e4490",
-      "name": "Radiant Wilds 15 - #7/7",
-      "status": "UPCOMING",
-      "start_at": "2026-07-26T10:00:00.000Z",
-      "end_at": "2026-07-27T09:29:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Albion Online",
-      "game_slug": "albion-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Radiant Wilds Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
-          "minutes": 180
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "d9c9f689-af39-4fe6-a09f-f60cd6f3f24b",
       "name": "Hunt 1896 (Week 1, Pt. 3)",
@@ -2580,29 +2557,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "921c2bdb-5a5e-4ffa-bb7e-cd69d0ec703e",
-      "name": "Radiant Wilds 15 - #6/7",
-      "status": "ACTIVE",
-      "start_at": "2026-07-25T10:00:00Z",
-      "end_at": "2026-07-26T09:29:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/fc26014b-6ee5-4302-a160-4a1aabe849a1.png",
-      "details_url": "https://forum.albiononline.com/index.php/Thread/214756-New-Twitch-Drops-Launching-Monday-July-28-2025/",
-      "game": "Albion Online",
-      "game_slug": "albion-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Radiant Wilds Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
-          "minutes": 180
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "94b05c28-7258-4789-8de3-8983ead6eb6d",
       "name": "July Week 4",
       "status": "ACTIVE",
@@ -2833,6 +2787,29 @@
         {
           "name": "Wings Cosmetic",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e0fcf8b5-21ac-42ff-ba84-dd999d5e1fc7.png",
+          "minutes": 180
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "1367ec91-f7cb-4264-a1a5-95bcbc2e4490",
+      "name": "Radiant Wilds 15 - #7/7",
+      "status": "ACTIVE",
+      "start_at": "2026-07-26T10:00:00Z",
+      "end_at": "2026-07-27T09:29:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/65d11aa3-d630-407b-926c-9958887a388e.png",
+      "details_url": "https://forum.albiononline.com/index.php/Thread/214756-New-Twitch-Drops-Launching-Monday-July-28-2025/",
+      "game": "Albion Online",
+      "game_slug": "albion-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Radiant Wilds Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
           "minutes": 180
         }
       ],
