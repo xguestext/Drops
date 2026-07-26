@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-07-26T18:30:29Z",
+  "updated_at": "2026-07-26T20:05:51Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-26T18:30:01.533Z",
+  "source_updated": "2026-07-26T20:05:01.366Z",
   "counts": {
-    "total": 83,
+    "total": 81,
     "upcoming": 8,
-    "active": 75,
-    "game_drops": 83,
+    "active": 73,
+    "game_drops": 81,
     "platform": 0,
     "badges": 2,
-    "fechadas_descartadas": 49
+    "fechadas_descartadas": 50
   },
   "campaigns": [
     {
@@ -1715,29 +1715,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "f5eba78a-46cd-4dd2-9d35-a3bbfa370041",
-      "name": "Cool Cat - Animated",
-      "status": "ACTIVE",
-      "start_at": "2026-07-21T12:30:00Z",
-      "end_at": "2026-07-28T22:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/1d18107a-5b86-48ef-8d0f-9a721d3dab50.png",
-      "details_url": "https://www.kineticgames.co.uk/news/phasmophobia-quality-of-life-preview-2",
-      "game": "Phasmophobia",
-      "game_slug": "phasmophobia",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/518184_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Cool Cat Foil",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/51973207-c537-4827-a1d7-747b563ddd99.png",
-          "minutes": 120
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "f62ff062-9fbd-4d88-97b3-136de223f20c",
       "name": "Winged Devils Week 8",
       "status": "ACTIVE",
@@ -1766,64 +1743,6 @@
           "name": "10 Enhanced Med Kits",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/16e8e3bc-c27f-4b69-9740-c5bbd95dbce2.png",
           "minutes": 120
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "1667f646-f93a-4c34-a24d-a916ce12b671",
-      "name": "July 03",
-      "status": "ACTIVE",
-      "start_at": "2026-07-21T15:00:00Z",
-      "end_at": "2026-07-28T14:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/b160a322-78e9-4bd7-96aa-75f41eff8269.png",
-      "details_url": "https://ravenquest.io/myaccount/twitch",
-      "game": "RavenQuest",
-      "game_slug": "ravenquest",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/608663369_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 600,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Ravenpacks",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8f75eee8-a576-4c53-a820-6af7e63d004f.png",
-          "minutes": 180
-        },
-        {
-          "name": "Bonded Carved Infusion",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9fc35175-0cd0-4702-ae1d-6525216cedb8.png",
-          "minutes": 360
-        },
-        {
-          "name": "Augmenting Stone",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c71390d8-185c-4383-9073-62ef35e37280.png",
-          "minutes": 360
-        },
-        {
-          "name": "Humming Aether Echo",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/674bd1f2-d23c-4b06-abde-82892c7faf34.png",
-          "minutes": 360
-        },
-        {
-          "name": "Quest Emote",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a9d2cff5-8bdc-40fe-9356-546eaf60bdfc.png",
-          "minutes": 360
-        },
-        {
-          "name": "Fireworks Bundle",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/107cca7e-fa3d-4054-852b-1b7dc2f5beab.png",
-          "minutes": 600
-        },
-        {
-          "name": "Warforging Shard",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9f546e44-8c46-4b2b-b194-25f2bf1a0330.png",
-          "minutes": 600
-        },
-        {
-          "name": "Simple Toolbox",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9f6be529-327b-4c47-ae52-b5326dabcb5e.png",
-          "minutes": 600
         }
       ],
       "src": "sunkwi"
