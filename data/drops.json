@@ -1,51 +1,18 @@
 {
-  "updated_at": "2026-07-26T14:47:33Z",
+  "updated_at": "2026-07-26T15:57:58Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-26T14:47:01.483Z",
+  "source_updated": "2026-07-26T15:57:02.255Z",
   "counts": {
-    "total": 79,
-    "upcoming": 6,
+    "total": 78,
+    "upcoming": 5,
     "active": 73,
-    "game_drops": 79,
+    "game_drops": 78,
     "platform": 0,
     "badges": 2,
-    "fechadas_descartadas": 54
+    "fechadas_descartadas": 52
   },
   "campaigns": [
-    {
-      "id": "d9c9f689-af39-4fe6-a09f-f60cd6f3f24b",
-      "name": "Hunt 1896 (Week 1, Pt. 3)",
-      "status": "UPCOMING",
-      "start_at": "2026-07-26T15:00:00.000Z",
-      "end_at": "2026-07-29T14:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Hunt: Showdown 1896",
-      "game_slug": "hunt-showdown",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/500188_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Supply Crate",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/816bf951-f833-4e45-b01e-0ec860d2d904.jpeg",
-          "minutes": 30
-        },
-        {
-          "name": "Random Avatar",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3e51e861-4c00-42d7-83c5-58e67d7ced87.jpeg",
-          "minutes": 120
-        },
-        {
-          "name": "Golden Hair T.: Precision",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/993b83cb-b4b6-4ad3-b9bd-e45c8a060a9e.jpeg",
-          "minutes": 240
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "daf3ac5c-787d-45c4-9e83-623ab97e4aed",
       "name": "Mobile Drop 108",
@@ -2311,34 +2278,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "26935687-0a71-4e48-a978-71f63abd8e1f",
-      "name": "Hunt 1896 (Week 1, Pt. 2)",
-      "status": "ACTIVE",
-      "start_at": "2026-07-24T15:00:00Z",
-      "end_at": "2026-07-26T14:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/fab80010-6753-4a86-9c2e-1c5987a3ed87.jpeg",
-      "details_url": "https://www.huntshowdown.com/twitchdrops",
-      "game": "Hunt: Showdown 1896",
-      "game_slug": "hunt-showdown",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/500188_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Supply Crate",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a168187c-e97a-4070-a7a5-aeccdafba6a2.jpeg",
-          "minutes": 30
-        },
-        {
-          "name": "Random Legendary Skin",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bb3b7cf8-4517-412b-8b64-5caca7a8d1e0.jpeg",
-          "minutes": 240
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "366fc540-904b-4d81-919b-fce65e5b5373",
       "name": "DF RISE Series S1 Drops",
       "status": "ACTIVE",
@@ -2811,6 +2750,39 @@
           "name": "Radiant Wilds Chest",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
           "minutes": 180
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "d9c9f689-af39-4fe6-a09f-f60cd6f3f24b",
+      "name": "Hunt 1896 (Week 1, Pt. 3)",
+      "status": "ACTIVE",
+      "start_at": "2026-07-26T15:00:00Z",
+      "end_at": "2026-07-29T14:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/586d9ec0-b1ce-40d4-bc3a-c4e1c7da16ed.jpeg",
+      "details_url": "https://www.huntshowdown.com/twitchdrops",
+      "game": "Hunt: Showdown 1896",
+      "game_slug": "hunt-showdown",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/500188_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Supply Crate",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/816bf951-f833-4e45-b01e-0ec860d2d904.jpeg",
+          "minutes": 30
+        },
+        {
+          "name": "Random Avatar",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3e51e861-4c00-42d7-83c5-58e67d7ced87.jpeg",
+          "minutes": 120
+        },
+        {
+          "name": "Golden Hair T.: Precision",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/993b83cb-b4b6-4ad3-b9bd-e45c8a060a9e.jpeg",
+          "minutes": 240
         }
       ],
       "src": "sunkwi"
