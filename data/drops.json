@@ -1,79 +1,18 @@
 {
-  "updated_at": "2026-07-25T23:55:31Z",
+  "updated_at": "2026-07-26T02:25:07Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-25T23:55:02.882Z",
+  "source_updated": "2026-07-26T02:25:02.388Z",
   "counts": {
-    "total": 80,
-    "upcoming": 7,
+    "total": 78,
+    "upcoming": 5,
     "active": 73,
-    "game_drops": 80,
+    "game_drops": 78,
     "platform": 0,
     "badges": 2,
-    "fechadas_descartadas": 52
+    "fechadas_descartadas": 51
   },
   "campaigns": [
-    {
-      "id": "efddd262-8faf-4a50-9604-0fd371693859",
-      "name": "July Drops",
-      "status": "UPCOMING",
-      "start_at": "2026-07-26T00:00:00.000Z",
-      "end_at": "2026-07-26T23:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "The Quinfall",
-      "game_slug": "the-quinfall",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 300,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Twitch Reward Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
-          "minutes": 150
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "8a4ee70f-6f05-48a8-9800-9beca06aab7e",
-      "name": "Heidel Ball 2026 Drops",
-      "status": "UPCOMING",
-      "start_at": "2026-07-26T00:30:00.000Z",
-      "end_at": "2026-07-29T11:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Black Desert",
-      "game_slug": "black-desert",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 600,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "1 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a65d5915-5a9b-451f-a00e-a2621dafc7ed.png",
-          "minutes": 60
-        },
-        {
-          "name": "3 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b880b499-e642-45e8-85c7-ed050265c928.png",
-          "minutes": 180
-        },
-        {
-          "name": "5 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1c05e4e9-90d8-47d3-a1af-108ac7806cf0.png",
-          "minutes": 300
-        },
-        {
-          "name": "10 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2028f89d-65d6-4ced-91b2-c0d6770fa23f.png",
-          "minutes": 600
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "063c125e-5a26-4637-b377-0fbdf725cd63",
       "name": "Dragonkin - July Update",
@@ -2613,29 +2552,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "313a9996-b428-4f8a-9355-338169f9bc75",
-      "name": "July Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-07-25T00:00:00Z",
-      "end_at": "2026-07-25T23:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f43931c5-6bc1-4d88-8c87-2fa78ca3eb9b.png",
-      "details_url": "https://www.quinfall.com/twitch-drops",
-      "game": "The Quinfall",
-      "game_slug": "the-quinfall",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 300,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Twitch Reward Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
-          "minutes": 150
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "9301ccb5-dfc7-4200-bc06-a7eceecbfded",
       "name": "EA Season 10 Drops 2",
       "status": "ACTIVE",
@@ -2780,29 +2696,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "31f09d22-c084-4791-a1d7-67432c4d0b27",
-      "name": "2026 BDO Drops (Jul 25)",
-      "status": "ACTIVE",
-      "start_at": "2026-07-25T12:00:00Z",
-      "end_at": "2026-07-26T00:29:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d9ca7b5e-efc6-4e27-a1e1-37cf46cb0efa.png",
-      "details_url": "https://www.naeu.playblackdesert.com/News/Detail?groupContentNo=5878",
-      "game": "Black Desert",
-      "game_slug": "black-desert",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "2 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f2cb7c7c-7ecd-423e-af93-0d2fc21fcd96.png",
-          "minutes": 120
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "a0ca2a9d-509a-40ba-9818-7b67773203be",
       "name": "Mobile Drop 107",
       "status": "ACTIVE",
@@ -2849,6 +2742,67 @@
           "name": "Uncommon+ Pack [1 Player]",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png",
           "minutes": 300
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "efddd262-8faf-4a50-9604-0fd371693859",
+      "name": "July Drops",
+      "status": "ACTIVE",
+      "start_at": "2026-07-26T00:00:00Z",
+      "end_at": "2026-07-26T23:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/70b8e990-ae09-4f6e-aed2-0a7251ab5aa9.png",
+      "details_url": "https://www.quinfall.com/twitch-drops",
+      "game": "The Quinfall",
+      "game_slug": "the-quinfall",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 300,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Twitch Reward Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
+          "minutes": 150
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "8a4ee70f-6f05-48a8-9800-9beca06aab7e",
+      "name": "Heidel Ball 2026 Drops",
+      "status": "ACTIVE",
+      "start_at": "2026-07-26T00:30:00Z",
+      "end_at": "2026-07-29T11:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e440c3e2-6f0b-4175-ab3d-b8bd4746b4d7.png",
+      "details_url": "https://www.naeu.playblackdesert.com/News/Detail?groupContentNo=10323",
+      "game": "Black Desert",
+      "game_slug": "black-desert",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 600,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "1 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a65d5915-5a9b-451f-a00e-a2621dafc7ed.png",
+          "minutes": 60
+        },
+        {
+          "name": "3 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b880b499-e642-45e8-85c7-ed050265c928.png",
+          "minutes": 180
+        },
+        {
+          "name": "5 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1c05e4e9-90d8-47d3-a1af-108ac7806cf0.png",
+          "minutes": 300
+        },
+        {
+          "name": "10 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2028f89d-65d6-4ced-91b2-c0d6770fa23f.png",
+          "minutes": 600
         }
       ],
       "src": "sunkwi"
