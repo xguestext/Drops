@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-07-27T15:22:31Z",
+  "updated_at": "2026-07-27T17:16:15Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-27T15:22:01.525Z",
+  "source_updated": "2026-07-27T17:16:01.515Z",
   "counts": {
-    "total": 72,
-    "upcoming": 3,
+    "total": 76,
+    "upcoming": 7,
     "active": 69,
-    "game_drops": 72,
+    "game_drops": 76,
     "platform": 0,
     "badges": 2,
-    "fechadas_descartadas": 40
+    "fechadas_descartadas": 39
   },
   "campaigns": [
     {
@@ -88,6 +88,123 @@
           "name": "Uncommon+ Pack [1 Player]",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png",
           "minutes": 300
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "05823889-a685-4933-aae5-d070a2ae7160",
+      "name": "Radiant Wilds 16 - #2/7",
+      "status": "UPCOMING",
+      "start_at": "2026-07-28T10:00:00.000Z",
+      "end_at": "2026-07-29T09:29:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Albion Online",
+      "game_slug": "albion-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Radiant Wilds Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
+          "minutes": 180
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "a152412d-6db9-401f-b441-4d383301a0b7",
+      "name": "Masters of Mayhem Week 1",
+      "status": "UPCOMING",
+      "start_at": "2026-07-28T13:00:00.000Z",
+      "end_at": "2026-08-04T09:57:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "World of Tanks Console",
+      "game_slug": "world-of-tanks-console",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/499551-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 480,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "10 Enhanced Med Kits",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/16e8e3bc-c27f-4b69-9740-c5bbd95dbce2.png",
+          "minutes": 120
+        },
+        {
+          "name": "(4) x3 Vehicle XP Booster",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6c916fdb-2a57-4801-89fd-dfb1b6b5c0f6.png",
+          "minutes": 240
+        },
+        {
+          "name": "(2) x6 Commander Booster",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2df920df-bdfb-423d-a80a-a9d270995b06.png",
+          "minutes": 480
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "99d893ea-1531-48b0-b2fa-13ac01458713",
+      "name": "MarbleFest - July'26-Day2",
+      "status": "UPCOMING",
+      "start_at": "2026-07-28T14:00:00.000Z",
+      "end_at": "2026-07-29T13:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Marbles on Stream",
+      "game_slug": "marbles-on-stream",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/509511_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 900,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "PbP Deep Vibe",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/74bbfca0-63d3-41be-986e-b96bdbf0f5df.png",
+          "minutes": 0
+        },
+        {
+          "name": "15 Community Coins",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3924503a-4e48-4899-af4a-13f13f70e9b4.png",
+          "minutes": 120
+        },
+        {
+          "name": "30 Tournament Coins",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7c3916f7-38a1-4d1b-9477-4113c13afb79.png",
+          "minutes": 900
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "8b4f76b7-d081-4160-91f1-96692912a94c",
+      "name": "July 4",
+      "status": "UPCOMING",
+      "start_at": "2026-07-28T15:00:00.000Z",
+      "end_at": "2026-08-04T14:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Ravendawn",
+      "game_slug": "ravendawn",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/262400435-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 900,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Ravenpacks",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b2527c6b-85c9-4817-be86-4edc264d16ee.png",
+          "minutes": 60
+        },
+        {
+          "name": "Ghostly Infusion",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cab792f8-82db-4a59-8c4d-35f08d775a9a.png",
+          "minutes": 900
         }
       ],
       "src": "fenris"
