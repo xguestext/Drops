@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-07-27T18:54:30Z",
+  "updated_at": "2026-07-27T20:18:33Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-27T18:54:01.762Z",
+  "source_updated": "2026-07-27T20:18:01.685Z",
   "counts": {
-    "total": 75,
+    "total": 74,
     "upcoming": 6,
-    "active": 69,
-    "game_drops": 75,
+    "active": 68,
+    "game_drops": 74,
     "platform": 0,
     "badges": 2,
-    "fechadas_descartadas": 37
+    "fechadas_descartadas": 36
   },
   "campaigns": [
     {
@@ -1684,39 +1684,6 @@
           "name": "2 x XP Boosters ",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2d2ef39f-22b4-473a-977b-26d5c4e50d4f.png",
           "minutes": 120
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "63e0c877-017d-4101-819d-ca205951eb07",
-      "name": "Spider-Showdown Weekend ",
-      "status": "ACTIVE",
-      "start_at": "2026-07-22T19:00:00Z",
-      "end_at": "2026-07-27T18:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/795cb2eb-fd4c-4ffc-b001-130e562d6d4b.png",
-      "details_url": "https://www.marvelsnap.com/twitchdrops",
-      "game": "MARVEL SNAP",
-      "game_slug": "marvel-snap",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1743359147_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 360,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "155 Boosters",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/80c547ce-4c02-403e-881b-0185a1fe4131.png",
-          "minutes": 120
-        },
-        {
-          "name": "PMB",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7afff8e4-2fc8-43f6-b0ac-ad682ab974f7.png",
-          "minutes": 240
-        },
-        {
-          "name": "PMV",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d43ba6de-39c5-4bfb-a19d-4d7e10ae0c7c.png",
-          "minutes": 360
         }
       ],
       "src": "sunkwi"
