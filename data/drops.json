@@ -1,97 +1,18 @@
 {
-  "updated_at": "2026-07-27T12:16:37Z",
+  "updated_at": "2026-07-27T15:22:31Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-27T12:16:01.410Z",
+  "source_updated": "2026-07-27T15:22:01.525Z",
   "counts": {
-    "total": 71,
-    "upcoming": 6,
-    "active": 65,
-    "game_drops": 71,
+    "total": 72,
+    "upcoming": 3,
+    "active": 69,
+    "game_drops": 72,
     "platform": 0,
     "badges": 2,
-    "fechadas_descartadas": 38
+    "fechadas_descartadas": 40
   },
   "campaigns": [
-    {
-      "id": "313c99f3-6ae8-4684-978b-bcc8c8ef50bf",
-      "name": "MarbleFest - July'26-Day1",
-      "status": "UPCOMING",
-      "start_at": "2026-07-27T13:00:00.000Z",
-      "end_at": "2026-07-28T13:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Marbles on Stream",
-      "game_slug": "marbles-on-stream",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/509511_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 900,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Morbie Celebration",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4599c5b9-5c96-4263-ba8e-5db371838e5a.png",
-          "minutes": 0
-        },
-        {
-          "name": "15 Community Coins",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3924503a-4e48-4899-af4a-13f13f70e9b4.png",
-          "minutes": 120
-        },
-        {
-          "name": "30 Tournament Coins",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7c3916f7-38a1-4d1b-9477-4113c13afb79.png",
-          "minutes": 900
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "425b2fef-a89e-4127-9d03-4fcb5a447885",
-      "name": "The Wizard #7",
-      "status": "UPCOMING",
-      "start_at": "2026-07-27T14:00:00.000Z",
-      "end_at": "2026-08-09T13:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "HITMAN World of Assassination",
-      "game_slug": "hitman-world-of-assassination",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1780647523_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 60,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Purple Streak Lockpick",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/064e67dd-3e65-47d5-8d13-52a5a21cd8d3.jpeg",
-          "minutes": 60
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "ae6ca2e2-1099-49a6-91c6-9b972826419c",
-      "name": "Обновление 26.7: Часть 3",
-      "status": "UPCOMING",
-      "start_at": "2026-07-27T14:00:00.000Z",
-      "end_at": "2026-07-31T14:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Mir Korabley",
-      "game_slug": "mir-korabley",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2133072147_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "26.7 Боевая задача #3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6ca4fef0-666f-4527-8a33-b0558913399d.png",
-          "minutes": 240
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "c1aec1ea-45cf-4671-91b8-18c049b864c8",
       "name": "Mobile Drop 109",
@@ -2592,6 +2513,123 @@
           "name": "Radiant Wilds Chest",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
           "minutes": 180
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "313c99f3-6ae8-4684-978b-bcc8c8ef50bf",
+      "name": "MarbleFest - July'26-Day1",
+      "status": "ACTIVE",
+      "start_at": "2026-07-27T13:00:00Z",
+      "end_at": "2026-07-28T13:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/c52b8e3d-5835-40a6-8e3f-0856dff0e932.png",
+      "details_url": "https://pixelbypixel.studio/twitch-drops/",
+      "game": "Marbles on Stream",
+      "game_slug": "marbles-on-stream",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/509511_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 900,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Morbie Celebration",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4599c5b9-5c96-4263-ba8e-5db371838e5a.png",
+          "minutes": 0
+        },
+        {
+          "name": "15 Community Coins",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3924503a-4e48-4899-af4a-13f13f70e9b4.png",
+          "minutes": 120
+        },
+        {
+          "name": "30 Tournament Coins",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7c3916f7-38a1-4d1b-9477-4113c13afb79.png",
+          "minutes": 900
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "ae6ca2e2-1099-49a6-91c6-9b972826419c",
+      "name": "Обновление 26.7: Часть 3",
+      "status": "ACTIVE",
+      "start_at": "2026-07-27T14:00:00Z",
+      "end_at": "2026-07-31T14:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/aaf808ba-2936-4b66-b1ab-66c0a99f47e3.jpeg",
+      "details_url": "https://krbli.ru/4dDrG8N",
+      "game": "Mir Korabley",
+      "game_slug": "mir-korabley",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2133072147_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "26.7 Боевая задача #3",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6ca4fef0-666f-4527-8a33-b0558913399d.png",
+          "minutes": 240
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "8fbf0997-7499-40ce-8b31-b2717f77a7fa",
+      "name": "Blazey Will Rock You!",
+      "status": "ACTIVE",
+      "start_at": "2026-07-27T14:00:00Z",
+      "end_at": "2026-08-03T13:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/b6ffed49-e6cf-4f0b-99c5-a764d4d55e2e.png",
+      "details_url": "https://rushroyale.my.games/en/twitch-drops",
+      "game": "Rush Royale",
+      "game_slug": "rush-royale",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/633454324_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 480,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "5000 Gold",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7326d413-fc98-49cf-9d39-de7c1827a66e.png",
+          "minutes": 120
+        },
+        {
+          "name": "200 Perk Fragments",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/08e4f679-3e2e-490e-aa0f-3e22db4b74eb.png",
+          "minutes": 240
+        },
+        {
+          "name": "Seeker Compass",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f29e4fca-6b45-43fe-93eb-6ec1d6fbe84b.png",
+          "minutes": 360
+        },
+        {
+          "name": "Cool Duck Avatar",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/69cdd17a-d56b-452c-a919-23c91efbe841.png",
+          "minutes": 480
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "425b2fef-a89e-4127-9d03-4fcb5a447885",
+      "name": "The Wizard #7",
+      "status": "ACTIVE",
+      "start_at": "2026-07-27T14:00:00Z",
+      "end_at": "2026-08-09T13:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a8439109-13a9-4fc5-a5b4-aa2e9b8a3d06.jpeg",
+      "details_url": "https://account.ioi.dk/",
+      "game": "HITMAN World of Assassination",
+      "game_slug": "hitman-world-of-assassination",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1780647523_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 60,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Purple Streak Lockpick",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/064e67dd-3e65-47d5-8d13-52a5a21cd8d3.jpeg",
+          "minutes": 60
         }
       ],
       "src": "sunkwi"
