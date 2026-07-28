@@ -1,41 +1,18 @@
 {
-  "updated_at": "2026-07-28T17:51:11Z",
+  "updated_at": "2026-07-28T19:15:34Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-28T17:51:01.375Z",
+  "source_updated": "2026-07-28T19:15:01.558Z",
   "counts": {
-    "total": 74,
-    "upcoming": 9,
-    "active": 65,
-    "game_drops": 73,
+    "total": 75,
+    "upcoming": 7,
+    "active": 68,
+    "game_drops": 74,
     "platform": 1,
     "badges": 2,
     "fechadas_descartadas": 35
   },
   "campaigns": [
-    {
-      "id": "e5f66f1e-9a42-4848-8396-10ffca15ed27",
-      "name": "Mobile Drop 110",
-      "status": "UPCOMING",
-      "start_at": "2026-07-28T17:59:00.000Z",
-      "end_at": "2026-07-29T17:56:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Rise Online",
-      "game_slug": "rise-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Regalia of Awakening",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
-          "minutes": 240
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "9726d927-8359-4c31-b33f-9ee9f2c2c6c2",
       "name": "GOALS - 29th of July",
@@ -243,39 +220,6 @@
           "name": "Random Charm",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a005ad3d-8896-4f90-b4e3-f431dc04c253.jpeg",
           "minutes": 240
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "06767798-da18-4278-9317-dd075060843b",
-      "name": "Into The Rainbow 2026",
-      "status": "UPCOMING",
-      "start_at": "2026-07-28T18:00:00.000Z",
-      "end_at": "2026-07-30T03:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Dead by Daylight",
-      "game_slug": "dead-by-daylight",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/491487-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "platform",
-      "rewards": [
-        {
-          "name": "Proud David Banner",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fad20279-e1fa-4c94-8da4-070ab7c7337c.png",
-          "minutes": 120
-        },
-        {
-          "name": "Proud Orela Banner",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e0ccc4b6-ed9a-45f3-b7ae-c1a022501ff6.png",
-          "minutes": 120
-        },
-        {
-          "name": "Proud Susie Banner",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/609db98a-8d78-4618-8e80-1d2ea2acd9c6.png",
-          "minutes": 120
         }
       ],
       "src": "fenris"
@@ -2381,29 +2325,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "c1aec1ea-45cf-4671-91b8-18c049b864c8",
-      "name": "Mobile Drop 109",
-      "status": "ACTIVE",
-      "start_at": "2026-07-27T17:59:00Z",
-      "end_at": "2026-07-28T17:56:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/9807303c-becd-49b5-af2f-449507c14600.png",
-      "details_url": "https://mobile.riseonlineworld.com/usercp?do=twitch",
-      "game": "Rise Online",
-      "game_slug": "rise-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Regalia of Awakening",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
-          "minutes": 240
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "89179f96-0020-4f2e-901a-d040e26b1bcf",
       "name": "Webs Assemble - Week 1",
       "status": "ACTIVE",
@@ -2651,6 +2572,173 @@
           "name": "DbD Pride Icon",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/feb31f08-8e03-48a1-9c9b-99ac53c4632c.png",
           "minutes": 0
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "acc08904-bdd3-4ced-b1da-99e98be7d937",
+      "name": "Drops",
+      "status": "ACTIVE",
+      "start_at": "2026-07-28T17:53:04Z",
+      "end_at": "2026-07-30T11:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/6d270df3-6631-4f8c-a1b1-ff1989d2b154.png",
+      "details_url": "https://huntclubonstream.lovable.app/legal",
+      "game": "Hunt Club On Stream",
+      "game_slug": "hunt-club-on-stream",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2097881176_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 900,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Fishing Silver Drop",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba14718d-6cf5-4a25-9700-a7519603b571.png",
+          "minutes": 120
+        },
+        {
+          "name": "Hunting Silver Drop",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c4ddccc8-db23-4340-8ee5-c7575da873c9.png",
+          "minutes": 120
+        },
+        {
+          "name": "Hunting Gold Drop",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/87a1284b-9471-4b76-92f3-1202af94c2e6.png",
+          "minutes": 240
+        },
+        {
+          "name": "Fishing Gold Drop",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/51cc6079-9e26-478e-b010-ebe250c9c28d.png",
+          "minutes": 240
+        },
+        {
+          "name": "Hunting Epic Drop",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7b186897-73e8-4934-aedc-87108a6fd854.png",
+          "minutes": 360
+        },
+        {
+          "name": "Fishing Epic Drop",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f4b13e63-2abe-4d63-9984-2cb5ddda4735.png",
+          "minutes": 360
+        },
+        {
+          "name": "Fishing Legendary Drop",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/dffd0a91-125a-4a6d-a136-348971b519c1.png",
+          "minutes": 900
+        },
+        {
+          "name": "Hunting Legendary Drop",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4e55f494-532a-47f9-b5e9-5357dd697909.png",
+          "minutes": 900
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "e5f66f1e-9a42-4848-8396-10ffca15ed27",
+      "name": "Mobile Drop 110",
+      "status": "ACTIVE",
+      "start_at": "2026-07-28T17:59:00Z",
+      "end_at": "2026-07-29T17:56:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ff5fb1c8-e72a-420a-9277-8b8679caa9a3.png",
+      "details_url": "https://mobile.riseonlineworld.com/usercp?do=twitch",
+      "game": "Rise Online",
+      "game_slug": "rise-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Regalia of Awakening",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
+          "minutes": 240
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "4275161f-1bd5-46d0-b12c-7a24c30f4faf",
+      "name": "Beauty and the Beach",
+      "status": "ACTIVE",
+      "start_at": "2026-07-28T18:00:00Z",
+      "end_at": "2026-08-18T17:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/c287f2de-7ff7-4148-b427-0660430b4237.png",
+      "details_url": "https://palia.com/news/205-twitch-drops",
+      "game": "Palia",
+      "game_slug": "palia",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/982017546_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 360,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "3x Smoke Candle",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/798be54c-7b6a-4094-b56a-fbf6793711ce.png",
+          "minutes": 60
+        },
+        {
+          "name": "3x Supreme Smoke Bomb",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5286b3ce-3900-4391-83a6-b9219baa246a.png",
+          "minutes": 60
+        },
+        {
+          "name": "10x Sneaky Smoke Bombs",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e025722b-ba67-4b61-87d9-d1e277b1b407.png",
+          "minutes": 60
+        },
+        {
+          "name": "1x Fancypod Prize Bag",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ee7680dd-35ef-4e1a-a416-23a75f861bdc.png",
+          "minutes": 180
+        },
+        {
+          "name": "1x Shinypod Prize Bag",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5df1fb80-e0ef-4f1e-aa5a-ffa41d1d29c3.png",
+          "minutes": 180
+        },
+        {
+          "name": "2x Honey Lure",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/41210c69-f8a8-49b1-8746-ea12a21e2e7b.png",
+          "minutes": 180
+        },
+        {
+          "name": "Duskwing Glasses",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/17e27c18-41c0-442f-9274-574f3e77a91d.png",
+          "minutes": 360
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "06767798-da18-4278-9317-dd075060843b",
+      "name": "Into The Rainbow 2026",
+      "status": "ACTIVE",
+      "start_at": "2026-07-28T18:00:00Z",
+      "end_at": "2026-07-30T03:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/571261c3-d9a6-4107-a34c-2496f6f606fe.jpeg",
+      "details_url": "https://account.bhvr.com/twitch/dbd",
+      "game": "Dead by Daylight",
+      "game_slug": "dead-by-daylight",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/491487-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "platform",
+      "rewards": [
+        {
+          "name": "Proud David Banner",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fad20279-e1fa-4c94-8da4-070ab7c7337c.png",
+          "minutes": 120
+        },
+        {
+          "name": "Proud Orela Banner",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e0ccc4b6-ed9a-45f3-b7ae-c1a022501ff6.png",
+          "minutes": 120
+        },
+        {
+          "name": "Proud Susie Banner",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/609db98a-8d78-4618-8e80-1d2ea2acd9c6.png",
+          "minutes": 120
         }
       ],
       "src": "sunkwi"
