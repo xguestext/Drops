@@ -1,41 +1,18 @@
 {
-  "updated_at": "2026-07-28T09:15:25Z",
+  "updated_at": "2026-07-28T11:33:36Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-28T09:15:01.470Z",
+  "source_updated": "2026-07-28T11:33:01.506Z",
   "counts": {
-    "total": 74,
-    "upcoming": 9,
-    "active": 65,
-    "game_drops": 73,
+    "total": 72,
+    "upcoming": 8,
+    "active": 64,
+    "game_drops": 71,
     "platform": 1,
     "badges": 3,
-    "fechadas_descartadas": 36
+    "fechadas_descartadas": 35
   },
   "campaigns": [
-    {
-      "id": "05823889-a685-4933-aae5-d070a2ae7160",
-      "name": "Radiant Wilds 16 - #2/7",
-      "status": "UPCOMING",
-      "start_at": "2026-07-28T10:00:00.000Z",
-      "end_at": "2026-07-29T09:29:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Albion Online",
-      "game_slug": "albion-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Radiant Wilds Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
-          "minutes": 180
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "a152412d-6db9-401f-b441-4d383301a0b7",
       "name": "Masters of Mayhem Week 1",
@@ -1547,39 +1524,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "f62ff062-9fbd-4d88-97b3-136de223f20c",
-      "name": "Winged Devils Week 8",
-      "status": "ACTIVE",
-      "start_at": "2026-07-21T13:00:00Z",
-      "end_at": "2026-07-28T09:57:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/c2426549-4d15-48fd-b69b-fe210d3e05b2.png",
-      "details_url": "https://modernarmor.worldoftanks.com/en/cms/notes/twitch-drops/",
-      "game": "World of Tanks Console",
-      "game_slug": "world-of-tanks-console",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/499551-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 480,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "(4) x3 Vehicle XP Booster",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6c916fdb-2a57-4801-89fd-dfb1b6b5c0f6.png",
-          "minutes": 240
-        },
-        {
-          "name": "(2) x6 Commander Booster",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2df920df-bdfb-423d-a80a-a9d270995b06.png",
-          "minutes": 480
-        },
-        {
-          "name": "10 Enhanced Med Kits",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/16e8e3bc-c27f-4b69-9740-c5bbd95dbce2.png",
-          "minutes": 120
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "16ca1ede-fc0d-4bd0-a622-d34895a945f8",
       "name": "July 3",
       "status": "ACTIVE",
@@ -2396,29 +2340,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "ecf9e5de-e0e3-473f-a732-9d103dff75f9",
-      "name": "Radiant Wilds 16 - #1/7",
-      "status": "ACTIVE",
-      "start_at": "2026-07-27T10:00:00Z",
-      "end_at": "2026-07-28T09:29:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/7ca21960-8c13-4489-973c-e3849c3f0a08.png",
-      "details_url": "https://forum.albiononline.com/index.php/Thread/214756-New-Twitch-Drops-Launching-Monday-July-28-2025/",
-      "game": "Albion Online",
-      "game_slug": "albion-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Radiant Wilds Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
-          "minutes": 180
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "313c99f3-6ae8-4684-978b-bcc8c8ef50bf",
       "name": "MarbleFest - July'26-Day1",
       "status": "ACTIVE",
@@ -2666,6 +2587,29 @@
           "name": "50,000 Tickets",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/62fe286f-a3ea-46f3-a83b-b4d950e7c211.png",
           "minutes": 300
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "05823889-a685-4933-aae5-d070a2ae7160",
+      "name": "Radiant Wilds 16 - #2/7",
+      "status": "ACTIVE",
+      "start_at": "2026-07-28T10:00:00Z",
+      "end_at": "2026-07-29T09:29:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/4c25ebb5-6d9a-43d2-a1f6-618e339d32c4.png",
+      "details_url": "https://forum.albiononline.com/index.php/Thread/214756-New-Twitch-Drops-Launching-Monday-July-28-2025/",
+      "game": "Albion Online",
+      "game_slug": "albion-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Radiant Wilds Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
+          "minutes": 180
         }
       ],
       "src": "sunkwi"
