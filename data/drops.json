@@ -1,46 +1,18 @@
 {
-  "updated_at": "2026-07-28T21:59:12Z",
+  "updated_at": "2026-07-28T23:05:06Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-28T21:59:01.716Z",
+  "source_updated": "2026-07-28T23:05:02.553Z",
   "counts": {
-    "total": 75,
-    "upcoming": 7,
-    "active": 68,
-    "game_drops": 74,
+    "total": 73,
+    "upcoming": 6,
+    "active": 67,
+    "game_drops": 72,
     "platform": 1,
-    "badges": 2,
-    "fechadas_descartadas": 33
+    "badges": 3,
+    "fechadas_descartadas": 31
   },
   "campaigns": [
-    {
-      "id": "9726d927-8359-4c31-b33f-9ee9f2c2c6c2",
-      "name": "GOALS - 29th of July",
-      "status": "UPCOMING",
-      "start_at": "2026-07-28T22:01:00.000Z",
-      "end_at": "2026-07-29T21:58:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "GOALS",
-      "game_slug": "goals",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/951160620_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 300,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Common+ Pack [1 Player]",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82a4b7fe-7458-4b59-b909-ebc30fc91521.png",
-          "minutes": 60
-        },
-        {
-          "name": "Uncommon+ Pack [1 Player]",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png",
-          "minutes": 300
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "52fd876e-179e-4fc7-9935-1798761bba6a",
       "name": "V3.1 Zenless Zone Zero",
@@ -1430,29 +1402,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "d5e6ea2f-7eb8-42c9-b91f-8bfaaa510369",
-      "name": "Cool Cat - Static",
-      "status": "ACTIVE",
-      "start_at": "2026-07-21T12:30:00Z",
-      "end_at": "2026-07-28T22:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e0838f2b-563a-4cc9-a39b-3de5ae7bf89f.png",
-      "details_url": "https://www.kineticgames.co.uk/news/phasmophobia-quality-of-life-preview-2",
-      "game": "Phasmophobia",
-      "game_slug": "phasmophobia",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/518184_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Cool Cat",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9b79bc30-f04e-450b-ab9e-42555b1b447f.png",
-          "minutes": 120
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "396e2b60-3175-4f4c-a2ff-3a890005e976",
       "name": "HEAT Season 1 - Week 4",
       "status": "ACTIVE",
@@ -2353,34 +2302,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "a821a227-5ee8-4fb7-88ab-b8aecb932113",
-      "name": "GOALS - 28th of July",
-      "status": "ACTIVE",
-      "start_at": "2026-07-27T22:01:00Z",
-      "end_at": "2026-07-28T21:58:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/4083fef5-f379-456c-8b3a-65b26dcdf427.png",
-      "details_url": "https://playgoals.com/twitch-drops",
-      "game": "GOALS",
-      "game_slug": "goals",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/951160620_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 300,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Common+ Pack [1 Player]",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82a4b7fe-7458-4b59-b909-ebc30fc91521.png",
-          "minutes": 60
-        },
-        {
-          "name": "Uncommon+ Pack [1 Player]",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png",
-          "minutes": 300
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "4decc0a4-3d87-482b-929f-72f422732e19",
       "name": "July Drops",
       "status": "ACTIVE",
@@ -2711,6 +2632,34 @@
       "src": "sunkwi"
     },
     {
+      "id": "9726d927-8359-4c31-b33f-9ee9f2c2c6c2",
+      "name": "GOALS - 29th of July",
+      "status": "ACTIVE",
+      "start_at": "2026-07-28T22:01:00Z",
+      "end_at": "2026-07-29T21:58:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/edb6e6fa-e539-4162-906a-542ad8c3280e.png",
+      "details_url": "https://playgoals.com/twitch-drops",
+      "game": "GOALS",
+      "game_slug": "goals",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/951160620_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 300,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Common+ Pack [1 Player]",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82a4b7fe-7458-4b59-b909-ebc30fc91521.png",
+          "minutes": 60
+        },
+        {
+          "name": "Uncommon+ Pack [1 Player]",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png",
+          "minutes": 300
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
       "id": "06767798-da18-4278-9317-dd075060843b",
       "name": "Into The Rainbow 2026",
       "status": "ACTIVE",
@@ -2745,6 +2694,15 @@
     }
   ],
   "badges": [
+    {
+      "title": "Egg Hunt 2026: The Grand Eggspress",
+      "start_at": "2026-07-29T07:00:00Z",
+      "end_at": "2026-08-26T06:59:00Z",
+      "note": null,
+      "images": [
+        "https://static-cdn.jtvnw.net/badges/v1/74c777c3-715f-4c40-b991-6a36239e6ef0/3"
+      ]
+    },
     {
       "title": "Final Fantasy XIV Fan Festival 2026 JP",
       "start_at": "2026-10-30T00:00:00Z",
