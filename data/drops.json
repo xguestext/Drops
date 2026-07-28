@@ -1,51 +1,18 @@
 {
-  "updated_at": "2026-07-28T11:33:36Z",
+  "updated_at": "2026-07-28T13:52:29Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-28T11:33:01.506Z",
+  "source_updated": "2026-07-28T13:52:01.560Z",
   "counts": {
     "total": 72,
-    "upcoming": 8,
-    "active": 64,
+    "upcoming": 7,
+    "active": 65,
     "game_drops": 71,
     "platform": 1,
     "badges": 3,
     "fechadas_descartadas": 35
   },
   "campaigns": [
-    {
-      "id": "a152412d-6db9-401f-b441-4d383301a0b7",
-      "name": "Masters of Mayhem Week 1",
-      "status": "UPCOMING",
-      "start_at": "2026-07-28T13:00:00.000Z",
-      "end_at": "2026-08-04T09:57:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "World of Tanks Console",
-      "game_slug": "world-of-tanks-console",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/499551-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 480,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "10 Enhanced Med Kits",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/16e8e3bc-c27f-4b69-9740-c5bbd95dbce2.png",
-          "minutes": 120
-        },
-        {
-          "name": "(4) x3 Vehicle XP Booster",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6c916fdb-2a57-4801-89fd-dfb1b6b5c0f6.png",
-          "minutes": 240
-        },
-        {
-          "name": "(2) x6 Commander Booster",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2df920df-bdfb-423d-a80a-a9d270995b06.png",
-          "minutes": 480
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "99d893ea-1531-48b0-b2fa-13ac01458713",
       "name": "MarbleFest - July'26-Day2",
@@ -2610,6 +2577,39 @@
           "name": "Radiant Wilds Chest",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
           "minutes": 180
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "a152412d-6db9-401f-b441-4d383301a0b7",
+      "name": "Masters of Mayhem Week 1",
+      "status": "ACTIVE",
+      "start_at": "2026-07-28T13:00:00Z",
+      "end_at": "2026-08-04T09:57:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ca2fd7b6-27b4-4db9-bbd1-633f5e7cb5b0.png",
+      "details_url": "https://modernarmor.worldoftanks.com/en/cms/notes/twitch-drops/",
+      "game": "World of Tanks Console",
+      "game_slug": "world-of-tanks-console",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/499551-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 480,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "(4) x3 Vehicle XP Booster",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6c916fdb-2a57-4801-89fd-dfb1b6b5c0f6.png",
+          "minutes": 240
+        },
+        {
+          "name": "(2) x6 Commander Booster",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2df920df-bdfb-423d-a80a-a9d270995b06.png",
+          "minutes": 480
+        },
+        {
+          "name": "10 Enhanced Med Kits",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/16e8e3bc-c27f-4b69-9740-c5bbd95dbce2.png",
+          "minutes": 120
         }
       ],
       "src": "sunkwi"
