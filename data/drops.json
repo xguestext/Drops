@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-07-28T00:00:13Z",
+  "updated_at": "2026-07-28T03:44:57Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-28T00:00:02.723Z",
+  "source_updated": "2026-07-28T03:44:01.414Z",
   "counts": {
-    "total": 77,
+    "total": 75,
     "upcoming": 8,
-    "active": 69,
-    "game_drops": 76,
+    "active": 67,
+    "game_drops": 74,
     "platform": 1,
     "badges": 3,
     "fechadas_descartadas": 36
@@ -241,74 +241,6 @@
         }
       ],
       "src": "fenris"
-    },
-    {
-      "id": "91f4d3e6-8113-4f1e-89d6-3b4ebd77c080",
-      "name": "Doomsday Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-06-30T09:40:02Z",
-      "end_at": "2026-07-27T23:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/72df7d8f-bbfc-46ae-a292-9013afbc3982.png",
-      "details_url": "https://event.igg.com/twitch/drops?code=dls_drops",
-      "game": "Doomsday: Last Survivors",
-      "game_slug": "doomsday-last-survivors",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1102857083_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 30,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Gem",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9f487000-8fc2-4b6d-aa3f-b18ae7286f06.png",
-          "minutes": 30
-        },
-        {
-          "name": "Elite Hero Badge S*5",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e49b7d42-7d24-41cb-9051-abb1cdf19b54.png",
-          "minutes": 30
-        },
-        {
-          "name": "Battle Manual*5",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5973ed5a-369e-456a-a36a-2ff88b273ac4.png",
-          "minutes": 30
-        },
-        {
-          "name": "Stamina Recovery I*5",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0dabdecf-5c82-4961-9c94-e1255bbd67b7.png",
-          "minutes": 30
-        },
-        {
-          "name": "Normal Search Map*2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4dec7f68-6d68-4061-9f54-260cc5c2f315.png",
-          "minutes": 30
-        },
-        {
-          "name": "5m Speedup*12",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d51c0708-e671-4631-81a6-695b73497c3c.png",
-          "minutes": 30
-        },
-        {
-          "name": "67 Exclusive Emote",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1fef8a74-9a5b-4db0-aa90-21dbcbab07c7.png",
-          "minutes": 30
-        },
-        {
-          "name": "VIP EXP*1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/38f8a7a8-28a4-4ef9-b8fa-59af3d9e399c.png",
-          "minutes": 30
-        },
-        {
-          "name": "Advanced Search Map*1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bb3d7332-e53b-49f3-b5c3-40991d194b4a.png",
-          "minutes": 15
-        },
-        {
-          "name": "60min Speedup*1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cdc2c1d8-ce40-43dd-8183-4c6a29bb1522.png",
-          "minutes": 15
-        }
-      ],
-      "src": "sunkwi"
     },
     {
       "id": "284538a6-9d7e-4614-984b-a5abe5d4b8f7",
@@ -2416,29 +2348,6 @@
           "name": "Golden Hair T.: Precision",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/993b83cb-b4b6-4ad3-b9bd-e45c8a060a9e.jpeg",
           "minutes": 240
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "d202be8c-aec3-4cfa-aa55-f12e2be91e87",
-      "name": "July Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-07-27T00:00:00Z",
-      "end_at": "2026-07-27T23:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/00aa067f-c258-42ae-8483-02bd62dded99.png",
-      "details_url": "https://www.quinfall.com/twitch-drops",
-      "game": "The Quinfall",
-      "game_slug": "the-quinfall",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Twitch Reward Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
-          "minutes": 180
         }
       ],
       "src": "sunkwi"
