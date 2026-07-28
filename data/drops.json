@@ -1,51 +1,18 @@
 {
-  "updated_at": "2026-07-28T03:44:57Z",
+  "updated_at": "2026-07-28T06:21:52Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-28T03:44:01.414Z",
+  "source_updated": "2026-07-28T06:21:01.550Z",
   "counts": {
-    "total": 75,
-    "upcoming": 8,
-    "active": 67,
-    "game_drops": 74,
+    "total": 73,
+    "upcoming": 7,
+    "active": 66,
+    "game_drops": 72,
     "platform": 1,
     "badges": 3,
-    "fechadas_descartadas": 36
+    "fechadas_descartadas": 35
   },
   "campaigns": [
-    {
-      "id": "66b70d83-493d-48bf-b264-bad6bf0061fc",
-      "name": "BSH 3",
-      "status": "UPCOMING",
-      "start_at": "2026-07-28T06:00:00.000Z",
-      "end_at": "2026-07-29T05:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Coin Pusher World",
-      "game_slug": "coin-pusher-world",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/530998549_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 300,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "10,000 Tickets",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4d0a5630-8167-4f34-bd2a-68e103627ccf.png",
-          "minutes": 60
-        },
-        {
-          "name": "cpw_tdrop28",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5eb02c38-73e4-42c2-907a-0cfbc248fad4.png",
-          "minutes": 180
-        },
-        {
-          "name": "50,000 Tickets",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/62fe286f-a3ea-46f3-a83b-b4d950e7c211.png",
-          "minutes": 300
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "05823889-a685-4933-aae5-d070a2ae7160",
       "name": "Radiant Wilds 16 - #2/7",
@@ -832,39 +799,6 @@
           "name": "Captain America Costume",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2d3bce64-f91f-4408-a4bd-78bc48cd1022.png",
           "minutes": 240
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "d0b32c6c-0583-4909-be91-f12686c3d5f0",
-      "name": "July 2026",
-      "status": "ACTIVE",
-      "start_at": "2026-07-10T16:30:00Z",
-      "end_at": "2026-07-28T03:58:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/aa748995-1eb9-43e1-b804-5b4f7ad26221.png",
-      "details_url": "https://bitcraftonline.com/news/twitch-drops-july-10th-to-july-27th",
-      "game": "BitCraft Online",
-      "game_slug": "bitcraft",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1795884306_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 360,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Beta Cube",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0cec2803-b58a-4efa-8e97-43e6df202f11.png",
-          "minutes": 60
-        },
-        {
-          "name": "White Flippers",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/02eb9d7f-a4de-4c58-88c9-5dfe156db197.png",
-          "minutes": 180
-        },
-        {
-          "name": "Rainbow Tube",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c487aafe-e678-4474-9984-25b28cd55ef0.png",
-          "minutes": 360
         }
       ],
       "src": "sunkwi"
@@ -2409,39 +2343,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "1029631a-fe96-4db2-90c1-9a25070f647a",
-      "name": "BSH 2",
-      "status": "ACTIVE",
-      "start_at": "2026-07-27T06:00:00Z",
-      "end_at": "2026-07-28T05:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f2111176-9969-4c70-8223-6c30816ce29a.png",
-      "details_url": "https://coins.coinpusherworld.co.uk/drops/index.php",
-      "game": "Coin Pusher World",
-      "game_slug": "coin-pusher-world",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/530998549_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 300,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "10,000 Tickets",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4d0a5630-8167-4f34-bd2a-68e103627ccf.png",
-          "minutes": 60
-        },
-        {
-          "name": "cpw_tdrop27",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e87fc2f4-fbc3-4b01-94d5-511730797ead.png",
-          "minutes": 180
-        },
-        {
-          "name": "50,000 Tickets",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/62fe286f-a3ea-46f3-a83b-b4d950e7c211.png",
-          "minutes": 300
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "ecf9e5de-e0e3-473f-a732-9d103dff75f9",
       "name": "Radiant Wilds 16 - #1/7",
       "status": "ACTIVE",
@@ -2679,6 +2580,39 @@
           "name": "Twitch Reward Chest",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
           "minutes": 180
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "66b70d83-493d-48bf-b264-bad6bf0061fc",
+      "name": "BSH 3",
+      "status": "ACTIVE",
+      "start_at": "2026-07-28T06:00:00Z",
+      "end_at": "2026-07-29T05:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e59da0d4-2d62-4d5b-9884-c7ec179af96d.png",
+      "details_url": "https://coins.coinpusherworld.co.uk/drops/index.php",
+      "game": "Coin Pusher World",
+      "game_slug": "coin-pusher-world",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/530998549_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 300,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "10,000 Tickets",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4d0a5630-8167-4f34-bd2a-68e103627ccf.png",
+          "minutes": 60
+        },
+        {
+          "name": "cpw_tdrop28",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5eb02c38-73e4-42c2-907a-0cfbc248fad4.png",
+          "minutes": 180
+        },
+        {
+          "name": "50,000 Tickets",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/62fe286f-a3ea-46f3-a83b-b4d950e7c211.png",
+          "minutes": 300
         }
       ],
       "src": "sunkwi"
