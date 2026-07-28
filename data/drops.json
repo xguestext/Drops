@@ -1,41 +1,18 @@
 {
-  "updated_at": "2026-07-28T16:02:44Z",
+  "updated_at": "2026-07-28T17:51:11Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-28T16:02:01.529Z",
+  "source_updated": "2026-07-28T17:51:01.375Z",
   "counts": {
-    "total": 70,
-    "upcoming": 5,
+    "total": 74,
+    "upcoming": 9,
     "active": 65,
-    "game_drops": 69,
+    "game_drops": 73,
     "platform": 1,
-    "badges": 3,
-    "fechadas_descartadas": 37
+    "badges": 2,
+    "fechadas_descartadas": 35
   },
   "campaigns": [
-    {
-      "id": "a5dd76e2-c17b-49a7-b53c-18616aa6ba72",
-      "name": "DbD Into the Rainbow 2026",
-      "status": "UPCOMING",
-      "start_at": "2026-07-28T17:00:00.000Z",
-      "end_at": "2026-08-10T13:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Dead by Daylight",
-      "game_slug": "dead-by-daylight",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/491487-285x380.jpg",
-      "availability": "open",
-      "required_minutes": null,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "DbD Pride Icon",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/feb31f08-8e03-48a1-9c9b-99ac53c4632c.png",
-          "minutes": 0
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "e5f66f1e-9a42-4848-8396-10ffca15ed27",
       "name": "Mobile Drop 110",
@@ -55,6 +32,34 @@
           "name": "Regalia of Awakening",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
           "minutes": 240
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "9726d927-8359-4c31-b33f-9ee9f2c2c6c2",
+      "name": "GOALS - 29th of July",
+      "status": "UPCOMING",
+      "start_at": "2026-07-28T22:01:00.000Z",
+      "end_at": "2026-07-29T21:58:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "GOALS",
+      "game_slug": "goals",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/951160620_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 300,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Common+ Pack [1 Player]",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82a4b7fe-7458-4b59-b909-ebc30fc91521.png",
+          "minutes": 60
+        },
+        {
+          "name": "Uncommon+ Pack [1 Player]",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png",
+          "minutes": 300
         }
       ],
       "src": "fenris"
@@ -136,6 +141,113 @@
       "src": "fenris"
     },
     {
+      "id": "20c1f157-dfb8-452e-beaa-0b9599bfd0e9",
+      "name": "Radiant Wilds 16 - #3/7",
+      "status": "UPCOMING",
+      "start_at": "2026-07-29T10:00:00.000Z",
+      "end_at": "2026-07-30T09:29:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Albion Online",
+      "game_slug": "albion-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Radiant Wilds Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
+          "minutes": 180
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "78fae52d-4aab-474b-996b-ebb5023c868e",
+      "name": "2026 BDO Drops (Jul 29)",
+      "status": "UPCOMING",
+      "start_at": "2026-07-29T12:00:00.000Z",
+      "end_at": "2026-07-30T11:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Black Desert",
+      "game_slug": "black-desert",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "2 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f2cb7c7c-7ecd-423e-af93-0d2fc21fcd96.png",
+          "minutes": 120
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "14cd43b0-26f5-4bd6-b8bf-c53cc5216641",
+      "name": "MarbleFest - July'26-Day3",
+      "status": "UPCOMING",
+      "start_at": "2026-07-29T14:00:00.000Z",
+      "end_at": "2026-07-30T12:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Marbles on Stream",
+      "game_slug": "marbles-on-stream",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/509511_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 900,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Morbie Celebration",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4599c5b9-5c96-4263-ba8e-5db371838e5a.png",
+          "minutes": 0
+        },
+        {
+          "name": "15 Community Coins",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3924503a-4e48-4899-af4a-13f13f70e9b4.png",
+          "minutes": 120
+        },
+        {
+          "name": "30 Tournament Coins",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7c3916f7-38a1-4d1b-9477-4113c13afb79.png",
+          "minutes": 900
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "40d29e7f-5930-41cb-9b90-1fd0356daf38",
+      "name": "Hunt 1896 (Week 2, Pt. 1)",
+      "status": "UPCOMING",
+      "start_at": "2026-07-29T15:00:00.000Z",
+      "end_at": "2026-07-31T14:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Hunt: Showdown 1896",
+      "game_slug": "hunt-showdown",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/500188_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Supply Crate",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/392add17-d82a-4e71-968c-a202f4bc2b14.jpeg",
+          "minutes": 30
+        },
+        {
+          "name": "Random Charm",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a005ad3d-8896-4f90-b4e3-f431dc04c253.jpeg",
+          "minutes": 240
+        }
+      ],
+      "src": "fenris"
+    },
+    {
       "id": "06767798-da18-4278-9317-dd075060843b",
       "name": "Into The Rainbow 2026",
       "status": "UPCOMING",
@@ -167,39 +279,6 @@
         }
       ],
       "src": "fenris"
-    },
-    {
-      "id": "284538a6-9d7e-4614-984b-a5abe5d4b8f7",
-      "name": "SAR Scout Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-06-30T17:00:00Z",
-      "end_at": "2026-07-28T16:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/93bb7337-4e5f-41ae-a139-dce38e9ab4da.png",
-      "details_url": "https://animalroyale.com/",
-      "game": "Super Animal Royale",
-      "game_slug": "super-animal-royale",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/509529_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Scout Dress",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/519fd3eb-cba2-4e2b-9b51-1e8577ef4900.png",
-          "minutes": 120
-        },
-        {
-          "name": "Scout Cap",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/81346e35-7246-4dea-af78-4c269755f994.png",
-          "minutes": 180
-        },
-        {
-          "name": "Scout Outfit",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1ec8c7c4-c9de-4f39-8ad6-1611f452ee33.png",
-          "minutes": 60
-        }
-      ],
-      "src": "sunkwi"
     },
     {
       "id": "be0bbe2d-4500-4324-856e-d0aaa66db9b3",
@@ -2552,18 +2631,32 @@
         }
       ],
       "src": "sunkwi"
+    },
+    {
+      "id": "a5dd76e2-c17b-49a7-b53c-18616aa6ba72",
+      "name": "DbD Into the Rainbow 2026",
+      "status": "ACTIVE",
+      "start_at": "2026-07-28T17:00:00Z",
+      "end_at": "2026-08-10T13:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/201e2107-d5ae-4725-b448-c1a18facd63e.png",
+      "details_url": "https://help.twitch.tv/s/article/twitch-chat-badges-guide",
+      "game": "Dead by Daylight",
+      "game_slug": "dead-by-daylight",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/491487-120x160.jpg",
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "DbD Pride Icon",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/feb31f08-8e03-48a1-9c9b-99ac53c4632c.png",
+          "minutes": 0
+        }
+      ],
+      "src": "sunkwi"
     }
   ],
   "badges": [
-    {
-      "title": "Into the Rainbow 2026",
-      "start_at": "2026-07-28T17:00:00Z",
-      "end_at": "2026-08-10T13:59:00Z",
-      "note": null,
-      "images": [
-        "https://static-cdn.jtvnw.net/badges/v1/61aac75c-fb98-4f75-9fa8-4d843c5c545a/3"
-      ]
-    },
     {
       "title": "Final Fantasy XIV Fan Festival 2026 JP",
       "start_at": "2026-10-30T00:00:00Z",
