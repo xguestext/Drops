@@ -1,79 +1,18 @@
 {
-  "updated_at": "2026-07-28T13:52:29Z",
+  "updated_at": "2026-07-28T16:02:44Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-28T13:52:01.560Z",
+  "source_updated": "2026-07-28T16:02:01.529Z",
   "counts": {
-    "total": 72,
-    "upcoming": 7,
+    "total": 70,
+    "upcoming": 5,
     "active": 65,
-    "game_drops": 71,
+    "game_drops": 69,
     "platform": 1,
     "badges": 3,
-    "fechadas_descartadas": 35
+    "fechadas_descartadas": 37
   },
   "campaigns": [
-    {
-      "id": "99d893ea-1531-48b0-b2fa-13ac01458713",
-      "name": "MarbleFest - July'26-Day2",
-      "status": "UPCOMING",
-      "start_at": "2026-07-28T14:00:00.000Z",
-      "end_at": "2026-07-29T13:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Marbles on Stream",
-      "game_slug": "marbles-on-stream",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/509511_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 900,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "PbP Deep Vibe",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/74bbfca0-63d3-41be-986e-b96bdbf0f5df.png",
-          "minutes": 0
-        },
-        {
-          "name": "15 Community Coins",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3924503a-4e48-4899-af4a-13f13f70e9b4.png",
-          "minutes": 120
-        },
-        {
-          "name": "30 Tournament Coins",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7c3916f7-38a1-4d1b-9477-4113c13afb79.png",
-          "minutes": 900
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "8b4f76b7-d081-4160-91f1-96692912a94c",
-      "name": "July 4",
-      "status": "UPCOMING",
-      "start_at": "2026-07-28T15:00:00.000Z",
-      "end_at": "2026-08-04T14:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Ravendawn",
-      "game_slug": "ravendawn",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/262400435-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 900,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Ravenpacks",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b2527c6b-85c9-4817-be86-4edc264d16ee.png",
-          "minutes": 60
-        },
-        {
-          "name": "Ghostly Infusion",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cab792f8-82db-4a59-8c4d-35f08d775a9a.png",
-          "minutes": 900
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "a5dd76e2-c17b-49a7-b53c-18616aa6ba72",
       "name": "DbD Into the Rainbow 2026",
@@ -1491,34 +1430,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "16ca1ede-fc0d-4bd0-a622-d34895a945f8",
-      "name": "July 3",
-      "status": "ACTIVE",
-      "start_at": "2026-07-21T15:00:00Z",
-      "end_at": "2026-07-28T14:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/36ddda4a-257d-4822-801b-b42b845caa1d.png",
-      "details_url": "https://ravendawn.online/myaccount/twitch",
-      "game": "Ravendawn",
-      "game_slug": "ravendawn",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/262400435-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 900,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Ravenpacks",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c1a6dc91-810d-4d68-ad0e-9a959ad99673.png",
-          "minutes": 60
-        },
-        {
-          "name": "Ghostly Infusion",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8a494732-93ac-4436-9f83-2f61050adfb7.png",
-          "minutes": 900
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "396e2b60-3175-4f4c-a2ff-3a890005e976",
       "name": "HEAT Season 1 - Week 4",
       "status": "ACTIVE",
@@ -2307,39 +2218,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "313c99f3-6ae8-4684-978b-bcc8c8ef50bf",
-      "name": "MarbleFest - July'26-Day1",
-      "status": "ACTIVE",
-      "start_at": "2026-07-27T13:00:00Z",
-      "end_at": "2026-07-28T13:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/c52b8e3d-5835-40a6-8e3f-0856dff0e932.png",
-      "details_url": "https://pixelbypixel.studio/twitch-drops/",
-      "game": "Marbles on Stream",
-      "game_slug": "marbles-on-stream",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/509511_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 900,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Morbie Celebration",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4599c5b9-5c96-4263-ba8e-5db371838e5a.png",
-          "minutes": 0
-        },
-        {
-          "name": "15 Community Coins",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3924503a-4e48-4899-af4a-13f13f70e9b4.png",
-          "minutes": 120
-        },
-        {
-          "name": "30 Tournament Coins",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7c3916f7-38a1-4d1b-9477-4113c13afb79.png",
-          "minutes": 900
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "ae6ca2e2-1099-49a6-91c6-9b972826419c",
       "name": "Обновление 26.7: Часть 3",
       "status": "ACTIVE",
@@ -2610,6 +2488,67 @@
           "name": "10 Enhanced Med Kits",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/16e8e3bc-c27f-4b69-9740-c5bbd95dbce2.png",
           "minutes": 120
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "99d893ea-1531-48b0-b2fa-13ac01458713",
+      "name": "MarbleFest - July'26-Day2",
+      "status": "ACTIVE",
+      "start_at": "2026-07-28T14:00:00Z",
+      "end_at": "2026-07-29T13:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f7169da1-a4d7-4a09-98df-0841ef92d945.png",
+      "details_url": "https://pixelbypixel.studio/twitch-drops/",
+      "game": "Marbles on Stream",
+      "game_slug": "marbles-on-stream",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/509511_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 900,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "15 Community Coins",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3924503a-4e48-4899-af4a-13f13f70e9b4.png",
+          "minutes": 120
+        },
+        {
+          "name": "30 Tournament Coins",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7c3916f7-38a1-4d1b-9477-4113c13afb79.png",
+          "minutes": 900
+        },
+        {
+          "name": "PbP Deep Vibe",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/74bbfca0-63d3-41be-986e-b96bdbf0f5df.png",
+          "minutes": 0
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "8b4f76b7-d081-4160-91f1-96692912a94c",
+      "name": "July 4",
+      "status": "ACTIVE",
+      "start_at": "2026-07-28T15:00:00Z",
+      "end_at": "2026-08-04T14:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/dac7f9fb-cfcb-4484-88a9-740706c5c0b3.png",
+      "details_url": "https://ravendawn.online/myaccount/twitch",
+      "game": "Ravendawn",
+      "game_slug": "ravendawn",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/262400435-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 900,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Ravenpacks",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b2527c6b-85c9-4817-be86-4edc264d16ee.png",
+          "minutes": 60
+        },
+        {
+          "name": "Ghostly Infusion",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cab792f8-82db-4a59-8c4d-35f08d775a9a.png",
+          "minutes": 900
         }
       ],
       "src": "sunkwi"
