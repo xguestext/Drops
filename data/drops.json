@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-07-28T23:05:06Z",
+  "updated_at": "2026-07-29T00:55:29Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-28T23:05:02.553Z",
+  "source_updated": "2026-07-29T00:55:01.535Z",
   "counts": {
-    "total": 73,
-    "upcoming": 6,
-    "active": 67,
-    "game_drops": 72,
-    "platform": 1,
+    "total": 77,
+    "upcoming": 11,
+    "active": 66,
+    "game_drops": 75,
+    "platform": 2,
     "badges": 3,
-    "fechadas_descartadas": 31
+    "fechadas_descartadas": 32
   },
   "campaigns": [
     {
@@ -85,6 +85,29 @@
           "name": "50,000 Tickets",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/62fe286f-a3ea-46f3-a83b-b4d950e7c211.png",
           "minutes": 300
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "2942d78f-12d2-49ca-918d-4b9ab8e28842",
+      "name": "Egg",
+      "status": "UPCOMING",
+      "start_at": "2026-07-29T07:00:00.000Z",
+      "end_at": "2026-08-26T06:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "ROBLOX",
+      "game_slug": "roblox",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/23020_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Egg",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7077ca58-fe67-4a0d-aad9-24c8388d9ddc.png",
+          "minutes": 0
         }
       ],
       "src": "fenris"
@@ -197,52 +220,111 @@
       "src": "fenris"
     },
     {
-      "id": "be0bbe2d-4500-4324-856e-d0aaa66db9b3",
-      "name": "Summer Outfit Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-07-01T00:00:00Z",
-      "end_at": "2026-07-28T23:29:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/5a1bb9de-4a5f-4518-b487-54999163690b.png",
-      "details_url": "https://www.team17.com/goblin-cleanup-twitch-drops",
-      "game": "Goblin Cleanup",
-      "game_slug": "goblin-cleanup",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/628949545_IGDB-120x160.jpg",
+      "id": "921dfc40-2399-4648-8cad-23b570f719a2",
+      "name": "HEAT Season 1 - Week 5",
+      "status": "UPCOMING",
+      "start_at": "2026-07-29T16:00:00.000Z",
+      "end_at": "2026-08-05T15:58:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "World of Tanks: HEAT",
+      "game_slug": "world-of-tanks-heat",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/767133634_IGDB-285x380.jpg",
       "availability": "open",
-      "required_minutes": 360,
+      "required_minutes": 120,
       "reward_type": "game",
       "rewards": [
         {
-          "name": "Tail Mermaid",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f805ae3-8ee0-422e-99cf-8a89030d843d.png",
-          "minutes": 180
+          "name": "5000 Credits",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/efa90470-9e3c-4d31-ba73-ab1bdefc574e.png",
+          "minutes": 30
         },
         {
-          "name": "Managon Beachball",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2cd811a2-f9a0-45d9-9fd9-90d5aa11d248.png",
-          "minutes": 360
+          "name": "150 Tech",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ce586a04-db83-407b-bf34-b3a51c2701b1.png",
+          "minutes": 120
         },
         {
-          "name": "Mop Parasol",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ebd333b1-6c2e-45ad-8640-0d5b13ab14cd.png",
-          "minutes": 360
-        },
-        {
-          "name": "Summer Bikini Body",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e67ba8f3-788e-4cd3-8473-dd0110ef9e8a.png",
-          "minutes": 60
-        },
-        {
-          "name": "Summer Bikini Legs",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fb0dcfbe-8b99-457c-ab35-8b47a940ed67.png",
-          "minutes": 60
-        },
-        {
-          "name": "Beach Capeline",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/45fa3931-3b01-4ee0-b899-9c449a94b84e.png",
-          "minutes": 180
+          "name": "M1E1 Broadcast Camo",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4f30a9c1-de8c-4cfd-b6f0-b34b43777cd2.png",
+          "minutes": 120
         }
       ],
-      "src": "sunkwi"
+      "src": "fenris"
+    },
+    {
+      "id": "bb0ee3a1-14eb-44d6-9aff-4aaa24a37009",
+      "name": "Mobile Drop 111",
+      "status": "UPCOMING",
+      "start_at": "2026-07-29T17:59:00.000Z",
+      "end_at": "2026-07-30T17:56:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Rise Online",
+      "game_slug": "rise-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Regalia of Awakening",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
+          "minutes": 240
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "d96231c2-771a-4eee-b0ac-c26ee9640a54",
+      "name": "GOALS - 30th of July",
+      "status": "UPCOMING",
+      "start_at": "2026-07-29T22:01:00.000Z",
+      "end_at": "2026-07-30T21:58:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "GOALS",
+      "game_slug": "goals",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/951160620_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 300,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Common+ Pack [1 Player]",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82a4b7fe-7458-4b59-b909-ebc30fc91521.png",
+          "minutes": 60
+        },
+        {
+          "name": "Uncommon+ Pack [1 Player]",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png",
+          "minutes": 300
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "8a9dd118-ea88-410a-ba60-84cb1332aad2",
+      "name": "Roblox Egg Hunt",
+      "status": "UPCOMING",
+      "start_at": "2026-07-29T07:30:00.000Z",
+      "end_at": "2026-08-26T07:29:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "ROBLOX",
+      "game_slug": "roblox",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/23020_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 30,
+      "reward_type": "platform",
+      "rewards": [
+        {
+          "name": "RBLXpip Emote",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3c814d63-116d-45e2-a44f-9ec33b49ad99.png",
+          "minutes": 30
+        }
+      ],
+      "src": "fenris"
     },
     {
       "id": "7b53497a-83e3-440e-928a-220b232e1f4e",
@@ -2302,29 +2384,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "4decc0a4-3d87-482b-929f-72f422732e19",
-      "name": "July Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-07-28T00:00:00Z",
-      "end_at": "2026-07-28T23:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a570d7e9-6c68-4c9d-aee6-371913cf44fe.png",
-      "details_url": "https://www.quinfall.com/twitch-drops",
-      "game": "The Quinfall",
-      "game_slug": "the-quinfall",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Twitch Reward Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
-          "minutes": 180
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "66b70d83-493d-48bf-b264-bad6bf0061fc",
       "name": "BSH 3",
       "status": "ACTIVE",
@@ -2655,6 +2714,29 @@
           "name": "Uncommon+ Pack [1 Player]",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png",
           "minutes": 300
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "90caeb83-a85f-4fd1-a76f-666a0497318d",
+      "name": "July Drops",
+      "status": "ACTIVE",
+      "start_at": "2026-07-29T00:00:00Z",
+      "end_at": "2026-07-29T23:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/af641fa0-6783-43a3-b1dd-efcdf775b3c7.png",
+      "details_url": "https://www.quinfall.com/twitch-drops",
+      "game": "The Quinfall",
+      "game_slug": "the-quinfall",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Twitch Reward Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
+          "minutes": 180
         }
       ],
       "src": "sunkwi"
