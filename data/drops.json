@@ -1,79 +1,18 @@
 {
-  "updated_at": "2026-07-29T14:42:25Z",
+  "updated_at": "2026-07-29T16:17:14Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-29T14:42:01.342Z",
+  "source_updated": "2026-07-29T16:17:01.531Z",
   "counts": {
-    "total": 74,
-    "upcoming": 6,
+    "total": 75,
+    "upcoming": 7,
     "active": 68,
-    "game_drops": 72,
+    "game_drops": 73,
     "platform": 2,
     "badges": 2,
     "fechadas_descartadas": 37
   },
   "campaigns": [
-    {
-      "id": "40d29e7f-5930-41cb-9b90-1fd0356daf38",
-      "name": "Hunt 1896 (Week 2, Pt. 1)",
-      "status": "UPCOMING",
-      "start_at": "2026-07-29T15:00:00.000Z",
-      "end_at": "2026-07-31T14:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Hunt: Showdown 1896",
-      "game_slug": "hunt-showdown",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/500188_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Supply Crate",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/392add17-d82a-4e71-968c-a202f4bc2b14.jpeg",
-          "minutes": 30
-        },
-        {
-          "name": "Random Charm",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a005ad3d-8896-4f90-b4e3-f431dc04c253.jpeg",
-          "minutes": 240
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "921dfc40-2399-4648-8cad-23b570f719a2",
-      "name": "HEAT Season 1 - Week 5",
-      "status": "UPCOMING",
-      "start_at": "2026-07-29T16:00:00.000Z",
-      "end_at": "2026-08-05T15:58:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "World of Tanks: HEAT",
-      "game_slug": "world-of-tanks-heat",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/767133634_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "5000 Credits",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/efa90470-9e3c-4d31-ba73-ab1bdefc574e.png",
-          "minutes": 30
-        },
-        {
-          "name": "150 Tech",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ce586a04-db83-407b-bf34-b3a51c2701b1.png",
-          "minutes": 120
-        },
-        {
-          "name": "M1E1 Broadcast Camo",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4f30a9c1-de8c-4cfd-b6f0-b34b43777cd2.png",
-          "minutes": 120
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "bb0ee3a1-14eb-44d6-9aff-4aaa24a37009",
       "name": "Mobile Drop 111",
@@ -182,6 +121,85 @@
       "src": "fenris"
     },
     {
+      "id": "79faa99f-ffd0-46e3-8951-f1eab73819dd",
+      "name": "Radiant Wilds 16 - #4/7",
+      "status": "UPCOMING",
+      "start_at": "2026-07-30T10:00:00.000Z",
+      "end_at": "2026-07-31T09:29:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Albion Online",
+      "game_slug": "albion-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Radiant Wilds Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
+          "minutes": 180
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "baf6b36f-bdf0-4979-8dfb-ae7b3e7af8b0",
+      "name": "2026 BDO Drops (Jul 30)",
+      "status": "UPCOMING",
+      "start_at": "2026-07-30T12:00:00.000Z",
+      "end_at": "2026-07-31T11:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Black Desert",
+      "game_slug": "black-desert",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "2 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f2cb7c7c-7ecd-423e-af93-0d2fc21fcd96.png",
+          "minutes": 120
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "833ef3e9-7300-478b-8dd6-95382ac76837",
+      "name": "MarbleFest - July'26-Day4",
+      "status": "UPCOMING",
+      "start_at": "2026-07-30T13:00:00.000Z",
+      "end_at": "2026-07-31T12:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Marbles on Stream",
+      "game_slug": "marbles-on-stream",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/509511_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 900,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "PbP Deep Vibe",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/74bbfca0-63d3-41be-986e-b96bdbf0f5df.png",
+          "minutes": 0
+        },
+        {
+          "name": "15 Community Coins",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3924503a-4e48-4899-af4a-13f13f70e9b4.png",
+          "minutes": 120
+        },
+        {
+          "name": "30 Tournament Coins",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7c3916f7-38a1-4d1b-9477-4113c13afb79.png",
+          "minutes": 900
+        }
+      ],
+      "src": "fenris"
+    },
+    {
       "id": "7b53497a-83e3-440e-928a-220b232e1f4e",
       "name": "Rust Charity '26 Box",
       "status": "ACTIVE",
@@ -223,44 +241,6 @@
           "name": "Twitch mask",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/147670e5-bd68-4efe-abd1-e8af3d1b0806.png",
           "minutes": 60
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "5abf7bca-ddbc-4466-88e7-a8f047fc90ca",
-      "name": "2nd Anniversary Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-07-03T05:00:00Z",
-      "end_at": "2026-07-29T14:58:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/b9be013b-b50e-43ed-b810-b5b204f8bab8.png",
-      "details_url": "https://tfd.nexon.com/drops/twitch",
-      "game": "The First Descendant",
-      "game_slug": "the-first-descendant",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2104758320_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 150,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Grand Reward Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c13f3174-2541-4f52-8896-d07bb1dcb498.png",
-          "minutes": 150
-        },
-        {
-          "name": "Twitch Color Paints",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d7997dbe-9e27-4183-84e9-e3a610aa24a2.png",
-          "minutes": 30
-        },
-        {
-          "name": "Triple EXP Boost Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0869632f-6a7c-40c7-ad24-9ce83ad03984.png",
-          "minutes": 60
-        },
-        {
-          "name": "Kuiper Shard & Gold Boost",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2fae5738-d730-4f95-a107-df5d39bc85eb.png",
-          "minutes": 120
         }
       ],
       "src": "sunkwi"
@@ -1258,34 +1238,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "396e2b60-3175-4f4c-a2ff-3a890005e976",
-      "name": "HEAT Season 1 - Week 4",
-      "status": "ACTIVE",
-      "start_at": "2026-07-22T16:00:00Z",
-      "end_at": "2026-07-29T15:58:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a9141052-c276-4eb7-88dd-50f03bc3e3cf.png",
-      "details_url": "https://cdn.wotheat.com/articles/twitch-drops-season-1-promo/index.html",
-      "game": "World of Tanks: HEAT",
-      "game_slug": "world-of-tanks-heat",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/767133634_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "5000 Credits",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/efa90470-9e3c-4d31-ba73-ab1bdefc574e.png",
-          "minutes": 30
-        },
-        {
-          "name": "2 x XP Boosters ",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2d2ef39f-22b4-473a-977b-26d5c4e50d4f.png",
-          "minutes": 120
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "615fc480-e578-4f78-a5ba-0ddef9292bdd",
       "name": "Where Winds Meet August",
       "status": "ACTIVE",
@@ -1914,39 +1866,6 @@
           "name": "Wings Cosmetic",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e0fcf8b5-21ac-42ff-ba84-dd999d5e1fc7.png",
           "minutes": 180
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "d9c9f689-af39-4fe6-a09f-f60cd6f3f24b",
-      "name": "Hunt 1896 (Week 1, Pt. 3)",
-      "status": "ACTIVE",
-      "start_at": "2026-07-26T15:00:00Z",
-      "end_at": "2026-07-29T14:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/586d9ec0-b1ce-40d4-bc3a-c4e1c7da16ed.jpeg",
-      "details_url": "https://www.huntshowdown.com/twitchdrops",
-      "game": "Hunt: Showdown 1896",
-      "game_slug": "hunt-showdown",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/500188_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Supply Crate",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/816bf951-f833-4e45-b01e-0ec860d2d904.jpeg",
-          "minutes": 30
-        },
-        {
-          "name": "Random Avatar",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3e51e861-4c00-42d7-83c5-58e67d7ced87.jpeg",
-          "minutes": 120
-        },
-        {
-          "name": "Golden Hair T.: Precision",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/993b83cb-b4b6-4ad3-b9bd-e45c8a060a9e.jpeg",
-          "minutes": 240
         }
       ],
       "src": "sunkwi"
@@ -2584,6 +2503,95 @@
         {
           "name": "Rust Charity '26 Turret",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/214a6978-61bd-4e92-8927-0d0b686c1edb.jpeg",
+          "minutes": 120
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "40d29e7f-5930-41cb-9b90-1fd0356daf38",
+      "name": "Hunt 1896 (Week 2, Pt. 1)",
+      "status": "ACTIVE",
+      "start_at": "2026-07-29T15:00:00Z",
+      "end_at": "2026-07-31T14:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e5015b30-ae9f-43b2-9fbf-7b8986a8f43c.jpeg",
+      "details_url": "https://www.huntshowdown.com/twitchdrops",
+      "game": "Hunt: Showdown 1896",
+      "game_slug": "hunt-showdown",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/500188_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Supply Crate",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/392add17-d82a-4e71-968c-a202f4bc2b14.jpeg",
+          "minutes": 30
+        },
+        {
+          "name": "Random Charm",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a005ad3d-8896-4f90-b4e3-f431dc04c253.jpeg",
+          "minutes": 240
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "49e3ccd9-52b8-4f5b-b2e4-a9c1f73f34f2",
+      "name": "Foundation Festival 2026",
+      "status": "ACTIVE",
+      "start_at": "2026-07-29T15:30:00Z",
+      "end_at": "2026-08-12T19:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/bbcf6b72-5427-4625-8eae-f8344117b458.jpeg",
+      "details_url": "https://robertsspaceindustries.com/comm-link/transmission/21237-Twitch-Drops-Foundation-Festival-2026",
+      "game": "Star Citizen",
+      "game_slug": "star-citizen",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/71375_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "ATLS Foundation Livery",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/aac3e86e-481f-494e-8e0e-ace83f153c74.jpeg",
+          "minutes": 240
+        },
+        {
+          "name": "Banu Lockbox Replica",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f77e7a7f-0c63-46ee-a95a-4cd07367b320.jpeg",
+          "minutes": 0
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "921dfc40-2399-4648-8cad-23b570f719a2",
+      "name": "HEAT Season 1 - Week 5",
+      "status": "ACTIVE",
+      "start_at": "2026-07-29T16:00:00Z",
+      "end_at": "2026-08-05T15:58:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/fefe7613-10bb-4ae8-b907-009ba00f2d05.png",
+      "details_url": "https://cdn.wotheat.com/articles/twitch-drops-season-1-promo/index.html",
+      "game": "World of Tanks: HEAT",
+      "game_slug": "world-of-tanks-heat",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/767133634_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "5000 Credits",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/efa90470-9e3c-4d31-ba73-ab1bdefc574e.png",
+          "minutes": 30
+        },
+        {
+          "name": "150 Tech",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ce586a04-db83-407b-bf34-b3a51c2701b1.png",
+          "minutes": 120
+        },
+        {
+          "name": "M1E1 Broadcast Camo",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4f30a9c1-de8c-4cfd-b6f0-b34b43777cd2.png",
           "minutes": 120
         }
       ],
