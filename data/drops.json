@@ -1,61 +1,18 @@
 {
-  "updated_at": "2026-07-29T00:55:29Z",
+  "updated_at": "2026-07-29T04:08:54Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-29T00:55:01.535Z",
+  "source_updated": "2026-07-29T04:08:01.495Z",
   "counts": {
     "total": 77,
-    "upcoming": 11,
-    "active": 66,
+    "upcoming": 10,
+    "active": 67,
     "game_drops": 75,
     "platform": 2,
     "badges": 3,
     "fechadas_descartadas": 32
   },
   "campaigns": [
-    {
-      "id": "52fd876e-179e-4fc7-9935-1798761bba6a",
-      "name": "V3.1 Zenless Zone Zero",
-      "status": "UPCOMING",
-      "start_at": "2026-07-29T02:00:00.000Z",
-      "end_at": "2026-08-19T15:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Zenless Zone Zero",
-      "game_slug": "zenless-zone-zero",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/456845141_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Denny*12000",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/da8e3c07-4c4f-4a84-b167-1afa8cfd9b85.png",
-          "minutes": 15
-        },
-        {
-          "name": "Senior Investigator Log*2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/78515db3-cbff-436b-a774-d17f4f7144a8.png",
-          "minutes": 30
-        },
-        {
-          "name": "W-Engine Energy Module*3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d4819064-7c86-46ba-9541-4ff5e4d40b7d.png",
-          "minutes": 45
-        },
-        {
-          "name": "Bangboo System Widget*2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/be50fb2c-5d21-4c02-85ac-900687d0d19f.png",
-          "minutes": 60
-        },
-        {
-          "name": "Polychrom*50",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/926d9728-1e17-4afb-8903-12e5d2b95760.png",
-          "minutes": 120
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "b3a66f1d-f2bf-4016-b176-d2ae206eb489",
       "name": "BSH 4",
@@ -2737,6 +2694,49 @@
           "name": "Twitch Reward Chest",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
           "minutes": 180
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "52fd876e-179e-4fc7-9935-1798761bba6a",
+      "name": "V3.1 Zenless Zone Zero",
+      "status": "ACTIVE",
+      "start_at": "2026-07-29T02:00:00Z",
+      "end_at": "2026-08-19T15:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/default.png",
+      "details_url": "https://act.hoyoverse.com/puzzle/zzz/pz_5E9qxR7Ypm/index.html?game_biz=nap_global",
+      "game": "Zenless Zone Zero",
+      "game_slug": "zenless-zone-zero",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/456845141_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Denny*12000",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/da8e3c07-4c4f-4a84-b167-1afa8cfd9b85.png",
+          "minutes": 15
+        },
+        {
+          "name": "Senior Investigator Log*2",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/78515db3-cbff-436b-a774-d17f4f7144a8.png",
+          "minutes": 30
+        },
+        {
+          "name": "W-Engine Energy Module*3",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d4819064-7c86-46ba-9541-4ff5e4d40b7d.png",
+          "minutes": 45
+        },
+        {
+          "name": "Bangboo System Widget*2",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/be50fb2c-5d21-4c02-85ac-900687d0d19f.png",
+          "minutes": 60
+        },
+        {
+          "name": "Polychrom*50",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/926d9728-1e17-4afb-8903-12e5d2b95760.png",
+          "minutes": 120
         }
       ],
       "src": "sunkwi"
