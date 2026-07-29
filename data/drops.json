@@ -1,51 +1,18 @@
 {
-  "updated_at": "2026-07-29T12:27:33Z",
+  "updated_at": "2026-07-29T14:42:25Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-29T12:27:01.303Z",
+  "source_updated": "2026-07-29T14:42:01.342Z",
   "counts": {
-    "total": 75,
-    "upcoming": 7,
+    "total": 74,
+    "upcoming": 6,
     "active": 68,
-    "game_drops": 73,
+    "game_drops": 72,
     "platform": 2,
     "badges": 2,
-    "fechadas_descartadas": 35
+    "fechadas_descartadas": 37
   },
   "campaigns": [
-    {
-      "id": "14cd43b0-26f5-4bd6-b8bf-c53cc5216641",
-      "name": "MarbleFest - July'26-Day3",
-      "status": "UPCOMING",
-      "start_at": "2026-07-29T14:00:00.000Z",
-      "end_at": "2026-07-30T12:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Marbles on Stream",
-      "game_slug": "marbles-on-stream",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/509511_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 900,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Morbie Celebration",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4599c5b9-5c96-4263-ba8e-5db371838e5a.png",
-          "minutes": 0
-        },
-        {
-          "name": "15 Community Coins",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3924503a-4e48-4899-af4a-13f13f70e9b4.png",
-          "minutes": 120
-        },
-        {
-          "name": "30 Tournament Coins",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7c3916f7-38a1-4d1b-9477-4113c13afb79.png",
-          "minutes": 900
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "40d29e7f-5930-41cb-9b90-1fd0356daf38",
       "name": "Hunt 1896 (Week 2, Pt. 1)",
@@ -457,34 +424,6 @@
           "name": "Exclusive Skin (S6)",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/88aac49c-19af-4df4-a872-4c20febf10af.png",
           "minutes": 360
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "78960b7e-e3fe-4577-a5cb-504530529c31",
-      "name": "Season One",
-      "status": "ACTIVE",
-      "start_at": "2026-07-09T12:54:30Z",
-      "end_at": "2026-07-29T13:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e149ca6b-bd68-4829-a17a-93c0478262d9.jpeg",
-      "details_url": "https://www.elderscrollsonline.com/en-us/news/post/59435",
-      "game": "The Elder Scrolls Online",
-      "game_slug": "the-elder-scrolls-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/65654_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 300,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "100x Trade Bars",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/41ebc7f3-bb30-48db-8e61-913f86f18220.jpeg",
-          "minutes": 60
-        },
-        {
-          "name": "300x Trade Bars",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d1673cae-8e6f-4f70-84ff-7e4932418d88.jpeg",
-          "minutes": 300
         }
       ],
       "src": "sunkwi"
@@ -2214,39 +2153,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "99d893ea-1531-48b0-b2fa-13ac01458713",
-      "name": "MarbleFest - July'26-Day2",
-      "status": "ACTIVE",
-      "start_at": "2026-07-28T14:00:00Z",
-      "end_at": "2026-07-29T13:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f7169da1-a4d7-4a09-98df-0841ef92d945.png",
-      "details_url": "https://pixelbypixel.studio/twitch-drops/",
-      "game": "Marbles on Stream",
-      "game_slug": "marbles-on-stream",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/509511_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 900,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "15 Community Coins",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3924503a-4e48-4899-af4a-13f13f70e9b4.png",
-          "minutes": 120
-        },
-        {
-          "name": "30 Tournament Coins",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7c3916f7-38a1-4d1b-9477-4113c13afb79.png",
-          "minutes": 900
-        },
-        {
-          "name": "PbP Deep Vibe",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/74bbfca0-63d3-41be-986e-b96bdbf0f5df.png",
-          "minutes": 0
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "8b4f76b7-d081-4160-91f1-96692912a94c",
       "name": "July 4",
       "status": "ACTIVE",
@@ -2622,6 +2528,62 @@
         {
           "name": "2 Hour Reward",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f2cb7c7c-7ecd-423e-af93-0d2fc21fcd96.png",
+          "minutes": 120
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "14cd43b0-26f5-4bd6-b8bf-c53cc5216641",
+      "name": "MarbleFest - July'26-Day3",
+      "status": "ACTIVE",
+      "start_at": "2026-07-29T14:00:00Z",
+      "end_at": "2026-07-30T12:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/5b950fca-190b-439a-83c9-f43d218db328.png",
+      "details_url": "https://pixelbypixel.studio/twitch-drops/",
+      "game": "Marbles on Stream",
+      "game_slug": "marbles-on-stream",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/509511_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 900,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "15 Community Coins",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3924503a-4e48-4899-af4a-13f13f70e9b4.png",
+          "minutes": 120
+        },
+        {
+          "name": "30 Tournament Coins",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7c3916f7-38a1-4d1b-9477-4113c13afb79.png",
+          "minutes": 900
+        },
+        {
+          "name": "Morbie Celebration",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4599c5b9-5c96-4263-ba8e-5db371838e5a.png",
+          "minutes": 0
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "0a24bd2b-839f-46e4-8c5e-3f0a3e77413f",
+      "name": "Rust Charity '26 Turret",
+      "status": "ACTIVE",
+      "start_at": "2026-07-29T14:00:00Z",
+      "end_at": "2026-08-26T13:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/51910958-6e71-4228-a154-5d5a5cd3340c.png",
+      "details_url": "https://twitch.facepunch.com/",
+      "game": "Rust",
+      "game_slug": "rust",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/263490_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Rust Charity '26 Turret",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/214a6978-61bd-4e92-8927-0d0b686c1edb.jpeg",
           "minutes": 120
         }
       ],
