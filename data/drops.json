@@ -1,41 +1,18 @@
 {
-  "updated_at": "2026-07-29T07:15:56Z",
+  "updated_at": "2026-07-29T10:05:28Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-29T07:15:02.537Z",
+  "source_updated": "2026-07-29T10:05:01.504Z",
   "counts": {
-    "total": 76,
+    "total": 77,
     "upcoming": 8,
-    "active": 68,
-    "game_drops": 74,
+    "active": 69,
+    "game_drops": 75,
     "platform": 2,
     "badges": 2,
-    "fechadas_descartadas": 32
+    "fechadas_descartadas": 33
   },
   "campaigns": [
-    {
-      "id": "20c1f157-dfb8-452e-beaa-0b9599bfd0e9",
-      "name": "Radiant Wilds 16 - #3/7",
-      "status": "UPCOMING",
-      "start_at": "2026-07-29T10:00:00.000Z",
-      "end_at": "2026-07-30T09:29:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Albion Online",
-      "game_slug": "albion-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Radiant Wilds Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
-          "minutes": 180
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "78fae52d-4aab-474b-996b-ebb5023c868e",
       "name": "2026 BDO Drops (Jul 29)",
@@ -205,24 +182,57 @@
       "src": "fenris"
     },
     {
-      "id": "8a9dd118-ea88-410a-ba60-84cb1332aad2",
-      "name": "Roblox Egg Hunt",
+      "id": "b32e8d05-6ec9-49a5-a58a-1b4e4a55e0d4",
+      "name": "July Drops",
       "status": "UPCOMING",
-      "start_at": "2026-07-29T07:30:00.000Z",
-      "end_at": "2026-08-26T07:29:59.999Z",
+      "start_at": "2026-07-30T00:00:00.000Z",
+      "end_at": "2026-07-30T23:59:59.999Z",
       "image": null,
       "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "ROBLOX",
-      "game_slug": "roblox",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/23020_IGDB-285x380.jpg",
+      "game": "The Quinfall",
+      "game_slug": "the-quinfall",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-285x380.jpg",
       "availability": "open",
-      "required_minutes": 30,
-      "reward_type": "platform",
+      "required_minutes": 180,
+      "reward_type": "game",
       "rewards": [
         {
-          "name": "RBLXpip Emote",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3c814d63-116d-45e2-a44f-9ec33b49ad99.png",
-          "minutes": 30
+          "name": "Twitch Reward Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
+          "minutes": 180
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "304be1d1-a4cb-4131-8bd1-99ae50c6474d",
+      "name": "BSH 5",
+      "status": "UPCOMING",
+      "start_at": "2026-07-30T06:00:00.000Z",
+      "end_at": "2026-07-31T05:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Coin Pusher World",
+      "game_slug": "coin-pusher-world",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/530998549_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 300,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "10,000 Tickets",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4d0a5630-8167-4f34-bd2a-68e103627ccf.png",
+          "minutes": 60
+        },
+        {
+          "name": "cpw_tdrop30",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1361e19a-a7d8-43c6-bb3f-f5a8d0fc91e2.png",
+          "minutes": 180
+        },
+        {
+          "name": "50,000 Tickets",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/62fe286f-a3ea-46f3-a83b-b4d950e7c211.png",
+          "minutes": 300
         }
       ],
       "src": "fenris"
@@ -2285,29 +2295,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "05823889-a685-4933-aae5-d070a2ae7160",
-      "name": "Radiant Wilds 16 - #2/7",
-      "status": "ACTIVE",
-      "start_at": "2026-07-28T10:00:00Z",
-      "end_at": "2026-07-29T09:29:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/4c25ebb5-6d9a-43d2-a1f6-618e339d32c4.png",
-      "details_url": "https://forum.albiononline.com/index.php/Thread/214756-New-Twitch-Drops-Launching-Monday-July-28-2025/",
-      "game": "Albion Online",
-      "game_slug": "albion-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Radiant Wilds Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
-          "minutes": 180
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "a152412d-6db9-401f-b441-4d383301a0b7",
       "name": "Masters of Mayhem Week 1",
       "status": "ACTIVE",
@@ -2709,6 +2696,29 @@
       "src": "sunkwi"
     },
     {
+      "id": "20c1f157-dfb8-452e-beaa-0b9599bfd0e9",
+      "name": "Radiant Wilds 16 - #3/7",
+      "status": "ACTIVE",
+      "start_at": "2026-07-29T10:00:00Z",
+      "end_at": "2026-07-30T09:29:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/756fe077-b594-4cff-98aa-33a99fe7a536.png",
+      "details_url": "https://forum.albiononline.com/index.php/Thread/214756-New-Twitch-Drops-Launching-Monday-July-28-2025/",
+      "game": "Albion Online",
+      "game_slug": "albion-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Radiant Wilds Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
+          "minutes": 180
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
       "id": "06767798-da18-4278-9317-dd075060843b",
       "name": "Into The Rainbow 2026",
       "status": "ACTIVE",
@@ -2737,6 +2747,29 @@
           "name": "Proud Susie Banner",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/609db98a-8d78-4618-8e80-1d2ea2acd9c6.png",
           "minutes": 120
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "8a9dd118-ea88-410a-ba60-84cb1332aad2",
+      "name": "Roblox Egg Hunt",
+      "status": "ACTIVE",
+      "start_at": "2026-07-29T07:30:00Z",
+      "end_at": "2026-08-26T07:29:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/c0fba43f-a739-4fcb-a333-6307e9602e79.png",
+      "details_url": "https://help.twitch.tv/s/article/how-to-use-emotes",
+      "game": "ROBLOX",
+      "game_slug": "roblox",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/23020_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 30,
+      "reward_type": "platform",
+      "rewards": [
+        {
+          "name": "RBLXpip Emote",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3c814d63-116d-45e2-a44f-9ec33b49ad99.png",
+          "minutes": 30
         }
       ],
       "src": "sunkwi"
