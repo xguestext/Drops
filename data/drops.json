@@ -1,41 +1,18 @@
 {
-  "updated_at": "2026-07-29T10:05:28Z",
+  "updated_at": "2026-07-29T12:27:33Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-29T10:05:01.504Z",
+  "source_updated": "2026-07-29T12:27:01.303Z",
   "counts": {
-    "total": 77,
-    "upcoming": 8,
-    "active": 69,
-    "game_drops": 75,
+    "total": 75,
+    "upcoming": 7,
+    "active": 68,
+    "game_drops": 73,
     "platform": 2,
     "badges": 2,
-    "fechadas_descartadas": 33
+    "fechadas_descartadas": 35
   },
   "campaigns": [
-    {
-      "id": "78fae52d-4aab-474b-996b-ebb5023c868e",
-      "name": "2026 BDO Drops (Jul 29)",
-      "status": "UPCOMING",
-      "start_at": "2026-07-29T12:00:00.000Z",
-      "end_at": "2026-07-30T11:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Black Desert",
-      "game_slug": "black-desert",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "2 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f2cb7c7c-7ecd-423e-af93-0d2fc21fcd96.png",
-          "minutes": 120
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "14cd43b0-26f5-4bd6-b8bf-c53cc5216641",
       "name": "MarbleFest - July'26-Day3",
@@ -1342,59 +1319,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "0d1644dc-1880-48b4-b5fc-f4ce083ad0e1",
-      "name": "Season 4 Launch",
-      "status": "ACTIVE",
-      "start_at": "2026-07-21T12:00:00Z",
-      "end_at": "2026-07-29T11:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/78139ce9-2b6c-4979-9afa-237bfa142178.png",
-      "details_url": "https://www.ea.com/games/battlefield/battlefield-6/event/bf6-twitch-drops",
-      "game": "Battlefield 6",
-      "game_slug": "battlefield-6",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/168648543_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "15 min Hardware XP Boost",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/71857667-4389-4cc8-8692-184baee87996.png",
-          "minutes": 90
-        },
-        {
-          "name": "Razor Wire",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ca6d2ed2-c86b-4b03-b48f-69aff8fe0515.png",
-          "minutes": 120
-        },
-        {
-          "name": "30 min Hardware XP Boost",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f65b980-fde5-42b3-bf70-8fa0c90b03a6.png",
-          "minutes": 150
-        },
-        {
-          "name": "Starved Yeti",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0d2e308b-de83-42d6-8ac7-a9d173a32d4d.png",
-          "minutes": 180
-        },
-        {
-          "name": "60 min Hardware XP Boost",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d744c889-6f8a-469e-8631-ac0234abc13e.png",
-          "minutes": 210
-        },
-        {
-          "name": "Badlands Assault",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f7fc8fbd-9b71-498e-95f4-eee1aa1a325b.png",
-          "minutes": 240
-        },
-        {
-          "name": "Cranial Blast",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/22d296cb-b0b9-41d5-beec-04e1302b21d4.png",
-          "minutes": 60
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "396e2b60-3175-4f4c-a2ff-3a890005e976",
       "name": "HEAT Season 1 - Week 4",
       "status": "ACTIVE",
@@ -2013,44 +1937,6 @@
           "name": "Market Coins Bundle 7",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/043434c4-1e73-40ae-80ec-ac836737e748.jpeg",
           "minutes": 840
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "8a4ee70f-6f05-48a8-9800-9beca06aab7e",
-      "name": "Heidel Ball 2026 Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-07-26T00:30:00Z",
-      "end_at": "2026-07-29T11:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e440c3e2-6f0b-4175-ab3d-b8bd4746b4d7.png",
-      "details_url": "https://www.naeu.playblackdesert.com/News/Detail?groupContentNo=10323",
-      "game": "Black Desert",
-      "game_slug": "black-desert",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 600,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "1 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a65d5915-5a9b-451f-a00e-a2621dafc7ed.png",
-          "minutes": 60
-        },
-        {
-          "name": "3 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b880b499-e642-45e8-85c7-ed050265c928.png",
-          "minutes": 180
-        },
-        {
-          "name": "5 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1c05e4e9-90d8-47d3-a1af-108ac7806cf0.png",
-          "minutes": 300
-        },
-        {
-          "name": "10 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2028f89d-65d6-4ced-91b2-c0d6770fa23f.png",
-          "minutes": 600
         }
       ],
       "src": "sunkwi"
@@ -2714,6 +2600,29 @@
           "name": "Radiant Wilds Chest",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
           "minutes": 180
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "78fae52d-4aab-474b-996b-ebb5023c868e",
+      "name": "2026 BDO Drops (Jul 29)",
+      "status": "ACTIVE",
+      "start_at": "2026-07-29T12:00:00Z",
+      "end_at": "2026-07-30T11:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/dd3a2598-2495-4303-92ae-00477049f520.png",
+      "details_url": "https://www.naeu.playblackdesert.com/News/Detail?groupContentNo=5878",
+      "game": "Black Desert",
+      "game_slug": "black-desert",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "2 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f2cb7c7c-7ecd-423e-af93-0d2fc21fcd96.png",
+          "minutes": 120
         }
       ],
       "src": "sunkwi"
