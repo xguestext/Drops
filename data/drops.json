@@ -1,46 +1,18 @@
 {
-  "updated_at": "2026-07-29T21:27:31Z",
+  "updated_at": "2026-07-29T22:29:26Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-29T21:27:02.737Z",
+  "source_updated": "2026-07-29T22:12:02.661Z",
   "counts": {
-    "total": 74,
-    "upcoming": 6,
+    "total": 73,
+    "upcoming": 5,
     "active": 68,
-    "game_drops": 72,
+    "game_drops": 71,
     "platform": 2,
     "badges": 2,
-    "fechadas_descartadas": 40
+    "fechadas_descartadas": 39
   },
   "campaigns": [
-    {
-      "id": "d96231c2-771a-4eee-b0ac-c26ee9640a54",
-      "name": "GOALS - 30th of July",
-      "status": "UPCOMING",
-      "start_at": "2026-07-29T22:01:00.000Z",
-      "end_at": "2026-07-30T21:58:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "GOALS",
-      "game_slug": "goals",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/951160620_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 300,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Common+ Pack [1 Player]",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82a4b7fe-7458-4b59-b909-ebc30fc91521.png",
-          "minutes": 60
-        },
-        {
-          "name": "Uncommon+ Pack [1 Player]",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png",
-          "minutes": 300
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "b32e8d05-6ec9-49a5-a58a-1b4e4a55e0d4",
       "name": "July Drops",
@@ -2211,34 +2183,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "9726d927-8359-4c31-b33f-9ee9f2c2c6c2",
-      "name": "GOALS - 29th of July",
-      "status": "ACTIVE",
-      "start_at": "2026-07-28T22:01:00Z",
-      "end_at": "2026-07-29T21:58:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/edb6e6fa-e539-4162-906a-542ad8c3280e.png",
-      "details_url": "https://playgoals.com/twitch-drops",
-      "game": "GOALS",
-      "game_slug": "goals",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/951160620_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 300,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Common+ Pack [1 Player]",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82a4b7fe-7458-4b59-b909-ebc30fc91521.png",
-          "minutes": 60
-        },
-        {
-          "name": "Uncommon+ Pack [1 Player]",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png",
-          "minutes": 300
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "90caeb83-a85f-4fd1-a76f-666a0497318d",
       "name": "July Drops",
       "status": "ACTIVE",
@@ -2570,6 +2514,34 @@
           "name": "Regalia of Awakening",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
           "minutes": 240
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "d96231c2-771a-4eee-b0ac-c26ee9640a54",
+      "name": "GOALS - 30th of July",
+      "status": "ACTIVE",
+      "start_at": "2026-07-29T22:01:00Z",
+      "end_at": "2026-07-30T21:58:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/2d53388c-ceba-463d-95e2-1a902084e349.png",
+      "details_url": "https://playgoals.com/twitch-drops",
+      "game": "GOALS",
+      "game_slug": "goals",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/951160620_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 300,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Common+ Pack [1 Player]",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82a4b7fe-7458-4b59-b909-ebc30fc91521.png",
+          "minutes": 60
+        },
+        {
+          "name": "Uncommon+ Pack [1 Player]",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png",
+          "minutes": 300
         }
       ],
       "src": "sunkwi"
