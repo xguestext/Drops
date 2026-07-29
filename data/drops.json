@@ -1,74 +1,18 @@
 {
-  "updated_at": "2026-07-29T04:08:54Z",
+  "updated_at": "2026-07-29T07:15:56Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-29T04:08:01.495Z",
+  "source_updated": "2026-07-29T07:15:02.537Z",
   "counts": {
-    "total": 77,
-    "upcoming": 10,
-    "active": 67,
-    "game_drops": 75,
+    "total": 76,
+    "upcoming": 8,
+    "active": 68,
+    "game_drops": 74,
     "platform": 2,
-    "badges": 3,
+    "badges": 2,
     "fechadas_descartadas": 32
   },
   "campaigns": [
-    {
-      "id": "b3a66f1d-f2bf-4016-b176-d2ae206eb489",
-      "name": "BSH 4",
-      "status": "UPCOMING",
-      "start_at": "2026-07-29T06:00:00.000Z",
-      "end_at": "2026-07-30T05:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Coin Pusher World",
-      "game_slug": "coin-pusher-world",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/530998549_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 300,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "10,000 Tickets",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4d0a5630-8167-4f34-bd2a-68e103627ccf.png",
-          "minutes": 60
-        },
-        {
-          "name": "cpw_tdrop26",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a40e433d-3c49-46d5-9c4d-31b395d71e6f.png",
-          "minutes": 180
-        },
-        {
-          "name": "50,000 Tickets",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/62fe286f-a3ea-46f3-a83b-b4d950e7c211.png",
-          "minutes": 300
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "2942d78f-12d2-49ca-918d-4b9ab8e28842",
-      "name": "Egg",
-      "status": "UPCOMING",
-      "start_at": "2026-07-29T07:00:00.000Z",
-      "end_at": "2026-08-26T06:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "ROBLOX",
-      "game_slug": "roblox",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/23020_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": null,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Egg",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7077ca58-fe67-4a0d-aad9-24c8388d9ddc.png",
-          "minutes": 0
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "20c1f157-dfb8-452e-beaa-0b9599bfd0e9",
       "name": "Radiant Wilds 16 - #3/7",
@@ -2341,39 +2285,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "66b70d83-493d-48bf-b264-bad6bf0061fc",
-      "name": "BSH 3",
-      "status": "ACTIVE",
-      "start_at": "2026-07-28T06:00:00Z",
-      "end_at": "2026-07-29T05:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e59da0d4-2d62-4d5b-9884-c7ec179af96d.png",
-      "details_url": "https://coins.coinpusherworld.co.uk/drops/index.php",
-      "game": "Coin Pusher World",
-      "game_slug": "coin-pusher-world",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/530998549_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 300,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "10,000 Tickets",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4d0a5630-8167-4f34-bd2a-68e103627ccf.png",
-          "minutes": 60
-        },
-        {
-          "name": "cpw_tdrop28",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5eb02c38-73e4-42c2-907a-0cfbc248fad4.png",
-          "minutes": 180
-        },
-        {
-          "name": "50,000 Tickets",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/62fe286f-a3ea-46f3-a83b-b4d950e7c211.png",
-          "minutes": 300
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "05823889-a685-4933-aae5-d070a2ae7160",
       "name": "Radiant Wilds 16 - #2/7",
       "status": "ACTIVE",
@@ -2742,6 +2653,62 @@
       "src": "sunkwi"
     },
     {
+      "id": "b3a66f1d-f2bf-4016-b176-d2ae206eb489",
+      "name": "BSH 4",
+      "status": "ACTIVE",
+      "start_at": "2026-07-29T06:00:00Z",
+      "end_at": "2026-07-30T05:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/6d3785f8-686c-4a10-ba2d-36c4968c3b9b.png",
+      "details_url": "https://coins.coinpusherworld.co.uk/drops/index.php",
+      "game": "Coin Pusher World",
+      "game_slug": "coin-pusher-world",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/530998549_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 300,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "50,000 Tickets",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/62fe286f-a3ea-46f3-a83b-b4d950e7c211.png",
+          "minutes": 300
+        },
+        {
+          "name": "10,000 Tickets",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4d0a5630-8167-4f34-bd2a-68e103627ccf.png",
+          "minutes": 60
+        },
+        {
+          "name": "cpw_tdrop26",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a40e433d-3c49-46d5-9c4d-31b395d71e6f.png",
+          "minutes": 180
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "2942d78f-12d2-49ca-918d-4b9ab8e28842",
+      "name": "Egg",
+      "status": "ACTIVE",
+      "start_at": "2026-07-29T07:00:00Z",
+      "end_at": "2026-08-26T06:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/460ff54c-3700-4042-899d-44db1e163d1e.png",
+      "details_url": "https://help.twitch.tv/s/article/twitch-chat-badges-guide ",
+      "game": "ROBLOX",
+      "game_slug": "roblox",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/23020_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Egg",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7077ca58-fe67-4a0d-aad9-24c8388d9ddc.png",
+          "minutes": 0
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
       "id": "06767798-da18-4278-9317-dd075060843b",
       "name": "Into The Rainbow 2026",
       "status": "ACTIVE",
@@ -2776,15 +2743,6 @@
     }
   ],
   "badges": [
-    {
-      "title": "Egg Hunt 2026: The Grand Eggspress",
-      "start_at": "2026-07-29T07:00:00Z",
-      "end_at": "2026-08-26T06:59:00Z",
-      "note": null,
-      "images": [
-        "https://static-cdn.jtvnw.net/badges/v1/74c777c3-715f-4c40-b991-6a36239e6ef0/3"
-      ]
-    },
     {
       "title": "Final Fantasy XIV Fan Festival 2026 JP",
       "start_at": "2026-10-30T00:00:00Z",
