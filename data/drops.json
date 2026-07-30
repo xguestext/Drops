@@ -1,51 +1,18 @@
 {
-  "updated_at": "2026-07-30T04:54:38Z",
+  "updated_at": "2026-07-30T07:31:43Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-30T04:54:01.539Z",
+  "source_updated": "2026-07-30T07:31:02.648Z",
   "counts": {
-    "total": 77,
-    "upcoming": 11,
-    "active": 66,
-    "game_drops": 76,
+    "total": 75,
+    "upcoming": 10,
+    "active": 65,
+    "game_drops": 74,
     "platform": 1,
     "badges": 2,
     "fechadas_descartadas": 41
   },
   "campaigns": [
-    {
-      "id": "304be1d1-a4cb-4131-8bd1-99ae50c6474d",
-      "name": "BSH 5",
-      "status": "UPCOMING",
-      "start_at": "2026-07-30T06:00:00.000Z",
-      "end_at": "2026-07-31T05:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Coin Pusher World",
-      "game_slug": "coin-pusher-world",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/530998549_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 300,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "10,000 Tickets",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4d0a5630-8167-4f34-bd2a-68e103627ccf.png",
-          "minutes": 60
-        },
-        {
-          "name": "cpw_tdrop30",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1361e19a-a7d8-43c6-bb3f-f5a8d0fc91e2.png",
-          "minutes": 180
-        },
-        {
-          "name": "50,000 Tickets",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/62fe286f-a3ea-46f3-a83b-b4d950e7c211.png",
-          "minutes": 300
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "79faa99f-ffd0-46e3-8951-f1eab73819dd",
       "name": "Radiant Wilds 16 - #4/7",
@@ -1274,64 +1241,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "d609bbd4-6d95-4bb9-8a3a-d84182d34fb6",
-      "name": "Drops Rerun",
-      "status": "ACTIVE",
-      "start_at": "2026-07-20T07:00:32Z",
-      "end_at": "2026-07-30T06:55:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/59ded2c1-3fda-42e1-8d66-23cc55751bc8.png",
-      "details_url": "https://evil-pongon-twitch.vercel.app/",
-      "game": "Evil Pongon Game",
-      "game_slug": "evil-pongon-game",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1274324285_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 300,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Light Streamer Colour",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9b3a7478-794d-4e50-9d46-545fed9ad1b4.png",
-          "minutes": 90
-        },
-        {
-          "name": "Deep Streamer Colour",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9d40daa3-c2a9-4d74-9bed-1b9dfc5c3d33.png",
-          "minutes": 90
-        },
-        {
-          "name": "Normal Streamer Colour",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bdde71b5-8700-4021-a1b3-b4cda13071e3.png",
-          "minutes": 90
-        },
-        {
-          "name": "Twitch Slide - Static",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1e23ffba-3ddd-4af0-94c0-6f4209b32d5e.png",
-          "minutes": 150
-        },
-        {
-          "name": "Twitch Slide - Animated",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/02ab6372-5ccc-4e3c-847b-2a1d0282a335.png",
-          "minutes": 150
-        },
-        {
-          "name": "Streamer Soul Skin",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8afe3d94-82e5-46ac-a9c1-8a0be662efe2.png",
-          "minutes": 300
-        },
-        {
-          "name": "Enphosed Pongon Skin",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/83dec337-d6d3-4599-8692-be8e5352c677.png",
-          "minutes": 300
-        },
-        {
-          "name": "Shiny Enphosed Skin",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5944c433-ca4d-44c8-a082-2b76071890a9.png",
-          "minutes": 300
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "615fc480-e578-4f78-a5ba-0ddef9292bdd",
       "name": "Where Winds Meet August",
       "status": "ACTIVE",
@@ -2328,39 +2237,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "b3a66f1d-f2bf-4016-b176-d2ae206eb489",
-      "name": "BSH 4",
-      "status": "ACTIVE",
-      "start_at": "2026-07-29T06:00:00Z",
-      "end_at": "2026-07-30T05:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/6d3785f8-686c-4a10-ba2d-36c4968c3b9b.png",
-      "details_url": "https://coins.coinpusherworld.co.uk/drops/index.php",
-      "game": "Coin Pusher World",
-      "game_slug": "coin-pusher-world",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/530998549_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 300,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "50,000 Tickets",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/62fe286f-a3ea-46f3-a83b-b4d950e7c211.png",
-          "minutes": 300
-        },
-        {
-          "name": "10,000 Tickets",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4d0a5630-8167-4f34-bd2a-68e103627ccf.png",
-          "minutes": 60
-        },
-        {
-          "name": "cpw_tdrop26",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a40e433d-3c49-46d5-9c4d-31b395d71e6f.png",
-          "minutes": 180
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "2942d78f-12d2-49ca-918d-4b9ab8e28842",
       "name": "Egg",
       "status": "ACTIVE",
@@ -2654,7 +2530,7 @@
       "status": "ACTIVE",
       "start_at": "2026-07-30T01:00:00Z",
       "end_at": "2026-08-05T00:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e36d7449-1c0b-4045-93a3-31934b663b67.png",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/285754dc-a60c-4f2b-8972-9e16d8e2a3ff.png",
       "details_url": "https://mistfallhunter.com/twitchdrops",
       "game": "Mistfall Hunter",
       "game_slug": "mistfall-hunter",
@@ -2677,6 +2553,39 @@
           "name": "240-Minutes Drop",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9e83d836-6d91-404e-bf8e-0a89c7a24075.png",
           "minutes": 240
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "304be1d1-a4cb-4131-8bd1-99ae50c6474d",
+      "name": "BSH 5",
+      "status": "ACTIVE",
+      "start_at": "2026-07-30T06:00:00Z",
+      "end_at": "2026-07-31T05:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e12cb06e-807f-4c7f-88c8-44095a767b04.png",
+      "details_url": "https://coins.coinpusherworld.co.uk/drops/index.php",
+      "game": "Coin Pusher World",
+      "game_slug": "coin-pusher-world",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/530998549_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 300,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "cpw_tdrop30",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1361e19a-a7d8-43c6-bb3f-f5a8d0fc91e2.png",
+          "minutes": 180
+        },
+        {
+          "name": "50,000 Tickets",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/62fe286f-a3ea-46f3-a83b-b4d950e7c211.png",
+          "minutes": 300
+        },
+        {
+          "name": "10,000 Tickets",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4d0a5630-8167-4f34-bd2a-68e103627ccf.png",
+          "minutes": 60
         }
       ],
       "src": "sunkwi"
