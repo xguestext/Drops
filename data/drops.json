@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-07-30T01:55:17Z",
+  "updated_at": "2026-07-30T04:54:38Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-30T01:55:01.527Z",
+  "source_updated": "2026-07-30T04:54:01.539Z",
   "counts": {
-    "total": 79,
+    "total": 77,
     "upcoming": 11,
-    "active": 68,
-    "game_drops": 77,
-    "platform": 2,
+    "active": 66,
+    "game_drops": 76,
+    "platform": 1,
     "badges": 2,
-    "fechadas_descartadas": 40
+    "fechadas_descartadas": 41
   },
   "campaigns": [
     {
@@ -459,34 +459,6 @@
         {
           "name": "Rust Charity '26 Furnace",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/95e893c9-605f-49da-ae9e-ca8c0103733e.jpeg",
-          "minutes": 120
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "59225e6f-6c78-47bf-a404-62d49661b60f",
-      "name": "S5-2: Darkest Hour",
-      "status": "ACTIVE",
-      "start_at": "2026-07-09T04:00:00Z",
-      "end_at": "2026-07-30T03:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d86c79e4-4b98-42e4-9ba9-d0c482efcf70.png",
-      "details_url": "https://www.fragpunk.com/twitchdrops/",
-      "game": "FragPunk",
-      "game_slug": "fragpunk",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1023750977_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Iron-Armed Rose",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/20a2594e-52c0-4133-ba21-e59d0d18feb0.png",
-          "minutes": 30
-        },
-        {
-          "name": "Neon Blade",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f63039f9-2229-411b-bc79-b108d4f52e02.png",
           "minutes": 120
         }
       ],
@@ -2705,39 +2677,6 @@
           "name": "240-Minutes Drop",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9e83d836-6d91-404e-bf8e-0a89c7a24075.png",
           "minutes": 240
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "06767798-da18-4278-9317-dd075060843b",
-      "name": "Into The Rainbow 2026",
-      "status": "ACTIVE",
-      "start_at": "2026-07-28T18:00:00Z",
-      "end_at": "2026-07-30T03:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/571261c3-d9a6-4107-a34c-2496f6f606fe.jpeg",
-      "details_url": "https://account.bhvr.com/twitch/dbd",
-      "game": "Dead by Daylight",
-      "game_slug": "dead-by-daylight",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/491487-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "platform",
-      "rewards": [
-        {
-          "name": "Proud David Banner",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fad20279-e1fa-4c94-8da4-070ab7c7337c.png",
-          "minutes": 120
-        },
-        {
-          "name": "Proud Orela Banner",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e0ccc4b6-ed9a-45f3-b7ae-c1a022501ff6.png",
-          "minutes": 120
-        },
-        {
-          "name": "Proud Susie Banner",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/609db98a-8d78-4618-8e80-1d2ea2acd9c6.png",
-          "minutes": 120
         }
       ],
       "src": "sunkwi"
