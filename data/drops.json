@@ -1,69 +1,18 @@
 {
-  "updated_at": "2026-07-30T10:19:50Z",
+  "updated_at": "2026-07-30T12:10:56Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-30T10:19:01.306Z",
+  "source_updated": "2026-07-30T12:09:01.979Z",
   "counts": {
-    "total": 76,
-    "upcoming": 11,
-    "active": 65,
-    "game_drops": 75,
+    "total": 75,
+    "upcoming": 9,
+    "active": 66,
+    "game_drops": 74,
     "platform": 1,
     "badges": 2,
-    "fechadas_descartadas": 41
+    "fechadas_descartadas": 40
   },
   "campaigns": [
-    {
-      "id": "baf6b36f-bdf0-4979-8dfb-ae7b3e7af8b0",
-      "name": "2026 BDO Drops (Jul 30)",
-      "status": "UPCOMING",
-      "start_at": "2026-07-30T12:00:00.000Z",
-      "end_at": "2026-07-31T11:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Black Desert",
-      "game_slug": "black-desert",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "2 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f2cb7c7c-7ecd-423e-af93-0d2fc21fcd96.png",
-          "minutes": 120
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "613ab071-06bb-4fca-8ba4-f2014a1a841e",
-      "name": "New Class: Agent",
-      "status": "UPCOMING",
-      "start_at": "2026-07-30T12:00:00.000Z",
-      "end_at": "2026-07-31T11:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Black Desert",
-      "game_slug": "black-desert",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "1 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/832feb91-6d64-4eba-8b14-eeebad43f866.png",
-          "minutes": 60
-        },
-        {
-          "name": "2 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b101e2e4-faea-49ff-b7b3-c6e7dfbf9f07.png",
-          "minutes": 120
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "833ef3e9-7300-478b-8dd6-95382ac76837",
       "name": "MarbleFest - July'26-Day4",
@@ -2068,64 +2017,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "acc08904-bdd3-4ced-b1da-99e98be7d937",
-      "name": "Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-07-28T17:53:04Z",
-      "end_at": "2026-07-30T11:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/6d270df3-6631-4f8c-a1b1-ff1989d2b154.png",
-      "details_url": "https://huntclubonstream.lovable.app/legal",
-      "game": "Hunt Club On Stream",
-      "game_slug": "hunt-club-on-stream",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2097881176_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 900,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Fishing Silver Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba14718d-6cf5-4a25-9700-a7519603b571.png",
-          "minutes": 120
-        },
-        {
-          "name": "Hunting Silver Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c4ddccc8-db23-4340-8ee5-c7575da873c9.png",
-          "minutes": 120
-        },
-        {
-          "name": "Hunting Gold Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/87a1284b-9471-4b76-92f3-1202af94c2e6.png",
-          "minutes": 240
-        },
-        {
-          "name": "Fishing Gold Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/51cc6079-9e26-478e-b010-ebe250c9c28d.png",
-          "minutes": 240
-        },
-        {
-          "name": "Hunting Epic Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7b186897-73e8-4934-aedc-87108a6fd854.png",
-          "minutes": 360
-        },
-        {
-          "name": "Fishing Epic Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f4b13e63-2abe-4d63-9984-2cb5ddda4735.png",
-          "minutes": 360
-        },
-        {
-          "name": "Fishing Legendary Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/dffd0a91-125a-4a6d-a136-348971b519c1.png",
-          "minutes": 900
-        },
-        {
-          "name": "Hunting Legendary Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4e55f494-532a-47f9-b5e9-5357dd697909.png",
-          "minutes": 900
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "4275161f-1bd5-46d0-b12c-7a24c30f4faf",
       "name": "Beauty and the Beach",
       "status": "ACTIVE",
@@ -2240,29 +2131,6 @@
           "name": "Egg",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7077ca58-fe67-4a0d-aad9-24c8388d9ddc.png",
           "minutes": 0
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "78fae52d-4aab-474b-996b-ebb5023c868e",
-      "name": "2026 BDO Drops (Jul 29)",
-      "status": "ACTIVE",
-      "start_at": "2026-07-29T12:00:00Z",
-      "end_at": "2026-07-30T11:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/dd3a2598-2495-4303-92ae-00477049f520.png",
-      "details_url": "https://www.naeu.playblackdesert.com/News/Detail?groupContentNo=5878",
-      "game": "Black Desert",
-      "game_slug": "black-desert",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "2 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f2cb7c7c-7ecd-423e-af93-0d2fc21fcd96.png",
-          "minutes": 120
         }
       ],
       "src": "sunkwi"
@@ -2614,6 +2482,90 @@
           "name": "Radiant Wilds Chest",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
           "minutes": 180
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "35b06cba-192e-43eb-a63b-758c66d44791",
+      "name": "STRIKE A POSE!",
+      "status": "ACTIVE",
+      "start_at": "2026-07-30T10:30:00Z",
+      "end_at": "2026-08-13T08:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/b3415976-5d51-45ff-b3b5-0617b6748598.png",
+      "details_url": "https://www.reachthefinals.com/twitch",
+      "game": "THE FINALS",
+      "game_slug": "the-finals",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1910103699-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Showtime Blue Spear",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f6f58919-2c38-4a2b-8627-f2bbd947e3b3.png",
+          "minutes": 60
+        },
+        {
+          "name": "Showtime Blue Dual Blades",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/54e5d9a6-44a4-4433-b100-1f8db4d47562.png",
+          "minutes": 120
+        },
+        {
+          "name": "Showtime Blue Sword",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d769b1c1-b89b-4478-80d5-bbbfba9ea53a.png",
+          "minutes": 240
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "baf6b36f-bdf0-4979-8dfb-ae7b3e7af8b0",
+      "name": "2026 BDO Drops (Jul 30)",
+      "status": "ACTIVE",
+      "start_at": "2026-07-30T12:00:00.000Z",
+      "end_at": "2026-07-31T11:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Black Desert",
+      "game_slug": "black-desert",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "2 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f2cb7c7c-7ecd-423e-af93-0d2fc21fcd96.png",
+          "minutes": 120
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "613ab071-06bb-4fca-8ba4-f2014a1a841e",
+      "name": "New Class: Agent",
+      "status": "ACTIVE",
+      "start_at": "2026-07-30T12:00:00Z",
+      "end_at": "2026-07-31T11:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/5ac997e2-d99c-444a-b84b-0373a3c14053.png",
+      "details_url": "https://www.naeu.playblackdesert.com/News/Detail?groupContentNo=10373",
+      "game": "Black Desert",
+      "game_slug": "black-desert",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "1 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/832feb91-6d64-4eba-8b14-eeebad43f866.png",
+          "minutes": 60
+        },
+        {
+          "name": "2 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b101e2e4-faea-49ff-b7b3-c6e7dfbf9f07.png",
+          "minutes": 120
         }
       ],
       "src": "sunkwi"
