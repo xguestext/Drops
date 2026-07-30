@@ -1,41 +1,18 @@
 {
-  "updated_at": "2026-07-30T07:31:43Z",
+  "updated_at": "2026-07-30T10:19:50Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-30T07:31:02.648Z",
+  "source_updated": "2026-07-30T10:19:01.306Z",
   "counts": {
-    "total": 75,
-    "upcoming": 10,
+    "total": 76,
+    "upcoming": 11,
     "active": 65,
-    "game_drops": 74,
+    "game_drops": 75,
     "platform": 1,
     "badges": 2,
     "fechadas_descartadas": 41
   },
   "campaigns": [
-    {
-      "id": "79faa99f-ffd0-46e3-8951-f1eab73819dd",
-      "name": "Radiant Wilds 16 - #4/7",
-      "status": "UPCOMING",
-      "start_at": "2026-07-30T10:00:00.000Z",
-      "end_at": "2026-07-31T09:29:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Albion Online",
-      "game_slug": "albion-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Radiant Wilds Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
-          "minutes": 180
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "baf6b36f-bdf0-4979-8dfb-ae7b3e7af8b0",
       "name": "2026 BDO Drops (Jul 30)",
@@ -54,6 +31,34 @@
         {
           "name": "2 Hour Reward",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f2cb7c7c-7ecd-423e-af93-0d2fc21fcd96.png",
+          "minutes": 120
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "613ab071-06bb-4fca-8ba4-f2014a1a841e",
+      "name": "New Class: Agent",
+      "status": "UPCOMING",
+      "start_at": "2026-07-30T12:00:00.000Z",
+      "end_at": "2026-07-31T11:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Black Desert",
+      "game_slug": "black-desert",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "1 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/832feb91-6d64-4eba-8b14-eeebad43f866.png",
+          "minutes": 60
+        },
+        {
+          "name": "2 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b101e2e4-faea-49ff-b7b3-c6e7dfbf9f07.png",
           "minutes": 120
         }
       ],
@@ -116,6 +121,29 @@
       "src": "fenris"
     },
     {
+      "id": "b3db48d9-4c67-4e35-ba40-9215d4944e96",
+      "name": "Battlegrounds S14 Streams",
+      "status": "UPCOMING",
+      "start_at": "2026-07-30T16:00:00.000Z",
+      "end_at": "2026-07-31T14:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Hearthstone",
+      "game_slug": "hearthstone",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/138585-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "2 Battlegrounds Tokens",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f4d91714-dcd1-4c50-bac4-0c507a4cf2b3.png",
+          "minutes": 60
+        }
+      ],
+      "src": "fenris"
+    },
+    {
       "id": "750aca36-29b5-4819-929d-d35be3859970",
       "name": "Homestead Event",
       "status": "UPCOMING",
@@ -149,29 +177,6 @@
       "src": "fenris"
     },
     {
-      "id": "b3db48d9-4c67-4e35-ba40-9215d4944e96",
-      "name": "Battlegrounds S14 Streams",
-      "status": "UPCOMING",
-      "start_at": "2026-07-30T16:00:00.000Z",
-      "end_at": "2026-07-31T14:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Hearthstone",
-      "game_slug": "hearthstone",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/138585-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "2 Battlegrounds Tokens",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f4d91714-dcd1-4c50-bac4-0c507a4cf2b3.png",
-          "minutes": 60
-        }
-      ],
-      "src": "fenris"
-    },
-    {
       "id": "faca05ea-14ce-4a8f-bd9e-e276e7014673",
       "name": "Update 15.6 Drop: Week 3",
       "status": "UPCOMING",
@@ -195,6 +200,39 @@
           "name": "Twitch Container 15.6",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1903c727-8fef-40e2-8515-8dd8fecd14d7.png",
           "minutes": 180
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "f70b949c-942b-47fc-9d8a-1bebfc726035",
+      "name": "Sponge Break Launch",
+      "status": "UPCOMING",
+      "start_at": "2026-07-30T17:00:00.000Z",
+      "end_at": "2026-08-20T23:58:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Sponge Break",
+      "game_slug": "sponge-break",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1128471876_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Golden Plunger",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/927fc328-9310-4b34-bcd9-ed129c7e8e0e.png",
+          "minutes": 0
+        },
+        {
+          "name": "Soccer Buoy",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3d43017f-2c4d-43ff-bacc-67aed8f7fc6b.png",
+          "minutes": 120
+        },
+        {
+          "name": "Capybara Buoy",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3afc2c02-b629-4d3f-bf2f-2f618a18be9d.png",
+          "minutes": 240
         }
       ],
       "src": "fenris"
@@ -465,59 +503,6 @@
           "name": "Exclusive Skin (S6)",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/88aac49c-19af-4df4-a872-4c20febf10af.png",
           "minutes": 360
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "cf12e660-f5a1-4b95-9e3c-ff6e559b7ca3",
-      "name": "S11 LAUNCH DROPS",
-      "status": "ACTIVE",
-      "start_at": "2026-07-09T13:30:00Z",
-      "end_at": "2026-07-30T08:29:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f523ab64-2daf-4973-86ed-f50138637541.png",
-      "details_url": "https://www.reachthefinals.com/twitch",
-      "game": "THE FINALS",
-      "game_slug": "the-finals",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1910103699-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Approach Vector",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cb70d957-b466-444d-85bc-2bffcee21487.png",
-          "minutes": 0
-        },
-        {
-          "name": "Charmalure BFR Titan",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5f873925-645b-4fdd-854c-cb25059eba2a.png",
-          "minutes": 0
-        },
-        {
-          "name": "Charmalure V9S",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82af500b-64c3-4921-84c0-dd0649bdaa5f.png",
-          "minutes": 0
-        },
-        {
-          "name": "Charmalure Chimera-XB",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0abe8e49-315a-4ee3-94af-5029b4595a26.png",
-          "minutes": 0
-        },
-        {
-          "name": "Launch Paperwork",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/59e77f2d-e6b1-4e93-8f9e-8c37750d8fbc.png",
-          "minutes": 120
-        },
-        {
-          "name": "Sonia The Sonar",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d5783539-a1c0-453a-a6b6-32a28ccedcda.png",
-          "minutes": 240
-        },
-        {
-          "name": "Trip Report",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/22269781-56d4-445f-a701-1c0cfda2a6a9.png",
-          "minutes": 60
         }
       ],
       "src": "sunkwi"
@@ -2260,29 +2245,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "20c1f157-dfb8-452e-beaa-0b9599bfd0e9",
-      "name": "Radiant Wilds 16 - #3/7",
-      "status": "ACTIVE",
-      "start_at": "2026-07-29T10:00:00Z",
-      "end_at": "2026-07-30T09:29:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/756fe077-b594-4cff-98aa-33a99fe7a536.png",
-      "details_url": "https://forum.albiononline.com/index.php/Thread/214756-New-Twitch-Drops-Launching-Monday-July-28-2025/",
-      "game": "Albion Online",
-      "game_slug": "albion-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Radiant Wilds Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
-          "minutes": 180
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "78fae52d-4aab-474b-996b-ebb5023c868e",
       "name": "2026 BDO Drops (Jul 29)",
       "status": "ACTIVE",
@@ -2586,6 +2548,72 @@
           "name": "10,000 Tickets",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4d0a5630-8167-4f34-bd2a-68e103627ccf.png",
           "minutes": 60
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "6be0706e-8217-4b64-b612-e6b2230e82a2",
+      "name": "Aug #1",
+      "status": "ACTIVE",
+      "start_at": "2026-07-30T08:00:00Z",
+      "end_at": "2026-08-05T23:58:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a3849e7f-f45e-4a1a-8260-b51c6b425e4a.png",
+      "details_url": "https://portal.uflgame.com/twitch/drops",
+      "game": "UFL",
+      "game_slug": "ufl",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1471416868_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 300,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Enhanced CP",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/78b031b1-66b3-4b3a-a8bd-4da572f398c9.png",
+          "minutes": 60
+        },
+        {
+          "name": "Pre-season pack lite",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d8e306ab-91db-40a5-9ccd-9833afb81933.png",
+          "minutes": 120
+        },
+        {
+          "name": "Pre-season pack lite",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/94c529ed-c473-44bb-8ce5-46c91d236392.png",
+          "minutes": 180
+        },
+        {
+          "name": " Pre-season pack lite",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/798b3918-3eba-4f89-98de-e07b46928900.png",
+          "minutes": 240
+        },
+        {
+          "name": "50 LP",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b96602be-04a7-4953-8d6f-d611d38f8f18.png",
+          "minutes": 300
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "79faa99f-ffd0-46e3-8951-f1eab73819dd",
+      "name": "Radiant Wilds 16 - #4/7",
+      "status": "ACTIVE",
+      "start_at": "2026-07-30T10:00:00Z",
+      "end_at": "2026-07-31T09:29:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e9a2bd8b-93d0-4377-989d-5cbffe10cd4d.png",
+      "details_url": "https://forum.albiononline.com/index.php/Thread/214756-New-Twitch-Drops-Launching-Monday-July-28-2025/",
+      "game": "Albion Online",
+      "game_slug": "albion-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Radiant Wilds Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
+          "minutes": 180
         }
       ],
       "src": "sunkwi"
