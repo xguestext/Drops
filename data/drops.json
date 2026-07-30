@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-30T22:07:22Z",
+  "updated_at": "2026-07-30T23:31:35Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-30T22:07:01.713Z",
+  "source_updated": "2026-07-30T23:31:01.658Z",
   "counts": {
     "total": 75,
     "upcoming": 8,
@@ -2031,17 +2031,22 @@
       "id": "304be1d1-a4cb-4131-8bd1-99ae50c6474d",
       "name": "BSH 5",
       "status": "ACTIVE",
-      "start_at": "2026-07-30T06:00:00Z",
+      "start_at": "2026-07-30T06:00:00.000Z",
       "end_at": "2026-07-31T05:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e12cb06e-807f-4c7f-88c8-44095a767b04.png",
-      "details_url": "https://coins.coinpusherworld.co.uk/drops/index.php",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
       "game": "Coin Pusher World",
       "game_slug": "coin-pusher-world",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/530998549_IGDB-120x160.jpg",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/530998549_IGDB-285x380.jpg",
       "availability": "open",
       "required_minutes": 300,
       "reward_type": "game",
       "rewards": [
+        {
+          "name": "10,000 Tickets",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4d0a5630-8167-4f34-bd2a-68e103627ccf.png",
+          "minutes": 60
+        },
         {
           "name": "cpw_tdrop30",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1361e19a-a7d8-43c6-bb3f-f5a8d0fc91e2.png",
@@ -2051,14 +2056,9 @@
           "name": "50,000 Tickets",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/62fe286f-a3ea-46f3-a83b-b4d950e7c211.png",
           "minutes": 300
-        },
-        {
-          "name": "10,000 Tickets",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4d0a5630-8167-4f34-bd2a-68e103627ccf.png",
-          "minutes": 60
         }
       ],
-      "src": "sunkwi"
+      "src": "fenris"
     },
     {
       "id": "6be0706e-8217-4b64-b612-e6b2230e82a2",
