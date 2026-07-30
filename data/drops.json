@@ -1,102 +1,18 @@
 {
-  "updated_at": "2026-07-30T17:55:40Z",
+  "updated_at": "2026-07-30T19:19:22Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-30T17:55:01.663Z",
+  "source_updated": "2026-07-30T19:19:01.694Z",
   "counts": {
-    "total": 79,
-    "upcoming": 12,
+    "total": 76,
+    "upcoming": 9,
     "active": 67,
-    "game_drops": 78,
+    "game_drops": 75,
     "platform": 1,
     "badges": 2,
     "fechadas_descartadas": 41
   },
   "campaigns": [
-    {
-      "id": "46a4b9a8-8957-4751-b2fb-81a40a798e33",
-      "name": "Mobile Drop 112",
-      "status": "UPCOMING",
-      "start_at": "2026-07-30T17:59:00.000Z",
-      "end_at": "2026-07-31T17:56:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Rise Online",
-      "game_slug": "rise-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Regalia of Awakening",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
-          "minutes": 240
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "5242a38e-bbdc-4c63-b5d4-69527fe99c0e",
-      "name": "Ruhnuk Decoration Poster",
-      "status": "UPCOMING",
-      "start_at": "2026-07-30T18:00:00.000Z",
-      "end_at": "2026-08-13T14:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Star Wars: The Old Republic",
-      "game_slug": "star-wars-the-old-republic",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/21934_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 60,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "SWTOR Ruhnuk Poster",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0e920e11-830f-48f6-ad66-a9c15b7fd5b8.png",
-          "minutes": 60
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "f193b958-0afd-41d7-907d-8e42cbf88db0",
-      "name": "Global Warfare 4",
-      "status": "UPCOMING",
-      "start_at": "2026-07-30T19:00:00.000Z",
-      "end_at": "2026-08-06T17:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Rust",
-      "game_slug": "rust",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/263490_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 480,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Global Warfare 4 Vending",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6344dc84-3575-4f2d-b909-d22aff69d8f9.jpeg",
-          "minutes": 120
-        },
-        {
-          "name": "Global Warfare 4 Door",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b4cd5c4a-b189-43f3-9c5e-50f3092ff829.jpeg",
-          "minutes": 240
-        },
-        {
-          "name": "Global Warfare 4 Locker",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6542f63b-9357-426a-9458-80cdb94eed61.jpeg",
-          "minutes": 360
-        },
-        {
-          "name": "Global Warfare 4 Turret",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/17ecc061-9034-4641-a938-8a51949d7e20.jpeg",
-          "minutes": 480
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "7c43ee7b-ade5-4e32-9572-297be6a91015",
       "name": "GOALS - 31st of July",
@@ -345,29 +261,6 @@
       "src": "fenris"
     },
     {
-      "id": "7b53497a-83e3-440e-928a-220b232e1f4e",
-      "name": "Rust Charity '26 Box",
-      "status": "ACTIVE",
-      "start_at": "2026-07-02T18:00:00Z",
-      "end_at": "2026-07-30T17:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/4f2351ac-61fe-4ea0-8756-ca2b40596ef5.png",
-      "details_url": "https://twitch.facepunch.com/",
-      "game": "Rust",
-      "game_slug": "rust",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/263490_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Rust Charity '26 Box",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0604efdb-74a3-4ef3-a3aa-6d5ed608f3ef.jpeg",
-          "minutes": 120
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "ccb6e65a-3bf6-428d-8b28-e43242bb76f2",
       "name": "July 2026",
       "status": "ACTIVE",
@@ -386,29 +279,6 @@
           "name": "Twitch mask",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/147670e5-bd68-4efe-abd1-e8af3d1b0806.png",
           "minutes": 60
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "d1d87bdc-4f35-4d3c-8a34-c4e66bee4f0a",
-      "name": "Rust Charity '26 Backpack",
-      "status": "ACTIVE",
-      "start_at": "2026-07-04T18:27:17Z",
-      "end_at": "2026-07-30T17:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ac18c7f9-7c88-4fbd-96da-f3411de1e46f.png",
-      "details_url": "https://twitch.facepunch.com/",
-      "game": "Rust",
-      "game_slug": "rust",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/263490_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Rust Charity '26 Backpack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b042b8b4-5d9d-4c25-90a5-ed7d3ca45c23.jpeg",
-          "minutes": 120
         }
       ],
       "src": "sunkwi"
@@ -2130,29 +2000,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "bb0ee3a1-14eb-44d6-9aff-4aaa24a37009",
-      "name": "Mobile Drop 111",
-      "status": "ACTIVE",
-      "start_at": "2026-07-29T17:59:00Z",
-      "end_at": "2026-07-30T17:56:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/068ddeb3-5305-4a42-ab96-3884a480eac6.png",
-      "details_url": "https://mobile.riseonlineworld.com/usercp?do=twitch",
-      "game": "Rise Online",
-      "game_slug": "rise-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Regalia of Awakening",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
-          "minutes": 240
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "d96231c2-771a-4eee-b0ac-c26ee9640a54",
       "name": "GOALS - 30th of July",
       "status": "ACTIVE",
@@ -2588,6 +2435,90 @@
           "name": "Golden Plunger",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/927fc328-9310-4b34-bcd9-ed129c7e8e0e.png",
           "minutes": 0
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "46a4b9a8-8957-4751-b2fb-81a40a798e33",
+      "name": "Mobile Drop 112",
+      "status": "ACTIVE",
+      "start_at": "2026-07-30T17:59:00Z",
+      "end_at": "2026-07-31T17:56:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f117cce6-4861-4710-9570-544f77f27818.png",
+      "details_url": "https://mobile.riseonlineworld.com/usercp?do=twitch",
+      "game": "Rise Online",
+      "game_slug": "rise-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Regalia of Awakening",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
+          "minutes": 240
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "5242a38e-bbdc-4c63-b5d4-69527fe99c0e",
+      "name": "Ruhnuk Decoration Poster",
+      "status": "ACTIVE",
+      "start_at": "2026-07-30T18:00:00Z",
+      "end_at": "2026-08-13T14:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d2758c5e-8504-454f-a044-00cbf46863fe.png",
+      "details_url": "https://account.swtor.com",
+      "game": "Star Wars: The Old Republic",
+      "game_slug": "star-wars-the-old-republic",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/21934_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 60,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "SWTOR Ruhnuk Poster",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0e920e11-830f-48f6-ad66-a9c15b7fd5b8.png",
+          "minutes": 60
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "f193b958-0afd-41d7-907d-8e42cbf88db0",
+      "name": "Global Warfare 4",
+      "status": "ACTIVE",
+      "start_at": "2026-07-30T19:00:00Z",
+      "end_at": "2026-08-06T17:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e5edf7fe-e01c-42fb-8f4e-fbc0400c3597.png",
+      "details_url": "https://twitch.facepunch.com/",
+      "game": "Rust",
+      "game_slug": "rust",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/263490_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 480,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Global Warfare 4 Vending",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6344dc84-3575-4f2d-b909-d22aff69d8f9.jpeg",
+          "minutes": 120
+        },
+        {
+          "name": "Global Warfare 4 Door",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b4cd5c4a-b189-43f3-9c5e-50f3092ff829.jpeg",
+          "minutes": 240
+        },
+        {
+          "name": "Global Warfare 4 Locker",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6542f63b-9357-426a-9458-80cdb94eed61.jpeg",
+          "minutes": 360
+        },
+        {
+          "name": "Global Warfare 4 Turret",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/17ecc061-9034-4641-a938-8a51949d7e20.jpeg",
+          "minutes": 480
         }
       ],
       "src": "sunkwi"
