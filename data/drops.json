@@ -1,89 +1,18 @@
 {
-  "updated_at": "2026-07-31T17:24:45Z",
+  "updated_at": "2026-07-31T18:51:22Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-31T17:24:01.927Z",
+  "source_updated": "2026-07-31T18:51:01.859Z",
   "counts": {
-    "total": 75,
-    "upcoming": 8,
-    "active": 67,
-    "game_drops": 74,
+    "total": 74,
+    "upcoming": 6,
+    "active": 68,
+    "game_drops": 73,
     "platform": 1,
     "badges": 2,
     "fechadas_descartadas": 43
   },
   "campaigns": [
-    {
-      "id": "b8e0c073-ffb1-47a1-a7b6-7cc14fff540c",
-      "name": "Mobile Drop 113",
-      "status": "UPCOMING",
-      "start_at": "2026-07-31T17:59:00.000Z",
-      "end_at": "2026-08-01T17:56:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Rise Online",
-      "game_slug": "rise-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Regalia of Awakening",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
-          "minutes": 240
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "3ddcf539-87cd-45f8-9376-852845f3f36e",
-      "name": "August Week 1",
-      "status": "UPCOMING",
-      "start_at": "2026-07-31T18:40:00.000Z",
-      "end_at": "2026-08-07T16:44:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "MARVEL Contest of Champions",
-      "game_slug": "marvel-contest-of-champions",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/461221_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Drop 1 - NW1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4d529ac5-9f36-4d89-a059-4e4d29448ef1.png",
-          "minutes": 30
-        },
-        {
-          "name": "Drop 2 - NW1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/22d71b7b-7866-474d-9869-ba673ac154f7.png",
-          "minutes": 60
-        },
-        {
-          "name": "Drop 3 - NW1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4961bbae-cd79-4cef-86f3-eca0131d14ee.png",
-          "minutes": 90
-        },
-        {
-          "name": "Drop 4 - NW1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c314ed01-a27b-4f18-8b37-edd3ec62de23.png",
-          "minutes": 120
-        },
-        {
-          "name": "Drop 5 - NW1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d8965ad4-da15-4a63-b929-c907891f5c7b.png",
-          "minutes": 180
-        },
-        {
-          "name": "Drop 6 - NW1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/326381af-8d9d-45a8-8663-ac95fc03f0a5.png",
-          "minutes": 240
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "830944fa-c2d6-4911-8d8e-318fdb4be8af",
       "name": "EA Season 10 Drops 3",
@@ -2118,29 +2047,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "46a4b9a8-8957-4751-b2fb-81a40a798e33",
-      "name": "Mobile Drop 112",
-      "status": "ACTIVE",
-      "start_at": "2026-07-30T17:59:00Z",
-      "end_at": "2026-07-31T17:56:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f117cce6-4861-4710-9570-544f77f27818.png",
-      "details_url": "https://mobile.riseonlineworld.com/usercp?do=twitch",
-      "game": "Rise Online",
-      "game_slug": "rise-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Regalia of Awakening",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
-          "minutes": 240
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "5242a38e-bbdc-4c63-b5d4-69527fe99c0e",
       "name": "Ruhnuk Decoration Poster",
       "status": "ACTIVE",
@@ -2600,6 +2506,77 @@
         {
           "name": "CFB Twitch Pack",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/487cf72c-95f6-4ab9-aa7d-ac649f40babc.png",
+          "minutes": 240
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "b8e0c073-ffb1-47a1-a7b6-7cc14fff540c",
+      "name": "Mobile Drop 113",
+      "status": "ACTIVE",
+      "start_at": "2026-07-31T17:59:00Z",
+      "end_at": "2026-08-01T17:56:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e73bfbf9-2093-4ee5-a8a2-6b337c87c616.png",
+      "details_url": "https://mobile.riseonlineworld.com/usercp?do=twitch",
+      "game": "Rise Online",
+      "game_slug": "rise-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Regalia of Awakening",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
+          "minutes": 240
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "3ddcf539-87cd-45f8-9376-852845f3f36e",
+      "name": "August Week 1",
+      "status": "ACTIVE",
+      "start_at": "2026-07-31T18:30:00Z",
+      "end_at": "2026-08-07T16:44:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/default.png",
+      "details_url": "https://kid.kabam.com/v1/kid/account/login",
+      "game": "MARVEL Contest of Champions",
+      "game_slug": "marvel-contest-of-champions",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/461221_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Drop 1 - NW1",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4d529ac5-9f36-4d89-a059-4e4d29448ef1.png",
+          "minutes": 30
+        },
+        {
+          "name": "Drop 2 - NW1",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/22d71b7b-7866-474d-9869-ba673ac154f7.png",
+          "minutes": 60
+        },
+        {
+          "name": "Drop 3 - NW1",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4961bbae-cd79-4cef-86f3-eca0131d14ee.png",
+          "minutes": 90
+        },
+        {
+          "name": "Drop 4 - NW1",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c314ed01-a27b-4f18-8b37-edd3ec62de23.png",
+          "minutes": 120
+        },
+        {
+          "name": "Drop 5 - NW1",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d8965ad4-da15-4a63-b929-c907891f5c7b.png",
+          "minutes": 180
+        },
+        {
+          "name": "Drop 6 - NW1",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/326381af-8d9d-45a8-8663-ac95fc03f0a5.png",
           "minutes": 240
         }
       ],
