@@ -1,69 +1,18 @@
 {
-  "updated_at": "2026-07-31T08:41:40Z",
+  "updated_at": "2026-07-31T11:25:42Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-31T08:41:01.533Z",
+  "source_updated": "2026-07-31T11:25:01.460Z",
   "counts": {
-    "total": 78,
-    "upcoming": 14,
-    "active": 64,
-    "game_drops": 77,
+    "total": 77,
+    "upcoming": 12,
+    "active": 65,
+    "game_drops": 76,
     "platform": 1,
     "badges": 2,
     "fechadas_descartadas": 38
   },
   "campaigns": [
-    {
-      "id": "bb4c232a-002f-48ce-a450-603453be56a2",
-      "name": "Medieval 2026 Part 4",
-      "status": "UPCOMING",
-      "start_at": "2026-07-31T10:00:00.000Z",
-      "end_at": "2026-08-03T09:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Infestation: The New Z",
-      "game_slug": "infestation-the-new-z",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/491289_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 300,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Medieval 2026",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8f7ca076-6706-4b04-99ae-7a4cd1cc7939.png",
-          "minutes": 30
-        },
-        {
-          "name": "Park Ranger Head",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f02fbf9a-9d96-4398-85c4-f93b565adadb.png",
-          "minutes": 300
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "5554558c-e5cd-4eac-8e37-56aef6b539f4",
-      "name": "Radiant Wilds 16 - #5/7",
-      "status": "UPCOMING",
-      "start_at": "2026-07-31T10:00:00.000Z",
-      "end_at": "2026-08-01T09:29:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Albion Online",
-      "game_slug": "albion-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Radiant Wilds Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
-          "minutes": 180
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "cebc8868-4776-4043-92a0-f0ce0ee5fd2e",
       "name": "New Class: Agent",
@@ -2235,29 +2184,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "79faa99f-ffd0-46e3-8951-f1eab73819dd",
-      "name": "Radiant Wilds 16 - #4/7",
-      "status": "ACTIVE",
-      "start_at": "2026-07-30T10:00:00Z",
-      "end_at": "2026-07-31T09:29:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e9a2bd8b-93d0-4377-989d-5cbffe10cd4d.png",
-      "details_url": "https://forum.albiononline.com/index.php/Thread/214756-New-Twitch-Drops-Launching-Monday-July-28-2025/",
-      "game": "Albion Online",
-      "game_slug": "albion-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Radiant Wilds Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
-          "minutes": 180
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "35b06cba-192e-43eb-a63b-758c66d44791",
       "name": "STRIKE A POSE!",
       "status": "ACTIVE",
@@ -2645,6 +2571,57 @@
           "name": "Twitch Reward Chest",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
           "minutes": 180
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "5554558c-e5cd-4eac-8e37-56aef6b539f4",
+      "name": "Radiant Wilds 16 - #5/7",
+      "status": "ACTIVE",
+      "start_at": "2026-07-31T10:00:00Z",
+      "end_at": "2026-08-01T09:29:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/80376650-7ec9-4e42-ad0e-8f9537703877.png",
+      "details_url": "https://forum.albiononline.com/index.php/Thread/214756-New-Twitch-Drops-Launching-Monday-July-28-2025/",
+      "game": "Albion Online",
+      "game_slug": "albion-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Radiant Wilds Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
+          "minutes": 180
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "bb4c232a-002f-48ce-a450-603453be56a2",
+      "name": "Medieval 2026 Part 4",
+      "status": "ACTIVE",
+      "start_at": "2026-07-31T10:00:00Z",
+      "end_at": "2026-08-03T09:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d33ace16-24d8-40bd-b33e-de81c6a496ed.png",
+      "details_url": "https://playnewz.com/news",
+      "game": "Infestation: The New Z",
+      "game_slug": "infestation-the-new-z",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/491289_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 300,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Medieval 2026",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8f7ca076-6706-4b04-99ae-7a4cd1cc7939.png",
+          "minutes": 30
+        },
+        {
+          "name": "Park Ranger Head",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f02fbf9a-9d96-4398-85c4-f93b565adadb.png",
+          "minutes": 300
         }
       ],
       "src": "sunkwi"
