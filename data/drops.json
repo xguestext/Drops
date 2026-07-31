@@ -1,66 +1,18 @@
 {
-  "updated_at": "2026-07-31T15:36:17Z",
+  "updated_at": "2026-07-31T17:24:45Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-31T15:36:01.716Z",
+  "source_updated": "2026-07-31T17:24:01.927Z",
   "counts": {
-    "total": 72,
-    "upcoming": 6,
-    "active": 66,
-    "game_drops": 71,
+    "total": 75,
+    "upcoming": 8,
+    "active": 67,
+    "game_drops": 74,
     "platform": 1,
     "badges": 2,
-    "fechadas_descartadas": 40
+    "fechadas_descartadas": 43
   },
   "campaigns": [
-    {
-      "id": "97b5cedd-6a8e-4960-8959-15574a29431a",
-      "name": "CFB Live",
-      "status": "UPCOMING",
-      "start_at": "2026-07-31T17:00:00.000Z",
-      "end_at": "2026-08-01T16:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "EA Sports College Football 27",
-      "game_slug": "ea-sports-college-football-27",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1678532194_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "CFB Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d6f5fced-77fc-4208-9a6c-bc33c725365a.png",
-          "minutes": 15
-        },
-        {
-          "name": "CFB Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4fec7bf2-8bc0-4649-8030-fea5c8a731e4.png",
-          "minutes": 30
-        },
-        {
-          "name": "CFB Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/40311acc-0c90-4afa-a6ed-a2bf7baac517.png",
-          "minutes": 60
-        },
-        {
-          "name": "CFB Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/216a21ee-de92-4de4-bf36-0227bc015db0.png",
-          "minutes": 120
-        },
-        {
-          "name": "CFB Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d34fbe37-a946-4cd5-b032-835247f83802.png",
-          "minutes": 180
-        },
-        {
-          "name": "CFB Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/487cf72c-95f6-4ab9-aa7d-ac649f40babc.png",
-          "minutes": 240
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "b8e0c073-ffb1-47a1-a7b6-7cc14fff540c",
       "name": "Mobile Drop 113",
@@ -128,29 +80,6 @@
           "name": "Drop 6 - NW1",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/326381af-8d9d-45a8-8663-ac95fc03f0a5.png",
           "minutes": 240
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "d7d29e6e-db43-4b6a-88ab-4ba52c2b199c",
-      "name": "August Drops",
-      "status": "UPCOMING",
-      "start_at": "2026-08-01T00:00:00.000Z",
-      "end_at": "2026-08-01T23:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "The Quinfall",
-      "game_slug": "the-quinfall",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 300,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Twitch Reward Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
-          "minutes": 150
         }
       ],
       "src": "fenris"
@@ -224,6 +153,29 @@
       "src": "fenris"
     },
     {
+      "id": "d7d29e6e-db43-4b6a-88ab-4ba52c2b199c",
+      "name": "August Drops",
+      "status": "UPCOMING",
+      "start_at": "2026-08-01T00:00:00.000Z",
+      "end_at": "2026-08-01T23:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "The Quinfall",
+      "game_slug": "the-quinfall",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 300,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Twitch Reward Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
+          "minutes": 150
+        }
+      ],
+      "src": "fenris"
+    },
+    {
       "id": "0bf54d3e-73f8-4189-bf70-315e24ba006e",
       "name": "Pokémon Pitch Black ETB",
       "status": "UPCOMING",
@@ -242,6 +194,90 @@
           "name": "Pitch Black ETB",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d89b7081-e77e-4fab-9996-c8fa32ad7cfc.png",
           "minutes": 45
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "b58a12fa-d55f-462e-90af-404faaa93679",
+      "name": "Radiant Wilds 16 - #6/7",
+      "status": "UPCOMING",
+      "start_at": "2026-08-01T10:00:00.000Z",
+      "end_at": "2026-08-02T09:29:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Albion Online",
+      "game_slug": "albion-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Radiant Wilds Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
+          "minutes": 180
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "20a48640-26f0-4e1c-890a-8da6764d8761",
+      "name": "New Class: Agent",
+      "status": "UPCOMING",
+      "start_at": "2026-08-01T12:00:00.000Z",
+      "end_at": "2026-08-02T11:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Black Desert",
+      "game_slug": "black-desert",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "1 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/95e6485f-9a7f-420d-85ec-10b1ab32aa54.png",
+          "minutes": 60
+        },
+        {
+          "name": "2 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3db86642-3b28-4591-8033-df1f7ad3df51.png",
+          "minutes": 120
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "c8daee6c-ef18-40a4-a500-eb0633536724",
+      "name": "MarbleFest - July'26-Day6",
+      "status": "UPCOMING",
+      "start_at": "2026-08-01T13:00:00.000Z",
+      "end_at": "2026-08-02T12:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Marbles on Stream",
+      "game_slug": "marbles-on-stream",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/509511_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 900,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "PbP Deep Vibe",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/74bbfca0-63d3-41be-986e-b96bdbf0f5df.png",
+          "minutes": 0
+        },
+        {
+          "name": "15 Community Coins",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3924503a-4e48-4899-af4a-13f13f70e9b4.png",
+          "minutes": 120
+        },
+        {
+          "name": "30 Tournament Coins",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7c3916f7-38a1-4d1b-9477-4113c13afb79.png",
+          "minutes": 900
         }
       ],
       "src": "fenris"
@@ -1209,39 +1245,6 @@
           "name": "Funnykini Jelmez (1 db)",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5577cb49-47ea-4ce8-a073-1232be4cabcd.jpeg",
           "minutes": 900
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "b74e14f7-66e6-44dc-8ef6-c966e009d88b",
-      "name": "July Week 4",
-      "status": "ACTIVE",
-      "start_at": "2026-07-24T17:00:00Z",
-      "end_at": "2026-07-31T16:44:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/default.png",
-      "details_url": "https://kid.kabam.com/v1/kid/account/login",
-      "game": "MARVEL Contest of Champions",
-      "game_slug": "marvel-contest-of-champions",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/461221_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 90,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Open Drop Reward 1-SW4",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/05d1632e-a9e0-4d2b-848e-52d9fe4fec8f.png",
-          "minutes": 30
-        },
-        {
-          "name": "Open Drop Reward 2-SW4",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5f4ea508-4505-488e-918e-8cf31bce3249.png",
-          "minutes": 60
-        },
-        {
-          "name": "Open Drop Reward 3-SW4",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/60b49a5a-b34d-4019-9d47-05d7b563e51b.png",
-          "minutes": 90
         }
       ],
       "src": "sunkwi"
@@ -2506,6 +2509,97 @@
         {
           "name": "26.7 Боевая задача #4",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9340e2c3-66b6-43fc-84c5-e5d769b8d8e3.png",
+          "minutes": 240
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "fe437274-f396-4d21-9529-9eb54467e8e4",
+      "name": "DF RISE Series S1 Drops",
+      "status": "ACTIVE",
+      "start_at": "2026-07-31T16:00:00Z",
+      "end_at": "2026-08-03T03:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/6da24e70-21da-472d-8108-1bd9bb3af937.png",
+      "details_url": "https://www.playdeltaforce.com/act/twitchdrops/index.html",
+      "game": "Delta Force",
+      "game_slug": "delta-force-hawk-ops",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1282866981_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 90,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Basic Armament S. Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/012c2416-3d1b-470b-ac4a-1f3ef8d4c2cb.png",
+          "minutes": 15
+        },
+        {
+          "name": "Ops Challenge Supply Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4ec0bc1c-9225-46fa-bd87-4cef681f34d7.png",
+          "minutes": 30
+        },
+        {
+          "name": "C Card - C Graffiti",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f4daef25-518e-4798-88ff-8022ce34f713.png",
+          "minutes": 45
+        },
+        {
+          "name": "Standard Gear Ticket",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d5ff515a-cbcc-4e07-935e-d2ab834c0b49.png",
+          "minutes": 60
+        },
+        {
+          "name": "M249 - Action Time",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/380f4346-65ec-471f-b335-4b622b2686d7.png",
+          "minutes": 90
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "97b5cedd-6a8e-4960-8959-15574a29431a",
+      "name": "CFB Live",
+      "status": "ACTIVE",
+      "start_at": "2026-07-31T17:00:00Z",
+      "end_at": "2026-08-01T16:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/10c2fa9e-4916-457f-9d7e-3d02532da4cc.png",
+      "details_url": "https://help.twitch.tv/s/article/mission-based-drops?language=en_US",
+      "game": "EA Sports College Football 27",
+      "game_slug": "ea-sports-college-football-27",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1678532194_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "CFB Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d6f5fced-77fc-4208-9a6c-bc33c725365a.png",
+          "minutes": 15
+        },
+        {
+          "name": "CFB Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4fec7bf2-8bc0-4649-8030-fea5c8a731e4.png",
+          "minutes": 30
+        },
+        {
+          "name": "CFB Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/40311acc-0c90-4afa-a6ed-a2bf7baac517.png",
+          "minutes": 60
+        },
+        {
+          "name": "CFB Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/216a21ee-de92-4de4-bf36-0227bc015db0.png",
+          "minutes": 120
+        },
+        {
+          "name": "CFB Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d34fbe37-a946-4cd5-b032-835247f83802.png",
+          "minutes": 180
+        },
+        {
+          "name": "CFB Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/487cf72c-95f6-4ab9-aa7d-ac649f40babc.png",
           "minutes": 240
         }
       ],
