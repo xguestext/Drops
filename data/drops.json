@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-07-31T21:36:15Z",
+  "updated_at": "2026-07-31T22:55:08Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-31T21:36:01.804Z",
+  "source_updated": "2026-07-31T22:55:01.422Z",
   "counts": {
-    "total": 74,
+    "total": 72,
     "upcoming": 6,
-    "active": 68,
-    "game_drops": 73,
+    "active": 66,
+    "game_drops": 71,
     "platform": 1,
     "badges": 2,
     "fechadas_descartadas": 40
@@ -1136,49 +1136,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "59c27354-8ddd-46f3-b133-f9e6dd383727",
-      "name": "NW2 SUMMER DROPS #2",
-      "status": "ACTIVE",
-      "start_at": "2026-07-24T14:00:00Z",
-      "end_at": "2026-07-31T21:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/40a33093-291f-4863-a3aa-c2fc730fa7e8.png",
-      "details_url": "https://twitch.nextworld2.com/",
-      "game": "NextWorld2",
-      "game_slug": "nextworld2",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/544682640_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 900,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Gladiátor Köpeny (100 db)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/680045bf-1308-4f95-9def-f0c0ce1e47c1.jpeg",
-          "minutes": 120
-        },
-        {
-          "name": "Gladiátor Gyűrű (1 db)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/28890cee-72b8-4ef7-b14c-00fe5531fbf4.jpeg",
-          "minutes": 300
-        },
-        {
-          "name": "Sárkány Tűzkő (5 db)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ddf54fd9-ea55-4f33-9b97-38f49d2e21d4.png",
-          "minutes": 600
-        },
-        {
-          "name": "Twitch Érme (1 db)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3aa3dd8a-e821-4e17-bf04-1f364c68d34e.jpeg",
-          "minutes": 840
-        },
-        {
-          "name": "Funnykini Jelmez (1 db)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5577cb49-47ea-4ce8-a073-1232be4cabcd.jpeg",
-          "minutes": 900
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "38164808-8277-41dd-b288-39197c610e38",
       "name": "Last Closed Playtest",
       "status": "ACTIVE",
@@ -2108,34 +2065,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "7c43ee7b-ade5-4e32-9572-297be6a91015",
-      "name": "GOALS - 31st of July",
-      "status": "ACTIVE",
-      "start_at": "2026-07-30T22:01:00Z",
-      "end_at": "2026-07-31T21:58:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/88246f9b-f9a6-4fe9-bfc1-849976802003.png",
-      "details_url": "https://playgoals.com/twitch-drops",
-      "game": "GOALS",
-      "game_slug": "goals",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/951160620_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 300,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Common+ Pack [1 Player]",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82a4b7fe-7458-4b59-b909-ebc30fc91521.png",
-          "minutes": 60
-        },
-        {
-          "name": "Uncommon+ Pack [1 Player]",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png",
-          "minutes": 300
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "1cb65a76-be27-401c-8308-f3eee3a4310a",
       "name": "July Drops",
       "status": "ACTIVE",
@@ -2304,6 +2233,29 @@
       "src": "sunkwi"
     },
     {
+      "id": "208e629e-7e96-4ba8-8b1d-46ddfd5edf23",
+      "name": "10th Anniversary - Week 4",
+      "status": "ACTIVE",
+      "start_at": "2026-07-31T14:00:00Z",
+      "end_at": "2026-08-02T21:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/03401109-cabd-417c-921f-a776c04dc012.png",
+      "details_url": "https://account.ankama.com/fr/twitch",
+      "game": "DOFUS Touch",
+      "game_slug": "dofus-touch",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/505045_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "10th Anniversary Gift",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f46515bc-40c4-46e6-9e58-4637f743c567.png",
+          "minutes": 120
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
       "id": "9ebbc894-d5a2-4c2b-a495-6364f6d6f495",
       "name": "NW2 SUMMER DROPS #3",
       "status": "ACTIVE",
@@ -2342,29 +2294,6 @@
           "name": "Twitch Isigúr Érintés (1 ",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6a099803-45c3-4179-a85c-9b1072166ff6.jpeg",
           "minutes": 900
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "208e629e-7e96-4ba8-8b1d-46ddfd5edf23",
-      "name": "10th Anniversary - Week 4",
-      "status": "ACTIVE",
-      "start_at": "2026-07-31T14:00:00Z",
-      "end_at": "2026-08-02T21:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/03401109-cabd-417c-921f-a776c04dc012.png",
-      "details_url": "https://account.ankama.com/fr/twitch",
-      "game": "DOFUS Touch",
-      "game_slug": "dofus-touch",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/505045_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "10th Anniversary Gift",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f46515bc-40c4-46e6-9e58-4637f743c567.png",
-          "minutes": 120
         }
       ],
       "src": "sunkwi"
