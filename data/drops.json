@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-07-31T05:49:04Z",
+  "updated_at": "2026-07-31T08:41:40Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-31T05:49:02.024Z",
+  "source_updated": "2026-07-31T08:41:01.533Z",
   "counts": {
-    "total": 77,
-    "upcoming": 11,
-    "active": 66,
-    "game_drops": 76,
+    "total": 78,
+    "upcoming": 14,
+    "active": 64,
+    "game_drops": 77,
     "platform": 1,
     "badges": 2,
     "fechadas_descartadas": 38
@@ -347,6 +347,120 @@
           "name": "Drop 6 - NW1",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/326381af-8d9d-45a8-8663-ac95fc03f0a5.png",
           "minutes": 240
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "d7d29e6e-db43-4b6a-88ab-4ba52c2b199c",
+      "name": "August Drops",
+      "status": "UPCOMING",
+      "start_at": "2026-08-01T00:00:00.000Z",
+      "end_at": "2026-08-01T23:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "The Quinfall",
+      "game_slug": "the-quinfall",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 300,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Twitch Reward Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
+          "minutes": 150
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "830944fa-c2d6-4911-8d8e-318fdb4be8af",
+      "name": "EA Season 10 Drops 3",
+      "status": "UPCOMING",
+      "start_at": "2026-08-01T00:00:00.000Z",
+      "end_at": "2026-08-07T23:58:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Dark and Darker",
+      "game_slug": "dark-and-darker",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2009321156_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 900,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "EAS10#3 Witness Emblem10",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/593c2e05-afae-41cf-9616-54224021dd1b.png",
+          "minutes": 60
+        },
+        {
+          "name": "EAS10#3 Healing Supplies",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e9edb22f-3443-41ee-aeab-084980a3000c.png",
+          "minutes": 120
+        },
+        {
+          "name": "EAS10#3 Witness Emblem20",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/38e6dc15-4483-4a60-9543-4bc1d3ed2056.png",
+          "minutes": 240
+        },
+        {
+          "name": "EAS10#3 Lockpick Set",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8875814a-ea20-4304-a4d9-30883d2e744e.png",
+          "minutes": 300
+        },
+        {
+          "name": "EAS10#3 15x Reward Tokens",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/426b9e46-6acb-4b83-a6ab-67b103e3ffac.png",
+          "minutes": 420
+        },
+        {
+          "name": "EAS10#3 Rare PotionBundle",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/96c3e90c-c56a-414b-b6da-8f0ebbbc4283.png",
+          "minutes": 480
+        },
+        {
+          "name": "EAS10#3 Witness Emblem30",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9bd5e624-26e9-49d8-b5de-2eec9755e087.png",
+          "minutes": 600
+        },
+        {
+          "name": "EAS10#3 4x Gold CoinPouch",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b7663ee0-de4c-45be-bcd5-2ede24542024.png",
+          "minutes": 720
+        },
+        {
+          "name": "EAS10#3 Witness Emblem50",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9914f34d-0494-46df-9224-c1eed8a675ea.png",
+          "minutes": 840
+        },
+        {
+          "name": "EAS10#3 Flame wheel",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/31162786-69a9-4170-a08b-83d090b99868.png",
+          "minutes": 900
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "0bf54d3e-73f8-4189-bf70-315e24ba006e",
+      "name": "Pokémon Pitch Black ETB",
+      "status": "UPCOMING",
+      "start_at": "2026-08-01T07:00:00.000Z",
+      "end_at": "2026-08-15T06:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Pokémon Trading Card Game Live",
+      "game_slug": "pokemon-trading-card-game-live",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/155409827_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 45,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Pitch Black ETB",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d89b7081-e77e-4fab-9996-c8fa32ad7cfc.png",
+          "minutes": 45
         }
       ],
       "src": "fenris"
@@ -947,29 +1061,6 @@
           "name": "Oroberyl*150",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1a7cfcc3-2ba4-4d43-a43c-82f91304ff3b.png",
           "minutes": 120
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "e9ef6f87-42e0-4816-8a38-d9183aacb654",
-      "name": "SAND",
-      "status": "ACTIVE",
-      "start_at": "2026-07-16T18:35:00Z",
-      "end_at": "2026-07-31T06:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/38d24035-adc7-4926-8abf-bc87edd4916e.png",
-      "details_url": "https://help.twitch.tv/s/article/twitch-chat-badges-guide",
-      "game": "Sand: Raiders Of Sophie",
-      "game_slug": "sand",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/960290413_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": null,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "SAND",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/63737b49-850b-4a1a-abb6-c6175be2f892.png",
-          "minutes": 0
         }
       ],
       "src": "sunkwi"
@@ -2099,39 +2190,6 @@
         }
       ],
       "src": "sunkwi"
-    },
-    {
-      "id": "304be1d1-a4cb-4131-8bd1-99ae50c6474d",
-      "name": "BSH 5",
-      "status": "ACTIVE",
-      "start_at": "2026-07-30T06:00:00.000Z",
-      "end_at": "2026-07-31T05:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Coin Pusher World",
-      "game_slug": "coin-pusher-world",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/530998549_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 300,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "10,000 Tickets",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4d0a5630-8167-4f34-bd2a-68e103627ccf.png",
-          "minutes": 60
-        },
-        {
-          "name": "cpw_tdrop30",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1361e19a-a7d8-43c6-bb3f-f5a8d0fc91e2.png",
-          "minutes": 180
-        },
-        {
-          "name": "50,000 Tickets",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/62fe286f-a3ea-46f3-a83b-b4d950e7c211.png",
-          "minutes": 300
-        }
-      ],
-      "src": "fenris"
     },
     {
       "id": "6be0706e-8217-4b64-b612-e6b2230e82a2",
