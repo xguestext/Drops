@@ -1,92 +1,18 @@
 {
-  "updated_at": "2026-07-31T13:13:13Z",
+  "updated_at": "2026-07-31T15:36:17Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-31T13:13:01.511Z",
+  "source_updated": "2026-07-31T15:36:01.716Z",
   "counts": {
-    "total": 74,
-    "upcoming": 9,
-    "active": 65,
-    "game_drops": 73,
+    "total": 72,
+    "upcoming": 6,
+    "active": 66,
+    "game_drops": 71,
     "platform": 1,
     "badges": 2,
-    "fechadas_descartadas": 37
+    "fechadas_descartadas": 40
   },
   "campaigns": [
-    {
-      "id": "208e629e-7e96-4ba8-8b1d-46ddfd5edf23",
-      "name": "10th Anniversary - Week 4",
-      "status": "UPCOMING",
-      "start_at": "2026-07-31T14:00:00.000Z",
-      "end_at": "2026-08-02T21:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "DOFUS Touch",
-      "game_slug": "dofus-touch",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/505045_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "10th Anniversary Gift",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f46515bc-40c4-46e6-9e58-4637f743c567.png",
-          "minutes": 120
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "9d731249-4e25-492c-979e-3402208ec12c",
-      "name": "Hunt 1896 (Week 2, Pt. 2)",
-      "status": "UPCOMING",
-      "start_at": "2026-07-31T15:00:00.000Z",
-      "end_at": "2026-08-02T14:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Hunt: Showdown 1896",
-      "game_slug": "hunt-showdown",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/500188_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Supply Crate",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/49f5eeb3-7299-40be-9c85-5d8af3068e3e.jpeg",
-          "minutes": 30
-        },
-        {
-          "name": "Random Legendary Skin",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0363e1bf-451a-44ff-8bb6-8ce1f0afb89a.jpeg",
-          "minutes": 240
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "82a41fdd-9890-4533-8b2f-6e4f37fa7e5c",
-      "name": "Обновление 26.7: Часть 4",
-      "status": "UPCOMING",
-      "start_at": "2026-07-31T15:00:00.000Z",
-      "end_at": "2026-08-07T14:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Mir Korabley",
-      "game_slug": "mir-korabley",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2133072147_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "26.7 Боевая задача #4",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9340e2c3-66b6-43fc-84c5-e5d769b8d8e3.png",
-          "minutes": 240
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "97b5cedd-6a8e-4960-8959-15574a29431a",
       "name": "CFB Live",
@@ -1587,29 +1513,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "ae6ca2e2-1099-49a6-91c6-9b972826419c",
-      "name": "Обновление 26.7: Часть 3",
-      "status": "ACTIVE",
-      "start_at": "2026-07-27T14:00:00Z",
-      "end_at": "2026-07-31T14:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/aaf808ba-2936-4b66-b1ab-66c0a99f47e3.jpeg",
-      "details_url": "https://krbli.ru/4dDrG8N",
-      "game": "Mir Korabley",
-      "game_slug": "mir-korabley",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2133072147_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "26.7 Боевая задача #3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6ca4fef0-666f-4527-8a33-b0558913399d.png",
-          "minutes": 240
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "8fbf0997-7499-40ce-8b31-b2717f77a7fa",
       "name": "Blazey Will Rock You!",
       "status": "ACTIVE",
@@ -1925,34 +1828,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "40d29e7f-5930-41cb-9b90-1fd0356daf38",
-      "name": "Hunt 1896 (Week 2, Pt. 1)",
-      "status": "ACTIVE",
-      "start_at": "2026-07-29T15:00:00Z",
-      "end_at": "2026-07-31T14:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e5015b30-ae9f-43b2-9fbf-7b8986a8f43c.jpeg",
-      "details_url": "https://www.huntshowdown.com/twitchdrops",
-      "game": "Hunt: Showdown 1896",
-      "game_slug": "hunt-showdown",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/500188_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Supply Crate",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/392add17-d82a-4e71-968c-a202f4bc2b14.jpeg",
-          "minutes": 30
-        },
-        {
-          "name": "Random Charm",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a005ad3d-8896-4f90-b4e3-f431dc04c253.jpeg",
-          "minutes": 240
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "49e3ccd9-52b8-4f5b-b2e4-a9c1f73f34f2",
       "name": "Foundation Festival 2026",
       "status": "ACTIVE",
@@ -2141,29 +2016,6 @@
           "name": "The Siiimpsooooons… Wrap",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f39cf497-6013-4e9d-808e-b0bf6042e452.jpeg",
           "minutes": 30
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "b3db48d9-4c67-4e35-ba40-9215d4944e96",
-      "name": "Battlegrounds S14 Streams",
-      "status": "ACTIVE",
-      "start_at": "2026-07-30T16:00:00Z",
-      "end_at": "2026-07-31T14:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/778a4c1e-bdb9-4442-9a88-097c3176a694.png",
-      "details_url": "https://hearthstone.blizzard.com/news/24290433/",
-      "game": "Hearthstone",
-      "game_slug": "hearthstone",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/138585-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "2 Battlegrounds Tokens",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f4d91714-dcd1-4c50-bac4-0c507a4cf2b3.png",
-          "minutes": 120
         }
       ],
       "src": "sunkwi"
@@ -2538,6 +2390,123 @@
           "name": "Morbie Celebration",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4599c5b9-5c96-4263-ba8e-5db371838e5a.png",
           "minutes": 0
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "9ebbc894-d5a2-4c2b-a495-6364f6d6f495",
+      "name": "NW2 SUMMER DROPS #3",
+      "status": "ACTIVE",
+      "start_at": "2026-07-31T14:00:00Z",
+      "end_at": "2026-08-07T09:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/161c9d02-3f16-42ae-811a-b68bec468df6.png",
+      "details_url": "https://twitch.nextworld2.com/",
+      "game": "NextWorld2",
+      "game_slug": "nextworld2",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/544682640_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 900,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Gladiátor Köpeny (100 db)",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6e084d74-5aa4-4fba-a843-2d45645c73eb.jpeg",
+          "minutes": 120
+        },
+        {
+          "name": "Gladiátor Gyűrű (1 db)",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2d12e648-8869-4a66-b0e7-6f9d2298193b.jpeg",
+          "minutes": 300
+        },
+        {
+          "name": "Twitch Érme (1 db)",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8ecd4c53-dbaf-4f39-aaca-0d6d8d2a54b3.jpeg",
+          "minutes": 600
+        },
+        {
+          "name": "Twitch Fókusz (1 db) ",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c6365031-2b9e-481b-abae-57f50f2d1d7f.jpeg",
+          "minutes": 840
+        },
+        {
+          "name": "Twitch Isigúr Érintés (1 ",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6a099803-45c3-4179-a85c-9b1072166ff6.jpeg",
+          "minutes": 900
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "208e629e-7e96-4ba8-8b1d-46ddfd5edf23",
+      "name": "10th Anniversary - Week 4",
+      "status": "ACTIVE",
+      "start_at": "2026-07-31T14:00:00Z",
+      "end_at": "2026-08-02T21:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/03401109-cabd-417c-921f-a776c04dc012.png",
+      "details_url": "https://account.ankama.com/fr/twitch",
+      "game": "DOFUS Touch",
+      "game_slug": "dofus-touch",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/505045_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "10th Anniversary Gift",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f46515bc-40c4-46e6-9e58-4637f743c567.png",
+          "minutes": 120
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "9d731249-4e25-492c-979e-3402208ec12c",
+      "name": "Hunt 1896 (Week 2, Pt. 2)",
+      "status": "ACTIVE",
+      "start_at": "2026-07-31T15:00:00Z",
+      "end_at": "2026-08-02T14:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/453677c7-5aec-45ad-82be-3f8225e82087.jpeg",
+      "details_url": "https://www.huntshowdown.com/twitchdrops",
+      "game": "Hunt: Showdown 1896",
+      "game_slug": "hunt-showdown",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/500188_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Supply Crate",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/49f5eeb3-7299-40be-9c85-5d8af3068e3e.jpeg",
+          "minutes": 30
+        },
+        {
+          "name": "Random Legendary Skin",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0363e1bf-451a-44ff-8bb6-8ce1f0afb89a.jpeg",
+          "minutes": 240
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "82a41fdd-9890-4533-8b2f-6e4f37fa7e5c",
+      "name": "Обновление 26.7: Часть 4",
+      "status": "ACTIVE",
+      "start_at": "2026-07-31T15:00:00Z",
+      "end_at": "2026-08-07T14:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/1729cda4-2fec-4c69-8f55-7b646b82684e.jpeg",
+      "details_url": "https://krbli.ru/4dDrG8N",
+      "game": "Mir Korabley",
+      "game_slug": "mir-korabley",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2133072147_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "26.7 Боевая задача #4",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9340e2c3-66b6-43fc-84c5-e5d769b8d8e3.png",
+          "minutes": 240
         }
       ],
       "src": "sunkwi"
