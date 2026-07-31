@@ -1,112 +1,18 @@
 {
-  "updated_at": "2026-07-31T11:25:42Z",
+  "updated_at": "2026-07-31T13:13:13Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-31T11:25:01.460Z",
+  "source_updated": "2026-07-31T13:13:01.511Z",
   "counts": {
-    "total": 77,
-    "upcoming": 12,
+    "total": 74,
+    "upcoming": 9,
     "active": 65,
-    "game_drops": 76,
+    "game_drops": 73,
     "platform": 1,
     "badges": 2,
-    "fechadas_descartadas": 38
+    "fechadas_descartadas": 37
   },
   "campaigns": [
-    {
-      "id": "cebc8868-4776-4043-92a0-f0ce0ee5fd2e",
-      "name": "New Class: Agent",
-      "status": "UPCOMING",
-      "start_at": "2026-07-31T12:00:00.000Z",
-      "end_at": "2026-08-01T11:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Black Desert",
-      "game_slug": "black-desert",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "1 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/832feb91-6d64-4eba-8b14-eeebad43f866.png",
-          "minutes": 60
-        },
-        {
-          "name": "2 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b101e2e4-faea-49ff-b7b3-c6e7dfbf9f07.png",
-          "minutes": 120
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "9e9fb393-7250-4da0-b94e-f306180750bb",
-      "name": "Season 3",
-      "status": "UPCOMING",
-      "start_at": "2026-07-31T12:00:00.000Z",
-      "end_at": "2026-08-14T11:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Deceit 2",
-      "game_slug": "deceit-2",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/72120714_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "1x Blessing",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4a6c63ab-ff56-4dcc-b699-e2723abfbc71.png",
-          "minutes": 30
-        },
-        {
-          "name": "4x Shards",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/619c742f-d379-485f-a780-ffe58acfea37.png",
-          "minutes": 60
-        },
-        {
-          "name": "6x Shards",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/779382ee-3f13-42bd-8a10-a6f5b9ebb1c2.png",
-          "minutes": 120
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "581e2a8a-9344-4366-984a-22ccfcb2ed6d",
-      "name": "MarbleFest - July'26-Day5",
-      "status": "UPCOMING",
-      "start_at": "2026-07-31T13:00:00.000Z",
-      "end_at": "2026-08-01T12:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Marbles on Stream",
-      "game_slug": "marbles-on-stream",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/509511_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 900,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Morbie Celebration",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4599c5b9-5c96-4263-ba8e-5db371838e5a.png",
-          "minutes": 0
-        },
-        {
-          "name": "15 Community Coins",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3924503a-4e48-4899-af4a-13f13f70e9b4.png",
-          "minutes": 120
-        },
-        {
-          "name": "30 Tournament Coins",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7c3916f7-38a1-4d1b-9477-4113c13afb79.png",
-          "minutes": 900
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "208e629e-7e96-4ba8-8b1d-46ddfd5edf23",
       "name": "10th Anniversary - Week 4",
@@ -2217,90 +2123,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "baf6b36f-bdf0-4979-8dfb-ae7b3e7af8b0",
-      "name": "2026 BDO Drops (Jul 30)",
-      "status": "ACTIVE",
-      "start_at": "2026-07-30T12:00:00.000Z",
-      "end_at": "2026-07-31T11:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Black Desert",
-      "game_slug": "black-desert",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "2 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f2cb7c7c-7ecd-423e-af93-0d2fc21fcd96.png",
-          "minutes": 120
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "613ab071-06bb-4fca-8ba4-f2014a1a841e",
-      "name": "New Class: Agent",
-      "status": "ACTIVE",
-      "start_at": "2026-07-30T12:00:00Z",
-      "end_at": "2026-07-31T11:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/5ac997e2-d99c-444a-b84b-0373a3c14053.png",
-      "details_url": "https://www.naeu.playblackdesert.com/News/Detail?groupContentNo=10373",
-      "game": "Black Desert",
-      "game_slug": "black-desert",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "1 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/832feb91-6d64-4eba-8b14-eeebad43f866.png",
-          "minutes": 60
-        },
-        {
-          "name": "2 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b101e2e4-faea-49ff-b7b3-c6e7dfbf9f07.png",
-          "minutes": 120
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "833ef3e9-7300-478b-8dd6-95382ac76837",
-      "name": "MarbleFest - July'26-Day4",
-      "status": "ACTIVE",
-      "start_at": "2026-07-30T13:00:00Z",
-      "end_at": "2026-07-31T12:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f2e4244c-1a51-4615-849d-1562d9a09e46.png",
-      "details_url": "https://pixelbypixel.studio/twitch-drops/",
-      "game": "Marbles on Stream",
-      "game_slug": "marbles-on-stream",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/509511_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 900,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "15 Community Coins",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3924503a-4e48-4899-af4a-13f13f70e9b4.png",
-          "minutes": 120
-        },
-        {
-          "name": "30 Tournament Coins",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7c3916f7-38a1-4d1b-9477-4113c13afb79.png",
-          "minutes": 900
-        },
-        {
-          "name": "PbP Deep Vibe",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/74bbfca0-63d3-41be-986e-b96bdbf0f5df.png",
-          "minutes": 0
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "1e5d7b87-1696-41bb-9736-e010ee4f4187",
       "name": "The Siiimpsooooons",
       "status": "ACTIVE",
@@ -2622,6 +2444,100 @@
           "name": "Park Ranger Head",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f02fbf9a-9d96-4398-85c4-f93b565adadb.png",
           "minutes": 300
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "cebc8868-4776-4043-92a0-f0ce0ee5fd2e",
+      "name": "New Class: Agent",
+      "status": "ACTIVE",
+      "start_at": "2026-07-31T12:00:00Z",
+      "end_at": "2026-08-01T11:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/11f1c7e6-2587-46d0-8f8b-ab7ec6ef61db.png",
+      "details_url": "https://www.naeu.playblackdesert.com/News/Detail?groupContentNo=10373",
+      "game": "Black Desert",
+      "game_slug": "black-desert",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "1 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/832feb91-6d64-4eba-8b14-eeebad43f866.png",
+          "minutes": 60
+        },
+        {
+          "name": "2 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b101e2e4-faea-49ff-b7b3-c6e7dfbf9f07.png",
+          "minutes": 120
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "9e9fb393-7250-4da0-b94e-f306180750bb",
+      "name": "Season 3",
+      "status": "ACTIVE",
+      "start_at": "2026-07-31T12:00:00Z",
+      "end_at": "2026-08-14T11:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/afcfe038-1998-40ee-88ca-f0943c04d1c2.png",
+      "details_url": "https://account.deceit.gg",
+      "game": "Deceit 2",
+      "game_slug": "deceit-2",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/72120714_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "1x Blessing",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4a6c63ab-ff56-4dcc-b699-e2723abfbc71.png",
+          "minutes": 30
+        },
+        {
+          "name": "4x Shards",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/619c742f-d379-485f-a780-ffe58acfea37.png",
+          "minutes": 60
+        },
+        {
+          "name": "6x Shards",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/779382ee-3f13-42bd-8a10-a6f5b9ebb1c2.png",
+          "minutes": 120
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "581e2a8a-9344-4366-984a-22ccfcb2ed6d",
+      "name": "Marble Day 259",
+      "status": "ACTIVE",
+      "start_at": "2026-07-31T13:00:00Z",
+      "end_at": "2026-08-01T12:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/0cdae568-3818-43f4-8cee-15c5b0be40ea.png",
+      "details_url": "https://pixelbypixel.studio/twitch-drops/",
+      "game": "Marbles on Stream",
+      "game_slug": "marbles-on-stream",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/509511_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 900,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "15 Community Coins",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3924503a-4e48-4899-af4a-13f13f70e9b4.png",
+          "minutes": 120
+        },
+        {
+          "name": "30 Tournament Coins",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7c3916f7-38a1-4d1b-9477-4113c13afb79.png",
+          "minutes": 900
+        },
+        {
+          "name": "Morbie Celebration",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4599c5b9-5c96-4263-ba8e-5db371838e5a.png",
+          "minutes": 0
         }
       ],
       "src": "sunkwi"
