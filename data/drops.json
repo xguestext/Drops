@@ -1,41 +1,18 @@
 {
-  "updated_at": "2026-08-01T16:59:48Z",
+  "updated_at": "2026-08-01T18:04:19Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-01T16:59:02.147Z",
+  "source_updated": "2026-08-01T18:04:02.156Z",
   "counts": {
-    "total": 73,
-    "upcoming": 6,
-    "active": 67,
-    "game_drops": 72,
+    "total": 71,
+    "upcoming": 5,
+    "active": 66,
+    "game_drops": 70,
     "platform": 1,
     "badges": 2,
-    "fechadas_descartadas": 43
+    "fechadas_descartadas": 45
   },
   "campaigns": [
-    {
-      "id": "f6b1faad-bb0e-403b-9b3c-0f4cb67d8a97",
-      "name": "Mobile Drop 114",
-      "status": "UPCOMING",
-      "start_at": "2026-08-01T17:59:00.000Z",
-      "end_at": "2026-08-02T17:56:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Rise Online",
-      "game_slug": "rise-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Regalia of Awakening",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
-          "minutes": 240
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "eff84f48-5468-4c00-8c76-4d4c348027b6",
       "name": "August Drops",
@@ -2079,77 +2056,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "97b5cedd-6a8e-4960-8959-15574a29431a",
-      "name": "CFB Live",
-      "status": "ACTIVE",
-      "start_at": "2026-07-31T17:00:00Z",
-      "end_at": "2026-08-01T16:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/10c2fa9e-4916-457f-9d7e-3d02532da4cc.png",
-      "details_url": "https://help.twitch.tv/s/article/mission-based-drops?language=en_US",
-      "game": "EA Sports College Football 27",
-      "game_slug": "ea-sports-college-football-27",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1678532194_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "CFB Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d6f5fced-77fc-4208-9a6c-bc33c725365a.png",
-          "minutes": 15
-        },
-        {
-          "name": "CFB Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4fec7bf2-8bc0-4649-8030-fea5c8a731e4.png",
-          "minutes": 30
-        },
-        {
-          "name": "CFB Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/40311acc-0c90-4afa-a6ed-a2bf7baac517.png",
-          "minutes": 60
-        },
-        {
-          "name": "CFB Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/216a21ee-de92-4de4-bf36-0227bc015db0.png",
-          "minutes": 120
-        },
-        {
-          "name": "CFB Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d34fbe37-a946-4cd5-b032-835247f83802.png",
-          "minutes": 180
-        },
-        {
-          "name": "CFB Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/487cf72c-95f6-4ab9-aa7d-ac649f40babc.png",
-          "minutes": 240
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "b8e0c073-ffb1-47a1-a7b6-7cc14fff540c",
-      "name": "Mobile Drop 113",
-      "status": "ACTIVE",
-      "start_at": "2026-07-31T17:59:00Z",
-      "end_at": "2026-08-01T17:56:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e73bfbf9-2093-4ee5-a8a2-6b337c87c616.png",
-      "details_url": "https://mobile.riseonlineworld.com/usercp?do=twitch",
-      "game": "Rise Online",
-      "game_slug": "rise-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Regalia of Awakening",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
-          "minutes": 240
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "3ddcf539-87cd-45f8-9376-852845f3f36e",
       "name": "August Week 1",
       "status": "ACTIVE",
@@ -2585,6 +2491,29 @@
           "name": "She Who Stalks Portrait",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2516d4a0-fd12-4207-a85b-b4d255162449.png",
           "minutes": 60
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "f6b1faad-bb0e-403b-9b3c-0f4cb67d8a97",
+      "name": "Mobile Drop 114",
+      "status": "ACTIVE",
+      "start_at": "2026-08-01T17:59:00Z",
+      "end_at": "2026-08-02T17:56:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/316525f6-9dca-4e3f-895e-b705938f2cf0.png",
+      "details_url": "https://mobile.riseonlineworld.com/usercp?do=twitch",
+      "game": "Rise Online",
+      "game_slug": "rise-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Regalia of Awakening",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
+          "minutes": 240
         }
       ],
       "src": "sunkwi"
