@@ -1,109 +1,18 @@
 {
-  "updated_at": "2026-07-31T23:57:10Z",
+  "updated_at": "2026-08-01T02:48:21Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-07-31T23:57:01.381Z",
+  "source_updated": "2026-08-01T02:48:01.858Z",
   "counts": {
-    "total": 72,
+    "total": 71,
     "upcoming": 6,
-    "active": 66,
-    "game_drops": 71,
+    "active": 65,
+    "game_drops": 70,
     "platform": 1,
     "badges": 2,
-    "fechadas_descartadas": 39
+    "fechadas_descartadas": 38
   },
   "campaigns": [
-    {
-      "id": "830944fa-c2d6-4911-8d8e-318fdb4be8af",
-      "name": "EA Season 10 Drops 3",
-      "status": "UPCOMING",
-      "start_at": "2026-08-01T00:00:00.000Z",
-      "end_at": "2026-08-07T23:58:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Dark and Darker",
-      "game_slug": "dark-and-darker",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2009321156_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 900,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "EAS10#3 Witness Emblem10",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/593c2e05-afae-41cf-9616-54224021dd1b.png",
-          "minutes": 60
-        },
-        {
-          "name": "EAS10#3 Healing Supplies",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e9edb22f-3443-41ee-aeab-084980a3000c.png",
-          "minutes": 120
-        },
-        {
-          "name": "EAS10#3 Witness Emblem20",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/38e6dc15-4483-4a60-9543-4bc1d3ed2056.png",
-          "minutes": 240
-        },
-        {
-          "name": "EAS10#3 Lockpick Set",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8875814a-ea20-4304-a4d9-30883d2e744e.png",
-          "minutes": 300
-        },
-        {
-          "name": "EAS10#3 15x Reward Tokens",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/426b9e46-6acb-4b83-a6ab-67b103e3ffac.png",
-          "minutes": 420
-        },
-        {
-          "name": "EAS10#3 Rare PotionBundle",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/96c3e90c-c56a-414b-b6da-8f0ebbbc4283.png",
-          "minutes": 480
-        },
-        {
-          "name": "EAS10#3 Witness Emblem30",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9bd5e624-26e9-49d8-b5de-2eec9755e087.png",
-          "minutes": 600
-        },
-        {
-          "name": "EAS10#3 4x Gold CoinPouch",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b7663ee0-de4c-45be-bcd5-2ede24542024.png",
-          "minutes": 720
-        },
-        {
-          "name": "EAS10#3 Witness Emblem50",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9914f34d-0494-46df-9224-c1eed8a675ea.png",
-          "minutes": 840
-        },
-        {
-          "name": "EAS10#3 Flame wheel",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/31162786-69a9-4170-a08b-83d090b99868.png",
-          "minutes": 900
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "d7d29e6e-db43-4b6a-88ab-4ba52c2b199c",
-      "name": "August Drops",
-      "status": "UPCOMING",
-      "start_at": "2026-08-01T00:00:00.000Z",
-      "end_at": "2026-08-01T23:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "The Quinfall",
-      "game_slug": "the-quinfall",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 300,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Twitch Reward Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
-          "minutes": 150
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "0bf54d3e-73f8-4189-bf70-315e24ba006e",
       "name": "Pokémon Pitch Black ETB",
@@ -146,6 +55,64 @@
           "name": "Radiant Wilds Chest",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
           "minutes": 180
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "b4618efe-5126-48a6-9724-860a4d825ab3",
+      "name": "August Week 1 - MLF! ",
+      "status": "UPCOMING",
+      "start_at": "2026-08-01T11:00:00.000Z",
+      "end_at": "2026-08-08T10:57:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "SMITE 2",
+      "game_slug": "smite-2",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2094865572-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 840,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Market Coins Bundle 1",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/903496ad-de97-41ff-ad97-12f099e20ea8.jpeg",
+          "minutes": 120
+        },
+        {
+          "name": "Market Coins Bundle 2",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c237f9f4-051c-4fed-b454-abb32c3e77bb.jpeg",
+          "minutes": 240
+        },
+        {
+          "name": "Market Coins Bundle 3",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/32d7e22a-e073-4507-8b82-500ebb448395.jpeg",
+          "minutes": 360
+        },
+        {
+          "name": "Market Coins Bundle 4",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/620d7b83-3e6a-4d84-bb47-f04c18c57868.jpeg",
+          "minutes": 480
+        },
+        {
+          "name": "Dark Enchantress MLF",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ee892f89-48e4-40e3-87cc-c2e454f91581.png",
+          "minutes": 600
+        },
+        {
+          "name": "Market Coins Bundle 5",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0b8e4f8a-acdc-4e46-8a69-86f52c8bea5c.jpeg",
+          "minutes": 600
+        },
+        {
+          "name": "Market Coins Bundle 6",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3ac43663-e809-40fa-9afa-b37999ee4dac.jpeg",
+          "minutes": 720
+        },
+        {
+          "name": "Market Coins Bundle 7",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/043434c4-1e73-40ae-80ec-ac836737e748.jpeg",
+          "minutes": 840
         }
       ],
       "src": "fenris"
@@ -207,6 +174,29 @@
           "name": "30 Tournament Coins",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7c3916f7-38a1-4d1b-9477-4113c13afb79.png",
           "minutes": 900
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "f6b1faad-bb0e-403b-9b3c-0f4cb67d8a97",
+      "name": "Mobile Drop 114",
+      "status": "UPCOMING",
+      "start_at": "2026-08-01T17:59:00.000Z",
+      "end_at": "2026-08-02T17:56:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Rise Online",
+      "game_slug": "rise-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Regalia of Awakening",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
+          "minutes": 240
         }
       ],
       "src": "fenris"
@@ -1159,102 +1149,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "fd99cd4b-02e5-4f1a-8664-8c8c01576129",
-      "name": "CotA Week 1 Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-07-24T20:00:00Z",
-      "end_at": "2026-07-31T23:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/3671f719-d820-4283-8459-8e7d666762c1.png",
-      "details_url": "https://www.pathofexile.com/twitchdrops",
-      "game": "Path of Exile",
-      "game_slug": "path-of-exile",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/29307_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Nautical Explorer's Back",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/eb3384ae-da90-4d82-b37a-9f1fc85a46a4.png",
-          "minutes": 180
-        },
-        {
-          "name": "Allflame Crafting Bench",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ec00b424-838b-48f4-be02-46d12da8a03c.png",
-          "minutes": 0
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "9301ccb5-dfc7-4200-bc06-a7eceecbfded",
-      "name": "EA Season 10 Drops 2",
-      "status": "ACTIVE",
-      "start_at": "2026-07-25T00:00:00Z",
-      "end_at": "2026-07-31T23:58:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/cd03bdc4-3199-489f-bcb3-29739d3b103e.png",
-      "details_url": "https://darkanddarker.com/twitch-drops/EAS10drops2",
-      "game": "Dark and Darker",
-      "game_slug": "dark-and-darker",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2009321156_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 900,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "EAS10#2 Witness Emblem50",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/48ffea91-a8b1-42c3-bbc7-846020197ff5.png",
-          "minutes": 840
-        },
-        {
-          "name": "EAS10#2 Witness Emblem10",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3d94c238-4450-44c3-b6be-9b47fce079d2.png",
-          "minutes": 60
-        },
-        {
-          "name": "EAS10#2 Mystic Campfire",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ede71fd0-8a7a-412b-b4fd-dfda45e98b44.png",
-          "minutes": 900
-        },
-        {
-          "name": "EAS10#2 Healing Supplies",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/62705a93-9f83-42f5-94ea-df8aed9e6c56.png",
-          "minutes": 120
-        },
-        {
-          "name": "EAS10#2 Witness Emblem20",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5aa5de23-b9b6-4ec5-a640-1c16a4195f7f.png",
-          "minutes": 240
-        },
-        {
-          "name": "EAS10#2 Lockpick Set",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1d051f97-6446-45dc-8cf7-beb99a3e0c06.png",
-          "minutes": 300
-        },
-        {
-          "name": "EAS10#2 15x Reward Tokens",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cd3e3ddd-3f44-4b27-9863-ce48b37f1c32.png",
-          "minutes": 420
-        },
-        {
-          "name": "EAS10#2 Rare PotionBundle",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3b5ea200-2473-42a0-a8fa-c360d3ebd47f.png",
-          "minutes": 480
-        },
-        {
-          "name": "EAS10#2 Witness Emblem30",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/163e995a-c524-45ed-ba7d-3d1ff63a0e2a.png",
-          "minutes": 600
-        },
-        {
-          "name": "EAS10#2 4x Gold CoinPouch",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7dd91316-38af-4aaa-be3b-6bf82ccff282.png",
-          "minutes": 720
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "94b05c28-7258-4789-8de3-8983ead6eb6d",
       "name": "July Week 4",
       "status": "ACTIVE",
@@ -2065,29 +1959,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "1cb65a76-be27-401c-8308-f3eee3a4310a",
-      "name": "July Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-07-31T00:00:00Z",
-      "end_at": "2026-07-31T23:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/6a18a0d9-cc16-4d15-83e2-d5318c9387b9.png",
-      "details_url": "https://www.quinfall.com/twitch-drops",
-      "game": "The Quinfall",
-      "game_slug": "the-quinfall",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Twitch Reward Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
-          "minutes": 180
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "5554558c-e5cd-4eac-8e37-56aef6b539f4",
       "name": "Radiant Wilds 16 - #5/7",
       "status": "ACTIVE",
@@ -2507,6 +2378,97 @@
           "name": "Drop 6 - NW1",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/326381af-8d9d-45a8-8663-ac95fc03f0a5.png",
           "minutes": 240
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "d7d29e6e-db43-4b6a-88ab-4ba52c2b199c",
+      "name": "August Drops",
+      "status": "ACTIVE",
+      "start_at": "2026-08-01T00:00:00Z",
+      "end_at": "2026-08-01T23:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/afbb23bc-97c8-4349-8b18-a96029de69f3.png",
+      "details_url": "https://www.quinfall.com/twitch-drops",
+      "game": "The Quinfall",
+      "game_slug": "the-quinfall",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 300,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Twitch Reward Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
+          "minutes": 150
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "830944fa-c2d6-4911-8d8e-318fdb4be8af",
+      "name": "EA Season 10 Drops 3",
+      "status": "ACTIVE",
+      "start_at": "2026-08-01T00:00:00Z",
+      "end_at": "2026-08-07T23:58:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/12f687f0-0116-4c70-aeb9-37520a7c1a5f.png",
+      "details_url": "https://darkanddarker.com/twitch-drops/EAS10drops3",
+      "game": "Dark and Darker",
+      "game_slug": "dark-and-darker",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2009321156_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 900,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "EAS10#3 Flame wheel",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/31162786-69a9-4170-a08b-83d090b99868.png",
+          "minutes": 900
+        },
+        {
+          "name": "EAS10#3 Witness Emblem10",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/593c2e05-afae-41cf-9616-54224021dd1b.png",
+          "minutes": 60
+        },
+        {
+          "name": "EAS10#3 Healing Supplies",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e9edb22f-3443-41ee-aeab-084980a3000c.png",
+          "minutes": 120
+        },
+        {
+          "name": "EAS10#3 Witness Emblem20",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/38e6dc15-4483-4a60-9543-4bc1d3ed2056.png",
+          "minutes": 240
+        },
+        {
+          "name": "EAS10#3 Lockpick Set",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8875814a-ea20-4304-a4d9-30883d2e744e.png",
+          "minutes": 300
+        },
+        {
+          "name": "EAS10#3 15x Reward Tokens",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/426b9e46-6acb-4b83-a6ab-67b103e3ffac.png",
+          "minutes": 420
+        },
+        {
+          "name": "EAS10#3 Rare PotionBundle",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/96c3e90c-c56a-414b-b6da-8f0ebbbc4283.png",
+          "minutes": 480
+        },
+        {
+          "name": "EAS10#3 Witness Emblem30",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9bd5e624-26e9-49d8-b5de-2eec9755e087.png",
+          "minutes": 600
+        },
+        {
+          "name": "EAS10#3 4x Gold CoinPouch",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b7663ee0-de4c-45be-bcd5-2ede24542024.png",
+          "minutes": 720
+        },
+        {
+          "name": "EAS10#3 Witness Emblem50",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9914f34d-0494-46df-9224-c1eed8a675ea.png",
+          "minutes": 840
         }
       ],
       "src": "sunkwi"
