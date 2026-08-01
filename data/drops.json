@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-01T15:57:12Z",
+  "updated_at": "2026-08-01T16:59:48Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-01T15:57:02.117Z",
+  "source_updated": "2026-08-01T16:59:02.147Z",
   "counts": {
-    "total": 69,
-    "upcoming": 2,
+    "total": 73,
+    "upcoming": 6,
     "active": 67,
-    "game_drops": 68,
+    "game_drops": 72,
     "platform": 1,
     "badges": 2,
     "fechadas_descartadas": 43
@@ -55,6 +55,123 @@
           "name": "Twitch Reward Chest",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
           "minutes": 150
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "056f97d2-8c11-4be8-8bcc-0b5aa4a509bf",
+      "name": "Radiant Wilds 16 - #7/7",
+      "status": "UPCOMING",
+      "start_at": "2026-08-02T10:00:00.000Z",
+      "end_at": "2026-08-03T09:29:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Albion Online",
+      "game_slug": "albion-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Radiant Wilds Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
+          "minutes": 180
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "6f236e81-1a02-4160-aff5-9627e5ff2d34",
+      "name": "New Class: Agent",
+      "status": "UPCOMING",
+      "start_at": "2026-08-02T12:00:00.000Z",
+      "end_at": "2026-08-03T11:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Black Desert",
+      "game_slug": "black-desert",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "1 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/95e6485f-9a7f-420d-85ec-10b1ab32aa54.png",
+          "minutes": 60
+        },
+        {
+          "name": "2 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3db86642-3b28-4591-8033-df1f7ad3df51.png",
+          "minutes": 120
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "abdd605e-6496-4a31-a092-e9e101331e7b",
+      "name": "MarbleFest - July'26-Day7",
+      "status": "UPCOMING",
+      "start_at": "2026-08-02T13:00:00.000Z",
+      "end_at": "2026-08-03T15:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Marbles on Stream",
+      "game_slug": "marbles-on-stream",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/509511_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 900,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Morbie Celebration",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4599c5b9-5c96-4263-ba8e-5db371838e5a.png",
+          "minutes": 0
+        },
+        {
+          "name": "15 Community Coins",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3924503a-4e48-4899-af4a-13f13f70e9b4.png",
+          "minutes": 120
+        },
+        {
+          "name": "30 Tournament Coins",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7c3916f7-38a1-4d1b-9477-4113c13afb79.png",
+          "minutes": 900
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "352f8aee-5a04-4dbc-85e4-3013f31c0476",
+      "name": "Hunt 1896 (Week 2, Pt. 3)",
+      "status": "UPCOMING",
+      "start_at": "2026-08-02T15:00:00.000Z",
+      "end_at": "2026-08-05T23:58:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Hunt: Showdown 1896",
+      "game_slug": "hunt-showdown",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/500188_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Supply Crate",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/21eee310-80de-47b6-a916-76bf3ab533ce.jpeg",
+          "minutes": 30
+        },
+        {
+          "name": "Random Avatar",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/46b1001c-07d8-4747-b9a6-d1fd06760dd3.jpeg",
+          "minutes": 120
+        },
+        {
+          "name": "Random Legendary Hunter",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f44fe537-7ada-4af8-be8d-1e42f063a32b.jpeg",
+          "minutes": 240
         }
       ],
       "src": "fenris"
