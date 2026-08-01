@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-01T05:50:49Z",
+  "updated_at": "2026-08-01T08:11:56Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-01T05:50:01.620Z",
+  "source_updated": "2026-08-01T08:11:01.410Z",
   "counts": {
     "total": 72,
     "upcoming": 6,
@@ -13,29 +13,6 @@
     "fechadas_descartadas": 40
   },
   "campaigns": [
-    {
-      "id": "0bf54d3e-73f8-4189-bf70-315e24ba006e",
-      "name": "Pokémon Pitch Black ETB",
-      "status": "UPCOMING",
-      "start_at": "2026-08-01T07:00:00.000Z",
-      "end_at": "2026-08-15T06:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Pokémon Trading Card Game Live",
-      "game_slug": "pokemon-trading-card-game-live",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/155409827_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 45,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Pitch Black ETB",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d89b7081-e77e-4fab-9996-c8fa32ad7cfc.png",
-          "minutes": 45
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "b58a12fa-d55f-462e-90af-404faaa93679",
       "name": "Radiant Wilds 16 - #6/7",
@@ -202,6 +179,29 @@
       "src": "fenris"
     },
     {
+      "id": "eff84f48-5468-4c00-8c76-4d4c348027b6",
+      "name": "August Drops",
+      "status": "UPCOMING",
+      "start_at": "2026-08-02T00:00:00.000Z",
+      "end_at": "2026-08-02T23:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "The Quinfall",
+      "game_slug": "the-quinfall",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 300,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Twitch Reward Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
+          "minutes": 150
+        }
+      ],
+      "src": "fenris"
+    },
+    {
       "id": "56235860-ec68-469b-aae2-3b7b23e4ae89",
       "name": "ACBFR Launch",
       "status": "ACTIVE",
@@ -286,29 +286,6 @@
           "name": "Exclusive Skin (S6)",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/88aac49c-19af-4df4-a872-4c20febf10af.png",
           "minutes": 360
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "d42acb8a-5fbf-4a6e-9b5b-2a59eb80e9a0",
-      "name": "AC Black Flag Resynced",
-      "status": "ACTIVE",
-      "start_at": "2026-07-09T15:00:00Z",
-      "end_at": "2026-08-01T06:58:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/3565fcb0-fdb1-427e-8983-6d3b4c2df9ca.png",
-      "details_url": "https://help.twitch.tv/s/article/twitch-chat-badges-guide",
-      "game": "Assassin's Creed Black Flag Resynced",
-      "game_slug": "assassins-creed-black-flag-resynced",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/278441117-120x160.jpg",
-      "availability": "open",
-      "required_minutes": null,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "AC Black Flag Resynced",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3c03bd7c-fe9e-4a37-bc7e-9234b4dc86ad.png",
-          "minutes": 0
         }
       ],
       "src": "sunkwi"
@@ -2577,6 +2554,29 @@
           "name": "Gold Drop",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c21cec4b-555b-4584-99c0-e215ab2556c6.png",
           "minutes": 0
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "0bf54d3e-73f8-4189-bf70-315e24ba006e",
+      "name": "Pokémon Pitch Black ETB",
+      "status": "ACTIVE",
+      "start_at": "2026-08-01T07:00:00Z",
+      "end_at": "2026-08-15T06:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/77533f70-cd58-49bb-abb0-6b153083273a.png",
+      "details_url": "https://rewards.pokemon.com/",
+      "game": "Pokémon Trading Card Game Live",
+      "game_slug": "pokemon-trading-card-game-live",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/155409827_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 45,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Pitch Black ETB",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d89b7081-e77e-4fab-9996-c8fa32ad7cfc.png",
+          "minutes": 45
         }
       ],
       "src": "sunkwi"
