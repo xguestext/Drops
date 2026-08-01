@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-01T14:44:02Z",
+  "updated_at": "2026-08-01T15:57:12Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-01T14:44:02.037Z",
+  "source_updated": "2026-08-01T15:57:02.117Z",
   "counts": {
-    "total": 68,
+    "total": 69,
     "upcoming": 2,
-    "active": 66,
-    "game_drops": 67,
+    "active": 67,
+    "game_drops": 68,
     "platform": 1,
     "badges": 2,
     "fechadas_descartadas": 43
@@ -2440,6 +2440,34 @@
           "name": "PbP Deep Vibe",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/74bbfca0-63d3-41be-986e-b96bdbf0f5df.png",
           "minutes": 0
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "cd5a6322-52b0-4e5c-bd24-03581f98d2dd",
+      "name": "Welcome to ZeroSpace",
+      "status": "ACTIVE",
+      "start_at": "2026-08-01T15:11:07Z",
+      "end_at": "2026-08-28T23:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e48d7be6-6d96-4b2c-9c05-e94b282691d4.png",
+      "details_url": "https://zsalpha.playzerospace.com/twitchauth",
+      "game": "ZeroSpace",
+      "game_slug": "zerospace",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/813773698_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Loi'Kru Portrait",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a63c5ac2-1431-4091-9311-68d0847d1d88.png",
+          "minutes": 180
+        },
+        {
+          "name": "She Who Stalks Portrait",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2516d4a0-fd12-4207-a85b-b4d255162449.png",
+          "minutes": 60
         }
       ],
       "src": "sunkwi"
