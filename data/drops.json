@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-08-02T13:09:05Z",
+  "updated_at": "2026-08-02T14:46:28Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-02T13:09:02.550Z",
+  "source_updated": "2026-08-02T14:46:02.709Z",
   "counts": {
     "total": 71,
     "upcoming": 5,
     "active": 66,
     "game_drops": 70,
     "platform": 1,
-    "badges": 0,
-    "fechadas_descartadas": 41
+    "badges": 2,
+    "fechadas_descartadas": 44
   },
   "campaigns": [
     {
@@ -2537,8 +2537,26 @@
       "src": "sunkwi"
     }
   ],
-  "badges": [],
+  "badges": [
+    {
+      "title": "Final Fantasy XIV Fan Festival 2026 JP",
+      "start_at": "2026-10-30T00:00:00Z",
+      "end_at": "2026-11-01T23:59:00Z",
+      "note": null,
+      "images": [
+        "https://static-cdn.jtvnw.net/badges/v1/1826cb5f-32a9-409a-9829-f6f47ea68239/3",
+        "https://static-cdn.jtvnw.net/badges/v1/e7d696ad-4479-4e44-bceb-5643f80bef38/3"
+      ]
+    },
+    {
+      "title": "TwitchCon 2027 Berlin",
+      "start_at": "2027-05-22T00:00:00Z",
+      "end_at": "2027-05-23T23:59:00Z",
+      "note": "TwitchCon events have always come with their own badges. It’s expected to be the same case this year. Stay tuned!",
+      "images": []
+    }
+  ],
   "error": null,
-  "warn": "Fonte parcial fora do ar: twitchdrops: AttributeError; streamdatabase(badges): TimeoutError",
+  "warn": "Fonte parcial fora do ar: twitchdrops: AttributeError",
   "raw_hint": null
 }
