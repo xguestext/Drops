@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-08-02T21:50:24Z",
+  "updated_at": "2026-08-02T22:51:00Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-02T21:50:02.149Z",
+  "source_updated": "2026-08-02T22:50:03.211Z",
   "counts": {
-    "total": 71,
+    "total": 69,
     "upcoming": 5,
-    "active": 66,
-    "game_drops": 70,
+    "active": 64,
+    "game_drops": 68,
     "platform": 1,
     "badges": 2,
-    "fechadas_descartadas": 40
+    "fechadas_descartadas": 36
   },
   "campaigns": [
     {
@@ -142,34 +142,6 @@
         }
       ],
       "src": "fenris"
-    },
-    {
-      "id": "56235860-ec68-469b-aae2-3b7b23e4ae89",
-      "name": "ACBFR Launch",
-      "status": "ACTIVE",
-      "start_at": "2026-07-08T10:01:00Z",
-      "end_at": "2026-08-02T21:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/805b9584-f9df-4f4b-ae04-bd44bde09552.png",
-      "details_url": "https://www.ubisoft.com/help/article/000065532",
-      "game": "Assassin's Creed Black Flag Resynced",
-      "game_slug": "assassins-creed-black-flag-resynced",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/278441117-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Rustborne Swords",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4b12cb83-7dce-4006-a45f-be63a2159c2f.png",
-          "minutes": 120
-        },
-        {
-          "name": "Cheetah Claw Cat",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/109d672a-dd01-496a-a88c-57a998575a48.png",
-          "minutes": 240
-        }
-      ],
-      "src": "sunkwi"
     },
     {
       "id": "1faf15d6-2529-430a-a218-daa2ddbbb60d",
@@ -1880,29 +1852,6 @@
         {
           "name": "6x Shards",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/779382ee-3f13-42bd-8a10-a6f5b9ebb1c2.png",
-          "minutes": 120
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "208e629e-7e96-4ba8-8b1d-46ddfd5edf23",
-      "name": "10th Anniversary - Week 4",
-      "status": "ACTIVE",
-      "start_at": "2026-07-31T14:00:00Z",
-      "end_at": "2026-08-02T21:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/03401109-cabd-417c-921f-a776c04dc012.png",
-      "details_url": "https://account.ankama.com/fr/twitch",
-      "game": "DOFUS Touch",
-      "game_slug": "dofus-touch",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/505045_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "10th Anniversary Gift",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f46515bc-40c4-46e6-9e58-4637f743c567.png",
           "minutes": 120
         }
       ],
