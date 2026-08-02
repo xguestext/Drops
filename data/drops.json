@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-08-02T18:00:32Z",
+  "updated_at": "2026-08-02T19:41:35Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-02T18:00:01.588Z",
+  "source_updated": "2026-08-02T19:41:01.589Z",
   "counts": {
-    "total": 72,
+    "total": 71,
     "upcoming": 5,
-    "active": 67,
-    "game_drops": 71,
+    "active": 66,
+    "game_drops": 70,
     "platform": 1,
     "badges": 2,
-    "fechadas_descartadas": 44
+    "fechadas_descartadas": 41
   },
   "campaigns": [
     {
@@ -2346,29 +2346,6 @@
           "name": "She Who Stalks Portrait",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2516d4a0-fd12-4207-a85b-b4d255162449.png",
           "minutes": 60
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "f6b1faad-bb0e-403b-9b3c-0f4cb67d8a97",
-      "name": "Mobile Drop 114",
-      "status": "ACTIVE",
-      "start_at": "2026-08-01T17:59:00Z",
-      "end_at": "2026-08-02T17:56:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/316525f6-9dca-4e3f-895e-b705938f2cf0.png",
-      "details_url": "https://mobile.riseonlineworld.com/usercp?do=twitch",
-      "game": "Rise Online",
-      "game_slug": "rise-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Regalia of Awakening",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
-          "minutes": 240
         }
       ],
       "src": "sunkwi"
