@@ -1,41 +1,18 @@
 {
-  "updated_at": "2026-08-03T02:21:11Z",
+  "updated_at": "2026-08-03T05:56:03Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-03T02:21:02.814Z",
+  "source_updated": "2026-08-03T05:56:01.334Z",
   "counts": {
-    "total": 70,
-    "upcoming": 5,
+    "total": 69,
+    "upcoming": 4,
     "active": 65,
-    "game_drops": 69,
-    "platform": 1,
+    "game_drops": 67,
+    "platform": 2,
     "badges": 2,
     "fechadas_descartadas": 34
   },
   "campaigns": [
-    {
-      "id": "db1ad598-ce60-4ffe-aa95-614343498be0",
-      "name": "JS1 Weekly 8.3",
-      "status": "UPCOMING",
-      "start_at": "2026-08-03T04:00:00.000Z",
-      "end_at": "2026-08-10T03:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "NARAKA: BLADEPOINT",
-      "game_slug": "naraka-bladepoint",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/515474_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 60,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Special Random Gift",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/066c42e3-2599-4297-a7ec-25971442bdb3.png",
-          "minutes": 60
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "53844141-3137-45fb-a602-c73242301561",
       "name": "Radiant Wilds 17 - #1/7",
@@ -1073,29 +1050,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "11a622cd-9a5d-4c55-a459-53b9e745f85a",
-      "name": "JS1 Weekly 7.27",
-      "status": "ACTIVE",
-      "start_at": "2026-07-27T04:00:00Z",
-      "end_at": "2026-08-03T03:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d52435cb-ad2a-4491-bbaf-fd613f9fd663.png",
-      "details_url": "https://www.narakathegame.com/news/official/20250723/32172_1249209.html",
-      "game": "NARAKA: BLADEPOINT",
-      "game_slug": "naraka-bladepoint",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/515474_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 60,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Special Random Gift",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/066c42e3-2599-4297-a7ec-25971442bdb3.png",
-          "minutes": 60
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "8fbf0997-7499-40ce-8b31-b2717f77a7fa",
       "name": "Blazey Will Rock You!",
       "status": "ACTIVE",
@@ -1886,49 +1840,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "fe437274-f396-4d21-9529-9eb54467e8e4",
-      "name": "DF RISE Series S1 Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-07-31T16:00:00Z",
-      "end_at": "2026-08-03T03:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/6da24e70-21da-472d-8108-1bd9bb3af937.png",
-      "details_url": "https://www.playdeltaforce.com/act/twitchdrops/index.html",
-      "game": "Delta Force",
-      "game_slug": "delta-force-hawk-ops",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1282866981_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 90,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Basic Armament S. Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/012c2416-3d1b-470b-ac4a-1f3ef8d4c2cb.png",
-          "minutes": 15
-        },
-        {
-          "name": "Ops Challenge Supply Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4ec0bc1c-9225-46fa-bd87-4cef681f34d7.png",
-          "minutes": 30
-        },
-        {
-          "name": "C Card - C Graffiti",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f4daef25-518e-4798-88ff-8022ce34f713.png",
-          "minutes": 45
-        },
-        {
-          "name": "Standard Gear Ticket",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d5ff515a-cbcc-4e07-935e-d2ab834c0b49.png",
-          "minutes": 60
-        },
-        {
-          "name": "M249 - Action Time",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/380f4346-65ec-471f-b335-4b622b2686d7.png",
-          "minutes": 90
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "3ddcf539-87cd-45f8-9376-852845f3f36e",
       "name": "August Week 1",
       "status": "ACTIVE",
@@ -2481,6 +2392,29 @@
       "src": "sunkwi"
     },
     {
+      "id": "db1ad598-ce60-4ffe-aa95-614343498be0",
+      "name": "JS1 Weekly 8.3",
+      "status": "ACTIVE",
+      "start_at": "2026-08-03T04:00:00Z",
+      "end_at": "2026-08-10T03:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/744bcfce-7aa7-4727-891d-2f11b9a227c0.png",
+      "details_url": "https://www.narakathegame.com/news/official/20250723/32172_1249209.html",
+      "game": "NARAKA: BLADEPOINT",
+      "game_slug": "naraka-bladepoint",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/515474_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 60,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Special Random Gift",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/066c42e3-2599-4297-a7ec-25971442bdb3.png",
+          "minutes": 60
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
       "id": "8a9dd118-ea88-410a-ba60-84cb1332aad2",
       "name": "Roblox Egg Hunt",
       "status": "ACTIVE",
@@ -2499,6 +2433,39 @@
           "name": "RBLXpip Emote",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3c814d63-116d-45e2-a44f-9ec33b49ad99.png",
           "minutes": 30
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "e3dafba0-3308-4951-86b1-88b839fa3049",
+      "name": "#IntoTheRainbow 2026",
+      "status": "ACTIVE",
+      "start_at": "2026-08-03T04:00:00Z",
+      "end_at": "2026-08-11T03:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/23795669-a2fb-45d5-bb69-dc95b2f7844a.jpeg",
+      "details_url": "https://account.bhvr.com/twitch/dbd",
+      "game": "Dead by Daylight",
+      "game_slug": "dead-by-daylight",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/491487-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "platform",
+      "rewards": [
+        {
+          "name": "Proud Orela Banner",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e0ccc4b6-ed9a-45f3-b7ae-c1a022501ff6.png",
+          "minutes": 120
+        },
+        {
+          "name": "Proud David Banner",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fad20279-e1fa-4c94-8da4-070ab7c7337c.png",
+          "minutes": 120
+        },
+        {
+          "name": "Proud Susie Banner",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/609db98a-8d78-4618-8e80-1d2ea2acd9c6.png",
+          "minutes": 120
         }
       ],
       "src": "sunkwi"
