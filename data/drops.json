@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-08-03T05:56:03Z",
+  "updated_at": "2026-08-03T09:38:46Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-03T05:56:01.334Z",
+  "source_updated": "2026-08-03T09:38:01.914Z",
   "counts": {
-    "total": 69,
+    "total": 67,
     "upcoming": 4,
-    "active": 65,
-    "game_drops": 67,
+    "active": 63,
+    "game_drops": 65,
     "platform": 2,
     "badges": 2,
-    "fechadas_descartadas": 34
+    "fechadas_descartadas": 33
   },
   "campaigns": [
     {
@@ -1558,39 +1558,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "750aca36-29b5-4819-929d-d35be3859970",
-      "name": "Homestead Event",
-      "status": "ACTIVE",
-      "start_at": "2026-07-30T16:00:00Z",
-      "end_at": "2026-08-03T06:58:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ebd6e7b7-ffef-4fec-b840-40234651a9e5.png",
-      "details_url": "https://www.guildwars2.com/en/twitch-drops/",
-      "game": "Guild Wars 2",
-      "game_slug": "guild-wars-2",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/19357_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 300,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Bouquet of Roses",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9081733f-a073-4efe-9108-261e963a1b3f.png",
-          "minutes": 180
-        },
-        {
-          "name": "Butler Outfit",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8cbf6222-4096-4dfb-b66e-f04ccbb8d741.png",
-          "minutes": 300
-        },
-        {
-          "name": "Lion’s Arch Survivors Dye",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7081dbde-2e41-4e17-80e7-1818de88bdb0.png",
-          "minutes": 90
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "faca05ea-14ce-4a8f-bd9e-e276e7014673",
       "name": "Update 15.6 Drop: Week 3",
       "status": "ACTIVE",
@@ -2168,29 +2135,6 @@
           "name": "She Who Stalks Portrait",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2516d4a0-fd12-4207-a85b-b4d255162449.png",
           "minutes": 60
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "056f97d2-8c11-4be8-8bcc-0b5aa4a509bf",
-      "name": "Radiant Wilds 16 - #7/7",
-      "status": "ACTIVE",
-      "start_at": "2026-08-02T10:00:00Z",
-      "end_at": "2026-08-03T09:29:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f2351b70-28b8-4caa-9616-a396e8231d65.png",
-      "details_url": "https://forum.albiononline.com/index.php/Thread/214756-New-Twitch-Drops-Launching-Monday-July-28-2025/",
-      "game": "Albion Online",
-      "game_slug": "albion-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Radiant Wilds Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
-          "minutes": 180
         }
       ],
       "src": "sunkwi"
