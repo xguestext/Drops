@@ -1,69 +1,18 @@
 {
-  "updated_at": "2026-08-03T09:38:46Z",
+  "updated_at": "2026-08-03T12:52:25Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-03T09:38:01.914Z",
+  "source_updated": "2026-08-03T12:52:01.845Z",
   "counts": {
-    "total": 67,
-    "upcoming": 4,
+    "total": 65,
+    "upcoming": 2,
     "active": 63,
-    "game_drops": 65,
+    "game_drops": 63,
     "platform": 2,
     "badges": 2,
     "fechadas_descartadas": 33
   },
   "campaigns": [
-    {
-      "id": "53844141-3137-45fb-a602-c73242301561",
-      "name": "Radiant Wilds 17 - #1/7",
-      "status": "UPCOMING",
-      "start_at": "2026-08-03T10:00:00.000Z",
-      "end_at": "2026-08-04T09:29:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Albion Online",
-      "game_slug": "albion-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Radiant Wilds Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
-          "minutes": 180
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "0e3ddbf3-ca71-4c97-9022-343abe920493",
-      "name": "New Class: Agent",
-      "status": "UPCOMING",
-      "start_at": "2026-08-03T12:00:00.000Z",
-      "end_at": "2026-08-04T11:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Black Desert",
-      "game_slug": "black-desert",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "1 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/832feb91-6d64-4eba-8b14-eeebad43f866.png",
-          "minutes": 60
-        },
-        {
-          "name": "2 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b101e2e4-faea-49ff-b7b3-c6e7dfbf9f07.png",
-          "minutes": 120
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "b802d020-c152-4030-806a-01b2bc2d458a",
       "name": "Webs Assemble - Week 2",
@@ -1680,34 +1629,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "bb4c232a-002f-48ce-a450-603453be56a2",
-      "name": "Medieval 2026 Part 4",
-      "status": "ACTIVE",
-      "start_at": "2026-07-31T10:00:00Z",
-      "end_at": "2026-08-03T09:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d33ace16-24d8-40bd-b33e-de81c6a496ed.png",
-      "details_url": "https://playnewz.com/news",
-      "game": "Infestation: The New Z",
-      "game_slug": "infestation-the-new-z",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/491289_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 300,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Medieval 2026",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8f7ca076-6706-4b04-99ae-7a4cd1cc7939.png",
-          "minutes": 30
-        },
-        {
-          "name": "Park Ranger Head",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f02fbf9a-9d96-4398-85c4-f93b565adadb.png",
-          "minutes": 300
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "9e9fb393-7250-4da0-b94e-f306180750bb",
       "name": "Season 3",
       "status": "ACTIVE",
@@ -2140,34 +2061,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "6f236e81-1a02-4160-aff5-9627e5ff2d34",
-      "name": "New Class: Agent",
-      "status": "ACTIVE",
-      "start_at": "2026-08-02T12:00:00Z",
-      "end_at": "2026-08-03T11:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/5c37e4aa-34da-41d1-b49f-df0cfd908756.png",
-      "details_url": "https://www.naeu.playblackdesert.com/News/Detail?groupContentNo=10373",
-      "game": "Black Desert",
-      "game_slug": "black-desert",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "1 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/95e6485f-9a7f-420d-85ec-10b1ab32aa54.png",
-          "minutes": 60
-        },
-        {
-          "name": "2 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3db86642-3b28-4591-8033-df1f7ad3df51.png",
-          "minutes": 120
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "abdd605e-6496-4a31-a092-e9e101331e7b",
       "name": "MarbleFest - July'26-Day7",
       "status": "ACTIVE",
@@ -2354,6 +2247,57 @@
           "name": "Special Random Gift",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/066c42e3-2599-4297-a7ec-25971442bdb3.png",
           "minutes": 60
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "53844141-3137-45fb-a602-c73242301561",
+      "name": "Radiant Wilds 17 - #1/7",
+      "status": "ACTIVE",
+      "start_at": "2026-08-03T10:00:00Z",
+      "end_at": "2026-08-04T09:29:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/11f4f696-c180-4510-822e-e7de86b782e0.png",
+      "details_url": "https://forum.albiononline.com/index.php/Thread/214756-New-Twitch-Drops-Launching-Monday-July-28-2025/",
+      "game": "Albion Online",
+      "game_slug": "albion-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Radiant Wilds Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
+          "minutes": 180
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "0e3ddbf3-ca71-4c97-9022-343abe920493",
+      "name": "New Class: Agent",
+      "status": "ACTIVE",
+      "start_at": "2026-08-03T12:00:00Z",
+      "end_at": "2026-08-04T11:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ee618263-d037-4769-b145-d6f2f0626859.png",
+      "details_url": "https://www.naeu.playblackdesert.com/News/Detail?groupContentNo=10373",
+      "game": "Black Desert",
+      "game_slug": "black-desert",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "1 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/832feb91-6d64-4eba-8b14-eeebad43f866.png",
+          "minutes": 60
+        },
+        {
+          "name": "2 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b101e2e4-faea-49ff-b7b3-c6e7dfbf9f07.png",
+          "minutes": 120
         }
       ],
       "src": "sunkwi"
