@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-08-03T19:23:57Z",
+  "updated_at": "2026-08-03T20:42:29Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-03T19:23:01.552Z",
+  "source_updated": "2026-08-03T20:42:01.686Z",
   "counts": {
-    "total": 64,
+    "total": 63,
     "upcoming": 5,
-    "active": 59,
-    "game_drops": 62,
+    "active": 58,
+    "game_drops": 61,
     "platform": 2,
     "badges": 2,
-    "fechadas_descartadas": 32
+    "fechadas_descartadas": 31
   },
   "campaigns": [
     {
@@ -1804,114 +1804,6 @@
           "name": "EAS10#3 Witness Emblem50",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9914f34d-0494-46df-9224-c1eed8a675ea.png",
           "minutes": 840
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "ccb859f0-d4b5-4d52-bf58-0367cb668761",
-      "name": "Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-08-01T03:50:59Z",
-      "end_at": "2026-08-03T19:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/922bd59d-8fdf-4a31-a53a-d0840d3637fa.png",
-      "details_url": "https://huntclubonstream.lovable.app/legal",
-      "game": "Hunt Club On Stream",
-      "game_slug": "hunt-club-on-stream",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2097881176_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 900,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Fishing Bronze Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f2483ed6-caca-4982-832b-30a5788da2a3.png",
-          "minutes": 60
-        },
-        {
-          "name": "Hunting Bronze Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e161beb4-1b29-4111-9157-46998164cc56.png",
-          "minutes": 60
-        },
-        {
-          "name": "Fishing Silver Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba14718d-6cf5-4a25-9700-a7519603b571.png",
-          "minutes": 180
-        },
-        {
-          "name": "Hunting Silver Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c4ddccc8-db23-4340-8ee5-c7575da873c9.png",
-          "minutes": 180
-        },
-        {
-          "name": "Hunting Gold Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/87a1284b-9471-4b76-92f3-1202af94c2e6.png",
-          "minutes": 300
-        },
-        {
-          "name": "Fishing Gold Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/51cc6079-9e26-478e-b010-ebe250c9c28d.png",
-          "minutes": 300
-        },
-        {
-          "name": "Hunting Epic Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7b186897-73e8-4934-aedc-87108a6fd854.png",
-          "minutes": 420
-        },
-        {
-          "name": "Fishing Epic Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f4b13e63-2abe-4d63-9984-2cb5ddda4735.png",
-          "minutes": 420
-        },
-        {
-          "name": "Fishing Legendary Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/dffd0a91-125a-4a6d-a136-348971b519c1.png",
-          "minutes": 900
-        },
-        {
-          "name": "Hunting Legendary Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4e55f494-532a-47f9-b5e9-5357dd697909.png",
-          "minutes": 900
-        },
-        {
-          "name": "Hunting Random Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d71ed699-e335-4b36-aa07-08f9468620e5.png",
-          "minutes": 660
-        },
-        {
-          "name": "Fishing Random Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2f407975-b01a-400c-b3bb-01196c8ab130.png",
-          "minutes": 660
-        },
-        {
-          "name": "Butterfly Garden Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e539f4ef-c845-412b-b6f9-da131843dc66.png",
-          "minutes": 180
-        },
-        {
-          "name": "Gifted Sub Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ef6bcb63-d8a4-43c9-bf4e-1caf36bc997d.png",
-          "minutes": 0
-        },
-        {
-          "name": "Albino/Mystic Token",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6f9bc227-65e2-4bae-98be-e646470922cf.png",
-          "minutes": 0
-        },
-        {
-          "name": "Hunting Antler Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b6ef7240-4f53-4bd3-92a2-7f6666fd3699.png",
-          "minutes": 0
-        },
-        {
-          "name": "Fishing Sharks Teeth Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/99f74d87-07fe-4821-b1b7-e89426aea396.png",
-          "minutes": 0
-        },
-        {
-          "name": "Gold Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c21cec4b-555b-4584-99c0-e215ab2556c6.png",
-          "minutes": 0
         }
       ],
       "src": "sunkwi"
