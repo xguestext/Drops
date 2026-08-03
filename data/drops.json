@@ -1,46 +1,18 @@
 {
-  "updated_at": "2026-08-03T20:42:29Z",
+  "updated_at": "2026-08-03T22:03:22Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-03T20:42:01.686Z",
+  "source_updated": "2026-08-03T22:03:01.688Z",
   "counts": {
-    "total": 63,
-    "upcoming": 5,
+    "total": 62,
+    "upcoming": 4,
     "active": 58,
-    "game_drops": 61,
+    "game_drops": 60,
     "platform": 2,
     "badges": 2,
     "fechadas_descartadas": 31
   },
   "campaigns": [
-    {
-      "id": "b802d020-c152-4030-806a-01b2bc2d458a",
-      "name": "Webs Assemble - Week 2",
-      "status": "UPCOMING",
-      "start_at": "2026-08-03T21:00:00.000Z",
-      "end_at": "2026-08-10T20:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "MARVEL Strike Force",
-      "game_slug": "marvel-strike-force",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/504651_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "1M Gold",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cddf9bc7-2d79-4a9a-ab71-c05847a7503e.png",
-          "minutes": 60
-        },
-        {
-          "name": "100 L4 Training Modules",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/36c551ac-7fad-428d-9a0e-3a63458d7ba9.png",
-          "minutes": 120
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "b4b671eb-4194-4d4e-8b07-252ab6aacd7f",
       "name": "August Drops",
@@ -1043,34 +1015,6 @@
           "name": "Purple Streak Lockpick",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/064e67dd-3e65-47d5-8d13-52a5a21cd8d3.jpeg",
           "minutes": 60
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "89179f96-0020-4f2e-901a-d040e26b1bcf",
-      "name": "Webs Assemble - Week 1",
-      "status": "ACTIVE",
-      "start_at": "2026-07-27T21:00:00Z",
-      "end_at": "2026-08-03T20:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ef562967-dc03-4477-a68e-b10ec947096c.png",
-      "details_url": "https://marvelstrikeforce.com/en/twitch",
-      "game": "MARVEL Strike Force",
-      "game_slug": "marvel-strike-force",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/504651_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "1M Gold",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cddf9bc7-2d79-4a9a-ab71-c05847a7503e.png",
-          "minutes": 60
-        },
-        {
-          "name": "100 L4 Training Modules",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/36c551ac-7fad-428d-9a0e-3a63458d7ba9.png",
-          "minutes": 120
         }
       ],
       "src": "sunkwi"
@@ -2122,6 +2066,34 @@
           "name": "Regalia of Awakening",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
           "minutes": 240
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "b802d020-c152-4030-806a-01b2bc2d458a",
+      "name": "Webs Assemble - Week 2",
+      "status": "ACTIVE",
+      "start_at": "2026-08-03T21:00:00Z",
+      "end_at": "2026-08-10T20:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/2c8217be-2bf1-4561-ad3c-b48a9df8e356.png",
+      "details_url": "https://marvelstrikeforce.com/en/twitch",
+      "game": "MARVEL Strike Force",
+      "game_slug": "marvel-strike-force",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/504651_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "1M Gold",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cddf9bc7-2d79-4a9a-ab71-c05847a7503e.png",
+          "minutes": 60
+        },
+        {
+          "name": "100 L4 Training Modules",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/36c551ac-7fad-428d-9a0e-3a63458d7ba9.png",
+          "minutes": 120
         }
       ],
       "src": "sunkwi"
