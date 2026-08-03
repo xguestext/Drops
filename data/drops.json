@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-08-03T12:52:25Z",
+  "updated_at": "2026-08-03T15:40:02Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-03T12:52:01.845Z",
+  "source_updated": "2026-08-03T15:40:02.229Z",
   "counts": {
-    "total": 65,
+    "total": 62,
     "upcoming": 2,
-    "active": 63,
-    "game_drops": 63,
+    "active": 60,
+    "game_drops": 60,
     "platform": 2,
     "badges": 2,
-    "fechadas_descartadas": 33
+    "fechadas_descartadas": 34
   },
   "campaigns": [
     {
@@ -121,64 +121,6 @@
           "name": "Exclusive Skin (S6)",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/88aac49c-19af-4df4-a872-4c20febf10af.png",
           "minutes": 360
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "6dca3768-f3d0-4bad-a71b-f853083ebef6",
-      "name": "North Hunt 1.0 Release",
-      "status": "ACTIVE",
-      "start_at": "2026-07-09T16:54:58Z",
-      "end_at": "2026-08-03T13:02:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/127c585c-b198-4ddd-91ee-0d8362e4b02c.jpeg",
-      "details_url": "https://newgen-studio.com",
-      "game": "North Hunt",
-      "game_slug": "north-hunt",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/378188687_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 90,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Spray01",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/76614258-2454-4a27-b7f0-163912cab65f.png",
-          "minutes": 15
-        },
-        {
-          "name": "Whistle02",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/be2c9012-416e-41fa-8ef5-39e74e2db6ef.png",
-          "minutes": 15
-        },
-        {
-          "name": "CharacterSkin015",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/44dd08ca-b73b-4469-993c-9f26b81de003.jpeg",
-          "minutes": 15
-        },
-        {
-          "name": "VictoryEmote01",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/72b38db2-c2be-4a87-b7fd-db3d69882ab3.png",
-          "minutes": 60
-        },
-        {
-          "name": "Emote02",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4c5971ea-9da9-421d-86ea-40b59f394358.png",
-          "minutes": 60
-        },
-        {
-          "name": "CharacterSkin014",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/78d4551e-aadd-49c4-8346-d4c5468de680.jpeg",
-          "minutes": 60
-        },
-        {
-          "name": "Emote04",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c8a512b4-5bbd-4a23-b36a-612a3b86d25b.png",
-          "minutes": 90
-        },
-        {
-          "name": "CharacterSkin01",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4606b211-7040-48fe-b436-ee88e430bbc6.png",
-          "minutes": 90
         }
       ],
       "src": "sunkwi"
@@ -999,44 +941,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "8fbf0997-7499-40ce-8b31-b2717f77a7fa",
-      "name": "Blazey Will Rock You!",
-      "status": "ACTIVE",
-      "start_at": "2026-07-27T14:00:00Z",
-      "end_at": "2026-08-03T13:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/b6ffed49-e6cf-4f0b-99c5-a764d4d55e2e.png",
-      "details_url": "https://rushroyale.my.games/en/twitch-drops",
-      "game": "Rush Royale",
-      "game_slug": "rush-royale",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/633454324_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 480,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "5000 Gold",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7326d413-fc98-49cf-9d39-de7c1827a66e.png",
-          "minutes": 120
-        },
-        {
-          "name": "200 Perk Fragments",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/08e4f679-3e2e-490e-aa0f-3e22db4b74eb.png",
-          "minutes": 240
-        },
-        {
-          "name": "Seeker Compass",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f29e4fca-6b45-43fe-93eb-6ec1d6fbe84b.png",
-          "minutes": 360
-        },
-        {
-          "name": "Cool Duck Avatar",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/69cdd17a-d56b-452c-a919-23c91efbe841.png",
-          "minutes": 480
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "425b2fef-a89e-4127-9d03-4fcb5a447885",
       "name": "The Wizard #7",
       "status": "ACTIVE",
@@ -1479,29 +1383,6 @@
           "name": "Showtime Blue Sword",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d769b1c1-b89b-4478-80d5-bbbfba9ea53a.png",
           "minutes": 240
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "1e5d7b87-1696-41bb-9736-e010ee4f4187",
-      "name": "The Siiimpsooooons",
-      "status": "ACTIVE",
-      "start_at": "2026-07-30T13:00:00Z",
-      "end_at": "2026-08-03T12:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/978652eb-35ea-42cb-bd06-bc2d37af9ff7.jpeg",
-      "details_url": "https://www.fortnite.com/twitch-drops",
-      "game": "Fortnite",
-      "game_slug": "fortnite",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/33214-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 30,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "The Siiimpsooooons… Wrap",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f39cf497-6013-4e9d-808e-b0bf6042e452.jpeg",
-          "minutes": 30
         }
       ],
       "src": "sunkwi"
