@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-03T17:46:32Z",
+  "updated_at": "2026-08-03T19:23:57Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-03T17:46:01.745Z",
+  "source_updated": "2026-08-03T19:23:01.552Z",
   "counts": {
-    "total": 65,
+    "total": 64,
     "upcoming": 5,
-    "active": 60,
-    "game_drops": 63,
+    "active": 59,
+    "game_drops": 62,
     "platform": 2,
     "badges": 2,
     "fechadas_descartadas": 32
@@ -2059,29 +2059,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "0cc9f77f-d113-4053-b30c-4d10c6e15e42",
-      "name": "Mobile Drop 115",
-      "status": "ACTIVE",
-      "start_at": "2026-08-02T17:59:00Z",
-      "end_at": "2026-08-03T17:56:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/322d0f34-99d8-4636-bcc8-99a3d9d7470f.png",
-      "details_url": "https://mobile.riseonlineworld.com/usercp?do=twitch",
-      "game": "Rise Online",
-      "game_slug": "rise-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Regalia of Awakening",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
-          "minutes": 240
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "43259459-8dac-430a-a8a2-a8cb2afa4227",
       "name": "August Drops",
       "status": "ACTIVE",
@@ -2235,24 +2212,24 @@
       "src": "sunkwi"
     },
     {
-      "id": "8f375a64-6fd1-4a9a-b3ac-700dccdad2d9",
-      "name": "Quackers",
+      "id": "c9c0d271-a835-46d0-af8e-11960c4b1f44",
+      "name": "Mobile Drop 116",
       "status": "ACTIVE",
-      "start_at": "2026-08-03T16:00:00Z",
-      "end_at": "2026-08-03T17:59:59.999Z",
+      "start_at": "2026-08-03T17:59:00Z",
+      "end_at": "2026-08-04T17:56:59.999Z",
       "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/default.png",
-      "details_url": "https://coins.alleycatzgames.co.uk/drops/index.php",
-      "game": "Coin Cascade",
-      "game_slug": "coin-cascade",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1421544027_IGDB-120x160.jpg",
+      "details_url": "https://mobile.riseonlineworld.com/usercp?do=twitch",
+      "game": "Rise Online",
+      "game_slug": "rise-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-120x160.jpg",
       "availability": "open",
-      "required_minutes": 60,
+      "required_minutes": 240,
       "reward_type": "game",
       "rewards": [
         {
-          "name": "Quackers",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/20f874ea-7375-4e81-be57-c7efdaba1dc8.png",
-          "minutes": 60
+          "name": "Regalia of Awakening",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
+          "minutes": 240
         }
       ],
       "src": "sunkwi"
