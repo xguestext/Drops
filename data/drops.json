@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-04T06:23:44Z",
+  "updated_at": "2026-08-04T09:19:34Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-04T06:23:02.159Z",
+  "source_updated": "2026-08-04T09:19:01.539Z",
   "counts": {
     "total": 63,
-    "upcoming": 6,
-    "active": 57,
+    "upcoming": 7,
+    "active": 56,
     "game_drops": 61,
     "platform": 2,
     "badges": 2,
@@ -177,6 +177,49 @@
           "name": "Twitch Reward Chest",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
           "minutes": 180
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "e982effc-fdba-4a19-8104-edbbbcb2887d",
+      "name": "August 2026 Twitch Drops",
+      "status": "UPCOMING",
+      "start_at": "2026-08-05T08:00:00.000Z",
+      "end_at": "2026-08-26T07:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Sonic Rumble Party",
+      "game_slug": "sonic-rumble",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1814419969_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "EX Gear (Storm)*1",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9e13570a-828d-4612-b96d-401d91e58e3e.png",
+          "minutes": 15
+        },
+        {
+          "name": "EX Gear (Wave)*1",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f9c0e179-0dea-429d-aefa-6acf815c892f.png",
+          "minutes": 30
+        },
+        {
+          "name": "EX Gear (Vector)*1",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5636c22d-1d98-4d7b-b68a-00b54a9fd4f3.png",
+          "minutes": 60
+        },
+        {
+          "name": "EX Gear (Cream)*1",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9c725d86-8134-4f7b-bb9b-c1b6ce03ffa8.png",
+          "minutes": 90
+        },
+        {
+          "name": "Red Star Ring*100",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e6359372-eed3-4a1d-9958-81831aa4f61d.png",
+          "minutes": 120
         }
       ],
       "src": "fenris"
@@ -433,69 +476,6 @@
           "name": "Data Diver Tracker",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bb8e544b-63f7-4e4d-9616-c0ecc10c3d77.png",
           "minutes": 60
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "729991f7-5f38-49a8-a350-03b6e18063e0",
-      "name": "OW 2026 S3 Midseason",
-      "status": "ACTIVE",
-      "start_at": "2026-07-14T18:00:00Z",
-      "end_at": "2026-08-04T06:58:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/3e1ccbc7-8399-4745-aa66-95ace8dec6e5.png",
-      "details_url": "https://us.forums.blizzard.com/en/overwatch/t/reign-of-talon-season-3-midseason-twitch-drops/1028438",
-      "game": "Overwatch",
-      "game_slug": "overwatch-2",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/515025-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 600,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Dev Lifeguard Lifeweaver",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8035674a-71a9-469a-a55f-e8b9e3f4fed8.png",
-          "minutes": 240
-        },
-        {
-          "name": "Dev Lifeguard Roadhog",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6110e056-87ff-452d-b2ea-983f0e68bd84.png",
-          "minutes": 300
-        },
-        {
-          "name": "RoT S3 Lootbox",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ee0d34d7-fab4-4d5b-b751-b98b3bbc4ea4.png",
-          "minutes": 420
-        },
-        {
-          "name": "RoT S3 Epic Lootbox",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/15b7dce8-26a2-4b27-91a2-892551834013.jpeg",
-          "minutes": 600
-        },
-        {
-          "name": "Dev Lifeguard Mercy",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4dc40e22-9447-48d7-8849-34fa0e011851.png",
-          "minutes": 30
-        },
-        {
-          "name": "Dev Lifeguard Junkrat",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c5d00c91-17d1-4a26-a661-74ab36f45a97.png",
-          "minutes": 60
-        },
-        {
-          "name": "Dev Lifeguard Lucio",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5f2a834e-5b70-4210-8cb3-b1692a21f0d1.png",
-          "minutes": 120
-        },
-        {
-          "name": "Dev Lifeguard Kiriko",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/87774450-f28c-4677-ac90-c291bf94fe9c.png",
-          "minutes": 180
-        },
-        {
-          "name": "Life Preserver Spray",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/481b121b-b0ec-4555-975a-72c92fedf130.png",
-          "minutes": 360
         }
       ],
       "src": "sunkwi"
