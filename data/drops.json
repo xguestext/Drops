@@ -1,47 +1,37 @@
 {
-  "updated_at": "2026-08-04T15:53:24Z",
+  "updated_at": "2026-08-04T17:42:24Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-04T15:53:02.989Z",
+  "source_updated": "2026-08-04T17:42:01.867Z",
   "counts": {
-    "total": 60,
-    "upcoming": 3,
+    "total": 62,
+    "upcoming": 5,
     "active": 57,
-    "game_drops": 58,
+    "game_drops": 60,
     "platform": 2,
     "badges": 2,
     "fechadas_descartadas": 30
   },
   "campaigns": [
     {
-      "id": "716d8856-bc23-4418-8978-24fd4b04e37c",
-      "name": "Gouie Launch Celebration",
+      "id": "7e5cd115-3553-4158-aef2-01a5dfb11c23",
+      "name": "Mobile Drop 117",
       "status": "UPCOMING",
-      "start_at": "2026-08-04T17:00:00.000Z",
-      "end_at": "2026-08-18T16:59:59.999Z",
+      "start_at": "2026-08-04T17:59:00.000Z",
+      "end_at": "2026-08-05T17:56:59.999Z",
       "image": null,
       "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Rivals of Aether II",
-      "game_slug": "rivals-2",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/330654616_IGDB-285x380.jpg",
+      "game": "Rise Online",
+      "game_slug": "rise-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-285x380.jpg",
       "availability": "open",
-      "required_minutes": 180,
+      "required_minutes": 240,
       "reward_type": "game",
       "rewards": [
         {
-          "name": "Gouie Launch Coins",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/266e4a84-5b13-4fb3-a92d-ee3357a89d51.jpeg",
-          "minutes": 60
-        },
-        {
-          "name": "Purple Gouie Palette",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/40d3a62f-7322-4031-a7ba-36925ec9c313.jpeg",
-          "minutes": 120
-        },
-        {
-          "name": "Gouie Launch Bucks",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8f0c518b-c38c-4f0a-b699-596749d98cff.jpeg",
-          "minutes": 180
+          "name": "Regalia of Awakening",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
+          "minutes": 240
         }
       ],
       "src": "fenris"
@@ -107,6 +97,57 @@
         {
           "name": "Red Star Ring*100",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e6359372-eed3-4a1d-9958-81831aa4f61d.png",
+          "minutes": 120
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "32226e38-3b93-4d50-ad4a-b447fb96af3c",
+      "name": "Radiant Wilds 17 - #3/7",
+      "status": "UPCOMING",
+      "start_at": "2026-08-05T10:00:00.000Z",
+      "end_at": "2026-08-06T09:29:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Albion Online",
+      "game_slug": "albion-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Radiant Wilds Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
+          "minutes": 180
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "0d70ef58-5f99-4871-874e-b75569f4ee62",
+      "name": "New Class: Agent",
+      "status": "UPCOMING",
+      "start_at": "2026-08-05T12:00:00.000Z",
+      "end_at": "2026-08-06T11:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Black Desert",
+      "game_slug": "black-desert",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "1 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/832feb91-6d64-4eba-8b14-eeebad43f866.png",
+          "minutes": 60
+        },
+        {
+          "name": "2 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b101e2e4-faea-49ff-b7b3-c6e7dfbf9f07.png",
           "minutes": 120
         }
       ],
@@ -336,34 +377,6 @@
           "name": "Athletic Sports Shirt",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/04f70fa8-b619-4b2f-a28b-af57cd60127b.png",
           "minutes": 360
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "291c52fb-8ed0-4189-977c-11f52755cb3a",
-      "name": "Cyberpunk Event",
-      "status": "ACTIVE",
-      "start_at": "2026-07-14T17:00:00Z",
-      "end_at": "2026-08-04T16:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d06780af-563d-407f-ad06-1f348a6fc378.png",
-      "details_url": "https://www.ea.com/en/games/apex-legends/apex-legends/news/cyberpunk-event",
-      "game": "Apex Legends",
-      "game_slug": "apex-legends",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/511224-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 60,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Samurai Weapon Charm",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4ea93b42-00cc-46a0-a984-453e0ec2096c.png",
-          "minutes": 30
-        },
-        {
-          "name": "Data Diver Tracker",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bb8e544b-63f7-4e4d-9616-c0ecc10c3d77.png",
-          "minutes": 60
         }
       ],
       "src": "sunkwi"
@@ -2008,6 +2021,39 @@
           "name": "Ghostly Infusion",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e9f14416-55ac-4c53-84ac-83dc4bb04faf.png",
           "minutes": 900
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "716d8856-bc23-4418-8978-24fd4b04e37c",
+      "name": "Gouie Launch Celebration",
+      "status": "ACTIVE",
+      "start_at": "2026-08-04T17:00:00Z",
+      "end_at": "2026-08-18T16:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ad10f064-1058-474f-adc9-4aeadd49653d.jpeg",
+      "details_url": "https://store.steampowered.com/news/app/2217000/view/703275318021982461",
+      "game": "Rivals of Aether II",
+      "game_slug": "rivals-2",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/330654616_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Gouie Launch Coins",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/266e4a84-5b13-4fb3-a92d-ee3357a89d51.jpeg",
+          "minutes": 60
+        },
+        {
+          "name": "Purple Gouie Palette",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/40d3a62f-7322-4031-a7ba-36925ec9c313.jpeg",
+          "minutes": 120
+        },
+        {
+          "name": "Gouie Launch Bucks",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8f0c518b-c38c-4f0a-b699-596749d98cff.jpeg",
+          "minutes": 180
         }
       ],
       "src": "sunkwi"
