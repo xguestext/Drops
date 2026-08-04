@@ -1,41 +1,18 @@
 {
-  "updated_at": "2026-08-03T23:33:54Z",
+  "updated_at": "2026-08-04T03:55:18Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-03T23:33:01.697Z",
+  "source_updated": "2026-08-04T03:55:01.544Z",
   "counts": {
-    "total": 62,
-    "upcoming": 4,
+    "total": 64,
+    "upcoming": 6,
     "active": 58,
-    "game_drops": 60,
+    "game_drops": 62,
     "platform": 2,
     "badges": 2,
-    "fechadas_descartadas": 32
+    "fechadas_descartadas": 31
   },
   "campaigns": [
-    {
-      "id": "b4b671eb-4194-4d4e-8b07-252ab6aacd7f",
-      "name": "August Drops",
-      "status": "UPCOMING",
-      "start_at": "2026-08-04T00:00:00.000Z",
-      "end_at": "2026-08-04T23:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "The Quinfall",
-      "game_slug": "the-quinfall",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Twitch Reward Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
-          "minutes": 180
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "d1bcd15a-cc14-4702-b0a2-2ae9c7dfa972",
       "name": "Radiant Wilds 17 - #2/7",
@@ -116,6 +93,90 @@
           "name": "Camo Voucher",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8ccc0701-0a6c-434c-abae-61fb037e3cdc.png",
           "minutes": 480
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "e9e07451-0365-430d-9116-1ba33939dcd3",
+      "name": "August 01",
+      "status": "UPCOMING",
+      "start_at": "2026-08-04T15:00:00.000Z",
+      "end_at": "2026-08-11T14:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Ravendawn",
+      "game_slug": "ravendawn",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/262400435-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 900,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Ravenpacks",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cb6ce20f-0405-45ff-bb93-f693ccda817d.png",
+          "minutes": 60
+        },
+        {
+          "name": "Ghostly Infusion",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e9f14416-55ac-4c53-84ac-83dc4bb04faf.png",
+          "minutes": 900
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "716d8856-bc23-4418-8978-24fd4b04e37c",
+      "name": "Gouie Launch Celebration",
+      "status": "UPCOMING",
+      "start_at": "2026-08-04T17:00:00.000Z",
+      "end_at": "2026-08-18T16:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Rivals of Aether II",
+      "game_slug": "rivals-2",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/330654616_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Gouie Launch Coins",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/266e4a84-5b13-4fb3-a92d-ee3357a89d51.jpeg",
+          "minutes": 60
+        },
+        {
+          "name": "Purple Gouie Palette",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/40d3a62f-7322-4031-a7ba-36925ec9c313.jpeg",
+          "minutes": 120
+        },
+        {
+          "name": "Gouie Launch Bucks",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8f0c518b-c38c-4f0a-b699-596749d98cff.jpeg",
+          "minutes": 180
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "70dae798-93bc-4092-80ec-f6a9fdd26215",
+      "name": "August Drops",
+      "status": "UPCOMING",
+      "start_at": "2026-08-05T00:00:00.000Z",
+      "end_at": "2026-08-05T23:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "The Quinfall",
+      "game_slug": "the-quinfall",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Twitch Reward Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
+          "minutes": 180
         }
       ],
       "src": "fenris"
@@ -1895,29 +1956,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "43259459-8dac-430a-a8a2-a8cb2afa4227",
-      "name": "August Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-08-03T00:00:00Z",
-      "end_at": "2026-08-03T23:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/5611bb52-6236-4ea0-9ca8-2b2375148ac0.png",
-      "details_url": "https://www.quinfall.com/twitch-drops",
-      "game": "The Quinfall",
-      "game_slug": "the-quinfall",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Twitch Reward Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
-          "minutes": 180
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "61d076e3-c0c1-45c9-82d7-40a261fc2fec",
       "name": "Weekly Supply Drops #27",
       "status": "ACTIVE",
@@ -2094,6 +2132,29 @@
           "name": "100 L4 Training Modules",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/36c551ac-7fad-428d-9a0e-3a63458d7ba9.png",
           "minutes": 120
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "b4b671eb-4194-4d4e-8b07-252ab6aacd7f",
+      "name": "August Drops",
+      "status": "ACTIVE",
+      "start_at": "2026-08-04T00:00:00Z",
+      "end_at": "2026-08-04T23:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/aa7a5feb-4098-424e-866e-8824ba3f1eb1.png",
+      "details_url": "https://www.quinfall.com/twitch-drops",
+      "game": "The Quinfall",
+      "game_slug": "the-quinfall",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Twitch Reward Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
+          "minutes": 180
         }
       ],
       "src": "sunkwi"
