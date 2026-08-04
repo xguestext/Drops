@@ -2,7 +2,7 @@ name: Atualizar drops
 
 on:
   schedule:
-    - cron: "*/30 * * * *"   # a cada 30 min (horário UTC)
+    - cron: "*/10 * * * *"   # a cada 10 min (horário UTC)
   workflow_dispatch: {}       # botão "Run workflow" pra rodar na hora
 
 permissions:
