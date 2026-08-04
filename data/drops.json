@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-04T03:55:18Z",
+  "updated_at": "2026-08-04T06:23:44Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-04T03:55:01.544Z",
+  "source_updated": "2026-08-04T06:23:02.159Z",
   "counts": {
-    "total": 64,
+    "total": 63,
     "upcoming": 6,
-    "active": 58,
-    "game_drops": 62,
+    "active": 57,
+    "game_drops": 61,
     "platform": 2,
     "badges": 2,
     "fechadas_descartadas": 31
@@ -539,49 +539,6 @@
           "name": "Stellar Jade*30",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/35243e27-46dd-438a-b460-7bfafe547f18.png",
           "minutes": 120
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "4445d76a-1f80-464f-8c2b-2a3547b6fabb",
-      "name": "3.5nd_07150803E2",
-      "status": "ACTIVE",
-      "start_at": "2026-07-15T04:00:00Z",
-      "end_at": "2026-08-04T03:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/22e94215-9dda-4785-96ee-f21df8cb5d8d.png",
-      "details_url": "https://www.pandadagames.com/en/news/6569af455dee5",
-      "game": "Ninja Must Die",
-      "game_slug": "ninja-must-die",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1728081276_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Coin*10000",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e59f8d27-abee-475f-85ff-33d09d7f2311.png",
-          "minutes": 30
-        },
-        {
-          "name": "Dragon's Blood*100",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ccdd05d5-dc58-4989-85d1-6169eed56d8b.png",
-          "minutes": 60
-        },
-        {
-          "name": "B Bounty*1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9a6b956d-7400-4e41-bea4-3fcfc3b7cc81.png",
-          "minutes": 90
-        },
-        {
-          "name": "Jade*200",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f9291cb8-6fc9-4a85-a85a-199117ac3774.png",
-          "minutes": 120
-        },
-        {
-          "name": "Fate Amulet*1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3f770f2c-b05e-4f2d-8102-a7aa9becfd4d.png",
-          "minutes": 180
         }
       ],
       "src": "sunkwi"
