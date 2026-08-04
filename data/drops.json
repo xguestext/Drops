@@ -1,46 +1,18 @@
 {
-  "updated_at": "2026-08-04T13:20:59Z",
+  "updated_at": "2026-08-04T15:53:24Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-04T13:20:03.010Z",
+  "source_updated": "2026-08-04T15:53:02.989Z",
   "counts": {
-    "total": 61,
-    "upcoming": 4,
+    "total": 60,
+    "upcoming": 3,
     "active": 57,
-    "game_drops": 59,
+    "game_drops": 58,
     "platform": 2,
     "badges": 2,
     "fechadas_descartadas": 30
   },
   "campaigns": [
-    {
-      "id": "e9e07451-0365-430d-9116-1ba33939dcd3",
-      "name": "August 01",
-      "status": "UPCOMING",
-      "start_at": "2026-08-04T15:00:00.000Z",
-      "end_at": "2026-08-11T14:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Ravendawn",
-      "game_slug": "ravendawn",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/262400435-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 900,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Ravenpacks",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cb6ce20f-0405-45ff-bb93-f693ccda817d.png",
-          "minutes": 60
-        },
-        {
-          "name": "Ghostly Infusion",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e9f14416-55ac-4c53-84ac-83dc4bb04faf.png",
-          "minutes": 900
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "716d8856-bc23-4418-8978-24fd4b04e37c",
       "name": "Gouie Launch Celebration",
@@ -929,34 +901,6 @@
           "name": "Purple Streak Lockpick",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/064e67dd-3e65-47d5-8d13-52a5a21cd8d3.jpeg",
           "minutes": 60
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "8b4f76b7-d081-4160-91f1-96692912a94c",
-      "name": "July 4",
-      "status": "ACTIVE",
-      "start_at": "2026-07-28T15:00:00Z",
-      "end_at": "2026-08-04T14:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/dac7f9fb-cfcb-4484-88a9-740706c5c0b3.png",
-      "details_url": "https://ravendawn.online/myaccount/twitch",
-      "game": "Ravendawn",
-      "game_slug": "ravendawn",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/262400435-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 900,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Ravenpacks",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b2527c6b-85c9-4817-be86-4edc264d16ee.png",
-          "minutes": 60
-        },
-        {
-          "name": "Ghostly Infusion",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cab792f8-82db-4a59-8c4d-35f08d775a9a.png",
-          "minutes": 900
         }
       ],
       "src": "sunkwi"
@@ -2036,6 +1980,34 @@
           "name": "Camo Voucher",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8ccc0701-0a6c-434c-abae-61fb037e3cdc.png",
           "minutes": 480
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "e9e07451-0365-430d-9116-1ba33939dcd3",
+      "name": "August 01",
+      "status": "ACTIVE",
+      "start_at": "2026-08-04T15:00:00Z",
+      "end_at": "2026-08-11T14:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/b7a1fa0a-71a9-4224-a35b-f414e30104e0.png",
+      "details_url": "https://ravendawn.online/myaccount/twitch",
+      "game": "Ravendawn",
+      "game_slug": "ravendawn",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/262400435-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 900,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Ravenpacks",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cb6ce20f-0405-45ff-bb93-f693ccda817d.png",
+          "minutes": 60
+        },
+        {
+          "name": "Ghostly Infusion",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e9f14416-55ac-4c53-84ac-83dc4bb04faf.png",
+          "minutes": 900
         }
       ],
       "src": "sunkwi"
