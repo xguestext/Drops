@@ -1,79 +1,18 @@
 {
-  "updated_at": "2026-08-04T11:36:17Z",
+  "updated_at": "2026-08-04T13:20:59Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-04T11:36:02.833Z",
+  "source_updated": "2026-08-04T13:20:03.010Z",
   "counts": {
     "total": 61,
-    "upcoming": 6,
-    "active": 55,
+    "upcoming": 4,
+    "active": 57,
     "game_drops": 59,
     "platform": 2,
     "badges": 2,
     "fechadas_descartadas": 30
   },
   "campaigns": [
-    {
-      "id": "321cbe21-4837-44c4-af86-7b1dad821d63",
-      "name": "New Class: Agent",
-      "status": "UPCOMING",
-      "start_at": "2026-08-04T12:00:00.000Z",
-      "end_at": "2026-08-05T11:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Black Desert",
-      "game_slug": "black-desert",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "1 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/832feb91-6d64-4eba-8b14-eeebad43f866.png",
-          "minutes": 60
-        },
-        {
-          "name": "2 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b101e2e4-faea-49ff-b7b3-c6e7dfbf9f07.png",
-          "minutes": 120
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "0efef24f-7e90-4cb9-8cc1-c679fd848424",
-      "name": "Masters of Mayhem Week 2",
-      "status": "UPCOMING",
-      "start_at": "2026-08-04T13:00:00.000Z",
-      "end_at": "2026-08-11T09:57:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "World of Tanks Console",
-      "game_slug": "world-of-tanks-console",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/499551-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 480,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "10 Enhanced Rations",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a194293c-4513-4b30-b761-d4669067da9e.png",
-          "minutes": 120
-        },
-        {
-          "name": "4 x4 Commander Boosters",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e6182d05-4d80-4681-a1ae-0251ac713495.png",
-          "minutes": 240
-        },
-        {
-          "name": "Camo Voucher",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8ccc0701-0a6c-434c-abae-61fb037e3cdc.png",
-          "minutes": 480
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "e9e07451-0365-430d-9116-1ba33939dcd3",
       "name": "August 01",
@@ -1422,13 +1361,13 @@
       "id": "5242a38e-bbdc-4c63-b5d4-69527fe99c0e",
       "name": "Ruhnuk Decoration Poster",
       "status": "ACTIVE",
-      "start_at": "2026-07-30T18:00:00Z",
+      "start_at": "2026-07-30T18:00:00.000Z",
       "end_at": "2026-08-13T14:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d2758c5e-8504-454f-a044-00cbf46863fe.png",
-      "details_url": "https://account.swtor.com",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
       "game": "Star Wars: The Old Republic",
       "game_slug": "star-wars-the-old-republic",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/21934_IGDB-120x160.jpg",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/21934_IGDB-285x380.jpg",
       "availability": "open",
       "required_minutes": 60,
       "reward_type": "game",
@@ -1439,7 +1378,7 @@
           "minutes": 60
         }
       ],
-      "src": "sunkwi"
+      "src": "fenris"
     },
     {
       "id": "f193b958-0afd-41d7-907d-8e42cbf88db0",
@@ -1916,34 +1855,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "0e3ddbf3-ca71-4c97-9022-343abe920493",
-      "name": "New Class: Agent",
-      "status": "ACTIVE",
-      "start_at": "2026-08-03T12:00:00Z",
-      "end_at": "2026-08-04T11:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ee618263-d037-4769-b145-d6f2f0626859.png",
-      "details_url": "https://www.naeu.playblackdesert.com/News/Detail?groupContentNo=10373",
-      "game": "Black Desert",
-      "game_slug": "black-desert",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "1 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/832feb91-6d64-4eba-8b14-eeebad43f866.png",
-          "minutes": 60
-        },
-        {
-          "name": "2 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b101e2e4-faea-49ff-b7b3-c6e7dfbf9f07.png",
-          "minutes": 120
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "c9c0d271-a835-46d0-af8e-11960c4b1f44",
       "name": "Mobile Drop 116",
       "status": "ACTIVE",
@@ -2036,6 +1947,95 @@
           "name": "Radiant Wilds Chest",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
           "minutes": 180
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "321cbe21-4837-44c4-af86-7b1dad821d63",
+      "name": "New Class: Agent",
+      "status": "ACTIVE",
+      "start_at": "2026-08-04T12:00:00Z",
+      "end_at": "2026-08-05T11:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f3e1f2b2-4c23-44b8-8abd-eeca312b6b1e.png",
+      "details_url": "https://www.naeu.playblackdesert.com/News/Detail?groupContentNo=10373",
+      "game": "Black Desert",
+      "game_slug": "black-desert",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "1 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/832feb91-6d64-4eba-8b14-eeebad43f866.png",
+          "minutes": 60
+        },
+        {
+          "name": "2 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b101e2e4-faea-49ff-b7b3-c6e7dfbf9f07.png",
+          "minutes": 120
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "5fa7380f-e760-437b-81c4-30f1d57b97eb",
+      "name": "Ruhnuk Deco / Em4 Mount",
+      "status": "ACTIVE",
+      "start_at": "2026-08-04T12:30:00Z",
+      "end_at": "2026-08-31T14:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ad8bd3ac-98b1-4ed1-8886-09ca6510f0ad.jpeg",
+      "details_url": "https://account.swtor.com",
+      "game": "Star Wars: The Old Republic",
+      "game_slug": "star-wars-the-old-republic",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/21934_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 300,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "SWTOR Ruhnuk Poster",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0e920e11-830f-48f6-ad66-a9c15b7fd5b8.png",
+          "minutes": 60
+        },
+        {
+          "name": "Vectron Colette EM4 Mount",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/749f71d7-3489-4c5c-b03b-5bbf645675d0.jpeg",
+          "minutes": 300
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "0efef24f-7e90-4cb9-8cc1-c679fd848424",
+      "name": "Masters of Mayhem Week 2",
+      "status": "ACTIVE",
+      "start_at": "2026-08-04T13:00:00Z",
+      "end_at": "2026-08-11T09:57:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d8caf82f-73a0-4ad9-a611-dc92e5dceef5.png",
+      "details_url": "https://modernarmor.worldoftanks.com/en/cms/notes/twitch-drops/",
+      "game": "World of Tanks Console",
+      "game_slug": "world-of-tanks-console",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/499551-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 480,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "10 Enhanced Rations",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a194293c-4513-4b30-b761-d4669067da9e.png",
+          "minutes": 120
+        },
+        {
+          "name": "4 x4 Commander Boosters",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e6182d05-4d80-4681-a1ae-0251ac713495.png",
+          "minutes": 240
+        },
+        {
+          "name": "Camo Voucher",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8ccc0701-0a6c-434c-abae-61fb037e3cdc.png",
+          "minutes": 480
         }
       ],
       "src": "sunkwi"
