@@ -1,41 +1,18 @@
 {
-  "updated_at": "2026-08-04T17:42:24Z",
+  "updated_at": "2026-08-04T19:12:27Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-04T17:42:01.867Z",
+  "source_updated": "2026-08-04T19:12:02.841Z",
   "counts": {
-    "total": 62,
-    "upcoming": 5,
+    "total": 61,
+    "upcoming": 4,
     "active": 57,
-    "game_drops": 60,
+    "game_drops": 59,
     "platform": 2,
     "badges": 2,
-    "fechadas_descartadas": 30
+    "fechadas_descartadas": 31
   },
   "campaigns": [
-    {
-      "id": "7e5cd115-3553-4158-aef2-01a5dfb11c23",
-      "name": "Mobile Drop 117",
-      "status": "UPCOMING",
-      "start_at": "2026-08-04T17:59:00.000Z",
-      "end_at": "2026-08-05T17:56:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Rise Online",
-      "game_slug": "rise-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Regalia of Awakening",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
-          "minutes": 240
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "70dae798-93bc-4092-80ec-f6a9fdd26215",
       "name": "August Drops",
@@ -1812,29 +1789,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "c9c0d271-a835-46d0-af8e-11960c4b1f44",
-      "name": "Mobile Drop 116",
-      "status": "ACTIVE",
-      "start_at": "2026-08-03T17:59:00Z",
-      "end_at": "2026-08-04T17:56:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/default.png",
-      "details_url": "https://mobile.riseonlineworld.com/usercp?do=twitch",
-      "game": "Rise Online",
-      "game_slug": "rise-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Regalia of Awakening",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
-          "minutes": 240
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "b802d020-c152-4030-806a-01b2bc2d458a",
       "name": "Webs Assemble - Week 2",
       "status": "ACTIVE",
@@ -2054,6 +2008,29 @@
           "name": "Gouie Launch Bucks",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8f0c518b-c38c-4f0a-b699-596749d98cff.jpeg",
           "minutes": 180
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "7e5cd115-3553-4158-aef2-01a5dfb11c23",
+      "name": "Mobile Drop 117",
+      "status": "ACTIVE",
+      "start_at": "2026-08-04T17:59:00Z",
+      "end_at": "2026-08-05T17:56:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/2192a85a-04b9-41eb-8eb2-a9024c16cab6.png",
+      "details_url": "https://mobile.riseonlineworld.com/usercp?do=twitch",
+      "game": "Rise Online",
+      "game_slug": "rise-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Regalia of Awakening",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
+          "minutes": 240
         }
       ],
       "src": "sunkwi"
