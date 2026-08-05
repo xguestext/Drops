@@ -1,41 +1,18 @@
 {
-  "updated_at": "2026-08-05T09:08:56Z",
+  "updated_at": "2026-08-05T11:27:48Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-05T09:08:02.845Z",
+  "source_updated": "2026-08-05T11:27:01.897Z",
   "counts": {
-    "total": 64,
-    "upcoming": 6,
-    "active": 58,
-    "game_drops": 62,
+    "total": 62,
+    "upcoming": 5,
+    "active": 57,
+    "game_drops": 60,
     "platform": 2,
     "badges": 2,
-    "fechadas_descartadas": 28
+    "fechadas_descartadas": 30
   },
   "campaigns": [
-    {
-      "id": "32226e38-3b93-4d50-ad4a-b447fb96af3c",
-      "name": "Radiant Wilds 17 - #3/7",
-      "status": "UPCOMING",
-      "start_at": "2026-08-05T10:00:00.000Z",
-      "end_at": "2026-08-06T09:29:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Albion Online",
-      "game_slug": "albion-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Radiant Wilds Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
-          "minutes": 180
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "0d70ef58-5f99-4871-874e-b75569f4ee62",
       "name": "New Class: Agent",
@@ -587,49 +564,6 @@
           "name": "240min drop August",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/75b45339-13e2-46d8-a265-28049d78d4fe.png",
           "minutes": 240
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "c4f34d04-c271-4383-9fc2-51156f95d400",
-      "name": "Endless Summer",
-      "status": "ACTIVE",
-      "start_at": "2026-07-23T10:00:00Z",
-      "end_at": "2026-08-05T09:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/0f85aee4-8752-42ec-a6fe-3ecbcf12df6f.png",
-      "details_url": "https://twitch-drop.games.skystone.games/",
-      "game": "Crystal of Atlan",
-      "game_slug": "crystal-of-atlan",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/741249831_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Potent Catalyst x1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/35ad3688-6361-4147-8a88-c796c200f098.png",
-          "minutes": 180
-        },
-        {
-          "name": "Enhancement Funds x1,000k",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/204b4ab7-f41a-4ba3-b6db-5aa4d0867193.png",
-          "minutes": 120
-        },
-        {
-          "name": "Spare Part Supply Box x20",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/438d2bce-c54e-4df2-a5cf-68f057a8f4aa.png",
-          "minutes": 60
-        },
-        {
-          "name": "Bound Gold x 500K",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e952feed-e168-4660-97ab-ede82f93095f.png",
-          "minutes": 30
-        },
-        {
-          "name": "Prismadium x 20",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2b1b7f52-9ed0-4901-abe5-77df4e01e16a.png",
-          "minutes": 15
         }
       ],
       "src": "sunkwi"
@@ -1792,29 +1726,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "d1bcd15a-cc14-4702-b0a2-2ae9c7dfa972",
-      "name": "Radiant Wilds 17 - #2/7",
-      "status": "ACTIVE",
-      "start_at": "2026-08-04T10:00:00Z",
-      "end_at": "2026-08-05T09:29:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f70bcf59-90b0-4d85-bec5-c755309271e2.png",
-      "details_url": "https://forum.albiononline.com/index.php/Thread/214756-New-Twitch-Drops-Launching-Monday-July-28-2025/",
-      "game": "Albion Online",
-      "game_slug": "albion-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Radiant Wilds Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
-          "minutes": 180
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "321cbe21-4837-44c4-af86-7b1dad821d63",
       "name": "New Class: Agent",
       "status": "ACTIVE",
@@ -2105,6 +2016,29 @@
           "name": "Red Star Ring*100",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e6359372-eed3-4a1d-9958-81831aa4f61d.png",
           "minutes": 120
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "32226e38-3b93-4d50-ad4a-b447fb96af3c",
+      "name": "Radiant Wilds 17 - #3/7",
+      "status": "ACTIVE",
+      "start_at": "2026-08-05T10:00:00Z",
+      "end_at": "2026-08-06T09:29:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/5c574bdd-cff3-4ef7-9b9f-319fdcb98b5d.png",
+      "details_url": "https://forum.albiononline.com/index.php/Thread/214756-New-Twitch-Drops-Launching-Monday-July-28-2025/",
+      "game": "Albion Online",
+      "game_slug": "albion-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Radiant Wilds Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
+          "minutes": 180
         }
       ],
       "src": "sunkwi"
