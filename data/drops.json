@@ -1,41 +1,18 @@
 {
-  "updated_at": "2026-08-05T20:17:18Z",
+  "updated_at": "2026-08-05T21:37:02Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-05T20:17:01.989Z",
+  "source_updated": "2026-08-05T21:37:01.920Z",
   "counts": {
-    "total": 65,
-    "upcoming": 6,
+    "total": 64,
+    "upcoming": 5,
     "active": 59,
-    "game_drops": 63,
+    "game_drops": 62,
     "platform": 2,
     "badges": 2,
-    "fechadas_descartadas": 33
+    "fechadas_descartadas": 32
   },
   "campaigns": [
-    {
-      "id": "f55815b3-6b78-478a-a0c6-2f61575ef96b",
-      "name": "Forge Showcase-AUG5",
-      "status": "UPCOMING",
-      "start_at": "2026-08-05T21:00:00.000Z",
-      "end_at": "2026-08-06T03:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Halo: The Master Chief Collection",
-      "game_slug": "halo-the-master-chief-collection",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417969-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "MCC Burst Fire",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1b3ec14e-52ea-4869-ae2a-4105dbf8ec7d.png",
-          "minutes": 120
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "7e214922-e522-49d3-b577-2142604e658b",
       "name": "August Drops",
