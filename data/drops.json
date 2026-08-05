@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-05T00:13:20Z",
+  "updated_at": "2026-08-05T03:36:52Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-05T00:13:01.672Z",
+  "source_updated": "2026-08-05T03:36:02.084Z",
   "counts": {
     "total": 65,
     "upcoming": 7,
@@ -1206,39 +1206,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "9a2f9749-e8c5-4a72-bb7d-0d410525280c",
-      "name": "1st Drop 7/30-8/05",
-      "status": "ACTIVE",
-      "start_at": "2026-07-30T01:00:00Z",
-      "end_at": "2026-08-05T00:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/285754dc-a60c-4f2b-8972-9e16d8e2a3ff.png",
-      "details_url": "https://mistfallhunter.com/twitchdrops",
-      "game": "Mistfall Hunter",
-      "game_slug": "mistfall-hunter",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/852009328_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "30-Minutes Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/14c4a1f2-7f6b-4338-8a72-788a544f3189.png",
-          "minutes": 30
-        },
-        {
-          "name": "60-Minutes Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/43c70e68-7c30-4b94-bfe4-4cbd407131fb.png",
-          "minutes": 60
-        },
-        {
-          "name": "240-Minutes Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9e83d836-6d91-404e-bf8e-0a89c7a24075.png",
-          "minutes": 240
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "6be0706e-8217-4b64-b612-e6b2230e82a2",
       "name": "Aug #1",
       "status": "ACTIVE",
@@ -2138,6 +2105,39 @@
           "name": "Twitch Reward Chest",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
           "minutes": 180
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "346cf8da-7df3-44d9-bdc9-ab71aaeaa88d",
+      "name": "2nd Drop 8/05-8/12",
+      "status": "ACTIVE",
+      "start_at": "2026-08-05T01:00:00Z",
+      "end_at": "2026-08-12T00:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/5a0f7c59-fa11-45a6-8bff-267a53f3b143.png",
+      "details_url": "https://mistfallhunter.com/twitchdrops",
+      "game": "Mistfall Hunter",
+      "game_slug": "mistfall-hunter",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/852009328_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "30-Minutes Drop",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/14c4a1f2-7f6b-4338-8a72-788a544f3189.png",
+          "minutes": 30
+        },
+        {
+          "name": "60-Minutes Drop",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/43c70e68-7c30-4b94-bfe4-4cbd407131fb.png",
+          "minutes": 60
+        },
+        {
+          "name": "240-Minutes Drop",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5f498453-b4f8-49ac-ad17-cd809f7e5b39.png",
+          "minutes": 240
         }
       ],
       "src": "sunkwi"
