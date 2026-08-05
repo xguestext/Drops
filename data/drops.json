@@ -1,61 +1,18 @@
 {
-  "updated_at": "2026-08-05T06:10:42Z",
+  "updated_at": "2026-08-05T09:08:56Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-05T06:10:02.863Z",
+  "source_updated": "2026-08-05T09:08:02.845Z",
   "counts": {
-    "total": 65,
-    "upcoming": 7,
+    "total": 64,
+    "upcoming": 6,
     "active": 58,
-    "game_drops": 63,
+    "game_drops": 62,
     "platform": 2,
     "badges": 2,
-    "fechadas_descartadas": 30
+    "fechadas_descartadas": 28
   },
   "campaigns": [
-    {
-      "id": "e982effc-fdba-4a19-8104-edbbbcb2887d",
-      "name": "August 2026 Twitch Drops",
-      "status": "UPCOMING",
-      "start_at": "2026-08-05T08:00:00.000Z",
-      "end_at": "2026-08-26T07:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Sonic Rumble Party",
-      "game_slug": "sonic-rumble",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1814419969_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "EX Gear (Storm)*1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9e13570a-828d-4612-b96d-401d91e58e3e.png",
-          "minutes": 15
-        },
-        {
-          "name": "EX Gear (Wave)*1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f9c0e179-0dea-429d-aefa-6acf815c892f.png",
-          "minutes": 30
-        },
-        {
-          "name": "EX Gear (Vector)*1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5636c22d-1d98-4d7b-b68a-00b54a9fd4f3.png",
-          "minutes": 60
-        },
-        {
-          "name": "EX Gear (Cream)*1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9c725d86-8134-4f7b-bb9b-c1b6ce03ffa8.png",
-          "minutes": 90
-        },
-        {
-          "name": "Red Star Ring*100",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e6359372-eed3-4a1d-9958-81831aa4f61d.png",
-          "minutes": 120
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "32226e38-3b93-4d50-ad4a-b447fb96af3c",
       "name": "Radiant Wilds 17 - #3/7",
@@ -352,39 +309,6 @@
           "name": "Captain America Costume",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2d3bce64-f91f-4408-a4bd-78bc48cd1022.png",
           "minutes": 240
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "2af08a58-3c8f-426b-a990-2661b373ec1f",
-      "name": "Rumble July 2026 Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-07-13T08:00:00Z",
-      "end_at": "2026-08-05T07:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/8267b572-a598-4056-8ef9-ec5428a6267a.png",
-      "details_url": "https://sonicrumble.sega.com/special/twitch-drops/en/",
-      "game": "Sonic Rumble Party",
-      "game_slug": "sonic-rumble",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1814419969_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 60,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Ring*3000",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c0cce25b-9552-452b-bfce-4803e7775a5b.png",
-          "minutes": 15
-        },
-        {
-          "name": "Tune-Up Wrench*300",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/57e41d7f-f569-4bf2-9953-f588d85ea8bd.png",
-          "minutes": 30
-        },
-        {
-          "name": "Red Star Ring*100",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4cdca36c-1b31-430a-8f76-6110c387e219.png",
-          "minutes": 60
         }
       ],
       "src": "sunkwi"
@@ -2138,6 +2062,49 @@
           "name": "240-Minutes Drop",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5f498453-b4f8-49ac-ad17-cd809f7e5b39.png",
           "minutes": 240
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "e982effc-fdba-4a19-8104-edbbbcb2887d",
+      "name": "August 2026 Twitch Drops",
+      "status": "ACTIVE",
+      "start_at": "2026-08-05T08:00:00Z",
+      "end_at": "2026-08-26T07:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/6fcb18aa-6641-4482-b6af-2e2f14f03683.png",
+      "details_url": "https://sonicrumble.sega.com/special/twitch-drops/en/",
+      "game": "Sonic Rumble Party",
+      "game_slug": "sonic-rumble",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1814419969_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "EX Gear (Storm)*1",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9e13570a-828d-4612-b96d-401d91e58e3e.png",
+          "minutes": 15
+        },
+        {
+          "name": "EX Gear (Wave)*1",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f9c0e179-0dea-429d-aefa-6acf815c892f.png",
+          "minutes": 30
+        },
+        {
+          "name": "EX Gear (Vector)*1",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5636c22d-1d98-4d7b-b68a-00b54a9fd4f3.png",
+          "minutes": 60
+        },
+        {
+          "name": "EX Gear (Cream)*1",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9c725d86-8134-4f7b-bb9b-c1b6ce03ffa8.png",
+          "minutes": 90
+        },
+        {
+          "name": "Red Star Ring*100",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e6359372-eed3-4a1d-9958-81831aa4f61d.png",
+          "minutes": 120
         }
       ],
       "src": "sunkwi"
