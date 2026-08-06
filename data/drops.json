@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-06T04:25:46Z",
+  "updated_at": "2026-08-06T07:14:55Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-06T04:25:02.273Z",
+  "source_updated": "2026-08-06T07:14:02.108Z",
   "counts": {
-    "total": 61,
+    "total": 60,
     "upcoming": 5,
-    "active": 56,
-    "game_drops": 59,
+    "active": 55,
+    "game_drops": 58,
     "platform": 2,
     "badges": 2,
     "fechadas_descartadas": 31
@@ -182,44 +182,6 @@
         }
       ],
       "src": "fenris"
-    },
-    {
-      "id": "69c38a89-bfa4-479e-a98c-4d15477a1d92",
-      "name": "SQUADRA SEASON 6 Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-07-09T06:00:00Z",
-      "end_at": "2026-08-06T05:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a3182838-94ba-4af3-8e7a-b2c729372608.png",
-      "details_url": "https://dbg-squadra.bn-ent.net/news/ub89itjd3",
-      "game": "DRAGON BALL GEKISHIN SQUADRA",
-      "game_slug": "dragon-ball-project-multi",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/801541637_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 360,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Zeni ×3,000 (S6)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/192372ef-dae6-4951-b316-5a39856c3419.png",
-          "minutes": 30
-        },
-        {
-          "name": "Exclusive Stamp (S6)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a0df78a1-4a1c-4809-992f-0a1115b7351e.png",
-          "minutes": 60
-        },
-        {
-          "name": "P6G-Capsule ×5 (S6)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1c9b5b03-f4a3-419b-86e5-f4f317a8a730.png",
-          "minutes": 180
-        },
-        {
-          "name": "Exclusive Skin (S6)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/88aac49c-19af-4df4-a872-4c20febf10af.png",
-          "minutes": 360
-        }
-      ],
-      "src": "sunkwi"
     },
     {
       "id": "79863c30-90e5-48f3-b371-f887014a6d5d",
