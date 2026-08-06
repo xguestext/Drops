@@ -1,109 +1,18 @@
 {
-  "updated_at": "2026-08-06T07:14:55Z",
+  "updated_at": "2026-08-06T10:01:25Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-06T07:14:02.108Z",
+  "source_updated": "2026-08-06T10:01:03.182Z",
   "counts": {
-    "total": 60,
-    "upcoming": 5,
-    "active": 55,
-    "game_drops": 58,
+    "total": 61,
+    "upcoming": 4,
+    "active": 57,
+    "game_drops": 59,
     "platform": 2,
-    "badges": 2,
+    "badges": 3,
     "fechadas_descartadas": 31
   },
   "campaigns": [
-    {
-      "id": "d9559495-7333-41c0-8808-4a56ee39661a",
-      "name": "Radiant Wilds 17 - #4/7",
-      "status": "UPCOMING",
-      "start_at": "2026-08-06T10:00:00.000Z",
-      "end_at": "2026-08-07T09:29:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Albion Online",
-      "game_slug": "albion-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Radiant Wilds Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
-          "minutes": 180
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "2ac02bbd-914e-4717-8096-b74a937103fd",
-      "name": "Spin the Globe",
-      "status": "UPCOMING",
-      "start_at": "2026-08-06T10:00:00.000Z",
-      "end_at": "2026-08-31T09:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Fishing Planet",
-      "game_slug": "fishing-planet",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/491117_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 600,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Kaniq Creek Box",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2872f7ff-6fbf-4479-924b-6e3cc99f98cf.png",
-          "minutes": 60
-        },
-        {
-          "name": "Dnipro River Box",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/886ed901-478f-4f51-9dfa-59164317cf26.png",
-          "minutes": 120
-        },
-        {
-          "name": "Weeping Willow Box",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d44611f0-beb5-4b41-9abd-5fa3cdf2bc28.png",
-          "minutes": 180
-        },
-        {
-          "name": "Blue Crab Island Box",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/de033353-aff9-4865-bf38-c6fb028b7c2d.png",
-          "minutes": 240
-        },
-        {
-          "name": "Maku-Maku Lake Box",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f7e6abe6-2697-4547-beee-45929d809480.png",
-          "minutes": 300
-        },
-        {
-          "name": "Marron River Box",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ca94cc4d-e276-433e-b653-294201c4f750.png",
-          "minutes": 360
-        },
-        {
-          "name": "Amazonian Maze Box",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/385cbf40-76d1-472e-bbd9-23a99e94ace6.png",
-          "minutes": 420
-        },
-        {
-          "name": "Congo River Box",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/589ac777-e50b-47c7-a336-e214819302f2.png",
-          "minutes": 480
-        },
-        {
-          "name": "Kaiji No Ri Box",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/eba9fe56-c6c7-4e1b-a61a-54be2e168761.png",
-          "minutes": 540
-        },
-        {
-          "name": "Noomaa Kuda Atholhu Box",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/461f94c8-b15e-4ab3-85eb-05005defc898.png",
-          "minutes": 600
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "9afcea1c-acaa-44bd-8203-6f0f9f8badf5",
       "name": "New Class: Agent",
@@ -128,6 +37,29 @@
           "name": "2 Hour Reward",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/015ca6f2-96c4-45b4-b1f2-9c7052ee6b0d.png",
           "minutes": 120
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "0c0e37e6-60dd-4f3b-8305-c71a6b4aaac9",
+      "name": "Hulk",
+      "status": "UPCOMING",
+      "start_at": "2026-08-06T15:00:00.000Z",
+      "end_at": "2026-08-13T14:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "MARVEL TŌKON: Fighting Souls",
+      "game_slug": "marvel-tokon-fighting-souls",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/630009802_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Hulk",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/edcd355b-2aa0-4580-a1ea-4d5bec5109e4.png",
+          "minutes": 0
         }
       ],
       "src": "fenris"
@@ -1812,29 +1744,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "32226e38-3b93-4d50-ad4a-b447fb96af3c",
-      "name": "Radiant Wilds 17 - #3/7",
-      "status": "ACTIVE",
-      "start_at": "2026-08-05T10:00:00Z",
-      "end_at": "2026-08-06T09:29:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/5c574bdd-cff3-4ef7-9b9f-319fdcb98b5d.png",
-      "details_url": "https://forum.albiononline.com/index.php/Thread/214756-New-Twitch-Drops-Launching-Monday-July-28-2025/",
-      "game": "Albion Online",
-      "game_slug": "albion-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Radiant Wilds Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
-          "minutes": 180
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "0d70ef58-5f99-4871-874e-b75569f4ee62",
       "name": "New Class: Agent",
       "status": "ACTIVE",
@@ -2043,6 +1952,145 @@
       "src": "sunkwi"
     },
     {
+      "id": "49fc5d13-b9fc-4590-b9c8-289aade11d8f",
+      "name": "Aug #2",
+      "status": "ACTIVE",
+      "start_at": "2026-08-06T08:10:00Z",
+      "end_at": "2026-08-12T23:58:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/1c84aaf7-2add-4b01-ae64-66f36cb4a035.png",
+      "details_url": "https://portal.uflgame.com/twitch/drops",
+      "game": "UFL",
+      "game_slug": "ufl",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1471416868_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 360,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Pre-season pack lite",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/412bfc33-01f5-48b9-b65f-b458b08933cd.png",
+          "minutes": 300
+        },
+        {
+          "name": "GC Aug w1 ",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2dd8240e-c39f-4570-a485-1a7dfba73323.png",
+          "minutes": 360
+        },
+        {
+          "name": "Enhanced CP",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9f7fd0eb-b77a-4a29-8d51-ce3096ae2afe.png",
+          "minutes": 60
+        },
+        {
+          "name": "Pre-season pack lite",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5cc22367-1450-4978-9258-a1ff1230b8d1.png",
+          "minutes": 120
+        },
+        {
+          "name": "Pre-season pack lite",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4a6482a2-5273-48dc-969f-cbc7350c9faf.png",
+          "minutes": 180
+        },
+        {
+          "name": "50 LP",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7975f8c4-149d-4507-9de9-16ad33149e81.png",
+          "minutes": 240
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "d9559495-7333-41c0-8808-4a56ee39661a",
+      "name": "Radiant Wilds 17 - #4/7",
+      "status": "ACTIVE",
+      "start_at": "2026-08-06T10:00:00Z",
+      "end_at": "2026-08-07T09:29:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/2a4cfcc1-8bf0-4ab9-985a-89ca7de66fb4.png",
+      "details_url": "https://forum.albiononline.com/index.php/Thread/214756-New-Twitch-Drops-Launching-Monday-July-28-2025/",
+      "game": "Albion Online",
+      "game_slug": "albion-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Radiant Wilds Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
+          "minutes": 180
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "2ac02bbd-914e-4717-8096-b74a937103fd",
+      "name": "Spin the Globe",
+      "status": "ACTIVE",
+      "start_at": "2026-08-06T10:00:00Z",
+      "end_at": "2026-08-31T09:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/22ebdeb8-f058-4234-9211-abb5b82df554.png",
+      "details_url": "https://forum.fishingplanet.com/index.php?/topic/40449-spin-the-globe-twitch-drops-campaign/",
+      "game": "Fishing Planet",
+      "game_slug": "fishing-planet",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/491117_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 600,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Dnipro River Box",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/886ed901-478f-4f51-9dfa-59164317cf26.png",
+          "minutes": 120
+        },
+        {
+          "name": "Weeping Willow Box",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d44611f0-beb5-4b41-9abd-5fa3cdf2bc28.png",
+          "minutes": 180
+        },
+        {
+          "name": "Blue Crab Island Box",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/de033353-aff9-4865-bf38-c6fb028b7c2d.png",
+          "minutes": 240
+        },
+        {
+          "name": "Maku-Maku Lake Box",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f7e6abe6-2697-4547-beee-45929d809480.png",
+          "minutes": 300
+        },
+        {
+          "name": "Marron River Box",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ca94cc4d-e276-433e-b653-294201c4f750.png",
+          "minutes": 360
+        },
+        {
+          "name": "Amazonian Maze Box",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/385cbf40-76d1-472e-bbd9-23a99e94ace6.png",
+          "minutes": 420
+        },
+        {
+          "name": "Congo River Box",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/589ac777-e50b-47c7-a336-e214819302f2.png",
+          "minutes": 480
+        },
+        {
+          "name": "Kaiji No Ri Box",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/eba9fe56-c6c7-4e1b-a61a-54be2e168761.png",
+          "minutes": 540
+        },
+        {
+          "name": "Noomaa Kuda Atholhu Box",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/461f94c8-b15e-4ab3-85eb-05005defc898.png",
+          "minutes": 600
+        },
+        {
+          "name": "Kaniq Creek Box",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2872f7ff-6fbf-4479-924b-6e3cc99f98cf.png",
+          "minutes": 60
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
       "id": "8a9dd118-ea88-410a-ba60-84cb1332aad2",
       "name": "Roblox Egg Hunt",
       "status": "ACTIVE",
@@ -2100,6 +2148,15 @@
     }
   ],
   "badges": [
+    {
+      "title": "MARVEL Tōkon: Fighting Souls Release",
+      "start_at": "2026-08-06T15:00:00Z",
+      "end_at": "2026-08-13T14:59:00Z",
+      "note": null,
+      "images": [
+        "https://static-cdn.jtvnw.net/badges/v1/b56139ed-b483-441f-9d89-70f5d0bca1b6/3"
+      ]
+    },
     {
       "title": "Final Fantasy XIV Fan Festival 2026 JP",
       "start_at": "2026-10-30T00:00:00Z",
