@@ -1,36 +1,36 @@
 {
-  "updated_at": "2026-08-05T23:37:09Z",
+  "updated_at": "2026-08-06T01:01:10Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-05T23:37:02.689Z",
+  "source_updated": "2026-08-06T01:01:03.003Z",
   "counts": {
-    "total": 63,
+    "total": 61,
     "upcoming": 5,
-    "active": 58,
-    "game_drops": 61,
+    "active": 56,
+    "game_drops": 59,
     "platform": 2,
     "badges": 2,
     "fechadas_descartadas": 33
   },
   "campaigns": [
     {
-      "id": "7e214922-e522-49d3-b577-2142604e658b",
-      "name": "August Drops",
+      "id": "d9559495-7333-41c0-8808-4a56ee39661a",
+      "name": "Radiant Wilds 17 - #4/7",
       "status": "UPCOMING",
-      "start_at": "2026-08-06T00:00:00.000Z",
-      "end_at": "2026-08-06T23:59:59.999Z",
+      "start_at": "2026-08-06T10:00:00.000Z",
+      "end_at": "2026-08-07T09:29:59.999Z",
       "image": null,
       "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "The Quinfall",
-      "game_slug": "the-quinfall",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-285x380.jpg",
+      "game": "Albion Online",
+      "game_slug": "albion-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-285x380.jpg",
       "availability": "open",
       "required_minutes": 180,
       "reward_type": "game",
       "rewards": [
         {
-          "name": "Twitch Reward Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
+          "name": "Radiant Wilds Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
           "minutes": 180
         }
       ],
@@ -105,29 +105,6 @@
       "src": "fenris"
     },
     {
-      "id": "d9559495-7333-41c0-8808-4a56ee39661a",
-      "name": "Radiant Wilds 17 - #4/7",
-      "status": "UPCOMING",
-      "start_at": "2026-08-06T10:00:00.000Z",
-      "end_at": "2026-08-07T09:29:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Albion Online",
-      "game_slug": "albion-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Radiant Wilds Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
-          "minutes": 180
-        }
-      ],
-      "src": "fenris"
-    },
-    {
       "id": "9afcea1c-acaa-44bd-8203-6f0f9f8badf5",
       "name": "New Class: Agent",
       "status": "UPCOMING",
@@ -179,6 +156,29 @@
           "name": "Twitch Container 15.6",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1903c727-8fef-40e2-8515-8dd8fecd14d7.png",
           "minutes": 180
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "069f37a4-3724-464a-8586-20a0328ba3a5",
+      "name": "Mobile Drop 119",
+      "status": "UPCOMING",
+      "start_at": "2026-08-06T17:59:00.000Z",
+      "end_at": "2026-08-07T17:56:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Rise Online",
+      "game_slug": "rise-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Regalia of Awakening",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
+          "minutes": 240
         }
       ],
       "src": "fenris"
@@ -1043,49 +1043,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "6be0706e-8217-4b64-b612-e6b2230e82a2",
-      "name": "Aug #1",
-      "status": "ACTIVE",
-      "start_at": "2026-07-30T08:00:00Z",
-      "end_at": "2026-08-05T23:58:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a3849e7f-f45e-4a1a-8260-b51c6b425e4a.png",
-      "details_url": "https://portal.uflgame.com/twitch/drops",
-      "game": "UFL",
-      "game_slug": "ufl",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1471416868_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 300,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Enhanced CP",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/78b031b1-66b3-4b3a-a8bd-4da572f398c9.png",
-          "minutes": 60
-        },
-        {
-          "name": "Pre-season pack lite",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d8e306ab-91db-40a5-9ccd-9833afb81933.png",
-          "minutes": 120
-        },
-        {
-          "name": "Pre-season pack lite",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/94c529ed-c473-44bb-8ce5-46c91d236392.png",
-          "minutes": 180
-        },
-        {
-          "name": " Pre-season pack lite",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/798b3918-3eba-4f89-98de-e07b46928900.png",
-          "minutes": 240
-        },
-        {
-          "name": "50 LP",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b96602be-04a7-4953-8d6f-d611d38f8f18.png",
-          "minutes": 300
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "35b06cba-192e-43eb-a63b-758c66d44791",
       "name": "STRIKE A POSE!",
       "status": "ACTIVE",
@@ -1565,39 +1522,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "352f8aee-5a04-4dbc-85e4-3013f31c0476",
-      "name": "Hunt 1896 (Week 2, Pt. 3)",
-      "status": "ACTIVE",
-      "start_at": "2026-08-02T15:00:00Z",
-      "end_at": "2026-08-05T23:58:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/cd5e6a61-4145-4e45-b303-f367cd360b82.jpeg",
-      "details_url": "https://www.huntshowdown.com/twitchdrops",
-      "game": "Hunt: Showdown 1896",
-      "game_slug": "hunt-showdown",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/500188_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Supply Crate",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/21eee310-80de-47b6-a916-76bf3ab533ce.jpeg",
-          "minutes": 30
-        },
-        {
-          "name": "Random Avatar",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/46b1001c-07d8-4747-b9a6-d1fd06760dd3.jpeg",
-          "minutes": 120
-        },
-        {
-          "name": "Random Legendary Hunter",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f44fe537-7ada-4af8-be8d-1e42f063a32b.jpeg",
-          "minutes": 240
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "61d076e3-c0c1-45c9-82d7-40a261fc2fec",
       "name": "Weekly Supply Drops #27",
       "status": "ACTIVE",
@@ -1845,29 +1769,6 @@
           "name": "250 Platinum #2",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cff16fbc-8650-433a-91f1-cf6cff60d419.png",
           "minutes": 30
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "70dae798-93bc-4092-80ec-f6a9fdd26215",
-      "name": "August Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-08-05T00:00:00Z",
-      "end_at": "2026-08-05T23:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/14145ffb-8571-4717-9aa2-8f118463128b.png",
-      "details_url": "https://www.quinfall.com/twitch-drops",
-      "game": "The Quinfall",
-      "game_slug": "the-quinfall",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Twitch Reward Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
-          "minutes": 180
         }
       ],
       "src": "sunkwi"
@@ -2152,6 +2053,29 @@
           "name": "Regalia of Awakening",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
           "minutes": 240
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "7e214922-e522-49d3-b577-2142604e658b",
+      "name": "August Drops",
+      "status": "ACTIVE",
+      "start_at": "2026-08-06T00:00:00Z",
+      "end_at": "2026-08-06T23:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/1f22ba98-4016-4686-8aec-84c25402a302.png",
+      "details_url": "https://www.quinfall.com/twitch-drops",
+      "game": "The Quinfall",
+      "game_slug": "the-quinfall",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Twitch Reward Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
+          "minutes": 180
         }
       ],
       "src": "sunkwi"
