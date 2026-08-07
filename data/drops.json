@@ -1,69 +1,18 @@
 {
-  "updated_at": "2026-08-07T14:41:21Z",
+  "updated_at": "2026-08-07T15:38:55Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-07T14:12:01.641Z",
+  "source_updated": "2026-08-07T15:38:01.988Z",
   "counts": {
-    "total": 69,
-    "upcoming": 9,
-    "active": 60,
-    "game_drops": 66,
+    "total": 68,
+    "upcoming": 7,
+    "active": 61,
+    "game_drops": 65,
     "platform": 3,
     "badges": 2,
-    "fechadas_descartadas": 35
+    "fechadas_descartadas": 37
   },
   "campaigns": [
-    {
-      "id": "1497e3b0-c56f-48a1-ad53-5625bff8f306",
-      "name": "GRAIN ROT Launch Week",
-      "status": "UPCOMING",
-      "start_at": "2026-08-07T15:00:00.000Z",
-      "end_at": "2026-08-14T14:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "GRAIN ROT",
-      "game_slug": "grain-rot",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/490242481_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Gold Pan Hat",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/16b87094-2c56-418a-946d-02edc831f340.png",
-          "minutes": 120
-        },
-        {
-          "name": "Gold Foil Hat",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/28d766c9-cc75-4e70-88c5-2dd012ac0a82.png",
-          "minutes": 240
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "409318a6-95ae-4a04-bc18-3c82297418c8",
-      "name": "Обновление 26.8: Часть 1",
-      "status": "UPCOMING",
-      "start_at": "2026-08-07T15:00:00.000Z",
-      "end_at": "2026-08-14T14:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Mir Korabley",
-      "game_slug": "mir-korabley",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2133072147_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "26.8 Боевая задача #1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/658072ff-f5fb-4675-afd2-ea781a8e44f0.png",
-          "minutes": 240
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "75e420f1-aa7b-4b94-9762-09202c31e7f9",
       "name": "Marble Day 260",
@@ -1115,29 +1064,6 @@
           "name": "6x Shards",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/779382ee-3f13-42bd-8a10-a6f5b9ebb1c2.png",
           "minutes": 120
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "82a41fdd-9890-4533-8b2f-6e4f37fa7e5c",
-      "name": "Обновление 26.7: Часть 4",
-      "status": "ACTIVE",
-      "start_at": "2026-07-31T15:00:00Z",
-      "end_at": "2026-08-07T14:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/1729cda4-2fec-4c69-8f55-7b646b82684e.jpeg",
-      "details_url": "https://krbli.ru/4dDrG8N",
-      "game": "Mir Korabley",
-      "game_slug": "mir-korabley",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2133072147_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "26.7 Боевая задача #4",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9340e2c3-66b6-43fc-84c5-e5d769b8d8e3.png",
-          "minutes": 240
         }
       ],
       "src": "sunkwi"
@@ -2325,6 +2251,57 @@
           "name": "Twitch Isigúr Érintés (1 ",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2a18203b-4ad5-4aff-9973-a44fb48b3920.jpeg",
           "minutes": 900
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "409318a6-95ae-4a04-bc18-3c82297418c8",
+      "name": "Обновление 26.8: Часть 1",
+      "status": "ACTIVE",
+      "start_at": "2026-08-07T15:00:00Z",
+      "end_at": "2026-08-14T14:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a4496c83-17a0-4fc8-8255-c880ba91b80e.jpeg",
+      "details_url": "https://krbli.ru/4dDrG8N",
+      "game": "Mir Korabley",
+      "game_slug": "mir-korabley",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2133072147_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "26.8 Боевая задача #1",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/658072ff-f5fb-4675-afd2-ea781a8e44f0.png",
+          "minutes": 240
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "1497e3b0-c56f-48a1-ad53-5625bff8f306",
+      "name": "GRAIN ROT Launch Week",
+      "status": "ACTIVE",
+      "start_at": "2026-08-07T15:00:00Z",
+      "end_at": "2026-08-14T14:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/b1408c84-9478-4a16-b689-d1cc47597d86.png",
+      "details_url": "https://store.steampowered.com/news/app/4450620/view/703275952293019933",
+      "game": "GRAIN ROT",
+      "game_slug": "grain-rot",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/490242481_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Gold Foil Hat",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/28d766c9-cc75-4e70-88c5-2dd012ac0a82.png",
+          "minutes": 240
+        },
+        {
+          "name": "Gold Pan Hat",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/16b87094-2c56-418a-946d-02edc831f340.png",
+          "minutes": 120
         }
       ],
       "src": "sunkwi"
