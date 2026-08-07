@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-08-07T08:40:47Z",
+  "updated_at": "2026-08-07T09:43:55Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-07T08:40:03.310Z",
+  "source_updated": "2026-08-07T09:43:01.997Z",
   "counts": {
-    "total": 72,
+    "total": 70,
     "upcoming": 14,
-    "active": 58,
-    "game_drops": 69,
+    "active": 56,
+    "game_drops": 67,
     "platform": 3,
     "badges": 2,
-    "fechadas_descartadas": 32
+    "fechadas_descartadas": 31
   },
   "campaigns": [
     {
@@ -454,44 +454,6 @@
         }
       ],
       "src": "fenris"
-    },
-    {
-      "id": "987bd67a-7bf2-48df-91fe-8fa825194e13",
-      "name": "Season 9 Twitch Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-07-10T12:00:00Z",
-      "end_at": "2026-08-07T08:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/cad2e09a-57f5-4a75-ba76-87d4529b770e.png",
-      "details_url": "https://www.marvelrivals.com/twitchdrops/",
-      "game": "Marvel Rivals",
-      "game_slug": "marvel-rivals",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1264310518_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Captain America Spray",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/eb698dc3-1764-4a59-8ce7-e9b7221cfda9.png",
-          "minutes": 30
-        },
-        {
-          "name": "Captain America Nameplate",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/af6e77af-6590-4978-9113-6883c9530e62.png",
-          "minutes": 60
-        },
-        {
-          "name": "Captain America Emote",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/75d42a2c-7734-42b7-8925-fc8538d53b29.png",
-          "minutes": 120
-        },
-        {
-          "name": "Captain America Costume",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2d3bce64-f91f-4408-a4bd-78bc48cd1022.png",
-          "minutes": 240
-        }
-      ],
-      "src": "sunkwi"
     },
     {
       "id": "31d071f0-4490-42c4-9262-d6abe48be8f1",
@@ -2119,29 +2081,6 @@
           "name": "50 LP",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7975f8c4-149d-4507-9de9-16ad33149e81.png",
           "minutes": 240
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "d9559495-7333-41c0-8808-4a56ee39661a",
-      "name": "Radiant Wilds 17 - #4/7",
-      "status": "ACTIVE",
-      "start_at": "2026-08-06T10:00:00Z",
-      "end_at": "2026-08-07T09:29:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/2a4cfcc1-8bf0-4ab9-985a-89ca7de66fb4.png",
-      "details_url": "https://forum.albiononline.com/index.php/Thread/214756-New-Twitch-Drops-Launching-Monday-July-28-2025/",
-      "game": "Albion Online",
-      "game_slug": "albion-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Radiant Wilds Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
-          "minutes": 180
         }
       ],
       "src": "sunkwi"
