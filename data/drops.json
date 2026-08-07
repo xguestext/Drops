@@ -1,41 +1,18 @@
 {
-  "updated_at": "2026-08-07T13:41:48Z",
+  "updated_at": "2026-08-07T14:41:21Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-07T13:41:01.881Z",
+  "source_updated": "2026-08-07T14:12:01.641Z",
   "counts": {
-    "total": 68,
-    "upcoming": 10,
-    "active": 58,
-    "game_drops": 65,
+    "total": 69,
+    "upcoming": 9,
+    "active": 60,
+    "game_drops": 66,
     "platform": 3,
     "badges": 2,
-    "fechadas_descartadas": 33
+    "fechadas_descartadas": 35
   },
   "campaigns": [
-    {
-      "id": "586ed670-8e54-4dac-aec4-100f3588bc92",
-      "name": "10th Anniversary - Week 5",
-      "status": "UPCOMING",
-      "start_at": "2026-08-07T14:00:00.000Z",
-      "end_at": "2026-08-09T21:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "DOFUS Touch",
-      "game_slug": "dofus-touch",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/505045_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "10th Anniversary Gift",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f46515bc-40c4-46e6-9e58-4637f743c567.png",
-          "minutes": 120
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "1497e3b0-c56f-48a1-ad53-5625bff8f306",
       "name": "GRAIN ROT Launch Week",
@@ -2282,6 +2259,72 @@
           "name": "Elsa Bloodstone Costume",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/52638bb5-407b-466a-aadf-de2c7f603fad.png",
           "minutes": 240
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "586ed670-8e54-4dac-aec4-100f3588bc92",
+      "name": "10th Anniversary - Week 5",
+      "status": "ACTIVE",
+      "start_at": "2026-08-07T14:00:00Z",
+      "end_at": "2026-08-09T21:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/55177c91-7a14-42d8-8d73-8c48ef496237.png",
+      "details_url": "https://account.ankama.com/fr/twitch",
+      "game": "DOFUS Touch",
+      "game_slug": "dofus-touch",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/505045_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "10th Anniversary Gift",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f46515bc-40c4-46e6-9e58-4637f743c567.png",
+          "minutes": 120
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "3dbee6c8-2336-46be-b947-d8170c7528a1",
+      "name": "NW2 SUMMER DROPS #4",
+      "status": "ACTIVE",
+      "start_at": "2026-08-07T14:00:00Z",
+      "end_at": "2026-08-14T21:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/b9402911-66d0-4eb7-afd5-653b295c5e30.png",
+      "details_url": "https://twitch.nextworld2.com/",
+      "game": "NextWorld2",
+      "game_slug": "nextworld2",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/544682640_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 900,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Gladiátor Köpeny (100 db)",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fb7e00dc-f81b-4f1b-8586-230ed2367aa3.jpeg",
+          "minutes": 120
+        },
+        {
+          "name": "Gladiátor Gyűrű (1 db)",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/17128fe7-9b63-47fd-8693-438f5ad28b34.jpeg",
+          "minutes": 300
+        },
+        {
+          "name": "Twitch Érme (1 db)",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3e21fac4-778b-4b9d-ad2e-4b211b595563.jpeg",
+          "minutes": 600
+        },
+        {
+          "name": "Twitch Fókusz (1 db)",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba8ddd9d-4afa-46f7-9453-2eab8dc878c0.jpeg",
+          "minutes": 840
+        },
+        {
+          "name": "Twitch Isigúr Érintés (1 ",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2a18203b-4ad5-4aff-9973-a44fb48b3920.jpeg",
+          "minutes": 900
         }
       ],
       "src": "sunkwi"
