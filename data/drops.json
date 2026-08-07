@@ -1,71 +1,18 @@
 {
-  "updated_at": "2026-08-07T21:34:38Z",
+  "updated_at": "2026-08-07T22:09:57Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-07T21:34:02.002Z",
+  "source_updated": "2026-08-07T22:09:02.515Z",
   "counts": {
     "total": 70,
-    "upcoming": 6,
-    "active": 64,
+    "upcoming": 5,
+    "active": 65,
     "game_drops": 67,
     "platform": 3,
     "badges": 2,
     "fechadas_descartadas": 37
   },
   "campaigns": [
-    {
-      "id": "ee40b802-76d1-4f86-acbc-9f976fcdff4b",
-      "name": "Early Access Madden Live",
-      "status": "UPCOMING",
-      "start_at": "2026-08-07T22:00:00.000Z",
-      "end_at": "2026-08-10T03:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Madden NFL 27",
-      "game_slug": "madden-nfl-27",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/670138298_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Madden Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8e87db48-d64a-4752-94d3-e78ab039ddd5.png",
-          "minutes": 15
-        },
-        {
-          "name": "Madden Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5bf22a8a-f8ad-4525-96a9-0194d624e245.png",
-          "minutes": 30
-        },
-        {
-          "name": "Madden Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6946ff2b-22b0-4c01-8cd5-bcc1a43f4246.png",
-          "minutes": 60
-        },
-        {
-          "name": "Madden Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3b581b8e-e8ca-447f-af78-22d2f1877b88.png",
-          "minutes": 90
-        },
-        {
-          "name": "Madden Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e1284804-3337-40d4-a2b2-413240a73f4f.png",
-          "minutes": 120
-        },
-        {
-          "name": "Madden Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/490fd82b-9ee3-4184-a1be-d4ae32d35723.png",
-          "minutes": 180
-        },
-        {
-          "name": "Madden Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/68473a84-8589-45bf-981f-8a63fb70c379.png",
-          "minutes": 240
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "31b82d54-4992-4f9e-84b0-f8e6b40fc2bb",
       "name": "August Drops",
@@ -2385,6 +2332,59 @@
           "name": "Closed Playtest Key",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3049c1f0-7d1d-4ded-bd2c-b6f63bc3cfa2.png",
           "minutes": 30
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "ee40b802-76d1-4f86-acbc-9f976fcdff4b",
+      "name": "Early Access Madden Live",
+      "status": "ACTIVE",
+      "start_at": "2026-08-07T22:00:00Z",
+      "end_at": "2026-08-10T03:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/2fc18fac-5738-44f0-9f70-56bed144c0c9.png",
+      "details_url": "https://help.twitch.tv/s/article/mission-based-drops?language=en_US",
+      "game": "Madden NFL 27",
+      "game_slug": "madden-nfl-27",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/670138298_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Madden Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8e87db48-d64a-4752-94d3-e78ab039ddd5.png",
+          "minutes": 15
+        },
+        {
+          "name": "Madden Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5bf22a8a-f8ad-4525-96a9-0194d624e245.png",
+          "minutes": 30
+        },
+        {
+          "name": "Madden Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6946ff2b-22b0-4c01-8cd5-bcc1a43f4246.png",
+          "minutes": 60
+        },
+        {
+          "name": "Madden Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3b581b8e-e8ca-447f-af78-22d2f1877b88.png",
+          "minutes": 90
+        },
+        {
+          "name": "Madden Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e1284804-3337-40d4-a2b2-413240a73f4f.png",
+          "minutes": 120
+        },
+        {
+          "name": "Madden Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/490fd82b-9ee3-4184-a1be-d4ae32d35723.png",
+          "minutes": 180
+        },
+        {
+          "name": "Madden Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/68473a84-8589-45bf-981f-8a63fb70c379.png",
+          "minutes": 240
         }
       ],
       "src": "sunkwi"
