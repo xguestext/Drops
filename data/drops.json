@@ -1,41 +1,18 @@
 {
-  "updated_at": "2026-08-07T15:38:55Z",
+  "updated_at": "2026-08-07T16:32:32Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-07T15:38:01.988Z",
+  "source_updated": "2026-08-07T16:32:02.420Z",
   "counts": {
-    "total": 68,
-    "upcoming": 7,
-    "active": 61,
-    "game_drops": 65,
+    "total": 73,
+    "upcoming": 9,
+    "active": 64,
+    "game_drops": 70,
     "platform": 3,
     "badges": 2,
-    "fechadas_descartadas": 37
+    "fechadas_descartadas": 36
   },
   "campaigns": [
-    {
-      "id": "75e420f1-aa7b-4b94-9762-09202c31e7f9",
-      "name": "Marble Day 260",
-      "status": "UPCOMING",
-      "start_at": "2026-08-07T16:00:00.000Z",
-      "end_at": "2026-08-08T15:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Marbles on Stream",
-      "game_slug": "marbles-on-stream",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/509511_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "15 Community Coins",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3924503a-4e48-4899-af4a-13f13f70e9b4.png",
-          "minutes": 120
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "3b42f70d-bd19-44f2-b612-c09967d5bbbb",
       "name": "August Week 2",
@@ -217,24 +194,173 @@
       "src": "fenris"
     },
     {
-      "id": "b4a708e1-ce01-4784-b57d-3bf1d091bb25",
-      "name": "8.08 Week",
+      "id": "c3406f93-3bc2-45c8-bcfb-afbed8c7fcd2",
+      "name": "Radiant Wilds 17 - #6/7",
       "status": "UPCOMING",
-      "start_at": "2026-08-07T16:00:00.000Z",
-      "end_at": "2026-08-15T06:59:59.999Z",
+      "start_at": "2026-08-08T10:00:00.000Z",
+      "end_at": "2026-08-09T09:29:59.999Z",
       "image": null,
       "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "DJs",
-      "game_slug": "djs",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1669431183-285x380.jpg",
+      "game": "Albion Online",
+      "game_slug": "albion-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-285x380.jpg",
       "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "platform",
+      "required_minutes": 180,
+      "reward_type": "game",
       "rewards": [
         {
-          "name": "Bop2bop Emote",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/035073fd-47f7-40e1-9535-ce2781bde2f7.gif",
+          "name": "Radiant Wilds Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
+          "minutes": 180
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "704f2f30-74cf-488d-a961-07988c3ff249",
+      "name": "August Week 2 - MLF!",
+      "status": "UPCOMING",
+      "start_at": "2026-08-08T11:00:00.000Z",
+      "end_at": "2026-08-15T10:57:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "SMITE 2",
+      "game_slug": "smite-2",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2094865572-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 840,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Market Coins Bundle 1",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/903496ad-de97-41ff-ad97-12f099e20ea8.jpeg",
           "minutes": 120
+        },
+        {
+          "name": "Market Coins Bundle 2",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c237f9f4-051c-4fed-b454-abb32c3e77bb.jpeg",
+          "minutes": 240
+        },
+        {
+          "name": "Market Coins Bundle 3",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/32d7e22a-e073-4507-8b82-500ebb448395.jpeg",
+          "minutes": 360
+        },
+        {
+          "name": "Market Coins Bundle 4",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/620d7b83-3e6a-4d84-bb47-f04c18c57868.jpeg",
+          "minutes": 480
+        },
+        {
+          "name": "Dark Enchantress MLF",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ee892f89-48e4-40e3-87cc-c2e454f91581.png",
+          "minutes": 600
+        },
+        {
+          "name": "Market Coins Bundle 5",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0b8e4f8a-acdc-4e46-8a69-86f52c8bea5c.jpeg",
+          "minutes": 600
+        },
+        {
+          "name": "Market Coins Bundle 6",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3ac43663-e809-40fa-9afa-b37999ee4dac.jpeg",
+          "minutes": 720
+        },
+        {
+          "name": "Market Coins Bundle 7",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/043434c4-1e73-40ae-80ec-ac836737e748.jpeg",
+          "minutes": 840
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "b2d9e163-0b45-48bd-a097-babbad90ece4",
+      "name": "New Class: Agent",
+      "status": "UPCOMING",
+      "start_at": "2026-08-08T12:00:00.000Z",
+      "end_at": "2026-08-09T11:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Black Desert",
+      "game_slug": "black-desert",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "1 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/09933e08-921d-4e30-9273-4ce4b335822a.png",
+          "minutes": 60
+        },
+        {
+          "name": "2 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a71ae13a-8daf-4048-87cd-136b79b41959.png",
+          "minutes": 120
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "61b3fbcd-5157-493c-abb4-c26cefd82a27",
+      "name": "Scorching Heat",
+      "status": "UPCOMING",
+      "start_at": "2026-08-08T12:00:00.000Z",
+      "end_at": "2026-08-22T11:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "War Robots: Frontiers",
+      "game_slug": "war-robots-frontiers",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1671346441_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 270,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "3,000 Credits",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3f67ddfd-dace-4568-a87c-c48b04c622d1.png",
+          "minutes": 30
+        },
+        {
+          "name": "3-Day Premium Account",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2253bcac-6a72-4aba-bd55-f1522cfbd1ce.png",
+          "minutes": 60
+        },
+        {
+          "name": "15,000 Salvage",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6312cc6e-7ac5-4167-a843-39dc81b9d7b4.png",
+          "minutes": 90
+        },
+        {
+          "name": "2x Heike Shoulders",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ed342770-7f7d-4ebc-a452-8591f9cd8f7c.png",
+          "minutes": 120
+        },
+        {
+          "name": "50 Intel",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6371023f-4c07-4977-ad99-7b4a33de4205.png",
+          "minutes": 150
+        },
+        {
+          "name": "2x Velite",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f33aaacf-e101-4ecb-b442-6acc2c0b1756.png",
+          "minutes": 180
+        },
+        {
+          "name": "Decker Chassis",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/04f81133-b6a0-4f3b-b7b1-99caa34587d8.png",
+          "minutes": 210
+        },
+        {
+          "name": "100 Intel",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e92c04a3-4544-485c-9216-c617745b2258.png",
+          "minutes": 240
+        },
+        {
+          "name": "Artemis Torso",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/af2d7ac3-3398-47ca-8ba6-d7c79be4d856.png",
+          "minutes": 270
         }
       ],
       "src": "fenris"
@@ -2307,6 +2433,57 @@
       "src": "sunkwi"
     },
     {
+      "id": "75e420f1-aa7b-4b94-9762-09202c31e7f9",
+      "name": "Marble Day 260",
+      "status": "ACTIVE",
+      "start_at": "2026-08-07T16:00:00Z",
+      "end_at": "2026-08-08T15:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/7c354519-5256-41e2-90c4-a404be8ee4d4.png",
+      "details_url": "https://pixelbypixel.studio/twitch-drops/",
+      "game": "Marbles on Stream",
+      "game_slug": "marbles-on-stream",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/509511_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "15 Community Coins",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3924503a-4e48-4899-af4a-13f13f70e9b4.png",
+          "minutes": 120
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "330c410a-e597-4715-963c-cdc0d84af3d2",
+      "name": "RISE Series S1 Sub Drops",
+      "status": "ACTIVE",
+      "start_at": "2026-08-07T16:00:00Z",
+      "end_at": "2026-08-10T03:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/686b57af-965e-4ecc-9e24-2ba417f64761.png",
+      "details_url": "https://www.playdeltaforce.com/act/twitchdrops/index.html",
+      "game": "Delta Force",
+      "game_slug": "delta-force-hawk-ops",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1282866981_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "AKM - Action Time",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3606a034-8bbf-4c2d-9916-30c1e70c378c.png",
+          "minutes": 0
+        },
+        {
+          "name": "Deagle - Action Time",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/68360c28-63b8-4d1c-897e-098960aeff6f.png",
+          "minutes": 0
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
       "id": "8a9dd118-ea88-410a-ba60-84cb1332aad2",
       "name": "Roblox Egg Hunt",
       "status": "ACTIVE",
@@ -2357,6 +2534,29 @@
         {
           "name": "Proud Susie Banner",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/609db98a-8d78-4618-8e80-1d2ea2acd9c6.png",
+          "minutes": 120
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "b4a708e1-ce01-4784-b57d-3bf1d091bb25",
+      "name": "8.08 Week",
+      "status": "ACTIVE",
+      "start_at": "2026-08-07T16:00:00Z",
+      "end_at": "2026-08-15T06:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/1a2f5e2f-eb4e-4d65-9240-3bd1e29980ff.gif",
+      "details_url": "https://help.twitch.tv/s/article/how-to-use-emotes",
+      "game": "DJs",
+      "game_slug": "djs",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1669431183-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "platform",
+      "rewards": [
+        {
+          "name": "Bop2bop Emote",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/035073fd-47f7-40e1-9535-ce2781bde2f7.gif",
           "minutes": 120
         }
       ],
