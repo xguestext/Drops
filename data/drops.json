@@ -1,94 +1,18 @@
 {
-  "updated_at": "2026-08-07T09:43:55Z",
+  "updated_at": "2026-08-07T10:37:18Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-07T09:43:01.997Z",
+  "source_updated": "2026-08-07T10:37:01.840Z",
   "counts": {
-    "total": 70,
-    "upcoming": 14,
-    "active": 56,
-    "game_drops": 67,
+    "total": 69,
+    "upcoming": 12,
+    "active": 57,
+    "game_drops": 66,
     "platform": 3,
     "badges": 2,
-    "fechadas_descartadas": 31
+    "fechadas_descartadas": 32
   },
   "campaigns": [
-    {
-      "id": "898b183c-d271-4e0c-9dc6-68f68d9abe70",
-      "name": "M2: DIAMOND Server Drops",
-      "status": "UPCOMING",
-      "start_at": "2026-08-07T10:00:00.000Z",
-      "end_at": "2026-08-23T22:29:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Metin2",
-      "game_slug": "metin2",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/31336_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 480,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Potion of Wisdom 3x3h",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c675f245-890b-409f-94bf-b2d0a6fecdaf.png",
-          "minutes": 60
-        },
-        {
-          "name": "Auto-Hunting (3d)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c1fd8aa5-59b8-4410-8fd2-ff685da0551d.png",
-          "minutes": 120
-        },
-        {
-          "name": "Fire Phoenix (Loot) (3d)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/02cb64db-fe50-4743-8924-955f34e3c0e2.png",
-          "minutes": 180
-        },
-        {
-          "name": "Loot Pass (3d)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/adfab206-4098-4d6c-9522-83a5a249292f.png",
-          "minutes": 300
-        },
-        {
-          "name": "Manny (Mount) (3d)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6a7e661e-2e3a-48e0-b6c6-54974568734b.png",
-          "minutes": 360
-        },
-        {
-          "name": "Premium Shop (3d)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/02380178-85d8-4b8a-a7e3-06b4bf5af249.png",
-          "minutes": 420
-        },
-        {
-          "name": "Nazar Amulet (3d)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5d8ce628-766d-440e-8ad5-9113e87e592f.png",
-          "minutes": 480
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "351e594e-6208-4702-9241-2440f11ba421",
-      "name": "Radiant Wilds 17 - #5/7",
-      "status": "UPCOMING",
-      "start_at": "2026-08-07T10:00:00.000Z",
-      "end_at": "2026-08-08T09:29:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Albion Online",
-      "game_slug": "albion-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Radiant Wilds Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
-          "minutes": 180
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "812ec00b-52f4-4fb9-8387-3a26ca1104d7",
       "name": "Season 9.5 Twitch Drops",
@@ -1285,49 +1209,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "9ebbc894-d5a2-4c2b-a495-6364f6d6f495",
-      "name": "NW2 SUMMER DROPS #3",
-      "status": "ACTIVE",
-      "start_at": "2026-07-31T14:00:00Z",
-      "end_at": "2026-08-07T09:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/161c9d02-3f16-42ae-811a-b68bec468df6.png",
-      "details_url": "https://twitch.nextworld2.com/",
-      "game": "NextWorld2",
-      "game_slug": "nextworld2",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/544682640_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 900,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Gladiátor Köpeny (100 db)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6e084d74-5aa4-4fba-a843-2d45645c73eb.jpeg",
-          "minutes": 120
-        },
-        {
-          "name": "Gladiátor Gyűrű (1 db)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2d12e648-8869-4a66-b0e7-6f9d2298193b.jpeg",
-          "minutes": 300
-        },
-        {
-          "name": "Twitch Érme (1 db)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8ecd4c53-dbaf-4f39-aaca-0d6d8d2a54b3.jpeg",
-          "minutes": 600
-        },
-        {
-          "name": "Twitch Fókusz (1 db) ",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c6365031-2b9e-481b-abae-57f50f2d1d7f.jpeg",
-          "minutes": 840
-        },
-        {
-          "name": "Twitch Isigúr Érintés (1 ",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6a099803-45c3-4179-a85c-9b1072166ff6.jpeg",
-          "minutes": 900
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "82a41fdd-9890-4533-8b2f-6e4f37fa7e5c",
       "name": "Обновление 26.7: Часть 4",
       "status": "ACTIVE",
@@ -2353,6 +2234,82 @@
           "name": "Twitch Reward Chest",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
           "minutes": 180
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "351e594e-6208-4702-9241-2440f11ba421",
+      "name": "Radiant Wilds 17 - #5/7",
+      "status": "ACTIVE",
+      "start_at": "2026-08-07T10:00:00Z",
+      "end_at": "2026-08-08T09:29:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/db2b9b88-8082-4417-8199-b53f1f7acd19.png",
+      "details_url": "https://forum.albiononline.com/index.php/Thread/214756-New-Twitch-Drops-Launching-Monday-July-28-2025/",
+      "game": "Albion Online",
+      "game_slug": "albion-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Radiant Wilds Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
+          "minutes": 180
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "898b183c-d271-4e0c-9dc6-68f68d9abe70",
+      "name": "M2: DIAMOND Server Drops",
+      "status": "ACTIVE",
+      "start_at": "2026-08-07T10:00:00Z",
+      "end_at": "2026-08-23T22:29:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/11ecf96e-f37c-4215-b7e9-ce7ae3f7fa3a.png",
+      "details_url": "https://play.metin2.gameforge.com/twitchdrops?kid=e-02007-a0w07-2408-e90000be",
+      "game": "Metin2",
+      "game_slug": "metin2",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/31336_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 480,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Potion of Wisdom 3x3h",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c675f245-890b-409f-94bf-b2d0a6fecdaf.png",
+          "minutes": 60
+        },
+        {
+          "name": "Auto-Hunting (3d)",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c1fd8aa5-59b8-4410-8fd2-ff685da0551d.png",
+          "minutes": 120
+        },
+        {
+          "name": "Fire Phoenix (Loot) (3d)",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/02cb64db-fe50-4743-8924-955f34e3c0e2.png",
+          "minutes": 180
+        },
+        {
+          "name": "Loot Pass (3d)",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/adfab206-4098-4d6c-9522-83a5a249292f.png",
+          "minutes": 300
+        },
+        {
+          "name": "Manny (Mount) (3d)",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6a7e661e-2e3a-48e0-b6c6-54974568734b.png",
+          "minutes": 360
+        },
+        {
+          "name": "Premium Shop (3d)",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/02380178-85d8-4b8a-a7e3-06b4bf5af249.png",
+          "minutes": 420
+        },
+        {
+          "name": "Nazar Amulet (3d)",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5d8ce628-766d-440e-8ad5-9113e87e592f.png",
+          "minutes": 480
         }
       ],
       "src": "sunkwi"
