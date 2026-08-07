@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-07T19:27:33Z",
+  "updated_at": "2026-08-07T20:06:03Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-07T19:27:01.924Z",
+  "source_updated": "2026-08-07T20:06:03.177Z",
   "counts": {
     "total": 71,
     "upcoming": 6,
@@ -10,7 +10,7 @@
     "game_drops": 68,
     "platform": 3,
     "badges": 2,
-    "fechadas_descartadas": 39
+    "fechadas_descartadas": 37
   },
   "campaigns": [
     {
@@ -687,29 +687,6 @@
           "name": "Twitch Stun Grenade Skin",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9546d09b-4e89-4113-bd07-bc39fa23eb41.png",
           "minutes": 600
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "38164808-8277-41dd-b288-39197c610e38",
-      "name": "Last Closed Playtest",
-      "status": "ACTIVE",
-      "start_at": "2026-07-24T17:00:00Z",
-      "end_at": "2026-08-07T19:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/8f3ef128-1e50-4c8b-809d-67aaac5298b7.jpeg",
-      "details_url": "https://discord.gg/rnEBh7kEsc",
-      "game": "Warhounds",
-      "game_slug": "warhounds",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/873696356_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 30,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Closed Playtest Key",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3049c1f0-7d1d-4ded-bd2c-b6f63bc3cfa2.png",
-          "minutes": 30
         }
       ],
       "src": "sunkwi"
@@ -2408,6 +2385,29 @@
           "name": "Regalia of Awakening",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
           "minutes": 240
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "1ef38af7-3d0a-4658-b71b-fa124f9b6955",
+      "name": "Last Playtest",
+      "status": "ACTIVE",
+      "start_at": "2026-08-07T20:00:00Z",
+      "end_at": "2026-08-10T19:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/4de51d46-b061-4ec6-9c67-3e6859a8e714.jpeg",
+      "details_url": "https://discord.gg/rnEBh7kEsc",
+      "game": "Warhounds",
+      "game_slug": "warhounds",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/873696356_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 30,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Closed Playtest Key",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3049c1f0-7d1d-4ded-bd2c-b6f63bc3cfa2.png",
+          "minutes": 30
         }
       ],
       "src": "sunkwi"
