@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-08T15:40:26Z",
+  "updated_at": "2026-08-08T16:11:33Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-08T15:40:01.159Z",
+  "source_updated": "2026-08-08T16:11:01.524Z",
   "counts": {
-    "total": 69,
+    "total": 68,
     "upcoming": 3,
-    "active": 66,
-    "game_drops": 66,
+    "active": 65,
+    "game_drops": 65,
     "platform": 3,
     "badges": 2,
     "fechadas_descartadas": 51
@@ -1759,29 +1759,6 @@
         {
           "name": "Gold Pan Hat",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/16b87094-2c56-418a-946d-02edc831f340.png",
-          "minutes": 120
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "75e420f1-aa7b-4b94-9762-09202c31e7f9",
-      "name": "Marble Day 260",
-      "status": "ACTIVE",
-      "start_at": "2026-08-07T16:00:00Z",
-      "end_at": "2026-08-08T15:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/7c354519-5256-41e2-90c4-a404be8ee4d4.png",
-      "details_url": "https://pixelbypixel.studio/twitch-drops/",
-      "game": "Marbles on Stream",
-      "game_slug": "marbles-on-stream",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/509511_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "15 Community Coins",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3924503a-4e48-4899-af4a-13f13f70e9b4.png",
           "minutes": 120
         }
       ],
