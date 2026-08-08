@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-08-08T15:02:28Z",
+  "updated_at": "2026-08-08T15:40:26Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-08T08:09:02.682Z",
+  "source_updated": "2026-08-08T15:40:01.159Z",
   "counts": {
-    "total": 72,
+    "total": 69,
     "upcoming": 3,
-    "active": 69,
-    "game_drops": 69,
+    "active": 66,
+    "game_drops": 66,
     "platform": 3,
     "badges": 2,
-    "fechadas_descartadas": 38
+    "fechadas_descartadas": 51
   },
   "campaigns": [
     {
@@ -912,64 +912,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "b4618efe-5126-48a6-9724-860a4d825ab3",
-      "name": "August Week 1 - MLF! ",
-      "status": "ACTIVE",
-      "start_at": "2026-08-01T11:00:00Z",
-      "end_at": "2026-08-08T10:57:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/17109792-f893-467b-b1fd-1272452e9c41.png",
-      "details_url": "https://www.smite2.com/news/closed-alpha-twitch-drops/",
-      "game": "SMITE 2",
-      "game_slug": "smite-2",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2094865572-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 840,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Dark Enchantress MLF",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ee892f89-48e4-40e3-87cc-c2e454f91581.png",
-          "minutes": 600
-        },
-        {
-          "name": "Market Coins Bundle 5",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0b8e4f8a-acdc-4e46-8a69-86f52c8bea5c.jpeg",
-          "minutes": 600
-        },
-        {
-          "name": "Market Coins Bundle 6",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3ac43663-e809-40fa-9afa-b37999ee4dac.jpeg",
-          "minutes": 720
-        },
-        {
-          "name": "Market Coins Bundle 7",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/043434c4-1e73-40ae-80ec-ac836737e748.jpeg",
-          "minutes": 840
-        },
-        {
-          "name": "Market Coins Bundle 1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/903496ad-de97-41ff-ad97-12f099e20ea8.jpeg",
-          "minutes": 120
-        },
-        {
-          "name": "Market Coins Bundle 2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c237f9f4-051c-4fed-b454-abb32c3e77bb.jpeg",
-          "minutes": 240
-        },
-        {
-          "name": "Market Coins Bundle 3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/32d7e22a-e073-4507-8b82-500ebb448395.jpeg",
-          "minutes": 360
-        },
-        {
-          "name": "Market Coins Bundle 4",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/620d7b83-3e6a-4d84-bb47-f04c18c57868.jpeg",
-          "minutes": 480
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "cd5a6322-52b0-4e5c-bd24-03581f98d2dd",
       "name": "Welcome to ZeroSpace",
       "status": "ACTIVE",
@@ -1326,74 +1268,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "2c30883c-7af3-457d-9d7c-bebd83ea2e36",
-      "name": "KORD BREACH S1 Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-08-05T12:58:00Z",
-      "end_at": "2026-08-08T12:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/9efc0c39-0755-4a9d-a3b3-8f06eebd1d07.png",
-      "details_url": "https://www.escapefromtarkov.com/news/id/406",
-      "game": "Escape from Tarkov",
-      "game_slug": "escape-from-tarkov",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/491931_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 780,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Common 1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e446d6bb-942e-4480-b980-222e45b2608e.png",
-          "minutes": 60
-        },
-        {
-          "name": "Rare 1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/30dc5676-53d5-4d6a-9a79-35278db10a61.png",
-          "minutes": 120
-        },
-        {
-          "name": "Common 2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fa690424-84e2-477c-83c3-c39faa17be3a.png",
-          "minutes": 180
-        },
-        {
-          "name": "Rare 2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5a7fcd61-b90b-4945-ad1a-e0ef2e0e7932.png",
-          "minutes": 240
-        },
-        {
-          "name": "Legendary 1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/726540de-4877-44ae-8a2e-a8f4a9e58d24.png",
-          "minutes": 300
-        },
-        {
-          "name": "Common 3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a1c41824-d0cd-40f2-a5f3-27f679a39fed.png",
-          "minutes": 420
-        },
-        {
-          "name": "Rare 3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7149c6ee-b305-486f-bb93-5c6df74fa35a.png",
-          "minutes": 540
-        },
-        {
-          "name": "Common 4",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b54b3d75-e461-4ba8-b9a6-23fbe90c0a6b.png",
-          "minutes": 660
-        },
-        {
-          "name": "Legendary 2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/02651275-05e4-49d1-ac95-06144d84838f.png",
-          "minutes": 780
-        },
-        {
-          "name": "Subscription Drops",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/dd6a9065-d249-4505-969c-08ea572c8260.png",
-          "minutes": 0
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "d10d5f4c-8e5f-4a69-bf6f-fcb0f3fb9f59",
       "name": "HEAT Season 1 - Week 6",
       "status": "ACTIVE",
@@ -1683,29 +1557,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "351e594e-6208-4702-9241-2440f11ba421",
-      "name": "Radiant Wilds 17 - #5/7",
-      "status": "ACTIVE",
-      "start_at": "2026-08-07T10:00:00Z",
-      "end_at": "2026-08-08T09:29:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/db2b9b88-8082-4417-8199-b53f1f7acd19.png",
-      "details_url": "https://forum.albiononline.com/index.php/Thread/214756-New-Twitch-Drops-Launching-Monday-July-28-2025/",
-      "game": "Albion Online",
-      "game_slug": "albion-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Radiant Wilds Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
-          "minutes": 180
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "898b183c-d271-4e0c-9dc6-68f68d9abe70",
       "name": "M2: DIAMOND Server Drops",
       "status": "ACTIVE",
@@ -1754,34 +1605,6 @@
           "name": "Nazar Amulet (3d)",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5d8ce628-766d-440e-8ad5-9113e87e592f.png",
           "minutes": 480
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "ddf25e87-4acc-4bb8-ad7d-f1633d4e57b6",
-      "name": "New Class: Agent",
-      "status": "ACTIVE",
-      "start_at": "2026-08-07T12:00:00Z",
-      "end_at": "2026-08-08T11:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/bea53ee3-a903-4a5a-96e1-39cfaf730539.png",
-      "details_url": "https://www.naeu.playblackdesert.com/News/Detail?groupContentNo=10373",
-      "game": "Black Desert",
-      "game_slug": "black-desert",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "1 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/361b4d3f-65ef-492a-9078-bf46f8899fb2.png",
-          "minutes": 60
-        },
-        {
-          "name": "2 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/015ca6f2-96c4-45b4-b1f2-9c7052ee6b0d.png",
-          "minutes": 120
         }
       ],
       "src": "sunkwi"
@@ -2302,13 +2125,13 @@
       "id": "c3406f93-3bc2-45c8-bcfb-afbed8c7fcd2",
       "name": "Radiant Wilds 17 - #6/7",
       "status": "ACTIVE",
-      "start_at": "2026-08-08T10:00:00.000Z",
+      "start_at": "2026-08-08T10:00:00Z",
       "end_at": "2026-08-09T09:29:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/813fd528-132d-46ca-922d-9dd27a34e134.png",
+      "details_url": "https://forum.albiononline.com/index.php/Thread/214756-New-Twitch-Drops-Launching-Monday-July-28-2025/",
       "game": "Albion Online",
       "game_slug": "albion-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-285x380.jpg",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-120x160.jpg",
       "availability": "open",
       "required_minutes": 180,
       "reward_type": "game",
@@ -2319,19 +2142,19 @@
           "minutes": 180
         }
       ],
-      "src": "fenris"
+      "src": "sunkwi"
     },
     {
       "id": "704f2f30-74cf-488d-a961-07988c3ff249",
       "name": "August Week 2 - MLF!",
       "status": "ACTIVE",
-      "start_at": "2026-08-08T11:00:00.000Z",
+      "start_at": "2026-08-08T11:00:00Z",
       "end_at": "2026-08-15T10:57:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/976d1346-e1a1-4f85-83cd-ec8fc307dbf3.png",
+      "details_url": "https://www.smite2.com/news/closed-alpha-twitch-drops/",
       "game": "SMITE 2",
       "game_slug": "smite-2",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2094865572-285x380.jpg",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2094865572-120x160.jpg",
       "availability": "open",
       "required_minutes": 840,
       "reward_type": "game",
@@ -2377,23 +2200,71 @@
           "minutes": 840
         }
       ],
-      "src": "fenris"
+      "src": "sunkwi"
+    },
+    {
+      "id": "b2d9e163-0b45-48bd-a097-babbad90ece4",
+      "name": "New Class: Agent",
+      "status": "ACTIVE",
+      "start_at": "2026-08-08T12:00:00Z",
+      "end_at": "2026-08-09T11:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/68a315ba-0407-498b-b8e0-d1c49688e027.png",
+      "details_url": "https://www.naeu.playblackdesert.com/News/Detail?groupContentNo=10373",
+      "game": "Black Desert",
+      "game_slug": "black-desert",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "1 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/09933e08-921d-4e30-9273-4ce4b335822a.png",
+          "minutes": 60
+        },
+        {
+          "name": "2 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a71ae13a-8daf-4048-87cd-136b79b41959.png",
+          "minutes": 120
+        }
+      ],
+      "src": "sunkwi"
     },
     {
       "id": "61b3fbcd-5157-493c-abb4-c26cefd82a27",
       "name": "Scorching Heat",
       "status": "ACTIVE",
-      "start_at": "2026-08-08T12:00:00.000Z",
+      "start_at": "2026-08-08T12:00:00Z",
       "end_at": "2026-08-22T11:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/937d82ec-3f5f-403c-886e-e327072d2fdb.png",
+      "details_url": "https://warrobotsfrontiers.com/news/336",
       "game": "War Robots: Frontiers",
       "game_slug": "war-robots-frontiers",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1671346441_IGDB-285x380.jpg",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1671346441_IGDB-120x160.jpg",
       "availability": "open",
       "required_minutes": 270,
       "reward_type": "game",
       "rewards": [
+        {
+          "name": "2x Velite",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f33aaacf-e101-4ecb-b442-6acc2c0b1756.png",
+          "minutes": 180
+        },
+        {
+          "name": "Decker Chassis",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/04f81133-b6a0-4f3b-b7b1-99caa34587d8.png",
+          "minutes": 210
+        },
+        {
+          "name": "100 Intel",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e92c04a3-4544-485c-9216-c617745b2258.png",
+          "minutes": 240
+        },
+        {
+          "name": "Artemis Torso",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/af2d7ac3-3398-47ca-8ba6-d7c79be4d856.png",
+          "minutes": 270
+        },
         {
           "name": "3,000 Credits",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3f67ddfd-dace-4568-a87c-c48b04c622d1.png",
@@ -2418,57 +2289,72 @@
           "name": "50 Intel",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6371023f-4c07-4977-ad99-7b4a33de4205.png",
           "minutes": 150
-        },
-        {
-          "name": "2x Velite",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f33aaacf-e101-4ecb-b442-6acc2c0b1756.png",
-          "minutes": 180
-        },
-        {
-          "name": "Decker Chassis",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/04f81133-b6a0-4f3b-b7b1-99caa34587d8.png",
-          "minutes": 210
-        },
-        {
-          "name": "100 Intel",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e92c04a3-4544-485c-9216-c617745b2258.png",
-          "minutes": 240
-        },
-        {
-          "name": "Artemis Torso",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/af2d7ac3-3398-47ca-8ba6-d7c79be4d856.png",
-          "minutes": 270
         }
       ],
-      "src": "fenris"
+      "src": "sunkwi"
     },
     {
-      "id": "b2d9e163-0b45-48bd-a097-babbad90ece4",
-      "name": "New Class: Agent",
+      "id": "cff04320-425c-48d6-be21-c751a982f669",
+      "name": "KORD BREACH S1 Drops",
       "status": "ACTIVE",
-      "start_at": "2026-08-08T12:00:00.000Z",
-      "end_at": "2026-08-09T11:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Black Desert",
-      "game_slug": "black-desert",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-285x380.jpg",
+      "start_at": "2026-08-08T13:00:00Z",
+      "end_at": "2026-08-09T12:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/6e474dfd-07eb-4acb-8798-74f9cdfae204.png",
+      "details_url": "https://www.escapefromtarkov.com/news/id/406",
+      "game": "Escape from Tarkov",
+      "game_slug": "escape-from-tarkov",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/491931_IGDB-120x160.jpg",
       "availability": "open",
-      "required_minutes": 120,
+      "required_minutes": 540,
       "reward_type": "game",
       "rewards": [
         {
-          "name": "1 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/09933e08-921d-4e30-9273-4ce4b335822a.png",
+          "name": "Common 1",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2c8befc2-897e-46b8-93f3-c4425228f778.png",
           "minutes": 60
         },
         {
-          "name": "2 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a71ae13a-8daf-4048-87cd-136b79b41959.png",
+          "name": "Rare 1",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d7cbb607-5a7d-4348-a83c-359b51ec121f.png",
           "minutes": 120
+        },
+        {
+          "name": "Common 2",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a89bc752-2190-416d-97a4-f0878c9086d3.png",
+          "minutes": 180
+        },
+        {
+          "name": "Rare 2",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d0bb0f99-1e7e-48b5-a38b-5f97d401753d.png",
+          "minutes": 240
+        },
+        {
+          "name": "Legendary 1",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/92a77fb9-e978-4d42-8b4c-a50c025b9a65.png",
+          "minutes": 300
+        },
+        {
+          "name": "Common 3",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c6f5da6e-2d14-4f3a-b746-32ef36cadbae.png",
+          "minutes": 360
+        },
+        {
+          "name": "Rare 3",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2a1af6a3-efe2-4d69-8ae3-1cedf37a4206.png",
+          "minutes": 420
+        },
+        {
+          "name": "Common 4",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/59c1d01d-3166-4a82-ac02-b8896d024c77.png",
+          "minutes": 480
+        },
+        {
+          "name": "Legendary 2",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e9e25d6b-df7b-41d3-9c69-3608445be065.png",
+          "minutes": 540
         }
       ],
-      "src": "fenris"
+      "src": "sunkwi"
     },
     {
       "id": "8a9dd118-ea88-410a-ba60-84cb1332aad2",
