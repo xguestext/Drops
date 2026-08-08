@@ -1,41 +1,18 @@
 {
-  "updated_at": "2026-08-08T09:32:45Z",
+  "updated_at": "2026-08-08T10:05:45Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
   "source_updated": "2026-08-08T08:09:02.682Z",
   "counts": {
     "total": 72,
-    "upcoming": 7,
-    "active": 65,
+    "upcoming": 6,
+    "active": 66,
     "game_drops": 69,
     "platform": 3,
     "badges": 2,
     "fechadas_descartadas": 38
   },
   "campaigns": [
-    {
-      "id": "c3406f93-3bc2-45c8-bcfb-afbed8c7fcd2",
-      "name": "Radiant Wilds 17 - #6/7",
-      "status": "UPCOMING",
-      "start_at": "2026-08-08T10:00:00.000Z",
-      "end_at": "2026-08-09T09:29:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Albion Online",
-      "game_slug": "albion-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Radiant Wilds Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
-          "minutes": 180
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "704f2f30-74cf-488d-a961-07988c3ff249",
       "name": "August Week 2 - MLF!",
@@ -2469,6 +2446,29 @@
         }
       ],
       "src": "sunkwi"
+    },
+    {
+      "id": "c3406f93-3bc2-45c8-bcfb-afbed8c7fcd2",
+      "name": "Radiant Wilds 17 - #6/7",
+      "status": "ACTIVE",
+      "start_at": "2026-08-08T10:00:00.000Z",
+      "end_at": "2026-08-09T09:29:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Albion Online",
+      "game_slug": "albion-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Radiant Wilds Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
+          "minutes": 180
+        }
+      ],
+      "src": "fenris"
     },
     {
       "id": "8a9dd118-ea88-410a-ba60-84cb1332aad2",
