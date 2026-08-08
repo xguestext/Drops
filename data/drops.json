@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-08T00:01:14Z",
+  "updated_at": "2026-08-08T02:16:50Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-08T00:01:02.057Z",
+  "source_updated": "2026-08-08T02:16:01.807Z",
   "counts": {
     "total": 70,
-    "upcoming": 4,
-    "active": 66,
+    "upcoming": 6,
+    "active": 64,
     "game_drops": 67,
     "platform": 3,
     "badges": 2,
@@ -181,6 +181,52 @@
           "name": "Artemis Torso",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/af2d7ac3-3398-47ca-8ba6-d7c79be4d856.png",
           "minutes": 270
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "7e9e4a71-2dd0-4403-ad19-263b7dfef3de",
+      "name": "Mobile Drop 121",
+      "status": "UPCOMING",
+      "start_at": "2026-08-08T17:59:00.000Z",
+      "end_at": "2026-08-09T17:56:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Rise Online",
+      "game_slug": "rise-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Regalia of Awakening",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
+          "minutes": 240
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "afc84b67-f3b5-4479-a6c3-bf75101477a7",
+      "name": "August Drops",
+      "status": "UPCOMING",
+      "start_at": "2026-08-09T00:00:00.000Z",
+      "end_at": "2026-08-09T23:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "The Quinfall",
+      "game_slug": "the-quinfall",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 300,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Twitch Reward Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
+          "minutes": 150
         }
       ],
       "src": "fenris"
@@ -992,74 +1038,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "830944fa-c2d6-4911-8d8e-318fdb4be8af",
-      "name": "EA Season 10 Drops 3",
-      "status": "ACTIVE",
-      "start_at": "2026-08-01T00:00:00Z",
-      "end_at": "2026-08-07T23:58:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/12f687f0-0116-4c70-aeb9-37520a7c1a5f.png",
-      "details_url": "https://darkanddarker.com/twitch-drops/EAS10drops3",
-      "game": "Dark and Darker",
-      "game_slug": "dark-and-darker",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2009321156_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 900,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "EAS10#3 Flame wheel",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/31162786-69a9-4170-a08b-83d090b99868.png",
-          "minutes": 900
-        },
-        {
-          "name": "EAS10#3 Witness Emblem10",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/593c2e05-afae-41cf-9616-54224021dd1b.png",
-          "minutes": 60
-        },
-        {
-          "name": "EAS10#3 Healing Supplies",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e9edb22f-3443-41ee-aeab-084980a3000c.png",
-          "minutes": 120
-        },
-        {
-          "name": "EAS10#3 Witness Emblem20",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/38e6dc15-4483-4a60-9543-4bc1d3ed2056.png",
-          "minutes": 240
-        },
-        {
-          "name": "EAS10#3 Lockpick Set",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8875814a-ea20-4304-a4d9-30883d2e744e.png",
-          "minutes": 300
-        },
-        {
-          "name": "EAS10#3 15x Reward Tokens",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/426b9e46-6acb-4b83-a6ab-67b103e3ffac.png",
-          "minutes": 420
-        },
-        {
-          "name": "EAS10#3 Rare PotionBundle",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/96c3e90c-c56a-414b-b6da-8f0ebbbc4283.png",
-          "minutes": 480
-        },
-        {
-          "name": "EAS10#3 Witness Emblem30",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9bd5e624-26e9-49d8-b5de-2eec9755e087.png",
-          "minutes": 600
-        },
-        {
-          "name": "EAS10#3 4x Gold CoinPouch",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b7663ee0-de4c-45be-bcd5-2ede24542024.png",
-          "minutes": 720
-        },
-        {
-          "name": "EAS10#3 Witness Emblem50",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9914f34d-0494-46df-9224-c1eed8a675ea.png",
-          "minutes": 840
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "0bf54d3e-73f8-4189-bf70-315e24ba006e",
       "name": "Pokémon Pitch Black ETB",
       "status": "ACTIVE",
@@ -1849,29 +1827,6 @@
           "name": "100 Comp Points",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6c633208-3650-4e06-8201-02bf5821cf8a.png",
           "minutes": 120
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "cb75a8f5-dab3-4984-a649-57e8cb96c1ac",
-      "name": "August Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-08-07T00:00:00Z",
-      "end_at": "2026-08-07T23:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/85db35db-8778-417a-9425-3b25ab7171d9.png",
-      "details_url": "https://www.quinfall.com/twitch-drops",
-      "game": "The Quinfall",
-      "game_slug": "the-quinfall",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Twitch Reward Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
-          "minutes": 180
         }
       ],
       "src": "sunkwi"
