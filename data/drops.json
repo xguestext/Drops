@@ -1,109 +1,18 @@
 {
-  "updated_at": "2026-08-08T11:46:23Z",
+  "updated_at": "2026-08-08T12:15:42Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
   "source_updated": "2026-08-08T08:09:02.682Z",
   "counts": {
     "total": 72,
-    "upcoming": 5,
-    "active": 67,
+    "upcoming": 3,
+    "active": 69,
     "game_drops": 69,
     "platform": 3,
     "badges": 2,
     "fechadas_descartadas": 38
   },
   "campaigns": [
-    {
-      "id": "61b3fbcd-5157-493c-abb4-c26cefd82a27",
-      "name": "Scorching Heat",
-      "status": "UPCOMING",
-      "start_at": "2026-08-08T12:00:00.000Z",
-      "end_at": "2026-08-22T11:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "War Robots: Frontiers",
-      "game_slug": "war-robots-frontiers",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1671346441_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 270,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "3,000 Credits",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3f67ddfd-dace-4568-a87c-c48b04c622d1.png",
-          "minutes": 30
-        },
-        {
-          "name": "3-Day Premium Account",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2253bcac-6a72-4aba-bd55-f1522cfbd1ce.png",
-          "minutes": 60
-        },
-        {
-          "name": "15,000 Salvage",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6312cc6e-7ac5-4167-a843-39dc81b9d7b4.png",
-          "minutes": 90
-        },
-        {
-          "name": "2x Heike Shoulders",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ed342770-7f7d-4ebc-a452-8591f9cd8f7c.png",
-          "minutes": 120
-        },
-        {
-          "name": "50 Intel",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6371023f-4c07-4977-ad99-7b4a33de4205.png",
-          "minutes": 150
-        },
-        {
-          "name": "2x Velite",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f33aaacf-e101-4ecb-b442-6acc2c0b1756.png",
-          "minutes": 180
-        },
-        {
-          "name": "Decker Chassis",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/04f81133-b6a0-4f3b-b7b1-99caa34587d8.png",
-          "minutes": 210
-        },
-        {
-          "name": "100 Intel",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e92c04a3-4544-485c-9216-c617745b2258.png",
-          "minutes": 240
-        },
-        {
-          "name": "Artemis Torso",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/af2d7ac3-3398-47ca-8ba6-d7c79be4d856.png",
-          "minutes": 270
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "b2d9e163-0b45-48bd-a097-babbad90ece4",
-      "name": "New Class: Agent",
-      "status": "UPCOMING",
-      "start_at": "2026-08-08T12:00:00.000Z",
-      "end_at": "2026-08-09T11:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Black Desert",
-      "game_slug": "black-desert",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "1 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/09933e08-921d-4e30-9273-4ce4b335822a.png",
-          "minutes": 60
-        },
-        {
-          "name": "2 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a71ae13a-8daf-4048-87cd-136b79b41959.png",
-          "minutes": 120
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "7e9e4a71-2dd0-4403-ad19-263b7dfef3de",
       "name": "Mobile Drop 121",
@@ -2466,6 +2375,97 @@
           "name": "Market Coins Bundle 7",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/043434c4-1e73-40ae-80ec-ac836737e748.jpeg",
           "minutes": 840
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "61b3fbcd-5157-493c-abb4-c26cefd82a27",
+      "name": "Scorching Heat",
+      "status": "ACTIVE",
+      "start_at": "2026-08-08T12:00:00.000Z",
+      "end_at": "2026-08-22T11:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "War Robots: Frontiers",
+      "game_slug": "war-robots-frontiers",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1671346441_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 270,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "3,000 Credits",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3f67ddfd-dace-4568-a87c-c48b04c622d1.png",
+          "minutes": 30
+        },
+        {
+          "name": "3-Day Premium Account",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2253bcac-6a72-4aba-bd55-f1522cfbd1ce.png",
+          "minutes": 60
+        },
+        {
+          "name": "15,000 Salvage",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6312cc6e-7ac5-4167-a843-39dc81b9d7b4.png",
+          "minutes": 90
+        },
+        {
+          "name": "2x Heike Shoulders",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ed342770-7f7d-4ebc-a452-8591f9cd8f7c.png",
+          "minutes": 120
+        },
+        {
+          "name": "50 Intel",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6371023f-4c07-4977-ad99-7b4a33de4205.png",
+          "minutes": 150
+        },
+        {
+          "name": "2x Velite",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f33aaacf-e101-4ecb-b442-6acc2c0b1756.png",
+          "minutes": 180
+        },
+        {
+          "name": "Decker Chassis",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/04f81133-b6a0-4f3b-b7b1-99caa34587d8.png",
+          "minutes": 210
+        },
+        {
+          "name": "100 Intel",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e92c04a3-4544-485c-9216-c617745b2258.png",
+          "minutes": 240
+        },
+        {
+          "name": "Artemis Torso",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/af2d7ac3-3398-47ca-8ba6-d7c79be4d856.png",
+          "minutes": 270
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "b2d9e163-0b45-48bd-a097-babbad90ece4",
+      "name": "New Class: Agent",
+      "status": "ACTIVE",
+      "start_at": "2026-08-08T12:00:00.000Z",
+      "end_at": "2026-08-09T11:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Black Desert",
+      "game_slug": "black-desert",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "1 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/09933e08-921d-4e30-9273-4ce4b335822a.png",
+          "minutes": 60
+        },
+        {
+          "name": "2 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a71ae13a-8daf-4048-87cd-136b79b41959.png",
+          "minutes": 120
         }
       ],
       "src": "fenris"
