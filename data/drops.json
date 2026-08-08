@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-08T08:55:01Z",
+  "updated_at": "2026-08-08T09:32:45Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
   "source_updated": "2026-08-08T08:09:02.682Z",
   "counts": {
-    "total": 71,
-    "upcoming": 6,
+    "total": 72,
+    "upcoming": 7,
     "active": 65,
-    "game_drops": 68,
+    "game_drops": 69,
     "platform": 3,
     "badges": 2,
     "fechadas_descartadas": 38
@@ -95,34 +95,6 @@
       "src": "fenris"
     },
     {
-      "id": "b2d9e163-0b45-48bd-a097-babbad90ece4",
-      "name": "New Class: Agent",
-      "status": "UPCOMING",
-      "start_at": "2026-08-08T12:00:00.000Z",
-      "end_at": "2026-08-09T11:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Black Desert",
-      "game_slug": "black-desert",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "1 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/09933e08-921d-4e30-9273-4ce4b335822a.png",
-          "minutes": 60
-        },
-        {
-          "name": "2 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a71ae13a-8daf-4048-87cd-136b79b41959.png",
-          "minutes": 120
-        }
-      ],
-      "src": "fenris"
-    },
-    {
       "id": "61b3fbcd-5157-493c-abb4-c26cefd82a27",
       "name": "Scorching Heat",
       "status": "UPCOMING",
@@ -186,6 +158,34 @@
       "src": "fenris"
     },
     {
+      "id": "b2d9e163-0b45-48bd-a097-babbad90ece4",
+      "name": "New Class: Agent",
+      "status": "UPCOMING",
+      "start_at": "2026-08-08T12:00:00.000Z",
+      "end_at": "2026-08-09T11:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Black Desert",
+      "game_slug": "black-desert",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "1 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/09933e08-921d-4e30-9273-4ce4b335822a.png",
+          "minutes": 60
+        },
+        {
+          "name": "2 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a71ae13a-8daf-4048-87cd-136b79b41959.png",
+          "minutes": 120
+        }
+      ],
+      "src": "fenris"
+    },
+    {
       "id": "7e9e4a71-2dd0-4403-ad19-263b7dfef3de",
       "name": "Mobile Drop 121",
       "status": "UPCOMING",
@@ -227,6 +227,29 @@
           "name": "Twitch Reward Chest",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
           "minutes": 150
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "78fcc664-e427-4381-bd19-31d53212c1d9",
+      "name": "WCI 2026 APAC Qualifier 2",
+      "status": "UPCOMING",
+      "start_at": "2026-08-09T07:30:00.000Z",
+      "end_at": "2026-08-09T13:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "World of Tanks",
+      "game_slug": "world-of-tanks",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/27546_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "WCI 2026 APAC 2",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0894eaa5-26fc-4bb3-a642-1070080a6e8a.png",
+          "minutes": 240
         }
       ],
       "src": "fenris"
