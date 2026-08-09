@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-08-09T16:16:47Z",
+  "updated_at": "2026-08-09T16:58:51Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-09T16:16:01.369Z",
+  "source_updated": "2026-08-09T16:58:02.611Z",
   "counts": {
-    "total": 67,
-    "upcoming": 4,
+    "total": 69,
+    "upcoming": 6,
     "active": 63,
-    "game_drops": 64,
+    "game_drops": 66,
     "platform": 3,
     "badges": 2,
-    "fechadas_descartadas": 41
+    "fechadas_descartadas": 43
   },
   "campaigns": [
     {
@@ -116,6 +116,57 @@
           "name": "Special Random Gift",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/066c42e3-2599-4297-a7ec-25971442bdb3.png",
           "minutes": 60
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "51c90010-be0c-494b-990c-fb6856b6033c",
+      "name": "Radiant Wilds 18 - #1/7",
+      "status": "UPCOMING",
+      "start_at": "2026-08-10T10:00:00.000Z",
+      "end_at": "2026-08-11T09:29:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Albion Online",
+      "game_slug": "albion-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Radiant Wilds Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
+          "minutes": 180
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "320a4ba2-0647-4c48-90af-abfa3dc54e1e",
+      "name": "New Class: Agent",
+      "status": "UPCOMING",
+      "start_at": "2026-08-10T12:00:00.000Z",
+      "end_at": "2026-08-11T11:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Black Desert",
+      "game_slug": "black-desert",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "1 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/361b4d3f-65ef-492a-9078-bf46f8899fb2.png",
+          "minutes": 60
+        },
+        {
+          "name": "2 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/015ca6f2-96c4-45b4-b1f2-9c7052ee6b0d.png",
+          "minutes": 120
         }
       ],
       "src": "fenris"
