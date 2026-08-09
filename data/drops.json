@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-09T14:01:20Z",
+  "updated_at": "2026-08-09T14:48:06Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-09T14:01:01.696Z",
+  "source_updated": "2026-08-09T14:48:02.744Z",
   "counts": {
-    "total": 70,
+    "total": 68,
     "upcoming": 4,
-    "active": 66,
-    "game_drops": 67,
+    "active": 64,
+    "game_drops": 65,
     "platform": 3,
     "badges": 2,
     "fechadas_descartadas": 41
@@ -584,29 +584,6 @@
           "name": "Wings Cosmetic",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e0fcf8b5-21ac-42ff-ba84-dd999d5e1fc7.png",
           "minutes": 180
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "425b2fef-a89e-4127-9d03-4fcb5a447885",
-      "name": "The Wizard #7",
-      "status": "ACTIVE",
-      "start_at": "2026-07-27T14:00:00Z",
-      "end_at": "2026-08-09T13:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a8439109-13a9-4fc5-a5b4-aa2e9b8a3d06.jpeg",
-      "details_url": "https://account.ioi.dk/",
-      "game": "HITMAN World of Assassination",
-      "game_slug": "hitman-world-of-assassination",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1780647523_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 60,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Purple Streak Lockpick",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/064e67dd-3e65-47d5-8d13-52a5a21cd8d3.jpeg",
-          "minutes": 60
         }
       ],
       "src": "sunkwi"
@@ -2253,29 +2230,6 @@
           "name": "Twitch Reward Chest",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
           "minutes": 150
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "78fcc664-e427-4381-bd19-31d53212c1d9",
-      "name": "WCI 2026 APAC Qualifier 2",
-      "status": "ACTIVE",
-      "start_at": "2026-08-09T07:30:00Z",
-      "end_at": "2026-08-09T13:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/386e608b-0d7c-482c-b64a-647fbeb6483c.png",
-      "details_url": "https://worldoftanks.asia/en/news/competitive-gaming/wci-2026-apac-qualifier-finals-playoffs/",
-      "game": "World of Tanks",
-      "game_slug": "world-of-tanks",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/27546_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "WCI 2026 APAC 2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0894eaa5-26fc-4bb3-a642-1070080a6e8a.png",
-          "minutes": 240
         }
       ],
       "src": "sunkwi"
