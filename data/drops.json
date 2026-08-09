@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-08-09T22:58:58Z",
+  "updated_at": "2026-08-09T23:37:06Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-09T22:58:01.389Z",
+  "source_updated": "2026-08-09T23:37:01.202Z",
   "counts": {
-    "total": 65,
+    "total": 64,
     "upcoming": 4,
-    "active": 61,
-    "game_drops": 62,
+    "active": 60,
+    "game_drops": 61,
     "platform": 3,
     "badges": 2,
-    "fechadas_descartadas": 35
+    "fechadas_descartadas": 34
   },
   "campaigns": [
     {
@@ -907,39 +907,6 @@
           "name": "She Who Stalks Portrait",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2516d4a0-fd12-4207-a85b-b4d255162449.png",
           "minutes": 60
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "61d076e3-c0c1-45c9-82d7-40a261fc2fec",
-      "name": "Weekly Supply Drops #27",
-      "status": "ACTIVE",
-      "start_at": "2026-08-03T00:00:00Z",
-      "end_at": "2026-08-09T23:29:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/0d4fefcf-c91c-4e5b-a67d-969b1a385d8f.png",
-      "details_url": "https://artstorm.com/news/weekly-supply-drops-on-twitch",
-      "game": "Modern Warships",
-      "game_slug": "modern-warships",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/423797288_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 90,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "1 Day of Premium",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/075db935-cd69-42db-a87f-d436973f45e3.png",
-          "minutes": 30
-        },
-        {
-          "name": "100 UP's",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8c6bf298-85b3-4521-8994-3d59e637d713.png",
-          "minutes": 60
-        },
-        {
-          "name": "Tactical Consumables Set",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/203e1a32-c0fc-4a46-bbb9-0ca0a0e5e046.png",
-          "minutes": 90
         }
       ],
       "src": "sunkwi"
