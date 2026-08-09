@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-09T16:58:51Z",
+  "updated_at": "2026-08-09T17:36:16Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-09T16:58:02.611Z",
+  "source_updated": "2026-08-09T17:36:01.293Z",
   "counts": {
-    "total": 69,
+    "total": 68,
     "upcoming": 6,
-    "active": 63,
-    "game_drops": 66,
+    "active": 62,
+    "game_drops": 65,
     "platform": 3,
     "badges": 2,
     "fechadas_descartadas": 43
@@ -1811,54 +1811,6 @@
           "name": "Deagle - Action Time",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/68360c28-63b8-4d1c-897e-098960aeff6f.png",
           "minutes": 0
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "5c08cf1c-c956-4f2a-999f-f381ff721fc2",
-      "name": "CFB Live",
-      "status": "ACTIVE",
-      "start_at": "2026-08-07T17:00:00Z",
-      "end_at": "2026-08-09T16:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/0d218da6-c6be-4fa2-a224-c30a78b78743.png",
-      "details_url": "https://help.twitch.tv/s/article/mission-based-drops?language=en_US",
-      "game": "EA Sports College Football 27",
-      "game_slug": "ea-sports-college-football-27",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1678532194_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "CFB Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c82f900e-447d-4b7a-8d58-22637d4dd929.png",
-          "minutes": 15
-        },
-        {
-          "name": "CFB Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8e9b268f-0af4-4fc8-8380-753be4e0eb7e.png",
-          "minutes": 30
-        },
-        {
-          "name": "CFB Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/60b033cf-79ac-49ea-b644-bf373e43f408.png",
-          "minutes": 60
-        },
-        {
-          "name": "CFB Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/81611b8d-bc88-4b38-807a-1014e7616524.png",
-          "minutes": 120
-        },
-        {
-          "name": "CFB Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/60314ca0-b117-426e-87f1-ede54b181895.png",
-          "minutes": 180
-        },
-        {
-          "name": "CFB Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/78b8d81a-a90f-4d76-a398-d7f9e88c048f.png",
-          "minutes": 240
         }
       ],
       "src": "sunkwi"
