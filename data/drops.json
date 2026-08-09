@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-09T14:48:06Z",
+  "updated_at": "2026-08-09T15:15:54Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-09T14:48:02.744Z",
+  "source_updated": "2026-08-09T15:15:01.590Z",
   "counts": {
-    "total": 68,
+    "total": 67,
     "upcoming": 4,
-    "active": 64,
-    "game_drops": 65,
+    "active": 63,
+    "game_drops": 64,
     "platform": 3,
     "badges": 2,
     "fechadas_descartadas": 41
@@ -211,49 +211,6 @@
         {
           "name": "Stellar Jade*30",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/35243e27-46dd-438a-b460-7bfafe547f18.png",
-          "minutes": 120
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "560a2c7c-786d-40c0-8766-ecf573ac87f7",
-      "name": "7DS Origin 3rd Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-07-15T08:00:00Z",
-      "end_at": "2026-08-09T14:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/6af9c6f4-1a63-4b9e-ad36-18276495fcbc.png",
-      "details_url": "https://7origin.netmarble.com/drops",
-      "game": "The Seven Deadly Sins: Origin",
-      "game_slug": "seven-deadly-sins-origin",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/76929895_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Supreme Mastery EXP x 10",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d603c2ab-5dbd-454f-a8b4-a0c1d5c81be7.png",
-          "minutes": 15
-        },
-        {
-          "name": "Special Refinement Stone",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1ec9f367-f7a4-4437-a37b-b37b1362d520.png",
-          "minutes": 30
-        },
-        {
-          "name": "Special Tier Up Stone",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/76742864-6f47-4ef6-9a55-2a1bc53058e4.png",
-          "minutes": 60
-        },
-        {
-          "name": "Cube Key Bundle",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/24692bcd-69e8-498a-af9a-d5a2d145272e.png",
-          "minutes": 90
-        },
-        {
-          "name": "Regular Hero Draw Ticket3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6e1a261d-56c3-4c62-8d89-08d6c88d7a18.png",
           "minutes": 120
         }
       ],
