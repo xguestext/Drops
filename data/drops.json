@@ -1,41 +1,18 @@
 {
-  "updated_at": "2026-08-08T23:56:16Z",
+  "updated_at": "2026-08-09T01:37:01Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-08T23:56:01.201Z",
+  "source_updated": "2026-08-09T01:37:01.513Z",
   "counts": {
-    "total": 69,
-    "upcoming": 4,
+    "total": 68,
+    "upcoming": 3,
     "active": 65,
-    "game_drops": 66,
+    "game_drops": 65,
     "platform": 3,
     "badges": 2,
-    "fechadas_descartadas": 53
+    "fechadas_descartadas": 54
   },
   "campaigns": [
-    {
-      "id": "afc84b67-f3b5-4479-a6c3-bf75101477a7",
-      "name": "August Drops",
-      "status": "UPCOMING",
-      "start_at": "2026-08-09T00:00:00.000Z",
-      "end_at": "2026-08-09T23:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "The Quinfall",
-      "game_slug": "the-quinfall",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 300,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Twitch Reward Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
-          "minutes": 150
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "78fcc664-e427-4381-bd19-31d53212c1d9",
       "name": "WCI 2026 APAC Qualifier 2",
@@ -1978,29 +1955,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "31b82d54-4992-4f9e-84b0-f8e6b40fc2bb",
-      "name": "August Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-08-08T00:00:00Z",
-      "end_at": "2026-08-08T23:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/68346209-6160-482b-8535-6582bd018d2a.png",
-      "details_url": "https://www.quinfall.com/twitch-drops",
-      "game": "The Quinfall",
-      "game_slug": "the-quinfall",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 300,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Twitch Reward Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
-          "minutes": 150
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "565935ab-7361-46b5-bcb5-92a7ad517c3d",
       "name": "Drops",
       "status": "ACTIVE",
@@ -2357,6 +2311,29 @@
           "name": "Regalia of Awakening",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
           "minutes": 240
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "afc84b67-f3b5-4479-a6c3-bf75101477a7",
+      "name": "August Drops",
+      "status": "ACTIVE",
+      "start_at": "2026-08-09T00:00:00Z",
+      "end_at": "2026-08-09T23:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/abda134f-44ce-4915-b4cf-1fca797f4129.png",
+      "details_url": "https://www.quinfall.com/twitch-drops",
+      "game": "The Quinfall",
+      "game_slug": "the-quinfall",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 300,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Twitch Reward Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
+          "minutes": 150
         }
       ],
       "src": "sunkwi"
