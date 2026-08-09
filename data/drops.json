@@ -1,41 +1,18 @@
 {
-  "updated_at": "2026-08-09T06:25:44Z",
+  "updated_at": "2026-08-09T07:31:17Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-09T06:25:01.236Z",
+  "source_updated": "2026-08-09T07:31:01.215Z",
   "counts": {
     "total": 71,
-    "upcoming": 6,
-    "active": 65,
+    "upcoming": 5,
+    "active": 66,
     "game_drops": 68,
     "platform": 3,
     "badges": 2,
     "fechadas_descartadas": 51
   },
   "campaigns": [
-    {
-      "id": "78fcc664-e427-4381-bd19-31d53212c1d9",
-      "name": "WCI 2026 APAC Qualifier 2",
-      "status": "UPCOMING",
-      "start_at": "2026-08-09T07:30:00.000Z",
-      "end_at": "2026-08-09T13:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "World of Tanks",
-      "game_slug": "world-of-tanks",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/27546_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "WCI 2026 APAC 2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0894eaa5-26fc-4bb3-a642-1070080a6e8a.png",
-          "minutes": 240
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "41fd64dc-2a5d-46fb-99d3-bc50d824d250",
       "name": "Radiant Wilds 17 - #7/7",
@@ -2418,6 +2395,29 @@
           "name": "Twitch Reward Chest",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
           "minutes": 150
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "78fcc664-e427-4381-bd19-31d53212c1d9",
+      "name": "WCI 2026 APAC Qualifier 2",
+      "status": "ACTIVE",
+      "start_at": "2026-08-09T07:30:00Z",
+      "end_at": "2026-08-09T13:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/386e608b-0d7c-482c-b64a-647fbeb6483c.png",
+      "details_url": "https://worldoftanks.asia/en/news/competitive-gaming/wci-2026-apac-qualifier-finals-playoffs/",
+      "game": "World of Tanks",
+      "game_slug": "world-of-tanks",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/27546_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "WCI 2026 APAC 2",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0894eaa5-26fc-4bb3-a642-1070080a6e8a.png",
+          "minutes": 240
         }
       ],
       "src": "sunkwi"
