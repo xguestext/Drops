@@ -1,46 +1,18 @@
 {
-  "updated_at": "2026-08-09T11:39:42Z",
+  "updated_at": "2026-08-09T12:02:18Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-09T11:39:03.039Z",
+  "source_updated": "2026-08-09T12:02:01.712Z",
   "counts": {
-    "total": 71,
-    "upcoming": 5,
+    "total": 70,
+    "upcoming": 4,
     "active": 66,
-    "game_drops": 68,
+    "game_drops": 67,
     "platform": 3,
     "badges": 2,
     "fechadas_descartadas": 52
   },
   "campaigns": [
-    {
-      "id": "395c8f68-797c-4ac7-9fcc-a58a96894895",
-      "name": "New Class: Agent",
-      "status": "UPCOMING",
-      "start_at": "2026-08-09T12:00:00.000Z",
-      "end_at": "2026-08-10T11:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Black Desert",
-      "game_slug": "black-desert",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "1 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/09933e08-921d-4e30-9273-4ce4b335822a.png",
-          "minutes": 60
-        },
-        {
-          "name": "2 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a71ae13a-8daf-4048-87cd-136b79b41959.png",
-          "minutes": 120
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "33eba564-019f-4fcb-8d72-931211214227",
       "name": "Mobile Drop 122",
@@ -2177,34 +2149,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "b2d9e163-0b45-48bd-a097-babbad90ece4",
-      "name": "New Class: Agent",
-      "status": "ACTIVE",
-      "start_at": "2026-08-08T12:00:00Z",
-      "end_at": "2026-08-09T11:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/68a315ba-0407-498b-b8e0-d1c49688e027.png",
-      "details_url": "https://www.naeu.playblackdesert.com/News/Detail?groupContentNo=10373",
-      "game": "Black Desert",
-      "game_slug": "black-desert",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "1 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/09933e08-921d-4e30-9273-4ce4b335822a.png",
-          "minutes": 60
-        },
-        {
-          "name": "2 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a71ae13a-8daf-4048-87cd-136b79b41959.png",
-          "minutes": 120
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "61b3fbcd-5157-493c-abb4-c26cefd82a27",
       "name": "Scorching Heat",
       "status": "ACTIVE",
@@ -2418,6 +2362,34 @@
           "name": "Radiant Wilds Chest",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
           "minutes": 180
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "395c8f68-797c-4ac7-9fcc-a58a96894895",
+      "name": "New Class: Agent",
+      "status": "ACTIVE",
+      "start_at": "2026-08-09T12:00:00Z",
+      "end_at": "2026-08-10T11:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/9e6303b3-dd14-4a60-87e5-680724a13b91.png",
+      "details_url": "https://www.naeu.playblackdesert.com/News/Detail?groupContentNo=10373",
+      "game": "Black Desert",
+      "game_slug": "black-desert",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "1 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/09933e08-921d-4e30-9273-4ce4b335822a.png",
+          "minutes": 60
+        },
+        {
+          "name": "2 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a71ae13a-8daf-4048-87cd-136b79b41959.png",
+          "minutes": 120
         }
       ],
       "src": "sunkwi"
