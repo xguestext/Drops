@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-08-10T13:38:05Z",
+  "updated_at": "2026-08-10T14:41:42Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-10T13:38:01.358Z",
+  "source_updated": "2026-08-10T14:41:01.319Z",
   "counts": {
-    "total": 62,
+    "total": 61,
     "upcoming": 4,
-    "active": 58,
-    "game_drops": 59,
+    "active": 57,
+    "game_drops": 58,
     "platform": 3,
     "badges": 2,
-    "fechadas_descartadas": 27
+    "fechadas_descartadas": 30
   },
   "campaigns": [
     {
@@ -536,29 +536,6 @@
           "name": "Wings Cosmetic",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e0fcf8b5-21ac-42ff-ba84-dd999d5e1fc7.png",
           "minutes": 180
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "a5dd76e2-c17b-49a7-b53c-18616aa6ba72",
-      "name": "DbD Into the Rainbow 2026",
-      "status": "ACTIVE",
-      "start_at": "2026-07-28T17:00:00Z",
-      "end_at": "2026-08-10T13:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/201e2107-d5ae-4725-b448-c1a18facd63e.png",
-      "details_url": "https://help.twitch.tv/s/article/twitch-chat-badges-guide",
-      "game": "Dead by Daylight",
-      "game_slug": "dead-by-daylight",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/491487-120x160.jpg",
-      "availability": "open",
-      "required_minutes": null,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "DbD Pride Icon",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/feb31f08-8e03-48a1-9c9b-99ac53c4632c.png",
-          "minutes": 0
         }
       ],
       "src": "sunkwi"
