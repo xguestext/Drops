@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-10T23:14:45Z",
+  "updated_at": "2026-08-10T23:52:30Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-10T23:14:01.494Z",
+  "source_updated": "2026-08-10T23:52:01.166Z",
   "counts": {
-    "total": 62,
+    "total": 61,
     "upcoming": 5,
-    "active": 57,
-    "game_drops": 59,
+    "active": 56,
+    "game_drops": 58,
     "platform": 3,
     "badges": 2,
     "fechadas_descartadas": 29
@@ -531,44 +531,6 @@
           "name": "Twitch Stun Grenade Skin",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9546d09b-4e89-4113-bd07-bc39fa23eb41.png",
           "minutes": 600
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "063c125e-5a26-4637-b377-0fbdf725cd63",
-      "name": "Dragonkin - July Update",
-      "status": "ACTIVE",
-      "start_at": "2026-07-26T08:00:00Z",
-      "end_at": "2026-08-10T23:29:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/default.png",
-      "details_url": "https://my.nacongaming.com/",
-      "game": "Dragonkin: The Banished",
-      "game_slug": "dragonkin-the-banished",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1249868373_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Death Animation",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bc7223a1-1f56-4e9a-b7eb-7efc5deb2c39.png",
-          "minutes": 60
-        },
-        {
-          "name": "Portal Animation",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/001fee1c-7888-4954-9a33-6fc23b7fe9c9.png",
-          "minutes": 120
-        },
-        {
-          "name": "Wyrmling Trail Cosmetic",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/94c2d0a1-02bd-4aad-9798-f3978efbf9ea.png",
-          "minutes": 180
-        },
-        {
-          "name": "Wings Cosmetic",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e0fcf8b5-21ac-42ff-ba84-dd999d5e1fc7.png",
-          "minutes": 180
         }
       ],
       "src": "sunkwi"
