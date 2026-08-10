@@ -1,41 +1,18 @@
 {
-  "updated_at": "2026-08-10T02:29:38Z",
+  "updated_at": "2026-08-10T04:15:16Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-10T02:29:01.163Z",
+  "source_updated": "2026-08-10T04:15:01.190Z",
   "counts": {
-    "total": 67,
-    "upcoming": 7,
-    "active": 60,
-    "game_drops": 64,
+    "total": 64,
+    "upcoming": 6,
+    "active": 58,
+    "game_drops": 61,
     "platform": 3,
     "badges": 2,
-    "fechadas_descartadas": 34
+    "fechadas_descartadas": 31
   },
   "campaigns": [
-    {
-      "id": "d7c8d1d7-6949-46c9-af79-9cc6a26fcfe6",
-      "name": "JS1 Weekly 8.10",
-      "status": "UPCOMING",
-      "start_at": "2026-08-10T04:00:00.000Z",
-      "end_at": "2026-08-17T03:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "NARAKA: BLADEPOINT",
-      "game_slug": "naraka-bladepoint",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/515474_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 60,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Special Random Gift",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/066c42e3-2599-4297-a7ec-25971442bdb3.png",
-          "minutes": 60
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "51c90010-be0c-494b-990c-fb6856b6033c",
       "name": "Radiant Wilds 18 - #1/7",
@@ -1004,29 +981,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "db1ad598-ce60-4ffe-aa95-614343498be0",
-      "name": "JS1 Weekly 8.3",
-      "status": "ACTIVE",
-      "start_at": "2026-08-03T04:00:00Z",
-      "end_at": "2026-08-10T03:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/744bcfce-7aa7-4727-891d-2f11b9a227c0.png",
-      "details_url": "https://www.narakathegame.com/news/official/20250723/32172_1249209.html",
-      "game": "NARAKA: BLADEPOINT",
-      "game_slug": "naraka-bladepoint",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/515474_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 60,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Special Random Gift",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/066c42e3-2599-4297-a7ec-25971442bdb3.png",
-          "minutes": 60
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "b802d020-c152-4030-806a-01b2bc2d458a",
       "name": "Webs Assemble - Week 2",
       "status": "ACTIVE",
@@ -1694,34 +1648,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "330c410a-e597-4715-963c-cdc0d84af3d2",
-      "name": "RISE Series S1 Sub Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-08-07T16:00:00Z",
-      "end_at": "2026-08-10T03:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/686b57af-965e-4ecc-9e24-2ba417f64761.png",
-      "details_url": "https://www.playdeltaforce.com/act/twitchdrops/index.html",
-      "game": "Delta Force",
-      "game_slug": "delta-force-hawk-ops",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1282866981_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": null,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "AKM - Action Time",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3606a034-8bbf-4c2d-9916-30c1e70c378c.png",
-          "minutes": 0
-        },
-        {
-          "name": "Deagle - Action Time",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/68360c28-63b8-4d1c-897e-098960aeff6f.png",
-          "minutes": 0
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "3b42f70d-bd19-44f2-b612-c09967d5bbbb",
       "name": "August Week 2",
       "status": "ACTIVE",
@@ -1773,59 +1699,6 @@
           "name": "Closed Playtest Key",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3049c1f0-7d1d-4ded-bd2c-b6f63bc3cfa2.png",
           "minutes": 30
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "ee40b802-76d1-4f86-acbc-9f976fcdff4b",
-      "name": "Early Access Madden Live",
-      "status": "ACTIVE",
-      "start_at": "2026-08-07T22:00:00Z",
-      "end_at": "2026-08-10T03:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/2fc18fac-5738-44f0-9f70-56bed144c0c9.png",
-      "details_url": "https://help.twitch.tv/s/article/mission-based-drops?language=en_US",
-      "game": "Madden NFL 27",
-      "game_slug": "madden-nfl-27",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/670138298_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Madden Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8e87db48-d64a-4752-94d3-e78ab039ddd5.png",
-          "minutes": 15
-        },
-        {
-          "name": "Madden Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5bf22a8a-f8ad-4525-96a9-0194d624e245.png",
-          "minutes": 30
-        },
-        {
-          "name": "Madden Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6946ff2b-22b0-4c01-8cd5-bcc1a43f4246.png",
-          "minutes": 60
-        },
-        {
-          "name": "Madden Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3b581b8e-e8ca-447f-af78-22d2f1877b88.png",
-          "minutes": 90
-        },
-        {
-          "name": "Madden Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e1284804-3337-40d4-a2b2-413240a73f4f.png",
-          "minutes": 120
-        },
-        {
-          "name": "Madden Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/490fd82b-9ee3-4184-a1be-d4ae32d35723.png",
-          "minutes": 180
-        },
-        {
-          "name": "Madden Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/68473a84-8589-45bf-981f-8a63fb70c379.png",
-          "minutes": 240
         }
       ],
       "src": "sunkwi"
@@ -2271,6 +2144,29 @@
           "name": "Tactical Consumables Set",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/203e1a32-c0fc-4a46-bbb9-0ca0a0e5e046.png",
           "minutes": 90
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "d7c8d1d7-6949-46c9-af79-9cc6a26fcfe6",
+      "name": "JS1 Weekly 8.10",
+      "status": "ACTIVE",
+      "start_at": "2026-08-10T04:00:00Z",
+      "end_at": "2026-08-17T03:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/9e43b94d-c6d5-4452-9d23-4c776ff53825.png",
+      "details_url": "https://www.narakathegame.com/news/official/20250723/32172_1249209.html",
+      "game": "NARAKA: BLADEPOINT",
+      "game_slug": "naraka-bladepoint",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/515474_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 60,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Special Random Gift",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/066c42e3-2599-4297-a7ec-25971442bdb3.png",
+          "minutes": 60
         }
       ],
       "src": "sunkwi"
