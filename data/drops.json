@@ -1,41 +1,18 @@
 {
-  "updated_at": "2026-08-10T23:52:30Z",
+  "updated_at": "2026-08-11T01:19:11Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-10T23:52:01.166Z",
+  "source_updated": "2026-08-11T01:19:01.670Z",
   "counts": {
-    "total": 61,
-    "upcoming": 5,
+    "total": 62,
+    "upcoming": 6,
     "active": 56,
-    "game_drops": 58,
+    "game_drops": 59,
     "platform": 3,
     "badges": 2,
     "fechadas_descartadas": 29
   },
   "campaigns": [
-    {
-      "id": "7a556e2d-b835-45f2-856f-e0d6673384d1",
-      "name": "August Drops",
-      "status": "UPCOMING",
-      "start_at": "2026-08-11T00:00:00.000Z",
-      "end_at": "2026-08-11T23:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "The Quinfall",
-      "game_slug": "the-quinfall",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Twitch Reward Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
-          "minutes": 180
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "afe3df17-6f91-4a0e-af8d-b128d9344248",
       "name": "Radiant Wilds 18 - #2/7",
@@ -144,6 +121,57 @@
           "name": "Ghostly Infusion",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6dd3ddf8-754d-4f2c-9737-9741ea599129.png",
           "minutes": 900
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "63869b8b-7867-45c8-baf1-76e0b5886167",
+      "name": "Mobile Drop 124",
+      "status": "UPCOMING",
+      "start_at": "2026-08-11T17:59:00.000Z",
+      "end_at": "2026-08-12T17:56:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Rise Online",
+      "game_slug": "rise-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Regalia of Awakening",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
+          "minutes": 240
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "4e42a7b6-cb2d-40dc-8ce6-feaab35005dc",
+      "name": "GOALS - 12th of August",
+      "status": "UPCOMING",
+      "start_at": "2026-08-11T22:01:00.000Z",
+      "end_at": "2026-08-12T21:58:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "GOALS",
+      "game_slug": "goals",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/951160620_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 360,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Common+ Pack [1 Player]",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82a4b7fe-7458-4b59-b909-ebc30fc91521.png",
+          "minutes": 60
+        },
+        {
+          "name": "Uncommon+ Pack [1 Player]",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png",
+          "minutes": 300
         }
       ],
       "src": "fenris"
@@ -1695,29 +1723,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "978d2fc7-2d8f-4933-8d00-c00a8c832e95",
-      "name": "August Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-08-10T00:00:00Z",
-      "end_at": "2026-08-10T23:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/7bcdbe7a-0b83-43ef-9468-2119a11eaa27.png",
-      "details_url": "https://www.quinfall.com/twitch-drops",
-      "game": "The Quinfall",
-      "game_slug": "the-quinfall",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Twitch Reward Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
-          "minutes": 180
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "883737c3-1445-4eef-bc51-2eafbde15ed0",
       "name": "Weekly Supply Drops #28",
       "status": "ACTIVE",
@@ -2013,6 +2018,29 @@
           "name": "Uncommon+ Pack [1 Player]",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png",
           "minutes": 300
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "7a556e2d-b835-45f2-856f-e0d6673384d1",
+      "name": "August Drops",
+      "status": "ACTIVE",
+      "start_at": "2026-08-11T00:00:00Z",
+      "end_at": "2026-08-11T23:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a3e72ba7-2655-4a4f-b218-c23d7a8ec0c1.png",
+      "details_url": "https://www.quinfall.com/twitch-drops",
+      "game": "The Quinfall",
+      "game_slug": "the-quinfall",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Twitch Reward Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
+          "minutes": 180
         }
       ],
       "src": "sunkwi"
