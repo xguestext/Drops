@@ -1,41 +1,18 @@
 {
-  "updated_at": "2026-08-11T09:45:15Z",
+  "updated_at": "2026-08-11T10:36:18Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-11T09:45:01.273Z",
+  "source_updated": "2026-08-11T10:36:01.450Z",
   "counts": {
-    "total": 63,
-    "upcoming": 8,
-    "active": 55,
-    "game_drops": 61,
+    "total": 61,
+    "upcoming": 7,
+    "active": 54,
+    "game_drops": 59,
     "platform": 2,
     "badges": 2,
-    "fechadas_descartadas": 31
+    "fechadas_descartadas": 30
   },
   "campaigns": [
-    {
-      "id": "afe3df17-6f91-4a0e-af8d-b128d9344248",
-      "name": "Radiant Wilds 18 - #2/7",
-      "status": "UPCOMING",
-      "start_at": "2026-08-11T10:00:00.000Z",
-      "end_at": "2026-08-12T09:29:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Albion Online",
-      "game_slug": "albion-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Radiant Wilds Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
-          "minutes": 180
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "09c08de8-6b21-498b-9e91-8e37797d8de7",
       "name": "New Class: Agent",
@@ -241,59 +218,6 @@
         }
       ],
       "src": "fenris"
-    },
-    {
-      "id": "31d071f0-4490-42c4-9262-d6abe48be8f1",
-      "name": "Project Boneyard",
-      "status": "ACTIVE",
-      "start_at": "2026-07-14T10:00:00Z",
-      "end_at": "2026-08-11T09:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/50543d22-9b47-4ac7-9ad2-55119b150c90.png",
-      "details_url": "https://redbarrelsgames.com/support/tot_twitchdrops/",
-      "game": "The Outlast Trials",
-      "game_slug": "the-outlast-trials",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/518144_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 360,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Otto Kress Profile Icon",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1f415709-f39b-48fb-83b7-0b0cd630d9e5.png",
-          "minutes": 30
-        },
-        {
-          "name": "Neon Profile Icon Frame",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/09230397-f99a-4e03-9cbd-319b26b66369.png",
-          "minutes": 60
-        },
-        {
-          "name": "Tube Steak Cell Item",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ec355319-5ea2-4c5f-882f-a7adb8538751.png",
-          "minutes": 120
-        },
-        {
-          "name": "Batting Helmet",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b69645dd-f1f1-498a-b835-2fd437468b35.png",
-          "minutes": 180
-        },
-        {
-          "name": "Ball & Mitt Cell Item",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/673bf4c5-7a1e-47ec-ab6d-511169d4fa6a.png",
-          "minutes": 240
-        },
-        {
-          "name": "Baseball Catcher Pants",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f4b30d1a-e5c7-4702-bd36-ef07994da64f.png",
-          "minutes": 300
-        },
-        {
-          "name": "Athletic Sports Shirt",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/04f70fa8-b619-4b2f-a28b-af57cd60127b.png",
-          "minutes": 360
-        }
-      ],
-      "src": "sunkwi"
     },
     {
       "id": "a5298b5c-a0a7-4502-9a2a-bd37e2eaf393",
@@ -1019,39 +943,6 @@
           "name": "Vectron Colette EM4 Mount",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/749f71d7-3489-4c5c-b03b-5bbf645675d0.jpeg",
           "minutes": 300
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "0efef24f-7e90-4cb9-8cc1-c679fd848424",
-      "name": "Masters of Mayhem Week 2",
-      "status": "ACTIVE",
-      "start_at": "2026-08-04T13:00:00Z",
-      "end_at": "2026-08-11T09:57:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d8caf82f-73a0-4ad9-a611-dc92e5dceef5.png",
-      "details_url": "https://modernarmor.worldoftanks.com/en/cms/notes/twitch-drops/",
-      "game": "World of Tanks Console",
-      "game_slug": "world-of-tanks-console",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/499551-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 480,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "10 Enhanced Rations",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a194293c-4513-4b30-b761-d4669067da9e.png",
-          "minutes": 120
-        },
-        {
-          "name": "4 x4 Commander Boosters",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e6182d05-4d80-4681-a1ae-0251ac713495.png",
-          "minutes": 240
-        },
-        {
-          "name": "Camo Voucher",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8ccc0701-0a6c-434c-abae-61fb037e3cdc.png",
-          "minutes": 480
         }
       ],
       "src": "sunkwi"
@@ -2197,6 +2088,29 @@
           "name": "Drops 15 Hour Reward",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3b52ed93-8d81-4d5d-a6a3-e25c3d141a54.png",
           "minutes": 900
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "afe3df17-6f91-4a0e-af8d-b128d9344248",
+      "name": "Radiant Wilds 18 - #2/7",
+      "status": "ACTIVE",
+      "start_at": "2026-08-11T10:00:00Z",
+      "end_at": "2026-08-12T09:29:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/bc28211e-e036-46ec-b1c9-2eae056e71eb.png",
+      "details_url": "https://forum.albiononline.com/index.php/Thread/214756-New-Twitch-Drops-Launching-Monday-July-28-2025/",
+      "game": "Albion Online",
+      "game_slug": "albion-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Radiant Wilds Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
+          "minutes": 180
         }
       ],
       "src": "sunkwi"
