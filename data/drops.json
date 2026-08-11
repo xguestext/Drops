@@ -1,51 +1,18 @@
 {
-  "updated_at": "2026-08-11T12:08:52Z",
+  "updated_at": "2026-08-11T13:39:48Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-11T12:08:01.654Z",
+  "source_updated": "2026-08-11T13:39:01.550Z",
   "counts": {
     "total": 60,
-    "upcoming": 6,
-    "active": 54,
+    "upcoming": 5,
+    "active": 55,
     "game_drops": 58,
     "platform": 2,
     "badges": 2,
-    "fechadas_descartadas": 30
+    "fechadas_descartadas": 31
   },
   "campaigns": [
-    {
-      "id": "9909b588-a734-4b4b-bd13-e4a7200ba557",
-      "name": "Masters of Mayhem Week 3",
-      "status": "UPCOMING",
-      "start_at": "2026-08-11T13:00:00.000Z",
-      "end_at": "2026-08-18T09:57:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "World of Tanks Console",
-      "game_slug": "world-of-tanks-console",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/499551-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 480,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "10 Enhanced Repair Kits",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d865730c-7067-40d2-b553-6be923b5d18e.png",
-          "minutes": 120
-        },
-        {
-          "name": "(4) x3 Vehicle XP Booster",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6c916fdb-2a57-4801-89fd-dfb1b6b5c0f6.png",
-          "minutes": 240
-        },
-        {
-          "name": "(2) x6 Commander Booster",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2df920df-bdfb-423d-a80a-a9d270995b06.png",
-          "minutes": 480
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "55f157a8-cccc-45f9-ae0e-47dbb26fadfb",
       "name": "August 02",
@@ -1685,69 +1652,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "c9e0eeae-7065-422b-a8c3-5aa18d5134a0",
-      "name": "KORD BREACH S1 Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-08-10T13:00:00Z",
-      "end_at": "2026-08-11T12:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/60d3b771-4bae-4652-821e-49a94b5a8d0f.png",
-      "details_url": "https://www.escapefromtarkov.com/news/id/406",
-      "game": "Escape from Tarkov",
-      "game_slug": "escape-from-tarkov",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/491931_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 540,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Common 1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e576f5cf-408e-4b19-99f4-cb303355ec27.png",
-          "minutes": 60
-        },
-        {
-          "name": "Rare 1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f1442205-c053-48c5-8952-29e51d685f3d.png",
-          "minutes": 120
-        },
-        {
-          "name": "Common 2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5a929afa-5447-4b7d-a1f6-58ac478593bd.png",
-          "minutes": 180
-        },
-        {
-          "name": "Rare 2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c89fbcbb-dba1-44e8-8cf3-7c294cf6c946.png",
-          "minutes": 240
-        },
-        {
-          "name": "Legendary 1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/92c96635-463f-494e-8e17-7c7d000c3919.png",
-          "minutes": 300
-        },
-        {
-          "name": "Common 3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a6f6e5ea-fcf9-4856-8b2a-fcc78a135e12.png",
-          "minutes": 360
-        },
-        {
-          "name": "Rare 3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/01649659-b6ff-453c-894c-7e772294c053.png",
-          "minutes": 420
-        },
-        {
-          "name": "Common 4",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/46195c55-25c3-4108-9c8f-7472e1fe3f6b.png",
-          "minutes": 480
-        },
-        {
-          "name": "Legendary 2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/44c01ad8-160c-4f7e-98b9-266749b41a5a.png",
-          "minutes": 540
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "43b539cd-e752-4f61-9e9a-3d0d4556d110",
       "name": "Anniversary Store #1",
       "status": "ACTIVE",
@@ -2083,6 +1987,102 @@
           "name": "2 Hour Reward",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/015ca6f2-96c4-45b4-b1f2-9c7052ee6b0d.png",
           "minutes": 120
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "9e08ed97-a8f1-4862-8b69-0cccdc60b5c4",
+      "name": "KORD BREACH S1 Drops",
+      "status": "ACTIVE",
+      "start_at": "2026-08-11T13:00:00Z",
+      "end_at": "2026-08-12T12:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ade736da-4694-4c64-b94c-1747684204e6.png",
+      "details_url": "https://www.escapefromtarkov.com/news/id/406",
+      "game": "Escape from Tarkov",
+      "game_slug": "escape-from-tarkov",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/491931_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 540,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Common 1",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/915938d8-a25b-4cf1-99f4-94ff248ec6ba.png",
+          "minutes": 60
+        },
+        {
+          "name": "Rare 1",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bdf6dead-a05b-439b-8ce8-ef07d5019474.png",
+          "minutes": 120
+        },
+        {
+          "name": "Common 2",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/aea43a92-5ee4-490b-9813-84c05390a823.png",
+          "minutes": 180
+        },
+        {
+          "name": "Rare 2",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/74044603-e829-4550-a8c4-b04391deee2b.png",
+          "minutes": 240
+        },
+        {
+          "name": "Legendary 1",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9bf82946-779e-40ce-acf4-511f30a02496.png",
+          "minutes": 300
+        },
+        {
+          "name": "Common 3",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/93d5be0e-fb0b-497c-b408-8457cb0ab0df.png",
+          "minutes": 360
+        },
+        {
+          "name": "Rare 3",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e39f8ccf-24b6-4d30-85d8-718d0da84204.png",
+          "minutes": 420
+        },
+        {
+          "name": "Common 4",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5b358f8d-7e57-4831-afb5-63fa583d8537.png",
+          "minutes": 480
+        },
+        {
+          "name": "Legendary 2",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/13e0d1bd-a4fa-4683-b12b-db60ff5cc2f8.png",
+          "minutes": 540
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "9909b588-a734-4b4b-bd13-e4a7200ba557",
+      "name": "Masters of Mayhem Week 3",
+      "status": "ACTIVE",
+      "start_at": "2026-08-11T13:00:00Z",
+      "end_at": "2026-08-18T09:57:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a267f9de-1d65-4e06-aeed-5d58fdc6821c.png",
+      "details_url": "https://modernarmor.worldoftanks.com/en/cms/notes/twitch-drops/",
+      "game": "World of Tanks Console",
+      "game_slug": "world-of-tanks-console",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/499551-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 480,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "10 Enhanced Repair Kits",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d865730c-7067-40d2-b553-6be923b5d18e.png",
+          "minutes": 120
+        },
+        {
+          "name": "(4) x3 Vehicle XP Booster",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6c916fdb-2a57-4801-89fd-dfb1b6b5c0f6.png",
+          "minutes": 240
+        },
+        {
+          "name": "(2) x6 Commander Booster",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2df920df-bdfb-423d-a80a-a9d270995b06.png",
+          "minutes": 480
         }
       ],
       "src": "sunkwi"
