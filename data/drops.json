@@ -1,41 +1,18 @@
 {
-  "updated_at": "2026-08-11T16:39:32Z",
+  "updated_at": "2026-08-11T17:38:58Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-11T16:39:01.480Z",
+  "source_updated": "2026-08-11T17:38:01.313Z",
   "counts": {
     "total": 64,
-    "upcoming": 9,
-    "active": 55,
+    "upcoming": 8,
+    "active": 56,
     "game_drops": 62,
     "platform": 2,
     "badges": 2,
-    "fechadas_descartadas": 34
+    "fechadas_descartadas": 33
   },
   "campaigns": [
-    {
-      "id": "8ac3cc4f-870f-4f72-a6e7-f9aebd1f8d5a",
-      "name": "Sorcerer's Grassy Garb",
-      "status": "UPCOMING",
-      "start_at": "2026-08-11T17:00:00.000Z",
-      "end_at": "2026-09-08T16:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "World of Warcraft",
-      "game_slug": "world-of-warcraft",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/18122-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Sorcerer's Grassy Garb",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d50b1598-9275-4c98-be82-922e9a8a5a86.png",
-          "minutes": 240
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "63869b8b-7867-45c8-baf1-76e0b5886167",
       "name": "Mobile Drop 124",
@@ -1780,13 +1757,13 @@
       "id": "44dbc872-b784-4574-a81e-041b54572c52",
       "name": "Closed Playtest",
       "status": "ACTIVE",
-      "start_at": "2026-08-10T20:00:00Z",
+      "start_at": "2026-08-10T20:00:00.000Z",
       "end_at": "2026-08-13T19:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/39d0f42a-19fa-4593-b4be-8b80c3e24990.jpeg",
-      "details_url": "https://discord.gg/rnEBh7kEsc",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
       "game": "Warhounds",
       "game_slug": "warhounds",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/873696356_IGDB-120x160.jpg",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/873696356_IGDB-285x380.jpg",
       "availability": "open",
       "required_minutes": 30,
       "reward_type": "game",
@@ -1797,7 +1774,7 @@
           "minutes": 30
         }
       ],
-      "src": "sunkwi"
+      "src": "fenris"
     },
     {
       "id": "6593b45f-cd38-46c0-b1dc-bcd3b6eac636",
@@ -2185,6 +2162,29 @@
           "name": "Ghostly Infusion",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6dd3ddf8-754d-4f2c-9737-9741ea599129.png",
           "minutes": 900
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "8ac3cc4f-870f-4f72-a6e7-f9aebd1f8d5a",
+      "name": "Sorcerer's Grassy Garb",
+      "status": "ACTIVE",
+      "start_at": "2026-08-11T17:00:00Z",
+      "end_at": "2026-09-08T16:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/947bb6bc-4b0e-47f2-8112-c6d61fb59962.png",
+      "details_url": "https://worldofwarcraft.blizzard.com/en-us/news/24294371/twitch-drop-get-the-ensemble-sorcerers-grassy-garb-transmog-august-11",
+      "game": "World of Warcraft",
+      "game_slug": "world-of-warcraft",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/18122-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Sorcerer's Grassy Garb",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d50b1598-9275-4c98-be82-922e9a8a5a86.png",
+          "minutes": 240
         }
       ],
       "src": "sunkwi"
