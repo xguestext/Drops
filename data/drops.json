@@ -1,46 +1,18 @@
 {
-  "updated_at": "2026-08-12T15:42:17Z",
+  "updated_at": "2026-08-12T16:39:32Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-12T15:42:01.956Z",
+  "source_updated": "2026-08-12T16:39:01.983Z",
   "counts": {
-    "total": 62,
-    "upcoming": 4,
+    "total": 61,
+    "upcoming": 3,
     "active": 58,
-    "game_drops": 60,
+    "game_drops": 59,
     "platform": 2,
     "badges": 2,
-    "fechadas_descartadas": 37
+    "fechadas_descartadas": 39
   },
   "campaigns": [
-    {
-      "id": "85328836-799f-4ad3-b9b8-bdb8a5d741b8",
-      "name": "HEAT Season 1 - Week 7",
-      "status": "UPCOMING",
-      "start_at": "2026-08-12T16:00:00.000Z",
-      "end_at": "2026-08-19T15:58:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "World of Tanks: HEAT",
-      "game_slug": "world-of-tanks-heat",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/767133634_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "5000 Credits",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/efa90470-9e3c-4d31-ba73-ab1bdefc574e.png",
-          "minutes": 30
-        },
-        {
-          "name": "2 x Vehicle XP Boosters",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7a2e44a9-e9cf-4e5b-af8e-920a0aaa172d.png",
-          "minutes": 120
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "93e96502-4eed-4437-9457-d5345bd1880f",
       "name": "Mobile Drop 125",
@@ -871,34 +843,6 @@
         {
           "name": "Red Star Ring*100",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e6359372-eed3-4a1d-9958-81831aa4f61d.png",
-          "minutes": 120
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "d10d5f4c-8e5f-4a69-bf6f-fcb0f3fb9f59",
-      "name": "HEAT Season 1 - Week 6",
-      "status": "ACTIVE",
-      "start_at": "2026-08-05T16:00:00Z",
-      "end_at": "2026-08-12T15:58:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/5f13d829-1d54-413d-bfd8-a85d8d252382.png",
-      "details_url": "https://cdn.wotheat.com/articles/twitch-drops-season-1-promo/index.html",
-      "game": "World of Tanks: HEAT",
-      "game_slug": "world-of-tanks-heat",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/767133634_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "5000 Credits",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/efa90470-9e3c-4d31-ba73-ab1bdefc574e.png",
-          "minutes": 30
-        },
-        {
-          "name": "25,000 Credits",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f99a055-9505-4560-a418-ad11df24f238.png",
           "minutes": 120
         }
       ],
@@ -2214,6 +2158,34 @@
           "name": "1x day of WoT PA",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f5a37263-5f2a-473c-8892-894c8928436b.png",
           "minutes": 240
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "85328836-799f-4ad3-b9b8-bdb8a5d741b8",
+      "name": "HEAT Season 1 - Week 7",
+      "status": "ACTIVE",
+      "start_at": "2026-08-12T16:00:00Z",
+      "end_at": "2026-08-19T15:58:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/9b038f76-f873-49c0-89fa-7c1897e9b868.png",
+      "details_url": "https://cdn.wotheat.com/articles/twitch-drops-season-1-promo/index.html",
+      "game": "World of Tanks: HEAT",
+      "game_slug": "world-of-tanks-heat",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/767133634_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "5000 Credits",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/efa90470-9e3c-4d31-ba73-ab1bdefc574e.png",
+          "minutes": 30
+        },
+        {
+          "name": "2 x Vehicle XP Boosters",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7a2e44a9-e9cf-4e5b-af8e-920a0aaa172d.png",
+          "minutes": 120
         }
       ],
       "src": "sunkwi"
