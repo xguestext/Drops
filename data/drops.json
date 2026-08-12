@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-08-12T16:39:32Z",
+  "updated_at": "2026-08-12T17:40:46Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-12T16:39:01.983Z",
+  "source_updated": "2026-08-12T17:40:02.147Z",
   "counts": {
-    "total": 61,
-    "upcoming": 3,
+    "total": 66,
+    "upcoming": 8,
     "active": 58,
-    "game_drops": 59,
+    "game_drops": 64,
     "platform": 2,
-    "badges": 2,
+    "badges": 3,
     "fechadas_descartadas": 39
   },
   "campaigns": [
@@ -83,6 +83,131 @@
           "name": "Twitch Reward Chest",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
           "minutes": 180
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "0587b265-30b4-469a-af30-82086750b102",
+      "name": "Radiant Wilds 18 - #4/7",
+      "status": "UPCOMING",
+      "start_at": "2026-08-13T10:00:00.000Z",
+      "end_at": "2026-08-14T09:29:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Albion Online",
+      "game_slug": "albion-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Radiant Wilds Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
+          "minutes": 180
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "19a899be-8902-488d-8655-d396677a8616",
+      "name": "New Class: Agent",
+      "status": "UPCOMING",
+      "start_at": "2026-08-13T12:00:00.000Z",
+      "end_at": "2026-08-14T11:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Black Desert",
+      "game_slug": "black-desert",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "1 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/361b4d3f-65ef-492a-9078-bf46f8899fb2.png",
+          "minutes": 60
+        },
+        {
+          "name": "2 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/015ca6f2-96c4-45b4-b1f2-9c7052ee6b0d.png",
+          "minutes": 120
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "9bdebdf9-91c0-4ebb-a929-95861608d905",
+      "name": "Demo Release 0.3",
+      "status": "UPCOMING",
+      "start_at": "2026-08-13T13:00:00.000Z",
+      "end_at": "2026-09-10T12:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Cash is King!",
+      "game_slug": "cash-is-king",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1979426071_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 15,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Dance Elite 2000",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6b1b5d8c-1793-4f18-bd00-3e8dbeff1e95.png",
+          "minutes": 15
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "042983cc-97a1-4f1e-9720-e696c30ca454",
+      "name": "Update 15.7 Drop: Week 1",
+      "status": "UPCOMING",
+      "start_at": "2026-08-13T15:00:00.000Z",
+      "end_at": "2026-08-20T15:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "World of Warships",
+      "game_slug": "world-of-warships",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/32502_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Update 15.7 Mission #1",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a882d719-31ca-4e17-b0ec-e7087d97dd5b.png",
+          "minutes": 90
+        },
+        {
+          "name": "Twitch Container 15.7",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c688c557-0381-41c1-afca-b90345a96f63.png",
+          "minutes": 180
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "c5aae2bf-004d-405e-8bc2-9ac433a3ae08",
+      "name": "Spider-Man",
+      "status": "UPCOMING",
+      "start_at": "2026-08-13T15:05:00.000Z",
+      "end_at": "2026-08-20T18:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "MARVEL TŌKON: Fighting Souls",
+      "game_slug": "marvel-tokon-fighting-souls",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/630009802_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Spider-Man",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f6347c09-1d36-489c-91b6-b5efe9721da5.png",
+          "minutes": 0
         }
       ],
       "src": "fenris"
@@ -2238,6 +2363,15 @@
     }
   ],
   "badges": [
+    {
+      "title": "MARVEL Tōkon: Fighting Souls Release",
+      "start_at": "2026-08-13T15:05:00Z",
+      "end_at": "2026-08-20T18:59:00Z",
+      "note": null,
+      "images": [
+        "https://static-cdn.jtvnw.net/badges/v1/03ba20e2-11e1-481c-80d8-155e87afc724/3"
+      ]
+    },
     {
       "title": "Final Fantasy XIV Fan Festival 2026 JP",
       "start_at": "2026-10-30T00:00:00Z",
