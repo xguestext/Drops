@@ -1,66 +1,18 @@
 {
-  "updated_at": "2026-08-13T16:06:45Z",
+  "updated_at": "2026-08-13T17:09:06Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-13T16:06:01.554Z",
+  "source_updated": "2026-08-13T17:09:01.735Z",
   "counts": {
-    "total": 59,
-    "upcoming": 3,
-    "active": 56,
-    "game_drops": 57,
+    "total": 67,
+    "upcoming": 10,
+    "active": 57,
+    "game_drops": 65,
     "platform": 2,
     "badges": 2,
-    "fechadas_descartadas": 45
+    "fechadas_descartadas": 46
   },
   "campaigns": [
-    {
-      "id": "07a2f695-e4e6-4288-b05b-5947439ffdfd",
-      "name": "Madden Live",
-      "status": "UPCOMING",
-      "start_at": "2026-08-13T17:00:00.000Z",
-      "end_at": "2026-08-14T16:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Madden NFL 27",
-      "game_slug": "madden-nfl-27",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/670138298_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Madden Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8aedaff7-14df-4c01-b9fd-8b5e4b077e98.png",
-          "minutes": 15
-        },
-        {
-          "name": "Madden Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e974695d-2cf1-4ac7-b9e7-e7098dbb7709.png",
-          "minutes": 30
-        },
-        {
-          "name": "Madden Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6f32e65d-16fb-4c30-a051-95fffd14b14f.png",
-          "minutes": 60
-        },
-        {
-          "name": "Madden Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/155de84b-aa73-4bb1-acdc-5cf9f6599616.png",
-          "minutes": 120
-        },
-        {
-          "name": "Madden Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cf21d378-e450-4c9b-afd6-9d46d2d5199f.png",
-          "minutes": 180
-        },
-        {
-          "name": "Madden Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d29e47d9-0992-46d7-a659-1ca5be105b9b.png",
-          "minutes": 240
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "15f6c419-c30f-4aaa-ab2a-143eabe4d778",
       "name": "Mobile Drop 126",
@@ -80,6 +32,29 @@
           "name": "Regalia of Awakening",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
           "minutes": 240
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "840afc31-ae1f-42a9-b47d-0168ac757a4c",
+      "name": "S12 DROPS TOKEN EVENT",
+      "status": "UPCOMING",
+      "start_at": "2026-08-13T20:00:00.000Z",
+      "end_at": "2026-08-14T19:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Eternal Return",
+      "game_slug": "eternal-return",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/512864_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Drops Token",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
+          "minutes": 60
         }
       ],
       "src": "fenris"
@@ -108,6 +83,197 @@
           "name": "Uncommon+ Pack [1 Player]",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png",
           "minutes": 300
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "5258e4e6-a08b-4a50-a558-d8652425792e",
+      "name": "Radiant Wilds 18 - #5/7",
+      "status": "UPCOMING",
+      "start_at": "2026-08-14T10:00:00.000Z",
+      "end_at": "2026-08-15T09:29:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Albion Online",
+      "game_slug": "albion-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Radiant Wilds Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
+          "minutes": 180
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "10f9a637-1be9-415a-aeb6-eaf02b2b9184",
+      "name": "Kinetic Publishing Hat",
+      "status": "UPCOMING",
+      "start_at": "2026-08-14T11:00:00.000Z",
+      "end_at": "2026-08-16T22:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Phasmophobia",
+      "game_slug": "phasmophobia",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/518184_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Publishing Hat",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/49d00b4b-7f00-4892-9c5b-08ef90f20bb5.jpeg",
+          "minutes": 120
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "07b7c373-572b-408c-8aa9-a378dfb29c9d",
+      "name": "New Class: Agent",
+      "status": "UPCOMING",
+      "start_at": "2026-08-14T12:00:00.000Z",
+      "end_at": "2026-08-15T11:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Black Desert",
+      "game_slug": "black-desert",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "1 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/361b4d3f-65ef-492a-9078-bf46f8899fb2.png",
+          "minutes": 60
+        },
+        {
+          "name": "2 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/015ca6f2-96c4-45b4-b1f2-9c7052ee6b0d.png",
+          "minutes": 120
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "c27db3e4-05f1-4c23-a826-3c174d73b11c",
+      "name": "10th Anniversary - Week 6",
+      "status": "UPCOMING",
+      "start_at": "2026-08-14T14:00:00.000Z",
+      "end_at": "2026-08-16T21:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "DOFUS Touch",
+      "game_slug": "dofus-touch",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/505045_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "10th Anniversary Gift",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f46515bc-40c4-46e6-9e58-4637f743c567.png",
+          "minutes": 120
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "83063a65-493c-4fc5-8ecc-b1ca3a17e895",
+      "name": "NW2 SUMMER DROPS #5",
+      "status": "UPCOMING",
+      "start_at": "2026-08-14T14:00:00.000Z",
+      "end_at": "2026-08-21T21:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "NextWorld2",
+      "game_slug": "nextworld2",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/544682640_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 900,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Gladiátor Köpeny (100 db)",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9b86b19a-9dcf-4741-a3ee-cb0927ec4d59.jpeg",
+          "minutes": 120
+        },
+        {
+          "name": "Gladiátor Gyűrű (1 db)",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/aa7fa1ee-ff40-447c-b60c-e3c4cb14683e.jpeg",
+          "minutes": 300
+        },
+        {
+          "name": "Twitch Érme (2 db)",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/90734769-899e-42ab-925c-1d76368ce2bf.jpeg",
+          "minutes": 600
+        },
+        {
+          "name": "Twitch Fókusz (1 db) ",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b3feca85-281a-40ed-bc6a-d3dbd4670c61.jpeg",
+          "minutes": 840
+        },
+        {
+          "name": "Elefi hátas (1 db)",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4ab4b770-f5eb-4bc7-9878-d9916232c226.jpeg",
+          "minutes": 900
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "cee3a33c-f762-47cd-a95f-040f61470cff",
+      "name": "Anniversary Store #3",
+      "status": "UPCOMING",
+      "start_at": "2026-08-14T15:00:00.000Z",
+      "end_at": "2026-08-17T14:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "World of Tanks",
+      "game_slug": "world-of-tanks",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/27546_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "10x Cupcake Tokens",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/261952d1-de6d-42cb-b75b-6ed01a9e9ca5.png",
+          "minutes": 180
+        },
+        {
+          "name": "1x 2D style",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7c1769b0-0fbd-4694-bf9c-6489e7cca3e6.png",
+          "minutes": 240
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "18c03797-53ae-4f72-8445-5d7e593d0724",
+      "name": "Обновление 26.8: Часть 2",
+      "status": "UPCOMING",
+      "start_at": "2026-08-14T15:00:00.000Z",
+      "end_at": "2026-08-21T14:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Mir Korabley",
+      "game_slug": "mir-korabley",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2133072147_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "26.8 Боевая задача #2",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82d96737-eed4-4ae2-a11b-93ef96854f6f.png",
+          "minutes": 240
         }
       ],
       "src": "fenris"
@@ -2095,6 +2261,54 @@
           "name": "Spider-Man",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f6347c09-1d36-489c-91b6-b5efe9721da5.png",
           "minutes": 0
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "07a2f695-e4e6-4288-b05b-5947439ffdfd",
+      "name": "Madden Live",
+      "status": "ACTIVE",
+      "start_at": "2026-08-13T17:00:00Z",
+      "end_at": "2026-08-14T16:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a7e679cc-5157-4baf-bdfd-9104dcb16c53.png",
+      "details_url": "https://help.twitch.tv/s/article/mission-based-drops?language=en_US",
+      "game": "Madden NFL 27",
+      "game_slug": "madden-nfl-27",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/670138298_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Madden Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d29e47d9-0992-46d7-a659-1ca5be105b9b.png",
+          "minutes": 240
+        },
+        {
+          "name": "Madden Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8aedaff7-14df-4c01-b9fd-8b5e4b077e98.png",
+          "minutes": 15
+        },
+        {
+          "name": "Madden Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e974695d-2cf1-4ac7-b9e7-e7098dbb7709.png",
+          "minutes": 30
+        },
+        {
+          "name": "Madden Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6f32e65d-16fb-4c30-a051-95fffd14b14f.png",
+          "minutes": 60
+        },
+        {
+          "name": "Madden Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/155de84b-aa73-4bb1-acdc-5cf9f6599616.png",
+          "minutes": 120
+        },
+        {
+          "name": "Madden Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cf21d378-e450-4c9b-afd6-9d46d2d5199f.png",
+          "minutes": 180
         }
       ],
       "src": "sunkwi"
