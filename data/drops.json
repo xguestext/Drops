@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-13T15:05:41Z",
+  "updated_at": "2026-08-13T16:06:45Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-13T15:05:02.141Z",
+  "source_updated": "2026-08-13T16:06:01.554Z",
   "counts": {
-    "total": 60,
+    "total": 59,
     "upcoming": 3,
-    "active": 57,
-    "game_drops": 58,
+    "active": 56,
+    "game_drops": 57,
     "platform": 2,
     "badges": 2,
     "fechadas_descartadas": 45
@@ -222,59 +222,6 @@
           "name": "Exotic Stellar Marrow *1",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/acea0c2a-1ee4-4071-8f10-db5731e5228b.png",
           "minutes": 300
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "78336fb5-4a18-40f7-9bbb-c2b8142e212e",
-      "name": "FH - Y10 Season 2 - II",
-      "status": "ACTIVE",
-      "start_at": "2026-07-23T16:00:00Z",
-      "end_at": "2026-08-13T15:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/7f767e11-1c42-4aef-b43e-8ffa921009bb.jpeg",
-      "details_url": "https://ubi.li/6UcRr",
-      "game": "For Honor",
-      "game_slug": "for-honor",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/490382-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "2 XP Boosts",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/507f8d4c-8db3-4513-870f-ccc89931ab4f.png",
-          "minutes": 60
-        },
-        {
-          "name": "1 Scavenger Crate",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ebabe2df-c29c-4a95-8359-f88e716f08ff.png",
-          "minutes": 60
-        },
-        {
-          "name": "4 XP Boosts",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/da9bdc1d-f394-4e7c-ad72-87816a094e6e.png",
-          "minutes": 120
-        },
-        {
-          "name": "2 Scavenger Crates",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/db4cfc05-556f-4e53-95ce-5002c0ec58cd.png",
-          "minutes": 120
-        },
-        {
-          "name": "3 Days Champion Status",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2265e8ce-1077-4f54-a54b-2702f2057980.png",
-          "minutes": 120
-        },
-        {
-          "name": "4 Scavenger Creates",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a2d5878b-e602-497a-8a20-8e758250d490.png",
-          "minutes": 240
-        },
-        {
-          "name": "7 Days Champion Status",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9f00fd4c-ecba-4ff5-b27c-bac50cfd7537.png",
-          "minutes": 240
         }
       ],
       "src": "sunkwi"
