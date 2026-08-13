@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-13T08:07:53Z",
+  "updated_at": "2026-08-13T09:30:42Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-13T08:07:01.789Z",
+  "source_updated": "2026-08-13T09:30:02.882Z",
   "counts": {
-    "total": 64,
+    "total": 63,
     "upcoming": 8,
-    "active": 56,
-    "game_drops": 62,
+    "active": 55,
+    "game_drops": 61,
     "platform": 2,
     "badges": 3,
     "fechadas_descartadas": 39
@@ -575,39 +575,6 @@
           "name": "Rust Charity '26 Turret",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/214a6978-61bd-4e92-8927-0d0b686c1edb.jpeg",
           "minutes": 120
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "35b06cba-192e-43eb-a63b-758c66d44791",
-      "name": "STRIKE A POSE!",
-      "status": "ACTIVE",
-      "start_at": "2026-07-30T10:30:00Z",
-      "end_at": "2026-08-13T08:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/b3415976-5d51-45ff-b3b5-0617b6748598.png",
-      "details_url": "https://www.reachthefinals.com/twitch",
-      "game": "THE FINALS",
-      "game_slug": "the-finals",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1910103699-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Showtime Blue Spear",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f6f58919-2c38-4a2b-8627-f2bbd947e3b3.png",
-          "minutes": 60
-        },
-        {
-          "name": "Showtime Blue Dual Blades",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/54e5d9a6-44a4-4433-b100-1f8db4d47562.png",
-          "minutes": 120
-        },
-        {
-          "name": "Showtime Blue Sword",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d769b1c1-b89b-4478-80d5-bbbfba9ea53a.png",
-          "minutes": 240
         }
       ],
       "src": "sunkwi"
