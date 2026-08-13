@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-13T00:43:34Z",
+  "updated_at": "2026-08-13T03:16:47Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-13T00:43:01.943Z",
+  "source_updated": "2026-08-13T03:16:01.815Z",
   "counts": {
     "total": 61,
-    "upcoming": 5,
-    "active": 56,
+    "upcoming": 8,
+    "active": 53,
     "game_drops": 59,
     "platform": 2,
     "badges": 3,
@@ -139,95 +139,103 @@
       "src": "fenris"
     },
     {
-      "id": "920a7a30-2c54-427c-b2ed-e0c82ffea5d5",
-      "name": "Homecoming",
-      "status": "ACTIVE",
-      "start_at": "2026-07-16T02:00:00Z",
-      "end_at": "2026-08-13T01:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/982b32fa-4cb5-48de-b4d1-a364b59ec746.png",
-      "details_url": "https://endfield.gryphline.com/special/third-party-binding?channel=twitch",
-      "game": "ARKNIGHTS: ENDFIELD",
-      "game_slug": "arknights-endfield",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1448964995_IGDB-120x160.jpg",
+      "id": "07a2f695-e4e6-4288-b05b-5947439ffdfd",
+      "name": "Madden Live",
+      "status": "UPCOMING",
+      "start_at": "2026-08-13T17:00:00.000Z",
+      "end_at": "2026-08-14T16:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Madden NFL 27",
+      "game_slug": "madden-nfl-27",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/670138298_IGDB-285x380.jpg",
       "availability": "open",
-      "required_minutes": 120,
+      "required_minutes": 240,
       "reward_type": "game",
       "rewards": [
         {
-          "name": "T-Credit*10000",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/09a55be4-d2a0-405d-a6d4-fd48e81b99d6.png",
+          "name": "Madden Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8aedaff7-14df-4c01-b9fd-8b5e4b077e98.png",
           "minutes": 15
         },
         {
-          "name": "I-Combat Record*15",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b69ff1b6-b738-4b00-9c07-28d17ab788c0.png",
+          "name": "Madden Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e974695d-2cf1-4ac7-b9e7-e7098dbb7709.png",
           "minutes": 30
         },
         {
-          "name": "Arms INSP Set*3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1426a275-21a9-4e3b-8345-bbff7126679e.png",
+          "name": "Madden Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6f32e65d-16fb-4c30-a051-95fffd14b14f.png",
           "minutes": 60
         },
         {
-          "name": "E-Cognitive Carrier*10",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d9eb0582-6060-4aa7-9c1d-1de278cfde6c.png",
-          "minutes": 90
+          "name": "Madden Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/155de84b-aa73-4bb1-acdc-5cf9f6599616.png",
+          "minutes": 120
         },
         {
-          "name": "Oroberyl*150",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1a7cfcc3-2ba4-4d43-a43c-82f91304ff3b.png",
-          "minutes": 120
+          "name": "Madden Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cf21d378-e450-4c9b-afd6-9d46d2d5199f.png",
+          "minutes": 180
+        },
+        {
+          "name": "Madden Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d29e47d9-0992-46d7-a659-1ca5be105b9b.png",
+          "minutes": 240
         }
       ],
-      "src": "sunkwi"
+      "src": "fenris"
     },
     {
-      "id": "006f68de-5c85-4efc-94b1-175bbc8fad89",
-      "name": "V2.8 Infinity Nikki",
-      "status": "ACTIVE",
-      "start_at": "2026-07-17T03:00:00Z",
-      "end_at": "2026-08-13T01:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/10f7932c-72c1-4cf5-b5b3-53fbd900ea23.png",
-      "details_url": "https://infinitynikki.infoldgames.com/proj/en/twitch-drops.html",
-      "game": "Infinity Nikki",
-      "game_slug": "infinity-nikki",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2014795392_IGDB-120x160.jpg",
+      "id": "15f6c419-c30f-4aaa-ab2a-143eabe4d778",
+      "name": "Mobile Drop 126",
+      "status": "UPCOMING",
+      "start_at": "2026-08-13T17:59:00.000Z",
+      "end_at": "2026-08-14T17:56:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Rise Online",
+      "game_slug": "rise-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-285x380.jpg",
       "availability": "open",
-      "required_minutes": 120,
+      "required_minutes": 240,
       "reward_type": "game",
       "rewards": [
         {
-          "name": "2.8 Diamond×10",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0f6cc41f-e364-47e5-ad7c-8167c92a645e.png",
-          "minutes": 15
-        },
+          "name": "Regalia of Awakening",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
+          "minutes": 240
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "871d09e2-49f0-4ea7-b777-de4eb6d10c4a",
+      "name": "GOALS - 14th of August",
+      "status": "UPCOMING",
+      "start_at": "2026-08-13T22:01:00.000Z",
+      "end_at": "2026-08-14T21:58:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "GOALS",
+      "game_slug": "goals",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/951160620_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 360,
+      "reward_type": "game",
+      "rewards": [
         {
-          "name": "2.8 Diamond×20",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/89607247-2e87-4295-8151-e56840c09dfb.png",
-          "minutes": 30
-        },
-        {
-          "name": "2.8 Bling×20,000",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/01bec71d-c222-45fe-81dc-9271618fd818.png",
-          "minutes": 45
-        },
-        {
-          "name": "2.8 Thread of Purity×100",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d9c5b80e-f78f-4cc5-991b-552299b12b6a.png",
+          "name": "Common+ Pack [1 Player]",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82a4b7fe-7458-4b59-b909-ebc30fc91521.png",
           "minutes": 60
         },
         {
-          "name": "2.8 Shining Particle×100",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f987c846-d581-4d29-8716-69fa16bd5c1e.png",
-          "minutes": 90
-        },
-        {
-          "name": "2.8 Shiny Bubbles x100",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b7c3e526-fd64-48fa-810d-0d8bca144a0d.png",
-          "minutes": 120
+          "name": "Uncommon+ Pack [1 Player]",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png",
+          "minutes": 300
         }
       ],
-      "src": "sunkwi"
+      "src": "fenris"
     },
     {
       "id": "615fc480-e578-4f78-a5ba-0ddef9292bdd",
@@ -996,34 +1004,6 @@
           "name": "Hulk",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/edcd355b-2aa0-4580-a1ea-4d5bec5109e4.png",
           "minutes": 0
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "7d48568a-0abb-4d29-bf14-262d3dd01a51",
-      "name": "Update 15.6 Drop: Week 4",
-      "status": "ACTIVE",
-      "start_at": "2026-08-06T16:00:00Z",
-      "end_at": "2026-08-13T01:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/6c2eb4e0-3041-485a-9647-b736ddcb651d.png",
-      "details_url": "https://worldofwarships.eu/en/news/community/community-drops-july-26/",
-      "game": "World of Warships",
-      "game_slug": "world-of-warships",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/32502_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Update 15.6 Mission #4",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a257afbd-2d16-4474-8d76-02fdf1aef016.png",
-          "minutes": 90
-        },
-        {
-          "name": "Twitch Container 15.6",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1903c727-8fef-40e2-8515-8dd8fecd14d7.png",
-          "minutes": 180
         }
       ],
       "src": "sunkwi"
