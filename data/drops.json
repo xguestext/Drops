@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-08-13T06:48:45Z",
+  "updated_at": "2026-08-13T08:07:53Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-13T06:48:02.138Z",
+  "source_updated": "2026-08-13T08:07:01.789Z",
   "counts": {
-    "total": 63,
+    "total": 64,
     "upcoming": 8,
-    "active": 55,
-    "game_drops": 61,
+    "active": 56,
+    "game_drops": 62,
     "platform": 2,
     "badges": 3,
-    "fechadas_descartadas": 36
+    "fechadas_descartadas": 39
   },
   "campaigns": [
     {
@@ -2202,6 +2202,49 @@
           "name": "Drops Token",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
           "minutes": 60
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "851e0e49-33b0-45e7-a069-5870f925fe01",
+      "name": "Aug #3",
+      "status": "ACTIVE",
+      "start_at": "2026-08-13T08:00:00Z",
+      "end_at": "2026-08-19T23:58:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/00e002cd-72d3-4fd2-af97-83e56558ad18.png",
+      "details_url": "https://portal.uflgame.com/twitch/drops",
+      "game": "UFL",
+      "game_slug": "ufl",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1471416868_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 300,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Enhanced CP",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f286d78a-f567-4d52-b0ef-b0e0769cb279.png",
+          "minutes": 60
+        },
+        {
+          "name": "Pre-season pack lite",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7a9db4e0-2780-40ed-9897-8fea5dfbf8cb.png",
+          "minutes": 120
+        },
+        {
+          "name": "Pre-season pack lite",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b79ca5d2-5633-4147-a1eb-cf59a971bbe3.png",
+          "minutes": 180
+        },
+        {
+          "name": "Pre-season pack lite",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/15b7a5ec-b050-4c56-80f0-953c55c0f190.png",
+          "minutes": 240
+        },
+        {
+          "name": "50 LP",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/81a59f85-e933-43a3-ad6b-87e8c96645b3.png",
+          "minutes": 300
         }
       ],
       "src": "sunkwi"
