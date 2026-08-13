@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-08-13T03:16:47Z",
+  "updated_at": "2026-08-13T05:11:35Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-13T03:16:01.815Z",
+  "source_updated": "2026-08-13T05:11:02.768Z",
   "counts": {
-    "total": 61,
+    "total": 62,
     "upcoming": 8,
-    "active": 53,
-    "game_drops": 59,
+    "active": 54,
+    "game_drops": 60,
     "platform": 2,
     "badges": 3,
-    "fechadas_descartadas": 38
+    "fechadas_descartadas": 36
   },
   "campaigns": [
     {
@@ -1817,6 +1817,44 @@
           "name": "Radiant Wilds Chest",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
           "minutes": 180
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "2b91e987-caa7-4b13-9fd0-ea76a4243fd7",
+      "name": "RL x EWC 2026",
+      "status": "ACTIVE",
+      "start_at": "2026-08-12T10:30:00Z",
+      "end_at": "2026-08-16T17:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/c1b7660e-7f3c-43f5-922d-c21af3f78e8f.png",
+      "details_url": "https://www.epicgames.com/id/login",
+      "game": "Rocket League",
+      "game_slug": "rocket-league",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/30921-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 360,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Inferno Collection Drop",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/18179d93-a511-48ea-ba80-ede15faad401.png",
+          "minutes": 240
+        },
+        {
+          "name": "RLCS 2025 Import Drop",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/39e9ee43-b4ce-481d-a026-4d4bbbdf9a83.jpeg",
+          "minutes": 120
+        },
+        {
+          "name": "RLCS 2025 Exotic Drop",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f5de5791-aa6d-411c-b06e-92d8fd8766f9.jpeg",
+          "minutes": 60
+        },
+        {
+          "name": "RLCS 2025 Very Rare Drop",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9695bf74-ff0f-4a31-b469-1e9de6d29441.jpeg",
+          "minutes": 30
         }
       ],
       "src": "sunkwi"
