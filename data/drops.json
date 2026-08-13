@@ -1,41 +1,18 @@
 {
-  "updated_at": "2026-08-13T19:16:37Z",
+  "updated_at": "2026-08-13T20:00:42Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-13T19:16:01.777Z",
+  "source_updated": "2026-08-13T20:00:02.784Z",
   "counts": {
-    "total": 66,
-    "upcoming": 9,
+    "total": 65,
+    "upcoming": 8,
     "active": 57,
-    "game_drops": 64,
+    "game_drops": 63,
     "platform": 2,
     "badges": 2,
-    "fechadas_descartadas": 44
+    "fechadas_descartadas": 43
   },
   "campaigns": [
-    {
-      "id": "840afc31-ae1f-42a9-b47d-0168ac757a4c",
-      "name": "S12 DROPS TOKEN EVENT",
-      "status": "UPCOMING",
-      "start_at": "2026-08-13T20:00:00.000Z",
-      "end_at": "2026-08-14T19:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Eternal Return",
-      "game_slug": "eternal-return",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/512864_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Drops Token",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
-          "minutes": 60
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "871d09e2-49f0-4ea7-b777-de4eb6d10c4a",
       "name": "GOALS - 14th of August",
@@ -1290,29 +1267,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "44dbc872-b784-4574-a81e-041b54572c52",
-      "name": "Closed Playtest",
-      "status": "ACTIVE",
-      "start_at": "2026-08-10T20:00:00.000Z",
-      "end_at": "2026-08-13T19:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Warhounds",
-      "game_slug": "warhounds",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/873696356_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 30,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Closed Playtest Key",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3049c1f0-7d1d-4ded-bd2c-b6f63bc3cfa2.png",
-          "minutes": 30
-        }
-      ],
-      "src": "fenris"
-    },
-    {
       "id": "6593b45f-cd38-46c0-b1dc-bcd3b6eac636",
       "name": "Webs Assemble - Week 3",
       "status": "ACTIVE",
@@ -2286,6 +2240,29 @@
           "name": "Regalia of Awakening",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
           "minutes": 240
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "840afc31-ae1f-42a9-b47d-0168ac757a4c",
+      "name": "S12 DROPS TOKEN EVENT",
+      "status": "ACTIVE",
+      "start_at": "2026-08-13T20:00:00Z",
+      "end_at": "2026-08-14T19:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/3aa64afe-1392-484b-b6db-58247ee8ec76.png",
+      "details_url": "https://twitch.playeternalreturn.com/",
+      "game": "Eternal Return",
+      "game_slug": "eternal-return",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/512864_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Drops Token",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
+          "minutes": 60
         }
       ],
       "src": "sunkwi"
