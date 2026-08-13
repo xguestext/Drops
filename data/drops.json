@@ -1,41 +1,18 @@
 {
-  "updated_at": "2026-08-13T12:29:16Z",
+  "updated_at": "2026-08-13T13:59:53Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-13T12:29:01.983Z",
+  "source_updated": "2026-08-13T13:59:01.624Z",
   "counts": {
     "total": 61,
-    "upcoming": 6,
-    "active": 55,
+    "upcoming": 5,
+    "active": 56,
     "game_drops": 59,
     "platform": 2,
     "badges": 3,
-    "fechadas_descartadas": 41
+    "fechadas_descartadas": 44
   },
   "campaigns": [
-    {
-      "id": "9bdebdf9-91c0-4ebb-a929-95861608d905",
-      "name": "Demo Release 0.3",
-      "status": "UPCOMING",
-      "start_at": "2026-08-13T13:00:00.000Z",
-      "end_at": "2026-09-10T12:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Cash is King!",
-      "game_slug": "cash-is-king",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1979426071_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 15,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Dance Elite 2000",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6b1b5d8c-1793-4f18-bd00-3e8dbeff1e95.png",
-          "minutes": 15
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "042983cc-97a1-4f1e-9720-e696c30ca454",
       "name": "Update 15.7 Drop: Week 1",
@@ -1753,69 +1730,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "bc858e1a-5513-474b-8ca4-c067ce53eb71",
-      "name": "KORD BREACH S1 Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-08-12T13:00:00Z",
-      "end_at": "2026-08-13T12:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/c8749236-77e5-415e-8287-e6556c9a0fd6.png",
-      "details_url": "https://www.escapefromtarkov.com/news/id/406",
-      "game": "Escape from Tarkov",
-      "game_slug": "escape-from-tarkov",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/491931_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 540,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Common 1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/487fa88b-2f54-4bba-8597-d953432f4612.png",
-          "minutes": 60
-        },
-        {
-          "name": "Rare 1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cf302022-b857-490e-9974-d39b15807b7f.png",
-          "minutes": 120
-        },
-        {
-          "name": "Common 2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/50c342b4-d778-464a-bf9a-878a9e878a03.png",
-          "minutes": 180
-        },
-        {
-          "name": "Rare 2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/72d69b5a-9af9-48ca-8ef7-3d2341bccb80.png",
-          "minutes": 240
-        },
-        {
-          "name": "Legendary 1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/04d4f653-b290-4850-906a-c453e37a62b7.png",
-          "minutes": 300
-        },
-        {
-          "name": "Common 3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4352036a-5415-4971-8612-10395777734c.png",
-          "minutes": 360
-        },
-        {
-          "name": "Rare 3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/44be57ff-0ae7-4049-8ada-ffb98d4c4e91.png",
-          "minutes": 420
-        },
-        {
-          "name": "Common 4",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a1cd57bf-aa33-439b-aa34-848d8722a7da.png",
-          "minutes": 480
-        },
-        {
-          "name": "Legendary 2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/26b88656-6aba-466e-a290-f9534e17a491.png",
-          "minutes": 540
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "e690326a-1b72-47b5-ba40-caecf7d1805c",
       "name": "Drops",
       "status": "ACTIVE",
@@ -2161,6 +2075,92 @@
           "name": "2 Hour Reward",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/015ca6f2-96c4-45b4-b1f2-9c7052ee6b0d.png",
           "minutes": 120
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "4baf6635-d372-4e61-87f9-e7c34fefe865",
+      "name": "KORD BREACH S1 Drops",
+      "status": "ACTIVE",
+      "start_at": "2026-08-13T13:00:00Z",
+      "end_at": "2026-08-14T12:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/43794f4a-86d0-4fe9-8002-635a7d9443af.png",
+      "details_url": "https://www.escapefromtarkov.com/news/id/406",
+      "game": "Escape from Tarkov",
+      "game_slug": "escape-from-tarkov",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/491931_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 540,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Common 1",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/03b485fa-eece-46b3-b728-27b113bc5ec0.png",
+          "minutes": 60
+        },
+        {
+          "name": "Rare 1",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/749d0b62-4ea5-4f32-9dff-834653966760.png",
+          "minutes": 120
+        },
+        {
+          "name": "Common 2",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cbc7704b-e3c7-4ad7-af61-1d46996f4870.png",
+          "minutes": 180
+        },
+        {
+          "name": "Rare 2",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7852058b-4bbb-4ade-aa25-8cf4ff495382.png",
+          "minutes": 240
+        },
+        {
+          "name": "Legendary 1",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cf1a275d-b548-45b2-88a2-ce8eda4fcba9.png",
+          "minutes": 300
+        },
+        {
+          "name": "Common 3",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/da603887-d6d7-4369-82b2-8891927fcc60.png",
+          "minutes": 360
+        },
+        {
+          "name": "Rare 3",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/52a3e2e4-e19a-48ef-a2d4-21a5ee2fa02f.png",
+          "minutes": 420
+        },
+        {
+          "name": "Common 4",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e4ed5d3a-bdc4-46c0-8118-8a73402b74c1.png",
+          "minutes": 480
+        },
+        {
+          "name": "Legendary 2",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a9d6d2db-4e49-464d-a087-34d1c3e6def1.png",
+          "minutes": 540
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "9bdebdf9-91c0-4ebb-a929-95861608d905",
+      "name": "Demo Release 0.3",
+      "status": "ACTIVE",
+      "start_at": "2026-08-13T13:00:00Z",
+      "end_at": "2026-09-10T12:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/00ed5118-e545-4a7a-89a6-0d66122ac937.jpeg",
+      "details_url": "https://docs.google.com/document/d/1FELkhrUW6rpww1ksFqGXZOY37lrpZ0p3SZ6e30AgBPI/edit?usp=sharing",
+      "game": "Cash is King!",
+      "game_slug": "cash-is-king",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1979426071_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 15,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Dance Elite 2000",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6b1b5d8c-1793-4f18-bd00-3e8dbeff1e95.png",
+          "minutes": 15
         }
       ],
       "src": "sunkwi"
