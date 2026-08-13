@@ -1,69 +1,18 @@
 {
-  "updated_at": "2026-08-13T13:59:53Z",
+  "updated_at": "2026-08-13T15:05:41Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-13T13:59:01.624Z",
+  "source_updated": "2026-08-13T15:05:02.141Z",
   "counts": {
-    "total": 61,
-    "upcoming": 5,
-    "active": 56,
-    "game_drops": 59,
+    "total": 60,
+    "upcoming": 3,
+    "active": 57,
+    "game_drops": 58,
     "platform": 2,
-    "badges": 3,
-    "fechadas_descartadas": 44
+    "badges": 2,
+    "fechadas_descartadas": 45
   },
   "campaigns": [
-    {
-      "id": "042983cc-97a1-4f1e-9720-e696c30ca454",
-      "name": "Update 15.7 Drop: Week 1",
-      "status": "UPCOMING",
-      "start_at": "2026-08-13T15:00:00.000Z",
-      "end_at": "2026-08-20T15:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "World of Warships",
-      "game_slug": "world-of-warships",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/32502_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Update 15.7 Mission #1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a882d719-31ca-4e17-b0ec-e7087d97dd5b.png",
-          "minutes": 90
-        },
-        {
-          "name": "Twitch Container 15.7",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c688c557-0381-41c1-afca-b90345a96f63.png",
-          "minutes": 180
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "c5aae2bf-004d-405e-8bc2-9ac433a3ae08",
-      "name": "Spider-Man",
-      "status": "UPCOMING",
-      "start_at": "2026-08-13T15:05:00.000Z",
-      "end_at": "2026-08-20T18:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "MARVEL TŌKON: Fighting Souls",
-      "game_slug": "marvel-tokon-fighting-souls",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/630009802_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": null,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Spider-Man",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f6347c09-1d36-489c-91b6-b5efe9721da5.png",
-          "minutes": 0
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "07a2f695-e4e6-4288-b05b-5947439ffdfd",
       "name": "Madden Live",
@@ -539,29 +488,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "5242a38e-bbdc-4c63-b5d4-69527fe99c0e",
-      "name": "Ruhnuk Decoration Poster",
-      "status": "ACTIVE",
-      "start_at": "2026-07-30T18:00:00.000Z",
-      "end_at": "2026-08-13T14:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Star Wars: The Old Republic",
-      "game_slug": "star-wars-the-old-republic",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/21934_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 60,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "SWTOR Ruhnuk Poster",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0e920e11-830f-48f6-ad66-a9c15b7fd5b8.png",
-          "minutes": 60
-        }
-      ],
-      "src": "fenris"
-    },
-    {
       "id": "9e9fb393-7250-4da0-b94e-f306180750bb",
       "name": "Season 3",
       "status": "ACTIVE",
@@ -874,29 +800,6 @@
           "name": "Kaniq Creek Box",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2872f7ff-6fbf-4479-924b-6e3cc99f98cf.png",
           "minutes": 60
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "0c0e37e6-60dd-4f3b-8305-c71a6b4aaac9",
-      "name": "Hulk",
-      "status": "ACTIVE",
-      "start_at": "2026-08-06T15:00:00Z",
-      "end_at": "2026-08-13T14:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/1af684ba-4c99-4a7c-a6d2-776d2fb456a0.png",
-      "details_url": "https://help.twitch.tv/s/article/twitch-chat-badges-guide",
-      "game": "MARVEL TŌKON: Fighting Souls",
-      "game_slug": "marvel-tokon-fighting-souls",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/630009802_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": null,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Hulk",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/edcd355b-2aa0-4580-a1ea-4d5bec5109e4.png",
-          "minutes": 0
         }
       ],
       "src": "sunkwi"
@@ -2029,6 +1932,39 @@
       "src": "sunkwi"
     },
     {
+      "id": "d6424ef5-7715-4d65-b844-123cc4a6a0ed",
+      "name": "OneState Twitch Drops",
+      "status": "ACTIVE",
+      "start_at": "2026-08-13T09:00:00Z",
+      "end_at": "2026-08-22T17:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f0008a11-426e-4d27-bbed-433a3ca8c84f.png",
+      "details_url": "https://rewards.onestate.com/",
+      "game": "OneState",
+      "game_slug": "onestate",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/535020156_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 90,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "$30k State Bucks",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/18c22ccb-65a2-4031-b519-b5dbddec3d4b.png",
+          "minutes": 30
+        },
+        {
+          "name": "Legendary Citizen Case",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/18f56bf0-b0a9-4490-918a-acd6c9d0a9dc.png",
+          "minutes": 60
+        },
+        {
+          "name": "LA Stack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5f3146ea-29c9-4caa-98b0-2ae38d91a63c.png",
+          "minutes": 90
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
       "id": "0587b265-30b4-469a-af30-82086750b102",
       "name": "Radiant Wilds 18 - #4/7",
       "status": "ACTIVE",
@@ -2166,6 +2102,57 @@
       "src": "sunkwi"
     },
     {
+      "id": "042983cc-97a1-4f1e-9720-e696c30ca454",
+      "name": "Update 15.7 Drop: Week 1",
+      "status": "ACTIVE",
+      "start_at": "2026-08-13T15:00:00Z",
+      "end_at": "2026-08-20T15:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/6864a006-9fd9-4c76-a88d-360a2db3748d.png",
+      "details_url": "https://worldofwarships.eu/en/news/community/community-drops-august-26/",
+      "game": "World of Warships",
+      "game_slug": "world-of-warships",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/32502_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Update 15.7 Mission #1",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a882d719-31ca-4e17-b0ec-e7087d97dd5b.png",
+          "minutes": 90
+        },
+        {
+          "name": "Twitch Container 15.7",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c688c557-0381-41c1-afca-b90345a96f63.png",
+          "minutes": 180
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "c5aae2bf-004d-405e-8bc2-9ac433a3ae08",
+      "name": "Spider-Man",
+      "status": "ACTIVE",
+      "start_at": "2026-08-13T15:05:00Z",
+      "end_at": "2026-08-20T18:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/46954d3b-8252-479e-ac01-b9a2f8468f95.png",
+      "details_url": "https://help.twitch.tv/s/article/twitch-chat-badges-guide",
+      "game": "MARVEL TŌKON: Fighting Souls",
+      "game_slug": "marvel-tokon-fighting-souls",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/630009802_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Spider-Man",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f6347c09-1d36-489c-91b6-b5efe9721da5.png",
+          "minutes": 0
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
       "id": "8a9dd118-ea88-410a-ba60-84cb1332aad2",
       "name": "Roblox Egg Hunt",
       "status": "ACTIVE",
@@ -2213,15 +2200,6 @@
     }
   ],
   "badges": [
-    {
-      "title": "MARVEL Tōkon: Fighting Souls Release",
-      "start_at": "2026-08-13T15:05:00Z",
-      "end_at": "2026-08-20T18:59:00Z",
-      "note": null,
-      "images": [
-        "https://static-cdn.jtvnw.net/badges/v1/03ba20e2-11e1-481c-80d8-155e87afc724/3"
-      ]
-    },
     {
       "title": "Final Fantasy XIV Fan Festival 2026 JP",
       "start_at": "2026-10-30T00:00:00Z",
