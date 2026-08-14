@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-08-14T20:42:03Z",
+  "updated_at": "2026-08-14T21:04:59Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-14T20:42:01.578Z",
+  "source_updated": "2026-08-14T21:04:01.604Z",
   "counts": {
-    "total": 66,
+    "total": 65,
     "upcoming": 4,
-    "active": 62,
-    "game_drops": 64,
+    "active": 61,
+    "game_drops": 63,
     "platform": 2,
     "badges": 2,
-    "fechadas_descartadas": 44
+    "fechadas_descartadas": 43
   },
   "campaigns": [
     {
@@ -1664,29 +1664,6 @@
           "name": "Spider-Man",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f6347c09-1d36-489c-91b6-b5efe9721da5.png",
           "minutes": 0
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "83110579-a74e-4739-b998-46427c4f954e",
-      "name": "PoE2 ExileCon 2/4",
-      "status": "ACTIVE",
-      "start_at": "2026-08-13T21:00:00Z",
-      "end_at": "2026-08-14T20:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f464d5af-6c7d-479c-810b-ae93f61ce1d9.png",
-      "details_url": "https://x.com/pathofexile/status/2087644270929027560",
-      "game": "Path of Exile 2",
-      "game_slug": "path-of-exile-2",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1702520304_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 30,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Lightbringer Hood",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1d61fd31-30d1-433a-b882-5b3d94503ff6.png",
-          "minutes": 30
         }
       ],
       "src": "sunkwi"
