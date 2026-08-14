@@ -1,46 +1,18 @@
 {
-  "updated_at": "2026-08-14T21:55:36Z",
+  "updated_at": "2026-08-14T22:18:58Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-14T21:55:01.501Z",
+  "source_updated": "2026-08-14T22:18:01.563Z",
   "counts": {
-    "total": 65,
-    "upcoming": 4,
-    "active": 61,
-    "game_drops": 63,
+    "total": 63,
+    "upcoming": 3,
+    "active": 60,
+    "game_drops": 61,
     "platform": 2,
     "badges": 2,
     "fechadas_descartadas": 43
   },
   "campaigns": [
-    {
-      "id": "ccf21b17-e8b3-44ee-9940-9d9fd75ca3e1",
-      "name": "GOALS - 15th of August",
-      "status": "UPCOMING",
-      "start_at": "2026-08-14T22:01:00.000Z",
-      "end_at": "2026-08-15T21:58:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "GOALS",
-      "game_slug": "goals",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/951160620_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 360,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Common+ Pack [1 Player]",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82a4b7fe-7458-4b59-b909-ebc30fc91521.png",
-          "minutes": 60
-        },
-        {
-          "name": "Uncommon+ Pack [1 Player]",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png",
-          "minutes": 300
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "c405bee4-cea1-4752-b3c1-77e0e3c33746",
       "name": "Radiant Wilds 18 - #6/7",
@@ -838,49 +810,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "3dbee6c8-2336-46be-b947-d8170c7528a1",
-      "name": "NW2 SUMMER DROPS #4",
-      "status": "ACTIVE",
-      "start_at": "2026-08-07T14:00:00Z",
-      "end_at": "2026-08-14T21:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/b9402911-66d0-4eb7-afd5-653b295c5e30.png",
-      "details_url": "https://twitch.nextworld2.com/",
-      "game": "NextWorld2",
-      "game_slug": "nextworld2",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/544682640_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 900,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Gladiátor Köpeny (100 db)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fb7e00dc-f81b-4f1b-8586-230ed2367aa3.jpeg",
-          "minutes": 120
-        },
-        {
-          "name": "Gladiátor Gyűrű (1 db)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/17128fe7-9b63-47fd-8693-438f5ad28b34.jpeg",
-          "minutes": 300
-        },
-        {
-          "name": "Twitch Érme (1 db)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3e21fac4-778b-4b9d-ad2e-4b211b595563.jpeg",
-          "minutes": 600
-        },
-        {
-          "name": "Twitch Fókusz (1 db)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba8ddd9d-4afa-46f7-9453-2eab8dc878c0.jpeg",
-          "minutes": 840
-        },
-        {
-          "name": "Twitch Isigúr Érintés (1 ",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2a18203b-4ad5-4aff-9973-a44fb48b3920.jpeg",
-          "minutes": 900
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "704f2f30-74cf-488d-a961-07988c3ff249",
       "name": "August Week 2 - MLF!",
       "status": "ACTIVE",
@@ -1669,34 +1598,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "871d09e2-49f0-4ea7-b777-de4eb6d10c4a",
-      "name": "GOALS - 14th of August",
-      "status": "ACTIVE",
-      "start_at": "2026-08-13T22:01:00Z",
-      "end_at": "2026-08-14T21:58:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/5d7293bb-3722-4c07-ab3c-15fec9caf82c.png",
-      "details_url": "https://playgoals.com/twitch-drops",
-      "game": "GOALS",
-      "game_slug": "goals",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/951160620_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 360,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Common+ Pack [1 Player]",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82a4b7fe-7458-4b59-b909-ebc30fc91521.png",
-          "minutes": 60
-        },
-        {
-          "name": "Uncommon+ Pack [1 Player]",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png",
-          "minutes": 300
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "23e2c478-51db-4832-8187-aab61961ebcd",
       "name": "August Drops",
       "status": "ACTIVE",
@@ -1943,6 +1844,29 @@
       "src": "sunkwi"
     },
     {
+      "id": "c27db3e4-05f1-4c23-a826-3c174d73b11c",
+      "name": "10th Anniversary - Week 6",
+      "status": "ACTIVE",
+      "start_at": "2026-08-14T14:00:00Z",
+      "end_at": "2026-08-16T21:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/8e59b13c-5339-4c34-a322-dc02dcd2ae85.png",
+      "details_url": "https://account.ankama.com/fr/twitch",
+      "game": "DOFUS Touch",
+      "game_slug": "dofus-touch",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/505045_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "10th Anniversary Gift",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f46515bc-40c4-46e6-9e58-4637f743c567.png",
+          "minutes": 120
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
       "id": "83063a65-493c-4fc5-8ecc-b1ca3a17e895",
       "name": "NW2 SUMMER DROPS #5",
       "status": "ACTIVE",
@@ -1981,29 +1905,6 @@
           "name": "Twitch Fókusz (1 db) ",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b3feca85-281a-40ed-bc6a-d3dbd4670c61.jpeg",
           "minutes": 840
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "c27db3e4-05f1-4c23-a826-3c174d73b11c",
-      "name": "10th Anniversary - Week 6",
-      "status": "ACTIVE",
-      "start_at": "2026-08-14T14:00:00Z",
-      "end_at": "2026-08-16T21:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/8e59b13c-5339-4c34-a322-dc02dcd2ae85.png",
-      "details_url": "https://account.ankama.com/fr/twitch",
-      "game": "DOFUS Touch",
-      "game_slug": "dofus-touch",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/505045_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "10th Anniversary Gift",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f46515bc-40c4-46e6-9e58-4637f743c567.png",
-          "minutes": 120
         }
       ],
       "src": "sunkwi"
@@ -2253,6 +2154,34 @@
           "name": "Drops Token",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
           "minutes": 60
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "ccf21b17-e8b3-44ee-9940-9d9fd75ca3e1",
+      "name": "GOALS - 15th of August",
+      "status": "ACTIVE",
+      "start_at": "2026-08-14T22:01:00Z",
+      "end_at": "2026-08-15T21:58:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e2e29b9b-7e4f-4a57-b68c-d04705fedb9f.png",
+      "details_url": "https://playgoals.com/twitch-drops",
+      "game": "GOALS",
+      "game_slug": "goals",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/951160620_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 360,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Common+ Pack [1 Player]",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82a4b7fe-7458-4b59-b909-ebc30fc91521.png",
+          "minutes": 60
+        },
+        {
+          "name": "Uncommon+ Pack [1 Player]",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png",
+          "minutes": 300
         }
       ],
       "src": "sunkwi"
