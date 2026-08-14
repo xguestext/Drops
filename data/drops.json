@@ -1,102 +1,18 @@
 {
-  "updated_at": "2026-08-14T14:46:46Z",
+  "updated_at": "2026-08-14T15:37:18Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-14T14:46:04.995Z",
+  "source_updated": "2026-08-14T15:37:01.923Z",
   "counts": {
-    "total": 69,
-    "upcoming": 8,
+    "total": 66,
+    "upcoming": 5,
     "active": 61,
-    "game_drops": 67,
+    "game_drops": 64,
     "platform": 2,
     "badges": 2,
-    "fechadas_descartadas": 47
+    "fechadas_descartadas": 50
   },
   "campaigns": [
-    {
-      "id": "cee3a33c-f762-47cd-a95f-040f61470cff",
-      "name": "Anniversary Store #3",
-      "status": "UPCOMING",
-      "start_at": "2026-08-14T15:00:00.000Z",
-      "end_at": "2026-08-17T14:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "World of Tanks",
-      "game_slug": "world-of-tanks",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/27546_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "10x Cupcake Tokens",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/261952d1-de6d-42cb-b75b-6ed01a9e9ca5.png",
-          "minutes": 180
-        },
-        {
-          "name": "1x 2D style",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7c1769b0-0fbd-4694-bf9c-6489e7cca3e6.png",
-          "minutes": 240
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "62c591e0-23aa-4850-b3a4-c0456625e1c9",
-      "name": "GRAIN ROT Launch Week 2",
-      "status": "UPCOMING",
-      "start_at": "2026-08-14T15:00:00.000Z",
-      "end_at": "2026-08-21T14:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "GRAIN ROT",
-      "game_slug": "grain-rot",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/490242481_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 360,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Golden Mallet Helmet",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9a0f70e1-de7f-4d05-82bf-916b76018f3b.png",
-          "minutes": 120
-        },
-        {
-          "name": "Golden Steampunk Hat",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/975163f2-ff06-40fd-b4b1-3c934e7acf0f.png",
-          "minutes": 240
-        },
-        {
-          "name": "Golden Witch Hat",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0bded488-6776-4ca7-b4f7-9773075b20ba.png",
-          "minutes": 360
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "18c03797-53ae-4f72-8445-5d7e593d0724",
-      "name": "Обновление 26.8: Часть 2",
-      "status": "UPCOMING",
-      "start_at": "2026-08-14T15:00:00.000Z",
-      "end_at": "2026-08-21T14:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Mir Korabley",
-      "game_slug": "mir-korabley",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2133072147_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "26.8 Боевая задача #2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82d96737-eed4-4ae2-a11b-93ef96854f6f.png",
-          "minutes": 240
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "d58f0afe-9851-4668-814a-671c8fc83c69",
       "name": "CFB Live",
@@ -1008,57 +924,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "409318a6-95ae-4a04-bc18-3c82297418c8",
-      "name": "Обновление 26.8: Часть 1",
-      "status": "ACTIVE",
-      "start_at": "2026-08-07T15:00:00Z",
-      "end_at": "2026-08-14T14:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a4496c83-17a0-4fc8-8255-c880ba91b80e.jpeg",
-      "details_url": "https://krbli.ru/4dDrG8N",
-      "game": "Mir Korabley",
-      "game_slug": "mir-korabley",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2133072147_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "26.8 Боевая задача #1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/658072ff-f5fb-4675-afd2-ea781a8e44f0.png",
-          "minutes": 240
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "1497e3b0-c56f-48a1-ad53-5625bff8f306",
-      "name": "GRAIN ROT Launch Week",
-      "status": "ACTIVE",
-      "start_at": "2026-08-07T15:00:00Z",
-      "end_at": "2026-08-14T14:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/b1408c84-9478-4a16-b689-d1cc47597d86.png",
-      "details_url": "https://store.steampowered.com/news/app/4450620/view/703275952293019933",
-      "game": "GRAIN ROT",
-      "game_slug": "grain-rot",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/490242481_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Gold Foil Hat",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/28d766c9-cc75-4e70-88c5-2dd012ac0a82.png",
-          "minutes": 240
-        },
-        {
-          "name": "Gold Pan Hat",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/16b87094-2c56-418a-946d-02edc831f340.png",
-          "minutes": 120
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "3b42f70d-bd19-44f2-b612-c09967d5bbbb",
       "name": "August Week 2",
       "status": "ACTIVE",
@@ -1702,34 +1567,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "60e5b0f8-9358-4891-89a4-7b811d441578",
-      "name": "Anniversary Store #2",
-      "status": "ACTIVE",
-      "start_at": "2026-08-12T15:00:00Z",
-      "end_at": "2026-08-14T14:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/28a9d5cc-e55a-4ec2-85d2-679209d3f21e.jpeg",
-      "details_url": "https://worldoftanks.eu/news/general-news/wot-16-anniversary-august-2026/",
-      "game": "World of Tanks",
-      "game_slug": "world-of-tanks",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/27546_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "5x Cupcake Tokens",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e1addb89-5a06-447a-b715-fdc472eb2af1.png",
-          "minutes": 180
-        },
-        {
-          "name": "1x day of WoT PA",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f5a37263-5f2a-473c-8892-894c8928436b.png",
-          "minutes": 240
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "85328836-799f-4ad3-b9b8-bdb8a5d741b8",
       "name": "HEAT Season 1 - Week 7",
       "status": "ACTIVE",
@@ -2360,6 +2197,90 @@
           "name": "10th Anniversary Gift",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f46515bc-40c4-46e6-9e58-4637f743c567.png",
           "minutes": 120
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "cee3a33c-f762-47cd-a95f-040f61470cff",
+      "name": "Anniversary Store #3",
+      "status": "ACTIVE",
+      "start_at": "2026-08-14T15:00:00Z",
+      "end_at": "2026-08-17T14:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/94497caa-0f09-4d2c-9047-048c2e1971db.jpeg",
+      "details_url": "https://worldoftanks.eu/news/general-news/wot-16-anniversary-august-2026/",
+      "game": "World of Tanks",
+      "game_slug": "world-of-tanks",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/27546_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "10x Cupcake Tokens",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/261952d1-de6d-42cb-b75b-6ed01a9e9ca5.png",
+          "minutes": 180
+        },
+        {
+          "name": "1x 2D style",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7c1769b0-0fbd-4694-bf9c-6489e7cca3e6.png",
+          "minutes": 240
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "18c03797-53ae-4f72-8445-5d7e593d0724",
+      "name": "Обновление 26.8: Часть 2",
+      "status": "ACTIVE",
+      "start_at": "2026-08-14T15:00:00Z",
+      "end_at": "2026-08-21T14:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/29e1495e-6fd9-4f54-8556-c5e0b6ca6c8f.jpeg",
+      "details_url": "https://krbli.ru/4dDrG8N",
+      "game": "Mir Korabley",
+      "game_slug": "mir-korabley",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2133072147_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "26.8 Боевая задача #2",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82d96737-eed4-4ae2-a11b-93ef96854f6f.png",
+          "minutes": 240
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "62c591e0-23aa-4850-b3a4-c0456625e1c9",
+      "name": "GRAIN ROT Launch Week 2",
+      "status": "ACTIVE",
+      "start_at": "2026-08-14T15:00:00Z",
+      "end_at": "2026-08-21T14:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/23693cb9-353e-4e36-9606-d672c8fad1b7.png",
+      "details_url": "https://store.steampowered.com/news/app/4450620/view/703275952293019933",
+      "game": "GRAIN ROT",
+      "game_slug": "grain-rot",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/490242481_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 360,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Golden Mallet Helmet",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9a0f70e1-de7f-4d05-82bf-916b76018f3b.png",
+          "minutes": 120
+        },
+        {
+          "name": "Golden Witch Hat",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0bded488-6776-4ca7-b4f7-9773075b20ba.png",
+          "minutes": 360
+        },
+        {
+          "name": "Golden Steampunk Hat",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/975163f2-ff06-40fd-b4b1-3c934e7acf0f.png",
+          "minutes": 240
         }
       ],
       "src": "sunkwi"
