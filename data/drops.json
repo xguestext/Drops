@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-14T15:37:18Z",
+  "updated_at": "2026-08-14T16:29:22Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-14T15:37:01.923Z",
+  "source_updated": "2026-08-14T16:29:03.034Z",
   "counts": {
-    "total": 66,
-    "upcoming": 5,
-    "active": 61,
-    "game_drops": 64,
+    "total": 70,
+    "upcoming": 8,
+    "active": 62,
+    "game_drops": 68,
     "platform": 2,
     "badges": 2,
     "fechadas_descartadas": 50
@@ -179,6 +179,105 @@
           "name": "Uncommon+ Pack [1 Player]",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png",
           "minutes": 300
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "c405bee4-cea1-4752-b3c1-77e0e3c33746",
+      "name": "Radiant Wilds 18 - #6/7",
+      "status": "UPCOMING",
+      "start_at": "2026-08-15T10:00:00.000Z",
+      "end_at": "2026-08-16T09:29:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Albion Online",
+      "game_slug": "albion-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Radiant Wilds Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
+          "minutes": 180
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "cf161ad1-2164-4cba-b1ba-fbf4404c7e75",
+      "name": "August Week 3",
+      "status": "UPCOMING",
+      "start_at": "2026-08-15T11:00:00.000Z",
+      "end_at": "2026-08-22T10:57:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "SMITE 2",
+      "game_slug": "smite-2",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2094865572-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 840,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Market Coins Bundle 2",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c237f9f4-051c-4fed-b454-abb32c3e77bb.jpeg",
+          "minutes": 120
+        },
+        {
+          "name": "Market Coins Bundle 3",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/32d7e22a-e073-4507-8b82-500ebb448395.jpeg",
+          "minutes": 360
+        },
+        {
+          "name": "Market Coins Bundle 4",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/620d7b83-3e6a-4d84-bb47-f04c18c57868.jpeg",
+          "minutes": 480
+        },
+        {
+          "name": "Market Coins Bundle 5",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0b8e4f8a-acdc-4e46-8a69-86f52c8bea5c.jpeg",
+          "minutes": 600
+        },
+        {
+          "name": "Market Coins Bundle 6",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3ac43663-e809-40fa-9afa-b37999ee4dac.jpeg",
+          "minutes": 720
+        },
+        {
+          "name": "Market Coins Bundle 7",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/043434c4-1e73-40ae-80ec-ac836737e748.jpeg",
+          "minutes": 840
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "69aab952-c3a3-4ab9-9c9f-cb40af76d34e",
+      "name": "New Class: Agent",
+      "status": "UPCOMING",
+      "start_at": "2026-08-15T12:00:00.000Z",
+      "end_at": "2026-08-16T11:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Black Desert",
+      "game_slug": "black-desert",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "1 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/09933e08-921d-4e30-9273-4ce4b335822a.png",
+          "minutes": 60
+        },
+        {
+          "name": "2 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a71ae13a-8daf-4048-87cd-136b79b41959.png",
+          "minutes": 120
         }
       ],
       "src": "fenris"
@@ -2281,6 +2380,29 @@
           "name": "Golden Steampunk Hat",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/975163f2-ff06-40fd-b4b1-3c934e7acf0f.png",
           "minutes": 240
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "b159ad1b-4f6a-40a1-a488-88ff2a652bd8",
+      "name": "Marble Day 261",
+      "status": "ACTIVE",
+      "start_at": "2026-08-14T16:00:00Z",
+      "end_at": "2026-08-15T15:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ef66b36b-5915-45cb-865a-3c35b5a3e7d3.png",
+      "details_url": "https://pixelbypixel.studio/twitch-drops/",
+      "game": "Marbles on Stream",
+      "game_slug": "marbles-on-stream",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/509511_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "15 Community Coins",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3924503a-4e48-4899-af4a-13f13f70e9b4.png",
+          "minutes": 120
         }
       ],
       "src": "sunkwi"
