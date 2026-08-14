@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-08-14T12:26:22Z",
+  "updated_at": "2026-08-14T13:52:46Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-14T12:26:01.506Z",
+  "source_updated": "2026-08-14T13:52:01.649Z",
   "counts": {
-    "total": 70,
+    "total": 69,
     "upcoming": 10,
-    "active": 60,
-    "game_drops": 68,
+    "active": 59,
+    "game_drops": 67,
     "platform": 2,
     "badges": 2,
-    "fechadas_descartadas": 42
+    "fechadas_descartadas": 44
   },
   "campaigns": [
     {
@@ -1768,109 +1768,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "e690326a-1b72-47b5-ba40-caecf7d1805c",
-      "name": "Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-08-12T13:17:54Z",
-      "end_at": "2026-08-14T12:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/6603ceb6-01b6-4f58-b5cd-75dcc962a930.png",
-      "details_url": "https://huntclubonstream.lovable.app/legal",
-      "game": "Hunt Club On Stream",
-      "game_slug": "hunt-club-on-stream",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2097881176_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 900,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Bird Watching Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/811c4820-6a79-4059-ad96-7ae19cba321d.png",
-          "minutes": 60
-        },
-        {
-          "name": "Butterfly Garden Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e539f4ef-c845-412b-b6f9-da131843dc66.png",
-          "minutes": 120
-        },
-        {
-          "name": "Fishing Silver Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba14718d-6cf5-4a25-9700-a7519603b571.png",
-          "minutes": 240
-        },
-        {
-          "name": "Hunting Silver Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c4ddccc8-db23-4340-8ee5-c7575da873c9.png",
-          "minutes": 240
-        },
-        {
-          "name": "Hunting Gold Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/87a1284b-9471-4b76-92f3-1202af94c2e6.png",
-          "minutes": 480
-        },
-        {
-          "name": "Fishing Gold Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/51cc6079-9e26-478e-b010-ebe250c9c28d.png",
-          "minutes": 480
-        },
-        {
-          "name": "Hunting Epic Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7b186897-73e8-4934-aedc-87108a6fd854.png",
-          "minutes": 720
-        },
-        {
-          "name": "Fishing Epic Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f4b13e63-2abe-4d63-9984-2cb5ddda4735.png",
-          "minutes": 720
-        },
-        {
-          "name": "Hunting Random Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d71ed699-e335-4b36-aa07-08f9468620e5.png",
-          "minutes": 900
-        },
-        {
-          "name": "Fishing Random Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2f407975-b01a-400c-b3bb-01196c8ab130.png",
-          "minutes": 900
-        },
-        {
-          "name": "Gold Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c21cec4b-555b-4584-99c0-e215ab2556c6.png",
-          "minutes": 900
-        },
-        {
-          "name": "Fishing Sharks Teeth Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/99f74d87-07fe-4821-b1b7-e89426aea396.png",
-          "minutes": 0
-        },
-        {
-          "name": "Hunting Antler Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b6ef7240-4f53-4bd3-92a2-7f6666fd3699.png",
-          "minutes": 0
-        },
-        {
-          "name": "Gifted Sub Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ef6bcb63-d8a4-43c9-bf4e-1caf36bc997d.png",
-          "minutes": 0
-        },
-        {
-          "name": "Fishing Legendary Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/dffd0a91-125a-4a6d-a136-348971b519c1.png",
-          "minutes": 0
-        },
-        {
-          "name": "Hunting Legendary Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4e55f494-532a-47f9-b5e9-5357dd697909.png",
-          "minutes": 0
-        },
-        {
-          "name": "Albino/Mystic Token",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6f9bc227-65e2-4bae-98be-e646470922cf.png",
-          "minutes": 0
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "60e5b0f8-9358-4891-89a4-7b811d441578",
       "name": "Anniversary Store #2",
       "status": "ACTIVE",
@@ -1998,69 +1895,6 @@
           "name": "LA Stack",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5f3146ea-29c9-4caa-98b0-2ae38d91a63c.png",
           "minutes": 90
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "4baf6635-d372-4e61-87f9-e7c34fefe865",
-      "name": "KORD BREACH S1 Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-08-13T13:00:00Z",
-      "end_at": "2026-08-14T12:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/43794f4a-86d0-4fe9-8002-635a7d9443af.png",
-      "details_url": "https://www.escapefromtarkov.com/news/id/406",
-      "game": "Escape from Tarkov",
-      "game_slug": "escape-from-tarkov",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/491931_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 540,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Common 1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/03b485fa-eece-46b3-b728-27b113bc5ec0.png",
-          "minutes": 60
-        },
-        {
-          "name": "Rare 1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/749d0b62-4ea5-4f32-9dff-834653966760.png",
-          "minutes": 120
-        },
-        {
-          "name": "Common 2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cbc7704b-e3c7-4ad7-af61-1d46996f4870.png",
-          "minutes": 180
-        },
-        {
-          "name": "Rare 2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7852058b-4bbb-4ade-aa25-8cf4ff495382.png",
-          "minutes": 240
-        },
-        {
-          "name": "Legendary 1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cf1a275d-b548-45b2-88a2-ce8eda4fcba9.png",
-          "minutes": 300
-        },
-        {
-          "name": "Common 3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/da603887-d6d7-4369-82b2-8891927fcc60.png",
-          "minutes": 360
-        },
-        {
-          "name": "Rare 3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/52a3e2e4-e19a-48ef-a2d4-21a5ee2fa02f.png",
-          "minutes": 420
-        },
-        {
-          "name": "Common 4",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e4ed5d3a-bdc4-46c0-8118-8a73402b74c1.png",
-          "minutes": 480
-        },
-        {
-          "name": "Legendary 2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a9d6d2db-4e49-464d-a087-34d1c3e6def1.png",
-          "minutes": 540
         }
       ],
       "src": "sunkwi"
@@ -2463,6 +2297,69 @@
           "name": "2 Hour Reward",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/015ca6f2-96c4-45b4-b1f2-9c7052ee6b0d.png",
           "minutes": 120
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "05586318-7c37-4251-9d9e-4b4bd6f76b9c",
+      "name": "KORD BREACH S1 Drops",
+      "status": "ACTIVE",
+      "start_at": "2026-08-14T13:00:00Z",
+      "end_at": "2026-08-15T12:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e8b12521-5c2c-4c97-babc-3eb3c16b1d25.png",
+      "details_url": "https://www.escapefromtarkov.com/news/id/406",
+      "game": "Escape from Tarkov",
+      "game_slug": "escape-from-tarkov",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/491931_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 540,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Common 1",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0d618cce-c6c4-4938-877e-983a4a902971.png",
+          "minutes": 60
+        },
+        {
+          "name": "Rare 1",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/390c6372-95e4-462e-8a6e-a8dd2e51605b.png",
+          "minutes": 120
+        },
+        {
+          "name": "Common 2",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0d16185f-e361-4f66-ae9b-7248d5a4608c.png",
+          "minutes": 180
+        },
+        {
+          "name": "Rare 2",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fbc33d31-6d5c-41de-a820-ebeaec8d6ecf.png",
+          "minutes": 240
+        },
+        {
+          "name": "Legendary 1",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/199e472a-faac-4487-8c0c-8025a864a376.png",
+          "minutes": 300
+        },
+        {
+          "name": "Common 3",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c66d78b7-7f85-4f5e-aadf-76f99d5ca9e8.png",
+          "minutes": 360
+        },
+        {
+          "name": "Rare 3",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e8d75ce8-267f-408f-aed3-c241a0bf27b8.png",
+          "minutes": 420
+        },
+        {
+          "name": "Common 4",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7e9a925a-014f-4e89-b97c-944989408591.png",
+          "minutes": 480
+        },
+        {
+          "name": "Legendary 2",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5385d182-626e-4349-b78b-fbf25a316323.png",
+          "minutes": 540
         }
       ],
       "src": "sunkwi"
