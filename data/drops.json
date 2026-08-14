@@ -1,114 +1,18 @@
 {
-  "updated_at": "2026-08-14T16:29:22Z",
+  "updated_at": "2026-08-14T17:30:40Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-14T16:29:03.034Z",
+  "source_updated": "2026-08-14T17:30:03.320Z",
   "counts": {
-    "total": 70,
-    "upcoming": 8,
+    "total": 68,
+    "upcoming": 6,
     "active": 62,
-    "game_drops": 68,
+    "game_drops": 66,
     "platform": 2,
     "badges": 2,
-    "fechadas_descartadas": 50
+    "fechadas_descartadas": 48
   },
   "campaigns": [
-    {
-      "id": "d58f0afe-9851-4668-814a-671c8fc83c69",
-      "name": "CFB Live",
-      "status": "UPCOMING",
-      "start_at": "2026-08-14T17:00:00.000Z",
-      "end_at": "2026-08-15T16:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "EA Sports College Football 27",
-      "game_slug": "ea-sports-college-football-27",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1678532194_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "CFB Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5f0100dd-069b-4be3-8433-30516593276b.png",
-          "minutes": 15
-        },
-        {
-          "name": "CFB Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e4991be9-8b9e-4f4a-a903-1280bfddd2ef.png",
-          "minutes": 30
-        },
-        {
-          "name": "CFB Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d7b9772b-5b3c-4685-915c-9833291a4b8c.png",
-          "minutes": 60
-        },
-        {
-          "name": "CFB Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8a5a7502-f470-4205-b7f0-43020d63a997.png",
-          "minutes": 120
-        },
-        {
-          "name": "CFB Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2531bc6f-f95d-4654-b130-3bbf4484ff3c.png",
-          "minutes": 180
-        },
-        {
-          "name": "CFB Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/070afc0f-8860-4775-bf5d-8409cc6a40ca.png",
-          "minutes": 240
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "afb8d33e-065a-4096-8935-3a3e0c0abf3a",
-      "name": "August Week 3",
-      "status": "UPCOMING",
-      "start_at": "2026-08-14T17:00:00.000Z",
-      "end_at": "2026-08-21T16:44:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "MARVEL Contest of Champions",
-      "game_slug": "marvel-contest-of-champions",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/461221_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Drop 1 - NW3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a23015fa-27a2-4f18-904d-5a401ea948d9.png",
-          "minutes": 30
-        },
-        {
-          "name": "Drop 2 - NW3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/16a1ad0a-5080-4f25-a5d3-046e32c22195.png",
-          "minutes": 60
-        },
-        {
-          "name": "Drop 3 - NW3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2414c8b7-4754-4e64-8376-b2c74d1b3a8f.png",
-          "minutes": 90
-        },
-        {
-          "name": "Drop 4 - NW3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/35eaf6ab-b4f6-445d-bba6-1f1bebc219fa.png",
-          "minutes": 120
-        },
-        {
-          "name": "Drop 5 - NW3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d6f11d51-a78c-4752-a41f-95b914e399c7.png",
-          "minutes": 180
-        },
-        {
-          "name": "Drop 6 - NW3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/27898765-3336-42eb-9337-2f009ac3b659.png",
-          "minutes": 240
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "ad93bd1a-8297-43b8-99e4-6ce2a9a871de",
       "name": "Mobile Drop 127",
@@ -1023,39 +927,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "3b42f70d-bd19-44f2-b612-c09967d5bbbb",
-      "name": "August Week 2",
-      "status": "ACTIVE",
-      "start_at": "2026-08-07T17:00:00Z",
-      "end_at": "2026-08-14T16:44:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/default.png",
-      "details_url": "https://kid.kabam.com/v1/kid/account/login",
-      "game": "MARVEL Contest of Champions",
-      "game_slug": "marvel-contest-of-champions",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/461221_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 90,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Drop 1 - NW2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/56686021-b6e9-4417-bf26-edde2944b31a.png",
-          "minutes": 30
-        },
-        {
-          "name": "Drop 2 - NW2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a49131d2-6eea-498a-ac8a-b8ce6d157faa.png",
-          "minutes": 60
-        },
-        {
-          "name": "Drop 3 - NW2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7ba62430-1520-4188-985a-f7bbf35c6734.png",
-          "minutes": 90
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "704f2f30-74cf-488d-a961-07988c3ff249",
       "name": "August Week 2 - MLF!",
       "status": "ACTIVE",
@@ -1844,54 +1715,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "07a2f695-e4e6-4288-b05b-5947439ffdfd",
-      "name": "Madden Live",
-      "status": "ACTIVE",
-      "start_at": "2026-08-13T17:00:00Z",
-      "end_at": "2026-08-14T16:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a7e679cc-5157-4baf-bdfd-9104dcb16c53.png",
-      "details_url": "https://help.twitch.tv/s/article/mission-based-drops?language=en_US",
-      "game": "Madden NFL 27",
-      "game_slug": "madden-nfl-27",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/670138298_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Madden Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d29e47d9-0992-46d7-a659-1ca5be105b9b.png",
-          "minutes": 240
-        },
-        {
-          "name": "Madden Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8aedaff7-14df-4c01-b9fd-8b5e4b077e98.png",
-          "minutes": 15
-        },
-        {
-          "name": "Madden Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e974695d-2cf1-4ac7-b9e7-e7098dbb7709.png",
-          "minutes": 30
-        },
-        {
-          "name": "Madden Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6f32e65d-16fb-4c30-a051-95fffd14b14f.png",
-          "minutes": 60
-        },
-        {
-          "name": "Madden Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/155de84b-aa73-4bb1-acdc-5cf9f6599616.png",
-          "minutes": 120
-        },
-        {
-          "name": "Madden Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cf21d378-e450-4c9b-afd6-9d46d2d5199f.png",
-          "minutes": 180
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "15f6c419-c30f-4aaa-ab2a-143eabe4d778",
       "name": "Mobile Drop 126",
       "status": "ACTIVE",
@@ -2403,6 +2226,102 @@
           "name": "15 Community Coins",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3924503a-4e48-4899-af4a-13f13f70e9b4.png",
           "minutes": 120
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "d58f0afe-9851-4668-814a-671c8fc83c69",
+      "name": "CFB Live",
+      "status": "ACTIVE",
+      "start_at": "2026-08-14T17:00:00Z",
+      "end_at": "2026-08-15T16:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/b6c735eb-80c2-4572-9cf7-5f8e3a5780a9.png",
+      "details_url": "https://help.twitch.tv/s/article/mission-based-drops?language=en_US",
+      "game": "EA Sports College Football 27",
+      "game_slug": "ea-sports-college-football-27",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1678532194_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "CFB Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5f0100dd-069b-4be3-8433-30516593276b.png",
+          "minutes": 15
+        },
+        {
+          "name": "CFB Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e4991be9-8b9e-4f4a-a903-1280bfddd2ef.png",
+          "minutes": 30
+        },
+        {
+          "name": "CFB Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d7b9772b-5b3c-4685-915c-9833291a4b8c.png",
+          "minutes": 60
+        },
+        {
+          "name": "CFB Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8a5a7502-f470-4205-b7f0-43020d63a997.png",
+          "minutes": 120
+        },
+        {
+          "name": "CFB Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2531bc6f-f95d-4654-b130-3bbf4484ff3c.png",
+          "minutes": 180
+        },
+        {
+          "name": "CFB Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/070afc0f-8860-4775-bf5d-8409cc6a40ca.png",
+          "minutes": 240
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "afb8d33e-065a-4096-8935-3a3e0c0abf3a",
+      "name": "August Week 3",
+      "status": "ACTIVE",
+      "start_at": "2026-08-14T17:00:00Z",
+      "end_at": "2026-08-21T16:44:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/default.png",
+      "details_url": "https://kid.kabam.com/v1/kid/account/login",
+      "game": "MARVEL Contest of Champions",
+      "game_slug": "marvel-contest-of-champions",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/461221_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Drop 1 - NW3",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a23015fa-27a2-4f18-904d-5a401ea948d9.png",
+          "minutes": 30
+        },
+        {
+          "name": "Drop 2 - NW3",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/16a1ad0a-5080-4f25-a5d3-046e32c22195.png",
+          "minutes": 60
+        },
+        {
+          "name": "Drop 3 - NW3",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2414c8b7-4754-4e64-8376-b2c74d1b3a8f.png",
+          "minutes": 90
+        },
+        {
+          "name": "Drop 4 - NW3",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/35eaf6ab-b4f6-445d-bba6-1f1bebc219fa.png",
+          "minutes": 120
+        },
+        {
+          "name": "Drop 5 - NW3",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d6f11d51-a78c-4752-a41f-95b914e399c7.png",
+          "minutes": 180
+        },
+        {
+          "name": "Drop 6 - NW3",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/27898765-3336-42eb-9337-2f009ac3b659.png",
+          "minutes": 240
         }
       ],
       "src": "sunkwi"
