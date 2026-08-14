@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-13T23:11:42Z",
+  "updated_at": "2026-08-14T00:00:57Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-13T23:11:01.831Z",
+  "source_updated": "2026-08-14T00:00:02.825Z",
   "counts": {
-    "total": 64,
+    "total": 65,
     "upcoming": 7,
-    "active": 57,
-    "game_drops": 62,
+    "active": 58,
+    "game_drops": 63,
     "platform": 2,
     "badges": 2,
     "fechadas_descartadas": 43
@@ -2235,6 +2235,29 @@
           "name": "Uncommon+ Pack [1 Player]",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png",
           "minutes": 300
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "23e2c478-51db-4832-8187-aab61961ebcd",
+      "name": "August Drops",
+      "status": "ACTIVE",
+      "start_at": "2026-08-14T00:00:00Z",
+      "end_at": "2026-08-14T23:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/73913396-a0a1-440a-96ac-dd0099179aa8.png",
+      "details_url": "https://www.quinfall.com/twitch-drops",
+      "game": "The Quinfall",
+      "game_slug": "the-quinfall",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Twitch Reward Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
+          "minutes": 180
         }
       ],
       "src": "sunkwi"
