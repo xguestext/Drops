@@ -1,46 +1,18 @@
 {
-  "updated_at": "2026-08-14T11:31:12Z",
+  "updated_at": "2026-08-14T12:26:22Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-14T11:31:01.657Z",
+  "source_updated": "2026-08-14T12:26:01.506Z",
   "counts": {
-    "total": 72,
-    "upcoming": 11,
-    "active": 61,
-    "game_drops": 70,
+    "total": 70,
+    "upcoming": 10,
+    "active": 60,
+    "game_drops": 68,
     "platform": 2,
     "badges": 2,
     "fechadas_descartadas": 42
   },
   "campaigns": [
-    {
-      "id": "07b7c373-572b-408c-8aa9-a378dfb29c9d",
-      "name": "New Class: Agent",
-      "status": "UPCOMING",
-      "start_at": "2026-08-14T12:00:00.000Z",
-      "end_at": "2026-08-15T11:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Black Desert",
-      "game_slug": "black-desert",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "1 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/361b4d3f-65ef-492a-9078-bf46f8899fb2.png",
-          "minutes": 60
-        },
-        {
-          "name": "2 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/015ca6f2-96c4-45b4-b1f2-9c7052ee6b0d.png",
-          "minutes": 120
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "83063a65-493c-4fc5-8ecc-b1ca3a17e895",
       "name": "NW2 SUMMER DROPS #5",
@@ -679,39 +651,6 @@
           "name": "Golden Plunger",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/927fc328-9310-4b34-bcd9-ed129c7e8e0e.png",
           "minutes": 0
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "9e9fb393-7250-4da0-b94e-f306180750bb",
-      "name": "Season 3",
-      "status": "ACTIVE",
-      "start_at": "2026-07-31T12:00:00Z",
-      "end_at": "2026-08-14T11:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/afcfe038-1998-40ee-88ca-f0943c04d1c2.png",
-      "details_url": "https://account.deceit.gg",
-      "game": "Deceit 2",
-      "game_slug": "deceit-2",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/72120714_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "1x Blessing",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4a6c63ab-ff56-4dcc-b699-e2723abfbc71.png",
-          "minutes": 30
-        },
-        {
-          "name": "4x Shards",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/619c742f-d379-485f-a780-ffe58acfea37.png",
-          "minutes": 60
-        },
-        {
-          "name": "6x Shards",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/779382ee-3f13-42bd-8a10-a6f5b9ebb1c2.png",
-          "minutes": 120
         }
       ],
       "src": "sunkwi"
@@ -2064,34 +2003,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "19a899be-8902-488d-8655-d396677a8616",
-      "name": "New Class: Agent",
-      "status": "ACTIVE",
-      "start_at": "2026-08-13T12:00:00Z",
-      "end_at": "2026-08-14T11:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/17500685-f95f-4851-bce2-242faf6fe66e.png",
-      "details_url": "https://www.naeu.playblackdesert.com/News/Detail?groupContentNo=10373",
-      "game": "Black Desert",
-      "game_slug": "black-desert",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "1 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/361b4d3f-65ef-492a-9078-bf46f8899fb2.png",
-          "minutes": 60
-        },
-        {
-          "name": "2 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/015ca6f2-96c4-45b4-b1f2-9c7052ee6b0d.png",
-          "minutes": 120
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "4baf6635-d372-4e61-87f9-e7c34fefe865",
       "name": "KORD BREACH S1 Drops",
       "status": "ACTIVE",
@@ -2523,6 +2434,34 @@
         {
           "name": "Publishing Hat",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/49d00b4b-7f00-4892-9c5b-08ef90f20bb5.jpeg",
+          "minutes": 120
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "07b7c373-572b-408c-8aa9-a378dfb29c9d",
+      "name": "New Class: Agent",
+      "status": "ACTIVE",
+      "start_at": "2026-08-14T12:00:00Z",
+      "end_at": "2026-08-15T11:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/54cdda23-af02-4831-a481-c42468c6d8e2.png",
+      "details_url": "https://www.naeu.playblackdesert.com/News/Detail?groupContentNo=10373",
+      "game": "Black Desert",
+      "game_slug": "black-desert",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "1 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/361b4d3f-65ef-492a-9078-bf46f8899fb2.png",
+          "minutes": 60
+        },
+        {
+          "name": "2 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/015ca6f2-96c4-45b4-b1f2-9c7052ee6b0d.png",
           "minutes": 120
         }
       ],
