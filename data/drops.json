@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-08-14T00:00:57Z",
+  "updated_at": "2026-08-14T02:40:07Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-14T00:00:02.825Z",
+  "source_updated": "2026-08-14T02:40:01.970Z",
   "counts": {
-    "total": 65,
-    "upcoming": 7,
+    "total": 71,
+    "upcoming": 13,
     "active": 58,
-    "game_drops": 63,
+    "game_drops": 69,
     "platform": 2,
     "badges": 2,
-    "fechadas_descartadas": 43
+    "fechadas_descartadas": 41
   },
   "campaigns": [
     {
@@ -88,29 +88,6 @@
       "src": "fenris"
     },
     {
-      "id": "c27db3e4-05f1-4c23-a826-3c174d73b11c",
-      "name": "10th Anniversary - Week 6",
-      "status": "UPCOMING",
-      "start_at": "2026-08-14T14:00:00.000Z",
-      "end_at": "2026-08-16T21:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "DOFUS Touch",
-      "game_slug": "dofus-touch",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/505045_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "10th Anniversary Gift",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f46515bc-40c4-46e6-9e58-4637f743c567.png",
-          "minutes": 120
-        }
-      ],
-      "src": "fenris"
-    },
-    {
       "id": "83063a65-493c-4fc5-8ecc-b1ca3a17e895",
       "name": "NW2 SUMMER DROPS #5",
       "status": "UPCOMING",
@@ -154,6 +131,52 @@
       "src": "fenris"
     },
     {
+      "id": "c27db3e4-05f1-4c23-a826-3c174d73b11c",
+      "name": "10th Anniversary - Week 6",
+      "status": "UPCOMING",
+      "start_at": "2026-08-14T14:00:00.000Z",
+      "end_at": "2026-08-16T21:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "DOFUS Touch",
+      "game_slug": "dofus-touch",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/505045_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "10th Anniversary Gift",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f46515bc-40c4-46e6-9e58-4637f743c567.png",
+          "minutes": 120
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "18c03797-53ae-4f72-8445-5d7e593d0724",
+      "name": "Обновление 26.8: Часть 2",
+      "status": "UPCOMING",
+      "start_at": "2026-08-14T15:00:00.000Z",
+      "end_at": "2026-08-21T14:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Mir Korabley",
+      "game_slug": "mir-korabley",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2133072147_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "26.8 Боевая задача #2",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82d96737-eed4-4ae2-a11b-93ef96854f6f.png",
+          "minutes": 240
+        }
+      ],
+      "src": "fenris"
+    },
+    {
       "id": "cee3a33c-f762-47cd-a95f-040f61470cff",
       "name": "Anniversary Store #3",
       "status": "UPCOMING",
@@ -182,24 +205,204 @@
       "src": "fenris"
     },
     {
-      "id": "18c03797-53ae-4f72-8445-5d7e593d0724",
-      "name": "Обновление 26.8: Часть 2",
+      "id": "62c591e0-23aa-4850-b3a4-c0456625e1c9",
+      "name": "GRAIN ROT Launch Week 2",
       "status": "UPCOMING",
       "start_at": "2026-08-14T15:00:00.000Z",
       "end_at": "2026-08-21T14:59:59.999Z",
       "image": null,
       "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Mir Korabley",
-      "game_slug": "mir-korabley",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2133072147_IGDB-285x380.jpg",
+      "game": "GRAIN ROT",
+      "game_slug": "grain-rot",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/490242481_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 360,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Golden Mallet Helmet",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9a0f70e1-de7f-4d05-82bf-916b76018f3b.png",
+          "minutes": 120
+        },
+        {
+          "name": "Golden Steampunk Hat",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/975163f2-ff06-40fd-b4b1-3c934e7acf0f.png",
+          "minutes": 240
+        },
+        {
+          "name": "Golden Witch Hat",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0bded488-6776-4ca7-b4f7-9773075b20ba.png",
+          "minutes": 360
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "d58f0afe-9851-4668-814a-671c8fc83c69",
+      "name": "CFB Live",
+      "status": "UPCOMING",
+      "start_at": "2026-08-14T17:00:00.000Z",
+      "end_at": "2026-08-15T16:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "EA Sports College Football 27",
+      "game_slug": "ea-sports-college-football-27",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1678532194_IGDB-285x380.jpg",
       "availability": "open",
       "required_minutes": 240,
       "reward_type": "game",
       "rewards": [
         {
-          "name": "26.8 Боевая задача #2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82d96737-eed4-4ae2-a11b-93ef96854f6f.png",
+          "name": "CFB Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5f0100dd-069b-4be3-8433-30516593276b.png",
+          "minutes": 15
+        },
+        {
+          "name": "CFB Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e4991be9-8b9e-4f4a-a903-1280bfddd2ef.png",
+          "minutes": 30
+        },
+        {
+          "name": "CFB Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d7b9772b-5b3c-4685-915c-9833291a4b8c.png",
+          "minutes": 60
+        },
+        {
+          "name": "CFB Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8a5a7502-f470-4205-b7f0-43020d63a997.png",
+          "minutes": 120
+        },
+        {
+          "name": "CFB Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2531bc6f-f95d-4654-b130-3bbf4484ff3c.png",
+          "minutes": 180
+        },
+        {
+          "name": "CFB Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/070afc0f-8860-4775-bf5d-8409cc6a40ca.png",
           "minutes": 240
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "afb8d33e-065a-4096-8935-3a3e0c0abf3a",
+      "name": "August Week 3",
+      "status": "UPCOMING",
+      "start_at": "2026-08-14T17:00:00.000Z",
+      "end_at": "2026-08-21T16:44:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "MARVEL Contest of Champions",
+      "game_slug": "marvel-contest-of-champions",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/461221_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Drop 1 - NW3",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a23015fa-27a2-4f18-904d-5a401ea948d9.png",
+          "minutes": 30
+        },
+        {
+          "name": "Drop 2 - NW3",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/16a1ad0a-5080-4f25-a5d3-046e32c22195.png",
+          "minutes": 60
+        },
+        {
+          "name": "Drop 3 - NW3",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2414c8b7-4754-4e64-8376-b2c74d1b3a8f.png",
+          "minutes": 90
+        },
+        {
+          "name": "Drop 4 - NW3",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/35eaf6ab-b4f6-445d-bba6-1f1bebc219fa.png",
+          "minutes": 120
+        },
+        {
+          "name": "Drop 5 - NW3",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d6f11d51-a78c-4752-a41f-95b914e399c7.png",
+          "minutes": 180
+        },
+        {
+          "name": "Drop 6 - NW3",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/27898765-3336-42eb-9337-2f009ac3b659.png",
+          "minutes": 240
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "ad93bd1a-8297-43b8-99e4-6ce2a9a871de",
+      "name": "Mobile Drop 127",
+      "status": "UPCOMING",
+      "start_at": "2026-08-14T17:59:00.000Z",
+      "end_at": "2026-08-15T17:56:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Rise Online",
+      "game_slug": "rise-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Regalia of Awakening",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
+          "minutes": 240
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "9e7c21be-56eb-42bc-827a-8f486df8da5f",
+      "name": "S12 DROPS TOKEN EVENT",
+      "status": "UPCOMING",
+      "start_at": "2026-08-14T20:00:00.000Z",
+      "end_at": "2026-08-15T19:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Eternal Return",
+      "game_slug": "eternal-return",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/512864_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Drops Token",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
+          "minutes": 60
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "ccf21b17-e8b3-44ee-9940-9d9fd75ca3e1",
+      "name": "GOALS - 15th of August",
+      "status": "UPCOMING",
+      "start_at": "2026-08-14T22:01:00.000Z",
+      "end_at": "2026-08-15T21:58:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "GOALS",
+      "game_slug": "goals",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/951160620_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 360,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Common+ Pack [1 Player]",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82a4b7fe-7458-4b59-b909-ebc30fc91521.png",
+          "minutes": 60
+        },
+        {
+          "name": "Uncommon+ Pack [1 Player]",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png",
+          "minutes": 300
         }
       ],
       "src": "fenris"
@@ -1535,6 +1738,29 @@
       "src": "sunkwi"
     },
     {
+      "id": "b3bf7ef1-3d9a-4438-8ef9-9fd6f8e92e26",
+      "name": "Global Launch Welcome Kit",
+      "status": "ACTIVE",
+      "start_at": "2026-08-12T00:00:00Z",
+      "end_at": "2026-09-08T05:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/db6c48c9-4161-46eb-880d-1eef4f54c46e.jpeg",
+      "details_url": "https://gz.ludenus.com/drops",
+      "game": "GunZ: The Duel",
+      "game_slug": "gunz-the-duel",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/513567_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Global Launch Drops Kit",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5ddbd64a-700a-47ad-8fa3-b9b07cfd7cd5.jpeg",
+          "minutes": 120
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
       "id": "27c0f6b1-3601-40b3-b502-e858689a12d1",
       "name": "3rd Drop 8/12-8/26",
       "status": "ACTIVE",
@@ -1803,29 +2029,6 @@
           "name": "2 x Vehicle XP Boosters",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7a2e44a9-e9cf-4e5b-af8e-920a0aaa172d.png",
           "minutes": 120
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "e249bf5b-ba89-405e-aabb-4e93b86b2b4a",
-      "name": "August Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-08-13T00:00:00Z",
-      "end_at": "2026-08-13T23:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/acae026d-6f64-4126-8031-94ab4052ea14.png",
-      "details_url": "https://www.quinfall.com/twitch-drops",
-      "game": "The Quinfall",
-      "game_slug": "the-quinfall",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Twitch Reward Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
-          "minutes": 180
         }
       ],
       "src": "sunkwi"
