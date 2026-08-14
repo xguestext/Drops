@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-08-14T07:43:17Z",
+  "updated_at": "2026-08-14T08:48:54Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-14T07:43:02.020Z",
+  "source_updated": "2026-08-14T08:48:02.783Z",
   "counts": {
-    "total": 71,
-    "upcoming": 13,
-    "active": 58,
-    "game_drops": 69,
+    "total": 73,
+    "upcoming": 14,
+    "active": 59,
+    "game_drops": 71,
     "platform": 2,
     "badges": 2,
-    "fechadas_descartadas": 41
+    "fechadas_descartadas": 42
   },
   "campaigns": [
     {
@@ -32,6 +32,44 @@
           "name": "Radiant Wilds Chest",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
           "minutes": 180
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "a68c42b8-f689-4940-b79d-c402a9f387d6",
+      "name": "Season Meltdown Weekends",
+      "status": "UPCOMING",
+      "start_at": "2026-08-14T10:00:00.000Z",
+      "end_at": "2026-08-16T23:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Delta Force",
+      "game_slug": "delta-force",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1282866981_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 90,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Ops Challenge Supply Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0b02c56b-74a4-4299-8b92-96e4e86f77ce.png",
+          "minutes": 15
+        },
+        {
+          "name": "2x Merit Card (1 Match)",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d23e7cfb-bfed-4398-92fa-b08c5c650ba1.png",
+          "minutes": 30
+        },
+        {
+          "name": "Standard Gear Ticket",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9eddf780-7b07-4934-8f44-5ed9546267a3.png",
+          "minutes": 60
+        },
+        {
+          "name": "C Card - C Graffiti",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f8517147-7f62-4e21-a8af-c0e1edc9e766.png",
+          "minutes": 90
         }
       ],
       "src": "fenris"
@@ -154,29 +192,6 @@
       "src": "fenris"
     },
     {
-      "id": "18c03797-53ae-4f72-8445-5d7e593d0724",
-      "name": "Обновление 26.8: Часть 2",
-      "status": "UPCOMING",
-      "start_at": "2026-08-14T15:00:00.000Z",
-      "end_at": "2026-08-21T14:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Mir Korabley",
-      "game_slug": "mir-korabley",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2133072147_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "26.8 Боевая задача #2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82d96737-eed4-4ae2-a11b-93ef96854f6f.png",
-          "minutes": 240
-        }
-      ],
-      "src": "fenris"
-    },
-    {
       "id": "cee3a33c-f762-47cd-a95f-040f61470cff",
       "name": "Anniversary Store #3",
       "status": "UPCOMING",
@@ -233,6 +248,29 @@
           "name": "Golden Witch Hat",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0bded488-6776-4ca7-b4f7-9773075b20ba.png",
           "minutes": 360
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "18c03797-53ae-4f72-8445-5d7e593d0724",
+      "name": "Обновление 26.8: Часть 2",
+      "status": "UPCOMING",
+      "start_at": "2026-08-14T15:00:00.000Z",
+      "end_at": "2026-08-21T14:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Mir Korabley",
+      "game_slug": "mir-korabley",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2133072147_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "26.8 Боевая задача #2",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82d96737-eed4-4ae2-a11b-93ef96854f6f.png",
+          "minutes": 240
         }
       ],
       "src": "fenris"
@@ -2461,6 +2499,54 @@
           "name": "Twitch Reward Chest",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
           "minutes": 180
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "dbe1c800-db68-496f-a50e-0004a32bcc3a",
+      "name": "Blood Moon Event",
+      "status": "ACTIVE",
+      "start_at": "2026-08-14T08:00:00Z",
+      "end_at": "2026-08-17T07:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/default.png",
+      "details_url": "https://wiki.medivia.online/Twitch_Drops",
+      "game": "Medivia Online",
+      "game_slug": "medivia-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/490488_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 360,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "50% XP Boost (1 hour)",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4116562a-608a-456f-b0f4-316c7a0f2cc9.png",
+          "minutes": 180
+        },
+        {
+          "name": "50x Tears of Blood Moon",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/62113eae-5fc8-4f14-be5e-421e896b0e2b.png",
+          "minutes": 180
+        },
+        {
+          "name": "Free Premium Time (1 day)",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9da5e9dd-f1c7-412f-b60b-ff39377cb4f5.png",
+          "minutes": 240
+        },
+        {
+          "name": "1000x Mana Points",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b82ac8ec-ee18-41f9-a9d6-71f3c9e93d6c.png",
+          "minutes": 240
+        },
+        {
+          "name": "50% Skill Boost (1 hour)",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2277c428-da8e-4acf-b49a-94fba99aa0d8.png",
+          "minutes": 300
+        },
+        {
+          "name": "Dummy Scroll (4 hours)",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c5c1d348-d4d5-414e-a8d4-703ec7e44d1b.png",
+          "minutes": 300
         }
       ],
       "src": "sunkwi"
