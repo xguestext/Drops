@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-15T17:31:12Z",
+  "updated_at": "2026-08-15T17:53:30Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-15T17:31:01.447Z",
+  "source_updated": "2026-08-15T17:53:01.485Z",
   "counts": {
-    "total": 63,
+    "total": 62,
     "upcoming": 6,
-    "active": 57,
-    "game_drops": 62,
+    "active": 56,
+    "game_drops": 61,
     "platform": 1,
     "badges": 2,
     "fechadas_descartadas": 46
@@ -1988,29 +1988,6 @@
           "name": "Radiant Wilds Chest",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
           "minutes": 180
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "f49a4530-5a79-4b84-86c2-f6dfd860b784",
-      "name": "EWC Chess 2026",
-      "status": "ACTIVE",
-      "start_at": "2026-08-15T10:30:00Z",
-      "end_at": "2026-08-15T17:29:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/266e9dd2-44b3-4ae0-a1ac-575bb7420e8e.png",
-      "details_url": "https://www.chess.com/news/view/esports-world-cup-final-twitch-drops-2026",
-      "game": "Chess",
-      "game_slug": "chess-1",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/743-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 30,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Chess.com Diamond 14 Days",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3deda0da-cbbe-4a87-a626-1b6ecbc75f00.png",
-          "minutes": 30
         }
       ],
       "src": "sunkwi"
