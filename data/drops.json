@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-08-14T23:55:47Z",
+  "updated_at": "2026-08-15T01:04:31Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-14T23:55:01.433Z",
+  "source_updated": "2026-08-15T01:04:01.488Z",
   "counts": {
-    "total": 63,
-    "upcoming": 3,
+    "total": 68,
+    "upcoming": 8,
     "active": 60,
-    "game_drops": 61,
+    "game_drops": 66,
     "platform": 2,
     "badges": 2,
-    "fechadas_descartadas": 43
+    "fechadas_descartadas": 44
   },
   "campaigns": [
     {
@@ -32,6 +32,29 @@
           "name": "Radiant Wilds Chest",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
           "minutes": 180
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "f49a4530-5a79-4b84-86c2-f6dfd860b784",
+      "name": "EWC Chess 2026",
+      "status": "UPCOMING",
+      "start_at": "2026-08-15T10:30:00.000Z",
+      "end_at": "2026-08-15T17:29:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Chess",
+      "game_slug": "chess-1",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/743-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 30,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Chess.com Diamond 14 Days",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3deda0da-cbbe-4a87-a626-1b6ecbc75f00.png",
+          "minutes": 30
         }
       ],
       "src": "fenris"
@@ -108,6 +131,103 @@
           "name": "2 Hour Reward",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a71ae13a-8daf-4048-87cd-136b79b41959.png",
           "minutes": 120
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "d32dff02-2ee5-4da0-8249-b8f3109d2853",
+      "name": "Mobile Drop 128",
+      "status": "UPCOMING",
+      "start_at": "2026-08-15T17:59:00.000Z",
+      "end_at": "2026-08-16T17:56:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Rise Online",
+      "game_slug": "rise-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Regalia of Awakening",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
+          "minutes": 240
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "e9776905-9096-4cf5-b26e-2f39ea477f91",
+      "name": "S12 DROPS TOKEN EVENT",
+      "status": "UPCOMING",
+      "start_at": "2026-08-15T20:00:00.000Z",
+      "end_at": "2026-08-16T19:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Eternal Return",
+      "game_slug": "eternal-return",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/512864_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Drops Token",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
+          "minutes": 60
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "55e3a055-0923-485a-9536-feb25e84956b",
+      "name": "GOALS - 16th of August",
+      "status": "UPCOMING",
+      "start_at": "2026-08-15T22:01:00.000Z",
+      "end_at": "2026-08-16T21:58:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "GOALS",
+      "game_slug": "goals",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/951160620_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 360,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Common+ Pack [1 Player]",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82a4b7fe-7458-4b59-b909-ebc30fc91521.png",
+          "minutes": 60
+        },
+        {
+          "name": "Uncommon+ Pack [1 Player]",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png",
+          "minutes": 300
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "500107a3-33a6-49a6-b675-dc03e68157e7",
+      "name": "August Drops",
+      "status": "UPCOMING",
+      "start_at": "2026-08-16T00:00:00.000Z",
+      "end_at": "2026-08-16T23:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "The Quinfall",
+      "game_slug": "the-quinfall",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 300,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Twitch Reward Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
+          "minutes": 150
         }
       ],
       "src": "fenris"
@@ -1598,29 +1718,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "23e2c478-51db-4832-8187-aab61961ebcd",
-      "name": "August Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-08-14T00:00:00Z",
-      "end_at": "2026-08-14T23:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/73913396-a0a1-440a-96ac-dd0099179aa8.png",
-      "details_url": "https://www.quinfall.com/twitch-drops",
-      "game": "The Quinfall",
-      "game_slug": "the-quinfall",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Twitch Reward Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
-          "minutes": 180
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "dbe1c800-db68-496f-a50e-0004a32bcc3a",
       "name": "Blood Moon Event",
       "status": "ACTIVE",
@@ -2182,6 +2279,29 @@
           "name": "Uncommon+ Pack [1 Player]",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png",
           "minutes": 300
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "9014de45-5f82-4402-84e2-a8df2e4d03b0",
+      "name": "August Drops",
+      "status": "ACTIVE",
+      "start_at": "2026-08-15T00:00:00Z",
+      "end_at": "2026-08-15T23:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/2bc93b86-f393-416d-8788-2e439e7fecaf.png",
+      "details_url": "https://www.quinfall.com/twitch-drops",
+      "game": "The Quinfall",
+      "game_slug": "the-quinfall",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 300,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Twitch Reward Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
+          "minutes": 150
         }
       ],
       "src": "sunkwi"
