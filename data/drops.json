@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-08-15T07:00:12Z",
+  "updated_at": "2026-08-15T07:38:35Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-15T07:00:02.354Z",
+  "source_updated": "2026-08-15T07:38:01.571Z",
   "counts": {
-    "total": 68,
+    "total": 66,
     "upcoming": 8,
-    "active": 60,
-    "game_drops": 66,
-    "platform": 2,
+    "active": 58,
+    "game_drops": 65,
+    "platform": 1,
     "badges": 2,
-    "fechadas_descartadas": 45
+    "fechadas_descartadas": 44
   },
   "campaigns": [
     {
@@ -550,29 +550,6 @@
           "name": "Golden Plunger",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/927fc328-9310-4b34-bcd9-ed129c7e8e0e.png",
           "minutes": 0
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "0bf54d3e-73f8-4189-bf70-315e24ba006e",
-      "name": "Pokémon Pitch Black ETB",
-      "status": "ACTIVE",
-      "start_at": "2026-08-01T07:00:00Z",
-      "end_at": "2026-08-15T06:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/77533f70-cd58-49bb-abb0-6b153083273a.png",
-      "details_url": "https://rewards.pokemon.com/",
-      "game": "Pokémon Trading Card Game Live",
-      "game_slug": "pokemon-trading-card-game-live",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/155409827_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 45,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Pitch Black ETB",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d89b7081-e77e-4fab-9996-c8fa32ad7cfc.png",
-          "minutes": 45
         }
       ],
       "src": "sunkwi"
@@ -2325,29 +2302,6 @@
           "name": "RBLXpip Emote",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3c814d63-116d-45e2-a44f-9ec33b49ad99.png",
           "minutes": 30
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "b4a708e1-ce01-4784-b57d-3bf1d091bb25",
-      "name": "8.08 Week",
-      "status": "ACTIVE",
-      "start_at": "2026-08-07T16:00:00Z",
-      "end_at": "2026-08-15T06:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/1a2f5e2f-eb4e-4d65-9240-3bd1e29980ff.gif",
-      "details_url": "https://help.twitch.tv/s/article/how-to-use-emotes",
-      "game": "DJs",
-      "game_slug": "djs",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1669431183-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "platform",
-      "rewards": [
-        {
-          "name": "Bop2bop Emote",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/035073fd-47f7-40e1-9535-ce2781bde2f7.gif",
-          "minutes": 120
         }
       ],
       "src": "sunkwi"
