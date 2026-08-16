@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-16T22:57:23Z",
+  "updated_at": "2026-08-16T23:20:53Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-16T22:57:01.416Z",
+  "source_updated": "2026-08-16T23:20:01.334Z",
   "counts": {
     "total": 61,
     "upcoming": 7,
@@ -1692,29 +1692,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "10f9a637-1be9-415a-aeb6-eaf02b2b9184",
-      "name": "Kinetic Publishing Hat",
-      "status": "ACTIVE",
-      "start_at": "2026-08-14T11:00:00Z",
-      "end_at": "2026-08-16T22:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f28d6e6e-f63f-4c4e-8ba3-f365f90f342d.jpeg",
-      "details_url": "https://www.kineticgames.co.uk/news/kinetic-publishing-showcase-1-day-to-go",
-      "game": "Phasmophobia",
-      "game_slug": "phasmophobia",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/518184_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Publishing Hat",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/49d00b4b-7f00-4892-9c5b-08ef90f20bb5.jpeg",
-          "minutes": 120
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "83063a65-493c-4fc5-8ecc-b1ca3a17e895",
       "name": "NW2 SUMMER DROPS #5",
       "status": "ACTIVE",
@@ -2144,6 +2121,29 @@
           "name": "Uncommon+ Pack [1 Player]",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png",
           "minutes": 300
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "7999d566-b4a5-4957-a678-753ca35630bc",
+      "name": "Kinetic Publishing Hat",
+      "status": "ACTIVE",
+      "start_at": "2026-08-16T23:00:00Z",
+      "end_at": "2026-08-17T22:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/26645fda-3602-406b-8e6b-e52aceacbdec.jpeg",
+      "details_url": "https://x.com/PlayPhasmo/status/2087253417777381857",
+      "game": "Phasmophobia",
+      "game_slug": "phasmophobia",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/518184_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 60,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Publishing Hat",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/49d00b4b-7f00-4892-9c5b-08ef90f20bb5.jpeg",
+          "minutes": 60
         }
       ],
       "src": "sunkwi"
