@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-16T08:49:18Z",
+  "updated_at": "2026-08-16T09:12:31Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-16T08:49:02.966Z",
+  "source_updated": "2026-08-16T09:12:01.757Z",
   "counts": {
-    "total": 62,
-    "upcoming": 6,
+    "total": 65,
+    "upcoming": 9,
     "active": 56,
-    "game_drops": 61,
+    "game_drops": 64,
     "platform": 1,
     "badges": 2,
     "fechadas_descartadas": 43
@@ -167,6 +167,125 @@
           "name": "Tactical Consumables Set",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/203e1a32-c0fc-4a46-bbb9-0ca0a0e5e046.png",
           "minutes": 90
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "29d31d9b-ae69-4a6e-ab5a-039b73a3af36",
+      "name": "JS1 Weekly 8.17",
+      "status": "UPCOMING",
+      "start_at": "2026-08-17T04:00:00.000Z",
+      "end_at": "2026-08-24T03:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "NARAKA: BLADEPOINT",
+      "game_slug": "naraka-bladepoint",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/515474_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 60,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Special Random Gift",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/066c42e3-2599-4297-a7ec-25971442bdb3.png",
+          "minutes": 60
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "e7a34dde-0b5c-44cd-ac88-2525e49648fb",
+      "name": "North Hunt 1.0 Release",
+      "status": "UPCOMING",
+      "start_at": "2026-08-17T05:00:00.000Z",
+      "end_at": "2026-09-06T23:29:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "North Hunt",
+      "game_slug": "north-hunt",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/378188687_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 90,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Whistle02",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/be2c9012-416e-41fa-8ef5-39e74e2db6ef.png",
+          "minutes": 15
+        },
+        {
+          "name": "CharacterSkin015",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/44dd08ca-b73b-4469-993c-9f26b81de003.jpeg",
+          "minutes": 15
+        },
+        {
+          "name": "Spray01",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/76614258-2454-4a27-b7f0-163912cab65f.png",
+          "minutes": 15
+        },
+        {
+          "name": "VictoryEmote01",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/72b38db2-c2be-4a87-b7fd-db3d69882ab3.png",
+          "minutes": 60
+        },
+        {
+          "name": "Emote02",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4c5971ea-9da9-421d-86ea-40b59f394358.png",
+          "minutes": 60
+        },
+        {
+          "name": "CharacterSkin014",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/78d4551e-aadd-49c4-8346-d4c5468de680.jpeg",
+          "minutes": 60
+        },
+        {
+          "name": "CharacterSkin01",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4606b211-7040-48fe-b436-ee88e430bbc6.png",
+          "minutes": 90
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "7130c275-fa88-4612-9d2a-bd2b0cda6eb2",
+      "name": "26.8 Patch Release Drops",
+      "status": "UPCOMING",
+      "start_at": "2026-08-17T08:00:00.000Z",
+      "end_at": "2026-08-23T23:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Legion TD 2",
+      "game_slug": "legion-td-2",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/493489_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 600,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Random Secret Card",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e9050b24-40ef-4e4b-ad19-12a56bf0b313.png",
+          "minutes": 0
+        },
+        {
+          "name": "2000 Essence",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b2787d17-5ea2-4f4e-a369-420f4e5886c9.png",
+          "minutes": 60
+        },
+        {
+          "name": "4000 Essence",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f6f227ee-c922-449e-b7b2-220054b44aa2.png",
+          "minutes": 120
+        },
+        {
+          "name": "Random Card",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/41813476-fffc-45b9-99a6-1c1517354e98.png",
+          "minutes": 240
+        },
+        {
+          "name": "1000 Premium Essence",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2dea1f19-d013-4aae-a1dc-f2aad3ac1ad1.png",
+          "minutes": 360
         }
       ],
       "src": "fenris"
