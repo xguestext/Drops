@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-16T09:12:31Z",
+  "updated_at": "2026-08-16T09:45:01Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-16T09:12:01.757Z",
+  "source_updated": "2026-08-16T09:45:01.959Z",
   "counts": {
-    "total": 65,
+    "total": 64,
     "upcoming": 9,
-    "active": 56,
-    "game_drops": 64,
+    "active": 55,
+    "game_drops": 63,
     "platform": 1,
     "badges": 2,
     "fechadas_descartadas": 43
@@ -1997,29 +1997,6 @@
           "name": "Drop 6 - NW3",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/27898765-3336-42eb-9337-2f009ac3b659.png",
           "minutes": 240
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "c405bee4-cea1-4752-b3c1-77e0e3c33746",
-      "name": "Radiant Wilds 18 - #6/7",
-      "status": "ACTIVE",
-      "start_at": "2026-08-15T10:00:00Z",
-      "end_at": "2026-08-16T09:29:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f0ccceb5-82ed-4042-8d63-771efac1602a.png",
-      "details_url": "https://forum.albiononline.com/index.php/Thread/214756-New-Twitch-Drops-Launching-Monday-July-28-2025/",
-      "game": "Albion Online",
-      "game_slug": "albion-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Radiant Wilds Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
-          "minutes": 180
         }
       ],
       "src": "sunkwi"
