@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-17T22:49:00Z",
+  "updated_at": "2026-08-17T23:08:48Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-17T22:49:01.374Z",
+  "source_updated": "2026-08-17T23:08:01.150Z",
   "counts": {
-    "total": 58,
+    "total": 57,
     "upcoming": 5,
-    "active": 53,
-    "game_drops": 57,
+    "active": 52,
+    "game_drops": 56,
     "platform": 1,
     "badges": 2,
     "fechadas_descartadas": 51
@@ -1616,29 +1616,6 @@
           "name": "Market Coins Bundle 6",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3ac43663-e809-40fa-9afa-b37999ee4dac.jpeg",
           "minutes": 720
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "7999d566-b4a5-4957-a678-753ca35630bc",
-      "name": "Kinetic Publishing Hat",
-      "status": "ACTIVE",
-      "start_at": "2026-08-16T23:00:00Z",
-      "end_at": "2026-08-17T22:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/26645fda-3602-406b-8e6b-e52aceacbdec.jpeg",
-      "details_url": "https://x.com/PlayPhasmo/status/2087253417777381857",
-      "game": "Phasmophobia",
-      "game_slug": "phasmophobia",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/518184_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 60,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Publishing Hat",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/49d00b4b-7f00-4892-9c5b-08ef90f20bb5.jpeg",
-          "minutes": 60
         }
       ],
       "src": "sunkwi"
