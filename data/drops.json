@@ -1,41 +1,18 @@
 {
-  "updated_at": "2026-08-17T11:50:08Z",
+  "updated_at": "2026-08-17T12:34:38Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-17T11:50:01.496Z",
+  "source_updated": "2026-08-17T12:34:01.306Z",
   "counts": {
-    "total": 60,
-    "upcoming": 6,
+    "total": 59,
+    "upcoming": 5,
     "active": 54,
-    "game_drops": 59,
+    "game_drops": 58,
     "platform": 1,
     "badges": 2,
     "fechadas_descartadas": 39
   },
   "campaigns": [
-    {
-      "id": "2c3391fd-f78f-490a-8519-4fc8494a77fc",
-      "name": "2026 BDO Drops (Aug 17)",
-      "status": "UPCOMING",
-      "start_at": "2026-08-17T12:00:00.000Z",
-      "end_at": "2026-08-18T11:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Black Desert",
-      "game_slug": "black-desert",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "2 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/007ee200-b300-470c-823d-79502011c4b9.png",
-          "minutes": 120
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "83bdfab7-718f-425e-983c-3fb63635b7a9",
       "name": "Anniversary Store #4",
@@ -1700,34 +1677,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "7f3c2106-c3a8-43b5-b5d7-31ddf2aaab48",
-      "name": "New Class: Agent",
-      "status": "ACTIVE",
-      "start_at": "2026-08-16T12:00:00Z",
-      "end_at": "2026-08-17T11:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/00082eb8-5cd1-4081-bc0f-45033b38e3ba.png",
-      "details_url": "https://www.naeu.playblackdesert.com/News/Detail?groupContentNo=10373",
-      "game": "Black Desert",
-      "game_slug": "black-desert",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "1 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/09933e08-921d-4e30-9273-4ce4b335822a.png",
-          "minutes": 60
-        },
-        {
-          "name": "2 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a71ae13a-8daf-4048-87cd-136b79b41959.png",
-          "minutes": 120
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "25356ab3-4607-4a48-ab4f-3348bb946e67",
       "name": "KORD BREACH S1 Drops",
       "status": "ACTIVE",
@@ -2081,6 +2030,29 @@
           "name": "Radiant Wilds Chest",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
           "minutes": 180
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "2c3391fd-f78f-490a-8519-4fc8494a77fc",
+      "name": "2026 BDO Drops (Aug 17)",
+      "status": "ACTIVE",
+      "start_at": "2026-08-17T12:00:00Z",
+      "end_at": "2026-08-18T11:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/7ae8f187-fb86-455e-bd9d-fd9e518f87a3.png",
+      "details_url": "https://www.naeu.playblackdesert.com/News/Detail?groupContentNo=5878",
+      "game": "Black Desert",
+      "game_slug": "black-desert",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "2 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/007ee200-b300-470c-823d-79502011c4b9.png",
+          "minutes": 120
         }
       ],
       "src": "sunkwi"
