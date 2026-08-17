@@ -1,51 +1,18 @@
 {
-  "updated_at": "2026-08-16T23:58:05Z",
+  "updated_at": "2026-08-17T01:26:37Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-16T23:58:02.047Z",
+  "source_updated": "2026-08-17T01:26:01.303Z",
   "counts": {
-    "total": 60,
-    "upcoming": 7,
+    "total": 63,
+    "upcoming": 10,
     "active": 53,
-    "game_drops": 59,
+    "game_drops": 62,
     "platform": 1,
     "badges": 2,
-    "fechadas_descartadas": 38
+    "fechadas_descartadas": 40
   },
   "campaigns": [
-    {
-      "id": "f98b5d7d-d7c2-4ee4-8918-8bf064a76d99",
-      "name": "Weekly Supply Drops #29",
-      "status": "UPCOMING",
-      "start_at": "2026-08-17T00:00:00.000Z",
-      "end_at": "2026-08-23T23:29:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Modern Warships",
-      "game_slug": "modern-warships",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/423797288_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 90,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "1 Day of Premium",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/075db935-cd69-42db-a87f-d436973f45e3.png",
-          "minutes": 30
-        },
-        {
-          "name": "100 UP's",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8c6bf298-85b3-4521-8994-3d59e637d713.png",
-          "minutes": 60
-        },
-        {
-          "name": "Tactical Consumables Set",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/203e1a32-c0fc-4a46-bbb9-0ca0a0e5e046.png",
-          "minutes": 90
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "29d31d9b-ae69-4a6e-ab5a-039b73a3af36",
       "name": "JS1 Weekly 8.17",
@@ -235,6 +202,108 @@
           "name": "5x directives",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5194ec0f-fdf5-43af-b81b-ec9d11b4f7f1.png",
           "minutes": 240
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "1f114aff-c618-4899-96d2-c74368b85a7c",
+      "name": "Mobile Drop 130",
+      "status": "UPCOMING",
+      "start_at": "2026-08-17T17:59:00.000Z",
+      "end_at": "2026-08-18T17:56:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Rise Online",
+      "game_slug": "rise-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Regalia of Awakening",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
+          "minutes": 240
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "79ea0b9d-1ce0-4d82-a615-cd605405b3d6",
+      "name": "S12 DROPS TOKEN EVENT",
+      "status": "UPCOMING",
+      "start_at": "2026-08-17T20:00:00.000Z",
+      "end_at": "2026-08-18T19:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Eternal Return",
+      "game_slug": "eternal-return",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/512864_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Drops Token",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
+          "minutes": 60
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "68383593-7831-4430-8816-ef9aeac1c937",
+      "name": "Webs Assemble - Week 4",
+      "status": "UPCOMING",
+      "start_at": "2026-08-17T21:00:00.000Z",
+      "end_at": "2026-08-24T20:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "MARVEL Strike Force",
+      "game_slug": "marvel-strike-force",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/504651_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "1M Gold",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cddf9bc7-2d79-4a9a-ab71-c05847a7503e.png",
+          "minutes": 60
+        },
+        {
+          "name": "100 L4 Training Modules",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/36c551ac-7fad-428d-9a0e-3a63458d7ba9.png",
+          "minutes": 120
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "08f9377e-82b7-4f63-9c8a-1baa31f0ef17",
+      "name": "GOALS - 18th of August",
+      "status": "UPCOMING",
+      "start_at": "2026-08-17T22:01:00.000Z",
+      "end_at": "2026-08-18T21:58:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "GOALS",
+      "game_slug": "goals",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/951160620_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 360,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Common+ Pack [1 Player]",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82a4b7fe-7458-4b59-b909-ebc30fc91521.png",
+          "minutes": 60
+        },
+        {
+          "name": "Uncommon+ Pack [1 Player]",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png",
+          "minutes": 300
         }
       ],
       "src": "fenris"
@@ -1621,44 +1690,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "a68c42b8-f689-4940-b79d-c402a9f387d6",
-      "name": "Season Meltdown Weekends",
-      "status": "ACTIVE",
-      "start_at": "2026-08-14T10:00:00Z",
-      "end_at": "2026-08-16T23:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/48534448-66e7-498d-95a2-f9d1b0b925dc.jpeg",
-      "details_url": "https://www.playdeltaforce.com/act/twitchdrops/index.html",
-      "game": "Delta Force",
-      "game_slug": "delta-force-hawk-ops",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1282866981_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 90,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Ops Challenge Supply Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0b02c56b-74a4-4299-8b92-96e4e86f77ce.png",
-          "minutes": 15
-        },
-        {
-          "name": "2x Merit Card (1 Match)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d23e7cfb-bfed-4398-92fa-b08c5c650ba1.png",
-          "minutes": 30
-        },
-        {
-          "name": "Standard Gear Ticket",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9eddf780-7b07-4934-8f44-5ed9546267a3.png",
-          "minutes": 60
-        },
-        {
-          "name": "C Card - C Graffiti",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f8517147-7f62-4e21-a8af-c0e1edc9e766.png",
-          "minutes": 90
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "83063a65-493c-4fc5-8ecc-b1ca3a17e895",
       "name": "NW2 SUMMER DROPS #5",
       "status": "ACTIVE",
@@ -1882,29 +1913,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "500107a3-33a6-49a6-b675-dc03e68157e7",
-      "name": "August Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-08-16T00:00:00Z",
-      "end_at": "2026-08-16T23:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/77addfb8-7661-4dd9-bf2e-9be6e326ab7e.png",
-      "details_url": "https://www.quinfall.com/twitch-drops",
-      "game": "The Quinfall",
-      "game_slug": "the-quinfall",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 300,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Twitch Reward Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
-          "minutes": 150
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "20082796-ed06-4c44-a29d-4b0cb3adea81",
       "name": "Radiant Wilds 18 - #7/7",
       "status": "ACTIVE",
@@ -2111,6 +2119,62 @@
           "name": "Publishing Hat",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/49d00b4b-7f00-4892-9c5b-08ef90f20bb5.jpeg",
           "minutes": 60
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "8b7e0f2e-fa8b-49bd-8015-476f36b1dcad",
+      "name": "August Drops",
+      "status": "ACTIVE",
+      "start_at": "2026-08-17T00:00:00Z",
+      "end_at": "2026-08-17T23:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/8ba619bd-d271-4a1e-bd52-0131b904ab54.png",
+      "details_url": "https://www.quinfall.com/twitch-drops",
+      "game": "The Quinfall",
+      "game_slug": "the-quinfall",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Twitch Reward Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
+          "minutes": 180
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "f98b5d7d-d7c2-4ee4-8918-8bf064a76d99",
+      "name": "Weekly Supply Drops #29",
+      "status": "ACTIVE",
+      "start_at": "2026-08-17T00:00:00Z",
+      "end_at": "2026-08-23T23:29:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/111b379e-14c4-427f-a9ef-4df5f3883ccf.png",
+      "details_url": "https://artstorm.com/news/weekly-supply-drops-on-twitch",
+      "game": "Modern Warships",
+      "game_slug": "modern-warships",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/423797288_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 90,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "1 Day of Premium",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/075db935-cd69-42db-a87f-d436973f45e3.png",
+          "minutes": 30
+        },
+        {
+          "name": "100 UP's",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8c6bf298-85b3-4521-8994-3d59e637d713.png",
+          "minutes": 60
+        },
+        {
+          "name": "Tactical Consumables Set",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/203e1a32-c0fc-4a46-bbb9-0ca0a0e5e046.png",
+          "minutes": 90
         }
       ],
       "src": "sunkwi"
