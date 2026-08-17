@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-17T16:21:22Z",
+  "updated_at": "2026-08-17T16:53:45Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-17T16:21:01.098Z",
+  "source_updated": "2026-08-17T16:53:01.294Z",
   "counts": {
-    "total": 57,
-    "upcoming": 4,
+    "total": 62,
+    "upcoming": 9,
     "active": 53,
-    "game_drops": 56,
+    "game_drops": 61,
     "platform": 1,
     "badges": 2,
     "fechadas_descartadas": 51
@@ -111,6 +111,136 @@
           "name": "Uncommon+ Pack [1 Player]",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png",
           "minutes": 300
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "4b82c266-03e5-47a8-bf33-11372adc7dca",
+      "name": "August Drops",
+      "status": "UPCOMING",
+      "start_at": "2026-08-18T00:00:00.000Z",
+      "end_at": "2026-08-18T23:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "The Quinfall",
+      "game_slug": "the-quinfall",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Twitch Reward Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
+          "minutes": 180
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "8ad8d3a7-b380-4c95-acdc-046d6dc0c989",
+      "name": "Radiant Wilds 19 - #2/7",
+      "status": "UPCOMING",
+      "start_at": "2026-08-18T10:00:00.000Z",
+      "end_at": "2026-08-19T09:29:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Albion Online",
+      "game_slug": "albion-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Radiant Wilds Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
+          "minutes": 180
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "aea0e9e1-e69a-4265-bb1d-9e69310728a1",
+      "name": "2026 BDO Drops (Aug 18)",
+      "status": "UPCOMING",
+      "start_at": "2026-08-18T12:00:00.000Z",
+      "end_at": "2026-08-19T11:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Black Desert",
+      "game_slug": "black-desert",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "2 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/007ee200-b300-470c-823d-79502011c4b9.png",
+          "minutes": 120
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "a3815820-b517-40b5-896b-348812a9214b",
+      "name": "Masters of Mayhem Week 4",
+      "status": "UPCOMING",
+      "start_at": "2026-08-18T13:00:00.000Z",
+      "end_at": "2026-08-25T09:57:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "World of Tanks Console",
+      "game_slug": "world-of-tanks-console",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/499551-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 480,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "10 Enhanced Med Kits",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/16e8e3bc-c27f-4b69-9740-c5bbd95dbce2.png",
+          "minutes": 120
+        },
+        {
+          "name": "(4) x3 Vehicle XP Booster",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6c916fdb-2a57-4801-89fd-dfb1b6b5c0f6.png",
+          "minutes": 240
+        },
+        {
+          "name": "Camo Voucher",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8ccc0701-0a6c-434c-abae-61fb037e3cdc.png",
+          "minutes": 480
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "bf1c2300-995f-4645-987e-b5a62f71d137",
+      "name": "August 03",
+      "status": "UPCOMING",
+      "start_at": "2026-08-18T15:00:00.000Z",
+      "end_at": "2026-08-25T14:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Ravendawn",
+      "game_slug": "ravendawn",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/262400435-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 900,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Ravenpacks",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2d79331d-0121-434a-aa64-14256dfc0312.png",
+          "minutes": 60
+        },
+        {
+          "name": "Ghostly Infusion",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0b42bc74-55a6-440a-9620-2dcfcb96013a.png",
+          "minutes": 900
         }
       ],
       "src": "fenris"
