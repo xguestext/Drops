@@ -1,41 +1,18 @@
 {
-  "updated_at": "2026-08-17T03:34:33Z",
+  "updated_at": "2026-08-17T04:22:56Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-17T03:34:01.111Z",
+  "source_updated": "2026-08-17T04:22:01.396Z",
   "counts": {
-    "total": 63,
-    "upcoming": 10,
+    "total": 62,
+    "upcoming": 9,
     "active": 53,
-    "game_drops": 62,
+    "game_drops": 61,
     "platform": 1,
     "badges": 2,
     "fechadas_descartadas": 39
   },
   "campaigns": [
-    {
-      "id": "29d31d9b-ae69-4a6e-ab5a-039b73a3af36",
-      "name": "JS1 Weekly 8.17",
-      "status": "UPCOMING",
-      "start_at": "2026-08-17T04:00:00.000Z",
-      "end_at": "2026-08-24T03:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "NARAKA: BLADEPOINT",
-      "game_slug": "naraka-bladepoint",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/515474_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 60,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Special Random Gift",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/066c42e3-2599-4297-a7ec-25971442bdb3.png",
-          "minutes": 60
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "e7a34dde-0b5c-44cd-ac88-2525e49648fb",
       "name": "North Hunt 1.0 Release",
@@ -1041,29 +1018,6 @@
           "name": "50 Intel",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6371023f-4c07-4977-ad99-7b4a33de4205.png",
           "minutes": 150
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "d7c8d1d7-6949-46c9-af79-9cc6a26fcfe6",
-      "name": "JS1 Weekly 8.10",
-      "status": "ACTIVE",
-      "start_at": "2026-08-10T04:00:00Z",
-      "end_at": "2026-08-17T03:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/9e43b94d-c6d5-4452-9d23-4c776ff53825.png",
-      "details_url": "https://www.narakathegame.com/news/official/20250723/32172_1249209.html",
-      "game": "NARAKA: BLADEPOINT",
-      "game_slug": "naraka-bladepoint",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/515474_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 60,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Special Random Gift",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/066c42e3-2599-4297-a7ec-25971442bdb3.png",
-          "minutes": 60
         }
       ],
       "src": "sunkwi"
@@ -2175,6 +2129,29 @@
           "name": "Tactical Consumables Set",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/203e1a32-c0fc-4a46-bbb9-0ca0a0e5e046.png",
           "minutes": 90
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "29d31d9b-ae69-4a6e-ab5a-039b73a3af36",
+      "name": "JS1 Weekly 8.17",
+      "status": "ACTIVE",
+      "start_at": "2026-08-17T04:00:00Z",
+      "end_at": "2026-08-24T03:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/6a1498d4-2a69-495d-aee1-77cd69a24556.png",
+      "details_url": "https://www.narakathegame.com/news/official/20250723/32172_1249209.html",
+      "game": "NARAKA: BLADEPOINT",
+      "game_slug": "naraka-bladepoint",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/515474_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 60,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Special Random Gift",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/066c42e3-2599-4297-a7ec-25971442bdb3.png",
+          "minutes": 60
         }
       ],
       "src": "sunkwi"
