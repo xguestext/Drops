@@ -1,41 +1,18 @@
 {
-  "updated_at": "2026-08-17T17:54:04Z",
+  "updated_at": "2026-08-17T18:32:35Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-17T17:54:01.259Z",
+  "source_updated": "2026-08-17T18:32:01.366Z",
   "counts": {
-    "total": 62,
-    "upcoming": 9,
+    "total": 61,
+    "upcoming": 8,
     "active": 53,
-    "game_drops": 61,
+    "game_drops": 60,
     "platform": 1,
     "badges": 2,
     "fechadas_descartadas": 52
   },
   "campaigns": [
-    {
-      "id": "1f114aff-c618-4899-96d2-c74368b85a7c",
-      "name": "Mobile Drop 130",
-      "status": "UPCOMING",
-      "start_at": "2026-08-17T17:59:00.000Z",
-      "end_at": "2026-08-18T17:56:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Rise Online",
-      "game_slug": "rise-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Regalia of Awakening",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
-          "minutes": 240
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "79ea0b9d-1ce0-4d82-a615-cd605405b3d6",
       "name": "S12 DROPS TOKEN EVENT",
@@ -1751,29 +1728,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "02c04693-f59c-4ed0-a28b-327011d37187",
-      "name": "Mobile Drop 129",
-      "status": "ACTIVE",
-      "start_at": "2026-08-16T17:59:00Z",
-      "end_at": "2026-08-17T17:56:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/30022b41-8372-4bd5-a00f-45dbeccf072f.png",
-      "details_url": "https://mobile.riseonlineworld.com/usercp?do=twitch",
-      "game": "Rise Online",
-      "game_slug": "rise-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Regalia of Awakening",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
-          "minutes": 240
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "a3fb5978-277c-4938-85dd-8d0ed0c15723",
       "name": "S12 DROPS TOKEN EVENT",
       "status": "ACTIVE",
@@ -2091,6 +2045,29 @@
         {
           "name": "5x directives",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5194ec0f-fdf5-43af-b81b-ec9d11b4f7f1.png",
+          "minutes": 240
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "1f114aff-c618-4899-96d2-c74368b85a7c",
+      "name": "Mobile Drop 130",
+      "status": "ACTIVE",
+      "start_at": "2026-08-17T17:59:00Z",
+      "end_at": "2026-08-18T17:56:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/7dcab4b5-4fc8-4911-9237-e006602af3c7.png",
+      "details_url": "https://mobile.riseonlineworld.com/usercp?do=twitch",
+      "game": "Rise Online",
+      "game_slug": "rise-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Regalia of Awakening",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
           "minutes": 240
         }
       ],
