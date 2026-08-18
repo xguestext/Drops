@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-18T05:47:57Z",
+  "updated_at": "2026-08-18T06:17:21Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-18T05:47:02.416Z",
+  "source_updated": "2026-08-18T06:17:01.389Z",
   "counts": {
-    "total": 58,
+    "total": 59,
     "upcoming": 6,
-    "active": 52,
-    "game_drops": 57,
+    "active": 53,
+    "game_drops": 58,
     "platform": 1,
     "badges": 2,
     "fechadas_descartadas": 51
@@ -1989,6 +1989,44 @@
         {
           "name": "Twitch Reward Chest",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
+          "minutes": 180
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "4c219285-bcf7-422a-9e2e-1603ced3d10c",
+      "name": "SQUADRA SEASON 6.2 Drops",
+      "status": "ACTIVE",
+      "start_at": "2026-08-18T06:00:00Z",
+      "end_at": "2026-09-08T05:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/36cfe199-856d-4a37-bf0a-d1c2c287f0da.png",
+      "details_url": "https://dbg-squadra.bn-ent.net/en-us/news/lfowm-v1i",
+      "game": "DRAGON BALL GEKISHIN SQUADRA",
+      "game_slug": "dragon-ball-project-multi",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/801541637_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Zeni ×3,000 (S6.2)",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b33c7047-1b75-4779-9ab7-259669bd2140.png",
+          "minutes": 30
+        },
+        {
+          "name": "Exclusive Icon (S6.2)",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f9ca72a1-b1f2-481c-8340-e14d2c990c02.png",
+          "minutes": 60
+        },
+        {
+          "name": "P6G-Capsule ×5 (S6.2)",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0046f03e-5301-4379-93c2-826b3d217ae6.png",
+          "minutes": 120
+        },
+        {
+          "name": "Zeni ×7,000 (S6.2)",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a7864994-dfaa-4c61-850a-43fd9ebaebf6.png",
           "minutes": 180
         }
       ],
