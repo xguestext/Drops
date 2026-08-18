@@ -1,51 +1,18 @@
 {
-  "updated_at": "2026-08-18T16:50:54Z",
+  "updated_at": "2026-08-18T17:22:29Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-18T16:50:01.487Z",
+  "source_updated": "2026-08-18T17:22:01.751Z",
   "counts": {
-    "total": 61,
-    "upcoming": 8,
+    "total": 60,
+    "upcoming": 7,
     "active": 53,
-    "game_drops": 60,
+    "game_drops": 59,
     "platform": 1,
     "badges": 2,
-    "fechadas_descartadas": 55
+    "fechadas_descartadas": 54
   },
   "campaigns": [
-    {
-      "id": "57c84a37-de55-4de4-ba40-331029d9cab7",
-      "name": "SAR Highland Drops",
-      "status": "UPCOMING",
-      "start_at": "2026-08-18T17:00:00.000Z",
-      "end_at": "2026-09-15T16:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Super Animal Royale",
-      "game_slug": "super-animal-royale",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/509529_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Scotsman's Outfit",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ad1ef5fe-957e-4e13-aaed-40c71d53cfd9.png",
-          "minutes": 60
-        },
-        {
-          "name": "Scottish Claymore",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/be030fdf-e223-4da5-96af-3d9425d78a18.png",
-          "minutes": 120
-        },
-        {
-          "name": "Highland Tammy",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/873fc11d-783d-4f4d-bbca-a69d874e9434.png",
-          "minutes": 180
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "42aa3d22-fe92-48dc-8eb9-86ba9ea3e252",
       "name": "Mobile Drop 131",
@@ -601,39 +568,6 @@
           "name": "Vectron Colette EM4 Mount",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/749f71d7-3489-4c5c-b03b-5bbf645675d0.jpeg",
           "minutes": 300
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "716d8856-bc23-4418-8978-24fd4b04e37c",
-      "name": "Gouie Launch Celebration",
-      "status": "ACTIVE",
-      "start_at": "2026-08-04T17:00:00Z",
-      "end_at": "2026-08-18T16:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ad10f064-1058-474f-adc9-4aeadd49653d.jpeg",
-      "details_url": "https://store.steampowered.com/news/app/2217000/view/703275318021982461",
-      "game": "Rivals of Aether II",
-      "game_slug": "rivals-2",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/330654616_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Gouie Launch Coins",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/266e4a84-5b13-4fb3-a92d-ee3357a89d51.jpeg",
-          "minutes": 60
-        },
-        {
-          "name": "Purple Gouie Palette",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/40d3a62f-7322-4031-a7ba-36925ec9c313.jpeg",
-          "minutes": 120
-        },
-        {
-          "name": "Gouie Launch Bucks",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8f0c518b-c38c-4f0a-b699-596749d98cff.jpeg",
-          "minutes": 180
         }
       ],
       "src": "sunkwi"
@@ -2094,6 +2028,39 @@
           "name": "Ghostly Infusion",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0b42bc74-55a6-440a-9620-2dcfcb96013a.png",
           "minutes": 900
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "57c84a37-de55-4de4-ba40-331029d9cab7",
+      "name": "SAR Highland Drops",
+      "status": "ACTIVE",
+      "start_at": "2026-08-18T17:00:00Z",
+      "end_at": "2026-09-15T16:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/59a2ffa6-0422-4e2c-8e5a-b7c4348387c3.png",
+      "details_url": "https://animalroyale.com/",
+      "game": "Super Animal Royale",
+      "game_slug": "super-animal-royale",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/509529_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Scottish Claymore",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/be030fdf-e223-4da5-96af-3d9425d78a18.png",
+          "minutes": 120
+        },
+        {
+          "name": "Scotsman's Outfit",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ad1ef5fe-957e-4e13-aaed-40c71d53cfd9.png",
+          "minutes": 60
+        },
+        {
+          "name": "Highland Tammy",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/873fc11d-783d-4f4d-bbca-a69d874e9434.png",
+          "minutes": 180
         }
       ],
       "src": "sunkwi"
