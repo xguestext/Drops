@@ -1,41 +1,18 @@
 {
-  "updated_at": "2026-08-18T17:53:06Z",
+  "updated_at": "2026-08-18T18:30:58Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-18T17:53:01.611Z",
+  "source_updated": "2026-08-18T18:30:02.814Z",
   "counts": {
-    "total": 60,
-    "upcoming": 7,
-    "active": 53,
-    "game_drops": 59,
+    "total": 58,
+    "upcoming": 6,
+    "active": 52,
+    "game_drops": 57,
     "platform": 1,
     "badges": 2,
     "fechadas_descartadas": 54
   },
   "campaigns": [
-    {
-      "id": "42aa3d22-fe92-48dc-8eb9-86ba9ea3e252",
-      "name": "Mobile Drop 131",
-      "status": "UPCOMING",
-      "start_at": "2026-08-18T17:59:00.000Z",
-      "end_at": "2026-08-19T17:56:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Rise Online",
-      "game_slug": "rise-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Regalia of Awakening",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
-          "minutes": 240
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "31e16223-e839-455c-8405-c36557343dab",
       "name": "S12 DROPS TOKEN EVENT",
@@ -314,59 +291,6 @@
           "name": "Exotic Stellar Marrow *1",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/acea0c2a-1ee4-4071-8f10-db5731e5228b.png",
           "minutes": 300
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "4275161f-1bd5-46d0-b12c-7a24c30f4faf",
-      "name": "Beauty and the Beach",
-      "status": "ACTIVE",
-      "start_at": "2026-07-28T18:00:00Z",
-      "end_at": "2026-08-18T17:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/c287f2de-7ff7-4148-b427-0660430b4237.png",
-      "details_url": "https://palia.com/news/205-twitch-drops",
-      "game": "Palia",
-      "game_slug": "palia",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/982017546_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 360,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "3x Smoke Candle",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/798be54c-7b6a-4094-b56a-fbf6793711ce.png",
-          "minutes": 60
-        },
-        {
-          "name": "3x Supreme Smoke Bomb",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5286b3ce-3900-4391-83a6-b9219baa246a.png",
-          "minutes": 60
-        },
-        {
-          "name": "10x Sneaky Smoke Bombs",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e025722b-ba67-4b61-87d9-d1e277b1b407.png",
-          "minutes": 60
-        },
-        {
-          "name": "1x Fancypod Prize Bag",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ee7680dd-35ef-4e1a-a416-23a75f861bdc.png",
-          "minutes": 180
-        },
-        {
-          "name": "1x Shinypod Prize Bag",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5df1fb80-e0ef-4f1e-aa5a-ffa41d1d29c3.png",
-          "minutes": 180
-        },
-        {
-          "name": "2x Honey Lure",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/41210c69-f8a8-49b1-8746-ea12a21e2e7b.png",
-          "minutes": 180
-        },
-        {
-          "name": "Duskwing Glasses",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/17e27c18-41c0-442f-9274-574f3e77a91d.png",
-          "minutes": 360
         }
       ],
       "src": "sunkwi"
@@ -1735,29 +1659,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "1f114aff-c618-4899-96d2-c74368b85a7c",
-      "name": "Mobile Drop 130",
-      "status": "ACTIVE",
-      "start_at": "2026-08-17T17:59:00Z",
-      "end_at": "2026-08-18T17:56:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/7dcab4b5-4fc8-4911-9237-e006602af3c7.png",
-      "details_url": "https://mobile.riseonlineworld.com/usercp?do=twitch",
-      "game": "Rise Online",
-      "game_slug": "rise-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Regalia of Awakening",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
-          "minutes": 240
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "79ea0b9d-1ce0-4d82-a615-cd605405b3d6",
       "name": "S12 DROPS TOKEN EVENT",
       "status": "ACTIVE",
@@ -2061,6 +1962,29 @@
           "name": "Highland Tammy",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/873fc11d-783d-4f4d-bbca-a69d874e9434.png",
           "minutes": 180
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "42aa3d22-fe92-48dc-8eb9-86ba9ea3e252",
+      "name": "Mobile Drop 131",
+      "status": "ACTIVE",
+      "start_at": "2026-08-18T17:59:00Z",
+      "end_at": "2026-08-19T17:56:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f79de9da-9dff-4c46-b32e-f9c048fac6da.png",
+      "details_url": "https://mobile.riseonlineworld.com/usercp?do=twitch",
+      "game": "Rise Online",
+      "game_slug": "rise-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Regalia of Awakening",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
+          "minutes": 240
         }
       ],
       "src": "sunkwi"
