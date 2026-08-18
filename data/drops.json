@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-18T21:54:49Z",
+  "updated_at": "2026-08-18T22:17:39Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-18T21:54:01.453Z",
+  "source_updated": "2026-08-18T22:15:01.454Z",
   "counts": {
     "total": 57,
     "upcoming": 5,
@@ -1664,34 +1664,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "08f9377e-82b7-4f63-9c8a-1baa31f0ef17",
-      "name": "GOALS - 18th of August",
-      "status": "ACTIVE",
-      "start_at": "2026-08-17T22:01:00Z",
-      "end_at": "2026-08-18T21:58:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/3caec8df-de92-4d0d-bec0-a177481be4cb.png",
-      "details_url": "https://playgoals.com/twitch-drops",
-      "game": "GOALS",
-      "game_slug": "goals",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/951160620_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 360,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Common+ Pack [1 Player]",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82a4b7fe-7458-4b59-b909-ebc30fc91521.png",
-          "minutes": 120
-        },
-        {
-          "name": "Uncommon+ Pack [1 Player]",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png",
-          "minutes": 300
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "4b82c266-03e5-47a8-bf33-11372adc7dca",
       "name": "August Drops",
       "status": "ACTIVE",
@@ -1962,6 +1934,34 @@
           "name": "Drops Token",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
           "minutes": 60
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "b688ba1a-3688-4c95-af90-090db7d05c04",
+      "name": "GOALS - 19th of August",
+      "status": "ACTIVE",
+      "start_at": "2026-08-18T22:01:00Z",
+      "end_at": "2026-08-19T21:58:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d6c904a2-1a93-4525-be9d-80050fa4fe06.png",
+      "details_url": "https://playgoals.com/twitch-drops",
+      "game": "GOALS",
+      "game_slug": "goals",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/951160620_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 360,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Common+ Pack [1 Player]",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82a4b7fe-7458-4b59-b909-ebc30fc91521.png",
+          "minutes": 60
+        },
+        {
+          "name": "Uncommon+ Pack [1 Player]",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png",
+          "minutes": 300
         }
       ],
       "src": "sunkwi"
