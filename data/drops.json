@@ -1,51 +1,18 @@
 {
-  "updated_at": "2026-08-18T12:03:11Z",
+  "updated_at": "2026-08-18T13:04:13Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-18T12:03:02.423Z",
+  "source_updated": "2026-08-18T13:04:01.378Z",
   "counts": {
     "total": 56,
-    "upcoming": 4,
-    "active": 52,
+    "upcoming": 3,
+    "active": 53,
     "game_drops": 55,
     "platform": 1,
     "badges": 2,
     "fechadas_descartadas": 52
   },
   "campaigns": [
-    {
-      "id": "a3815820-b517-40b5-896b-348812a9214b",
-      "name": "Masters of Mayhem Week 4",
-      "status": "UPCOMING",
-      "start_at": "2026-08-18T13:00:00.000Z",
-      "end_at": "2026-08-25T09:57:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "World of Tanks Console",
-      "game_slug": "world-of-tanks-console",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/499551-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 480,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "10 Enhanced Med Kits",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/16e8e3bc-c27f-4b69-9740-c5bbd95dbce2.png",
-          "minutes": 120
-        },
-        {
-          "name": "(4) x3 Vehicle XP Booster",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6c916fdb-2a57-4801-89fd-dfb1b6b5c0f6.png",
-          "minutes": 240
-        },
-        {
-          "name": "Camo Voucher",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8ccc0701-0a6c-434c-abae-61fb037e3cdc.png",
-          "minutes": 480
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "bf1c2300-995f-4645-987e-b5a62f71d137",
       "name": "August 03",
@@ -1944,6 +1911,39 @@
           "name": "2 Hour Reward",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/007ee200-b300-470c-823d-79502011c4b9.png",
           "minutes": 120
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "a3815820-b517-40b5-896b-348812a9214b",
+      "name": "Masters of Mayhem Week 4",
+      "status": "ACTIVE",
+      "start_at": "2026-08-18T13:00:00Z",
+      "end_at": "2026-08-25T09:57:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/527024df-e70f-465d-8249-20944bc8faed.png",
+      "details_url": "https://modernarmor.worldoftanks.com/en/cms/notes/twitch-drops/",
+      "game": "World of Tanks Console",
+      "game_slug": "world-of-tanks-console",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/499551-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 480,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "10 Enhanced Med Kits",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/16e8e3bc-c27f-4b69-9740-c5bbd95dbce2.png",
+          "minutes": 120
+        },
+        {
+          "name": "(4) x3 Vehicle XP Booster",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6c916fdb-2a57-4801-89fd-dfb1b6b5c0f6.png",
+          "minutes": 240
+        },
+        {
+          "name": "Camo Voucher",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8ccc0701-0a6c-434c-abae-61fb037e3cdc.png",
+          "minutes": 480
         }
       ],
       "src": "sunkwi"
