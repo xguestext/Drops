@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-19T18:01:41Z",
+  "updated_at": "2026-08-19T18:50:04Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-19T18:01:01.233Z",
+  "source_updated": "2026-08-19T18:50:01.435Z",
   "counts": {
     "total": 65,
     "upcoming": 8,
@@ -10,7 +10,7 @@
     "game_drops": 64,
     "platform": 1,
     "badges": 3,
-    "fechadas_descartadas": 51
+    "fechadas_descartadas": 48
   },
   "campaigns": [
     {
@@ -1629,6 +1629,44 @@
       "src": "sunkwi"
     },
     {
+      "id": "3595f84e-98bc-423d-9853-30dcebbf7481",
+      "name": "Skull and Bones - Y3S2",
+      "status": "ACTIVE",
+      "start_at": "2026-08-18T07:00:00Z",
+      "end_at": "2026-09-14T21:29:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/13c96614-e7b4-471a-8cbc-a3a48bf641b3.jpeg",
+      "details_url": "https://www.ubisoft.com/en-us/help/connectivity-and-performance/article/information-about-twitch-drops-for-ubisoft-games/000065532#:~:text=You%20can%20earn%20in%2Dgame,stream%20from%20a%20participating%20channel.",
+      "game": "Skull and Bones",
+      "game_slug": "skull-and-bones",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/497431_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Mossy Gravewood",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6a059dc1-0e26-40ab-aa00-10793d8ee781.png",
+          "minutes": 30
+        },
+        {
+          "name": "Sail Color - Rotbreath",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c0c0118f-c5ab-42b5-8536-89c40f03598d.png",
+          "minutes": 60
+        },
+        {
+          "name": " Noose of Thorns",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f0ef337a-0d4d-4b41-bee2-663c5d161c60.png",
+          "minutes": 120
+        },
+        {
+          "name": "Marauder's Gash",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0e5bd6ba-de48-4553-aaea-d8db10048a68.png",
+          "minutes": 180
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
       "id": "a79bead9-e221-402a-996b-e0fa4e2f8912",
       "name": "Live Update 1.42.0",
       "status": "ACTIVE",
@@ -1746,29 +1784,6 @@
           "name": "Highland Tammy",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/873fc11d-783d-4f4d-bbca-a69d874e9434.png",
           "minutes": 180
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "42aa3d22-fe92-48dc-8eb9-86ba9ea3e252",
-      "name": "Mobile Drop 131",
-      "status": "ACTIVE",
-      "start_at": "2026-08-18T17:59:00Z",
-      "end_at": "2026-08-19T17:56:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f79de9da-9dff-4c46-b32e-f9c048fac6da.png",
-      "details_url": "https://mobile.riseonlineworld.com/usercp?do=twitch",
-      "game": "Rise Online",
-      "game_slug": "rise-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Regalia of Awakening",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
-          "minutes": 240
         }
       ],
       "src": "sunkwi"
