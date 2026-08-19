@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-19T20:01:56Z",
+  "updated_at": "2026-08-19T20:40:18Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-19T20:01:01.288Z",
+  "source_updated": "2026-08-19T20:40:01.630Z",
   "counts": {
-    "total": 63,
+    "total": 62,
     "upcoming": 7,
-    "active": 56,
-    "game_drops": 62,
+    "active": 55,
+    "game_drops": 61,
     "platform": 1,
     "badges": 3,
     "fechadas_descartadas": 49
@@ -1898,29 +1898,6 @@
         {
           "name": "Resource Chest",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/05f50f79-0407-4ef6-b3bf-74fc155faa14.png",
-          "minutes": 60
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "c788981a-3e52-48a9-9681-5c81605e6dbb",
-      "name": "S12 DROPS TOKEN EVENT",
-      "status": "ACTIVE",
-      "start_at": "2026-08-19T12:15:00Z",
-      "end_at": "2026-08-19T19:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/3da5b089-e8ec-4d32-94f0-b193f9355cfe.png",
-      "details_url": "https://twitch.playeternalreturn.com/",
-      "game": "Eternal Return",
-      "game_slug": "eternal-return",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/512864_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Drops Token",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
           "minutes": 60
         }
       ],
