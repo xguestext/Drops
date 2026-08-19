@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-08-19T07:10:34Z",
+  "updated_at": "2026-08-19T07:56:06Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-19T07:10:01.141Z",
+  "source_updated": "2026-08-19T07:56:01.448Z",
   "counts": {
     "total": 62,
     "upcoming": 8,
     "active": 54,
     "game_drops": 61,
     "platform": 1,
-    "badges": 2,
+    "badges": 3,
     "fechadas_descartadas": 49
   },
   "campaigns": [
@@ -2141,6 +2141,13 @@
     }
   ],
   "badges": [
+    {
+      "title": "SUBtember 2026",
+      "start_at": "2026-08-28T18:00:00Z",
+      "end_at": "2026-10-01T18:00:00Z",
+      "note": "A badge will be available for subscribing, gifting, or using Bits.",
+      "images": []
+    },
     {
       "title": "Final Fantasy XIV Fan Festival 2026 JP",
       "start_at": "2026-10-30T00:00:00Z",
