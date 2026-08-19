@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-08-19T18:50:04Z",
+  "updated_at": "2026-08-19T19:14:15Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-19T18:50:01.435Z",
+  "source_updated": "2026-08-19T19:14:01.635Z",
   "counts": {
-    "total": 65,
+    "total": 63,
     "upcoming": 8,
-    "active": 57,
-    "game_drops": 64,
+    "active": 55,
+    "game_drops": 62,
     "platform": 1,
     "badges": 3,
-    "fechadas_descartadas": 48
+    "fechadas_descartadas": 49
   },
   "campaigns": [
     {
@@ -919,54 +919,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "7dacfdb5-6fd8-46a9-9af4-594cb9267498",
-      "name": "S4 Heroes of Busan Launch",
-      "status": "ACTIVE",
-      "start_at": "2026-08-11T18:00:00Z",
-      "end_at": "2026-08-19T18:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/5c83b56a-5706-45c1-b799-6124509a3184.jpeg",
-      "details_url": "https://us.forums.blizzard.com/en/overwatch/t/reign-of-talon-season-4-launch-twitch-drops/1032868",
-      "game": "Overwatch",
-      "game_slug": "overwatch-2",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/515025-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 480,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Cute Sierra Avatar",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0458a64d-5976-436c-8a59-3554ac41a466.png",
-          "minutes": 120
-        },
-        {
-          "name": "MEKA Squad Namecard",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e1b0dd2e-2289-4747-9d89-36690962d33c.png",
-          "minutes": 180
-        },
-        {
-          "name": "Shion Slide Spray",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a33c63ef-40e6-41e3-8349-bc726097e06c.png",
-          "minutes": 60
-        },
-        {
-          "name": "Bad Press Spray",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f0269e30-6b4c-4e2c-8908-f55f4cc1a7b3.png",
-          "minutes": 20
-        },
-        {
-          "name": "RoT Lootbox",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ee0d34d7-fab4-4d5b-b751-b98b3bbc4ea4.png",
-          "minutes": 300
-        },
-        {
-          "name": "RoT Epic Lootbox",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/15b7dce8-26a2-4b27-91a2-892551834013.jpeg",
-          "minutes": 480
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "b3bf7ef1-3d9a-4438-8ef9-9fd6f8e92e26",
       "name": "Global Launch Welcome Kit",
       "status": "ACTIVE",
@@ -1623,44 +1575,6 @@
         {
           "name": "Zeni ×7,000 (S6.2)",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a7864994-dfaa-4c61-850a-43fd9ebaebf6.png",
-          "minutes": 180
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "3595f84e-98bc-423d-9853-30dcebbf7481",
-      "name": "Skull and Bones - Y3S2",
-      "status": "ACTIVE",
-      "start_at": "2026-08-18T07:00:00Z",
-      "end_at": "2026-09-14T21:29:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/13c96614-e7b4-471a-8cbc-a3a48bf641b3.jpeg",
-      "details_url": "https://www.ubisoft.com/en-us/help/connectivity-and-performance/article/information-about-twitch-drops-for-ubisoft-games/000065532#:~:text=You%20can%20earn%20in%2Dgame,stream%20from%20a%20participating%20channel.",
-      "game": "Skull and Bones",
-      "game_slug": "skull-and-bones",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/497431_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Mossy Gravewood",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6a059dc1-0e26-40ab-aa00-10793d8ee781.png",
-          "minutes": 30
-        },
-        {
-          "name": "Sail Color - Rotbreath",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c0c0118f-c5ab-42b5-8536-89c40f03598d.png",
-          "minutes": 60
-        },
-        {
-          "name": " Noose of Thorns",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f0ef337a-0d4d-4b41-bee2-663c5d161c60.png",
-          "minutes": 120
-        },
-        {
-          "name": "Marauder's Gash",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0e5bd6ba-de48-4553-aaea-d8db10048a68.png",
           "minutes": 180
         }
       ],
