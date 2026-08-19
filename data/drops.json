@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-19T17:13:09Z",
+  "updated_at": "2026-08-19T17:43:34Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-19T17:13:01.770Z",
+  "source_updated": "2026-08-19T17:43:01.553Z",
   "counts": {
-    "total": 64,
+    "total": 65,
     "upcoming": 9,
-    "active": 55,
-    "game_drops": 63,
+    "active": 56,
+    "game_drops": 64,
     "platform": 1,
     "badges": 3,
     "fechadas_descartadas": 50
@@ -1993,6 +1993,29 @@
           "name": "To Eternity ",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c37b6d6f-c509-415e-b8f7-269786e417b6.jpeg",
           "minutes": 30
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "ef711c65-8009-4209-9c32-b640cd936209",
+      "name": "MrM Tools Crisis",
+      "status": "ACTIVE",
+      "start_at": "2026-08-19T12:00:00Z",
+      "end_at": "2026-08-25T11:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/4d3f7ffc-d72f-4f3e-8290-a51153b64726.png",
+      "details_url": "https://marblemanager.fun/drops",
+      "game": "Marble Racing Manager",
+      "game_slug": "marble-racing-manager",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1292861145_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 780,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Resource Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/05f50f79-0407-4ef6-b3bf-74fc155faa14.png",
+          "minutes": 60
         }
       ],
       "src": "sunkwi"
