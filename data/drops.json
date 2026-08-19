@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-19T02:20:02Z",
+  "updated_at": "2026-08-19T03:15:06Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-19T02:19:01.606Z",
+  "source_updated": "2026-08-19T03:15:01.641Z",
   "counts": {
-    "total": 61,
+    "total": 62,
     "upcoming": 8,
-    "active": 53,
-    "game_drops": 60,
+    "active": 54,
+    "game_drops": 61,
     "platform": 1,
     "badges": 2,
     "fechadas_descartadas": 51
@@ -2073,6 +2073,44 @@
         {
           "name": "Annulith ×50",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5c27b026-b9e9-44b3-985e-4c6ec877f513.png",
+          "minutes": 120
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "ac46850b-745e-45d2-b7b3-494c17e30127",
+      "name": "26.8 Summer Event",
+      "status": "ACTIVE",
+      "start_at": "2026-08-19T03:00:00Z",
+      "end_at": "2026-09-08T20:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/b27ec98a-2149-4cf1-9cf2-ba2b2966032d.jpeg",
+      "details_url": "https://mjsoul.yo-star.com/twitch-drops",
+      "game": "Mahjong Soul",
+      "game_slug": "mahjong-soul",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/512708_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "1 Moonlight Lucky Bag",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ed9b945a-b662-420c-be45-4db5731cbb9b.jpeg",
+          "minutes": 15
+        },
+        {
+          "name": "5,000 Coppers",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/21092fdb-1fb0-42b0-a038-8cac89ea4306.jpeg",
+          "minutes": 30
+        },
+        {
+          "name": "1 Sphere of Innocence",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bc01cf6f-8f1d-4f2d-8f7e-7b6ce9693792.jpeg",
+          "minutes": 60
+        },
+        {
+          "name": "1 Sunshine Lucky Bag",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/06c64380-5cad-4454-8e59-d891109068e9.jpeg",
           "minutes": 120
         }
       ],
