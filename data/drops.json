@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-19T00:58:43Z",
+  "updated_at": "2026-08-19T02:20:02Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-19T00:58:02.500Z",
+  "source_updated": "2026-08-19T02:19:01.606Z",
   "counts": {
-    "total": 60,
+    "total": 61,
     "upcoming": 8,
-    "active": 52,
-    "game_drops": 59,
+    "active": 53,
+    "game_drops": 60,
     "platform": 1,
     "badges": 2,
     "fechadas_descartadas": 51
@@ -2031,6 +2031,49 @@
           "name": "Twitch Reward Chest",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
           "minutes": 180
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "40771db8-64a0-4ffe-905e-0ebf4499a2a8",
+      "name": "NTE Twitch Drops Event",
+      "status": "ACTIVE",
+      "start_at": "2026-08-19T02:00:00Z",
+      "end_at": "2026-08-31T17:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/6eda4b6c-01c3-444f-9fe9-3cab2fc3396a.jpeg",
+      "details_url": "https://nte.perfectworld.com/net/260819twitch/index.html",
+      "game": "NTE: Neverness to Everness",
+      "game_slug": "neverness-to-everness",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1901865180_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Elite Hunter Guide ×2",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/54a5e918-8851-41df-bcdb-42e960e87d7a.png",
+          "minutes": 15
+        },
+        {
+          "name": "Chaotic Dye ×2",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f72116fc-ad5a-431e-a341-b046c76829bc.png",
+          "minutes": 30
+        },
+        {
+          "name": "Fons ×50,000",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fd74acc2-e80b-4d46-8ea0-e99c42e7a1e5.png",
+          "minutes": 60
+        },
+        {
+          "name": "De-noise Solution ×1",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6f7f4fa3-b501-4a3e-b01a-b0b739183b12.png",
+          "minutes": 90
+        },
+        {
+          "name": "Annulith ×50",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5c27b026-b9e9-44b3-985e-4c6ec877f513.png",
+          "minutes": 120
         }
       ],
       "src": "sunkwi"
