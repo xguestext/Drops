@@ -1,64 +1,18 @@
 {
-  "updated_at": "2026-08-19T11:43:25Z",
+  "updated_at": "2026-08-19T12:02:53Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-19T11:43:01.567Z",
+  "source_updated": "2026-08-19T12:02:01.408Z",
   "counts": {
-    "total": 60,
-    "upcoming": 7,
-    "active": 53,
-    "game_drops": 59,
+    "total": 59,
+    "upcoming": 5,
+    "active": 54,
+    "game_drops": 58,
     "platform": 1,
     "badges": 3,
     "fechadas_descartadas": 49
   },
   "campaigns": [
-    {
-      "id": "c1a4ab24-0904-46aa-ab3b-a32503064e6f",
-      "name": "Fortnite Reload @ EWC",
-      "status": "UPCOMING",
-      "start_at": "2026-08-19T12:00:00.000Z",
-      "end_at": "2026-08-21T03:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Fortnite",
-      "game_slug": "fortnite",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/33214-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 30,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "To Eternity ",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c37b6d6f-c509-415e-b8f7-269786e417b6.jpeg",
-          "minutes": 30
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "0026c331-cd4b-490e-aecd-13676c2d9043",
-      "name": "2026 BDO Drops (Aug 19)",
-      "status": "UPCOMING",
-      "start_at": "2026-08-19T12:00:00.000Z",
-      "end_at": "2026-08-20T11:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Black Desert",
-      "game_slug": "black-desert",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "2 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/007ee200-b300-470c-823d-79502011c4b9.png",
-          "minutes": 120
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "94084529-b24c-4d1a-9863-e815865f16f5",
       "name": "Season 3 Special Drops",
@@ -1776,29 +1730,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "aea0e9e1-e69a-4265-bb1d-9e69310728a1",
-      "name": "2026 BDO Drops (Aug 18)",
-      "status": "ACTIVE",
-      "start_at": "2026-08-18T12:00:00Z",
-      "end_at": "2026-08-19T11:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/1aa9f156-3c25-4ad7-8515-acebb857f18f.png",
-      "details_url": "https://www.naeu.playblackdesert.com/News/Detail?groupContentNo=5878",
-      "game": "Black Desert",
-      "game_slug": "black-desert",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "2 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/007ee200-b300-470c-823d-79502011c4b9.png",
-          "minutes": 120
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "a3815820-b517-40b5-896b-348812a9214b",
       "name": "Masters of Mayhem Week 4",
       "status": "ACTIVE",
@@ -2066,6 +1997,52 @@
           "name": "Radiant Wilds Chest",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
           "minutes": 180
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "0026c331-cd4b-490e-aecd-13676c2d9043",
+      "name": "2026 BDO Drops (Aug 19)",
+      "status": "ACTIVE",
+      "start_at": "2026-08-19T12:00:00Z",
+      "end_at": "2026-08-20T11:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/bf0d41be-fa05-4211-8b0f-a8927ff4b321.png",
+      "details_url": "https://www.naeu.playblackdesert.com/News/Detail?groupContentNo=5878",
+      "game": "Black Desert",
+      "game_slug": "black-desert",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "2 Hour Reward",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/007ee200-b300-470c-823d-79502011c4b9.png",
+          "minutes": 120
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "c1a4ab24-0904-46aa-ab3b-a32503064e6f",
+      "name": "Fortnite Reload @ EWC",
+      "status": "ACTIVE",
+      "start_at": "2026-08-19T12:00:00Z",
+      "end_at": "2026-08-21T03:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d4ded64c-da9d-463c-853f-148fd4eb36ac.jpeg",
+      "details_url": "https://www.fortnite.com/twitch-drops",
+      "game": "Fortnite",
+      "game_slug": "fortnite",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/33214-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 30,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "To Eternity ",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c37b6d6f-c509-415e-b8f7-269786e417b6.jpeg",
+          "minutes": 30
         }
       ],
       "src": "sunkwi"
