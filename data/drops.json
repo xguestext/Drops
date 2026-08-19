@@ -1,41 +1,18 @@
 {
-  "updated_at": "2026-08-19T17:43:34Z",
+  "updated_at": "2026-08-19T18:01:41Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-19T17:43:01.553Z",
+  "source_updated": "2026-08-19T18:01:01.233Z",
   "counts": {
     "total": 65,
-    "upcoming": 9,
-    "active": 56,
+    "upcoming": 8,
+    "active": 57,
     "game_drops": 64,
     "platform": 1,
     "badges": 3,
-    "fechadas_descartadas": 50
+    "fechadas_descartadas": 51
   },
   "campaigns": [
-    {
-      "id": "cf60e8fd-bf07-4e1c-80d1-d3ec7b3596d9",
-      "name": "Mobile Drop 132",
-      "status": "UPCOMING",
-      "start_at": "2026-08-19T17:59:00.000Z",
-      "end_at": "2026-08-20T17:56:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Rise Online",
-      "game_slug": "rise-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Regalia of Awakening",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
-          "minutes": 240
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "2dc87bb3-af91-4984-a64e-4a356f3035fb",
       "name": "S12 DROPS TOKEN EVENT",
@@ -2181,6 +2158,29 @@
           "name": "150 Tech",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ce586a04-db83-407b-bf34-b3a51c2701b1.png",
           "minutes": 120
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "cf60e8fd-bf07-4e1c-80d1-d3ec7b3596d9",
+      "name": "Mobile Drop 132",
+      "status": "ACTIVE",
+      "start_at": "2026-08-19T17:59:00Z",
+      "end_at": "2026-08-20T17:56:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a5cfe218-d53e-4b4f-aa3d-8af774a6c76e.png",
+      "details_url": "https://mobile.riseonlineworld.com/usercp?do=twitch",
+      "game": "Rise Online",
+      "game_slug": "rise-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Regalia of Awakening",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
+          "minutes": 240
         }
       ],
       "src": "sunkwi"
