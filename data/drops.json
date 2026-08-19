@@ -1,41 +1,18 @@
 {
-  "updated_at": "2026-08-19T09:47:22Z",
+  "updated_at": "2026-08-19T10:12:29Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-19T09:47:01.412Z",
+  "source_updated": "2026-08-19T10:12:01.605Z",
   "counts": {
     "total": 60,
-    "upcoming": 8,
-    "active": 52,
+    "upcoming": 7,
+    "active": 53,
     "game_drops": 59,
     "platform": 1,
     "badges": 3,
-    "fechadas_descartadas": 48
+    "fechadas_descartadas": 49
   },
   "campaigns": [
-    {
-      "id": "3873da78-b2ee-4b22-abb3-b5d0fff5248b",
-      "name": "Radiant Wilds 19 - #3/7",
-      "status": "UPCOMING",
-      "start_at": "2026-08-19T10:00:00.000Z",
-      "end_at": "2026-08-20T09:29:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Albion Online",
-      "game_slug": "albion-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Radiant Wilds Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
-          "minutes": 180
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "c1a4ab24-0904-46aa-ab3b-a32503064e6f",
       "name": "Fortnite Reload @ EWC",
@@ -2066,6 +2043,29 @@
           "name": "1 Sunshine Lucky Bag",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/06c64380-5cad-4454-8e59-d891109068e9.jpeg",
           "minutes": 120
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "3873da78-b2ee-4b22-abb3-b5d0fff5248b",
+      "name": "Radiant Wilds 19 - #3/7",
+      "status": "ACTIVE",
+      "start_at": "2026-08-19T10:00:00Z",
+      "end_at": "2026-08-20T09:29:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/788dc60a-59dc-469f-b37b-6ef5593b1b30.png",
+      "details_url": "https://forum.albiononline.com/index.php/Thread/214756-New-Twitch-Drops-Launching-Monday-July-28-2025/",
+      "game": "Albion Online",
+      "game_slug": "albion-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Radiant Wilds Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
+          "minutes": 180
         }
       ],
       "src": "sunkwi"
