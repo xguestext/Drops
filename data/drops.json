@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-08-20T16:00:08Z",
+  "updated_at": "2026-08-20T16:47:56Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-20T16:00:01.582Z",
+  "source_updated": "2026-08-20T16:47:01.599Z",
   "counts": {
-    "total": 41,
-    "upcoming": 2,
+    "total": 44,
+    "upcoming": 5,
     "active": 39,
-    "game_drops": 40,
+    "game_drops": 43,
     "platform": 1,
     "badges": 3,
-    "fechadas_descartadas": 52,
-    "fora_da_lista": 24
+    "fechadas_descartadas": 50,
+    "fora_da_lista": 28
   },
   "campaigns": [
     {
@@ -56,6 +56,100 @@
           "name": "Coliseum Helm Attachment",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/638ce6db-d8e3-411c-bebd-bb6224c82fbf.png",
           "minutes": 30
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "f71b3371-9776-4f55-83cd-30cd361c3932",
+      "name": "GOALS - 21st of August",
+      "status": "UPCOMING",
+      "start_at": "2026-08-20T22:01:00.000Z",
+      "end_at": "2026-08-21T21:58:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "GOALS",
+      "game_slug": "goals",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/951160620_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 360,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Common+ Pack [1 Player]",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82a4b7fe-7458-4b59-b909-ebc30fc91521.png",
+          "minutes": 60
+        },
+        {
+          "name": "Uncommon+ Pack [1 Player]",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png",
+          "minutes": 300
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "b49a2708-8099-4652-bd7d-10965780d9e3",
+      "name": "Fortnite Reload @ EWC - 2",
+      "status": "UPCOMING",
+      "start_at": "2026-08-21T09:30:00.000Z",
+      "end_at": "2026-08-23T03:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Fortnite",
+      "game_slug": "fortnite",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/33214-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 30,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Reload Championship Spray",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/70e968dc-435f-4452-b00a-addba80a723a.png",
+          "minutes": 30
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "df0838e1-a16a-4fe0-be28-244370365ade",
+      "name": "Early Access Launch Week",
+      "status": "UPCOMING",
+      "start_at": "2026-08-21T16:00:00.000Z",
+      "end_at": "2026-08-28T15:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Clickbait Tycoon",
+      "game_slug": "clickbait-tycoon",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/769327879_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Streamer Tee",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e9319db7-6558-4b7f-b9d5-1eb4269f1978.png",
+          "minutes": 15
+        },
+        {
+          "name": "Streambook Pro",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e5b64f4e-a5e8-4c4f-9679-58c218604a99.png",
+          "minutes": 30
+        },
+        {
+          "name": "The Streamer's Brew",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/adc214a3-91e8-48a6-9b7d-e5a8f6c2ae1e.png",
+          "minutes": 60
+        },
+        {
+          "name": "Streambound Vole",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4013ef01-a48b-4438-b047-dfe07d14be46.png",
+          "minutes": 120
+        },
+        {
+          "name": "Live on Twitch Article",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/42c52f9e-b534-424f-8c2c-01cbf9edc852.png",
+          "minutes": 180
         }
       ],
       "src": "fenris"
