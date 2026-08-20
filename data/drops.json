@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-20T21:11:41Z",
+  "updated_at": "2026-08-20T21:45:58Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-20T21:11:01.553Z",
+  "source_updated": null,
   "counts": {
     "total": 25,
     "upcoming": 0,
@@ -10,7 +10,7 @@
     "game_drops": 24,
     "platform": 1,
     "badges": 3,
-    "fechadas_descartadas": 50,
+    "fechadas_descartadas": 0,
     "fora_da_lista": 44
   },
   "campaigns": [
@@ -18,13 +18,13 @@
       "id": "2942d78f-12d2-49ca-918d-4b9ab8e28842",
       "name": "Egg",
       "status": "ACTIVE",
-      "start_at": "2026-07-29T07:00:00Z",
+      "start_at": "2026-07-29T07:00:00.000Z",
       "end_at": "2026-08-26T06:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/460ff54c-3700-4042-899d-44db1e163d1e.png",
-      "details_url": "https://help.twitch.tv/s/article/twitch-chat-badges-guide ",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
       "game": "ROBLOX",
       "game_slug": "roblox",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/23020_IGDB-120x160.jpg",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/23020_IGDB-285x380.jpg",
       "availability": "open",
       "required_minutes": null,
       "reward_type": "game",
@@ -35,47 +35,47 @@
           "minutes": 0
         }
       ],
-      "src": "sunkwi"
+      "src": "fenris"
     },
     {
       "id": "cd5a6322-52b0-4e5c-bd24-03581f98d2dd",
       "name": "Welcome to ZeroSpace",
       "status": "ACTIVE",
-      "start_at": "2026-08-01T15:11:07Z",
+      "start_at": "2026-08-01T15:11:07.000Z",
       "end_at": "2026-08-28T23:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e48d7be6-6d96-4b2c-9c05-e94b282691d4.png",
-      "details_url": "https://zsalpha.playzerospace.com/twitchauth",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
       "game": "ZeroSpace",
       "game_slug": "zerospace",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/813773698_IGDB-120x160.jpg",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/813773698_IGDB-285x380.jpg",
       "availability": "open",
       "required_minutes": 180,
       "reward_type": "game",
       "rewards": [
         {
-          "name": "Loi'Kru Portrait",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a63c5ac2-1431-4091-9311-68d0847d1d88.png",
-          "minutes": 180
-        },
-        {
           "name": "She Who Stalks Portrait",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2516d4a0-fd12-4207-a85b-b4d255162449.png",
           "minutes": 60
+        },
+        {
+          "name": "Loi'Kru Portrait",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a63c5ac2-1431-4091-9311-68d0847d1d88.png",
+          "minutes": 180
         }
       ],
-      "src": "sunkwi"
+      "src": "fenris"
     },
     {
       "id": "5fa7380f-e760-437b-81c4-30f1d57b97eb",
       "name": "Ruhnuk Deco / Em4 Mount",
       "status": "ACTIVE",
-      "start_at": "2026-08-04T12:30:00Z",
+      "start_at": "2026-08-04T12:30:00.000Z",
       "end_at": "2026-08-31T14:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ad8bd3ac-98b1-4ed1-8886-09ca6510f0ad.jpeg",
-      "details_url": "https://account.swtor.com",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
       "game": "Star Wars: The Old Republic",
       "game_slug": "star-wars-the-old-republic",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/21934_IGDB-120x160.jpg",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/21934_IGDB-285x380.jpg",
       "availability": "open",
       "required_minutes": 300,
       "reward_type": "game",
@@ -91,19 +91,19 @@
           "minutes": 300
         }
       ],
-      "src": "sunkwi"
+      "src": "fenris"
     },
     {
       "id": "460b9557-a84a-4015-b408-e398be302883",
       "name": "TDR - WW Steam Release",
       "status": "ACTIVE",
-      "start_at": "2026-08-05T16:00:00Z",
+      "start_at": "2026-08-05T16:00:00.000Z",
       "end_at": "2026-08-23T15:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e7589d73-185b-4448-94cf-39b89065ac59.png",
-      "details_url": "https://www.ubisoft.com/en-us/help/connectivity-and-performance/article/information-about-twitch-drops-for-ubisoft-games/000065532",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
       "game": "Tom Clancy's The Division: Resurgence",
       "game_slug": "tom-clancys-the-division-resurgence",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/396745148_IGDB-120x160.jpg",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/396745148_IGDB-285x380.jpg",
       "availability": "open",
       "required_minutes": 120,
       "reward_type": "game",
@@ -129,23 +129,28 @@
           "minutes": 120
         }
       ],
-      "src": "sunkwi"
+      "src": "fenris"
     },
     {
       "id": "2ac02bbd-914e-4717-8096-b74a937103fd",
       "name": "Spin the Globe",
       "status": "ACTIVE",
-      "start_at": "2026-08-06T10:00:00Z",
+      "start_at": "2026-08-06T10:00:00.000Z",
       "end_at": "2026-08-31T09:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/22ebdeb8-f058-4234-9211-abb5b82df554.png",
-      "details_url": "https://fishingplanet.com/spin-the-globe-twitch-drops/",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
       "game": "Fishing Planet",
       "game_slug": "fishing-planet",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/491117_IGDB-120x160.jpg",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/491117_IGDB-285x380.jpg",
       "availability": "open",
       "required_minutes": 600,
       "reward_type": "game",
       "rewards": [
+        {
+          "name": "Kaniq Creek Box",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2872f7ff-6fbf-4479-924b-6e3cc99f98cf.png",
+          "minutes": 60
+        },
         {
           "name": "Dnipro River Box",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/886ed901-478f-4f51-9dfa-59164317cf26.png",
@@ -190,26 +195,21 @@
           "name": "Noomaa Kuda Atholhu Box",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/461f94c8-b15e-4ab3-85eb-05005defc898.png",
           "minutes": 600
-        },
-        {
-          "name": "Kaniq Creek Box",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2872f7ff-6fbf-4479-924b-6e3cc99f98cf.png",
-          "minutes": 60
         }
       ],
-      "src": "sunkwi"
+      "src": "fenris"
     },
     {
       "id": "812ec00b-52f4-4fb9-8387-3a26ca1104d7",
       "name": "Season 9.5 Twitch Drops",
       "status": "ACTIVE",
-      "start_at": "2026-08-07T12:00:00Z",
+      "start_at": "2026-08-07T12:00:00.000Z",
       "end_at": "2026-09-04T08:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/518e60e5-e45c-4aa0-8c7f-666c402d8719.png",
-      "details_url": "https://www.marvelrivals.com/twitchdrops/",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
       "game": "Marvel Rivals",
       "game_slug": "marvel-rivals",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1264310518_IGDB-120x160.jpg",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1264310518_IGDB-285x380.jpg",
       "availability": "open",
       "required_minutes": 240,
       "reward_type": "game",
@@ -235,19 +235,19 @@
           "minutes": 240
         }
       ],
-      "src": "sunkwi"
+      "src": "fenris"
     },
     {
       "id": "619cde1a-229c-407f-aed6-da661df62e45",
       "name": "LOY DROPS_ALL (26_AUG)",
       "status": "ACTIVE",
-      "start_at": "2026-08-11T09:00:00Z",
+      "start_at": "2026-08-11T09:00:00.000Z",
       "end_at": "2026-08-29T14:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/c570cf4e-d1d1-40ab-8397-1025b54df49c.jpeg",
-      "details_url": "https://www.legendofymir.com/news/notice/750879",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
       "game": "Legend of YMIR",
       "game_slug": "legend-of-ymir",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/889298168_IGDB-120x160.jpg",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/889298168_IGDB-285x380.jpg",
       "availability": "open",
       "required_minutes": 900,
       "reward_type": "game",
@@ -303,19 +303,19 @@
           "minutes": 900
         }
       ],
-      "src": "sunkwi"
+      "src": "fenris"
     },
     {
       "id": "dd072c28-6c9c-46be-ae7c-e2d9d84889a2",
       "name": "NC DROPS ALL (26_AUG)",
       "status": "ACTIVE",
-      "start_at": "2026-08-11T09:00:00Z",
+      "start_at": "2026-08-11T09:00:00.000Z",
       "end_at": "2026-08-29T14:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/36528a02-e69a-4649-8f34-c866751f85b0.jpeg",
-      "details_url": "https://www.nightcrows.com/notice/notice/751327",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
       "game": "Night Crows",
       "game_slug": "night-crows",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/450732811_IGDB-120x160.jpg",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/450732811_IGDB-285x380.jpg",
       "availability": "open",
       "required_minutes": 900,
       "reward_type": "game",
@@ -371,19 +371,19 @@
           "minutes": 900
         }
       ],
-      "src": "sunkwi"
+      "src": "fenris"
     },
     {
       "id": "b3bf7ef1-3d9a-4438-8ef9-9fd6f8e92e26",
       "name": "Global Launch Welcome Kit",
       "status": "ACTIVE",
-      "start_at": "2026-08-12T00:00:00Z",
+      "start_at": "2026-08-12T00:00:00.000Z",
       "end_at": "2026-09-08T05:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/db6c48c9-4161-46eb-880d-1eef4f54c46e.jpeg",
-      "details_url": "https://gz.ludenus.com/drops",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
       "game": "GunZ: The Duel",
       "game_slug": "gunz-the-duel",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/513567_IGDB-120x160.jpg",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/513567_IGDB-285x380.jpg",
       "availability": "open",
       "required_minutes": 120,
       "reward_type": "game",
@@ -394,28 +394,23 @@
           "minutes": 120
         }
       ],
-      "src": "sunkwi"
+      "src": "fenris"
     },
     {
       "id": "27c0f6b1-3601-40b3-b502-e858689a12d1",
       "name": "3rd Drop 8/12-8/26",
       "status": "ACTIVE",
-      "start_at": "2026-08-12T01:00:00Z",
+      "start_at": "2026-08-12T01:00:00.000Z",
       "end_at": "2026-08-26T00:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e1a5874b-19e8-45a0-aefc-308acd305c27.png",
-      "details_url": "https://mistfallhunter.com/twitchdrops",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
       "game": "Mistfall Hunter",
       "game_slug": "mistfall-hunter",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/852009328_IGDB-120x160.jpg",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/852009328_IGDB-285x380.jpg",
       "availability": "open",
       "required_minutes": 240,
       "reward_type": "game",
       "rewards": [
-        {
-          "name": "240-Minutes Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5f498453-b4f8-49ac-ad17-cd809f7e5b39.png",
-          "minutes": 240
-        },
         {
           "name": "30-Minutes Drop",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/14c4a1f2-7f6b-4338-8a72-788a544f3189.png",
@@ -425,27 +420,32 @@
           "name": "60-Minutes Drop",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/45a3a419-8ca0-441f-9d4a-e3ab38760d34.png",
           "minutes": 60
+        },
+        {
+          "name": "240-Minutes Drop",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5f498453-b4f8-49ac-ad17-cd809f7e5b39.png",
+          "minutes": 240
         }
       ],
-      "src": "sunkwi"
+      "src": "fenris"
     },
     {
       "id": "d6424ef5-7715-4d65-b844-123cc4a6a0ed",
       "name": "OneState Twitch Drops",
       "status": "ACTIVE",
-      "start_at": "2026-08-13T09:00:00Z",
+      "start_at": "2026-08-13T09:00:00.000Z",
       "end_at": "2026-08-22T17:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f0008a11-426e-4d27-bbed-433a3ca8c84f.png",
-      "details_url": "https://rewards.onestate.com/",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
       "game": "OneState",
       "game_slug": "onestate",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/535020156_IGDB-120x160.jpg",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/535020156_IGDB-285x380.jpg",
       "availability": "open",
       "required_minutes": 90,
       "reward_type": "game",
       "rewards": [
         {
-          "name": "$30k State Bucks",
+          "name": "$$30k State Bucks",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/18c22ccb-65a2-4031-b519-b5dbddec3d4b.png",
           "minutes": 30
         },
@@ -460,19 +460,19 @@
           "minutes": 90
         }
       ],
-      "src": "sunkwi"
+      "src": "fenris"
     },
     {
       "id": "62c591e0-23aa-4850-b3a4-c0456625e1c9",
       "name": "GRAIN ROT Launch Week 2",
       "status": "ACTIVE",
-      "start_at": "2026-08-14T15:00:00Z",
+      "start_at": "2026-08-14T15:00:00.000Z",
       "end_at": "2026-08-21T14:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/23693cb9-353e-4e36-9606-d672c8fad1b7.png",
-      "details_url": "https://store.steampowered.com/news/app/4450620/view/703275952293019933",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
       "game": "GRAIN ROT",
       "game_slug": "grain-rot",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/490242481_IGDB-120x160.jpg",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/490242481_IGDB-285x380.jpg",
       "availability": "open",
       "required_minutes": 360,
       "reward_type": "game",
@@ -483,29 +483,29 @@
           "minutes": 120
         },
         {
-          "name": "Golden Witch Hat",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0bded488-6776-4ca7-b4f7-9773075b20ba.png",
-          "minutes": 360
-        },
-        {
           "name": "Golden Steampunk Hat",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/975163f2-ff06-40fd-b4b1-3c934e7acf0f.png",
           "minutes": 240
+        },
+        {
+          "name": "Golden Witch Hat",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0bded488-6776-4ca7-b4f7-9773075b20ba.png",
+          "minutes": 360
         }
       ],
-      "src": "sunkwi"
+      "src": "fenris"
     },
     {
       "id": "7130c275-fa88-4612-9d2a-bd2b0cda6eb2",
       "name": "26.8 Patch Release Drops",
       "status": "ACTIVE",
-      "start_at": "2026-08-17T07:00:00Z",
+      "start_at": "2026-08-17T07:00:00.000Z",
       "end_at": "2026-08-23T23:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e1ba5c88-c93a-4092-89dd-7385a6fa0b81.png",
-      "details_url": "https://beta.legiontd2.com/twitchdrops/",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
       "game": "Legion TD 2",
       "game_slug": "legion-td-2",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/493489_IGDB-120x160.jpg",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/493489_IGDB-285x380.jpg",
       "availability": "open",
       "required_minutes": 600,
       "reward_type": "game",
@@ -514,11 +514,6 @@
           "name": "Random Secret Card",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e9050b24-40ef-4e4b-ad19-12a56bf0b313.png",
           "minutes": 0
-        },
-        {
-          "name": "1000 Premium Essence",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2dea1f19-d013-4aae-a1dc-f2aad3ac1ad1.png",
-          "minutes": 360
         },
         {
           "name": "2000 Essence",
@@ -534,21 +529,26 @@
           "name": "Random Card",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/41813476-fffc-45b9-99a6-1c1517354e98.png",
           "minutes": 240
+        },
+        {
+          "name": "1000 Premium Essence",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2dea1f19-d013-4aae-a1dc-f2aad3ac1ad1.png",
+          "minutes": 360
         }
       ],
-      "src": "sunkwi"
+      "src": "fenris"
     },
     {
       "id": "4c219285-bcf7-422a-9e2e-1603ced3d10c",
       "name": "SQUADRA SEASON 6.2 Drops",
       "status": "ACTIVE",
-      "start_at": "2026-08-18T06:00:00Z",
+      "start_at": "2026-08-18T06:00:00.000Z",
       "end_at": "2026-09-08T05:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/36cfe199-856d-4a37-bf0a-d1c2c287f0da.png",
-      "details_url": "https://dbg-squadra.bn-ent.net/en-us/news/lfowm-v1i",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
       "game": "DRAGON BALL GEKISHIN SQUADRA",
       "game_slug": "dragon-ball-project-multi",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/801541637_IGDB-120x160.jpg",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/801541637_IGDB-285x380.jpg",
       "availability": "open",
       "required_minutes": 180,
       "reward_type": "game",
@@ -574,19 +574,19 @@
           "minutes": 180
         }
       ],
-      "src": "sunkwi"
+      "src": "fenris"
     },
     {
       "id": "a79bead9-e221-402a-996b-e0fa4e2f8912",
       "name": "Live Update 1.42.0",
       "status": "ACTIVE",
-      "start_at": "2026-08-18T11:00:00Z",
+      "start_at": "2026-08-18T11:00:00.000Z",
       "end_at": "2026-09-15T10:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/aadb8aab-2596-4b15-b808-981e9db89ea2.png",
-      "details_url": "https://arcraiders.com/twitch-drops/",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
       "game": "ARC Raiders",
       "game_slug": "arc-raiders",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/464339927-120x160.jpg",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/464339927-285x380.jpg",
       "availability": "open",
       "required_minutes": 120,
       "reward_type": "game",
@@ -602,32 +602,32 @@
           "minutes": 120
         }
       ],
-      "src": "sunkwi"
+      "src": "fenris"
     },
     {
       "id": "57c84a37-de55-4de4-ba40-331029d9cab7",
       "name": "SAR Highland Drops",
       "status": "ACTIVE",
-      "start_at": "2026-08-18T17:00:00Z",
+      "start_at": "2026-08-18T17:00:00.000Z",
       "end_at": "2026-09-15T16:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/59a2ffa6-0422-4e2c-8e5a-b7c4348387c3.png",
-      "details_url": "https://animalroyale.com/",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
       "game": "Super Animal Royale",
       "game_slug": "super-animal-royale",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/509529_IGDB-120x160.jpg",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/509529_IGDB-285x380.jpg",
       "availability": "open",
       "required_minutes": 180,
       "reward_type": "game",
       "rewards": [
         {
-          "name": "Scottish Claymore",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/be030fdf-e223-4da5-96af-3d9425d78a18.png",
-          "minutes": 120
-        },
-        {
           "name": "Scotsman's Outfit",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ad1ef5fe-957e-4e13-aaed-40c71d53cfd9.png",
           "minutes": 60
+        },
+        {
+          "name": "Scottish Claymore",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/be030fdf-e223-4da5-96af-3d9425d78a18.png",
+          "minutes": 120
         },
         {
           "name": "Highland Tammy",
@@ -635,19 +635,19 @@
           "minutes": 180
         }
       ],
-      "src": "sunkwi"
+      "src": "fenris"
     },
     {
       "id": "ac46850b-745e-45d2-b7b3-494c17e30127",
       "name": "26.8 Summer Event",
       "status": "ACTIVE",
-      "start_at": "2026-08-19T03:00:00Z",
+      "start_at": "2026-08-19T03:00:00.000Z",
       "end_at": "2026-09-08T20:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/b27ec98a-2149-4cf1-9cf2-ba2b2966032d.jpeg",
-      "details_url": "https://mjsoul.yo-star.com/twitch-drops",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
       "game": "Mahjong Soul",
       "game_slug": "mahjong-soul",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/512708_IGDB-120x160.jpg",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/512708_IGDB-285x380.jpg",
       "availability": "open",
       "required_minutes": 120,
       "reward_type": "game",
@@ -673,19 +673,19 @@
           "minutes": 120
         }
       ],
-      "src": "sunkwi"
+      "src": "fenris"
     },
     {
       "id": "94084529-b24c-4d1a-9863-e815865f16f5",
       "name": "Season 3 Special Drops",
       "status": "ACTIVE",
-      "start_at": "2026-08-19T12:30:00Z",
+      "start_at": "2026-08-19T12:30:00.000Z",
       "end_at": "2026-09-15T12:29:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f2ea7a0a-65cc-4b7c-8c79-1f8e7ad1a580.png",
-      "details_url": "https://www.playbpsr.com/twitch_bind",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
       "game": "Blue Protocol: Star Resonance",
       "game_slug": "star-resonance",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/266795834_IGDB-120x160.jpg",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/266795834_IGDB-285x380.jpg",
       "availability": "open",
       "required_minutes": 300,
       "reward_type": "game",
@@ -716,38 +716,23 @@
           "minutes": 300
         }
       ],
-      "src": "sunkwi"
+      "src": "fenris"
     },
     {
       "id": "eade0544-4315-454d-be19-62c146d1d62b",
       "name": "OWWC Groups 2026 Day 1 &2",
       "status": "ACTIVE",
-      "start_at": "2026-08-20T01:40:00Z",
+      "start_at": "2026-08-20T01:40:00.000Z",
       "end_at": "2026-08-22T01:28:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/cf0289c6-3f5a-401f-856c-0b7b28db3f4a.jpeg",
-      "details_url": "https://esports.overwatch.com/en-us/rewards",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
       "game": "Overwatch",
       "game_slug": "overwatch-2",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/515025-120x160.jpg",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/515025-285x380.jpg",
       "availability": "open",
       "required_minutes": 600,
       "reward_type": "game",
       "rewards": [
-        {
-          "name": "OWWC GroupBusan Name Card",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/27cc260d-00d1-4bfe-be86-76cbe8a638c9.png",
-          "minutes": 300
-        },
-        {
-          "name": "Esports Lootbox OWWC 1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c0d1c340-58f7-4d09-8aa7-1cd6b7a6ded2.png",
-          "minutes": 480
-        },
-        {
-          "name": "Esports Lootbox OWWC 2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b6706820-a8b5-4cb0-9c86-4324a20c9f05.png",
-          "minutes": 600
-        },
         {
           "name": "OWWC Groups Busan 2026 Da",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/25dc15ae-b366-423e-b577-1941aa9935f2.jpeg",
@@ -762,21 +747,36 @@
           "name": "Battle Pass Tier Skip OWW",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/62bc6180-5f03-48f7-9a80-170d68648c62.png",
           "minutes": 180
+        },
+        {
+          "name": "OWWC GroupBusan Name Card",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/27cc260d-00d1-4bfe-be86-76cbe8a638c9.png",
+          "minutes": 300
+        },
+        {
+          "name": "Esports Lootbox OWWC 1",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c0d1c340-58f7-4d09-8aa7-1cd6b7a6ded2.png",
+          "minutes": 480
+        },
+        {
+          "name": "Esports Lootbox OWWC 2",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b6706820-a8b5-4cb0-9c86-4324a20c9f05.png",
+          "minutes": 600
         }
       ],
-      "src": "sunkwi"
+      "src": "fenris"
     },
     {
       "id": "c7936644-f76f-4bc6-a540-a415a56c4712",
       "name": "Where Wind Meet Sept",
       "status": "ACTIVE",
-      "start_at": "2026-08-20T02:00:00Z",
+      "start_at": "2026-08-20T02:00:00.000Z",
       "end_at": "2026-09-17T01:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/dd1e2fa9-5e83-4136-b460-2ab42d8d1409.png",
-      "details_url": "https://www.wherewindsmeetgame.com/twitchdrops/",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
       "game": "Where Winds Meet",
       "game_slug": "where-winds-meet",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1630982727_IGDB-120x160.jpg",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1630982727_IGDB-285x380.jpg",
       "availability": "open",
       "required_minutes": 240,
       "reward_type": "game",
@@ -812,32 +812,27 @@
           "minutes": 240
         }
       ],
-      "src": "sunkwi"
+      "src": "fenris"
     },
     {
       "id": "a490aaea-7490-4f94-9066-7834653c0899",
       "name": "V3.6 Wuthering Waves",
       "status": "ACTIVE",
-      "start_at": "2026-08-20T03:00:00Z",
+      "start_at": "2026-08-20T03:00:00.000Z",
       "end_at": "2026-09-17T02:58:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/db50d8c9-fe0f-4ae9-a6be-93f6f5b30fcd.jpeg",
-      "details_url": "https://twitchdrops-wutheringwaves.kurogames-global.com/?source=twitch",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
       "game": "Wuthering Waves",
       "game_slug": "wuthering-waves",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/209738946_IGDB-120x160.jpg",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/209738946_IGDB-285x380.jpg",
       "availability": "open",
       "required_minutes": 120,
       "reward_type": "game",
       "rewards": [
         {
-          "name": "Advanced Energy Bag*2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8532bbef-51a8-4189-8d84-ae3d691f7003.png",
-          "minutes": 90
-        },
-        {
-          "name": "Advanced Energy Core*3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/75b92f62-e7cc-4dd4-8229-59bed7431261.png",
-          "minutes": 60
+          "name": "Shell Credit*25000",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3c60e7e7-6003-41f0-a54a-4e2306720469.png",
+          "minutes": 15
         },
         {
           "name": "Medium Resonance Potion*5",
@@ -845,9 +840,14 @@
           "minutes": 30
         },
         {
-          "name": "Shell Credit*25000",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3c60e7e7-6003-41f0-a54a-4e2306720469.png",
-          "minutes": 15
+          "name": "Advanced Energy Core*3",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/75b92f62-e7cc-4dd4-8229-59bed7431261.png",
+          "minutes": 60
+        },
+        {
+          "name": "Advanced Energy Bag*2",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8532bbef-51a8-4189-8d84-ae3d691f7003.png",
+          "minutes": 90
         },
         {
           "name": "Astrite*50",
@@ -855,19 +855,19 @@
           "minutes": 120
         }
       ],
-      "src": "sunkwi"
+      "src": "fenris"
     },
     {
       "id": "89359282-f4d9-4c03-8a72-3403723b9ca4",
       "name": "Anno 117 DLC2 Launch",
       "status": "ACTIVE",
-      "start_at": "2026-08-20T10:00:00Z",
+      "start_at": "2026-08-20T10:00:00.000Z",
       "end_at": "2026-09-03T15:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/default.png",
-      "details_url": "https://www.ubisoft.com/help/article/000065532",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
       "game": "Anno 117: Pax Romana",
       "game_slug": "anno-117-pax-romana",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1637021799_IGDB-120x160.jpg",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1637021799_IGDB-285x380.jpg",
       "availability": "open",
       "required_minutes": 240,
       "reward_type": "game",
@@ -883,19 +883,19 @@
           "minutes": 240
         }
       ],
-      "src": "sunkwi"
+      "src": "fenris"
     },
     {
       "id": "19b53cc6-d03b-478d-8497-a87a5e2967e4",
       "name": "DEEP SIGNAL EVENT",
       "status": "ACTIVE",
-      "start_at": "2026-08-20T10:30:00Z",
+      "start_at": "2026-08-20T10:30:00.000Z",
       "end_at": "2026-09-03T08:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/c079b88e-a7ac-4240-bf6a-6e882305e9be.png",
-      "details_url": "https://www.reachthefinals.com/twitch",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
       "game": "THE FINALS",
       "game_slug": "the-finals",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1910103699-120x160.jpg",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1910103699-285x380.jpg",
       "availability": "open",
       "required_minutes": 240,
       "reward_type": "game",
@@ -916,19 +916,19 @@
           "minutes": 240
         }
       ],
-      "src": "sunkwi"
+      "src": "fenris"
     },
     {
       "id": "14a8ec37-ac8a-481f-bb5d-4012f00012b6",
       "name": "PoE2 ExileCon 3/4",
       "status": "ACTIVE",
-      "start_at": "2026-08-20T21:00:00Z",
+      "start_at": "2026-08-20T21:00:00.000Z",
       "end_at": "2026-08-21T20:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e46aaa04-1bbd-4b67-9dbc-ce40a7457f7c.png",
-      "details_url": "https://www.pathofexile.com/twitchdrops",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
       "game": "Path of Exile 2",
       "game_slug": "path-of-exile-2",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1702520304_IGDB-120x160.jpg",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1702520304_IGDB-285x380.jpg",
       "availability": "open",
       "required_minutes": 30,
       "reward_type": "game",
@@ -939,19 +939,19 @@
           "minutes": 30
         }
       ],
-      "src": "sunkwi"
+      "src": "fenris"
     },
     {
       "id": "8a9dd118-ea88-410a-ba60-84cb1332aad2",
       "name": "Roblox Egg Hunt",
       "status": "ACTIVE",
-      "start_at": "2026-07-29T07:30:00Z",
+      "start_at": "2026-07-29T07:30:00.000Z",
       "end_at": "2026-08-26T07:29:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/c0fba43f-a739-4fcb-a333-6307e9602e79.png",
-      "details_url": "https://help.twitch.tv/s/article/how-to-use-emotes",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
       "game": "ROBLOX",
       "game_slug": "roblox",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/23020_IGDB-120x160.jpg",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/23020_IGDB-285x380.jpg",
       "availability": "open",
       "required_minutes": 30,
       "reward_type": "platform",
@@ -962,7 +962,7 @@
           "minutes": 30
         }
       ],
-      "src": "sunkwi"
+      "src": "fenris"
     }
   ],
   "badges": [
@@ -992,6 +992,6 @@
     }
   ],
   "error": null,
-  "warn": "Fonte parcial fora do ar: twitchdrops: AttributeError",
+  "warn": "Fonte parcial fora do ar: sunkwi: HTTPError; twitchdrops: AttributeError",
   "raw_hint": null
 }
