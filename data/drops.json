@@ -1,57 +1,19 @@
 {
-  "updated_at": "2026-08-20T05:32:24Z",
+  "updated_at": "2026-08-20T05:50:45Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-20T05:32:01.302Z",
+  "source_updated": "2026-08-20T05:50:01.502Z",
   "counts": {
-    "total": 48,
-    "upcoming": 5,
-    "active": 43,
-    "game_drops": 47,
+    "total": 39,
+    "upcoming": 3,
+    "active": 36,
+    "game_drops": 38,
     "platform": 1,
     "badges": 3,
     "fechadas_descartadas": 48,
-    "fora_da_lista": 17
+    "fora_da_lista": 26
   },
   "campaigns": [
-    {
-      "id": "c2b8cc53-d155-43de-8ce0-b93c9af98b49",
-      "name": "Aug #4",
-      "status": "UPCOMING",
-      "start_at": "2026-08-20T08:00:00.000Z",
-      "end_at": "2026-08-26T23:58:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "UFL",
-      "game_slug": "ufl",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1471416868_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Enhanced CP",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/37a50579-a2e9-4886-84ff-41c5f3899ebf.png",
-          "minutes": 60
-        },
-        {
-          "name": "Urban Style Pack Lite",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b01c2e35-a1fe-45fe-b071-0d5f7bc189fb.png",
-          "minutes": 120
-        },
-        {
-          "name": "Urban Style Pack Lite",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/248c2e79-099b-4604-94c8-8305cb79b15f.png",
-          "minutes": 180
-        },
-        {
-          "name": "50 LP",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bce8ed27-303c-4ee1-9789-fcedd8deccc3.png",
-          "minutes": 240
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "89359282-f4d9-4c03-8a72-3403723b9ca4",
       "name": "Anno 117 DLC2 Launch",
@@ -75,49 +37,6 @@
         {
           "name": "Festive Alder Skin",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/32cfbba6-68a7-4764-b3c8-a5d7dc8f4f52.png",
-          "minutes": 240
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "8d87361a-b990-40cc-b3d1-764469609a0f",
-      "name": "Madden Live",
-      "status": "UPCOMING",
-      "start_at": "2026-08-20T17:00:00.000Z",
-      "end_at": "2026-08-21T16:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Madden NFL 27",
-      "game_slug": "madden-nfl-27",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/670138298_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Madden Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5405f823-78a4-461e-8ff2-96fbdddcdbc4.png",
-          "minutes": 15
-        },
-        {
-          "name": "Madden Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4836fa12-ec11-44b2-b9e4-6b8e5a04414b.png",
-          "minutes": 60
-        },
-        {
-          "name": "Madden Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cb97ea48-16c4-4692-aef8-647ed0f3ffbd.png",
-          "minutes": 120
-        },
-        {
-          "name": "Madden Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9b7d0d6e-29dc-44e1-9068-7de463f3e130.png",
-          "minutes": 180
-        },
-        {
-          "name": "Madden Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9c656c0a-120d-45d8-81ba-15bf281caa49.png",
           "minutes": 240
         }
       ],
@@ -294,29 +213,6 @@
         {
           "name": "She Who Stalks Portrait",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2516d4a0-fd12-4207-a85b-b4d255162449.png",
-          "minutes": 60
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "367aae43-df3b-4e51-ba87-207e2aa97a29",
-      "name": "August 2026",
-      "status": "ACTIVE",
-      "start_at": "2026-08-03T00:00:00Z",
-      "end_at": "2026-08-30T23:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e4338032-975c-4c52-9784-f1f8786cad78.png",
-      "details_url": "https://wolvesville.com/",
-      "game": "Wolvesville",
-      "game_slug": "wolvesville",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/615993466_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 60,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Twitch hair",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1b5b1064-ffe4-4759-a4fc-c72579ac07cd.png",
           "minutes": 60
         }
       ],
@@ -538,69 +434,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "61b3fbcd-5157-493c-abb4-c26cefd82a27",
-      "name": "Scorching Heat",
-      "status": "ACTIVE",
-      "start_at": "2026-08-08T12:00:00Z",
-      "end_at": "2026-08-22T11:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/937d82ec-3f5f-403c-886e-e327072d2fdb.png",
-      "details_url": "https://warrobotsfrontiers.com/news/336",
-      "game": "War Robots: Frontiers",
-      "game_slug": "war-robots-frontiers",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1671346441_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 270,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "2x Velite",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f33aaacf-e101-4ecb-b442-6acc2c0b1756.png",
-          "minutes": 180
-        },
-        {
-          "name": "Decker Chassis",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/04f81133-b6a0-4f3b-b7b1-99caa34587d8.png",
-          "minutes": 210
-        },
-        {
-          "name": "100 Intel",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e92c04a3-4544-485c-9216-c617745b2258.png",
-          "minutes": 240
-        },
-        {
-          "name": "Artemis Torso",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/af2d7ac3-3398-47ca-8ba6-d7c79be4d856.png",
-          "minutes": 270
-        },
-        {
-          "name": "3,000 Credits",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3f67ddfd-dace-4568-a87c-c48b04c622d1.png",
-          "minutes": 30
-        },
-        {
-          "name": "3-Day Premium Account",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2253bcac-6a72-4aba-bd55-f1522cfbd1ce.png",
-          "minutes": 60
-        },
-        {
-          "name": "15,000 Salvage",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6312cc6e-7ac5-4167-a843-39dc81b9d7b4.png",
-          "minutes": 90
-        },
-        {
-          "name": "2x Heike Shoulders",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ed342770-7f7d-4ebc-a452-8591f9cd8f7c.png",
-          "minutes": 120
-        },
-        {
-          "name": "50 Intel",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6371023f-4c07-4977-ad99-7b4a33de4205.png",
-          "minutes": 150
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "619cde1a-229c-407f-aed6-da661df62e45",
       "name": "LOY DROPS_ALL (26_AUG)",
       "status": "ACTIVE",
@@ -816,49 +649,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "1fa88c96-7965-43a7-858f-2b21f84ec0cd",
-      "name": "V7.0 Genshin Impact Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-08-12T03:00:00Z",
-      "end_at": "2026-09-01T03:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/4af9c322-9bf1-40d0-a8c6-df2811e80dbe.png",
-      "details_url": "https://act.hoyoverse.com/ys/event/e20220511twitchdrops/index.html?mhy_auth_required=true",
-      "game": "Genshin Impact",
-      "game_slug": "genshin-impact",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/513181_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 90,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Sanctifying Unction*4",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e498c800-2cf4-4573-8f13-7c658b9264ff.png",
-          "minutes": 60
-        },
-        {
-          "name": "Hero's Wit*3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/19c80b97-382d-493d-80b7-3f3abdb91d04.png",
-          "minutes": 90
-        },
-        {
-          "name": "Geodes of Replication*160",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/dc5e2f56-331b-4ee6-beb8-9a06f36d7257.png",
-          "minutes": 15
-        },
-        {
-          "name": "Primogem*20",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c3f2d97e-d444-4afb-b16c-1b16666970d1.png",
-          "minutes": 30
-        },
-        {
-          "name": "Mora*20000",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1dc1e006-ebe5-4ac8-9657-ed9d09b8bcfa.png",
-          "minutes": 45
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "d6424ef5-7715-4d65-b844-123cc4a6a0ed",
       "name": "OneState Twitch Drops",
       "status": "ACTIVE",
@@ -1019,77 +809,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "cf161ad1-2164-4cba-b1ba-fbf4404c7e75",
-      "name": "August Week 3",
-      "status": "ACTIVE",
-      "start_at": "2026-08-15T11:00:00Z",
-      "end_at": "2026-08-22T10:57:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/2f861d8d-c9a0-445f-8a5c-2cf5be8711a4.jpeg",
-      "details_url": "https://www.smite2.com/news/closed-alpha-twitch-drops/",
-      "game": "SMITE 2",
-      "game_slug": "smite-2",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2094865572-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 840,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Market Coins Bundle 7",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/043434c4-1e73-40ae-80ec-ac836737e748.jpeg",
-          "minutes": 840
-        },
-        {
-          "name": "Market Coins Bundle 2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c237f9f4-051c-4fed-b454-abb32c3e77bb.jpeg",
-          "minutes": 120
-        },
-        {
-          "name": "Market Coins Bundle 3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/32d7e22a-e073-4507-8b82-500ebb448395.jpeg",
-          "minutes": 360
-        },
-        {
-          "name": "Market Coins Bundle 4",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/620d7b83-3e6a-4d84-bb47-f04c18c57868.jpeg",
-          "minutes": 480
-        },
-        {
-          "name": "Market Coins Bundle 5",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0b8e4f8a-acdc-4e46-8a69-86f52c8bea5c.jpeg",
-          "minutes": 600
-        },
-        {
-          "name": "Market Coins Bundle 6",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3ac43663-e809-40fa-9afa-b37999ee4dac.jpeg",
-          "minutes": 720
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "29d31d9b-ae69-4a6e-ab5a-039b73a3af36",
-      "name": "JS1 Weekly 8.17",
-      "status": "ACTIVE",
-      "start_at": "2026-08-17T04:00:00Z",
-      "end_at": "2026-08-24T03:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/6a1498d4-2a69-495d-aee1-77cd69a24556.png",
-      "details_url": "https://www.narakathegame.com/news/official/20250723/32172_1249209.html",
-      "game": "NARAKA: BLADEPOINT",
-      "game_slug": "naraka-bladepoint",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/515474_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 60,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Special Random Gift",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/066c42e3-2599-4297-a7ec-25971442bdb3.png",
-          "minutes": 60
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "e7a34dde-0b5c-44cd-ac88-2525e49648fb",
       "name": "North Hunt 1.0 Release",
       "status": "ACTIVE",
@@ -1181,34 +900,6 @@
           "name": "Random Card",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/41813476-fffc-45b9-99a6-1c1517354e98.png",
           "minutes": 240
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "68383593-7831-4430-8816-ef9aeac1c937",
-      "name": "Webs Assemble - Week 4",
-      "status": "ACTIVE",
-      "start_at": "2026-08-17T21:00:00Z",
-      "end_at": "2026-08-24T20:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/00b2b1e5-f84f-44fb-9f42-3a37700131e9.png",
-      "details_url": "https://marvelstrikeforce.com/en/twitch",
-      "game": "MARVEL Strike Force",
-      "game_slug": "marvel-strike-force",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/504651_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "1M Gold",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cddf9bc7-2d79-4a9a-ab71-c05847a7503e.png",
-          "minutes": 60
-        },
-        {
-          "name": "100 L4 Training Modules",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/36c551ac-7fad-428d-9a0e-3a63458d7ba9.png",
-          "minutes": 120
         }
       ],
       "src": "sunkwi"
@@ -1412,29 +1103,6 @@
           "name": "To Eternity ",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c37b6d6f-c509-415e-b8f7-269786e417b6.jpeg",
           "minutes": 30
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "ef711c65-8009-4209-9c32-b640cd936209",
-      "name": "MrM Tools Crisis",
-      "status": "ACTIVE",
-      "start_at": "2026-08-19T12:00:00Z",
-      "end_at": "2026-08-25T11:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/4d3f7ffc-d72f-4f3e-8290-a51153b64726.png",
-      "details_url": "https://marblemanager.fun/drops",
-      "game": "Marble Racing Manager",
-      "game_slug": "marble-racing-manager",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1292861145_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 780,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Resource Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/05f50f79-0407-4ef6-b3bf-74fc155faa14.png",
-          "minutes": 60
         }
       ],
       "src": "sunkwi"
