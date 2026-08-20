@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-20T00:01:33Z",
+  "updated_at": "2026-08-20T01:47:44Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-20T00:01:01.429Z",
+  "source_updated": "2026-08-20T01:47:01.283Z",
   "counts": {
-    "total": 61,
-    "upcoming": 5,
-    "active": 56,
-    "game_drops": 60,
+    "total": 63,
+    "upcoming": 9,
+    "active": 54,
+    "game_drops": 62,
     "platform": 1,
     "badges": 3,
     "fechadas_descartadas": 49
@@ -52,6 +52,29 @@
       "src": "fenris"
     },
     {
+      "id": "6ab4ff02-5621-43d1-9151-10fdfac9f6ac",
+      "name": "Radiant Wilds 19 - #4/7",
+      "status": "UPCOMING",
+      "start_at": "2026-08-20T10:00:00.000Z",
+      "end_at": "2026-08-21T09:29:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Albion Online",
+      "game_slug": "albion-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Radiant Wilds Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
+          "minutes": 180
+        }
+      ],
+      "src": "fenris"
+    },
+    {
       "id": "89359282-f4d9-4c03-8a72-3403723b9ca4",
       "name": "Anno 117 DLC2 Launch",
       "status": "UPCOMING",
@@ -75,29 +98,6 @@
           "name": "Festive Alder Skin",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/32cfbba6-68a7-4764-b3c8-a5d7dc8f4f52.png",
           "minutes": 240
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "6ab4ff02-5621-43d1-9151-10fdfac9f6ac",
-      "name": "Radiant Wilds 19 - #4/7",
-      "status": "UPCOMING",
-      "start_at": "2026-08-20T10:00:00.000Z",
-      "end_at": "2026-08-21T09:29:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Albion Online",
-      "game_slug": "albion-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Radiant Wilds Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
-          "minutes": 180
         }
       ],
       "src": "fenris"
@@ -149,6 +149,118 @@
           "name": "Twitch Container 15.7",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c688c557-0381-41c1-afca-b90345a96f63.png",
           "minutes": 180
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "8d87361a-b990-40cc-b3d1-764469609a0f",
+      "name": "Madden Live",
+      "status": "UPCOMING",
+      "start_at": "2026-08-20T17:00:00.000Z",
+      "end_at": "2026-08-21T16:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Madden NFL 27",
+      "game_slug": "madden-nfl-27",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/670138298_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Madden Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5405f823-78a4-461e-8ff2-96fbdddcdbc4.png",
+          "minutes": 15
+        },
+        {
+          "name": "Madden Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4836fa12-ec11-44b2-b9e4-6b8e5a04414b.png",
+          "minutes": 60
+        },
+        {
+          "name": "Madden Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cb97ea48-16c4-4692-aef8-647ed0f3ffbd.png",
+          "minutes": 120
+        },
+        {
+          "name": "Madden Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9b7d0d6e-29dc-44e1-9068-7de463f3e130.png",
+          "minutes": 180
+        },
+        {
+          "name": "Madden Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9c656c0a-120d-45d8-81ba-15bf281caa49.png",
+          "minutes": 240
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "803ec8ca-3b7d-4cd3-b911-5567d5b9eaaf",
+      "name": "Mobile Drop 133",
+      "status": "UPCOMING",
+      "start_at": "2026-08-20T17:59:00.000Z",
+      "end_at": "2026-08-21T17:56:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Rise Online",
+      "game_slug": "rise-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Regalia of Awakening",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
+          "minutes": 240
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "2343c36b-f08b-4ad9-9583-146c4956a108",
+      "name": "S12 DROPS TOKEN EVENT",
+      "status": "UPCOMING",
+      "start_at": "2026-08-20T20:00:00.000Z",
+      "end_at": "2026-08-21T19:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Eternal Return",
+      "game_slug": "eternal-return",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/512864_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Drops Token",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
+          "minutes": 60
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "14a8ec37-ac8a-481f-bb5d-4012f00012b6",
+      "name": "PoE2 ExileCon 3/4",
+      "status": "UPCOMING",
+      "start_at": "2026-08-20T21:00:00.000Z",
+      "end_at": "2026-08-21T20:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Path of Exile 2",
+      "game_slug": "path-of-exile-2",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1702520304_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 30,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Coliseum Helm Attachment",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/638ce6db-d8e3-411c-bebd-bb6224c82fbf.png",
+          "minutes": 30
         }
       ],
       "src": "fenris"
@@ -944,49 +1056,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "851e0e49-33b0-45e7-a069-5870f925fe01",
-      "name": "Aug #3",
-      "status": "ACTIVE",
-      "start_at": "2026-08-13T08:00:00Z",
-      "end_at": "2026-08-19T23:58:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/00e002cd-72d3-4fd2-af97-83e56558ad18.png",
-      "details_url": "https://portal.uflgame.com/twitch/drops",
-      "game": "UFL",
-      "game_slug": "ufl",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1471416868_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 300,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Enhanced CP",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f286d78a-f567-4d52-b0ef-b0e0769cb279.png",
-          "minutes": 60
-        },
-        {
-          "name": "Pre-season pack lite",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7a9db4e0-2780-40ed-9897-8fea5dfbf8cb.png",
-          "minutes": 120
-        },
-        {
-          "name": "Pre-season pack lite",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b79ca5d2-5633-4147-a1eb-cf59a971bbe3.png",
-          "minutes": 180
-        },
-        {
-          "name": "Pre-season pack lite",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/15b7a5ec-b050-4c56-80f0-953c55c0f190.png",
-          "minutes": 240
-        },
-        {
-          "name": "50 LP",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/81a59f85-e933-43a3-ad6b-87e8c96645b3.png",
-          "minutes": 300
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "d6424ef5-7715-4d65-b844-123cc4a6a0ed",
       "name": "OneState Twitch Drops",
       "status": "ACTIVE",
@@ -1623,29 +1692,6 @@
         {
           "name": "Highland Tammy",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/873fc11d-783d-4f4d-bbca-a69d874e9434.png",
-          "minutes": 180
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "754a882e-4c93-44cd-950c-8c02f282bef0",
-      "name": "August Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-08-19T00:00:00Z",
-      "end_at": "2026-08-19T23:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/51123570-4080-4a7b-aab3-5e2015a8c6b4.png",
-      "details_url": "https://www.quinfall.com/twitch-drops",
-      "game": "The Quinfall",
-      "game_slug": "the-quinfall",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Twitch Reward Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
           "minutes": 180
         }
       ],
