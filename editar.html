@@ -123,28 +123,6 @@ button.b.primaria:disabled{opacity:.4;cursor:default;background:var(--purple)}
 button.b.fantasma{border:1px solid var(--line);color:var(--dim)}
 button.b.fantasma:hover{border-color:var(--purple);color:var(--txt)}
 
-/* ---------- conectar ---------- */
-.modal{
-  position:fixed;inset:0;z-index:100;display:grid;place-items:center;
-  background:rgba(0,0,0,.72); backdrop-filter:blur(4px); padding:18px;
-}
-.modal[hidden]{display:none}
-.modal .cx{
-  background:var(--panel);border:1px solid var(--line);border-radius:16px;
-  padding:26px; max-width:520px; width:100%;
-}
-.modal h3{margin:0 0 6px;font-size:19px}
-.modal p{color:var(--dim);font-size:13.5px;margin:0 0 14px}
-.modal ol{color:var(--dim);font-size:13.5px;padding-left:20px;margin:0 0 16px}
-.modal li{margin-bottom:7px}
-.modal code{background:var(--panel2);padding:2px 6px;border-radius:5px;font-size:12.5px;color:var(--purple-lt)}
-.modal a{color:var(--purple-lt)}
-.modal input{
-  width:100%;background:var(--panel2);border:1px solid var(--line);border-radius:10px;
-  color:var(--txt);font:inherit;padding:12px 14px;margin-bottom:12px;
-}
-.modal input:focus{outline:none;border-color:var(--purple)}
-.nota{color:var(--faint);font-size:12px;margin-top:14px;line-height:1.55}
 
 .vazio{color:var(--faint);font-size:13.5px;padding:6px 0}
 .aviso-topo{
@@ -167,7 +145,6 @@ button.b.fantasma:hover{border-color:var(--purple);color:var(--txt)}
       <h1>Bloquear jogos <span class="rx">·</span> <span class="rx">Drops Radar</span></h1>
       <p class="sub">O que estiver aqui some do radar, do miviye.com e o bot nunca faz live.</p>
     </div>
-    <button class="b fantasma" id="btn-sair" hidden>Esquecer este dispositivo</button>
   </div>
 </header>
 
@@ -200,27 +177,6 @@ button.b.fantasma:hover{border-color:var(--purple);color:var(--txt)}
   </div>
 </div>
 
-<div class="modal" id="modal" hidden>
-  <div class="cx">
-    <h3>Conectar este dispositivo</h3>
-    <p>Pra <strong>salvar</strong> é preciso um token do GitHub. Ele fica guardado só
-       neste navegador — a página não manda ele pra lugar nenhum além do próprio GitHub.</p>
-    <ol>
-      <li>Abra <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">github.com/settings/personal-access-tokens/new</a></li>
-      <li>Em <em>Repository access</em>, escolha <strong>Only select repositories</strong> → <code>xguestext/Drops</code></li>
-      <li>Em <em>Permissions → Repository → Contents</em>, marque <strong>Read and write</strong></li>
-      <li>Gere e cole aqui embaixo</li>
-    </ol>
-    <input id="token" type="password" autocomplete="off" placeholder="github_pat_…">
-    <div class="acoes">
-      <button class="b fantasma" id="btn-cancelar">Agora não</button>
-      <button class="b primaria" id="btn-conectar">Conectar</button>
-    </div>
-    <p class="nota">Dá pra usar a página sem token só pra <em>ver</em> a lista.
-       Use um token só pra este repositório: se vazar, não serve pra mais nada.</p>
-  </div>
-</div>
-
 <script>
 (function(){
 "use strict";
@@ -230,8 +186,6 @@ var ARQUIVO = "jogos-fora.txt";
 var BRANCH = "main";
 var RAW = "https://raw.githubusercontent.com/" + REPO + "/" + BRANCH + "/" + ARQUIVO;
 var FEED = "https://xguestext.github.io/Drops/data/drops.json";
-var API = "https://api.github.com/repos/" + REPO + "/contents/" + ARQUIVO;
-var CHAVE_TOKEN = "drops_editar_token";
 
 var $ = function(id){ return document.getElementById(id); };
 
@@ -241,8 +195,7 @@ var estado = {
   bloqueadosOriginais: [],
   bloqueados: [],    // nomes como o dono escreveu
   jogosFeed: [],     // [{nome, capa, minutos, ativo}]
-  token: localStorage.getItem(CHAVE_TOKEN) || "",
-  salvando: false,
+  enviado: false,
   selecionado: -1
 };
 
@@ -359,10 +312,9 @@ function desenhar(){
   }
 
   var mudou = JSON.stringify(estado.bloqueados) !== JSON.stringify(estado.bloqueadosOriginais);
-  $("btn-salvar").disabled = !mudou || estado.salvando;
-  $("btn-desfazer").disabled = !mudou || estado.salvando;
-  $("btn-sair").hidden = !estado.token;
-  if (!estado.salvando){
+  $("btn-salvar").disabled = !mudou;
+  $("btn-desfazer").disabled = !mudou;
+  {
     if (mudou) dizer("Você mudou a lista — clique em Salvar.", "aviso");
     else dizer(estado.bloqueados.length + " jogos bloqueados. Tudo salvo.", "ok");
   }
@@ -434,79 +386,44 @@ function montarTexto(linhas){
     if (saida.length && saida[saida.length-1].trim()) saida.push("");
     novos.forEach(function(n){ saida.push(n); });
   }
-  return saida.join("\n").replace(/\s+$/, "") + "\n";
+  return saida.join("
+").replace(/\s+$/, "") + "
+";
 }
 
-function b64(texto){
-  var bytes = new TextEncoder().encode(texto), bin = "";
-  for (var i=0;i<bytes.length;i++) bin += String.fromCharCode(bytes[i]);
-  return btoa(bin);
-}
-function deB64(b){
-  var bin = atob((b || "").replace(/\n/g, ""));
-  var bytes = new Uint8Array(bin.length);
-  for (var i=0;i<bin.length;i++) bytes[i] = bin.charCodeAt(i);
-  return new TextDecoder("utf-8").decode(bytes);
-}
-function cab(){
-  return {
-    "Authorization": "Bearer " + estado.token,
-    "Accept": "application/vnd.github+json",
-    "X-GitHub-Api-Version": "2022-11-28",
-    "Content-Type": "application/json"
-  };
-}
+// Salvar = abrir o GitHub com tudo pronto, e o dono só confirma.
+//
+// Nada de token colado no navegador: ele já fica logado no github.com em
+// qualquer computador, então a página monta a lista, joga num "issue" pronto,
+// e um robô do próprio repositório grava no arquivo e fecha a issue.
+function salvar(){
+  var texto = montarTexto(estado.linhas);
+  var corpo = "Lista nova vinda da tela de bloqueio. "
+            + "É só enviar — o robô grava no arquivo e fecha isto sozinho.
 
-function salvar(segundaTentativa){
-  if (!estado.token){ $("modal").hidden = false; $("token").focus(); return; }
-  estado.salvando = true;
-  $("btn-salvar").disabled = true;
-  dizer(segundaTentativa ? "Alguém salvou antes — refazendo…" : "Salvando…");
+"
+            + "```txt
+" + texto + "```";
+  var url = "https://github.com/" + REPO + "/issues/new"
+          + "?title=" + encodeURIComponent("[jogos-fora] " + estado.bloqueados.length + " jogos")
+          + "&body=" + encodeURIComponent(corpo);
 
-  // Sempre relê antes de escrever: outro computador (ou o bot) pode ter mudado.
-  fetch(API + "?ref=" + BRANCH + "&t=" + Date.now(), {headers: cab(), cache:"no-store"})
-    .then(function(r){
-      if (r.status === 401 || r.status === 403) throw new Error("token sem permissão de escrita neste repositório");
-      if (!r.ok) throw new Error("não consegui ler o arquivo (HTTP " + r.status + ")");
-      return r.json();
-    })
-    .then(function(d){
-      var linhasRemotas = deB64(d.content).split(/\r?\n/);
-      var texto = montarTexto(linhasRemotas);
-      return fetch(API, {
-        method: "PUT",
-        headers: cab(),
-        body: JSON.stringify({
-          message: "jogos-fora: " + estado.bloqueados.length + " jogos (editado pela web)",
-          content: b64(texto),
-          branch: BRANCH,
-          sha: d.sha
-        })
-      }).then(function(r){
-        if (r.status === 409 || r.status === 422){
-          if (segundaTentativa) throw new Error("conflito ao salvar — recarregue a página");
-          return {conflito:true};
-        }
-        if (r.status === 401 || r.status === 403) throw new Error("token sem permissão de escrita neste repositório");
-        if (!r.ok) return r.text().then(function(t){ throw new Error("HTTP " + r.status + " — " + t.slice(0,110)); });
-        return r.json().then(function(){ return {texto: texto}; });
-      });
-    })
-    .then(function(res){
-      estado.salvando = false;
-      if (res.conflito){ return salvar(true); }
-      estado.linhas = res.texto.split(/\r?\n/);
-      estado.bloqueadosOriginais = estado.bloqueados.slice();
-      desenhar();
-      var h = new Date().toLocaleTimeString("pt-BR", {hour:"2-digit", minute:"2-digit"});
-      dizer("Salvo às " + h + " · o site e o bot pegam em até 1 minuto.", "ok");
-    })
-    .catch(function(e){
-      estado.salvando = false;
-      desenhar();
-      dizer("Não salvou: " + e.message, "erro");
-      if (/permiss/.test(e.message)) $("modal").hidden = false;
-    });
+  if (url.length > 7800){
+    dizer("A lista ficou grande demais pra caber no link. Tire alguns jogos ou edite direto no GitHub.", "erro");
+    return;
+  }
+
+  var aba = window.open(url, "_blank", "noopener");
+  if (!aba){
+    dizer("O navegador bloqueou a aba. Libere pop-ups pra este site e clique de novo.", "erro");
+    return;
+  }
+  // A partir daqui o dono confirma no GitHub. Marcamos como enviado pra a tela
+  // parar de dizer "não salvo", mas avisando que falta o clique lá.
+  estado.bloqueadosOriginais = estado.bloqueados.slice();
+  estado.enviado = true;
+  desenhar();
+  dizer("Abri o GitHub numa aba. Clique em “Create” lá e pronto — o site e o bot pegam em ~1 min.", "ok");
 }
 
 // ---------- eventos ----------
@@ -534,27 +451,10 @@ document.addEventListener("click", function(e){
   if (!e.target.closest(".busca")) $("sugestoes").innerHTML = "";
 });
 
-$("btn-salvar").onclick = function(){ salvar(false); };
+$("btn-salvar").onclick = function(){ salvar(); };
 $("btn-desfazer").onclick = function(){
   estado.bloqueados = estado.bloqueadosOriginais.slice();
   desenhar();
-};
-$("btn-conectar").onclick = function(){
-  var t = $("token").value.trim();
-  if (!t) return;
-  estado.token = t;
-  localStorage.setItem(CHAVE_TOKEN, t);
-  $("token").value = "";
-  $("modal").hidden = true;
-  desenhar();
-  dizer("Dispositivo conectado. Pode salvar.", "ok");
-};
-$("btn-cancelar").onclick = function(){ $("modal").hidden = true; };
-$("btn-sair").onclick = function(){
-  localStorage.removeItem(CHAVE_TOKEN);
-  estado.token = "";
-  desenhar();
-  dizer("Token esquecido neste dispositivo. Você ainda pode ver a lista.", "aviso");
 };
 window.addEventListener("beforeunload", function(e){
   if (JSON.stringify(estado.bloqueados) !== JSON.stringify(estado.bloqueadosOriginais)){
@@ -568,10 +468,8 @@ dizer("Carregando…");
 Promise.all([carregarArquivo(), carregarFeed()])
   .then(function(){
     desenhar();
-    if (!estado.token){
-      $("aviso").hidden = false;
-      $("aviso").textContent = "Você está só vendo a lista. Pra salvar, conecte este dispositivo — o botão Salvar pede o token.";
-    }
+    $("aviso").hidden = false;
+    $("aviso").textContent = "Mexa à vontade. Ao clicar em Salvar, abre uma aba do GitHub com tudo pronto — é só confirmar lá.";
   })
   .catch(function(e){
     dizer("Não consegui carregar a lista: " + e.message, "erro");
