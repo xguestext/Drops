@@ -1,41 +1,18 @@
 {
-  "updated_at": "2026-08-19T23:45:48Z",
+  "updated_at": "2026-08-20T00:01:33Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-19T23:45:01.523Z",
+  "source_updated": "2026-08-20T00:01:01.429Z",
   "counts": {
     "total": 61,
-    "upcoming": 6,
-    "active": 55,
+    "upcoming": 5,
+    "active": 56,
     "game_drops": 60,
     "platform": 1,
     "badges": 3,
     "fechadas_descartadas": 49
   },
   "campaigns": [
-    {
-      "id": "edd85c20-2cce-4674-aebd-fe295618a68b",
-      "name": "August Drops",
-      "status": "UPCOMING",
-      "start_at": "2026-08-20T00:00:00.000Z",
-      "end_at": "2026-08-20T23:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "The Quinfall",
-      "game_slug": "the-quinfall",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Twitch Reward Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
-          "minutes": 180
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "c2b8cc53-d155-43de-8ce0-b93c9af98b49",
       "name": "Aug #4",
@@ -2059,6 +2036,29 @@
           "name": "Uncommon+ Pack [1 Player]",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png",
           "minutes": 300
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "edd85c20-2cce-4674-aebd-fe295618a68b",
+      "name": "August Drops",
+      "status": "ACTIVE",
+      "start_at": "2026-08-20T00:00:00Z",
+      "end_at": "2026-08-20T23:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d14bea18-9604-417b-adc7-2067c7d24029.png",
+      "details_url": "https://www.quinfall.com/twitch-drops",
+      "game": "The Quinfall",
+      "game_slug": "the-quinfall",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Twitch Reward Chest",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
+          "minutes": 180
         }
       ],
       "src": "sunkwi"
