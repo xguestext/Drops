@@ -1,19 +1,57 @@
 {
-  "updated_at": "2026-08-20T08:31:58Z",
+  "updated_at": "2026-08-20T09:08:34Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-20T08:31:01.330Z",
+  "source_updated": "2026-08-20T09:08:01.423Z",
   "counts": {
-    "total": 39,
-    "upcoming": 3,
+    "total": 40,
+    "upcoming": 4,
     "active": 36,
-    "game_drops": 38,
+    "game_drops": 39,
     "platform": 1,
     "badges": 3,
     "fechadas_descartadas": 50,
     "fora_da_lista": 26
   },
   "campaigns": [
+    {
+      "id": "caafff3e-0899-45cb-8937-d64a70f811a6",
+      "name": "V9.0 Special Drops",
+      "status": "UPCOMING",
+      "start_at": "2026-08-20T10:00:00.000Z",
+      "end_at": "2026-09-17T09:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Honkai Impact 3rd",
+      "game_slug": "honkai-impact-3rd",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/506230_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Stamina Potion*1",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/dcdebbe1-2c09-4831-a713-4c3fdbe512ad.jpeg",
+          "minutes": 15
+        },
+        {
+          "name": "Phase Shifter*1",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3bb9c19d-4d85-4cbb-b6c1-7f5cd0f120e2.jpeg",
+          "minutes": 30
+        },
+        {
+          "name": "Asterite*1500",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7fd1b062-a6cf-4a95-a8bb-4c3e01e0661c.jpeg",
+          "minutes": 60
+        },
+        {
+          "name": "Crystal*120",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/59d90596-0bb4-4b35-8eca-73c1dda58212.jpeg",
+          "minutes": 180
+        }
+      ],
+      "src": "fenris"
+    },
     {
       "id": "89359282-f4d9-4c03-8a72-3403723b9ca4",
       "name": "Anno 117 DLC2 Launch",
