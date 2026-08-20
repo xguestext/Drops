@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-20T20:40:55Z",
+  "updated_at": "2026-08-20T21:11:41Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-20T20:40:01.537Z",
+  "source_updated": "2026-08-20T21:11:01.553Z",
   "counts": {
     "total": 25,
-    "upcoming": 1,
-    "active": 24,
+    "upcoming": 0,
+    "active": 25,
     "game_drops": 24,
     "platform": 1,
     "badges": 3,
@@ -14,29 +14,6 @@
     "fora_da_lista": 44
   },
   "campaigns": [
-    {
-      "id": "14a8ec37-ac8a-481f-bb5d-4012f00012b6",
-      "name": "PoE2 ExileCon 3/4",
-      "status": "UPCOMING",
-      "start_at": "2026-08-20T21:00:00.000Z",
-      "end_at": "2026-08-21T20:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Path of Exile 2",
-      "game_slug": "path-of-exile-2",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1702520304_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 30,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Coliseum Helm Attachment",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/638ce6db-d8e3-411c-bebd-bb6224c82fbf.png",
-          "minutes": 30
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "2942d78f-12d2-49ca-918d-4b9ab8e28842",
       "name": "Egg",
@@ -937,6 +914,29 @@
           "name": "Meteor Tip",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/118d093a-5d46-4b97-a540-f00ff73d482f.png",
           "minutes": 240
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "14a8ec37-ac8a-481f-bb5d-4012f00012b6",
+      "name": "PoE2 ExileCon 3/4",
+      "status": "ACTIVE",
+      "start_at": "2026-08-20T21:00:00Z",
+      "end_at": "2026-08-21T20:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e46aaa04-1bbd-4b67-9dbc-ce40a7457f7c.png",
+      "details_url": "https://www.pathofexile.com/twitchdrops",
+      "game": "Path of Exile 2",
+      "game_slug": "path-of-exile-2",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1702520304_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 30,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Coliseum Helm Attachment",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/638ce6db-d8e3-411c-bebd-bb6224c82fbf.png",
+          "minutes": 30
         }
       ],
       "src": "sunkwi"
