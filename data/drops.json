@@ -1,42 +1,19 @@
 {
-  "updated_at": "2026-08-20T18:12:22Z",
+  "updated_at": "2026-08-20T18:13:26Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-20T18:12:02.512Z",
+  "source_updated": "2026-08-20T18:13:01.826Z",
   "counts": {
-    "total": 43,
-    "upcoming": 5,
-    "active": 38,
-    "game_drops": 42,
+    "total": 26,
+    "upcoming": 1,
+    "active": 25,
+    "game_drops": 25,
     "platform": 1,
     "badges": 3,
     "fechadas_descartadas": 50,
-    "fora_da_lista": 28
+    "fora_da_lista": 45
   },
   "campaigns": [
-    {
-      "id": "2343c36b-f08b-4ad9-9583-146c4956a108",
-      "name": "S12 DROPS TOKEN EVENT",
-      "status": "UPCOMING",
-      "start_at": "2026-08-20T20:00:00.000Z",
-      "end_at": "2026-08-21T19:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Eternal Return",
-      "game_slug": "eternal-return",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/512864_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Drops Token",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
-          "minutes": 60
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "14a8ec37-ac8a-481f-bb5d-4012f00012b6",
       "name": "PoE2 ExileCon 3/4",
@@ -61,100 +38,6 @@
       "src": "fenris"
     },
     {
-      "id": "f71b3371-9776-4f55-83cd-30cd361c3932",
-      "name": "GOALS - 21st of August",
-      "status": "UPCOMING",
-      "start_at": "2026-08-20T22:01:00.000Z",
-      "end_at": "2026-08-21T21:58:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "GOALS",
-      "game_slug": "goals",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/951160620_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 360,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Common+ Pack [1 Player]",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82a4b7fe-7458-4b59-b909-ebc30fc91521.png",
-          "minutes": 60
-        },
-        {
-          "name": "Uncommon+ Pack [1 Player]",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png",
-          "minutes": 300
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "b49a2708-8099-4652-bd7d-10965780d9e3",
-      "name": "Fortnite Reload @ EWC - 2",
-      "status": "UPCOMING",
-      "start_at": "2026-08-21T09:30:00.000Z",
-      "end_at": "2026-08-23T03:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Fortnite",
-      "game_slug": "fortnite",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/33214-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 30,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Reload Championship Spray",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/70e968dc-435f-4452-b00a-addba80a723a.png",
-          "minutes": 30
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "df0838e1-a16a-4fe0-be28-244370365ade",
-      "name": "Early Access Launch Week",
-      "status": "UPCOMING",
-      "start_at": "2026-08-21T16:00:00.000Z",
-      "end_at": "2026-08-28T15:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Clickbait Tycoon",
-      "game_slug": "clickbait-tycoon",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/769327879_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Streamer Tee",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e9319db7-6558-4b7f-b9d5-1eb4269f1978.png",
-          "minutes": 15
-        },
-        {
-          "name": "Streambook Pro",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e5b64f4e-a5e8-4c4f-9679-58c218604a99.png",
-          "minutes": 30
-        },
-        {
-          "name": "The Streamer's Brew",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/adc214a3-91e8-48a6-9b7d-e5a8f6c2ae1e.png",
-          "minutes": 60
-        },
-        {
-          "name": "Streambound Vole",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4013ef01-a48b-4438-b047-dfe07d14be46.png",
-          "minutes": 120
-        },
-        {
-          "name": "Live on Twitch Article",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/42c52f9e-b534-424f-8c2c-01cbf9edc852.png",
-          "minutes": 180
-        }
-      ],
-      "src": "fenris"
-    },
-    {
       "id": "2942d78f-12d2-49ca-918d-4b9ab8e28842",
       "name": "Egg",
       "status": "ACTIVE",
@@ -172,62 +55,6 @@
         {
           "name": "Egg",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7077ca58-fe67-4a0d-aad9-24c8388d9ddc.png",
-          "minutes": 0
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "0a24bd2b-839f-46e4-8c5e-3f0a3e77413f",
-      "name": "Rust Charity '26 Turret",
-      "status": "ACTIVE",
-      "start_at": "2026-07-29T14:00:00Z",
-      "end_at": "2026-08-26T13:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/51910958-6e71-4228-a154-5d5a5cd3340c.png",
-      "details_url": "https://twitch.facepunch.com/",
-      "game": "Rust",
-      "game_slug": "rust",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/263490_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Rust Charity '26 Turret",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/214a6978-61bd-4e92-8927-0d0b686c1edb.jpeg",
-          "minutes": 120
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "f70b949c-942b-47fc-9d8a-1bebfc726035",
-      "name": "Sponge Break Launch",
-      "status": "ACTIVE",
-      "start_at": "2026-07-30T17:00:00Z",
-      "end_at": "2026-08-20T23:58:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/5e0570c6-5310-4224-8d64-d3295b790e1e.png",
-      "details_url": "https://balorgames.com/news/a/sponge-break-launch-rewards",
-      "game": "Sponge Break",
-      "game_slug": "sponge-break",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1128471876_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Capybara Buoy",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3afc2c02-b629-4d3f-bf2f-2f618a18be9d.png",
-          "minutes": 240
-        },
-        {
-          "name": "Soccer Buoy",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3d43017f-2c4d-43ff-bacc-67aed8f7fc6b.png",
-          "minutes": 120
-        },
-        {
-          "name": "Golden Plunger",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/927fc328-9310-4b34-bcd9-ed129c7e8e0e.png",
           "minutes": 0
         }
       ],
@@ -285,49 +112,6 @@
           "name": "Vectron Colette EM4 Mount",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/749f71d7-3489-4c5c-b03b-5bbf645675d0.jpeg",
           "minutes": 300
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "e982effc-fdba-4a19-8104-edbbbcb2887d",
-      "name": "August 2026 Twitch Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-08-05T08:00:00Z",
-      "end_at": "2026-08-26T07:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/6fcb18aa-6641-4482-b6af-2e2f14f03683.png",
-      "details_url": "https://sonicrumble.sega.com/special/twitch-drops/en/",
-      "game": "Sonic Rumble Party",
-      "game_slug": "sonic-rumble",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1814419969_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "EX Gear (Storm)*1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9e13570a-828d-4612-b96d-401d91e58e3e.png",
-          "minutes": 15
-        },
-        {
-          "name": "EX Gear (Wave)*1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f9c0e179-0dea-429d-aefa-6acf815c892f.png",
-          "minutes": 30
-        },
-        {
-          "name": "EX Gear (Vector)*1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5636c22d-1d98-4d7b-b68a-00b54a9fd4f3.png",
-          "minutes": 60
-        },
-        {
-          "name": "EX Gear (Cream)*1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9c725d86-8134-4f7b-bb9b-c1b6ce03ffa8.png",
-          "minutes": 90
-        },
-        {
-          "name": "Red Star Ring*100",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e6359372-eed3-4a1d-9958-81831aa4f61d.png",
-          "minutes": 120
         }
       ],
       "src": "sunkwi"
@@ -613,29 +397,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "8ac3cc4f-870f-4f72-a6e7-f9aebd1f8d5a",
-      "name": "Sorcerer's Grassy Garb",
-      "status": "ACTIVE",
-      "start_at": "2026-08-11T17:00:00Z",
-      "end_at": "2026-09-08T16:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/947bb6bc-4b0e-47f2-8112-c6d61fb59962.png",
-      "details_url": "https://worldofwarcraft.blizzard.com/en-us/news/24294371/twitch-drop-get-the-ensemble-sorcerers-grassy-garb-transmog-august-11",
-      "game": "World of Warcraft",
-      "game_slug": "world-of-warcraft",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/18122-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Sorcerer's Grassy Garb",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d50b1598-9275-4c98-be82-922e9a8a5a86.png",
-          "minutes": 240
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "b3bf7ef1-3d9a-4438-8ef9-9fd6f8e92e26",
       "name": "Global Launch Welcome Kit",
       "status": "ACTIVE",
@@ -725,29 +486,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "9bdebdf9-91c0-4ebb-a929-95861608d905",
-      "name": "Demo Release 0.3",
-      "status": "ACTIVE",
-      "start_at": "2026-08-13T13:00:00Z",
-      "end_at": "2026-09-10T12:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/00ed5118-e545-4a7a-89a6-0d66122ac937.jpeg",
-      "details_url": "https://docs.google.com/document/d/1FELkhrUW6rpww1ksFqGXZOY37lrpZ0p3SZ6e30AgBPI/edit?usp=sharing",
-      "game": "Cash is King!",
-      "game_slug": "cash-is-king",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1979426071_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 15,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Dance Elite 2000",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6b1b5d8c-1793-4f18-bd00-3e8dbeff1e95.png",
-          "minutes": 15
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "c5aae2bf-004d-405e-8bc2-9ac433a3ae08",
       "name": "Spider-Man",
       "status": "ACTIVE",
@@ -799,107 +537,6 @@
           "name": "Golden Steampunk Hat",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/975163f2-ff06-40fd-b4b1-3c934e7acf0f.png",
           "minutes": 240
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "afb8d33e-065a-4096-8935-3a3e0c0abf3a",
-      "name": "August Week 3",
-      "status": "ACTIVE",
-      "start_at": "2026-08-14T17:00:00Z",
-      "end_at": "2026-08-21T16:44:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/default.png",
-      "details_url": "https://kid.kabam.com/v1/kid/account/login",
-      "game": "MARVEL Contest of Champions",
-      "game_slug": "marvel-contest-of-champions",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/461221_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Drop 1 - NW3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a23015fa-27a2-4f18-904d-5a401ea948d9.png",
-          "minutes": 30
-        },
-        {
-          "name": "Drop 2 - NW3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/16a1ad0a-5080-4f25-a5d3-046e32c22195.png",
-          "minutes": 60
-        },
-        {
-          "name": "Drop 3 - NW3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2414c8b7-4754-4e64-8376-b2c74d1b3a8f.png",
-          "minutes": 90
-        },
-        {
-          "name": "Drop 4 - NW3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/35eaf6ab-b4f6-445d-bba6-1f1bebc219fa.png",
-          "minutes": 120
-        },
-        {
-          "name": "Drop 5 - NW3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d6f11d51-a78c-4752-a41f-95b914e399c7.png",
-          "minutes": 180
-        },
-        {
-          "name": "Drop 6 - NW3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/27898765-3336-42eb-9337-2f009ac3b659.png",
-          "minutes": 240
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "e7a34dde-0b5c-44cd-ac88-2525e49648fb",
-      "name": "North Hunt 1.0 Release",
-      "status": "ACTIVE",
-      "start_at": "2026-08-17T05:00:00Z",
-      "end_at": "2026-09-06T23:29:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a4872483-d98a-4684-bf98-0185fba345b5.png",
-      "details_url": "https://newgen-studio.com",
-      "game": "North Hunt",
-      "game_slug": "north-hunt",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/378188687_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 90,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Whistle02",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/be2c9012-416e-41fa-8ef5-39e74e2db6ef.png",
-          "minutes": 15
-        },
-        {
-          "name": "CharacterSkin015",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/44dd08ca-b73b-4469-993c-9f26b81de003.jpeg",
-          "minutes": 15
-        },
-        {
-          "name": "Spray01",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/76614258-2454-4a27-b7f0-163912cab65f.png",
-          "minutes": 15
-        },
-        {
-          "name": "VictoryEmote01",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/72b38db2-c2be-4a87-b7fd-db3d69882ab3.png",
-          "minutes": 60
-        },
-        {
-          "name": "Emote02",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4c5971ea-9da9-421d-86ea-40b59f394358.png",
-          "minutes": 60
-        },
-        {
-          "name": "CharacterSkin014",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/78d4551e-aadd-49c4-8346-d4c5468de680.jpeg",
-          "minutes": 60
-        },
-        {
-          "name": "CharacterSkin01",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4606b211-7040-48fe-b436-ee88e430bbc6.png",
-          "minutes": 90
         }
       ],
       "src": "sunkwi"
@@ -1047,49 +684,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "40771db8-64a0-4ffe-905e-0ebf4499a2a8",
-      "name": "NTE Twitch Drops Event",
-      "status": "ACTIVE",
-      "start_at": "2026-08-19T02:00:00Z",
-      "end_at": "2026-08-31T17:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/6eda4b6c-01c3-444f-9fe9-3cab2fc3396a.jpeg",
-      "details_url": "https://nte.perfectworld.com/net/260819twitch/index.html",
-      "game": "NTE: Neverness to Everness",
-      "game_slug": "neverness-to-everness",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1901865180_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Elite Hunter Guide ×2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/54a5e918-8851-41df-bcdb-42e960e87d7a.png",
-          "minutes": 15
-        },
-        {
-          "name": "Chaotic Dye ×2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f72116fc-ad5a-431e-a341-b046c76829bc.png",
-          "minutes": 30
-        },
-        {
-          "name": "Fons ×50,000",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fd74acc2-e80b-4d46-8ea0-e99c42e7a1e5.png",
-          "minutes": 60
-        },
-        {
-          "name": "De-noise Solution ×1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6f7f4fa3-b501-4a3e-b01a-b0b739183b12.png",
-          "minutes": 90
-        },
-        {
-          "name": "Annulith ×50",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5c27b026-b9e9-44b3-985e-4c6ec877f513.png",
-          "minutes": 120
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "ac46850b-745e-45d2-b7b3-494c17e30127",
       "name": "26.8 Summer Event",
       "status": "ACTIVE",
@@ -1123,29 +717,6 @@
           "name": "1 Sunshine Lucky Bag",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/06c64380-5cad-4454-8e59-d891109068e9.jpeg",
           "minutes": 120
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "c1a4ab24-0904-46aa-ab3b-a32503064e6f",
-      "name": "Fortnite Reload @ EWC",
-      "status": "ACTIVE",
-      "start_at": "2026-08-19T12:00:00Z",
-      "end_at": "2026-08-21T03:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d4ded64c-da9d-463c-853f-148fd4eb36ac.jpeg",
-      "details_url": "https://www.fortnite.com/twitch-drops",
-      "game": "Fortnite",
-      "game_slug": "fortnite",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/33214-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 30,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "To Eternity ",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c37b6d6f-c509-415e-b8f7-269786e417b6.jpeg",
-          "minutes": 30
         }
       ],
       "src": "sunkwi"
@@ -1188,100 +759,6 @@
         {
           "name": "Advanced Cooking - Select",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c84f1365-3d46-4e83-8132-6aa8da8b359f.png",
-          "minutes": 300
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "42fa626c-57c5-45f0-88fe-25e29819cd62",
-      "name": "Brawlhalla Q&B Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-08-19T14:00:00Z",
-      "end_at": "2026-09-09T03:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/fae9dd4b-242f-4090-9898-876d4ef19f4e.png",
-      "details_url": "https://www.ubisoft.com/en-us/help/connectivity-and-performance/article/information-about-twitch-drops-for-ubisoft-games/000065532#:~:text=You%20can%20earn%20in%2Dgame,stream%20from%20a%20participating%20channel.",
-      "game": "Brawlhalla",
-      "game_slug": "brawlhalla",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/460316_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Artemis Esports",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/604e2cca-e50e-4baa-a54d-d01d454b9334.png",
-          "minutes": 30
-        },
-        {
-          "name": "Fait CCv2 Color",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6fe3e5ae-1762-4e00-9aff-306fa9ff6de9.png",
-          "minutes": 60
-        },
-        {
-          "name": "Priya CCv2 Color",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ee0218a8-cf46-4849-81c3-90cdd55394a0.png",
-          "minutes": 120
-        },
-        {
-          "name": "Ragnir CCv2 Color",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/35108d60-a445-45e8-853b-dd3058228f5d.png",
-          "minutes": 180
-        },
-        {
-          "name": "Qinghua & BaoBao CCv2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bf4273cb-9d97-44f2-b60e-94ff64523eca.png",
-          "minutes": 240
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "2dc87bb3-af91-4984-a64e-4a356f3035fb",
-      "name": "S12 DROPS TOKEN EVENT",
-      "status": "ACTIVE",
-      "start_at": "2026-08-19T20:00:00Z",
-      "end_at": "2026-08-20T19:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/3393ef06-cf4e-4a6e-8aaf-79253c600fcc.png",
-      "details_url": "https://twitch.playeternalreturn.com/",
-      "game": "Eternal Return",
-      "game_slug": "eternal-return",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/512864_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Drops Token",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
-          "minutes": 60
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "951f07ff-15f8-484b-a833-46465dcee64d",
-      "name": "GOALS - 20th of August",
-      "status": "ACTIVE",
-      "start_at": "2026-08-19T22:01:00Z",
-      "end_at": "2026-08-20T21:58:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/50ee4416-87df-4893-95db-aa7163bfa51f.png",
-      "details_url": "https://playgoals.com/twitch-drops",
-      "game": "GOALS",
-      "game_slug": "goals",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/951160620_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 360,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Common+ Pack [1 Player]",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82a4b7fe-7458-4b59-b909-ebc30fc91521.png",
-          "minutes": 60
-        },
-        {
-          "name": "Uncommon+ Pack [1 Player]",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png",
           "minutes": 300
         }
       ],
@@ -1483,109 +960,6 @@
           "name": "Meteor Tip",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/118d093a-5d46-4b97-a540-f00ff73d482f.png",
           "minutes": 240
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "5962e6db-1fad-416b-acf4-e14537fbb249",
-      "name": "Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-08-20T15:29:55Z",
-      "end_at": "2026-08-22T10:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d2a24df7-1849-4868-9c3b-7d620d996b7e.png",
-      "details_url": "https://huntclubonstream.lovable.app/legal",
-      "game": "Hunt Club On Stream",
-      "game_slug": "hunt-club-on-stream",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2097881176_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 900,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Hunting Bronze Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e161beb4-1b29-4111-9157-46998164cc56.png",
-          "minutes": 60
-        },
-        {
-          "name": "Fishing Bronze Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f2483ed6-caca-4982-832b-30a5788da2a3.png",
-          "minutes": 60
-        },
-        {
-          "name": "Hunting Silver Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c4ddccc8-db23-4340-8ee5-c7575da873c9.png",
-          "minutes": 120
-        },
-        {
-          "name": "Fishing Silver Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba14718d-6cf5-4a25-9700-a7519603b571.png",
-          "minutes": 120
-        },
-        {
-          "name": "Hunting Gold Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/87a1284b-9471-4b76-92f3-1202af94c2e6.png",
-          "minutes": 360
-        },
-        {
-          "name": "Fishing Gold Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/51cc6079-9e26-478e-b010-ebe250c9c28d.png",
-          "minutes": 360
-        },
-        {
-          "name": "Hunting Epic Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7b186897-73e8-4934-aedc-87108a6fd854.png",
-          "minutes": 600
-        },
-        {
-          "name": "Fishing Epic Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f4b13e63-2abe-4d63-9984-2cb5ddda4735.png",
-          "minutes": 600
-        },
-        {
-          "name": "Hunting Random Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d71ed699-e335-4b36-aa07-08f9468620e5.png",
-          "minutes": 900
-        },
-        {
-          "name": "Fishing Random Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2f407975-b01a-400c-b3bb-01196c8ab130.png",
-          "minutes": 900
-        },
-        {
-          "name": "Butterfly Garden Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e539f4ef-c845-412b-b6f9-da131843dc66.png",
-          "minutes": 900
-        },
-        {
-          "name": "Bird Watching Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/811c4820-6a79-4059-ad96-7ae19cba321d.png",
-          "minutes": 900
-        },
-        {
-          "name": "Gold Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c21cec4b-555b-4584-99c0-e215ab2556c6.png",
-          "minutes": 900
-        },
-        {
-          "name": "Gifted Sub Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ef6bcb63-d8a4-43c9-bf4e-1caf36bc997d.png",
-          "minutes": 0
-        },
-        {
-          "name": "Fishing Legendary Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/dffd0a91-125a-4a6d-a136-348971b519c1.png",
-          "minutes": 0
-        },
-        {
-          "name": "Hunting Legendary Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4e55f494-532a-47f9-b5e9-5357dd697909.png",
-          "minutes": 0
-        },
-        {
-          "name": "Albino/Mythic Token",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6f9bc227-65e2-4bae-98be-e646470922cf.png",
-          "minutes": 0
         }
       ],
       "src": "sunkwi"
