@@ -8,7 +8,8 @@ separando **item de jogo** de **badge/emote/plataforma**.
   - **drops de item:** [sunkwi](https://twitch-drops-api.sunkwi.com/) (ativos) + [fenris](https://twitch-drops.fenrisapps.com/campaigns) (em breve) + [twitchdrops.app](https://twitchdrops.app/) (preenche lacunas). Fundidas por id + chave difusa (jogo+dia).
   - **badges chegando:** [streamdatabase.com/events](https://www.streamdatabase.com/events) (eventos de badge global — categoria à parte dos drops).
   - Motivo de várias fontes: cada agregador espelha a GQL da Twitch mas **perde campanhas diferentes**; juntando, o site fica mais completo. Nenhuma fonte pública antecede a Twitch (a origem é a GQL dela).
-- **Checador** (`checker.py`): roda no **GitHub Actions** a cada 30 min, filtra e escreve `data/drops.json`.
+- **Checador** (`checker.py`): roda no **GitHub Actions** a cada 10 min, filtra e escreve `data/drops.json`.
+  Antes de escrever ele obedece o [`jogos-fora.txt`](jogos-fora.txt) (veja abaixo).
 - **Site** (`index.html`): página única, sem build, lê o JSON e se atualiza sozinha a cada 5 min.
 - Hospedado no **GitHub Pages** → abre de qualquer PC.
 
@@ -27,6 +28,23 @@ separando **item de jogo** de **badge/emote/plataforma**.
 
 Não precisa de nenhum segredo/token. (Se você tinha criado o secret `TWITCH_OAUTH` numa versão
 anterior, pode apagar — não é mais usado.)
+
+---
+
+## Jogos que eu nao quero ver
+
+Abra o **[`jogos-fora.txt`](jogos-fora.txt)** aqui no GitHub, clique no lapis, escreva o nome do
+jogo numa linha nova e salve. So isso, de qualquer PC ou do celular.
+
+- Basta um pedaco do nome: `black desert` tira o *Black Desert Online* junto.
+- Nao precisa acento, maiuscula nem pontuacao certa.
+- Linha comecando com `#` e recado, o robo pula.
+
+Salvou, o robo roda na hora (o workflow escuta esse arquivo) e em ~1 minuto o jogo sumiu do
+radar, do `data/drops.json`, do site **miviye.com/games** e dos avisos do `alerta_drops.py`.
+Mudou de ideia? Apague a linha e ele volta na proxima rodada.
+
+O `counts.fora_da_lista` no JSON diz quantas campanhas a lista cortou na ultima passada.
 
 ---
 

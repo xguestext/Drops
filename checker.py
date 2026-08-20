@@ -22,6 +22,7 @@ import json
 import os
 import re
 import html
+import unicodedata
 import datetime
 import urllib.request
 import urllib.error
@@ -30,6 +31,10 @@ SUNKWI = "https://twitch-drops-api.sunkwi.com/v2/drops"
 FENRIS = "https://twitch-drops.fenrisapps.com/campaigns"
 TWITCHDROPS = "https://twitchdrops.app/"
 STREAMDB = "https://www.streamdatabase.com/events"
+# lista de jogos que eu nao quero ver, editavel pelo proprio github de
+# qualquer PC. Um jogo por linha, "#" e comentario.
+FORA_ARQ = os.path.join(os.path.dirname(os.path.abspath(__file__)), "jogos-fora.txt")
+FORA_URL = "https://raw.githubusercontent.com/xguestext/Drops/main/jogos-fora.txt"
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) drops-radar/2.0"}
 
 PLATFORM_HINTS = ("badge", "emote", "emoticon", "subscri", "sub token",
@@ -63,6 +68,49 @@ def fuzzy_key(c):
     g = re.sub(r"[^a-z0-9]", "", (c.get("game") or "").lower())
     d = (c.get("start_at") or "")[:10]
     return (g, d)
+
+
+# ---------------- a lista de fora ----------------
+
+def _chave_jogo(t):
+    """Minuscula, sem acento e sem pontuacao: assim "Metin 2" e "Metin2"
+    viram a mesma coisa, e "black desert" casa dentro de "Black Desert
+    Online"."""
+    t = unicodedata.normalize("NFD", str(t or "").lower())
+    t = "".join(c for c in t if not unicodedata.combining(c))
+    return re.sub(r"[^a-z0-9]", "", t)
+
+
+def carrega_fora():
+    """Le o jogos-fora.txt e devolve as chaves ja normalizadas.
+
+    No GitHub Actions o repo acabou de ser clonado, entao o arquivo do disco
+    e a verdade. Rodando em casa (alerta_drops.py) o clone pode estar velho,
+    entao pega a versao publicada e so cai no disco se faltar rede.
+    """
+    texto = None
+    if not os.environ.get("GITHUB_ACTIONS"):
+        try:
+            texto = fetch(FORA_URL, as_json=False)
+        except Exception:
+            texto = None
+    if texto is None:
+        try:
+            with open(FORA_ARQ, encoding="utf-8") as f:
+                texto = f.read()
+        except OSError:
+            return []
+    fora = []
+    for linha in texto.splitlines():
+        k = _chave_jogo(linha.split("#", 1)[0])
+        if k:
+            fora.append(k)
+    return fora
+
+
+def esta_fora(nome, fora):
+    k = _chave_jogo(nome)
+    return bool(k) and any(f in k for f in fora)
 
 
 # ---------------- fonte 1: sunkwi (ativos) ----------------
@@ -332,6 +380,15 @@ def coletar(incluir_badges=True):
         except Exception as e:
             erros.append("streamdatabase(badges): %s" % type(e).__name__)
 
+    # 5) a lista da casa. Some aqui na origem, entao o jogo nao entra no
+    #    JSON e desaparece de uma vez do radar, do site e do alerta.
+    fora, n_fora = carrega_fora(), 0
+    if fora:
+        antes = len(camps) + len(badges)
+        camps = [c for c in camps if not esta_fora(c.get("game") or c.get("name"), fora)]
+        badges = [b for b in badges if not esta_fora(b.get("title"), fora)]
+        n_fora = antes - len(camps) - len(badges)
+
     order_status = {"UPCOMING": 0, "ACTIVE": 1}
     camps.sort(key=lambda c: (
         order_status.get(c["status"], 2),
@@ -339,7 +396,7 @@ def coletar(incluir_badges=True):
         c.get("start_at") or "",
     ))
     return {"camps": camps, "badges": badges, "fechadas": fechadas_ids,
-            "erros": erros, "source_updated": src_upd}
+            "erros": erros, "source_updated": src_upd, "fora": n_fora}
 
 
 def main():
@@ -369,6 +426,7 @@ def main():
         "platform": sum(1 for c in camps if c["reward_type"] == "platform"),
         "badges": len(result["badges"]),
         "fechadas_descartadas": len(fechadas_ids),
+        "fora_da_lista": col.get("fora", 0),
     }
     write(result)
 

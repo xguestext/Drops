@@ -3,6 +3,9 @@ name: Atualizar drops
 on:
   schedule:
     - cron: "*/10 * * * *"   # a cada 10 min (horário UTC)
+  push:
+    branches: [main]
+    paths: ["jogos-fora.txt"]  # mexeu na lista de jogos, limpa o radar na hora
   workflow_dispatch: {}       # botão "Run workflow" pra rodar na hora
 
 permissions:
