@@ -1,0 +1,583 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<title>Bloquear jogos — Drops Radar</title>
+<style>
+:root{
+  --bg:#0d0d10; --panel:#17171b; --panel2:#1d1d23; --line:#2a2a32;
+  --txt:#efeff1; --dim:#b0b0bb; --faint:#787885;
+  --purple:#9147ff; --purple-lt:#c9a6ff; --blue:#3ea6ff;
+  --green:#2ec16a; --amber:#f0a83c; --red:#ff5c5c;
+  --radius:14px;
+  --font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  background:var(--bg); color:var(--txt); font-family:var(--font);
+  font-size:15px; line-height:1.5; -webkit-font-smoothing:antialiased;
+  padding:0 0 64px;
+}
+.wrap{max-width:940px;margin:0 auto;padding:0 18px}
+
+/* ---------- topo ---------- */
+header{
+  border-bottom:1px solid var(--line); background:linear-gradient(180deg,#141419,transparent);
+  padding:26px 0 20px; margin-bottom:26px;
+}
+h1{font-size:26px;margin:0 0 4px;letter-spacing:-.4px}
+h1 .rx{color:var(--purple-lt)}
+.sub{color:var(--faint);font-size:13.5px;margin:0}
+.topo-linha{display:flex;align-items:flex-start;gap:16px;flex-wrap:wrap;justify-content:space-between}
+
+/* ---------- cartões ---------- */
+.card{
+  background:var(--panel); border:1px solid var(--line); border-radius:var(--radius);
+  padding:20px; margin-bottom:20px;
+}
+.card h2{
+  font-size:13px; text-transform:uppercase; letter-spacing:.09em;
+  color:var(--faint); margin:0 0 14px; font-weight:600;
+}
+.card h2 .n{color:var(--purple-lt); font-variant-numeric:tabular-nums}
+
+/* ---------- chips ---------- */
+.chips{display:flex;flex-wrap:wrap;gap:9px}
+.chip{
+  display:inline-flex;align-items:center;gap:9px;
+  background:var(--panel2); border:1px solid var(--line); border-radius:999px;
+  padding:8px 8px 8px 15px; font-size:14px; max-width:100%;
+}
+.chip span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.chip button{
+  all:unset; cursor:pointer; width:22px;height:22px; flex:none;
+  display:grid;place-items:center; border-radius:50%;
+  color:var(--faint); font-size:15px; line-height:1; transition:.14s;
+}
+.chip button:hover{background:var(--red);color:#fff}
+.chip button:focus-visible{outline:2px solid var(--purple-lt);outline-offset:2px}
+.chip.novo{border-color:var(--green);box-shadow:0 0 0 1px rgba(46,193,106,.25)}
+.chip.saindo{opacity:.4;text-decoration:line-through}
+
+/* ---------- busca ---------- */
+.busca{position:relative;margin-bottom:16px}
+.busca input{
+  width:100%; background:var(--panel2); border:1px solid var(--line);
+  border-radius:11px; color:var(--txt); font:inherit; padding:13px 15px;
+}
+.busca input:focus{outline:none;border-color:var(--purple);box-shadow:0 0 0 3px rgba(145,71,255,.16)}
+.busca input::placeholder{color:var(--faint)}
+.sug{
+  position:absolute;left:0;right:0;top:calc(100% + 6px); z-index:20;
+  background:var(--panel2); border:1px solid var(--line); border-radius:11px;
+  max-height:290px; overflow:auto; box-shadow:0 18px 40px rgba(0,0,0,.55);
+}
+.sug:empty{display:none}
+.sug div{
+  padding:11px 15px; cursor:pointer; display:flex; align-items:center;
+  gap:10px; justify-content:space-between; border-bottom:1px solid rgba(255,255,255,.04);
+}
+.sug div:last-child{border-bottom:0}
+.sug div:hover,.sug div.sel{background:rgba(145,71,255,.16)}
+.sug .ja{color:var(--faint);font-size:12px;flex:none}
+.sug .livre{color:var(--green);font-size:12px;flex:none}
+
+/* ---------- lista de drops ativos ---------- */
+.grade{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:11px}
+.jogo{
+  display:flex;align-items:center;gap:11px; background:var(--panel2);
+  border:1px solid var(--line); border-radius:11px; padding:10px 11px;
+}
+.jogo img{width:34px;height:46px;object-fit:cover;border-radius:5px;background:#000;flex:none}
+.jogo .nome{flex:1;min-width:0;font-size:13.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.jogo .meta{display:block;color:var(--faint);font-size:11.5px}
+.jogo button{
+  all:unset;cursor:pointer;flex:none; font-size:12px; font-weight:600;
+  padding:7px 11px; border-radius:8px; border:1px solid var(--line);
+  color:var(--dim); transition:.14s;
+}
+.jogo button:hover{background:var(--red);border-color:var(--red);color:#fff}
+.jogo button:focus-visible{outline:2px solid var(--purple-lt);outline-offset:2px}
+
+/* ---------- barra de salvar ---------- */
+.barra{
+  position:fixed;left:0;right:0;bottom:0; z-index:50;
+  background:rgba(13,13,16,.93); backdrop-filter:blur(10px);
+  border-top:1px solid var(--line); padding:12px 0;
+}
+.barra .wrap{display:flex;align-items:center;gap:14px;flex-wrap:wrap;justify-content:space-between}
+.status{font-size:13.5px;color:var(--dim);min-height:20px;flex:1;min-width:180px}
+.status.ok{color:var(--green)} .status.erro{color:var(--red)} .status.aviso{color:var(--amber)}
+.acoes{display:flex;gap:10px;align-items:center}
+button.b{
+  all:unset;cursor:pointer;font:inherit;font-weight:600;font-size:14px;
+  padding:11px 20px;border-radius:10px;transition:.14s;text-align:center;
+}
+button.b:focus-visible{outline:2px solid var(--purple-lt);outline-offset:2px}
+button.b.primaria{background:var(--purple);color:#fff}
+button.b.primaria:hover{background:#a163ff}
+button.b.primaria:disabled{opacity:.4;cursor:default;background:var(--purple)}
+button.b.fantasma{border:1px solid var(--line);color:var(--dim)}
+button.b.fantasma:hover{border-color:var(--purple);color:var(--txt)}
+
+/* ---------- conectar ---------- */
+.modal{
+  position:fixed;inset:0;z-index:100;display:grid;place-items:center;
+  background:rgba(0,0,0,.72); backdrop-filter:blur(4px); padding:18px;
+}
+.modal[hidden]{display:none}
+.modal .cx{
+  background:var(--panel);border:1px solid var(--line);border-radius:16px;
+  padding:26px; max-width:520px; width:100%;
+}
+.modal h3{margin:0 0 6px;font-size:19px}
+.modal p{color:var(--dim);font-size:13.5px;margin:0 0 14px}
+.modal ol{color:var(--dim);font-size:13.5px;padding-left:20px;margin:0 0 16px}
+.modal li{margin-bottom:7px}
+.modal code{background:var(--panel2);padding:2px 6px;border-radius:5px;font-size:12.5px;color:var(--purple-lt)}
+.modal a{color:var(--purple-lt)}
+.modal input{
+  width:100%;background:var(--panel2);border:1px solid var(--line);border-radius:10px;
+  color:var(--txt);font:inherit;padding:12px 14px;margin-bottom:12px;
+}
+.modal input:focus{outline:none;border-color:var(--purple)}
+.nota{color:var(--faint);font-size:12px;margin-top:14px;line-height:1.55}
+
+.vazio{color:var(--faint);font-size:13.5px;padding:6px 0}
+.aviso-topo{
+  background:rgba(240,168,60,.1);border:1px solid rgba(240,168,60,.32);
+  color:var(--amber);border-radius:11px;padding:11px 15px;font-size:13.5px;margin-bottom:20px;
+}
+@media (max-width:560px){
+  h1{font-size:22px}
+  .card{padding:16px}
+  .barra .wrap{gap:10px}
+  button.b{flex:1}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap topo-linha">
+    <div>
+      <h1>Bloquear jogos <span class="rx">·</span> <span class="rx">Drops Radar</span></h1>
+      <p class="sub">O que estiver aqui some do radar, do miviye.com e o bot nunca faz live.</p>
+    </div>
+    <button class="b fantasma" id="btn-sair" hidden>Esquecer este dispositivo</button>
+  </div>
+</header>
+
+<div class="wrap">
+  <div id="aviso" class="aviso-topo" hidden></div>
+
+  <div class="card">
+    <h2>Bloqueados <span class="n" id="contador">—</span></h2>
+    <div class="busca">
+      <input id="entrada" autocomplete="off" spellcheck="false"
+             placeholder="Digite um jogo pra bloquear… (ou escolha da lista)">
+      <div class="sug" id="sugestoes"></div>
+    </div>
+    <div class="chips" id="chips"></div>
+  </div>
+
+  <div class="card">
+    <h2>Drops rolando agora <span class="n" id="contador-livres">—</span></h2>
+    <div class="grade" id="livres"></div>
+  </div>
+</div>
+
+<div class="barra">
+  <div class="wrap">
+    <div class="status" id="status">Carregando…</div>
+    <div class="acoes">
+      <button class="b fantasma" id="btn-desfazer" disabled>Desfazer</button>
+      <button class="b primaria" id="btn-salvar" disabled>Salvar</button>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="modal" hidden>
+  <div class="cx">
+    <h3>Conectar este dispositivo</h3>
+    <p>Pra <strong>salvar</strong> é preciso um token do GitHub. Ele fica guardado só
+       neste navegador — a página não manda ele pra lugar nenhum além do próprio GitHub.</p>
+    <ol>
+      <li>Abra <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">github.com/settings/personal-access-tokens/new</a></li>
+      <li>Em <em>Repository access</em>, escolha <strong>Only select repositories</strong> → <code>xguestext/Drops</code></li>
+      <li>Em <em>Permissions → Repository → Contents</em>, marque <strong>Read and write</strong></li>
+      <li>Gere e cole aqui embaixo</li>
+    </ol>
+    <input id="token" type="password" autocomplete="off" placeholder="github_pat_…">
+    <div class="acoes">
+      <button class="b fantasma" id="btn-cancelar">Agora não</button>
+      <button class="b primaria" id="btn-conectar">Conectar</button>
+    </div>
+    <p class="nota">Dá pra usar a página sem token só pra <em>ver</em> a lista.
+       Use um token só pra este repositório: se vazar, não serve pra mais nada.</p>
+  </div>
+</div>
+
+<script>
+(function(){
+"use strict";
+
+var REPO = "xguestext/Drops";
+var ARQUIVO = "jogos-fora.txt";
+var BRANCH = "main";
+var RAW = "https://raw.githubusercontent.com/" + REPO + "/" + BRANCH + "/" + ARQUIVO;
+var FEED = "https://xguestext.github.io/Drops/data/drops.json";
+var API = "https://api.github.com/repos/" + REPO + "/contents/" + ARQUIVO;
+var CHAVE_TOKEN = "drops_editar_token";
+
+var $ = function(id){ return document.getElementById(id); };
+
+var estado = {
+  linhas: [],        // o arquivo inteiro, linha a linha (comentários incluídos)
+  sha: null,
+  bloqueadosOriginais: [],
+  bloqueados: [],    // nomes como o dono escreveu
+  jogosFeed: [],     // [{nome, capa, minutos, ativo}]
+  token: localStorage.getItem(CHAVE_TOKEN) || "",
+  salvando: false,
+  selecionado: -1
+};
+
+// Mesma normalização do robô (checker.py `_chave_jogo`): minúscula, sem acento,
+// sem nada que não seja letra ou número. Assim a tela mostra exatamente o mesmo
+// veredito que o radar vai aplicar — "Metin" pega "Metin 2" e "Metin2".
+function chave(t){
+  return (t || "").toLowerCase()
+    .normalize("NFD").replace(/[̀-ͯ]/g, "")
+    .replace(/[^a-z0-9]/g, "");
+}
+// Igual ao `esta_fora`: casa por trecho, não por igualdade.
+function estaBloqueado(nome, lista){
+  var k = chave(nome);
+  if (!k) return false;
+  return lista.some(function(b){ var kb = chave(b); return kb && k.indexOf(kb) !== -1; });
+}
+function eJogo(linha){
+  var s = (linha || "").trim();
+  return !!s && s.charAt(0) !== "#";
+}
+function dizer(msg, tipo){
+  var el = $("status");
+  el.textContent = msg;
+  el.className = "status" + (tipo ? " " + tipo : "");
+}
+function esc(s){
+  return String(s).replace(/[&<>"']/g, function(c){
+    return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];
+  });
+}
+
+// ---------- carregar ----------
+
+function carregarArquivo(){
+  return fetch(RAW + "?t=" + Date.now(), {cache:"no-store"})
+    .then(function(r){ if(!r.ok) throw new Error("HTTP " + r.status); return r.text(); })
+    .then(function(texto){
+      estado.linhas = texto.split(/\r?\n/);
+      estado.bloqueados = estado.linhas.filter(eJogo).map(function(l){ return l.trim(); });
+      estado.bloqueadosOriginais = estado.bloqueados.slice();
+    });
+}
+
+function carregarFeed(){
+  return fetch(FEED + "?t=" + Date.now(), {cache:"no-store"})
+    .then(function(r){ if(!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+    .then(function(d){
+      var vistos = {}, saida = [];
+      (d.campaigns || []).forEach(function(c){
+        var nome = (c.game || "").trim();
+        if (!nome) return;
+        var k = chave(nome);
+        if (vistos[k]) return;
+        vistos[k] = 1;
+        saida.push({
+          nome: nome,
+          capa: c.game_box || "",
+          minutos: c.required_minutes || 0,
+          ativo: (c.status || "").toUpperCase() === "ACTIVE"
+        });
+      });
+      saida.sort(function(a,b){ return a.nome.localeCompare(b.nome); });
+      estado.jogosFeed = saida;
+    })
+    .catch(function(){
+      // Sem o feed a página ainda funciona: perde só a lista pronta e a capa.
+      estado.jogosFeed = [];
+      $("livres").innerHTML = '<div class="vazio">Não consegui ler a lista de drops agora. '
+        + 'Você ainda pode digitar o nome do jogo à mão ali em cima.</div>';
+    });
+}
+
+// ---------- desenhar ----------
+
+function desenhar(){
+  var chips = $("chips");
+  chips.innerHTML = "";
+  if (!estado.bloqueados.length){
+    chips.innerHTML = '<div class="vazio">Nenhum jogo bloqueado ainda.</div>';
+  }
+  estado.bloqueados.forEach(function(nome){
+    var novo = estado.bloqueadosOriginais.indexOf(nome) === -1;
+    var d = document.createElement("div");
+    d.className = "chip" + (novo ? " novo" : "");
+    d.innerHTML = '<span>' + esc(nome) + '</span>'
+      + '<button type="button" title="Desbloquear ' + esc(nome) + '" aria-label="Desbloquear ' + esc(nome) + '">×</button>';
+    d.querySelector("button").onclick = function(){ remover(nome); };
+    chips.appendChild(d);
+  });
+  $("contador").textContent = estado.bloqueados.length;
+
+  var livres = estado.jogosFeed.filter(function(j){
+    return j.ativo && !estaBloqueado(j.nome, estado.bloqueados);
+  });
+  var cx = $("livres");
+  if (estado.jogosFeed.length){
+    cx.innerHTML = "";
+    if (!livres.length){
+      cx.innerHTML = '<div class="vazio">Todos os drops de agora já estão bloqueados.</div>';
+    }
+    livres.forEach(function(j){
+      var el = document.createElement("div");
+      el.className = "jogo";
+      var capa = j.capa ? '<img src="' + esc(j.capa) + '" alt="" loading="lazy" onerror="this.remove()">' : "";
+      var min = j.minutos ? Math.round(j.minutos/60*10)/10 + "h assistindo" : "";
+      el.innerHTML = capa
+        + '<div class="nome">' + esc(j.nome) + '<span class="meta">' + esc(min) + '</span></div>'
+        + '<button type="button">Bloquear</button>';
+      el.querySelector("button").onclick = function(){ adicionar(j.nome); };
+      cx.appendChild(el);
+    });
+    $("contador-livres").textContent = livres.length;
+  }
+
+  var mudou = JSON.stringify(estado.bloqueados) !== JSON.stringify(estado.bloqueadosOriginais);
+  $("btn-salvar").disabled = !mudou || estado.salvando;
+  $("btn-desfazer").disabled = !mudou || estado.salvando;
+  $("btn-sair").hidden = !estado.token;
+  if (!estado.salvando){
+    if (mudou) dizer("Você mudou a lista — clique em Salvar.", "aviso");
+    else dizer(estado.bloqueados.length + " jogos bloqueados. Tudo salvo.", "ok");
+  }
+}
+
+// ---------- editar ----------
+
+function adicionar(nome){
+  nome = (nome || "").trim();
+  if (!nome) return;
+  if (estado.bloqueados.some(function(b){ return chave(b) === chave(nome); })) return;
+  estado.bloqueados.push(nome);
+  $("entrada").value = "";
+  sugerir("");
+  desenhar();
+}
+function remover(nome){
+  estado.bloqueados = estado.bloqueados.filter(function(b){ return b !== nome; });
+  desenhar();
+}
+
+function sugerir(termo){
+  var cx = $("sugestoes");
+  estado.selecionado = -1;
+  termo = (termo || "").trim();
+  if (!termo){ cx.innerHTML = ""; return; }
+  var k = chave(termo);
+  var achados = estado.jogosFeed.filter(function(j){ return chave(j.nome).indexOf(k) !== -1; }).slice(0, 8);
+  cx.innerHTML = "";
+  achados.forEach(function(j){
+    var ja = estaBloqueado(j.nome, estado.bloqueados);
+    var d = document.createElement("div");
+    d.innerHTML = '<span>' + esc(j.nome) + '</span>'
+      + (ja ? '<span class="ja">já bloqueado</span>' : '<span class="livre">bloquear</span>');
+    if (!ja) d.onclick = function(){ adicionar(j.nome); };
+    else d.style.opacity = ".5";
+    cx.appendChild(d);
+  });
+  // Nome que não está no feed também vale: o dono bloqueia trechos de propósito.
+  var exato = estado.jogosFeed.some(function(j){ return chave(j.nome) === k; });
+  if (!exato){
+    var d2 = document.createElement("div");
+    d2.innerHTML = '<span>Bloquear "<strong>' + esc(termo) + '</strong>"</span>'
+      + '<span class="livre">texto livre</span>';
+    d2.onclick = function(){ adicionar(termo); };
+    cx.appendChild(d2);
+  }
+}
+
+// ---------- salvar ----------
+
+// Reconstrói o arquivo preservando comentários, ordem e linhas em branco.
+// Só as linhas de jogo mudam: as removidas somem de onde estavam, as novas
+// entram no fim. O cabeçalho de instruções do dono nunca é tocado.
+function montarTexto(linhas){
+  var manter = {}, vistos = {};
+  estado.bloqueados.forEach(function(b){ manter[chave(b)] = b; });
+  var saida = [];
+  linhas.forEach(function(l){
+    if (eJogo(l)){
+      var k = chave(l);
+      if (manter[k] && !vistos[k]){ vistos[k] = 1; saida.push(l.replace(/\s+$/, "")); }
+    } else {
+      saida.push(l.replace(/\s+$/, ""));
+    }
+  });
+  var novos = estado.bloqueados.filter(function(b){ return !vistos[chave(b)]; });
+  if (novos.length){
+    if (saida.length && saida[saida.length-1].trim()) saida.push("");
+    novos.forEach(function(n){ saida.push(n); });
+  }
+  return saida.join("\n").replace(/\s+$/, "") + "\n";
+}
+
+function b64(texto){
+  var bytes = new TextEncoder().encode(texto), bin = "";
+  for (var i=0;i<bytes.length;i++) bin += String.fromCharCode(bytes[i]);
+  return btoa(bin);
+}
+function deB64(b){
+  var bin = atob((b || "").replace(/\n/g, ""));
+  var bytes = new Uint8Array(bin.length);
+  for (var i=0;i<bin.length;i++) bytes[i] = bin.charCodeAt(i);
+  return new TextDecoder("utf-8").decode(bytes);
+}
+function cab(){
+  return {
+    "Authorization": "Bearer " + estado.token,
+    "Accept": "application/vnd.github+json",
+    "X-GitHub-Api-Version": "2022-11-28",
+    "Content-Type": "application/json"
+  };
+}
+
+function salvar(segundaTentativa){
+  if (!estado.token){ $("modal").hidden = false; $("token").focus(); return; }
+  estado.salvando = true;
+  $("btn-salvar").disabled = true;
+  dizer(segundaTentativa ? "Alguém salvou antes — refazendo…" : "Salvando…");
+
+  // Sempre relê antes de escrever: outro computador (ou o bot) pode ter mudado.
+  fetch(API + "?ref=" + BRANCH + "&t=" + Date.now(), {headers: cab(), cache:"no-store"})
+    .then(function(r){
+      if (r.status === 401 || r.status === 403) throw new Error("token sem permissão de escrita neste repositório");
+      if (!r.ok) throw new Error("não consegui ler o arquivo (HTTP " + r.status + ")");
+      return r.json();
+    })
+    .then(function(d){
+      var linhasRemotas = deB64(d.content).split(/\r?\n/);
+      var texto = montarTexto(linhasRemotas);
+      return fetch(API, {
+        method: "PUT",
+        headers: cab(),
+        body: JSON.stringify({
+          message: "jogos-fora: " + estado.bloqueados.length + " jogos (editado pela web)",
+          content: b64(texto),
+          branch: BRANCH,
+          sha: d.sha
+        })
+      }).then(function(r){
+        if (r.status === 409 || r.status === 422){
+          if (segundaTentativa) throw new Error("conflito ao salvar — recarregue a página");
+          return {conflito:true};
+        }
+        if (r.status === 401 || r.status === 403) throw new Error("token sem permissão de escrita neste repositório");
+        if (!r.ok) return r.text().then(function(t){ throw new Error("HTTP " + r.status + " — " + t.slice(0,110)); });
+        return r.json().then(function(){ return {texto: texto}; });
+      });
+    })
+    .then(function(res){
+      estado.salvando = false;
+      if (res.conflito){ return salvar(true); }
+      estado.linhas = res.texto.split(/\r?\n/);
+      estado.bloqueadosOriginais = estado.bloqueados.slice();
+      desenhar();
+      var h = new Date().toLocaleTimeString("pt-BR", {hour:"2-digit", minute:"2-digit"});
+      dizer("Salvo às " + h + " · o site e o bot pegam em até 1 minuto.", "ok");
+    })
+    .catch(function(e){
+      estado.salvando = false;
+      desenhar();
+      dizer("Não salvou: " + e.message, "erro");
+      if (/permiss/.test(e.message)) $("modal").hidden = false;
+    });
+}
+
+// ---------- eventos ----------
+
+$("entrada").addEventListener("input", function(){ sugerir(this.value); });
+$("entrada").addEventListener("keydown", function(e){
+  var itens = $("sugestoes").children;
+  if (e.key === "ArrowDown" || e.key === "ArrowUp"){
+    e.preventDefault();
+    if (!itens.length) return;
+    if (estado.selecionado >= 0) itens[estado.selecionado].classList.remove("sel");
+    estado.selecionado += (e.key === "ArrowDown" ? 1 : -1);
+    if (estado.selecionado < 0) estado.selecionado = itens.length - 1;
+    if (estado.selecionado >= itens.length) estado.selecionado = 0;
+    itens[estado.selecionado].classList.add("sel");
+  } else if (e.key === "Enter"){
+    e.preventDefault();
+    if (estado.selecionado >= 0 && itens[estado.selecionado]) itens[estado.selecionado].click();
+    else adicionar(this.value);
+  } else if (e.key === "Escape"){
+    this.value = ""; sugerir("");
+  }
+});
+document.addEventListener("click", function(e){
+  if (!e.target.closest(".busca")) $("sugestoes").innerHTML = "";
+});
+
+$("btn-salvar").onclick = function(){ salvar(false); };
+$("btn-desfazer").onclick = function(){
+  estado.bloqueados = estado.bloqueadosOriginais.slice();
+  desenhar();
+};
+$("btn-conectar").onclick = function(){
+  var t = $("token").value.trim();
+  if (!t) return;
+  estado.token = t;
+  localStorage.setItem(CHAVE_TOKEN, t);
+  $("token").value = "";
+  $("modal").hidden = true;
+  desenhar();
+  dizer("Dispositivo conectado. Pode salvar.", "ok");
+};
+$("btn-cancelar").onclick = function(){ $("modal").hidden = true; };
+$("btn-sair").onclick = function(){
+  localStorage.removeItem(CHAVE_TOKEN);
+  estado.token = "";
+  desenhar();
+  dizer("Token esquecido neste dispositivo. Você ainda pode ver a lista.", "aviso");
+};
+window.addEventListener("beforeunload", function(e){
+  if (JSON.stringify(estado.bloqueados) !== JSON.stringify(estado.bloqueadosOriginais)){
+    e.preventDefault(); e.returnValue = "";
+  }
+});
+
+// ---------- início ----------
+
+dizer("Carregando…");
+Promise.all([carregarArquivo(), carregarFeed()])
+  .then(function(){
+    desenhar();
+    if (!estado.token){
+      $("aviso").hidden = false;
+      $("aviso").textContent = "Você está só vendo a lista. Pra salvar, conecte este dispositivo — o botão Salvar pede o token.";
+    }
+  })
+  .catch(function(e){
+    dizer("Não consegui carregar a lista: " + e.message, "erro");
+  });
+
+})();
+</script>
+</body>
+</html>
