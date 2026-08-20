@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-20T10:14:15Z",
+  "updated_at": "2026-08-20T10:49:45Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-20T10:14:01.293Z",
+  "source_updated": "2026-08-20T10:49:01.400Z",
   "counts": {
-    "total": 40,
+    "total": 41,
     "upcoming": 2,
-    "active": 38,
-    "game_drops": 39,
+    "active": 39,
+    "game_drops": 40,
     "platform": 1,
     "badges": 3,
     "fechadas_descartadas": 50,
@@ -1417,6 +1417,39 @@
           "name": "Crystal*120",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/59d90596-0bb4-4b35-8eca-73c1dda58212.jpeg",
           "minutes": 180
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "19b53cc6-d03b-478d-8497-a87a5e2967e4",
+      "name": "DEEP SIGNAL EVENT",
+      "status": "ACTIVE",
+      "start_at": "2026-08-20T10:30:00Z",
+      "end_at": "2026-09-03T08:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/c079b88e-a7ac-4240-bf6a-6e882305e9be.png",
+      "details_url": "https://www.reachthefinals.com/twitch",
+      "game": "THE FINALS",
+      "game_slug": "the-finals",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1910103699-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Connection Complete",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/053b3f29-e044-4658-9647-823c4e6e22a4.png",
+          "minutes": 60
+        },
+        {
+          "name": "Link Established",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/759388ee-d5e2-446e-b918-5c5c63d05378.png",
+          "minutes": 120
+        },
+        {
+          "name": "Meteor Tip",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/118d093a-5d46-4b97-a540-f00ff73d482f.png",
+          "minutes": 240
         }
       ],
       "src": "sunkwi"
