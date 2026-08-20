@@ -1,16 +1,17 @@
 {
-  "updated_at": "2026-08-20T04:18:41Z",
+  "updated_at": "2026-08-20T04:27:45Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-20T04:18:01.295Z",
+  "source_updated": "2026-08-20T04:27:01.764Z",
   "counts": {
-    "total": 65,
-    "upcoming": 9,
-    "active": 56,
-    "game_drops": 64,
+    "total": 48,
+    "upcoming": 5,
+    "active": 43,
+    "game_drops": 47,
     "platform": 1,
     "badges": 3,
-    "fechadas_descartadas": 48
+    "fechadas_descartadas": 48,
+    "fora_da_lista": 17
   },
   "campaigns": [
     {
@@ -52,29 +53,6 @@
       "src": "fenris"
     },
     {
-      "id": "6ab4ff02-5621-43d1-9151-10fdfac9f6ac",
-      "name": "Radiant Wilds 19 - #4/7",
-      "status": "UPCOMING",
-      "start_at": "2026-08-20T10:00:00.000Z",
-      "end_at": "2026-08-21T09:29:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Albion Online",
-      "game_slug": "albion-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Radiant Wilds Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
-          "minutes": 180
-        }
-      ],
-      "src": "fenris"
-    },
-    {
       "id": "89359282-f4d9-4c03-8a72-3403723b9ca4",
       "name": "Anno 117 DLC2 Launch",
       "status": "UPCOMING",
@@ -98,57 +76,6 @@
           "name": "Festive Alder Skin",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/32cfbba6-68a7-4764-b3c8-a5d7dc8f4f52.png",
           "minutes": 240
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "2bf2e87f-4568-4758-b1bf-694f3bd22664",
-      "name": "2026 BDO Drops (Aug 20)",
-      "status": "UPCOMING",
-      "start_at": "2026-08-20T12:00:00.000Z",
-      "end_at": "2026-08-21T11:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Black Desert",
-      "game_slug": "black-desert",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "2 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/007ee200-b300-470c-823d-79502011c4b9.png",
-          "minutes": 120
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "5eabd794-4fbd-4ef6-bf43-2aedeceb9bec",
-      "name": "Update 15.7 Drop: Week 2",
-      "status": "UPCOMING",
-      "start_at": "2026-08-20T16:00:00.000Z",
-      "end_at": "2026-08-27T15:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "World of Warships",
-      "game_slug": "world-of-warships",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/32502_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Update 15.7 Mission #2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/960782b4-5cce-493c-9532-f6a5f5a53df6.png",
-          "minutes": 90
-        },
-        {
-          "name": "Twitch Container 15.7",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c688c557-0381-41c1-afca-b90345a96f63.png",
-          "minutes": 180
         }
       ],
       "src": "fenris"
@@ -191,29 +118,6 @@
         {
           "name": "Madden Twitch Pack",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9c656c0a-120d-45d8-81ba-15bf281caa49.png",
-          "minutes": 240
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "803ec8ca-3b7d-4cd3-b911-5567d5b9eaaf",
-      "name": "Mobile Drop 133",
-      "status": "UPCOMING",
-      "start_at": "2026-08-20T17:59:00.000Z",
-      "end_at": "2026-08-21T17:56:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Rise Online",
-      "game_slug": "rise-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Regalia of Awakening",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
           "minutes": 240
         }
       ],
@@ -591,59 +495,6 @@
           "name": "Kaniq Creek Box",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2872f7ff-6fbf-4479-924b-6e3cc99f98cf.png",
           "minutes": 60
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "898b183c-d271-4e0c-9dc6-68f68d9abe70",
-      "name": "M2: DIAMOND Server Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-08-07T10:00:00Z",
-      "end_at": "2026-08-23T22:29:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/11ecf96e-f37c-4215-b7e9-ce7ae3f7fa3a.png",
-      "details_url": "https://play.metin2.gameforge.com/twitchdrops?kid=e-02007-a0w07-2408-e90000be",
-      "game": "Metin2",
-      "game_slug": "metin2",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/31336_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 480,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Potion of Wisdom 3x3h",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c675f245-890b-409f-94bf-b2d0a6fecdaf.png",
-          "minutes": 60
-        },
-        {
-          "name": "Auto-Hunting (3d)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c1fd8aa5-59b8-4410-8fd2-ff685da0551d.png",
-          "minutes": 120
-        },
-        {
-          "name": "Fire Phoenix (Loot) (3d)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/02cb64db-fe50-4743-8924-955f34e3c0e2.png",
-          "minutes": 180
-        },
-        {
-          "name": "Loot Pass (3d)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/adfab206-4098-4d6c-9522-83a5a249292f.png",
-          "minutes": 300
-        },
-        {
-          "name": "Manny (Mount) (3d)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6a7e661e-2e3a-48e0-b6c6-54974568734b.png",
-          "minutes": 360
-        },
-        {
-          "name": "Premium Shop (3d)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/02380178-85d8-4b8a-a7e3-06b4bf5af249.png",
-          "minutes": 420
-        },
-        {
-          "name": "Nazar Amulet (3d)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5d8ce628-766d-440e-8ad5-9113e87e592f.png",
-          "minutes": 480
         }
       ],
       "src": "sunkwi"
@@ -1064,34 +915,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "042983cc-97a1-4f1e-9720-e696c30ca454",
-      "name": "Update 15.7 Drop: Week 1",
-      "status": "ACTIVE",
-      "start_at": "2026-08-13T15:00:00Z",
-      "end_at": "2026-08-20T15:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/6864a006-9fd9-4c76-a88d-360a2db3748d.png",
-      "details_url": "https://worldofwarships.eu/en/news/community/community-drops-august-26/",
-      "game": "World of Warships",
-      "game_slug": "world-of-warships",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/32502_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Update 15.7 Mission #1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a882d719-31ca-4e17-b0ec-e7087d97dd5b.png",
-          "minutes": 90
-        },
-        {
-          "name": "Twitch Container 15.7",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c688c557-0381-41c1-afca-b90345a96f63.png",
-          "minutes": 180
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "c5aae2bf-004d-405e-8bc2-9ac433a3ae08",
       "name": "Spider-Man",
       "status": "ACTIVE",
@@ -1110,72 +933,6 @@
           "name": "Spider-Man",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f6347c09-1d36-489c-91b6-b5efe9721da5.png",
           "minutes": 0
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "83063a65-493c-4fc5-8ecc-b1ca3a17e895",
-      "name": "NW2 SUMMER DROPS #5",
-      "status": "ACTIVE",
-      "start_at": "2026-08-14T14:00:00Z",
-      "end_at": "2026-08-21T21:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/cbecd98e-3022-48f8-a927-21db6a0f8b4c.png",
-      "details_url": "https://twitch.nextworld2.com/",
-      "game": "NextWorld2",
-      "game_slug": "nextworld2",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/544682640_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 900,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Elefi hátas (1 db)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4ab4b770-f5eb-4bc7-9878-d9916232c226.jpeg",
-          "minutes": 900
-        },
-        {
-          "name": "Gladiátor Köpeny (100 db)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9b86b19a-9dcf-4741-a3ee-cb0927ec4d59.jpeg",
-          "minutes": 120
-        },
-        {
-          "name": "Gladiátor Gyűrű (1 db)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/aa7fa1ee-ff40-447c-b60c-e3c4cb14683e.jpeg",
-          "minutes": 300
-        },
-        {
-          "name": "Twitch Érme (2 db)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/90734769-899e-42ab-925c-1d76368ce2bf.jpeg",
-          "minutes": 600
-        },
-        {
-          "name": "Twitch Fókusz (1 db) ",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b3feca85-281a-40ed-bc6a-d3dbd4670c61.jpeg",
-          "minutes": 840
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "18c03797-53ae-4f72-8445-5d7e593d0724",
-      "name": "Обновление 26.8: Часть 2",
-      "status": "ACTIVE",
-      "start_at": "2026-08-14T15:00:00Z",
-      "end_at": "2026-08-21T14:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/29e1495e-6fd9-4f54-8556-c5e0b6ca6c8f.jpeg",
-      "details_url": "https://krbli.ru/4dDrG8N",
-      "game": "Mir Korabley",
-      "game_slug": "mir-korabley",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2133072147_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "26.8 Боевая задача #2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82d96737-eed4-4ae2-a11b-93ef96854f6f.png",
-          "minutes": 240
         }
       ],
       "src": "sunkwi"
@@ -1305,39 +1062,6 @@
           "name": "Market Coins Bundle 6",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3ac43663-e809-40fa-9afa-b37999ee4dac.jpeg",
           "minutes": 720
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "f98b5d7d-d7c2-4ee4-8918-8bf064a76d99",
-      "name": "Weekly Supply Drops #29",
-      "status": "ACTIVE",
-      "start_at": "2026-08-17T00:00:00Z",
-      "end_at": "2026-08-23T23:29:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/111b379e-14c4-427f-a9ef-4df5f3883ccf.png",
-      "details_url": "https://artstorm.com/news/weekly-supply-drops-on-twitch",
-      "game": "Modern Warships",
-      "game_slug": "modern-warships",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/423797288_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 90,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "1 Day of Premium",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/075db935-cd69-42db-a87f-d436973f45e3.png",
-          "minutes": 30
-        },
-        {
-          "name": "100 UP's",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8c6bf298-85b3-4521-8994-3d59e637d713.png",
-          "minutes": 60
-        },
-        {
-          "name": "Tactical Consumables Set",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/203e1a32-c0fc-4a46-bbb9-0ca0a0e5e046.png",
-          "minutes": 90
         }
       ],
       "src": "sunkwi"
@@ -1556,67 +1280,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "a3815820-b517-40b5-896b-348812a9214b",
-      "name": "Masters of Mayhem Week 4",
-      "status": "ACTIVE",
-      "start_at": "2026-08-18T13:00:00Z",
-      "end_at": "2026-08-25T09:57:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/527024df-e70f-465d-8249-20944bc8faed.png",
-      "details_url": "https://modernarmor.worldoftanks.com/en/cms/notes/twitch-drops/",
-      "game": "World of Tanks Console",
-      "game_slug": "world-of-tanks-console",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/499551-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 480,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "10 Enhanced Med Kits",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/16e8e3bc-c27f-4b69-9740-c5bbd95dbce2.png",
-          "minutes": 120
-        },
-        {
-          "name": "(4) x3 Vehicle XP Booster",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6c916fdb-2a57-4801-89fd-dfb1b6b5c0f6.png",
-          "minutes": 240
-        },
-        {
-          "name": "Camo Voucher",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8ccc0701-0a6c-434c-abae-61fb037e3cdc.png",
-          "minutes": 480
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "bf1c2300-995f-4645-987e-b5a62f71d137",
-      "name": "August 03",
-      "status": "ACTIVE",
-      "start_at": "2026-08-18T15:00:00Z",
-      "end_at": "2026-08-25T14:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/134377db-6ce3-4fd5-bda7-1faf41ec645b.png",
-      "details_url": "https://ravendawn.online/myaccount/twitch",
-      "game": "Ravendawn",
-      "game_slug": "ravendawn",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/262400435-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 900,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Ravenpacks",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2d79331d-0121-434a-aa64-14256dfc0312.png",
-          "minutes": 60
-        },
-        {
-          "name": "Ghostly Infusion",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0b42bc74-55a6-440a-9620-2dcfcb96013a.png",
-          "minutes": 900
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "57c84a37-de55-4de4-ba40-331029d9cab7",
       "name": "SAR Highland Drops",
       "status": "ACTIVE",
@@ -1725,52 +1388,6 @@
         {
           "name": "1 Sunshine Lucky Bag",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/06c64380-5cad-4454-8e59-d891109068e9.jpeg",
-          "minutes": 120
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "3873da78-b2ee-4b22-abb3-b5d0fff5248b",
-      "name": "Radiant Wilds 19 - #3/7",
-      "status": "ACTIVE",
-      "start_at": "2026-08-19T10:00:00Z",
-      "end_at": "2026-08-20T09:29:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/788dc60a-59dc-469f-b37b-6ef5593b1b30.png",
-      "details_url": "https://forum.albiononline.com/index.php/Thread/214756-New-Twitch-Drops-Launching-Monday-July-28-2025/",
-      "game": "Albion Online",
-      "game_slug": "albion-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Radiant Wilds Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7eb6bca4-5ce8-4161-8c04-f5cead256d91.png",
-          "minutes": 180
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "0026c331-cd4b-490e-aecd-13676c2d9043",
-      "name": "2026 BDO Drops (Aug 19)",
-      "status": "ACTIVE",
-      "start_at": "2026-08-19T12:00:00Z",
-      "end_at": "2026-08-20T11:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/bf0d41be-fa05-4211-8b0f-a8927ff4b321.png",
-      "details_url": "https://www.naeu.playblackdesert.com/News/Detail?groupContentNo=5878",
-      "game": "Black Desert",
-      "game_slug": "black-desert",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "2 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/007ee200-b300-470c-823d-79502011c4b9.png",
           "minutes": 120
         }
       ],
@@ -1909,85 +1526,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "9d61e6b0-49ed-489a-8850-f3c32fdca057",
-      "name": "Anniversary Store #5",
-      "status": "ACTIVE",
-      "start_at": "2026-08-19T15:00:00Z",
-      "end_at": "2026-08-21T14:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/7ec2ec80-68c4-4745-97de-97fcff2789b7.jpeg",
-      "details_url": "https://worldoftanks.eu/news/general-news/wot-16-anniversary-august-2026/",
-      "game": "World of Tanks",
-      "game_slug": "world-of-tanks",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/27546_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "5x Cupcake Tokens",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7b0c4c36-d8d7-42e5-9515-c275b2d50498.png",
-          "minutes": 180
-        },
-        {
-          "name": "5x directives",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6b225ce9-4f3e-40be-98ba-c668d242ae17.png",
-          "minutes": 240
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "c6f1e272-defe-4afe-89f1-bfcf8a552c73",
-      "name": "HEAT Season 1 - Week 8",
-      "status": "ACTIVE",
-      "start_at": "2026-08-19T16:00:00Z",
-      "end_at": "2026-08-26T15:58:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/67b6a264-7e09-4d59-858d-97e22943c5f1.png",
-      "details_url": "https://cdn.wotheat.com/articles/twitch-drops-season-1-promo/index.html",
-      "game": "World of Tanks: HEAT",
-      "game_slug": "world-of-tanks-heat",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/767133634_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "5000 Credits",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/efa90470-9e3c-4d31-ba73-ab1bdefc574e.png",
-          "minutes": 30
-        },
-        {
-          "name": "150 Tech",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ce586a04-db83-407b-bf34-b3a51c2701b1.png",
-          "minutes": 120
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "cf60e8fd-bf07-4e1c-80d1-d3ec7b3596d9",
-      "name": "Mobile Drop 132",
-      "status": "ACTIVE",
-      "start_at": "2026-08-19T17:59:00Z",
-      "end_at": "2026-08-20T17:56:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a5cfe218-d53e-4b4f-aa3d-8af774a6c76e.png",
-      "details_url": "https://mobile.riseonlineworld.com/usercp?do=twitch",
-      "game": "Rise Online",
-      "game_slug": "rise-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Regalia of Awakening",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e392028b-6942-49be-b212-714cdf476b4e.png",
-          "minutes": 240
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "2dc87bb3-af91-4984-a64e-4a356f3035fb",
       "name": "S12 DROPS TOKEN EVENT",
       "status": "ACTIVE",
@@ -2034,29 +1572,6 @@
           "name": "Uncommon+ Pack [1 Player]",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f11d0e2-c838-4079-a56d-f8118823d594.png",
           "minutes": 300
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "edd85c20-2cce-4674-aebd-fe295618a68b",
-      "name": "August Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-08-20T00:00:00Z",
-      "end_at": "2026-08-20T23:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d14bea18-9604-417b-adc7-2067c7d24029.png",
-      "details_url": "https://www.quinfall.com/twitch-drops",
-      "game": "The Quinfall",
-      "game_slug": "the-quinfall",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Twitch Reward Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
-          "minutes": 180
         }
       ],
       "src": "sunkwi"
