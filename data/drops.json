@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-20T17:47:52Z",
+  "updated_at": "2026-08-20T18:12:22Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-20T17:47:02.543Z",
+  "source_updated": "2026-08-20T18:12:02.512Z",
   "counts": {
-    "total": 44,
+    "total": 43,
     "upcoming": 5,
-    "active": 39,
-    "game_drops": 43,
+    "active": 38,
+    "game_drops": 42,
     "platform": 1,
     "badges": 3,
     "fechadas_descartadas": 50,
@@ -1450,44 +1450,6 @@
           "name": "Festive Alder Skin",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/32cfbba6-68a7-4764-b3c8-a5d7dc8f4f52.png",
           "minutes": 240
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "caafff3e-0899-45cb-8937-d64a70f811a6",
-      "name": "V9.0 Special Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-08-20T10:00:00Z",
-      "end_at": "2026-09-17T09:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/fbfb9d5a-30c3-47fa-9216-d1de30c5f638.png",
-      "details_url": "https://act.hoyoverse.com/puzzle/bh3/pz_gg2nWmyfbo/index.html?game_biz=bh3_global&utm_source=web&utm_medium=twitchdrops",
-      "game": "Honkai Impact 3rd",
-      "game_slug": "honkai-impact-3rd",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/506230_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Stamina Potion*1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/dcdebbe1-2c09-4831-a713-4c3fdbe512ad.jpeg",
-          "minutes": 15
-        },
-        {
-          "name": "Phase Shifter*1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3bb9c19d-4d85-4cbb-b6c1-7f5cd0f120e2.jpeg",
-          "minutes": 30
-        },
-        {
-          "name": "Asterite*1500",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7fd1b062-a6cf-4a95-a8bb-4c3e01e0661c.jpeg",
-          "minutes": 60
-        },
-        {
-          "name": "Crystal*120",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/59d90596-0bb4-4b35-8eca-73c1dda58212.jpeg",
-          "minutes": 180
         }
       ],
       "src": "sunkwi"
