@@ -1,0 +1,124 @@
+# Aplica a lista vinda da tela de bloqueio (editar.html) no jogos-fora.txt.
+#
+# POR QUE UMA ISSUE E NAO UM TOKEN
+#   A tela precisa gravar no repositorio, e a alternativa era pedir um token do
+#   GitHub colado no navegador — chato e arriscado num PC emprestado. Como o dono
+#   ja fica logado no github.com em qualquer navegador, a tela abre uma issue com
+#   a lista pronta e ele so clica em "Submit". Este workflow faz o resto.
+#
+# SEGURANCA
+#   Repositorio publico = qualquer um abre issue. Por isso o job so roda quando
+#   quem abriu E O DONO do repositorio. De qualquer outra pessoa, a issue e
+#   fechada com um recado e nada e alterado.
+
+name: Aplicar jogos-fora
+
+on:
+  issues:
+    types: [opened, edited]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  aplicar:
+    # So issues com o titulo que a tela gera, e so do dono do repositorio.
+    if: startsWith(github.event.issue.title, '[jogos-fora]')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Conferir quem pediu
+        id: dono
+        run: |
+          if [ "${{ github.event.issue.user.login }}" != "${{ github.repository_owner }}" ]; then
+            echo "autorizado=nao" >> "$GITHUB_OUTPUT"
+          else
+            echo "autorizado=sim" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Recusar de estranho
+        if: steps.dono.outputs.autorizado == 'nao'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner, repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: 'Essa lista so pode ser alterada pelo dono do repositorio. Nada foi mudado.'
+            });
+            await github.rest.issues.update({
+              owner: context.repo.owner, repo: context.repo.repo,
+              issue_number: context.issue.number, state: 'closed'
+            });
+
+      - uses: actions/checkout@v4
+        if: steps.dono.outputs.autorizado == 'sim'
+
+      - name: Escrever o jogos-fora.txt
+        if: steps.dono.outputs.autorizado == 'sim'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const corpo = context.payload.issue.body || '';
+
+            // A tela manda o arquivo inteiro dentro de um bloco ```...```
+            // (cabecalho de comentarios incluido, pra nada se perder).
+            const m = corpo.match(/```(?:txt|text)?\n([\s\S]*?)```/);
+            if (!m) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner, repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body: 'Nao achei a lista no corpo da issue (esperava um bloco de codigo). Nada foi mudado.'
+              });
+              return;
+            }
+
+            let texto = m[1].replace(/\s+$/, '') + '\n';
+
+            // Trava anti-apagao: se a lista vier vazia, e bug — nao apaga tudo.
+            const jogos = texto.split('\n')
+              .map(l => l.trim())
+              .filter(l => l && !l.startsWith('#'));
+            if (jogos.length === 0) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner, repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body: 'A lista chegou VAZIA. Por seguranca nao apaguei nada — refaca pela tela.'
+              });
+              return;
+            }
+
+            const antes = fs.existsSync('jogos-fora.txt')
+              ? fs.readFileSync('jogos-fora.txt', 'utf8') : '';
+
+            let recado;
+            if (antes === texto) {
+              recado = 'A lista ja estava assim — nada a mudar.';
+            } else {
+              fs.writeFileSync('jogos-fora.txt', texto, 'utf8');
+              recado = `Pronto: ${jogos.length} jogos na lista. `
+                     + 'O site e o bot pegam na proxima rodada (ate ~1 min).';
+            }
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner, repo: context.repo.repo,
+              issue_number: context.issue.number, body: recado
+            });
+            await github.rest.issues.update({
+              owner: context.repo.owner, repo: context.repo.repo,
+              issue_number: context.issue.number, state: 'closed'
+            });
+
+      - name: Commitar
+        if: steps.dono.outputs.autorizado == 'sim'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- jogos-fora.txt; then
+            echo "nada mudou"
+          else
+            git add jogos-fora.txt
+            git commit -m "jogos-fora: atualizado pela tela de bloqueio (#${{ github.event.issue.number }})"
+            git push
+          fi
