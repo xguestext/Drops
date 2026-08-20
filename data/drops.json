@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-08-20T01:47:44Z",
+  "updated_at": "2026-08-20T02:44:15Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-20T01:47:01.283Z",
+  "source_updated": "2026-08-20T02:44:01.706Z",
   "counts": {
-    "total": 63,
+    "total": 64,
     "upcoming": 9,
-    "active": 54,
-    "game_drops": 62,
+    "active": 55,
+    "game_drops": 63,
     "platform": 1,
     "badges": 3,
-    "fechadas_descartadas": 49
+    "fechadas_descartadas": 48
   },
   "campaigns": [
     {
@@ -264,54 +264,6 @@
         }
       ],
       "src": "fenris"
-    },
-    {
-      "id": "615fc480-e578-4f78-a5ba-0ddef9292bdd",
-      "name": "Where Winds Meet August",
-      "status": "ACTIVE",
-      "start_at": "2026-07-23T02:00:00Z",
-      "end_at": "2026-08-20T01:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/3b400ed9-ebe9-4352-855c-f428d64ba486.png",
-      "details_url": "https://www.wherewindsmeetgame.com/twitchdrops/",
-      "game": "Where Winds Meet",
-      "game_slug": "where-winds-meet",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1630982727_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "15min drop August",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2814edce-d482-4771-94d1-df3dcd4dc82d.png",
-          "minutes": 15
-        },
-        {
-          "name": "30min drop August",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ef7008da-b3c8-4f07-a347-a1710975b1e3.png",
-          "minutes": 30
-        },
-        {
-          "name": "60min drop August",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8e48261b-bd56-46dc-bdab-e75c35d491ac.png",
-          "minutes": 60
-        },
-        {
-          "name": "120min drop August",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e6dac638-4e49-42ea-9e89-a669241525b8.png",
-          "minutes": 120
-        },
-        {
-          "name": "180min drop August",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e8ca8b25-6bc5-42a9-bb85-f86206c3b67a.png",
-          "minutes": 180
-        },
-        {
-          "name": "240min drop August",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/75b45339-13e2-46d8-a265-28049d78d4fe.png",
-          "minutes": 240
-        }
-      ],
-      "src": "sunkwi"
     },
     {
       "id": "be84c350-3e7a-4b66-96e2-a5dc7273fb08",
@@ -2105,6 +2057,102 @@
           "name": "Twitch Reward Chest",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
           "minutes": 180
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "eade0544-4315-454d-be19-62c146d1d62b",
+      "name": "OWWC Groups 2026 Day 1",
+      "status": "ACTIVE",
+      "start_at": "2026-08-20T01:40:00Z",
+      "end_at": "2026-08-22T01:28:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/cf0289c6-3f5a-401f-856c-0b7b28db3f4a.jpeg",
+      "details_url": "https://esports.overwatch.com/en-us/rewards",
+      "game": "Overwatch",
+      "game_slug": "overwatch-2",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/515025-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 600,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "OWWC GroupBusan Name Card",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/27cc260d-00d1-4bfe-be86-76cbe8a638c9.png",
+          "minutes": 300
+        },
+        {
+          "name": "Esports Lootbox OWWC 1",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c0d1c340-58f7-4d09-8aa7-1cd6b7a6ded2.png",
+          "minutes": 480
+        },
+        {
+          "name": "Esports Lootbox OWWC 2",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b6706820-a8b5-4cb0-9c86-4324a20c9f05.png",
+          "minutes": 600
+        },
+        {
+          "name": "OWWC Groups Busan 2026 Da",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/25dc15ae-b366-423e-b577-1941aa9935f2.jpeg",
+          "minutes": 60
+        },
+        {
+          "name": "Kimbap Spray",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fc2f0853-8034-4e09-8013-1b1f5e104252.jpeg",
+          "minutes": 120
+        },
+        {
+          "name": "Battle Pass Tier Skip OWW",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/62bc6180-5f03-48f7-9a80-170d68648c62.png",
+          "minutes": 180
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "c7936644-f76f-4bc6-a540-a415a56c4712",
+      "name": "Where Wind Meet Sept",
+      "status": "ACTIVE",
+      "start_at": "2026-08-20T02:00:00Z",
+      "end_at": "2026-09-17T01:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/dd1e2fa9-5e83-4136-b460-2ab42d8d1409.png",
+      "details_url": "https://www.wherewindsmeetgame.com/twitchdrops/",
+      "game": "Where Winds Meet",
+      "game_slug": "where-winds-meet",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1630982727_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "15min drop September",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d8ddc0d8-3412-4009-8c09-79420e167ee0.png",
+          "minutes": 15
+        },
+        {
+          "name": "30min drop September",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b7740bdb-5d0d-452b-9e89-7499fd354356.png",
+          "minutes": 30
+        },
+        {
+          "name": "60min drop September",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3dbdf613-33f0-4afe-9f66-a72d762233eb.png",
+          "minutes": 60
+        },
+        {
+          "name": "120min drop September",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b34e5d3b-8c22-46d7-a92b-367cf9fc8d36.png",
+          "minutes": 120
+        },
+        {
+          "name": "180min drop September",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cee6508f-ba67-469f-acf9-c836b63ef082.png",
+          "minutes": 180
+        },
+        {
+          "name": "240min drop September",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9628e108-9baf-4a36-8857-223fe9418cc9.png",
+          "minutes": 240
         }
       ],
       "src": "sunkwi"
