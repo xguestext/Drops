@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-08-21T14:29:35Z",
+  "updated_at": "2026-08-21T15:05:09Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-21T14:29:01.284Z",
+  "source_updated": "2026-08-21T15:05:01.563Z",
   "counts": {
-    "total": 30,
+    "total": 29,
     "upcoming": 3,
-    "active": 27,
-    "game_drops": 29,
+    "active": 26,
+    "game_drops": 28,
     "platform": 1,
     "badges": 3,
-    "fechadas_descartadas": 57,
-    "fora_da_lista": 45
+    "fechadas_descartadas": 58,
+    "fora_da_lista": 43
   },
   "campaigns": [
     {
@@ -572,39 +572,6 @@
           "name": "LA Stack",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5f3146ea-29c9-4caa-98b0-2ae38d91a63c.png",
           "minutes": 90
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "62c591e0-23aa-4850-b3a4-c0456625e1c9",
-      "name": "GRAIN ROT Launch Week 2",
-      "status": "ACTIVE",
-      "start_at": "2026-08-14T15:00:00Z",
-      "end_at": "2026-08-21T14:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/23693cb9-353e-4e36-9606-d672c8fad1b7.png",
-      "details_url": "https://store.steampowered.com/news/app/4450620/view/703275952293019933",
-      "game": "GRAIN ROT",
-      "game_slug": "grain-rot",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/490242481_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 360,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Golden Mallet Helmet",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9a0f70e1-de7f-4d05-82bf-916b76018f3b.png",
-          "minutes": 120
-        },
-        {
-          "name": "Golden Witch Hat",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0bded488-6776-4ca7-b4f7-9773075b20ba.png",
-          "minutes": 360
-        },
-        {
-          "name": "Golden Steampunk Hat",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/975163f2-ff06-40fd-b4b1-3c934e7acf0f.png",
-          "minutes": 240
         }
       ],
       "src": "sunkwi"
