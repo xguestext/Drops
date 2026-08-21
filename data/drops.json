@@ -1,19 +1,57 @@
 {
-  "updated_at": "2026-08-21T07:59:50Z",
+  "updated_at": "2026-08-21T08:50:40Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-21T07:59:01.723Z",
+  "source_updated": "2026-08-21T08:50:01.598Z",
   "counts": {
-    "total": 28,
-    "upcoming": 2,
+    "total": 31,
+    "upcoming": 5,
     "active": 26,
-    "game_drops": 27,
+    "game_drops": 30,
     "platform": 1,
     "badges": 3,
-    "fechadas_descartadas": 50,
-    "fora_da_lista": 44
+    "fechadas_descartadas": 52,
+    "fora_da_lista": 45
   },
   "campaigns": [
+    {
+      "id": "a0247f30-ea10-455a-8369-6a7561f2097c",
+      "name": "Season Meltdown Weekends",
+      "status": "UPCOMING",
+      "start_at": "2026-08-21T10:00:00.000Z",
+      "end_at": "2026-08-23T23:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Delta Force",
+      "game_slug": "delta-force",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1282866981_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 90,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Ops Challenge Supply Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a41e8820-c75d-4c38-b4b7-761f5d1322d4.png",
+          "minutes": 15
+        },
+        {
+          "name": "2x Merit Card (1 Match)",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ec9c3cd5-13e7-4c40-acb3-154fbb4743d1.png",
+          "minutes": 30
+        },
+        {
+          "name": "Standard Gear Ticket",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/be306812-a686-4acb-aaf8-c8a4201b2370.png",
+          "minutes": 60
+        },
+        {
+          "name": "C Card - C Graffiti",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d15f86e1-763e-4379-8818-dfe5356c0b76.png",
+          "minutes": 90
+        }
+      ],
+      "src": "fenris"
+    },
     {
       "id": "49139445-23ae-45af-929f-61c036198341",
       "name": "COD Next 2026",
@@ -48,6 +86,29 @@
       "src": "fenris"
     },
     {
+      "id": "30f7415f-4f28-4dda-81b9-279e88e1923b",
+      "name": "Marble Day 262",
+      "status": "UPCOMING",
+      "start_at": "2026-08-21T16:00:00.000Z",
+      "end_at": "2026-08-22T15:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Marbles on Stream",
+      "game_slug": "marbles-on-stream",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/509511_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "15 Community Coins",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3924503a-4e48-4899-af4a-13f13f70e9b4.png",
+          "minutes": 120
+        }
+      ],
+      "src": "fenris"
+    },
+    {
       "id": "10231b75-68a7-4ff7-b8d7-3e4bcdcdf9af",
       "name": "Modern Warfare 4 Beta W1",
       "status": "UPCOMING",
@@ -76,6 +137,54 @@
           "name": "Action Ready Charm",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9ccbb6ef-0512-4cee-a77b-21e8153d4c21.png",
           "minutes": 45
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "5a6df705-06fa-486d-bcaa-18a842a81268",
+      "name": "OWWC 2026 Groups Day 3",
+      "status": "UPCOMING",
+      "start_at": "2026-08-22T01:30:00.000Z",
+      "end_at": "2026-08-23T01:28:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Overwatch",
+      "game_slug": "overwatch-2",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/515025-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 300,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "OWWC 2026 Sunset Icon",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1b0b4a30-3434-40fd-a53c-5c96ec4dd450.png",
+          "minutes": 60
+        },
+        {
+          "name": "BattlePass Tier Skip WCG3",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bb753516-bba1-42a8-9ef0-45478cb041f7.png",
+          "minutes": 90
+        },
+        {
+          "name": "Esports Lootbox WCG3",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1b428848-6116-45f9-bbe9-1bed63167f3c.png",
+          "minutes": 120
+        },
+        {
+          "name": "OWWC 2026 Busan Sunset NC",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0f42cf04-41d8-4def-852a-45f003fbbc15.png",
+          "minutes": 180
+        },
+        {
+          "name": "Kimbap Break Spray",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6bff9618-f6a8-4b75-a9a9-89b9a567f07b.png",
+          "minutes": 240
+        },
+        {
+          "name": "Esports Lootbox WC32",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/659b2287-7c44-4541-bbfc-9eef2f71b3a8.png",
+          "minutes": 300
         }
       ],
       "src": "fenris"
