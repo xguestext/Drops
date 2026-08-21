@@ -1,52 +1,19 @@
 {
-  "updated_at": "2026-08-21T17:55:02Z",
+  "updated_at": "2026-08-21T18:29:45Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-21T17:55:01.452Z",
+  "source_updated": "2026-08-21T18:29:01.408Z",
   "counts": {
-    "total": 30,
-    "upcoming": 2,
+    "total": 29,
+    "upcoming": 1,
     "active": 28,
-    "game_drops": 29,
+    "game_drops": 28,
     "platform": 1,
     "badges": 3,
     "fechadas_descartadas": 59,
-    "fora_da_lista": 47
+    "fora_da_lista": 46
   },
   "campaigns": [
-    {
-      "id": "10231b75-68a7-4ff7-b8d7-3e4bcdcdf9af",
-      "name": "Modern Warfare 4 Beta W1",
-      "status": "UPCOMING",
-      "start_at": "2026-08-21T18:00:00.000Z",
-      "end_at": "2026-08-25T17:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Call of Duty: Modern Warfare 4",
-      "game_slug": "call-of-duty-modern-warfare-4",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1478650472_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 45,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Get Tactical Emblem",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6df24bc5-acb0-4dc3-8342-72dc87b4e252.png",
-          "minutes": 15
-        },
-        {
-          "name": "Clearing House CC",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4ada16ef-82db-4d70-896f-d56b9c321a85.png",
-          "minutes": 30
-        },
-        {
-          "name": "Action Ready Charm",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9ccbb6ef-0512-4cee-a77b-21e8153d4c21.png",
-          "minutes": 45
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "5a6df705-06fa-486d-bcaa-18a842a81268",
       "name": "OWWC 2026 Groups Day 3",
@@ -1066,39 +1033,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "49139445-23ae-45af-929f-61c036198341",
-      "name": "COD Next 2026",
-      "status": "ACTIVE",
-      "start_at": "2026-08-21T15:30:00Z",
-      "end_at": "2026-08-21T17:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f352b3e7-537a-4dd4-9bb3-ca18bc8725cd.png",
-      "details_url": "https://www.twitch.tv/drops/inventory",
-      "game": "Call of Duty: Modern Warfare 4",
-      "game_slug": "call-of-duty-modern-warfare-4",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1478650472_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 45,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Gas Ready Emblem",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/80031e89-52ab-4766-b1cc-ae0aebe2a335.png",
-          "minutes": 15
-        },
-        {
-          "name": "Rapple Repel Calling Card",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2b9292a6-1e14-4aa3-82fc-6263a3e0c1bc.png",
-          "minutes": 30
-        },
-        {
-          "name": "Ghost Helmet Charm",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/45de2067-526e-4a08-b63e-d81f83e1f163.png",
-          "minutes": 45
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "079bd6cc-bd80-4e20-a820-f2e85f8703db",
       "name": "Beta Weekend ",
       "status": "ACTIVE",
@@ -1147,6 +1081,39 @@
           "name": "Demolition Kit [BETA]",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d9df5146-c66b-4599-975b-67395cc900a2.png",
           "minutes": 240
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "10231b75-68a7-4ff7-b8d7-3e4bcdcdf9af",
+      "name": "Modern Warfare 4 Beta W1",
+      "status": "ACTIVE",
+      "start_at": "2026-08-21T18:00:00Z",
+      "end_at": "2026-08-25T17:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/fc4cab65-971a-4751-b8d8-8d2cfbcf220d.png",
+      "details_url": "https://www.twitch.tv/drops/inventory",
+      "game": "Call of Duty: Modern Warfare 4",
+      "game_slug": "call-of-duty-modern-warfare-4",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1478650472_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 45,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Clearing House CC",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4ada16ef-82db-4d70-896f-d56b9c321a85.png",
+          "minutes": 30
+        },
+        {
+          "name": "Action Ready Charm",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9ccbb6ef-0512-4cee-a77b-21e8153d4c21.png",
+          "minutes": 45
+        },
+        {
+          "name": "Get Tactical Emblem",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6df24bc5-acb0-4dc3-8342-72dc87b4e252.png",
+          "minutes": 15
         }
       ],
       "src": "sunkwi"
