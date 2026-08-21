@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-21T03:33:09Z",
+  "updated_at": "2026-08-21T04:06:13Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-21T03:33:01.320Z",
+  "source_updated": "2026-08-21T04:06:01.696Z",
   "counts": {
-    "total": 28,
-    "upcoming": 3,
+    "total": 27,
+    "upcoming": 2,
     "active": 25,
-    "game_drops": 27,
+    "game_drops": 26,
     "platform": 1,
     "badges": 3,
     "fechadas_descartadas": 49,
@@ -43,54 +43,6 @@
           "name": "Ghost Helmet Charm",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/45de2067-526e-4a08-b63e-d81f83e1f163.png",
           "minutes": 45
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "d368b70a-2795-4288-a436-3bb6e867ba50",
-      "name": "CFB Live",
-      "status": "UPCOMING",
-      "start_at": "2026-08-21T17:00:00.000Z",
-      "end_at": "2026-08-22T16:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "EA Sports College Football 27",
-      "game_slug": "ea-sports-college-football-27",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1678532194_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "CFB Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0d53d795-0c27-4fe5-ac94-936bd423b93a.png",
-          "minutes": 15
-        },
-        {
-          "name": "CFB Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e42ef33b-ad07-4c34-bce8-b5f51ec11e26.png",
-          "minutes": 30
-        },
-        {
-          "name": "CFB Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9efee425-f1d1-42f3-a979-1a41b4e7fd57.png",
-          "minutes": 60
-        },
-        {
-          "name": "CFB Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b6800fb1-bc09-4a31-a9c6-463367041bd4.png",
-          "minutes": 120
-        },
-        {
-          "name": "CFB Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4efb3fe6-736b-4957-a93b-5ed948aa216f.png",
-          "minutes": 180
-        },
-        {
-          "name": "CFB Twitch Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1041295a-b4fa-4376-af3c-0d3e0e9ceb38.png",
-          "minutes": 240
         }
       ],
       "src": "fenris"
