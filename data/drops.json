@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-08-21T13:06:29Z",
+  "updated_at": "2026-08-21T13:55:00Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-21T13:06:01.609Z",
+  "source_updated": "2026-08-21T13:55:01.279Z",
   "counts": {
-    "total": 31,
+    "total": 32,
     "upcoming": 4,
-    "active": 27,
-    "game_drops": 30,
+    "active": 28,
+    "game_drops": 31,
     "platform": 1,
     "badges": 3,
-    "fechadas_descartadas": 56,
+    "fechadas_descartadas": 55,
     "fora_da_lista": 43
   },
   "campaigns": [
@@ -1150,6 +1150,44 @@
           "name": "C Card - C Graffiti",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d15f86e1-763e-4379-8818-dfe5356c0b76.png",
           "minutes": 90
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "2f38b5ab-b681-4638-8f9d-4ce688a1e25f",
+      "name": "Hero Siege Season 10",
+      "status": "ACTIVE",
+      "start_at": "2026-08-21T11:00:00Z",
+      "end_at": "2026-08-30T23:29:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/default.png",
+      "details_url": "https://panicartstudios.com/hsportal/twitch-drops/",
+      "game": "Hero Siege",
+      "game_slug": "hero-siege",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/416015_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Ebontharn Gun",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3605baaf-162d-4671-a13d-cf6a8554d78e.png",
+          "minutes": 30
+        },
+        {
+          "name": "Ebontharn Trident",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/aa6d0010-eb0e-41f0-8e89-29c811e9e106.png",
+          "minutes": 60
+        },
+        {
+          "name": "Ebontharn Interface",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0197fd02-6835-406f-8c70-9688bc41296f.png",
+          "minutes": 120
+        },
+        {
+          "name": "Ebontharn Skin",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b768b215-f0fe-4288-ae25-35c58eba06bf.png",
+          "minutes": 180
         }
       ],
       "src": "sunkwi"
