@@ -1,19 +1,133 @@
 {
-  "updated_at": "2026-08-20T23:55:53Z",
+  "updated_at": "2026-08-21T01:08:01Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-20T23:55:01.809Z",
+  "source_updated": "2026-08-21T01:07:01.698Z",
   "counts": {
-    "total": 25,
-    "upcoming": 0,
+    "total": 28,
+    "upcoming": 3,
     "active": 25,
-    "game_drops": 24,
+    "game_drops": 27,
     "platform": 1,
     "badges": 3,
-    "fechadas_descartadas": 49,
-    "fora_da_lista": 43
+    "fechadas_descartadas": 50,
+    "fora_da_lista": 44
   },
   "campaigns": [
+    {
+      "id": "49139445-23ae-45af-929f-61c036198341",
+      "name": "COD Next 2026",
+      "status": "UPCOMING",
+      "start_at": "2026-08-21T15:30:00.000Z",
+      "end_at": "2026-08-21T17:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Call of Duty: Modern Warfare 4",
+      "game_slug": "call-of-duty-modern-warfare-4",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1478650472_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 45,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Gas Ready Emblem",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/80031e89-52ab-4766-b1cc-ae0aebe2a335.png",
+          "minutes": 15
+        },
+        {
+          "name": "Rapple Repel Calling Card",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2b9292a6-1e14-4aa3-82fc-6263a3e0c1bc.png",
+          "minutes": 30
+        },
+        {
+          "name": "Ghost Helmet Charm",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/45de2067-526e-4a08-b63e-d81f83e1f163.png",
+          "minutes": 45
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "d368b70a-2795-4288-a436-3bb6e867ba50",
+      "name": "CFB Live",
+      "status": "UPCOMING",
+      "start_at": "2026-08-21T17:00:00.000Z",
+      "end_at": "2026-08-22T16:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "EA Sports College Football 27",
+      "game_slug": "ea-sports-college-football-27",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1678532194_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "CFB Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0d53d795-0c27-4fe5-ac94-936bd423b93a.png",
+          "minutes": 15
+        },
+        {
+          "name": "CFB Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e42ef33b-ad07-4c34-bce8-b5f51ec11e26.png",
+          "minutes": 30
+        },
+        {
+          "name": "CFB Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9efee425-f1d1-42f3-a979-1a41b4e7fd57.png",
+          "minutes": 60
+        },
+        {
+          "name": "CFB Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b6800fb1-bc09-4a31-a9c6-463367041bd4.png",
+          "minutes": 120
+        },
+        {
+          "name": "CFB Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4efb3fe6-736b-4957-a93b-5ed948aa216f.png",
+          "minutes": 180
+        },
+        {
+          "name": "CFB Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1041295a-b4fa-4376-af3c-0d3e0e9ceb38.png",
+          "minutes": 240
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "10231b75-68a7-4ff7-b8d7-3e4bcdcdf9af",
+      "name": "Modern Warfare 4 Beta W1",
+      "status": "UPCOMING",
+      "start_at": "2026-08-21T18:00:00.000Z",
+      "end_at": "2026-08-25T17:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Call of Duty: Modern Warfare 4",
+      "game_slug": "call-of-duty-modern-warfare-4",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1478650472_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 45,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Get Tactical Emblem",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6df24bc5-acb0-4dc3-8342-72dc87b4e252.png",
+          "minutes": 15
+        },
+        {
+          "name": "Clearing House CC",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4ada16ef-82db-4d70-896f-d56b9c321a85.png",
+          "minutes": 30
+        },
+        {
+          "name": "Action Ready Charm",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9ccbb6ef-0512-4cee-a77b-21e8153d4c21.png",
+          "minutes": 45
+        }
+      ],
+      "src": "fenris"
+    },
     {
       "id": "2942d78f-12d2-49ca-918d-4b9ab8e28842",
       "name": "Egg",
