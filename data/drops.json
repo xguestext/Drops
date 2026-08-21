@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-08-21T13:55:00Z",
+  "updated_at": "2026-08-21T14:01:03Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-21T13:55:01.279Z",
+  "source_updated": "2026-08-21T14:01:01.282Z",
   "counts": {
-    "total": 32,
-    "upcoming": 4,
-    "active": 28,
-    "game_drops": 31,
+    "total": 30,
+    "upcoming": 3,
+    "active": 27,
+    "game_drops": 29,
     "platform": 1,
     "badges": 3,
-    "fechadas_descartadas": 55,
-    "fora_da_lista": 43
+    "fechadas_descartadas": 57,
+    "fora_da_lista": 45
   },
   "campaigns": [
     {
@@ -43,29 +43,6 @@
           "name": "Ghost Helmet Charm",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/45de2067-526e-4a08-b63e-d81f83e1f163.png",
           "minutes": 45
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "30f7415f-4f28-4dda-81b9-279e88e1923b",
-      "name": "Marble Day 262",
-      "status": "UPCOMING",
-      "start_at": "2026-08-21T16:00:00.000Z",
-      "end_at": "2026-08-22T15:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Marbles on Stream",
-      "game_slug": "marbles-on-stream",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/509511_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "15 Community Coins",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3924503a-4e48-4899-af4a-13f13f70e9b4.png",
-          "minutes": 120
         }
       ],
       "src": "fenris"
@@ -1112,44 +1089,6 @@
           "name": "S4 Boost Pack",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d2cca969-cea2-4b29-847f-6a6ff03e8fb7.png",
           "minutes": 60
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "a0247f30-ea10-455a-8369-6a7561f2097c",
-      "name": "Season Meltdown Weekends",
-      "status": "ACTIVE",
-      "start_at": "2026-08-21T10:00:00Z",
-      "end_at": "2026-08-23T23:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/272e6016-55a7-4f5f-9cbb-bfbc40a494d1.jpeg",
-      "details_url": "https://www.playdeltaforce.com/act/twitchdrops/index.html",
-      "game": "Delta Force",
-      "game_slug": "delta-force-hawk-ops",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1282866981_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 90,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Ops Challenge Supply Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a41e8820-c75d-4c38-b4b7-761f5d1322d4.png",
-          "minutes": 15
-        },
-        {
-          "name": "2x Merit Card (1 Match)",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ec9c3cd5-13e7-4c40-acb3-154fbb4743d1.png",
-          "minutes": 30
-        },
-        {
-          "name": "Standard Gear Ticket",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/be306812-a686-4acb-aaf8-c8a4201b2370.png",
-          "minutes": 60
-        },
-        {
-          "name": "C Card - C Graffiti",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d15f86e1-763e-4379-8818-dfe5356c0b76.png",
-          "minutes": 90
         }
       ],
       "src": "sunkwi"
