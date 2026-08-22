@@ -1,67 +1,19 @@
 {
-  "updated_at": "2026-08-22T01:06:11Z",
+  "updated_at": "2026-08-22T02:19:49Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-22T01:06:02.167Z",
+  "source_updated": "2026-08-22T02:19:01.786Z",
   "counts": {
-    "total": 29,
-    "upcoming": 1,
+    "total": 28,
+    "upcoming": 0,
     "active": 28,
-    "game_drops": 28,
+    "game_drops": 27,
     "platform": 1,
     "badges": 4,
     "fechadas_descartadas": 58,
     "fora_da_lista": 45
   },
   "campaigns": [
-    {
-      "id": "5a6df705-06fa-486d-bcaa-18a842a81268",
-      "name": "OWWC 2026 Groups Day 3",
-      "status": "UPCOMING",
-      "start_at": "2026-08-22T01:30:00.000Z",
-      "end_at": "2026-08-23T01:28:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Overwatch",
-      "game_slug": "overwatch-2",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/515025-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 300,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "OWWC 2026 Sunset Icon",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1b0b4a30-3434-40fd-a53c-5c96ec4dd450.png",
-          "minutes": 60
-        },
-        {
-          "name": "BattlePass Tier Skip WCG3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bb753516-bba1-42a8-9ef0-45478cb041f7.png",
-          "minutes": 90
-        },
-        {
-          "name": "Esports Lootbox WCG3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1b428848-6116-45f9-bbe9-1bed63167f3c.png",
-          "minutes": 120
-        },
-        {
-          "name": "OWWC 2026 Busan Sunset NC",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0f42cf04-41d8-4def-852a-45f003fbbc15.png",
-          "minutes": 180
-        },
-        {
-          "name": "Kimbap Break Spray",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6bff9618-f6a8-4b75-a9a9-89b9a567f07b.png",
-          "minutes": 240
-        },
-        {
-          "name": "Esports Lootbox WC32",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/659b2287-7c44-4541-bbfc-9eef2f71b3a8.png",
-          "minutes": 300
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "2942d78f-12d2-49ca-918d-4b9ab8e28842",
       "name": "Egg",
@@ -734,54 +686,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "eade0544-4315-454d-be19-62c146d1d62b",
-      "name": "OWWC Groups 2026 Day 1 &2",
-      "status": "ACTIVE",
-      "start_at": "2026-08-20T01:40:00Z",
-      "end_at": "2026-08-22T01:28:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/cf0289c6-3f5a-401f-856c-0b7b28db3f4a.jpeg",
-      "details_url": "https://esports.overwatch.com/en-us/rewards",
-      "game": "Overwatch",
-      "game_slug": "overwatch-2",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/515025-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 600,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "OWWC GroupBusan Name Card",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/27cc260d-00d1-4bfe-be86-76cbe8a638c9.png",
-          "minutes": 300
-        },
-        {
-          "name": "Esports Lootbox OWWC 1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c0d1c340-58f7-4d09-8aa7-1cd6b7a6ded2.png",
-          "minutes": 480
-        },
-        {
-          "name": "Esports Lootbox OWWC 2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b6706820-a8b5-4cb0-9c86-4324a20c9f05.png",
-          "minutes": 600
-        },
-        {
-          "name": "OWWC Groups Busan 2026 Da",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/25dc15ae-b366-423e-b577-1941aa9935f2.jpeg",
-          "minutes": 60
-        },
-        {
-          "name": "Kimbap Spray",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fc2f0853-8034-4e09-8013-1b1f5e104252.jpeg",
-          "minutes": 120
-        },
-        {
-          "name": "Battle Pass Tier Skip OWW",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/62bc6180-5f03-48f7-9a80-170d68648c62.png",
-          "minutes": 180
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "c7936644-f76f-4bc6-a540-a415a56c4712",
       "name": "Where Wind Meet Sept",
       "status": "ACTIVE",
@@ -1134,6 +1038,54 @@
           "name": "Bound Heroic Selector x1",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0a877b2c-1be5-4416-aba2-7c3917082153.png",
           "minutes": 600
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "5a6df705-06fa-486d-bcaa-18a842a81268",
+      "name": "OWWC 2026 Groups Day 3",
+      "status": "ACTIVE",
+      "start_at": "2026-08-22T01:30:00Z",
+      "end_at": "2026-08-23T01:28:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d797af55-2f72-4211-8be5-00f212211e82.png",
+      "details_url": "https://esports.overwatch.com/en-us/rewards",
+      "game": "Overwatch",
+      "game_slug": "overwatch-2",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/515025-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 300,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "OWWC 2026 Busan Sunset NC",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0f42cf04-41d8-4def-852a-45f003fbbc15.png",
+          "minutes": 180
+        },
+        {
+          "name": "Kimbap Break Spray",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6bff9618-f6a8-4b75-a9a9-89b9a567f07b.png",
+          "minutes": 240
+        },
+        {
+          "name": "Esports Lootbox WC32",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/659b2287-7c44-4541-bbfc-9eef2f71b3a8.png",
+          "minutes": 300
+        },
+        {
+          "name": "BattlePass Tier Skip WCG3",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bb753516-bba1-42a8-9ef0-45478cb041f7.png",
+          "minutes": 90
+        },
+        {
+          "name": "OWWC 2026 Sunset Icon",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1b0b4a30-3434-40fd-a53c-5c96ec4dd450.png",
+          "minutes": 60
+        },
+        {
+          "name": "Esports Lootbox WCG3",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1b428848-6116-45f9-bbe9-1bed63167f3c.png",
+          "minutes": 120
         }
       ],
       "src": "sunkwi"
