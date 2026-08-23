@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-08-23T16:00:41Z",
+  "updated_at": "2026-08-23T16:37:55Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-23T16:00:01.330Z",
+  "source_updated": "2026-08-23T16:37:01.448Z",
   "counts": {
-    "total": 26,
+    "total": 25,
     "upcoming": 0,
-    "active": 26,
-    "game_drops": 25,
+    "active": 25,
+    "game_drops": 24,
     "platform": 1,
     "badges": 4,
-    "fechadas_descartadas": 62,
+    "fechadas_descartadas": 60,
     "fora_da_lista": 42
   },
   "campaigns": [
@@ -89,44 +89,6 @@
           "name": "Vectron Colette EM4 Mount",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/749f71d7-3489-4c5c-b03b-5bbf645675d0.jpeg",
           "minutes": 300
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "460b9557-a84a-4015-b408-e398be302883",
-      "name": "TDR - WW Steam Release",
-      "status": "ACTIVE",
-      "start_at": "2026-08-05T16:00:00Z",
-      "end_at": "2026-08-23T15:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e7589d73-185b-4448-94cf-39b89065ac59.png",
-      "details_url": "https://www.ubisoft.com/en-us/help/connectivity-and-performance/article/information-about-twitch-drops-for-ubisoft-games/000065532",
-      "game": "Tom Clancy's The Division: Resurgence",
-      "game_slug": "tom-clancys-the-division-resurgence",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/396745148_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Activated Agent Set",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/181bb534-83d7-483b-b22a-174ba5ec9677.png",
-          "minutes": 30
-        },
-        {
-          "name": "Field Agent Set",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/72c9b510-fe2f-4b68-a4a7-d0d130d9fe7b.png",
-          "minutes": 60
-        },
-        {
-          "name": "Veteran Agent Set",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/374bf4d7-7a14-428b-865d-07d732a26a66.png",
-          "minutes": 90
-        },
-        {
-          "name": "Elite Agent Set",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f15f6f25-e57d-4bb9-a5bd-e2f007ea1b63.png",
-          "minutes": 120
         }
       ],
       "src": "sunkwi"
