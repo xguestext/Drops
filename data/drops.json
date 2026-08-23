@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-08-23T02:35:52Z",
+  "updated_at": "2026-08-23T03:32:49Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-23T02:35:01.164Z",
+  "source_updated": "2026-08-23T03:32:01.304Z",
   "counts": {
-    "total": 26,
+    "total": 27,
     "upcoming": 0,
-    "active": 26,
-    "game_drops": 25,
+    "active": 27,
+    "game_drops": 26,
     "platform": 1,
     "badges": 4,
-    "fechadas_descartadas": 68,
-    "fora_da_lista": 40
+    "fechadas_descartadas": 67,
+    "fora_da_lista": 42
   },
   "campaigns": [
     {
@@ -1005,6 +1005,64 @@
           "name": "Bound Heroic Selector x1",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0a877b2c-1be5-4416-aba2-7c3917082153.png",
           "minutes": 600
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "9952915d-7df5-485c-9b16-92edbf6f8f9f",
+      "name": "OWWC 2026 Groups Day 4",
+      "status": "ACTIVE",
+      "start_at": "2026-08-23T01:30:00Z",
+      "end_at": "2026-08-24T01:29:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a3158619-387a-493b-ac8b-5e0df74560a7.png",
+      "details_url": "https://esports.overwatch.com/en-us/rewards",
+      "game": "Overwatch",
+      "game_slug": "overwatch-2",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/515025-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 300,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Busan Cow Weapon Charm",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f47ac111-79e6-40b4-8324-632b6bc74f15.png",
+          "minutes": 240
+        },
+        {
+          "name": "OWWC Busan 2026 Night Ico",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1678d8ce-f255-4c25-9016-af0fcea18864.png",
+          "minutes": 60
+        },
+        {
+          "name": "BP Tier Skip OWG4",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/131027b2-1019-43e1-93cf-2bd7659c7dbd.png",
+          "minutes": 90
+        },
+        {
+          "name": "Crane Game Mastery Spray",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f73eb87d-931f-41c9-ab0d-4096d5bc111e.png",
+          "minutes": 180
+        },
+        {
+          "name": "Esports Loot Box OWG4",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f4c0c085-0c25-4dc6-b206-bd8947abc6b6.png",
+          "minutes": 120
+        },
+        {
+          "name": "OWWC 2026 Busan Night Car",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/635696ae-3a9f-4aae-9e5b-a7443a7d33cf.png",
+          "minutes": 150
+        },
+        {
+          "name": "OWWC Busan 2026 Spray",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7ef19d90-95dc-4c03-a565-7fdaa44410d7.png",
+          "minutes": 270
+        },
+        {
+          "name": "Esports Loot Box 41",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9031c731-9cea-4531-8342-e5cb34f20b56.png",
+          "minutes": 300
         }
       ],
       "src": "sunkwi"
