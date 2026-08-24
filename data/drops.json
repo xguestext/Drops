@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-08-23T23:53:22Z",
+  "updated_at": "2026-08-24T01:00:25Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-23T23:53:01.334Z",
+  "source_updated": "2026-08-24T01:00:01.344Z",
   "counts": {
-    "total": 24,
+    "total": 23,
     "upcoming": 0,
-    "active": 24,
-    "game_drops": 23,
+    "active": 23,
+    "game_drops": 22,
     "platform": 1,
     "badges": 4,
-    "fechadas_descartadas": 55,
-    "fora_da_lista": 38
+    "fechadas_descartadas": 56,
+    "fora_da_lista": 37
   },
   "campaigns": [
     {
@@ -387,49 +387,6 @@
           "name": "60-Minutes Drop",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/45a3a419-8ca0-441f-9d4a-e3ab38760d34.png",
           "minutes": 60
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "7130c275-fa88-4612-9d2a-bd2b0cda6eb2",
-      "name": "26.8 Patch Release Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-08-17T07:00:00Z",
-      "end_at": "2026-08-23T23:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e1ba5c88-c93a-4092-89dd-7385a6fa0b81.png",
-      "details_url": "https://beta.legiontd2.com/twitchdrops/",
-      "game": "Legion TD 2",
-      "game_slug": "legion-td-2",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/493489_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 600,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Random Secret Card",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e9050b24-40ef-4e4b-ad19-12a56bf0b313.png",
-          "minutes": 0
-        },
-        {
-          "name": "1000 Premium Essence",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2dea1f19-d013-4aae-a1dc-f2aad3ac1ad1.png",
-          "minutes": 360
-        },
-        {
-          "name": "2000 Essence",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b2787d17-5ea2-4f4e-a369-420f4e5886c9.png",
-          "minutes": 60
-        },
-        {
-          "name": "4000 Essence",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f6f227ee-c922-449e-b7b2-220054b44aa2.png",
-          "minutes": 120
-        },
-        {
-          "name": "Random Card",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/41813476-fffc-45b9-99a6-1c1517354e98.png",
-          "minutes": 240
         }
       ],
       "src": "sunkwi"
