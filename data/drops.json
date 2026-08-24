@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-08-24T06:52:40Z",
+  "updated_at": "2026-08-24T07:53:57Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-24T06:52:01.680Z",
+  "source_updated": "2026-08-24T07:53:01.304Z",
   "counts": {
-    "total": 23,
+    "total": 22,
     "upcoming": 0,
-    "active": 23,
-    "game_drops": 22,
+    "active": 22,
+    "game_drops": 21,
     "platform": 1,
     "badges": 4,
-    "fechadas_descartadas": 53,
+    "fechadas_descartadas": 52,
     "fora_da_lista": 38
   },
   "campaigns": [
@@ -828,49 +828,6 @@
           "name": "Get Tactical Emblem",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6df24bc5-acb0-4dc3-8342-72dc87b4e252.png",
           "minutes": 15
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "b177f9ab-5bd0-4786-bda5-55493afaa012",
-      "name": "B&S NEO Twitch Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-08-21T21:00:00Z",
-      "end_at": "2026-08-24T06:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/85b35cbe-0361-4b25-aeb5-02ef259788e6.png",
-      "details_url": "https://bladeandsoul.plaync.com/en-us/board/neonotice/list",
-      "game": "Blade & Soul NEO",
-      "game_slug": "blade-and-soul-neo",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/801121736_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 600,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Darkstorm Portrait x2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d4954b08-ae73-4e22-976b-4581730a56a8.png",
-          "minutes": 120
-        },
-        {
-          "name": "Heroic Insignia x5",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/eab072bf-4aaa-466e-8b0b-282849d84da4.png",
-          "minutes": 240
-        },
-        {
-          "name": "Darkstorm Portrait x4",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6e44f064-d741-4c8e-b28d-1922bbaaa72a.png",
-          "minutes": 360
-        },
-        {
-          "name": "Heroic Sp. Insignia x2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7aa3b5f2-b14c-4a89-b419-2a6a85d2fddb.png",
-          "minutes": 480
-        },
-        {
-          "name": "Bound Heroic Selector x1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0a877b2c-1be5-4416-aba2-7c3917082153.png",
-          "minutes": 600
         }
       ],
       "src": "sunkwi"
