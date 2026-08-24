@@ -1,19 +1,85 @@
 {
-  "updated_at": "2026-08-24T18:41:52Z",
+  "updated_at": "2026-08-24T19:18:05Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-24T18:41:01.277Z",
+  "source_updated": "2026-08-24T19:18:01.597Z",
   "counts": {
-    "total": 22,
-    "upcoming": 0,
+    "total": 24,
+    "upcoming": 2,
     "active": 22,
-    "game_drops": 21,
+    "game_drops": 23,
     "platform": 1,
-    "badges": 4,
+    "badges": 5,
     "fechadas_descartadas": 38,
-    "fora_da_lista": 34
+    "fora_da_lista": 36
   },
   "campaigns": [
+    {
+      "id": "05a8f884-cb18-4206-93fb-509264b6d5e0",
+      "name": "DbD: Chorus of Sin",
+      "status": "UPCOMING",
+      "start_at": "2026-08-25T15:00:00.000Z",
+      "end_at": "2026-09-08T14:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Dead by Daylight",
+      "game_slug": "dead-by-daylight",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/491487-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 360,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "The Grimoire Badge",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/dde3d20b-86f4-4e11-859e-6c9ce95b7f67.png",
+          "minutes": 60
+        },
+        {
+          "name": "Aurora Figurine Charm",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/31561274-9840-413e-ad2a-66793b965a63.png",
+          "minutes": 180
+        },
+        {
+          "name": "Day of Reckoning Banner",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6bcdccea-229b-4a66-ad9c-2413356f7f40.png",
+          "minutes": 360
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "0f1b1514-fe01-4f81-8fea-d35049d204cd",
+      "name": "Console Launch Drops",
+      "status": "UPCOMING",
+      "start_at": "2026-08-25T18:00:00.000Z",
+      "end_at": "2026-09-22T17:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Once Human",
+      "game_slug": "once-human",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1441208453_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "DECAL: GRAFFITI",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b272a793-f3fe-4df9-9295-fdd498a1bbd6.png",
+          "minutes": 60
+        },
+        {
+          "name": "VOID WINGS SKIN: UNKNOWN ",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0f4a2141-8d32-42f4-b709-8e919f909f5d.png",
+          "minutes": 120
+        },
+        {
+          "name": "FORMULA: GOLD-FRAMED CARV",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/70c28805-81e7-48a6-af2f-38a384430109.png",
+          "minutes": 240
+        }
+      ],
+      "src": "fenris"
+    },
     {
       "id": "2942d78f-12d2-49ca-918d-4b9ab8e28842",
       "name": "Egg",
@@ -870,6 +936,15 @@
       "end_at": "2026-10-01T18:00:00Z",
       "note": "A badge will be available for subscribing, gifting, or using Bits.",
       "images": []
+    },
+    {
+      "title": "NASA Nancy Grace Roman Space Telescope Launch",
+      "start_at": "2026-08-30T11:26:00Z",
+      "end_at": null,
+      "note": null,
+      "images": [
+        "https://static-cdn.jtvnw.net/badges/v1/c411b949-c736-4b1a-9769-d759e213923c/3"
+      ]
     },
     {
       "title": "Final Fantasy XIV Fan Festival 2026 JP",
