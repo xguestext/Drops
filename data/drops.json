@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-08-25T16:31:18Z",
+  "updated_at": "2026-08-25T17:00:52Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-25T16:31:12.205Z",
+  "source_updated": "2026-08-25T17:00:01.320Z",
   "counts": {
-    "total": 24,
-    "upcoming": 2,
-    "active": 22,
-    "game_drops": 23,
+    "total": 28,
+    "upcoming": 4,
+    "active": 24,
+    "game_drops": 27,
     "platform": 1,
     "badges": 5,
     "fechadas_descartadas": 42,
-    "fora_da_lista": 33
+    "fora_da_lista": 36
   },
   "campaigns": [
     {
@@ -46,6 +46,39 @@
         }
       ],
       "src": "fenris"
+    },
+    {
+      "id": null,
+      "name": "3 drops",
+      "status": "UPCOMING",
+      "start_at": "2026-08-25T19:00:00Z",
+      "end_at": "2026-08-29T18:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/da497d4f-0fec-460a-a8a3-dd79a35e9fe5.png",
+      "details_url": "https://twitchdrops.app/game/marvel-snap",
+      "game": "MARVEL SNAP",
+      "game_slug": "marvel-snap",
+      "game_box": null,
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "155 Boosters",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "PMB",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "2025 PAX Cardback",
+          "image": null,
+          "minutes": null
+        }
+      ],
+      "src": "twitchdrops"
     },
     {
       "id": "412be155-a987-41ba-8f9e-30f0909e54cb",
@@ -91,6 +124,29 @@
       "src": "fenris"
     },
     {
+      "id": null,
+      "name": "1 drop",
+      "status": "UPCOMING",
+      "start_at": "2026-08-26T16:00:00Z",
+      "end_at": "2026-09-23T15:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/219ecc61-cc7d-457b-9f14-794549b28700.png",
+      "details_url": "https://twitchdrops.app/game/resonance-a-plague-tale-legacy",
+      "game": "Resonance: A Plague Tale Legacy",
+      "game_slug": "resonance-a-plague-tale-legacy",
+      "game_box": null,
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Resonance Minotaur",
+          "image": null,
+          "minutes": null
+        }
+      ],
+      "src": "twitchdrops"
+    },
+    {
       "id": "2942d78f-12d2-49ca-918d-4b9ab8e28842",
       "name": "Egg",
       "status": "ACTIVE",
@@ -112,6 +168,192 @@
         }
       ],
       "src": "sunkwi"
+    },
+    {
+      "id": null,
+      "name": "23 drops",
+      "status": "ACTIVE",
+      "start_at": "2026-07-29T17:00:00Z",
+      "end_at": "2026-09-04T08:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/34c03f8e-a501-4d86-8566-045b2fe64dbf.png",
+      "details_url": "https://twitchdrops.app/game/marvel-rivals",
+      "game": "Marvel Rivals",
+      "game_slug": "marvel-rivals",
+      "game_box": null,
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "100 CHRONO TOKEN MSF 1",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "「ON FIRE!」Emoji",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "MSF26 Spray",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Daredevil MSF26 Nameplate",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "100 CHRONO TOKEN MSF 2",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "「BUILT DIFFERENT」Emoji",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "MSF26 LA Spray",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "MSF26 Nameplate",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "100 CHRONO TOKEN MSF 3",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Daredevil MSF26 Spray",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "100 CHRONO TOKEN MSF 4",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "MSF26 LA Dawn Nameplate",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Daredevil MSF26 Emote",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "100 CHRONO TOKEN MSF 5",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "「GALACTA CHEERS」Spray",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "100 CHRONO TOKEN MSF 6",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "MSF26 NIGHTFALL Nameplate",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "「HOORAY!」Mood",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Daredevil MSF26 Costume",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Elsa Bloodstone Spray",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Elsa Bloodstone Nameplate",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Elsa Bloodstone Emote",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Elsa Bloodstone Costume",
+          "image": null,
+          "minutes": null
+        }
+      ],
+      "src": "twitchdrops"
+    },
+    {
+      "id": null,
+      "name": "7 drops",
+      "status": "ACTIVE",
+      "start_at": "2026-08-01T07:00:00Z",
+      "end_at": "2026-11-01T07:00:00Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e9f0de0c-3ff4-452e-9ffe-3c423266c807.png",
+      "details_url": "https://twitchdrops.app/game/special-events",
+      "game": "Special Events",
+      "game_slug": "special-events",
+      "game_box": null,
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "2 months Audible Premium",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "EnchantedBigBoiBoxers",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "PrincessDonutPink",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "VanillaBirthday Emote",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "CREP Emote",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Great Ball",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Great Ball",
+          "image": null,
+          "minutes": null
+        }
+      ],
+      "src": "twitchdrops"
     },
     {
       "id": "cd5a6322-52b0-4e5c-bd24-03581f98d2dd",
@@ -975,6 +1217,6 @@
     }
   ],
   "error": null,
-  "warn": "Fonte parcial fora do ar: twitchdrops: AttributeError",
+  "warn": null,
   "raw_hint": null
 }
