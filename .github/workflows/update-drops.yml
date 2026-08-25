@@ -2,10 +2,19 @@ name: Atualizar drops
 
 on:
   schedule:
-    - cron: "*/10 * * * *"   # a cada 10 min (horário UTC)
+    # O GitHub NAO honra */10 em repo gratuito: medido em 25/08/2026, os
+    # disparos reais sairam com 40-52 min de intervalo. O cron fica curto de
+    # proposito, mas nao conte com 10 minutos.
+    - cron: "*/10 * * * *"
   push:
     branches: [main]
-    paths: ["jogos-fora.txt"]  # mexeu na lista de jogos, limpa o radar na hora
+    # `checker.py` entrou aqui em 25/08/2026: consertei a fonte que estava
+    # morta e o dado novo so ia ao ar no proximo cron — quase uma hora depois,
+    # com o dono olhando o site vazio.
+    paths:
+      - "jogos-fora.txt"       # mexeu na lista de jogos, limpa o radar na hora
+      - "checker.py"           # mexeu no coletor, recolhe tudo de novo
+      - ".github/workflows/update-drops.yml"
   workflow_dispatch: {}       # botão "Run workflow" pra rodar na hora
 
 permissions:
