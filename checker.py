@@ -291,11 +291,14 @@ def carrega_twitchdrops(agora):
             "start_at": start, "end_at": endat,
             "image": thumb.group(1) if thumb else None,
             "details_url": "https://twitchdrops.app/game/" + (_attr(attrs, "data-slug") or ""),
-            # game_box e o que a Torre e o miviye.com usam de capa. Esta fonte
-            # nao tem a arte oficial, mas tem a miniatura do card — melhor a
-            # miniatura que um retangulo vazio.
+            # game_box fica VAZIO de proposito. Esta fonte so tem arte de
+            # CAMPANHA e de RECOMPENSA — nenhuma delas e a capa do jogo. Usar a
+            # miniatura do card aqui foi pior que nao ter nada: o Marvel Snap
+            # apareceu com a logo de um Draft e o Resonance com a silhueta de
+            # um touro (dono, 25/08/2026). Quem preenche a capa que falta e a
+            # Torre, pela Helix e pelo proxy — o caminho que ja tem credencial.
             "game": game, "game_slug": _attr(attrs, "data-slug"),
-            "game_box": (thumb.group(1) if thumb else None),
+            "game_box": None,
             "availability": "open",
             "required_minutes": None,
             "reward_type": classify(rewards), "rewards": rewards, "src": "twitchdrops",
