@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-08-25T22:02:43Z",
+  "updated_at": "2026-08-25T22:39:45Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-25T22:02:01.235Z",
+  "source_updated": "2026-08-25T22:39:01.244Z",
   "counts": {
     "total": 27,
     "upcoming": 2,
     "active": 25,
     "game_drops": 26,
     "platform": 1,
-    "badges": 5,
+    "badges": 6,
     "fechadas_descartadas": 41,
     "fora_da_lista": 38
   },
@@ -1152,6 +1152,15 @@
     }
   ],
   "badges": [
+    {
+      "title": "Resonance: A Plague Tale Legacy",
+      "start_at": "2026-08-26T16:00:00Z",
+      "end_at": "2026-09-23T15:59:00Z",
+      "note": null,
+      "images": [
+        "https://static-cdn.jtvnw.net/badges/v1/63cf6329-f34c-449e-8f70-fafa1eb1de9e/3"
+      ]
+    },
     {
       "title": "Pokémon World Championships",
       "start_at": "2026-08-28T00:00:00Z",
