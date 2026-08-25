@@ -244,14 +244,19 @@ def _attr(s, name):
 
 
 def carrega_twitchdrops(agora):
-    html = fetch(TWITCHDROPS, as_json=False)
+    # `pagina`, nao `html`: a variavel local cobria o MODULO html e
+    # `html.unescape` virava AttributeError. A fonte inteira caia por isso, e
+    # o erro era engolido pelo try do coletar() — o radar rodava com 2 fontes
+    # em vez de 3 sem ninguem notar. Foi assim que o Marvel Snap, que estava
+    # aqui com data e tudo, nunca chegou no site (dono, 2026-08-25).
+    pagina = fetch(TWITCHDROPS, as_json=False)
     out = []
-    for m in re.finditer(r'<a\b([^>]*\bgame-card\b[^>]*)>', html):
+    for m in re.finditer(r'<a\b([^>]*\bgame-card\b[^>]*)>', pagina):
         attrs = m.group(1)
         if _attr(attrs, "data-allchannels") != "true":   # so aberto
             continue
-        end = html.find("</a>", m.end())
-        body = html[m.end():end] if end != -1 else ""
+        end = pagina.find("</a>", m.end())
+        body = pagina[m.end():end] if end != -1 else ""
         start = _attr(attrs, "data-start")
         endat = _attr(attrs, "data-end")
         if endat and endat < agora:                       # ja expirou
