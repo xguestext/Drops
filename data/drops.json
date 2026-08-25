@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-08-25T03:34:50Z",
+  "updated_at": "2026-08-25T04:20:24Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-25T03:34:01.803Z",
+  "source_updated": "2026-08-25T04:20:01.418Z",
   "counts": {
-    "total": 23,
-    "upcoming": 1,
+    "total": 24,
+    "upcoming": 2,
     "active": 22,
-    "game_drops": 22,
+    "game_drops": 23,
     "platform": 1,
     "badges": 5,
     "fechadas_descartadas": 39,
-    "fora_da_lista": 35
+    "fora_da_lista": 36
   },
   "campaigns": [
     {
@@ -43,6 +43,49 @@
           "name": "FORMULA: GOLD-FRAMED CARV",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/70c28805-81e7-48a6-af2f-38a384430109.png",
           "minutes": 240
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "412be155-a987-41ba-8f9e-30f0909e54cb",
+      "name": "V4.5 Honkai: Star Rail",
+      "status": "UPCOMING",
+      "start_at": "2026-08-26T01:00:00.000Z",
+      "end_at": "2026-09-23T00:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Honkai: Star Rail",
+      "game_slug": "honkai-star-rail",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/213930085_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Credit*20000",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bdf2a93f-96e5-4544-9972-4b4d8eabddc9.png",
+          "minutes": 15
+        },
+        {
+          "name": "Lost Gold Fragment*4",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e8254bd0-87ab-491a-b5bf-2ba99d9ecf6f.png",
+          "minutes": 30
+        },
+        {
+          "name": "Condensed Aether*5",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f5cb5327-04fc-4537-ad6a-142b9bfa89fe.png",
+          "minutes": 45
+        },
+        {
+          "name": "Traveler's Guide*3",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/10953670-5011-471e-b873-b1ef4901ba6e.png",
+          "minutes": 60
+        },
+        {
+          "name": "Stellar Jade*30",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/35243e27-46dd-438a-b460-7bfafe547f18.png",
+          "minutes": 120
         }
       ],
       "src": "fenris"
