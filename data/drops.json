@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-25T19:41:04Z",
+  "updated_at": "2026-08-25T20:03:33Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-25T19:41:01.299Z",
+  "source_updated": "2026-08-25T20:03:01.353Z",
   "counts": {
     "total": 27,
     "upcoming": 2,
@@ -11,7 +11,7 @@
     "platform": 1,
     "badges": 5,
     "fechadas_descartadas": 40,
-    "fora_da_lista": 35
+    "fora_da_lista": 39
   },
   "campaigns": [
     {
@@ -58,27 +58,27 @@
       "src": "fenris"
     },
     {
-      "id": "td-resonance-a-plague-tale-legacy-2026-08-26",
-      "name": "1 drop",
+      "id": "90589949-1d2e-4161-8def-3aee51e1f721",
+      "name": "Resonance Launch",
       "status": "UPCOMING",
-      "start_at": "2026-08-26T16:00:00Z",
+      "start_at": "2026-08-26T16:00:00.000Z",
       "end_at": "2026-09-23T15:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/219ecc61-cc7d-457b-9f14-794549b28700.png",
-      "details_url": "https://twitchdrops.app/game/resonance-a-plague-tale-legacy",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
       "game": "Resonance: A Plague Tale Legacy",
       "game_slug": "resonance-a-plague-tale-legacy",
-      "game_box": null,
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/570615518_IGDB-285x380.jpg",
       "availability": "open",
-      "required_minutes": null,
+      "required_minutes": 60,
       "reward_type": "game",
       "rewards": [
         {
           "name": "Resonance Minotaur",
-          "image": null,
-          "minutes": null
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e70c67aa-4534-480c-81fb-52b373e5952a.png",
+          "minutes": 60
         }
       ],
-      "src": "twitchdrops"
+      "src": "fenris"
     },
     {
       "id": "2942d78f-12d2-49ca-918d-4b9ab8e28842",
