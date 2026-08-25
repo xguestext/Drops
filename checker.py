@@ -275,14 +275,27 @@ def carrega_twitchdrops(agora):
             im = rimgs[k] if k < len(rimgs) else None
             if nm:
                 rewards.append({"name": nm, "image": im, "minutes": None})
+        # ID SINTETICO E ESTAVEL. Esta fonte nao publica o id da campanha, e o
+        # `None` fazia o drop chegar no site mas nunca virar live: o piloto
+        # recusa com "campanha sem id ou sem jogo", e o `processados` (que e
+        # indexado por id) nao tem como lembrar dele. Foi o que aconteceu com o
+        # MARVEL SNAP em 25/08/2026 — aparecia e nao servia pra nada.
+        # slug + dia de inicio: mesma campanha da sempre o mesmo id, e duas
+        # campanhas diferentes do mesmo jogo nao se confundem.
+        _slug = _attr(attrs, "data-slug") or re.sub(r"[^a-z0-9]+", "-", game.lower()).strip("-")
+        _id = "td-%s-%s" % (_slug, (start or "")[:10]) if _slug else None
         out.append({
-            "id": None,
+            "id": _id,
             "name": ("%s drop%s" % (drops, "" if drops == "1" else "s")),
             "status": "UPCOMING" if (start or "") > agora else "ACTIVE",
             "start_at": start, "end_at": endat,
             "image": thumb.group(1) if thumb else None,
             "details_url": "https://twitchdrops.app/game/" + (_attr(attrs, "data-slug") or ""),
-            "game": game, "game_slug": _attr(attrs, "data-slug"), "game_box": None,
+            # game_box e o que a Torre e o miviye.com usam de capa. Esta fonte
+            # nao tem a arte oficial, mas tem a miniatura do card — melhor a
+            # miniatura que um retangulo vazio.
+            "game": game, "game_slug": _attr(attrs, "data-slug"),
+            "game_box": (thumb.group(1) if thumb else None),
             "availability": "open",
             "required_minutes": None,
             "reward_type": classify(rewards), "rewards": rewards, "src": "twitchdrops",
