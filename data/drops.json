@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-25T17:08:22Z",
+  "updated_at": "2026-08-25T17:15:09Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-25T17:08:01.276Z",
+  "source_updated": "2026-08-25T17:15:01.543Z",
   "counts": {
     "total": 28,
     "upcoming": 4,
@@ -48,7 +48,7 @@
       "src": "fenris"
     },
     {
-      "id": null,
+      "id": "td-marvel-snap-2026-08-25",
       "name": "3 drops",
       "status": "UPCOMING",
       "start_at": "2026-08-25T19:00:00Z",
@@ -57,7 +57,7 @@
       "details_url": "https://twitchdrops.app/game/marvel-snap",
       "game": "MARVEL SNAP",
       "game_slug": "marvel-snap",
-      "game_box": null,
+      "game_box": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/da497d4f-0fec-460a-a8a3-dd79a35e9fe5.png",
       "availability": "open",
       "required_minutes": null,
       "reward_type": "game",
@@ -124,7 +124,7 @@
       "src": "fenris"
     },
     {
-      "id": null,
+      "id": "td-resonance-a-plague-tale-legacy-2026-08-26",
       "name": "1 drop",
       "status": "UPCOMING",
       "start_at": "2026-08-26T16:00:00Z",
@@ -133,7 +133,7 @@
       "details_url": "https://twitchdrops.app/game/resonance-a-plague-tale-legacy",
       "game": "Resonance: A Plague Tale Legacy",
       "game_slug": "resonance-a-plague-tale-legacy",
-      "game_box": null,
+      "game_box": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/219ecc61-cc7d-457b-9f14-794549b28700.png",
       "availability": "open",
       "required_minutes": null,
       "reward_type": "game",
@@ -170,7 +170,7 @@
       "src": "sunkwi"
     },
     {
-      "id": null,
+      "id": "td-marvel-rivals-2026-07-29",
       "name": "23 drops",
       "status": "ACTIVE",
       "start_at": "2026-07-29T17:00:00Z",
@@ -179,7 +179,7 @@
       "details_url": "https://twitchdrops.app/game/marvel-rivals",
       "game": "Marvel Rivals",
       "game_slug": "marvel-rivals",
-      "game_box": null,
+      "game_box": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/34c03f8e-a501-4d86-8566-045b2fe64dbf.png",
       "availability": "open",
       "required_minutes": null,
       "reward_type": "game",
@@ -303,7 +303,7 @@
       "src": "twitchdrops"
     },
     {
-      "id": null,
+      "id": "td-special-events-2026-08-01",
       "name": "7 drops",
       "status": "ACTIVE",
       "start_at": "2026-08-01T07:00:00Z",
@@ -312,7 +312,7 @@
       "details_url": "https://twitchdrops.app/game/special-events",
       "game": "Special Events",
       "game_slug": "special-events",
-      "game_box": null,
+      "game_box": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e9f0de0c-3ff4-452e-9ffe-3c423266c807.png",
       "availability": "open",
       "required_minutes": null,
       "reward_type": "game",
