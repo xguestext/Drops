@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-08-26T10:55:16Z",
+  "updated_at": "2026-08-26T11:25:18Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-26T10:55:01.409Z",
+  "source_updated": "2026-08-26T11:25:01.476Z",
   "counts": {
-    "total": 27,
-    "upcoming": 2,
+    "total": 28,
+    "upcoming": 3,
     "active": 25,
-    "game_drops": 27,
+    "game_drops": 28,
     "platform": 0,
     "badges": 8,
     "fechadas_descartadas": 37,
-    "fora_da_lista": 34
+    "fora_da_lista": 35
   },
   "campaigns": [
     {
@@ -38,42 +38,80 @@
       "src": "fenris"
     },
     {
-      "id": "td-fragpunk-2026-08-27",
-      "name": "4 drops",
+      "id": "751c7c96-b668-4130-a638-9acb33868edb",
+      "name": "Plants on Fire",
       "status": "UPCOMING",
-      "start_at": "2026-08-27T04:00:00Z",
+      "start_at": "2026-08-27T02:00:00.000Z",
+      "end_at": "2026-09-06T01:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "Plants on Fire",
+      "game_slug": "plants-on-fire",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2146281325_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 360,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "1,000 Gold",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/67e6f5d2-22cc-4bd6-bfec-35e2f0ffbc35.png",
+          "minutes": 60
+        },
+        {
+          "name": "10 Recruit Tokens",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5a1b5a73-727c-4c58-93b0-153dc5af6d23.png",
+          "minutes": 120
+        },
+        {
+          "name": "Exclusive Profile",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7c0002c3-7184-4954-bc5c-723268d481d0.png",
+          "minutes": 240
+        },
+        {
+          "name": "Legendary Harvest Pot",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d91f7ec8-a05d-4cd9-8eb8-f47435cb0706.png",
+          "minutes": 360
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "f6e63738-9f19-47e3-8336-9d31482e91ad",
+      "name": "S6: Shard Voyagers",
+      "status": "UPCOMING",
+      "start_at": "2026-08-27T04:00:00.000Z",
       "end_at": "2026-09-17T03:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/eedf27c4-168a-4b30-af6c-e1d52873bf6a.png",
-      "details_url": "https://twitchdrops.app/game/fragpunk",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
       "game": "FragPunk",
       "game_slug": "fragpunk",
-      "game_box": null,
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1023750977_IGDB-285x380.jpg",
       "availability": "open",
-      "required_minutes": null,
+      "required_minutes": 240,
       "reward_type": "game",
       "rewards": [
         {
           "name": "Noisy Gears",
-          "image": null,
-          "minutes": null
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/50aaff9f-6019-4567-a45d-810e6d0a0b65.png",
+          "minutes": 30
         },
         {
           "name": "At the Ready",
-          "image": null,
-          "minutes": null
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/963daf53-172c-4c52-89b3-3fb1d926042e.png",
+          "minutes": 60
         },
         {
           "name": "Jaw-Dropping",
-          "image": null,
-          "minutes": null
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/57e42fb4-df0d-4485-9aa8-4cb34f9ebc4e.png",
+          "minutes": 120
         },
         {
           "name": "Dinosaur Pistol",
-          "image": null,
-          "minutes": null
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3b3f2d25-0fff-46cc-afb5-6dae56381192.png",
+          "minutes": 240
         }
       ],
-      "src": "twitchdrops"
+      "src": "fenris"
     },
     {
       "id": "td-marvel-rivals-2026-07-29",
