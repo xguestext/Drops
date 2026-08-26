@@ -1,19 +1,42 @@
 {
-  "updated_at": "2026-08-26T12:42:47Z",
+  "updated_at": "2026-08-26T13:41:07Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-26T12:42:01.251Z",
+  "source_updated": "2026-08-26T13:41:01.082Z",
   "counts": {
-    "total": 28,
-    "upcoming": 3,
+    "total": 29,
+    "upcoming": 4,
     "active": 25,
-    "game_drops": 28,
+    "game_drops": 29,
     "platform": 0,
     "badges": 8,
-    "fechadas_descartadas": 36,
+    "fechadas_descartadas": 37,
     "fora_da_lista": 34
   },
   "campaigns": [
+    {
+      "id": "td-007-first-light-2026-08-26",
+      "name": "1 drop",
+      "status": "UPCOMING",
+      "start_at": "2026-08-26T14:00:00Z",
+      "end_at": "2026-09-20T16:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/b33d3ac7-d412-420b-bb6c-6a59dbf4afc7.jpeg",
+      "details_url": "https://twitchdrops.app/game/007-first-light",
+      "game": "007 First Light",
+      "game_slug": "007-first-light",
+      "game_box": null,
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Daring Elite",
+          "image": null,
+          "minutes": null
+        }
+      ],
+      "src": "twitchdrops"
+    },
     {
       "id": "90589949-1d2e-4161-8def-3aee51e1f721",
       "name": "Resonance Launch",
