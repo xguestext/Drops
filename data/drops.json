@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-26T06:19:54Z",
+  "updated_at": "2026-08-26T07:13:57Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-26T06:19:01.358Z",
+  "source_updated": "2026-08-26T07:13:01.373Z",
   "counts": {
-    "total": 27,
+    "total": 26,
     "upcoming": 2,
-    "active": 25,
-    "game_drops": 26,
+    "active": 24,
+    "game_drops": 25,
     "platform": 1,
     "badges": 8,
     "fechadas_descartadas": 38,
@@ -74,29 +74,6 @@
         }
       ],
       "src": "twitchdrops"
-    },
-    {
-      "id": "2942d78f-12d2-49ca-918d-4b9ab8e28842",
-      "name": "Egg",
-      "status": "ACTIVE",
-      "start_at": "2026-07-29T07:00:00Z",
-      "end_at": "2026-08-26T06:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/460ff54c-3700-4042-899d-44db1e163d1e.png",
-      "details_url": "https://help.twitch.tv/s/article/twitch-chat-badges-guide ",
-      "game": "ROBLOX",
-      "game_slug": "roblox",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/23020_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": null,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Egg",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7077ca58-fe67-4a0d-aad9-24c8388d9ddc.png",
-          "minutes": 0
-        }
-      ],
-      "src": "sunkwi"
     },
     {
       "id": "td-marvel-rivals-2026-07-29",
