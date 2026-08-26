@@ -1,62 +1,19 @@
 {
-  "updated_at": "2026-08-25T23:55:24Z",
+  "updated_at": "2026-08-26T01:04:28Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-25T23:55:01.368Z",
+  "source_updated": "2026-08-26T01:04:01.394Z",
   "counts": {
-    "total": 27,
-    "upcoming": 2,
+    "total": 26,
+    "upcoming": 1,
     "active": 25,
-    "game_drops": 26,
+    "game_drops": 25,
     "platform": 1,
     "badges": 8,
-    "fechadas_descartadas": 42,
-    "fora_da_lista": 38
+    "fechadas_descartadas": 41,
+    "fora_da_lista": 37
   },
   "campaigns": [
-    {
-      "id": "412be155-a987-41ba-8f9e-30f0909e54cb",
-      "name": "V4.5 Honkai: Star Rail",
-      "status": "UPCOMING",
-      "start_at": "2026-08-26T01:00:00.000Z",
-      "end_at": "2026-09-23T00:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Honkai: Star Rail",
-      "game_slug": "honkai-star-rail",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/213930085_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Credit*20000",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bdf2a93f-96e5-4544-9972-4b4d8eabddc9.png",
-          "minutes": 15
-        },
-        {
-          "name": "Lost Gold Fragment*4",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e8254bd0-87ab-491a-b5bf-2ba99d9ecf6f.png",
-          "minutes": 30
-        },
-        {
-          "name": "Condensed Aether*5",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f5cb5327-04fc-4537-ad6a-142b9bfa89fe.png",
-          "minutes": 45
-        },
-        {
-          "name": "Traveler's Guide*3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/10953670-5011-471e-b873-b1ef4901ba6e.png",
-          "minutes": 60
-        },
-        {
-          "name": "Stellar Jade*30",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/35243e27-46dd-438a-b460-7bfafe547f18.png",
-          "minutes": 120
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "90589949-1d2e-4161-8def-3aee51e1f721",
       "name": "Resonance Launch",
@@ -611,39 +568,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "27c0f6b1-3601-40b3-b502-e858689a12d1",
-      "name": "3rd Drop 8/12-8/26",
-      "status": "ACTIVE",
-      "start_at": "2026-08-12T01:00:00Z",
-      "end_at": "2026-08-26T00:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e1a5874b-19e8-45a0-aefc-308acd305c27.png",
-      "details_url": "https://mistfallhunter.com/twitchdrops",
-      "game": "Mistfall Hunter",
-      "game_slug": "mistfall-hunter",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/852009328_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "240-Minutes Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5f498453-b4f8-49ac-ad17-cd809f7e5b39.png",
-          "minutes": 240
-        },
-        {
-          "name": "30-Minutes Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/14c4a1f2-7f6b-4338-8a72-788a544f3189.png",
-          "minutes": 30
-        },
-        {
-          "name": "60-Minutes Drop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/45a3a419-8ca0-441f-9d4a-e3ab38760d34.png",
-          "minutes": 60
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "4c219285-bcf7-422a-9e2e-1603ced3d10c",
       "name": "SQUADRA SEASON 6.2 Drops",
       "status": "ACTIVE",
@@ -1128,6 +1052,49 @@
       "src": "sunkwi"
     },
     {
+      "id": "412be155-a987-41ba-8f9e-30f0909e54cb",
+      "name": "V4.5 Honkai: Star Rail",
+      "status": "ACTIVE",
+      "start_at": "2026-08-26T01:00:00Z",
+      "end_at": "2026-09-23T00:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/0d3e3e83-c11f-45b8-9452-10e0223ce246.png",
+      "details_url": "https://act.hoyoverse.com/puzzle/hkrpg/pz_u8LiB2qvFN/index.html?game_biz=hkrpg_global&utm_source=twitch&utm_medium=push",
+      "game": "Honkai: Star Rail",
+      "game_slug": "honkai-star-rail",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/213930085_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Credit*20000",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bdf2a93f-96e5-4544-9972-4b4d8eabddc9.png",
+          "minutes": 15
+        },
+        {
+          "name": "Lost Gold Fragment*4",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e8254bd0-87ab-491a-b5bf-2ba99d9ecf6f.png",
+          "minutes": 30
+        },
+        {
+          "name": "Condensed Aether*5",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f5cb5327-04fc-4537-ad6a-142b9bfa89fe.png",
+          "minutes": 45
+        },
+        {
+          "name": "Traveler's Guide*3",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/10953670-5011-471e-b873-b1ef4901ba6e.png",
+          "minutes": 60
+        },
+        {
+          "name": "Stellar Jade*30",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/35243e27-46dd-438a-b460-7bfafe547f18.png",
+          "minutes": 120
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
       "id": "8a9dd118-ea88-410a-ba60-84cb1332aad2",
       "name": "Roblox Egg Hunt",
       "status": "ACTIVE",
@@ -1165,7 +1132,7 @@
       "title": "Pokémon World Championships",
       "start_at": "2026-08-28T00:00:00Z",
       "end_at": "2026-08-30T23:59:00Z",
-      "note": "**2026 Worlds costumed Pikachu**\n- Watch the main Pokémon stream for 60 minutes.\n\n**PokémonXP costumed Pikachu**\n- Watch the Pokémon XP stream for 60 minutes.",
+      "note": "**2026 Worlds costumed Pikachu (Badge)**\n- Watch the main Pokémon stream for 60 minutes.\n\n**PokémonXP costumed Pikachu (Badge)**\n- Watch the Pokémon XP stream for 60 minutes.",
       "images": []
     },
     {
