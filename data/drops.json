@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-08-26T07:13:57Z",
+  "updated_at": "2026-08-26T08:02:22Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-26T07:13:01.373Z",
+  "source_updated": "2026-08-26T08:02:01.425Z",
   "counts": {
     "total": 26,
     "upcoming": 2,
     "active": 24,
-    "game_drops": 25,
-    "platform": 1,
+    "game_drops": 26,
+    "platform": 0,
     "badges": 8,
     "fechadas_descartadas": 38,
-    "fora_da_lista": 37
+    "fora_da_lista": 36
   },
   "campaigns": [
     {
@@ -1110,23 +1110,68 @@
       "src": "sunkwi"
     },
     {
-      "id": "8a9dd118-ea88-410a-ba60-84cb1332aad2",
-      "name": "Roblox Egg Hunt",
+      "id": "89ce7f50-00c2-4029-b3ca-e54630cfafd4",
+      "name": "Twitch Drops",
       "status": "ACTIVE",
-      "start_at": "2026-07-29T07:30:00Z",
-      "end_at": "2026-08-26T07:29:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/c0fba43f-a739-4fcb-a333-6307e9602e79.png",
-      "details_url": "https://help.twitch.tv/s/article/how-to-use-emotes",
-      "game": "ROBLOX",
-      "game_slug": "roblox",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/23020_IGDB-120x160.jpg",
+      "start_at": "2026-08-26T06:47:31Z",
+      "end_at": "2026-09-22T23:29:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/903308d9-478b-4d28-9d70-077d9ef4d2d7.png",
+      "details_url": "https://event.igg.com/twitch/drops?code=dls_drops",
+      "game": "Doomsday: Last Survivors",
+      "game_slug": "doomsday-last-survivors",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1102857083_IGDB-120x160.jpg",
       "availability": "open",
       "required_minutes": 30,
-      "reward_type": "platform",
+      "reward_type": "game",
       "rewards": [
         {
-          "name": "RBLXpip Emote",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3c814d63-116d-45e2-a44f-9ec33b49ad99.png",
+          "name": "Gem",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9f487000-8fc2-4b6d-aa3f-b18ae7286f06.png",
+          "minutes": 15
+        },
+        {
+          "name": "Advanced Search Map*1",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bb3d7332-e53b-49f3-b5c3-40991d194b4a.png",
+          "minutes": 15
+        },
+        {
+          "name": "60min Speedup*1",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cdc2c1d8-ce40-43dd-8183-4c6a29bb1522.png",
+          "minutes": 15
+        },
+        {
+          "name": "VIP EXP*1",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/38f8a7a8-28a4-4ef9-b8fa-59af3d9e399c.png",
+          "minutes": 15
+        },
+        {
+          "name": "Elite Hero Badge S*5",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e49b7d42-7d24-41cb-9051-abb1cdf19b54.png",
+          "minutes": 30
+        },
+        {
+          "name": "Battle Manual*5",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5973ed5a-369e-456a-a36a-2ff88b273ac4.png",
+          "minutes": 30
+        },
+        {
+          "name": "Stamina Recovery I*5",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0dabdecf-5c82-4961-9c94-e1255bbd67b7.png",
+          "minutes": 30
+        },
+        {
+          "name": "Normal Search Map*2",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4dec7f68-6d68-4061-9f54-260cc5c2f315.png",
+          "minutes": 30
+        },
+        {
+          "name": "5m Speedup*12",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d51c0708-e671-4631-81a6-695b73497c3c.png",
+          "minutes": 30
+        },
+        {
+          "name": "67 Exclusive Emote",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1fef8a74-9a5b-4db0-aa90-21dbcbab07c7.png",
           "minutes": 30
         }
       ],
