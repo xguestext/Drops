@@ -1,42 +1,19 @@
 {
-  "updated_at": "2026-08-26T13:41:07Z",
+  "updated_at": "2026-08-26T14:28:49Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-26T13:41:01.082Z",
+  "source_updated": "2026-08-26T14:28:01.416Z",
   "counts": {
     "total": 29,
-    "upcoming": 4,
-    "active": 25,
+    "upcoming": 3,
+    "active": 26,
     "game_drops": 29,
     "platform": 0,
     "badges": 8,
-    "fechadas_descartadas": 37,
-    "fora_da_lista": 34
+    "fechadas_descartadas": 38,
+    "fora_da_lista": 33
   },
   "campaigns": [
-    {
-      "id": "td-007-first-light-2026-08-26",
-      "name": "1 drop",
-      "status": "UPCOMING",
-      "start_at": "2026-08-26T14:00:00Z",
-      "end_at": "2026-09-20T16:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/b33d3ac7-d412-420b-bb6c-6a59dbf4afc7.jpeg",
-      "details_url": "https://twitchdrops.app/game/007-first-light",
-      "game": "007 First Light",
-      "game_slug": "007-first-light",
-      "game_box": null,
-      "availability": "open",
-      "required_minutes": null,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Daring Elite",
-          "image": null,
-          "minutes": null
-        }
-      ],
-      "src": "twitchdrops"
-    },
     {
       "id": "90589949-1d2e-4161-8def-3aee51e1f721",
       "name": "Resonance Launch",
@@ -1277,6 +1254,29 @@
           "name": "Regular Hero Draw Ticket5",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2c944546-a7c3-4972-8f1a-95df8205716f.png",
           "minutes": 120
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "4a750183-d375-48ac-9814-3650bd3a7534",
+      "name": "007 First Light #4",
+      "status": "ACTIVE",
+      "start_at": "2026-08-26T14:00:00Z",
+      "end_at": "2026-09-20T16:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/b33d3ac7-d412-420b-bb6c-6a59dbf4afc7.jpeg",
+      "details_url": "https://account.ioi.dk/",
+      "game": "007 First Light",
+      "game_slug": "007-first-light",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/229772247_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 60,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Daring Elite",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3e40c060-e420-49e6-af5f-ea55dc1288c0.jpeg",
+          "minutes": 60
         }
       ],
       "src": "sunkwi"
