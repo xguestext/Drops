@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-08-27T17:33:06Z",
+  "updated_at": "2026-08-27T21:00:50Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-27T17:33:01.066Z",
+  "source_updated": "2026-08-27T21:00:01.308Z",
   "counts": {
-    "total": 34,
+    "total": 41,
     "upcoming": 1,
-    "active": 33,
-    "game_drops": 34,
+    "active": 40,
+    "game_drops": 41,
     "platform": 0,
     "badges": 7,
     "fechadas_descartadas": 33,
-    "fora_da_lista": 40
+    "fora_da_lista": 44
   },
   "campaigns": [
     {
@@ -157,11 +157,11 @@
     },
     {
       "id": "td-special-events-2026-08-01",
-      "name": "7 drops",
+      "name": "4 drops",
       "status": "ACTIVE",
       "start_at": "2026-08-01T07:00:00Z",
       "end_at": "2026-11-01T07:00:00Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e9f0de0c-3ff4-452e-9ffe-3c423266c807.png",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/8946a164-d580-4f5d-a8d9-7cdfc7a6e5da.png",
       "details_url": "https://twitchdrops.app/game/special-events",
       "game": "Special Events",
       "game_slug": "special-events",
@@ -170,21 +170,6 @@
       "required_minutes": null,
       "reward_type": "game",
       "rewards": [
-        {
-          "name": "2 months Audible Premium",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "EnchantedBigBoiBoxers",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "PrincessDonutPink",
-          "image": null,
-          "minutes": null
-        },
         {
           "name": "VanillaBirthday Emote",
           "image": null,
@@ -507,6 +492,49 @@
       "src": "sunkwi"
     },
     {
+      "id": "td-predecessor-2026-08-11",
+      "name": "5 drops",
+      "status": "ACTIVE",
+      "start_at": "2026-08-11T15:00:00Z",
+      "end_at": "2026-09-07T23:29:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/c4ba7dad-e17a-4e49-9122-d880cc96686c.png",
+      "details_url": "https://twitchdrops.app/game/predecessor",
+      "game": "Predecessor",
+      "game_slug": "predecessor",
+      "game_box": null,
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Turquoise Scarlett Icon",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Ion Loot Core",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Turquoise Scarlett Banner",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Quantum Loot Core",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Turquoise Scarlett Skin",
+          "image": null,
+          "minutes": null
+        }
+      ],
+      "src": "twitchdrops"
+    },
+    {
       "id": "b3bf7ef1-3d9a-4438-8ef9-9fd6f8e92e26",
       "name": "Global Launch Welcome Kit",
       "status": "ACTIVE",
@@ -528,6 +556,39 @@
         }
       ],
       "src": "sunkwi"
+    },
+    {
+      "id": "td-dont-starve-together-2026-08-13",
+      "name": "3 drops",
+      "status": "ACTIVE",
+      "start_at": "2026-08-13T17:00:00Z",
+      "end_at": "2026-09-10T16:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/dcbbb03a-8827-4d55-b308-c40d7a0ff698.png",
+      "details_url": "https://twitchdrops.app/game/dont-starve-together",
+      "game": "Don't Starve Together",
+      "game_slug": "dont-starve-together",
+      "game_box": null,
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Bugburst Water. Icon",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Bugburst Water. Portrait",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Bugburst Waterballoon",
+          "image": null,
+          "minutes": null
+        }
+      ],
+      "src": "twitchdrops"
     },
     {
       "id": "4c219285-bcf7-422a-9e2e-1603ced3d10c",
@@ -566,6 +627,44 @@
         }
       ],
       "src": "sunkwi"
+    },
+    {
+      "id": "td-skull-and-bones-2026-08-18",
+      "name": "4 drops",
+      "status": "ACTIVE",
+      "start_at": "2026-08-18T07:00:00Z",
+      "end_at": "2026-09-14T21:29:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/13c96614-e7b4-471a-8cbc-a3a48bf641b3.jpeg",
+      "details_url": "https://twitchdrops.app/game/skull-and-bones",
+      "game": "Skull and Bones",
+      "game_slug": "skull-and-bones",
+      "game_box": null,
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Mossy Gravewood",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Sail Color - Rotbreath",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Noose of Thorns",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Marauder's Gash",
+          "image": null,
+          "minutes": null
+        }
+      ],
+      "src": "twitchdrops"
     },
     {
       "id": "a79bead9-e221-402a-996b-e0fa4e2f8912",
@@ -862,6 +961,114 @@
       "src": "sunkwi"
     },
     {
+      "id": "td-shakes-and-fidget-2026-08-20",
+      "name": "18 drops",
+      "status": "ACTIVE",
+      "start_at": "2026-08-20T14:00:00Z",
+      "end_at": "2026-08-30T21:58:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/1570457f-1e8e-49eb-91c5-e931ed533745.png",
+      "details_url": "https://twitchdrops.app/game/shakes-and-fidget",
+      "game": "Shakes and Fidget",
+      "game_slug": "shakes-and-fidget",
+      "game_box": null,
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Gilded Package",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Construction Package",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Arcane Package",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Soul Taker Package",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Fortification Package",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Smith Package",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Allrounder Package",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Potion Package",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Hellevator Access Pack",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Big Fruit Basket",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Hellevator Access Pack 2",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Time Jump Package",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Hellevator Access Pack 3",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Random Twitch Epic",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Winged Package",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Constitution Package",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Gem Package",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Clover Package",
+          "image": null,
+          "minutes": null
+        }
+      ],
+      "src": "twitchdrops"
+    },
+    {
       "id": "e92d0112-0b48-413a-b169-9e24472a0634",
       "name": "Season 4 Update Drops ",
       "status": "ACTIVE",
@@ -936,6 +1143,77 @@
         }
       ],
       "src": "sunkwi"
+    },
+    {
+      "id": "td-mobile-dungeon-2026-08-24",
+      "name": "4 drops",
+      "status": "ACTIVE",
+      "start_at": "2026-08-24T00:00:00Z",
+      "end_at": "2026-08-30T21:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/dac0be09-fc21-40fa-a0be-f5c2cdbde3aa.png",
+      "details_url": "https://twitchdrops.app/game/mobile-dungeon",
+      "game": "Mobile Dungeon",
+      "game_slug": "mobile-dungeon",
+      "game_box": null,
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "4x Arena Ticket",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "25x Crystal",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "24x Thirst for Adventure",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "6x Dungeon Key",
+          "image": null,
+          "minutes": null
+        }
+      ],
+      "src": "twitchdrops"
+    },
+    {
+      "id": "td-out-of-the-park-baseball-27-2026-08-24",
+      "name": "3 drops",
+      "status": "ACTIVE",
+      "start_at": "2026-08-24T13:00:00Z",
+      "end_at": "2026-08-31T12:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/dd3da468-8b99-4132-b261-c71bb43f32af.png",
+      "details_url": "https://twitchdrops.app/game/out-of-the-park-baseball-27",
+      "game": "Out of the Park Baseball 27",
+      "game_slug": "out-of-the-park-baseball-27",
+      "game_box": null,
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "PT27 Standard Pack",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "PT27 Silver Pack",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "PT27 Drop Bundle",
+          "image": null,
+          "minutes": null
+        }
+      ],
+      "src": "twitchdrops"
     },
     {
       "id": "0f1b1514-fe01-4f81-8fea-d35049d204cd",
@@ -1447,6 +1725,29 @@
           "name": "Proximity Explosive",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f05ebef6-3d5e-4e74-93ae-719a47f3d137.jpeg",
           "minutes": 60
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "6947d70e-d66b-4771-894a-6fc7f946e753",
+      "name": "0.5.5 Reveal Stream",
+      "status": "ACTIVE",
+      "start_at": "2026-08-27T19:30:00Z",
+      "end_at": "2026-08-28T19:29:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/5e3640be-fd8f-461e-b68f-09fb3abc06a4.png",
+      "details_url": "https://pathofexile2.com/twitchdrops",
+      "game": "Path of Exile 2",
+      "game_slug": "path-of-exile-2",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1702520304_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 30,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "CotA Mystery Box",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/199bf3c7-37e2-4f51-a8ae-3ab54f046d3d.png",
+          "minutes": 30
         }
       ],
       "src": "sunkwi"
