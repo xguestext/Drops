@@ -1,57 +1,19 @@
 {
-  "updated_at": "2026-08-27T01:03:12Z",
+  "updated_at": "2026-08-27T02:13:55Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-27T01:03:01.320Z",
+  "source_updated": "2026-08-27T02:13:01.327Z",
   "counts": {
-    "total": 31,
-    "upcoming": 3,
+    "total": 30,
+    "upcoming": 2,
     "active": 28,
-    "game_drops": 31,
+    "game_drops": 30,
     "platform": 0,
     "badges": 7,
     "fechadas_descartadas": 33,
-    "fora_da_lista": 34
+    "fora_da_lista": 35
   },
   "campaigns": [
-    {
-      "id": "751c7c96-b668-4130-a638-9acb33868edb",
-      "name": "Plants on Fire",
-      "status": "UPCOMING",
-      "start_at": "2026-08-27T02:00:00.000Z",
-      "end_at": "2026-09-06T01:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Plants on Fire",
-      "game_slug": "plants-on-fire",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2146281325_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 360,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "1,000 Gold",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/67e6f5d2-22cc-4bd6-bfec-35e2f0ffbc35.png",
-          "minutes": 60
-        },
-        {
-          "name": "10 Recruit Tokens",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5a1b5a73-727c-4c58-93b0-153dc5af6d23.png",
-          "minutes": 120
-        },
-        {
-          "name": "Exclusive Profile",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7c0002c3-7184-4954-bc5c-723268d481d0.png",
-          "minutes": 240
-        },
-        {
-          "name": "Legendary Harvest Pot",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d91f7ec8-a05d-4cd9-8eb8-f47435cb0706.png",
-          "minutes": 360
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "f6e63738-9f19-47e3-8336-9d31482e91ad",
       "name": "S6: Shard Voyagers",
