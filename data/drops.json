@@ -1,85 +1,19 @@
 {
-  "updated_at": "2026-08-27T11:09:21Z",
+  "updated_at": "2026-08-27T17:33:06Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-27T11:09:01.326Z",
+  "source_updated": "2026-08-27T17:33:01.066Z",
   "counts": {
-    "total": 35,
-    "upcoming": 3,
-    "active": 32,
-    "game_drops": 35,
+    "total": 34,
+    "upcoming": 1,
+    "active": 33,
+    "game_drops": 34,
     "platform": 0,
     "badges": 7,
-    "fechadas_descartadas": 35,
-    "fora_da_lista": 36
+    "fechadas_descartadas": 33,
+    "fora_da_lista": 40
   },
   "campaigns": [
-    {
-      "id": "c7f41fc6-9fd5-44ca-913a-c28a4beeb90b",
-      "name": "TCTD2 Y8S3 Red Horizon",
-      "status": "UPCOMING",
-      "start_at": "2026-08-27T15:00:00.000Z",
-      "end_at": "2026-09-03T14:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Tom Clancy's The Division 2",
-      "game_slug": "tom-clancys-the-division-2",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/504463_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "ARM PATCH Witness",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9572c36a-8aa6-478b-9fbc-802fedc0d33a.png",
-          "minutes": 30
-        },
-        {
-          "name": "Named Item Cache",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e8947a96-43e2-478e-a1cf-35982b5b8f49.png",
-          "minutes": 60
-        },
-        {
-          "name": "ARM PATCH Renewal",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5d75660c-3300-4336-944d-04a50785d341.png",
-          "minutes": 120
-        },
-        {
-          "name": "Exotic Cache",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1a384725-6d12-4728-b5f2-a972f173c4ca.png",
-          "minutes": 180
-        },
-        {
-          "name": "WEAPON SKIN Aftermath",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2298c1b5-a0c2-442a-82fa-acab1ddddfcb.png",
-          "minutes": 240
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "3ed94804-99c7-498e-bba2-b63448b3386d",
-      "name": "The Herbalist #1",
-      "status": "UPCOMING",
-      "start_at": "2026-08-27T15:00:00.000Z",
-      "end_at": "2026-09-07T13:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "HITMAN World of Assassination",
-      "game_slug": "hitman-world-of-assassination",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1780647523_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 60,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Proximity Explosive",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f05ebef6-3d5e-4e74-93ae-719a47f3d137.jpeg",
-          "minutes": 60
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "a32d43f5-2c18-4205-9480-d1149b3558d2",
       "name": "V2.9 Infinity Nikki",
@@ -129,12 +63,12 @@
       "src": "fenris"
     },
     {
-      "id": "td-marvel-rivals-2026-07-30",
-      "name": "19 drops",
+      "id": "td-marvel-rivals-2026-07-31",
+      "name": "15 drops",
       "status": "ACTIVE",
-      "start_at": "2026-07-30T17:00:00Z",
+      "start_at": "2026-07-31T17:00:00Z",
       "end_at": "2026-09-04T08:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/9afad0a0-026a-4136-830c-ddf782b0c526.png",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ba686d5e-1640-49ba-b851-283c1248c0ec.png",
       "details_url": "https://twitchdrops.app/game/marvel-rivals",
       "game": "Marvel Rivals",
       "game_slug": "marvel-rivals",
@@ -143,26 +77,6 @@
       "required_minutes": null,
       "reward_type": "game",
       "rewards": [
-        {
-          "name": "100 CHRONO TOKEN MSF 2",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "「BUILT DIFFERENT」Emoji",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "MSF26 LA Spray",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "MSF26 Nameplate",
-          "image": null,
-          "minutes": null
-        },
         {
           "name": "100 CHRONO TOKEN MSF 3",
           "image": null,
@@ -1391,59 +1305,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "98193e83-2c11-4a0f-831a-d5fbd2651f5d",
-      "name": "Twitch Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-08-27T03:45:15Z",
-      "end_at": "2026-09-24T03:43:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/796851b4-880f-49da-9a9e-ac8fa1e5cf9e.png",
-      "details_url": "https://event.igg.com/twitch/drops?code=lo_drops",
-      "game": "Lords Mobile",
-      "game_slug": "lords-mobile",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/492618_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 30,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Speed Up (3 h) *10",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d648aa25-d010-4837-9880-496390ff08bb.png",
-          "minutes": 15
-        },
-        {
-          "name": "1 Artifact Coin *200",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d3c5cbeb-f1ab-4e02-a297-5c186d571da4.png",
-          "minutes": 15
-        },
-        {
-          "name": "1 Mana Crystal *100",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/67278207-7b34-41c0-b1e8-d7928deb8110.png",
-          "minutes": 15
-        },
-        {
-          "name": "Speed Up (3 h) *20",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8f35d5fe-8402-4c43-a804-2cac326a8087.png",
-          "minutes": 30
-        },
-        {
-          "name": "1 Artifact Coin *600",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1352b0dd-d409-40a9-80eb-5f2b8c3d7814.png",
-          "minutes": 30
-        },
-        {
-          "name": "1 Mana Crystal *300",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0f52bbc4-0724-4f4b-a90e-b548678df618.png",
-          "minutes": 30
-        },
-        {
-          "name": "Exclusive Twitch Emote",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e4efb789-67f1-49bc-b718-b9813d011005.png",
-          "minutes": 30
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "f6e63738-9f19-47e3-8336-9d31482e91ad",
       "name": "S6: Shard Voyagers",
       "status": "ACTIVE",
@@ -1520,6 +1381,72 @@
           "name": "Potent Catalyst x1",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/35ad3688-6361-4147-8a88-c796c200f098.png",
           "minutes": 180
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "c7f41fc6-9fd5-44ca-913a-c28a4beeb90b",
+      "name": "TCTD2 Y8S3 Red Horizon",
+      "status": "ACTIVE",
+      "start_at": "2026-08-27T15:00:00Z",
+      "end_at": "2026-09-03T14:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/default.png",
+      "details_url": "https://www.ubisoft.com/help/article/000065532",
+      "game": "Tom Clancy's The Division 2",
+      "game_slug": "tom-clancys-the-division-2",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/504463_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 240,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "ARM PATCH Witness",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9572c36a-8aa6-478b-9fbc-802fedc0d33a.png",
+          "minutes": 30
+        },
+        {
+          "name": "Named Item Cache",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e8947a96-43e2-478e-a1cf-35982b5b8f49.png",
+          "minutes": 60
+        },
+        {
+          "name": "ARM PATCH Renewal",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5d75660c-3300-4336-944d-04a50785d341.png",
+          "minutes": 120
+        },
+        {
+          "name": "Exotic Cache",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1a384725-6d12-4728-b5f2-a972f173c4ca.png",
+          "minutes": 180
+        },
+        {
+          "name": "WEAPON SKIN Aftermath",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2298c1b5-a0c2-442a-82fa-acab1ddddfcb.png",
+          "minutes": 240
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "3ed94804-99c7-498e-bba2-b63448b3386d",
+      "name": "The Herbalist #1",
+      "status": "ACTIVE",
+      "start_at": "2026-08-27T15:00:00Z",
+      "end_at": "2026-09-07T13:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/db7e13f2-9a16-41d4-81f6-ae6ed9fc7b14.jpeg",
+      "details_url": "https://account.ioi.dk/",
+      "game": "HITMAN World of Assassination",
+      "game_slug": "hitman-world-of-assassination",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1780647523_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 60,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Proximity Explosive",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f05ebef6-3d5e-4e74-93ae-719a47f3d137.jpeg",
+          "minutes": 60
         }
       ],
       "src": "sunkwi"
