@@ -1,92 +1,97 @@
 {
-  "updated_at": "2026-08-28T05:19:55Z",
+  "updated_at": "2026-08-28T17:29:42Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-28T05:19:01.329Z",
+  "source_updated": "2026-08-28T17:29:01.188Z",
   "counts": {
-    "total": 37,
-    "upcoming": 2,
-    "active": 35,
-    "game_drops": 37,
+    "total": 38,
+    "upcoming": 0,
+    "active": 38,
+    "game_drops": 38,
     "platform": 0,
-    "badges": 6,
-    "fechadas_descartadas": 30,
-    "fora_da_lista": 42
+    "badges": 5,
+    "fechadas_descartadas": 46,
+    "fora_da_lista": 39
   },
   "campaigns": [
     {
-      "id": "74d5ff14-16fd-4c92-b56a-0be9e9293c9d",
-      "name": "0.5.5 Reveal Stream",
-      "status": "UPCOMING",
-      "start_at": "2026-08-28T07:30:00.000Z",
-      "end_at": "2026-08-28T19:29:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Path of Exile 2",
-      "game_slug": "path-of-exile-2",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1702520304_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 30,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "CotA Mystery Box",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/367f4ecf-f113-4dcc-b1dd-2e90bd77cfdc.png",
-          "minutes": 30
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "a6333c5e-a293-4730-bd7c-a87af365511f",
-      "name": "B&S NEO Reignited Drops",
-      "status": "UPCOMING",
-      "start_at": "2026-08-28T17:00:00.000Z",
-      "end_at": "2026-09-07T06:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Blade & Soul NEO",
-      "game_slug": "blade-and-soul-neo",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/801121736_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 600,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Darkstorm Portrait ×2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/15468326-a573-46f0-b163-d474e5882899.png",
-          "minutes": 120
-        },
-        {
-          "name": "Heroic Insignia ×5",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e79ab159-1239-48c1-a95c-6127c5250d69.png",
-          "minutes": 240
-        },
-        {
-          "name": "Darkstorm Portrait ×4",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cc493406-ad58-467f-b273-2ab507b55dcb.png",
-          "minutes": 360
-        },
-        {
-          "name": "Heroic Sp. Insignia ×2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/85753d26-5ed7-4b4e-a358-9147c738a2cb.png",
-          "minutes": 480
-        },
-        {
-          "name": "Bound Heroic Selector ×1",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ce4f71af-4532-480a-bbd2-1006f9e368ce.png",
-          "minutes": 600
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "td-marvel-rivals-2026-07-31",
-      "name": "15 drops",
+      "id": "td-special-events-2026-08-01",
+      "name": "5 drops",
       "status": "ACTIVE",
-      "start_at": "2026-07-31T17:00:00Z",
+      "start_at": "2026-08-01T07:00:00Z",
+      "end_at": "2026-11-01T07:00:00Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/88aa5285-7046-4305-9171-40a979aa2945.png",
+      "details_url": "https://twitchdrops.app/game/special-events",
+      "game": "Special Events",
+      "game_slug": "special-events",
+      "game_box": null,
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "2026 Worlds Pikachu",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "PokémonXP Pikachu",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "CREP Emote",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Great Ball",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Great Ball",
+          "image": null,
+          "minutes": null
+        }
+      ],
+      "src": "twitchdrops"
+    },
+    {
+      "id": "cd5a6322-52b0-4e5c-bd24-03581f98d2dd",
+      "name": "Welcome to ZeroSpace",
+      "status": "ACTIVE",
+      "start_at": "2026-08-01T15:11:07Z",
+      "end_at": "2026-08-28T23:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e48d7be6-6d96-4b2c-9c05-e94b282691d4.png",
+      "details_url": "https://zsalpha.playzerospace.com/twitchauth",
+      "game": "ZeroSpace",
+      "game_slug": "zerospace",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/813773698_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 180,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Loi'Kru Portrait",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a63c5ac2-1431-4091-9311-68d0847d1d88.png",
+          "minutes": 180
+        },
+        {
+          "name": "She Who Stalks Portrait",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2516d4a0-fd12-4207-a85b-b4d255162449.png",
+          "minutes": 60
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "td-marvel-rivals-2026-08-01",
+      "name": "10 drops",
+      "status": "ACTIVE",
+      "start_at": "2026-08-01T17:00:00Z",
       "end_at": "2026-09-04T08:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ba686d5e-1640-49ba-b851-283c1248c0ec.png",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a43843ed-8792-4547-ac86-eaf772db1c6e.png",
       "details_url": "https://twitchdrops.app/game/marvel-rivals",
       "game": "Marvel Rivals",
       "game_slug": "marvel-rivals",
@@ -95,31 +100,6 @@
       "required_minutes": null,
       "reward_type": "game",
       "rewards": [
-        {
-          "name": "100 CHRONO TOKEN MSF 3",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "Daredevil MSF26 Spray",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "100 CHRONO TOKEN MSF 4",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "MSF26 LA Dawn Nameplate",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "Daredevil MSF26 Emote",
-          "image": null,
-          "minutes": null
-        },
         {
           "name": "100 CHRONO TOKEN MSF 5",
           "image": null,
@@ -172,72 +152,6 @@
         }
       ],
       "src": "twitchdrops"
-    },
-    {
-      "id": "td-special-events-2026-08-01",
-      "name": "4 drops",
-      "status": "ACTIVE",
-      "start_at": "2026-08-01T07:00:00Z",
-      "end_at": "2026-11-01T07:00:00Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/8946a164-d580-4f5d-a8d9-7cdfc7a6e5da.png",
-      "details_url": "https://twitchdrops.app/game/special-events",
-      "game": "Special Events",
-      "game_slug": "special-events",
-      "game_box": null,
-      "availability": "open",
-      "required_minutes": null,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "VanillaBirthday Emote",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "CREP Emote",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "Great Ball",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "Great Ball",
-          "image": null,
-          "minutes": null
-        }
-      ],
-      "src": "twitchdrops"
-    },
-    {
-      "id": "cd5a6322-52b0-4e5c-bd24-03581f98d2dd",
-      "name": "Welcome to ZeroSpace",
-      "status": "ACTIVE",
-      "start_at": "2026-08-01T15:11:07Z",
-      "end_at": "2026-08-28T23:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e48d7be6-6d96-4b2c-9c05-e94b282691d4.png",
-      "details_url": "https://zsalpha.playzerospace.com/twitchauth",
-      "game": "ZeroSpace",
-      "game_slug": "zerospace",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/813773698_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 180,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Loi'Kru Portrait",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a63c5ac2-1431-4091-9311-68d0847d1d88.png",
-          "minutes": 180
-        },
-        {
-          "name": "She Who Stalks Portrait",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2516d4a0-fd12-4207-a85b-b4d255162449.png",
-          "minutes": 60
-        }
-      ],
-      "src": "sunkwi"
     },
     {
       "id": "5fa7380f-e760-437b-81c4-30f1d57b97eb",
@@ -1455,27 +1369,27 @@
       "src": "sunkwi"
     },
     {
-      "id": "24f574cc-a250-44a1-8b46-69d6b2bdfdbb",
-      "name": "0.5.5 Reveal Stream",
+      "id": "td-path-of-exile-2-2026-08-27",
+      "name": "1 drop",
       "status": "ACTIVE",
-      "start_at": "2026-08-27T21:03:03Z",
-      "end_at": "2026-08-28T07:29:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/b7ce2b1c-7483-4ff6-9171-b5bc69de7745.png",
-      "details_url": "https://pathofexile2.com/twitchdrops",
+      "start_at": "2026-08-27T19:30:00Z",
+      "end_at": "2026-08-28T19:29:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/5e3640be-fd8f-461e-b68f-09fb3abc06a4.png",
+      "details_url": "https://twitchdrops.app/game/path-of-exile-2",
       "game": "Path of Exile 2",
       "game_slug": "path-of-exile-2",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1702520304_IGDB-120x160.jpg",
+      "game_box": null,
       "availability": "open",
-      "required_minutes": 30,
+      "required_minutes": null,
       "reward_type": "game",
       "rewards": [
         {
           "name": "CotA Mystery Box",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/367f4ecf-f113-4dcc-b1dd-2e90bd77cfdc.png",
-          "minutes": 30
+          "image": null,
+          "minutes": null
         }
       ],
-      "src": "sunkwi"
+      "src": "twitchdrops"
     },
     {
       "id": "a32d43f5-2c18-4205-9480-d1149b3558d2",
@@ -1524,16 +1438,108 @@
         }
       ],
       "src": "sunkwi"
+    },
+    {
+      "id": "74d5ff14-16fd-4c92-b56a-0be9e9293c9d",
+      "name": "0.5.5 Reveal Stream",
+      "status": "ACTIVE",
+      "start_at": "2026-08-28T07:30:00Z",
+      "end_at": "2026-08-28T19:29:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/3a55f411-35da-44ca-a182-f0bc7f8ef20a.png",
+      "details_url": "https://pathofexile2.com/twitchdrops",
+      "game": "Path of Exile 2",
+      "game_slug": "path-of-exile-2",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1702520304_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 30,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "CotA Mystery Box",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/367f4ecf-f113-4dcc-b1dd-2e90bd77cfdc.png",
+          "minutes": 30
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "3a4133e8-36b5-4d71-88be-2531f237d96c",
+      "name": "Modern Warfare 4 Beta W2",
+      "status": "ACTIVE",
+      "start_at": "2026-08-28T16:00:00Z",
+      "end_at": "2026-09-01T19:29:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/004ab4bf-a565-4032-aeb2-e048bd0cc00f.png",
+      "details_url": "https://www.twitch.tv/drops/inventory",
+      "game": "Call of Duty: Modern Warfare 4",
+      "game_slug": "call-of-duty-modern-warfare-4",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1478650472_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 45,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Get Tactical Emblem",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6df24bc5-acb0-4dc3-8342-72dc87b4e252.png",
+          "minutes": 15
+        },
+        {
+          "name": "Clearing House CC",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4ada16ef-82db-4d70-896f-d56b9c321a85.png",
+          "minutes": 30
+        },
+        {
+          "name": "Action Ready Charm",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9ccbb6ef-0512-4cee-a77b-21e8153d4c21.png",
+          "minutes": 45
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "a6333c5e-a293-4730-bd7c-a87af365511f",
+      "name": "B&S NEO Reignited Drops",
+      "status": "ACTIVE",
+      "start_at": "2026-08-28T17:00:00Z",
+      "end_at": "2026-09-07T06:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/be0d4cc6-a7a9-4bc6-847b-a0bac0b529a8.png",
+      "details_url": "https://bladeandsoul.plaync.com/en-us/board/neonotice/list",
+      "game": "Blade & Soul NEO",
+      "game_slug": "blade-and-soul-neo",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/801121736_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 600,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Darkstorm Portrait ×2",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/15468326-a573-46f0-b163-d474e5882899.png",
+          "minutes": 120
+        },
+        {
+          "name": "Heroic Insignia ×5",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e79ab159-1239-48c1-a95c-6127c5250d69.png",
+          "minutes": 240
+        },
+        {
+          "name": "Darkstorm Portrait ×4",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cc493406-ad58-467f-b273-2ab507b55dcb.png",
+          "minutes": 360
+        },
+        {
+          "name": "Heroic Sp. Insignia ×2",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/85753d26-5ed7-4b4e-a358-9147c738a2cb.png",
+          "minutes": 480
+        },
+        {
+          "name": "Bound Heroic Selector ×1",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ce4f71af-4532-480a-bbd2-1006f9e368ce.png",
+          "minutes": 600
+        }
+      ],
+      "src": "sunkwi"
     }
   ],
   "badges": [
-    {
-      "title": "SUBtember 2026",
-      "start_at": "2026-08-28T18:00:00Z",
-      "end_at": "2026-10-01T18:00:00Z",
-      "note": "A badge will be available for subscribing, gifting, or using Bits.",
-      "images": []
-    },
     {
       "title": "NASA Nancy Grace Roman Space Telescope Launch",
       "start_at": "2026-08-30T11:26:00Z",
