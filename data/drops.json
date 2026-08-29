@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-08-29T13:33:38Z",
+  "updated_at": "2026-08-29T17:21:24Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-29T13:33:01.535Z",
+  "source_updated": "2026-08-29T17:21:01.285Z",
   "counts": {
-    "total": 35,
+    "total": 32,
     "upcoming": 0,
-    "active": 35,
-    "game_drops": 35,
+    "active": 32,
+    "game_drops": 32,
     "platform": 0,
     "badges": 5,
-    "fechadas_descartadas": 64,
-    "fora_da_lista": 40
+    "fechadas_descartadas": 63,
+    "fora_da_lista": 39
   },
   "campaigns": [
     {
@@ -51,74 +51,6 @@
         },
         {
           "name": "Great Ball",
-          "image": null,
-          "minutes": null
-        }
-      ],
-      "src": "twitchdrops"
-    },
-    {
-      "id": "td-marvel-rivals-2026-08-01",
-      "name": "10 drops",
-      "status": "ACTIVE",
-      "start_at": "2026-08-01T17:00:00Z",
-      "end_at": "2026-09-04T08:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a43843ed-8792-4547-ac86-eaf772db1c6e.png",
-      "details_url": "https://twitchdrops.app/game/marvel-rivals",
-      "game": "Marvel Rivals",
-      "game_slug": "marvel-rivals",
-      "game_box": null,
-      "availability": "open",
-      "required_minutes": null,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "100 CHRONO TOKEN MSF 5",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "「GALACTA CHEERS」Spray",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "100 CHRONO TOKEN MSF 6",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "MSF26 NIGHTFALL Nameplate",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "「HOORAY!」Mood",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "Daredevil MSF26 Costume",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "Elsa Bloodstone Spray",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "Elsa Bloodstone Nameplate",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "Elsa Bloodstone Emote",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "Elsa Bloodstone Costume",
           "image": null,
           "minutes": null
         }
@@ -255,142 +187,6 @@
           "name": "Elsa Bloodstone Costume",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/52638bb5-407b-466a-aadf-de2c7f603fad.png",
           "minutes": 240
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "619cde1a-229c-407f-aed6-da661df62e45",
-      "name": "LOY DROPS_ALL (26_AUG)",
-      "status": "ACTIVE",
-      "start_at": "2026-08-11T09:00:00Z",
-      "end_at": "2026-08-29T14:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/c570cf4e-d1d1-40ab-8397-1025b54df49c.jpeg",
-      "details_url": "https://www.legendofymir.com/news/notice/750879",
-      "game": "Legend of YMIR",
-      "game_slug": "legend-of-ymir",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/889298168_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 900,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Mana Regeneration Potion",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0001f23d-9a47-4cfb-817e-fc43e6e959c2.png",
-          "minutes": 15
-        },
-        {
-          "name": "Middle Scroll Package",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b67d39c6-c11d-4d5b-ab21-6c39fdc361b6.png",
-          "minutes": 30
-        },
-        {
-          "name": "Mani's Valkyrie x11 Card",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3d15023d-2ed6-4908-9e42-3c2b1afff60a.png",
-          "minutes": 60
-        },
-        {
-          "name": "Galar's Mead",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d61394dc-24af-4c47-8d52-806ce8db0bfb.png",
-          "minutes": 180
-        },
-        {
-          "name": "Enh.Stone Selection Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/46a11d57-431e-4c04-a38c-15fa67e2aacd.png",
-          "minutes": 300
-        },
-        {
-          "name": "Mani's Disir x11 Card",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e3955d29-1d89-46ca-bd22-430545bd94a4.png",
-          "minutes": 420
-        },
-        {
-          "name": "Mid Craft Mat Selector",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/eb98ed8b-350e-4d84-be65-cdc41985173b.png",
-          "minutes": 540
-        },
-        {
-          "name": "Boss Feather",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/36358fa7-a940-4e85-a05d-8a65711f6ae6.png",
-          "minutes": 660
-        },
-        {
-          "name": "Lesser Horn",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3dfc6c88-1c46-4e4e-b3dc-b4070e4bccc3.png",
-          "minutes": 780
-        },
-        {
-          "name": "Full Drops Chest",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/801b1427-1412-408f-a144-54d8f17af67d.png",
-          "minutes": 900
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "dd072c28-6c9c-46be-ae7c-e2d9d84889a2",
-      "name": "NC DROPS ALL (26_AUG)",
-      "status": "ACTIVE",
-      "start_at": "2026-08-11T09:00:00Z",
-      "end_at": "2026-08-29T14:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/36528a02-e69a-4649-8f34-c866751f85b0.jpeg",
-      "details_url": "https://www.nightcrows.com/notice/notice/751327",
-      "game": "Night Crows",
-      "game_slug": "night-crows",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/450732811_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 900,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Drops 15 Min Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/17c71ec1-8797-4015-be5c-dfa02696be79.png",
-          "minutes": 15
-        },
-        {
-          "name": "Drops 30 Min Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8b3f917a-cc9f-4c65-ba26-35e70f95a14a.png",
-          "minutes": 30
-        },
-        {
-          "name": "Drops 1 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f51c3465-982c-4a64-9615-7f6ae4ae4c8f.png",
-          "minutes": 60
-        },
-        {
-          "name": "Drops 3 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/40547837-577f-4793-a442-a55c4f35b902.png",
-          "minutes": 180
-        },
-        {
-          "name": "Drops 5 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/26a98a59-1677-4259-8382-74daa1c38b30.png",
-          "minutes": 300
-        },
-        {
-          "name": "Drops 7 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c13936c6-d1a7-4e77-a34a-34d7ba31c0df.png",
-          "minutes": 420
-        },
-        {
-          "name": "Drops 9 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5de8b9af-630d-4df4-8c5f-f2ccf2fba0f0.png",
-          "minutes": 540
-        },
-        {
-          "name": "Drops 11 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/31d8c770-3324-4a0c-b9c1-0c1285ceb259.png",
-          "minutes": 660
-        },
-        {
-          "name": "Drops 13 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/15416d20-56f1-4ddd-a4d9-cafb8b42b26f.png",
-          "minutes": 780
-        },
-        {
-          "name": "Drops 15 Hour Reward",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3b52ed93-8d81-4d5d-a6a3-e25c3d141a54.png",
-          "minutes": 900
         }
       ],
       "src": "sunkwi"
