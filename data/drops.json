@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-08-29T17:21:24Z",
+  "updated_at": "2026-08-29T19:52:52Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-29T17:21:01.285Z",
+  "source_updated": "2026-08-29T19:52:01.422Z",
   "counts": {
-    "total": 32,
+    "total": 31,
     "upcoming": 0,
-    "active": 32,
-    "game_drops": 32,
+    "active": 31,
+    "game_drops": 31,
     "platform": 0,
     "badges": 5,
-    "fechadas_descartadas": 63,
-    "fora_da_lista": 39
+    "fechadas_descartadas": 62,
+    "fora_da_lista": 38
   },
   "campaigns": [
     {
@@ -651,49 +651,6 @@
           "name": "FORMULA: GOLD-FRAMED CARV",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/70c28805-81e7-48a6-af2f-38a384430109.png",
           "minutes": 240
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "12880709-9688-4ca0-841d-bc3348e1d76b",
-      "name": "MARVEL SNAP DRAFT",
-      "status": "ACTIVE",
-      "start_at": "2026-08-25T19:00:00Z",
-      "end_at": "2026-08-29T18:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/da497d4f-0fec-460a-a8a3-dd79a35e9fe5.png",
-      "details_url": "https://www.marvelsnap.com/twitchdrops",
-      "game": "MARVEL SNAP",
-      "game_slug": "marvel-snap",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1743359147_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 360,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "PMB",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7afff8e4-2fc8-43f6-b0ac-ad682ab974f7.png",
-          "minutes": 240
-        },
-        {
-          "name": "2025 PAX Cardback",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4a9a90de-378d-42b2-a11d-9354d2c7413b.png",
-          "minutes": 360
-        },
-        {
-          "name": "PAX 2025 Card Borders",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e722c80e-ed11-4540-9ec4-741c6cfd7830.png",
-          "minutes": 360
-        },
-        {
-          "name": "Miles Morales - PAX",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/dd8ce3cd-b583-4f57-8d16-16bc6766d76b.png",
-          "minutes": 360
-        },
-        {
-          "name": "155 Boosters",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/80c547ce-4c02-403e-881b-0185a1fe4131.png",
-          "minutes": 120
         }
       ],
       "src": "sunkwi"
