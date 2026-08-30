@@ -1,19 +1,67 @@
 {
-  "updated_at": "2026-08-30T15:02:44Z",
+  "updated_at": "2026-08-30T18:35:10Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-30T15:02:01.249Z",
+  "source_updated": "2026-08-30T18:35:01.251Z",
   "counts": {
-    "total": 31,
-    "upcoming": 0,
-    "active": 31,
-    "game_drops": 31,
+    "total": 33,
+    "upcoming": 1,
+    "active": 32,
+    "game_drops": 33,
     "platform": 0,
     "badges": 4,
-    "fechadas_descartadas": 62,
-    "fora_da_lista": 41
+    "fechadas_descartadas": 61,
+    "fora_da_lista": 39
   },
   "campaigns": [
+    {
+      "id": "td-voyagers-of-nera-2026-08-31",
+      "name": "6 drops",
+      "status": "UPCOMING",
+      "start_at": "2026-08-31T16:00:00Z",
+      "end_at": "2026-09-07T15:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/72fa0633-7cf0-4d3f-937d-cb77620681cf.png",
+      "details_url": "https://twitchdrops.app/game/voyagers-of-nera",
+      "game": "Voyagers of Nera",
+      "game_slug": "voyagers-of-nera",
+      "game_box": null,
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Twitch Mana Flare",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Twitch Diving Knife",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Infused Stone Skimmer",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Twitch Sail",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Infused Watering Can",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Infused Stone Glider",
+          "image": null,
+          "minutes": null
+        }
+      ],
+      "src": "twitchdrops"
+    },
     {
       "id": "td-special-events-2026-08-01",
       "name": "5 drops",
@@ -1213,6 +1261,29 @@
           "name": "Bound Heroic Selector ×1",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ce4f71af-4532-480a-bbd2-1006f9e368ce.png",
           "minutes": 600
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "6c8043e5-3d85-46ba-87d1-c770c4108f3d",
+      "name": "[Re-Drop] Tree Tower Skin",
+      "status": "ACTIVE",
+      "start_at": "2026-08-30T18:14:13Z",
+      "end_at": "2026-09-06T23:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/6c58e423-f88b-4683-91f3-ee1fb04872bd.png",
+      "details_url": "https://ayrtonalexis.com/tdt_drops.html",
+      "game": "ChatTDT: Tower Defense Twitch",
+      "game_slug": "chattdt-tower-defense-twitch",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/324223699_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 30,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Tree Standard Tower Skin",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6c4adfb1-dd81-4b70-835f-9e4878bce210.png",
+          "minutes": 30
         }
       ],
       "src": "sunkwi"
