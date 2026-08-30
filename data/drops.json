@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-08-30T05:37:58Z",
+  "updated_at": "2026-08-30T10:40:15Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-30T05:37:01.267Z",
+  "source_updated": "2026-08-30T10:40:01.356Z",
   "counts": {
     "total": 31,
     "upcoming": 0,
     "active": 31,
     "game_drops": 31,
     "platform": 0,
-    "badges": 5,
-    "fechadas_descartadas": 62,
-    "fora_da_lista": 40
+    "badges": 4,
+    "fechadas_descartadas": 63,
+    "fora_da_lista": 39
   },
   "campaigns": [
     {
@@ -1219,15 +1219,6 @@
     }
   ],
   "badges": [
-    {
-      "title": "NASA Nancy Grace Roman Space Telescope Launch",
-      "start_at": "2026-08-30T11:26:00Z",
-      "end_at": null,
-      "note": null,
-      "images": [
-        "https://static-cdn.jtvnw.net/badges/v1/c411b949-c736-4b1a-9769-d759e213923c/3"
-      ]
-    },
     {
       "title": "LEGO Harley Quinn",
       "start_at": "2026-09-01T00:00:00Z",
