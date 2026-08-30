@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-30T18:35:10Z",
+  "updated_at": "2026-08-30T21:29:52Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-30T18:35:01.251Z",
+  "source_updated": "2026-08-30T21:29:01.073Z",
   "counts": {
     "total": 33,
     "upcoming": 1,
@@ -10,57 +10,57 @@
     "game_drops": 33,
     "platform": 0,
     "badges": 4,
-    "fechadas_descartadas": 61,
-    "fora_da_lista": 39
+    "fechadas_descartadas": 60,
+    "fora_da_lista": 42
   },
   "campaigns": [
     {
-      "id": "td-voyagers-of-nera-2026-08-31",
-      "name": "6 drops",
+      "id": "552d4954-a736-42b2-aab9-8031c7bc5a1a",
+      "name": "Happy Birthday Voyagers!",
       "status": "UPCOMING",
-      "start_at": "2026-08-31T16:00:00Z",
+      "start_at": "2026-08-31T16:00:00.000Z",
       "end_at": "2026-09-07T15:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/72fa0633-7cf0-4d3f-937d-cb77620681cf.png",
-      "details_url": "https://twitchdrops.app/game/voyagers-of-nera",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
       "game": "Voyagers of Nera",
       "game_slug": "voyagers-of-nera",
-      "game_box": null,
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1374834939_IGDB-285x380.jpg",
       "availability": "open",
-      "required_minutes": null,
+      "required_minutes": 120,
       "reward_type": "game",
       "rewards": [
         {
+          "name": "Infused Stone Glider",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6c0d8ded-90f9-410a-9bf3-cf0aa597ecef.png",
+          "minutes": 0
+        },
+        {
           "name": "Twitch Mana Flare",
-          "image": null,
-          "minutes": null
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a0b7b0a5-e124-4cc5-b441-64f874f11c64.png",
+          "minutes": 30
         },
         {
           "name": "Twitch Diving Knife",
-          "image": null,
-          "minutes": null
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9d2996ba-9212-43b7-95d8-4a791218a1c3.png",
+          "minutes": 45
         },
         {
           "name": "Infused Stone Skimmer",
-          "image": null,
-          "minutes": null
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5f03c052-9435-4cfa-a744-684b71cb599f.png",
+          "minutes": 60
         },
         {
           "name": "Twitch Sail",
-          "image": null,
-          "minutes": null
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/37663ec8-cdcc-482e-9f49-21ea42d835d2.png",
+          "minutes": 90
         },
         {
           "name": "Infused Watering Can",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "Infused Stone Glider",
-          "image": null,
-          "minutes": null
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9ac7b0f3-c7ec-4478-8a35-23b153c90c2d.png",
+          "minutes": 120
         }
       ],
-      "src": "twitchdrops"
+      "src": "fenris"
     },
     {
       "id": "td-special-events-2026-08-01",
