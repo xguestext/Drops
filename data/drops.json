@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-08-31T07:38:45Z",
+  "updated_at": "2026-08-31T15:26:12Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-31T07:38:01.238Z",
+  "source_updated": "2026-08-31T15:26:01.285Z",
   "counts": {
-    "total": 31,
+    "total": 29,
     "upcoming": 1,
-    "active": 30,
-    "game_drops": 31,
+    "active": 28,
+    "game_drops": 29,
     "platform": 0,
-    "badges": 4,
-    "fechadas_descartadas": 48,
-    "fora_da_lista": 40
+    "badges": 0,
+    "fechadas_descartadas": 40,
+    "fora_da_lista": 38
   },
   "campaigns": [
     {
@@ -30,13 +30,13 @@
       "reward_type": "game",
       "rewards": [
         {
-          "name": "Surfer",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/224b3d1f-5d4f-4529-a7e0-2c8508dfb72a.png",
+          "name": "Surfer Legs",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/218f11ad-2038-4083-a5a0-d4b6df1b95a8.png",
           "minutes": 60
         },
         {
-          "name": "Surfer Legs",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/218f11ad-2038-4083-a5a0-d4b6df1b95a8.png",
+          "name": "Surfer",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/224b3d1f-5d4f-4529-a7e0-2c8508dfb72a.png",
           "minutes": 60
         },
         {
@@ -94,102 +94,6 @@
         }
       ],
       "src": "twitchdrops"
-    },
-    {
-      "id": "5fa7380f-e760-437b-81c4-30f1d57b97eb",
-      "name": "Ruhnuk Deco / Em4 Mount",
-      "status": "ACTIVE",
-      "start_at": "2026-08-04T12:30:00Z",
-      "end_at": "2026-08-31T14:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ad8bd3ac-98b1-4ed1-8886-09ca6510f0ad.jpeg",
-      "details_url": "https://account.swtor.com",
-      "game": "Star Wars: The Old Republic",
-      "game_slug": "star-wars-the-old-republic",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/21934_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 300,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "SWTOR Ruhnuk Poster",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0e920e11-830f-48f6-ad66-a9c15b7fd5b8.png",
-          "minutes": 60
-        },
-        {
-          "name": "Vectron Colette EM4 Mount",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/749f71d7-3489-4c5c-b03b-5bbf645675d0.jpeg",
-          "minutes": 300
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "2ac02bbd-914e-4717-8096-b74a937103fd",
-      "name": "Spin the Globe",
-      "status": "ACTIVE",
-      "start_at": "2026-08-06T10:00:00Z",
-      "end_at": "2026-08-31T09:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/22ebdeb8-f058-4234-9211-abb5b82df554.png",
-      "details_url": "https://fishingplanet.com/spin-the-globe-twitch-drops/",
-      "game": "Fishing Planet",
-      "game_slug": "fishing-planet",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/491117_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 600,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Dnipro River Box",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/886ed901-478f-4f51-9dfa-59164317cf26.png",
-          "minutes": 120
-        },
-        {
-          "name": "Weeping Willow Box",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d44611f0-beb5-4b41-9abd-5fa3cdf2bc28.png",
-          "minutes": 180
-        },
-        {
-          "name": "Blue Crab Island Box",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/de033353-aff9-4865-bf38-c6fb028b7c2d.png",
-          "minutes": 240
-        },
-        {
-          "name": "Maku-Maku Lake Box",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f7e6abe6-2697-4547-beee-45929d809480.png",
-          "minutes": 300
-        },
-        {
-          "name": "Marron River Box",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ca94cc4d-e276-433e-b653-294201c4f750.png",
-          "minutes": 360
-        },
-        {
-          "name": "Amazonian Maze Box",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/385cbf40-76d1-472e-bbd9-23a99e94ace6.png",
-          "minutes": 420
-        },
-        {
-          "name": "Congo River Box",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/589ac777-e50b-47c7-a336-e214819302f2.png",
-          "minutes": 480
-        },
-        {
-          "name": "Kaiji No Ri Box",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/eba9fe56-c6c7-4e1b-a61a-54be2e168761.png",
-          "minutes": 540
-        },
-        {
-          "name": "Noomaa Kuda Atholhu Box",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/461f94c8-b15e-4ab3-85eb-05005defc898.png",
-          "minutes": 600
-        },
-        {
-          "name": "Kaniq Creek Box",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2872f7ff-6fbf-4479-924b-6e3cc99f98cf.png",
-          "minutes": 60
-        }
-      ],
-      "src": "sunkwi"
     },
     {
       "id": "812ec00b-52f4-4fb9-8387-3a26ca1104d7",
@@ -1218,40 +1122,8 @@
       "src": "sunkwi"
     }
   ],
-  "badges": [
-    {
-      "title": "LEGO Harley Quinn",
-      "start_at": "2026-09-01T00:00:00Z",
-      "end_at": "2026-09-19T23:59:00Z",
-      "note": "A badge will be available for subscribing or gifting a subscription.",
-      "images": []
-    },
-    {
-      "title": "LEGO Joker",
-      "start_at": "2026-09-12T00:00:00Z",
-      "end_at": "2026-09-27T23:59:00Z",
-      "note": "A badge will be available for subscribing or gifting a subscription.",
-      "images": []
-    },
-    {
-      "title": "Final Fantasy XIV Fan Festival 2026 JP",
-      "start_at": "2026-10-30T00:00:00Z",
-      "end_at": "2026-11-01T23:59:00Z",
-      "note": null,
-      "images": [
-        "https://static-cdn.jtvnw.net/badges/v1/1826cb5f-32a9-409a-9829-f6f47ea68239/3",
-        "https://static-cdn.jtvnw.net/badges/v1/e7d696ad-4479-4e44-bceb-5643f80bef38/3"
-      ]
-    },
-    {
-      "title": "TwitchCon 2027 Berlin",
-      "start_at": "2027-05-22T00:00:00Z",
-      "end_at": "2027-05-23T23:59:00Z",
-      "note": "TwitchCon events have always come with their own badges. It’s expected to be the same case this year. Stay tuned!",
-      "images": []
-    }
-  ],
+  "badges": [],
   "error": null,
-  "warn": null,
+  "warn": "Fonte parcial fora do ar: streamdatabase(badges): HTTPError",
   "raw_hint": null
 }
