@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-31T01:39:06Z",
+  "updated_at": "2026-08-31T07:38:45Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-31T01:39:01.300Z",
+  "source_updated": "2026-08-31T07:38:01.238Z",
   "counts": {
     "total": 31,
     "upcoming": 1,
@@ -10,65 +10,65 @@
     "game_drops": 31,
     "platform": 0,
     "badges": 4,
-    "fechadas_descartadas": 53,
+    "fechadas_descartadas": 48,
     "fora_da_lista": 40
   },
   "campaigns": [
     {
-      "id": "td-goblin-cleanup-2026-09-01",
-      "name": "6 drops",
+      "id": "0f0f3203-1c8f-4bf1-85d5-e5484bfc822d",
+      "name": "Pool Party Drops",
       "status": "UPCOMING",
-      "start_at": "2026-09-01T00:00:00Z",
+      "start_at": "2026-09-01T00:00:00.000Z",
       "end_at": "2026-09-28T23:29:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/09fe2d32-8054-49cc-8101-d5646b2855b1.png",
-      "details_url": "https://twitchdrops.app/game/goblin-cleanup",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
       "game": "Goblin Cleanup",
       "game_slug": "goblin-cleanup",
-      "game_box": null,
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/628949545_IGDB-285x380.jpg",
       "availability": "open",
-      "required_minutes": null,
+      "required_minutes": 360,
       "reward_type": "game",
       "rewards": [
         {
           "name": "Surfer",
-          "image": null,
-          "minutes": null
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/224b3d1f-5d4f-4529-a7e0-2c8508dfb72a.png",
+          "minutes": 60
         },
         {
           "name": "Surfer Legs",
-          "image": null,
-          "minutes": null
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/218f11ad-2038-4083-a5a0-d4b6df1b95a8.png",
+          "minutes": 60
         },
         {
           "name": "StrawHat",
-          "image": null,
-          "minutes": null
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a98e56e9-e0e5-4f1b-bfb8-a6456b47107b.png",
+          "minutes": 180
         },
         {
           "name": "Mimic Sunny",
-          "image": null,
-          "minutes": null
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8e41cde7-7a7a-4710-8af5-8a4a5843643a.png",
+          "minutes": 180
         },
         {
           "name": "Inflatable Slimop",
-          "image": null,
-          "minutes": null
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4732573b-c243-40ae-afc7-bd0a44d6c2fd.png",
+          "minutes": 360
         },
         {
           "name": "Coconut",
-          "image": null,
-          "minutes": null
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d31968e9-33b1-43f8-9fb2-f4dd30829d59.png",
+          "minutes": 360
         }
       ],
-      "src": "twitchdrops"
+      "src": "fenris"
     },
     {
       "id": "td-special-events-2026-08-01",
-      "name": "5 drops",
+      "name": "3 drops",
       "status": "ACTIVE",
       "start_at": "2026-08-01T07:00:00Z",
       "end_at": "2026-11-01T07:00:00Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/88aa5285-7046-4305-9171-40a979aa2945.png",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d291395d-71b9-4256-a6ff-1302cb516471.png",
       "details_url": "https://twitchdrops.app/game/special-events",
       "game": "Special Events",
       "game_slug": "special-events",
@@ -77,16 +77,6 @@
       "required_minutes": null,
       "reward_type": "game",
       "rewards": [
-        {
-          "name": "2026 Worlds Pikachu",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "PokémonXP Pikachu",
-          "image": null,
-          "minutes": null
-        },
         {
           "name": "CREP Emote",
           "image": null,
