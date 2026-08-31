@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-08-31T15:26:12Z",
+  "updated_at": "2026-08-31T20:57:52Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-31T15:26:01.285Z",
+  "source_updated": "2026-08-31T20:57:01.311Z",
   "counts": {
-    "total": 29,
-    "upcoming": 1,
+    "total": 30,
+    "upcoming": 2,
     "active": 28,
-    "game_drops": 29,
+    "game_drops": 30,
     "platform": 0,
-    "badges": 0,
-    "fechadas_descartadas": 40,
-    "fora_da_lista": 38
+    "badges": 8,
+    "fechadas_descartadas": 39,
+    "fora_da_lista": 40
   },
   "campaigns": [
     {
@@ -30,19 +30,14 @@
       "reward_type": "game",
       "rewards": [
         {
-          "name": "Surfer Legs",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/218f11ad-2038-4083-a5a0-d4b6df1b95a8.png",
-          "minutes": 60
-        },
-        {
           "name": "Surfer",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/224b3d1f-5d4f-4529-a7e0-2c8508dfb72a.png",
           "minutes": 60
         },
         {
-          "name": "StrawHat",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a98e56e9-e0e5-4f1b-bfb8-a6456b47107b.png",
-          "minutes": 180
+          "name": "Surfer Legs",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/218f11ad-2038-4083-a5a0-d4b6df1b95a8.png",
+          "minutes": 60
         },
         {
           "name": "Mimic Sunny",
@@ -50,14 +45,42 @@
           "minutes": 180
         },
         {
-          "name": "Inflatable Slimop",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4732573b-c243-40ae-afc7-bd0a44d6c2fd.png",
-          "minutes": 360
+          "name": "StrawHat",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a98e56e9-e0e5-4f1b-bfb8-a6456b47107b.png",
+          "minutes": 180
         },
         {
           "name": "Coconut",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d31968e9-33b1-43f8-9fb2-f4dd30829d59.png",
           "minutes": 360
+        },
+        {
+          "name": "Inflatable Slimop",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4732573b-c243-40ae-afc7-bd0a44d6c2fd.png",
+          "minutes": 360
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "7d64c672-6183-425b-92e2-57546404f25c",
+      "name": "Harley Mayhem",
+      "status": "UPCOMING",
+      "start_at": "2026-09-01T07:00:00.000Z",
+      "end_at": "2026-09-20T06:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "LEGO Batman: Legacy of the Dark Knight",
+      "game_slug": "lego-batman-legacy-of-the-dark-knight",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1813168901_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Harley Mayhem",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/15f497e6-d568-483f-ad51-ff90d85d1b3e.png",
+          "minutes": 0
         }
       ],
       "src": "fenris"
@@ -1122,8 +1145,72 @@
       "src": "sunkwi"
     }
   ],
-  "badges": [],
+  "badges": [
+    {
+      "title": "Questline 1: Path of the Tarnished",
+      "start_at": "2026-09-01T00:00:00Z",
+      "end_at": "2026-09-28T23:59:00Z",
+      "note": null,
+      "images": [
+        "https://static-cdn.jtvnw.net/badges/v1/3d6ad3b0-0a0f-43ae-a969-c5215d8d5a06/3"
+      ]
+    },
+    {
+      "title": "LEGO® Batman™: Legacy of the Dark Knight",
+      "start_at": "2026-09-01T07:00:00Z",
+      "end_at": "2026-09-20T06:59:00Z",
+      "note": null,
+      "images": [
+        "https://static-cdn.jtvnw.net/badges/v1/1d235db6-09cc-458f-9805-be2efc178e54/3"
+      ]
+    },
+    {
+      "title": "LEGO® Batman™: Legacy of the Dark Knight",
+      "start_at": "2026-09-12T00:00:00Z",
+      "end_at": "2026-09-27T23:59:00Z",
+      "note": "A LEGO Joker badge will be available for subscribing or gifting a subscription.",
+      "images": []
+    },
+    {
+      "title": "Questline 2: Path of the Cardinal Sin",
+      "start_at": "2026-10-01T00:00:00Z",
+      "end_at": "2026-10-28T23:59:00Z",
+      "note": "The Festering Bloody Finger badge will be available in the ELDEN RING category.",
+      "images": []
+    },
+    {
+      "title": "Final Fantasy XIV Fan Festival 2026 JP",
+      "start_at": "2026-10-30T00:00:00Z",
+      "end_at": "2026-11-01T23:59:00Z",
+      "note": null,
+      "images": [
+        "https://static-cdn.jtvnw.net/badges/v1/1826cb5f-32a9-409a-9829-f6f47ea68239/3",
+        "https://static-cdn.jtvnw.net/badges/v1/e7d696ad-4479-4e44-bceb-5643f80bef38/3"
+      ]
+    },
+    {
+      "title": "Questline 3: Path of the Elden Lord",
+      "start_at": "2026-11-02T00:00:00Z",
+      "end_at": "2026-11-28T23:59:00Z",
+      "note": "The Warrior Jar Alexander badge will be available in the ELDEN RING category.",
+      "images": []
+    },
+    {
+      "title": "Questline 4: Path of Shadows",
+      "start_at": "2026-12-01T00:00:00Z",
+      "end_at": "2026-12-28T23:59:00Z",
+      "note": "The St. Trina badge will be available in the ELDEN RING category.",
+      "images": []
+    },
+    {
+      "title": "TwitchCon 2027 Berlin",
+      "start_at": "2027-05-22T00:00:00Z",
+      "end_at": "2027-05-23T23:59:00Z",
+      "note": "TwitchCon events have always come with their own badges. It’s expected to be the same case this year. Stay tuned!",
+      "images": []
+    }
+  ],
   "error": null,
-  "warn": "Fonte parcial fora do ar: streamdatabase(badges): HTTPError",
+  "warn": null,
   "raw_hint": null
 }
