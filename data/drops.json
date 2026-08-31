@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-08-30T23:45:33Z",
+  "updated_at": "2026-08-31T01:29:39Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-08-30T23:45:01.096Z",
+  "source_updated": "2026-08-31T01:29:01.258Z",
   "counts": {
     "total": 32,
-    "upcoming": 1,
-    "active": 31,
+    "upcoming": 2,
+    "active": 30,
     "game_drops": 32,
     "platform": 0,
     "badges": 4,
-    "fechadas_descartadas": 52,
-    "fora_da_lista": 40
+    "fechadas_descartadas": 53,
+    "fora_da_lista": 39
   },
   "campaigns": [
     {
@@ -61,6 +61,54 @@
         }
       ],
       "src": "fenris"
+    },
+    {
+      "id": "td-goblin-cleanup-2026-09-01",
+      "name": "6 drops",
+      "status": "UPCOMING",
+      "start_at": "2026-09-01T00:00:00Z",
+      "end_at": "2026-09-28T23:29:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/09fe2d32-8054-49cc-8101-d5646b2855b1.png",
+      "details_url": "https://twitchdrops.app/game/goblin-cleanup",
+      "game": "Goblin Cleanup",
+      "game_slug": "goblin-cleanup",
+      "game_box": null,
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Surfer",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Surfer Legs",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "StrawHat",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Mimic Sunny",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Inflatable Slimop",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Coconut",
+          "image": null,
+          "minutes": null
+        }
+      ],
+      "src": "twitchdrops"
     },
     {
       "id": "td-special-events-2026-08-01",
@@ -1223,29 +1271,6 @@
           "name": "Bound Heroic Selector ×1",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ce4f71af-4532-480a-bbd2-1006f9e368ce.png",
           "minutes": 600
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "6c8043e5-3d85-46ba-87d1-c770c4108f3d",
-      "name": "[Re-Drop] Tree Tower Skin",
-      "status": "ACTIVE",
-      "start_at": "2026-08-30T18:14:13Z",
-      "end_at": "2026-09-06T23:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/6c58e423-f88b-4683-91f3-ee1fb04872bd.png",
-      "details_url": "https://ayrtonalexis.com/tdt_drops.html",
-      "game": "ChatTDT: Tower Defense Twitch",
-      "game_slug": "chattdt-tower-defense-twitch",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/324223699_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 30,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Tree Standard Tower Skin",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6c4adfb1-dd81-4b70-835f-9e4878bce210.png",
-          "minutes": 30
         }
       ],
       "src": "sunkwi"
