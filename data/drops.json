@@ -1,65 +1,19 @@
 {
-  "updated_at": "2026-09-01T05:28:31Z",
+  "updated_at": "2026-09-01T10:21:30Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-09-01T05:28:01.246Z",
+  "source_updated": "2026-09-01T10:21:01.090Z",
   "counts": {
     "total": 32,
-    "upcoming": 3,
-    "active": 29,
+    "upcoming": 1,
+    "active": 31,
     "game_drops": 32,
     "platform": 0,
-    "badges": 7,
-    "fechadas_descartadas": 36,
-    "fora_da_lista": 36
+    "badges": 6,
+    "fechadas_descartadas": 37,
+    "fora_da_lista": 34
   },
   "campaigns": [
-    {
-      "id": "a3f7a56a-f943-46d2-a780-3700684883f1",
-      "name": "Sorcerer Rogier ",
-      "status": "UPCOMING",
-      "start_at": "2026-09-01T07:00:00.000Z",
-      "end_at": "2026-09-29T06:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "ELDEN RING",
-      "game_slug": "elden-ring",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/512953_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": null,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Sorcerer Rogier",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5c93a92a-3009-406b-9701-5f01492e17c9.png",
-          "minutes": 0
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "7d64c672-6183-425b-92e2-57546404f25c",
-      "name": "Harley Mayhem",
-      "status": "UPCOMING",
-      "start_at": "2026-09-01T07:00:00.000Z",
-      "end_at": "2026-09-20T06:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "LEGO Batman: Legacy of the Dark Knight",
-      "game_slug": "lego-batman-legacy-of-the-dark-knight",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1813168901_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": null,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Harley Mayhem",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/15f497e6-d568-483f-ad51-ff90d85d1b3e.png",
-          "minutes": 0
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "e0ed32bc-7ecb-451b-8b1a-7953847dcb72",
       "name": "Wind and Snow Dreamscape",
@@ -102,39 +56,6 @@
         }
       ],
       "src": "fenris"
-    },
-    {
-      "id": "td-special-events-2026-08-01",
-      "name": "3 drops",
-      "status": "ACTIVE",
-      "start_at": "2026-08-01T07:00:00Z",
-      "end_at": "2026-11-01T07:00:00Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d291395d-71b9-4256-a6ff-1302cb516471.png",
-      "details_url": "https://twitchdrops.app/game/special-events",
-      "game": "Special Events",
-      "game_slug": "special-events",
-      "game_box": null,
-      "availability": "open",
-      "required_minutes": null,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "CREP Emote",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "Great Ball",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "Great Ball",
-          "image": null,
-          "minutes": null
-        }
-      ],
-      "src": "twitchdrops"
     },
     {
       "id": "812ec00b-52f4-4fb9-8387-3a26ca1104d7",
@@ -566,6 +487,44 @@
         }
       ],
       "src": "sunkwi"
+    },
+    {
+      "id": "td-special-events-2026-08-24",
+      "name": "4 drops",
+      "status": "ACTIVE",
+      "start_at": "2026-08-24T17:00:00Z",
+      "end_at": "2026-11-01T07:00:00Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/2189930a-d8df-4783-9b8a-e33f70c91701.png",
+      "details_url": "https://twitchdrops.app/game/special-events",
+      "game": "Special Events",
+      "game_slug": "special-events",
+      "game_box": null,
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Great Ball",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Mouseathon",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "IronmouseWah Emote",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Great Ball",
+          "image": null,
+          "minutes": null
+        }
+      ],
+      "src": "twitchdrops"
     },
     {
       "id": "0f1b1514-fe01-4f81-8fea-d35049d204cd",
@@ -1209,18 +1168,55 @@
         }
       ],
       "src": "sunkwi"
+    },
+    {
+      "id": "7d64c672-6183-425b-92e2-57546404f25c",
+      "name": "Harley Mayhem",
+      "status": "ACTIVE",
+      "start_at": "2026-09-01T07:00:00Z",
+      "end_at": "2026-09-20T06:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ac988185-8594-4167-af46-872dd6e86565.png",
+      "details_url": "https://help.twitch.tv/s/article/twitch-chat-badges-guide ",
+      "game": "LEGO Batman: Legacy of the Dark Knight",
+      "game_slug": "lego-batman-legacy-of-the-dark-knight",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1813168901_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Harley Mayhem",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/15f497e6-d568-483f-ad51-ff90d85d1b3e.png",
+          "minutes": 0
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "a3f7a56a-f943-46d2-a780-3700684883f1",
+      "name": "Sorcerer Rogier ",
+      "status": "ACTIVE",
+      "start_at": "2026-09-01T07:00:00Z",
+      "end_at": "2026-09-29T06:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f54806b1-498d-4bfc-8ff7-f4a348ff4471.png",
+      "details_url": "https://help.twitch.tv/s/article/twitch-chat-badges-guide",
+      "game": "ELDEN RING",
+      "game_slug": "elden-ring",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/512953_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Sorcerer Rogier",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5c93a92a-3009-406b-9701-5f01492e17c9.png",
+          "minutes": 0
+        }
+      ],
+      "src": "sunkwi"
     }
   ],
   "badges": [
-    {
-      "title": "LEGO® Batman™: Legacy of the Dark Knight",
-      "start_at": "2026-09-01T07:00:00Z",
-      "end_at": "2026-09-20T06:59:00Z",
-      "note": null,
-      "images": [
-        "https://static-cdn.jtvnw.net/badges/v1/1d235db6-09cc-458f-9805-be2efc178e54/3"
-      ]
-    },
     {
       "title": "LEGO® Batman™: Legacy of the Dark Knight",
       "start_at": "2026-09-12T00:00:00Z",
