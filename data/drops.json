@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-09-01T18:25:05Z",
+  "updated_at": "2026-09-01T21:11:28Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-09-01T18:25:01.289Z",
+  "source_updated": "2026-09-01T21:11:01.633Z",
   "counts": {
     "total": 33,
-    "upcoming": 1,
-    "active": 32,
+    "upcoming": 2,
+    "active": 31,
     "game_drops": 33,
     "platform": 0,
     "badges": 7,
-    "fechadas_descartadas": 42,
-    "fora_da_lista": 33
+    "fechadas_descartadas": 40,
+    "fora_da_lista": 35
   },
   "campaigns": [
     {
@@ -53,6 +53,29 @@
           "name": "Oroberyl*150",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d0824025-3503-4191-8f2d-78613f925c15.png",
           "minutes": 120
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "d695d039-6bbb-4947-91fd-4fee74a2eb76",
+      "name": "MOOtivational Stream",
+      "status": "UPCOMING",
+      "start_at": "2026-09-02T13:00:00.000Z",
+      "end_at": "2026-09-02T18:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "EVE Online",
+      "game_slug": "eve-online",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/13263-285x380.jpg",
+      "availability": "open",
+      "required_minutes": 30,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "MOOtivation",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8fbfc55e-81f6-42cf-a46b-d7212adb3381.png",
+          "minutes": 30
         }
       ],
       "src": "fenris"
@@ -1041,39 +1064,6 @@
           "name": "2.9 Shiny Bubbles x100",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/536d3721-b6bd-4ede-b83d-3d15cb138424.png",
           "minutes": 120
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "3a4133e8-36b5-4d71-88be-2531f237d96c",
-      "name": "Modern Warfare 4 Beta W2",
-      "status": "ACTIVE",
-      "start_at": "2026-08-28T16:00:00Z",
-      "end_at": "2026-09-01T19:29:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/004ab4bf-a565-4032-aeb2-e048bd0cc00f.png",
-      "details_url": "https://www.twitch.tv/drops/inventory",
-      "game": "Call of Duty: Modern Warfare 4",
-      "game_slug": "call-of-duty-modern-warfare-4",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1478650472_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 45,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Get Tactical Emblem",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6df24bc5-acb0-4dc3-8342-72dc87b4e252.png",
-          "minutes": 15
-        },
-        {
-          "name": "Clearing House CC",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4ada16ef-82db-4d70-896f-d56b9c321a85.png",
-          "minutes": 30
-        },
-        {
-          "name": "Action Ready Charm",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9ccbb6ef-0512-4cee-a77b-21e8153d4c21.png",
-          "minutes": 45
         }
       ],
       "src": "sunkwi"
