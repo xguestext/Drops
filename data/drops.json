@@ -1,19 +1,42 @@
 {
-  "updated_at": "2026-09-01T00:26:41Z",
+  "updated_at": "2026-09-01T05:28:31Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-09-01T00:26:01.098Z",
+  "source_updated": "2026-09-01T05:28:01.246Z",
   "counts": {
-    "total": 31,
-    "upcoming": 2,
+    "total": 32,
+    "upcoming": 3,
     "active": 29,
-    "game_drops": 31,
+    "game_drops": 32,
     "platform": 0,
     "badges": 7,
     "fechadas_descartadas": 36,
     "fora_da_lista": 36
   },
   "campaigns": [
+    {
+      "id": "a3f7a56a-f943-46d2-a780-3700684883f1",
+      "name": "Sorcerer Rogier ",
+      "status": "UPCOMING",
+      "start_at": "2026-09-01T07:00:00.000Z",
+      "end_at": "2026-09-29T06:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "ELDEN RING",
+      "game_slug": "elden-ring",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/512953_IGDB-285x380.jpg",
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Sorcerer Rogier",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5c93a92a-3009-406b-9701-5f01492e17c9.png",
+          "minutes": 0
+        }
+      ],
+      "src": "fenris"
+    },
     {
       "id": "7d64c672-6183-425b-92e2-57546404f25c",
       "name": "Harley Mayhem",
@@ -38,27 +61,47 @@
       "src": "fenris"
     },
     {
-      "id": "td-elden-ring-2026-09-01",
-      "name": "1 drop",
+      "id": "e0ed32bc-7ecb-451b-8b1a-7953847dcb72",
+      "name": "Wind and Snow Dreamscape",
       "status": "UPCOMING",
-      "start_at": "2026-09-01T07:00:00Z",
-      "end_at": "2026-09-29T06:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f54806b1-498d-4bfc-8ff7-f4a348ff4471.png",
-      "details_url": "https://twitchdrops.app/game/elden-ring",
-      "game": "ELDEN RING",
-      "game_slug": "elden-ring",
-      "game_box": null,
+      "start_at": "2026-09-02T02:00:00.000Z",
+      "end_at": "2026-09-30T01:59:59.999Z",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
+      "game": "ARKNIGHTS: ENDFIELD",
+      "game_slug": "arknights-endfield",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1448964995_IGDB-285x380.jpg",
       "availability": "open",
-      "required_minutes": null,
+      "required_minutes": 120,
       "reward_type": "game",
       "rewards": [
         {
-          "name": "Sorcerer Rogier",
-          "image": null,
-          "minutes": null
+          "name": "T-Credits*10000",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8adeec23-308f-4127-bf48-2967265d4dd0.png",
+          "minutes": 15
+        },
+        {
+          "name": "I-Combat Record*15",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8e55cb76-0fcb-41f2-a265-61d373a48408.png",
+          "minutes": 30
+        },
+        {
+          "name": "Arms INSP Set*3",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9bd647b8-dc7e-4928-b16a-1b4cf775869e.png",
+          "minutes": 60
+        },
+        {
+          "name": "E-Cognitive Carrier*10",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c39f9046-fcc0-43c8-b9b3-820f74f6cd65.png",
+          "minutes": 90
+        },
+        {
+          "name": "Oroberyl*150",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d0824025-3503-4191-8f2d-78613f925c15.png",
+          "minutes": 120
         }
       ],
-      "src": "twitchdrops"
+      "src": "fenris"
     },
     {
       "id": "td-special-events-2026-08-01",
