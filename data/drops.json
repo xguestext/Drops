@@ -1,62 +1,19 @@
 {
-  "updated_at": "2026-09-02T01:11:47Z",
+  "updated_at": "2026-09-02T05:52:16Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-09-02T01:11:02.239Z",
+  "source_updated": "2026-09-02T05:52:01.787Z",
   "counts": {
-    "total": 33,
+    "total": 34,
     "upcoming": 2,
-    "active": 31,
-    "game_drops": 33,
+    "active": 32,
+    "game_drops": 34,
     "platform": 0,
     "badges": 7,
-    "fechadas_descartadas": 40,
+    "fechadas_descartadas": 38,
     "fora_da_lista": 35
   },
   "campaigns": [
-    {
-      "id": "e0ed32bc-7ecb-451b-8b1a-7953847dcb72",
-      "name": "Wind and Snow Dreamscape",
-      "status": "UPCOMING",
-      "start_at": "2026-09-02T02:00:00.000Z",
-      "end_at": "2026-09-30T01:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "ARKNIGHTS: ENDFIELD",
-      "game_slug": "arknights-endfield",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1448964995_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "T-Credits*10000",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8adeec23-308f-4127-bf48-2967265d4dd0.png",
-          "minutes": 15
-        },
-        {
-          "name": "I-Combat Record*15",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8e55cb76-0fcb-41f2-a265-61d373a48408.png",
-          "minutes": 30
-        },
-        {
-          "name": "Arms INSP Set*3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9bd647b8-dc7e-4928-b16a-1b4cf775869e.png",
-          "minutes": 60
-        },
-        {
-          "name": "E-Cognitive Carrier*10",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c39f9046-fcc0-43c8-b9b3-820f74f6cd65.png",
-          "minutes": 90
-        },
-        {
-          "name": "Oroberyl*150",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d0824025-3503-4191-8f2d-78613f925c15.png",
-          "minutes": 120
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "d695d039-6bbb-4947-91fd-4fee74a2eb76",
       "name": "MOOtivational Stream",
@@ -79,6 +36,39 @@
         }
       ],
       "src": "fenris"
+    },
+    {
+      "id": "td-identity-v-2026-09-03",
+      "name": "3 drops",
+      "status": "UPCOMING",
+      "start_at": "2026-09-03T04:00:00Z",
+      "end_at": "2026-09-14T03:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/9b9be20a-ab6a-4199-b7ab-0ce25cbe721a.png",
+      "details_url": "https://twitchdrops.app/game/identity-v",
+      "game": "Identity V",
+      "game_slug": "identity-v",
+      "game_box": null,
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Clues",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Golden Apples",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "NetEase Pay Gift Card",
+          "image": null,
+          "minutes": null
+        }
+      ],
+      "src": "twitchdrops"
     },
     {
       "id": "812ec00b-52f4-4fb9-8387-3a26ca1104d7",
@@ -1232,6 +1222,49 @@
         }
       ],
       "src": "twitchdrops"
+    },
+    {
+      "id": "e0ed32bc-7ecb-451b-8b1a-7953847dcb72",
+      "name": "Wind and Snow Dreamscape",
+      "status": "ACTIVE",
+      "start_at": "2026-09-02T02:00:00Z",
+      "end_at": "2026-09-30T01:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/b625f676-63fe-4f97-ae2d-f86f060cf2dd.png",
+      "details_url": "https://endfield.gryphline.com/special/third-party-binding?channel=twitch",
+      "game": "ARKNIGHTS: ENDFIELD",
+      "game_slug": "arknights-endfield",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1448964995_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "T-Credits*10000",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8adeec23-308f-4127-bf48-2967265d4dd0.png",
+          "minutes": 15
+        },
+        {
+          "name": "I-Combat Record*15",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8e55cb76-0fcb-41f2-a265-61d373a48408.png",
+          "minutes": 30
+        },
+        {
+          "name": "Arms INSP Set*3",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9bd647b8-dc7e-4928-b16a-1b4cf775869e.png",
+          "minutes": 60
+        },
+        {
+          "name": "E-Cognitive Carrier*10",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c39f9046-fcc0-43c8-b9b3-820f74f6cd65.png",
+          "minutes": 90
+        },
+        {
+          "name": "Oroberyl*150",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d0824025-3503-4191-8f2d-78613f925c15.png",
+          "minutes": 120
+        }
+      ],
+      "src": "sunkwi"
     }
   ],
   "badges": [
