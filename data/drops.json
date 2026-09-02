@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-09-02T18:02:59Z",
+  "updated_at": "2026-09-02T20:58:34Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-09-02T18:01:02.428Z",
+  "source_updated": "2026-09-02T20:58:01.345Z",
   "counts": {
-    "total": 34,
-    "upcoming": 1,
-    "active": 33,
-    "game_drops": 34,
+    "total": 35,
+    "upcoming": 4,
+    "active": 31,
+    "game_drops": 35,
     "platform": 0,
-    "badges": 7,
-    "fechadas_descartadas": 40,
-    "fora_da_lista": 34
+    "badges": 8,
+    "fechadas_descartadas": 37,
+    "fora_da_lista": 33
   },
   "campaigns": [
     {
@@ -46,6 +46,85 @@
         }
       ],
       "src": "fenris"
+    },
+    {
+      "id": "td-zevent-2026-09-03",
+      "name": "2 drops",
+      "status": "UPCOMING",
+      "start_at": "2026-09-03T16:00:00Z",
+      "end_at": "2026-09-07T03:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/47165b14-c694-4484-8732-d9a0733a21d2.png",
+      "details_url": "https://twitchdrops.app/game/zevent",
+      "game": "ZEVENT",
+      "game_slug": "zevent",
+      "game_box": null,
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "MegaphoneZ Emote",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "ZEVENT 2026",
+          "image": null,
+          "minutes": null
+        }
+      ],
+      "src": "twitchdrops"
+    },
+    {
+      "id": "td-wardogs-2026-09-03",
+      "name": "2 drops",
+      "status": "UPCOMING",
+      "start_at": "2026-09-03T18:00:00Z",
+      "end_at": "2026-09-30T17:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ffe5dd89-20be-4578-b78e-f17eaaa0e4c8.png",
+      "details_url": "https://twitchdrops.app/game/wardogs",
+      "game": "WARDOGS",
+      "game_slug": "wardogs",
+      "game_box": null,
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "WARDOG",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "WARLORD",
+          "image": null,
+          "minutes": null
+        }
+      ],
+      "src": "twitchdrops"
+    },
+    {
+      "id": "td-marvel-snap-2026-09-03",
+      "name": "1 drop",
+      "status": "UPCOMING",
+      "start_at": "2026-09-03T19:00:00Z",
+      "end_at": "2026-09-06T18:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/545246cc-0cfb-464a-a968-78a155d7a45c.png",
+      "details_url": "https://twitchdrops.app/game/marvel-snap",
+      "game": "MARVEL SNAP",
+      "game_slug": "marvel-snap",
+      "game_box": null,
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "2 Draft Tickets",
+          "image": null,
+          "minutes": null
+        }
+      ],
+      "src": "twitchdrops"
     },
     {
       "id": "812ec00b-52f4-4fb9-8387-3a26ca1104d7",
@@ -1173,39 +1252,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "td-eve-online-2026-09-01",
-      "name": "3 drops",
-      "status": "ACTIVE",
-      "start_at": "2026-09-01T11:00:00Z",
-      "end_at": "2026-09-03T10:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d58f52a5-18c1-4b20-90fa-15f86e5f15f1.png",
-      "details_url": "https://twitchdrops.app/game/eve-online",
-      "game": "EVE Online",
-      "game_slug": "eve-online",
-      "game_box": null,
-      "availability": "open",
-      "required_minutes": null,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "MOOtivation",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "Halcyon B-3 Booster",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "Orca Nautgripur SKIN",
-          "image": null,
-          "minutes": null
-        }
-      ],
-      "src": "twitchdrops"
-    },
-    {
       "id": "e0ed32bc-7ecb-451b-8b1a-7953847dcb72",
       "name": "Wind and Snow Dreamscape",
       "status": "ACTIVE",
@@ -1247,39 +1293,26 @@
         }
       ],
       "src": "sunkwi"
-    },
-    {
-      "id": "d695d039-6bbb-4947-91fd-4fee74a2eb76",
-      "name": "MOOtivational Stream",
-      "status": "ACTIVE",
-      "start_at": "2026-09-02T13:00:00Z",
-      "end_at": "2026-09-02T18:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d58f52a5-18c1-4b20-90fa-15f86e5f15f1.png",
-      "details_url": "https://www.twitch.tv/drops/campaigns",
-      "game": "EVE Online",
-      "game_slug": "eve-online",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/13263-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 30,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "MOOtivation",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8fbfc55e-81f6-42cf-a46b-d7212adb3381.png",
-          "minutes": 30
-        }
-      ],
-      "src": "sunkwi"
     }
   ],
   "badges": [
     {
       "title": "ZEVENT 2026",
-      "start_at": "2026-09-03T00:00:00Z",
-      "end_at": "2026-09-06T23:59:00Z",
+      "start_at": "2026-09-03T16:00:00Z",
+      "end_at": "2026-09-07T03:59:00Z",
       "note": null,
       "images": [
         "https://static-cdn.jtvnw.net/badges/v1/daea9c61-566f-41da-9b0a-1c520faf5c01/3"
+      ]
+    },
+    {
+      "title": "WARDOG",
+      "start_at": "2026-09-03T18:00:00Z",
+      "end_at": "2026-09-30T17:59:00Z",
+      "note": null,
+      "images": [
+        "https://static-cdn.jtvnw.net/badges/v1/a00140ee-7c25-4cd1-95d9-54b9603f1f80/3",
+        "https://static-cdn.jtvnw.net/badges/v1/233322a6-0c31-43e7-acfa-f10e732e87da/3"
       ]
     },
     {
