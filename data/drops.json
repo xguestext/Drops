@@ -1,19 +1,47 @@
 {
-  "updated_at": "2026-09-02T20:58:34Z",
+  "updated_at": "2026-09-02T23:10:13Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-09-02T20:58:01.345Z",
+  "source_updated": "2026-09-02T23:10:01.461Z",
   "counts": {
-    "total": 35,
-    "upcoming": 4,
+    "total": 37,
+    "upcoming": 6,
     "active": 31,
-    "game_drops": 35,
+    "game_drops": 37,
     "platform": 0,
-    "badges": 8,
+    "badges": 9,
     "fechadas_descartadas": 37,
-    "fora_da_lista": 33
+    "fora_da_lista": 36
   },
   "campaigns": [
+    {
+      "id": "td-dawnwalker-2026-09-03",
+      "name": "2 drops",
+      "status": "UPCOMING",
+      "start_at": "2026-09-03T00:00:00Z",
+      "end_at": "2026-09-30T23:58:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/dfac58e6-a942-43ea-95f7-73f9bb69242b.png",
+      "details_url": "https://twitchdrops.app/game/dawnwalker",
+      "game": "The Blood of Dawnwalker",
+      "game_slug": "dawnwalker",
+      "game_box": null,
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Dawnwalker Launch",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Dawnwalker Supporter",
+          "image": null,
+          "minutes": null
+        }
+      ],
+      "src": "twitchdrops"
+    },
     {
       "id": "9e8bc1ec-c085-4abb-bbd1-962574b7a55b",
       "name": "2026 IVC NAEU Drops",
@@ -76,50 +104,73 @@
       "src": "twitchdrops"
     },
     {
-      "id": "td-wardogs-2026-09-03",
-      "name": "2 drops",
+      "id": "aa82829e-9f3c-4572-a120-39d2eb36729b",
+      "name": "WARDOGS Beta & Launch",
       "status": "UPCOMING",
-      "start_at": "2026-09-03T18:00:00Z",
+      "start_at": "2026-09-03T18:00:00.000Z",
       "end_at": "2026-09-30T17:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ffe5dd89-20be-4578-b78e-f17eaaa0e4c8.png",
-      "details_url": "https://twitchdrops.app/game/wardogs",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
       "game": "WARDOGS",
       "game_slug": "wardogs",
-      "game_box": null,
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/743893402_IGDB-285x380.jpg",
       "availability": "open",
-      "required_minutes": null,
+      "required_minutes": 30,
       "reward_type": "game",
       "rewards": [
         {
-          "name": "WARDOG",
-          "image": null,
-          "minutes": null
+          "name": "WARLORD",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1da81093-2c94-4b65-8055-a8950cf4dd14.png",
+          "minutes": 0
         },
         {
-          "name": "WARLORD",
-          "image": null,
-          "minutes": null
+          "name": "WARDOG",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ae1e8649-1672-4f18-b406-3f2c1328c00c.png",
+          "minutes": 30
         }
       ],
-      "src": "twitchdrops"
+      "src": "fenris"
     },
     {
-      "id": "td-marvel-snap-2026-09-03",
-      "name": "1 drop",
+      "id": "3b8f64e0-12fd-4c56-bf24-64035c1a9afd",
+      "name": "DRAFT PARTY",
       "status": "UPCOMING",
-      "start_at": "2026-09-03T19:00:00Z",
+      "start_at": "2026-09-03T19:00:00.000Z",
       "end_at": "2026-09-06T18:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/545246cc-0cfb-464a-a968-78a155d7a45c.png",
-      "details_url": "https://twitchdrops.app/game/marvel-snap",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
       "game": "MARVEL SNAP",
       "game_slug": "marvel-snap",
-      "game_box": null,
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1743359147_IGDB-285x380.jpg",
       "availability": "open",
-      "required_minutes": null,
+      "required_minutes": 360,
       "reward_type": "game",
       "rewards": [
         {
           "name": "2 Draft Tickets",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a96144da-1775-4c63-9cd6-85b84e636f48.png",
+          "minutes": 120
+        }
+      ],
+      "src": "fenris"
+    },
+    {
+      "id": "td-path-of-exile-2026-09-03",
+      "name": "1 drop",
+      "status": "UPCOMING",
+      "start_at": "2026-09-03T21:00:00Z",
+      "end_at": "2026-09-04T20:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f36ac534-b501-4eae-aea6-5ff5652d755c.png",
+      "details_url": "https://twitchdrops.app/game/path-of-exile",
+      "game": "Path of Exile",
+      "game_slug": "path-of-exile",
+      "game_box": null,
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Wild Footprints Effect",
           "image": null,
           "minutes": null
         }
@@ -1296,6 +1347,16 @@
     }
   ],
   "badges": [
+    {
+      "title": "The Blood of Dawnwalker Launch",
+      "start_at": "2026-09-03T00:00:00Z",
+      "end_at": "2026-09-30T23:58:00Z",
+      "note": null,
+      "images": [
+        "https://static-cdn.jtvnw.net/badges/v1/1c04ddd1-6baa-4e5c-a685-976c621d5114/3",
+        "https://static-cdn.jtvnw.net/badges/v1/63076299-4910-4594-a05c-60899d32c765/3"
+      ]
+    },
     {
       "title": "ZEVENT 2026",
       "start_at": "2026-09-03T16:00:00Z",
