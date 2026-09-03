@@ -1,70 +1,19 @@
 {
-  "updated_at": "2026-09-03T17:58:47Z",
+  "updated_at": "2026-09-03T20:49:06Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-09-03T17:58:01.521Z",
+  "source_updated": "2026-09-03T20:49:01.322Z",
   "counts": {
-    "total": 34,
-    "upcoming": 4,
-    "active": 30,
-    "game_drops": 34,
+    "total": 36,
+    "upcoming": 3,
+    "active": 33,
+    "game_drops": 36,
     "platform": 0,
-    "badges": 9,
-    "fechadas_descartadas": 38,
-    "fora_da_lista": 34
+    "badges": 8,
+    "fechadas_descartadas": 36,
+    "fora_da_lista": 37
   },
   "campaigns": [
-    {
-      "id": "aa82829e-9f3c-4572-a120-39d2eb36729b",
-      "name": "WARDOGS Beta & Launch",
-      "status": "UPCOMING",
-      "start_at": "2026-09-03T18:00:00.000Z",
-      "end_at": "2026-09-30T17:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "WARDOGS",
-      "game_slug": "wardogs",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/743893402_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 30,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "WARLORD",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1da81093-2c94-4b65-8055-a8950cf4dd14.png",
-          "minutes": 0
-        },
-        {
-          "name": "WARDOG",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ae1e8649-1672-4f18-b406-3f2c1328c00c.png",
-          "minutes": 30
-        }
-      ],
-      "src": "fenris"
-    },
-    {
-      "id": "3b8f64e0-12fd-4c56-bf24-64035c1a9afd",
-      "name": "DRAFT PARTY",
-      "status": "UPCOMING",
-      "start_at": "2026-09-03T19:00:00.000Z",
-      "end_at": "2026-09-06T18:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "MARVEL SNAP",
-      "game_slug": "marvel-snap",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1743359147_IGDB-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 360,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "2 Draft Tickets",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a96144da-1775-4c63-9cd6-85b84e636f48.png",
-          "minutes": 120
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "a6d28f1e-8dc5-4fe8-b9c9-01697e1fd5bf",
       "name": "PoE1 ExileCon 1/4",
@@ -110,6 +59,29 @@
         }
       ],
       "src": "fenris"
+    },
+    {
+      "id": "td-path-of-exile-2-2026-09-04",
+      "name": "1 drop",
+      "status": "UPCOMING",
+      "start_at": "2026-09-04T20:00:00Z",
+      "end_at": "2026-09-11T19:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/8f7b6fdb-5217-49ad-8638-807b517e118d.png",
+      "details_url": "https://twitchdrops.app/game/path-of-exile-2",
+      "game": "Path of Exile 2",
+      "game_slug": "path-of-exile-2",
+      "game_box": null,
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Blade of the Champion Pet",
+          "image": null,
+          "minutes": null
+        }
+      ],
+      "src": "twitchdrops"
     },
     {
       "id": "812ec00b-52f4-4fb9-8387-3a26ca1104d7",
@@ -1199,6 +1171,59 @@
       "src": "sunkwi"
     },
     {
+      "id": "1f01d5b8-ae8a-4c70-8d2a-cc94e2bb135f",
+      "name": "Fall 2026 Drops",
+      "status": "ACTIVE",
+      "start_at": "2026-09-03T14:44:46Z",
+      "end_at": "2026-10-01T14:43:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/94332dba-1d14-4e36-ae13-490ad64650df.png",
+      "details_url": "https://littygames.net/drops",
+      "game": "Coin Pusher Live",
+      "game_slug": "coin-pusher-live",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1426040084_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 720,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Maple Leaf - Fall 2026",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c3f52b4f-087d-4d9d-aa6f-5dfb47baa21b.png",
+          "minutes": 120
+        },
+        {
+          "name": "500 Coins",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0cf5fb89-ee43-4655-8db8-3f80e351a024.png",
+          "minutes": 120
+        },
+        {
+          "name": "Pumpkin - Fall 2026",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/dd6fcdeb-c779-407c-bac5-877c24ee4cf2.png",
+          "minutes": 240
+        },
+        {
+          "name": "1,000 Coins",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9b6a7691-4194-4cf9-b5b3-8bbeffb2d606.png",
+          "minutes": 240
+        },
+        {
+          "name": "Acorn - Fall 2026",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/69539658-4938-46aa-bfd3-ad02082a5755.png",
+          "minutes": 360
+        },
+        {
+          "name": "2,000 Coins!",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8207518e-fb71-4e7a-8090-e2937d1a6dc4.png",
+          "minutes": 360
+        },
+        {
+          "name": "Blood Moon - Fall 2026",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3aa9d5a1-933d-4760-8622-4dc94dba1fc8.png",
+          "minutes": 720
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
       "id": "e292f2c5-996a-4dc1-ac1f-4c24251d393c",
       "name": "ZEVENT 2026",
       "status": "ACTIVE",
@@ -1225,19 +1250,60 @@
         }
       ],
       "src": "sunkwi"
+    },
+    {
+      "id": "aa82829e-9f3c-4572-a120-39d2eb36729b",
+      "name": "WARDOGS Beta & Launch",
+      "status": "ACTIVE",
+      "start_at": "2026-09-03T18:00:00Z",
+      "end_at": "2026-09-30T17:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ffe5dd89-20be-4578-b78e-f17eaaa0e4c8.png",
+      "details_url": "https://www.twitch.tv/drops/campaigns",
+      "game": "WARDOGS",
+      "game_slug": "wardogs",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/743893402_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 30,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "WARDOG",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ae1e8649-1672-4f18-b406-3f2c1328c00c.png",
+          "minutes": 30
+        },
+        {
+          "name": "WARLORD",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1da81093-2c94-4b65-8055-a8950cf4dd14.png",
+          "minutes": 0
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "3b8f64e0-12fd-4c56-bf24-64035c1a9afd",
+      "name": "DRAFT PARTY",
+      "status": "ACTIVE",
+      "start_at": "2026-09-03T19:00:00Z",
+      "end_at": "2026-09-06T18:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/545246cc-0cfb-464a-a968-78a155d7a45c.png",
+      "details_url": "https://www.marvelsnap.com/twitchdrops",
+      "game": "MARVEL SNAP",
+      "game_slug": "marvel-snap",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1743359147_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 360,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "2 Draft Tickets",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a96144da-1775-4c63-9cd6-85b84e636f48.png",
+          "minutes": 240
+        }
+      ],
+      "src": "sunkwi"
     }
   ],
   "badges": [
-    {
-      "title": "WARDOG",
-      "start_at": "2026-09-03T18:00:00Z",
-      "end_at": "2026-09-30T17:59:00Z",
-      "note": null,
-      "images": [
-        "https://static-cdn.jtvnw.net/badges/v1/a00140ee-7c25-4cd1-95d9-54b9603f1f80/3",
-        "https://static-cdn.jtvnw.net/badges/v1/233322a6-0c31-43e7-acfa-f10e732e87da/3"
-      ]
-    },
     {
       "title": "Onimusha: Way of the Sword",
       "start_at": "2026-09-04T04:00:00Z",
