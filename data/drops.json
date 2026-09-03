@@ -1,47 +1,19 @@
 {
-  "updated_at": "2026-09-03T14:29:06Z",
+  "updated_at": "2026-09-03T17:58:47Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-09-03T14:29:01.480Z",
+  "source_updated": "2026-09-03T17:58:01.521Z",
   "counts": {
-    "total": 37,
-    "upcoming": 5,
-    "active": 32,
-    "game_drops": 37,
+    "total": 34,
+    "upcoming": 4,
+    "active": 30,
+    "game_drops": 34,
     "platform": 0,
     "badges": 9,
     "fechadas_descartadas": 38,
-    "fora_da_lista": 33
+    "fora_da_lista": 34
   },
   "campaigns": [
-    {
-      "id": "e292f2c5-996a-4dc1-ac1f-4c24251d393c",
-      "name": "ZEVENT 2026",
-      "status": "UPCOMING",
-      "start_at": "2026-09-03T16:00:00.000Z",
-      "end_at": "2026-09-07T03:59:59.999Z",
-      "image": null,
-      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "ZEVENT",
-      "game_slug": "zevent",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/132735846-285x380.jpg",
-      "availability": "open",
-      "required_minutes": 60,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "MegaphoneZ Emote",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/46153072-5c95-4cb2-b282-bcf9c505f821.png",
-          "minutes": 15
-        },
-        {
-          "name": "ZEVENT 2026",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fb64a3ba-6526-4058-84c4-ce5980e57e74.png",
-          "minutes": 60
-        }
-      ],
-      "src": "fenris"
-    },
     {
       "id": "aa82829e-9f3c-4572-a120-39d2eb36729b",
       "name": "WARDOGS Beta & Launch",
@@ -467,72 +439,6 @@
           "name": "Astrite*50",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/10863db4-170d-49ed-a742-92107c627816.png",
           "minutes": 120
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "89359282-f4d9-4c03-8a72-3403723b9ca4",
-      "name": "Anno 117 DLC2 Launch",
-      "status": "ACTIVE",
-      "start_at": "2026-08-20T10:00:00Z",
-      "end_at": "2026-09-03T15:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/default.png",
-      "details_url": "https://www.ubisoft.com/help/article/000065532",
-      "game": "Anno 117: Pax Romana",
-      "game_slug": "anno-117-pax-romana",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1637021799_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Medusa Logo",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/99873552-a0b7-4f46-bda4-b174b68fe7f1.png",
-          "minutes": 120
-        },
-        {
-          "name": "Festive Alder Skin",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/32cfbba6-68a7-4764-b3c8-a5d7dc8f4f52.png",
-          "minutes": 240
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "e92d0112-0b48-413a-b169-9e24472a0634",
-      "name": "Season 4 Update Drops ",
-      "status": "ACTIVE",
-      "start_at": "2026-08-21T05:00:00Z",
-      "end_at": "2026-09-03T14:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/default.png",
-      "details_url": "https://tfd.nexon.com/drops/twitch",
-      "game": "The First Descendant",
-      "game_slug": "the-first-descendant",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/2104758320_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Crystallization Catalyst+",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b0255963-cab5-4bd3-afde-9b148c1c9fe7.png",
-          "minutes": 90
-        },
-        {
-          "name": "Descendant Slot + More",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/65a953bd-69b9-4a91-b77a-2152daac75e5.png",
-          "minutes": 120
-        },
-        {
-          "name": "S4 Twitch Paint",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a221d919-608e-47ea-9aff-c787c9402748.png",
-          "minutes": 30
-        },
-        {
-          "name": "S4 Boost Pack",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d2cca969-cea2-4b29-847f-6a6ff03e8fb7.png",
-          "minutes": 60
         }
       ],
       "src": "sunkwi"
@@ -981,49 +887,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "c7f41fc6-9fd5-44ca-913a-c28a4beeb90b",
-      "name": "TCTD2 Y8S3 Red Horizon",
-      "status": "ACTIVE",
-      "start_at": "2026-08-27T15:00:00Z",
-      "end_at": "2026-09-03T14:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/default.png",
-      "details_url": "https://www.ubisoft.com/help/article/000065532",
-      "game": "Tom Clancy's The Division 2",
-      "game_slug": "tom-clancys-the-division-2",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/504463_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 240,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "ARM PATCH Witness",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9572c36a-8aa6-478b-9fbc-802fedc0d33a.png",
-          "minutes": 30
-        },
-        {
-          "name": "Named Item Cache",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e8947a96-43e2-478e-a1cf-35982b5b8f49.png",
-          "minutes": 60
-        },
-        {
-          "name": "ARM PATCH Renewal",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5d75660c-3300-4336-944d-04a50785d341.png",
-          "minutes": 120
-        },
-        {
-          "name": "Exotic Cache",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1a384725-6d12-4728-b5f2-a972f173c4ca.png",
-          "minutes": 180
-        },
-        {
-          "name": "WEAPON SKIN Aftermath",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2298c1b5-a0c2-442a-82fa-acab1ddddfcb.png",
-          "minutes": 240
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "3ed94804-99c7-498e-bba2-b63448b3386d",
       "name": "The Herbalist #1",
       "status": "ACTIVE",
@@ -1334,18 +1197,37 @@
         }
       ],
       "src": "sunkwi"
+    },
+    {
+      "id": "e292f2c5-996a-4dc1-ac1f-4c24251d393c",
+      "name": "ZEVENT 2026",
+      "status": "ACTIVE",
+      "start_at": "2026-09-03T16:00:00Z",
+      "end_at": "2026-09-07T03:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/47165b14-c694-4484-8732-d9a0733a21d2.png",
+      "details_url": "https://help.twitch.tv/s/article/how-to-use-emotes",
+      "game": "ZEVENT",
+      "game_slug": "zevent",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/132735846-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 60,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "MegaphoneZ Emote",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/46153072-5c95-4cb2-b282-bcf9c505f821.png",
+          "minutes": 15
+        },
+        {
+          "name": "ZEVENT 2026",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fb64a3ba-6526-4058-84c4-ce5980e57e74.png",
+          "minutes": 60
+        }
+      ],
+      "src": "sunkwi"
     }
   ],
   "badges": [
-    {
-      "title": "ZEVENT 2026",
-      "start_at": "2026-09-03T16:00:00Z",
-      "end_at": "2026-09-07T03:59:00Z",
-      "note": null,
-      "images": [
-        "https://static-cdn.jtvnw.net/badges/v1/daea9c61-566f-41da-9b0a-1c520faf5c01/3"
-      ]
-    },
     {
       "title": "WARDOG",
       "start_at": "2026-09-03T18:00:00Z",
@@ -1364,6 +1246,13 @@
       "images": [
         "https://static-cdn.jtvnw.net/badges/v1/379bfc94-8276-4e9e-9a34-615e10c55baf/3"
       ]
+    },
+    {
+      "title": "GTA RP Week - NoPixel V Badge",
+      "start_at": "2026-09-08T16:00:00Z",
+      "end_at": "2026-09-30T16:00:00Z",
+      "note": "**Start time subject to change until drop times is confirmed**                                    \nThis badge is earned by purchasing or gifting a subscription to a streamer in the",
+      "images": []
     },
     {
       "title": "LEGO® Batman™: Legacy of the Dark Knight",
