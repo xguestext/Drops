@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-03T10:06:28Z",
+  "updated_at": "2026-09-03T14:29:06Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-09-03T10:06:01.342Z",
+  "source_updated": "2026-09-03T14:29:01.480Z",
   "counts": {
     "total": 37,
     "upcoming": 5,
@@ -10,7 +10,7 @@
     "game_drops": 37,
     "platform": 0,
     "badges": 9,
-    "fechadas_descartadas": 37,
+    "fechadas_descartadas": 38,
     "fora_da_lista": 33
   },
   "campaigns": [
@@ -117,27 +117,27 @@
       "src": "fenris"
     },
     {
-      "id": "td-onimusha-way-of-the-sword-2026-09-04",
-      "name": "1 drop",
+      "id": "ac5e786e-e9bf-49e9-a550-0b1f075a1818",
+      "name": "Onimusha Armament",
       "status": "UPCOMING",
-      "start_at": "2026-09-04T04:00:00Z",
+      "start_at": "2026-09-04T04:00:00.000Z",
       "end_at": "2026-09-18T03:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/28c80dd3-f032-47f4-89a4-31d50655bd3f.png",
-      "details_url": "https://twitchdrops.app/game/onimusha-way-of-the-sword",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
       "game": "Onimusha: Way of the Sword",
       "game_slug": "onimusha-way-of-the-sword",
-      "game_box": null,
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/327598602_IGDB-285x380.jpg",
       "availability": "open",
       "required_minutes": null,
       "reward_type": "game",
       "rewards": [
         {
           "name": "Onimusha Armament",
-          "image": null,
-          "minutes": null
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c19f8214-a5a4-4dfb-91cc-8466b5295c12.png",
+          "minutes": 0
         }
       ],
-      "src": "twitchdrops"
+      "src": "fenris"
     },
     {
       "id": "812ec00b-52f4-4fb9-8387-3a26ca1104d7",
