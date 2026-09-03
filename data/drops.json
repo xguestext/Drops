@@ -1,47 +1,19 @@
 {
-  "updated_at": "2026-09-02T23:10:13Z",
+  "updated_at": "2026-09-03T01:08:26Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-09-02T23:10:01.461Z",
+  "source_updated": "2026-09-03T01:08:02.070Z",
   "counts": {
     "total": 37,
-    "upcoming": 6,
-    "active": 31,
+    "upcoming": 5,
+    "active": 32,
     "game_drops": 37,
     "platform": 0,
-    "badges": 9,
+    "badges": 8,
     "fechadas_descartadas": 37,
-    "fora_da_lista": 36
+    "fora_da_lista": 34
   },
   "campaigns": [
-    {
-      "id": "td-dawnwalker-2026-09-03",
-      "name": "2 drops",
-      "status": "UPCOMING",
-      "start_at": "2026-09-03T00:00:00Z",
-      "end_at": "2026-09-30T23:58:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/dfac58e6-a942-43ea-95f7-73f9bb69242b.png",
-      "details_url": "https://twitchdrops.app/game/dawnwalker",
-      "game": "The Blood of Dawnwalker",
-      "game_slug": "dawnwalker",
-      "game_box": null,
-      "availability": "open",
-      "required_minutes": null,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Dawnwalker Launch",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "Dawnwalker Supporter",
-          "image": null,
-          "minutes": null
-        }
-      ],
-      "src": "twitchdrops"
-    },
     {
       "id": "9e8bc1ec-c085-4abb-bbd1-962574b7a55b",
       "name": "2026 IVC NAEU Drops",
@@ -1344,19 +1316,37 @@
         }
       ],
       "src": "sunkwi"
+    },
+    {
+      "id": "9b94b19f-17db-4edd-80dd-e2eca81f21df",
+      "name": "Dawnwalker Launch",
+      "status": "ACTIVE",
+      "start_at": "2026-09-03T00:00:00Z",
+      "end_at": "2026-09-30T23:58:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/dfac58e6-a942-43ea-95f7-73f9bb69242b.png",
+      "details_url": "https://www.twitch.tv/drops/campaigns",
+      "game": "The Blood of Dawnwalker",
+      "game_slug": "dawnwalker",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1357871551_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 60,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Dawnwalker Launch",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2a442c61-da06-4bde-acb2-7f81f96b31ec.png",
+          "minutes": 60
+        },
+        {
+          "name": "Dawnwalker Supporter",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c114775a-6d84-4803-b4ce-2808d15a3693.png",
+          "minutes": 0
+        }
+      ],
+      "src": "sunkwi"
     }
   ],
   "badges": [
-    {
-      "title": "The Blood of Dawnwalker Launch",
-      "start_at": "2026-09-03T00:00:00Z",
-      "end_at": "2026-09-30T23:58:00Z",
-      "note": null,
-      "images": [
-        "https://static-cdn.jtvnw.net/badges/v1/1c04ddd1-6baa-4e5c-a685-976c621d5114/3",
-        "https://static-cdn.jtvnw.net/badges/v1/63076299-4910-4594-a05c-60899d32c765/3"
-      ]
-    },
     {
       "title": "ZEVENT 2026",
       "start_at": "2026-09-03T16:00:00Z",
