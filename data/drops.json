@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-04T23:13:19Z",
+  "updated_at": "2026-09-04T23:14:22Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-09-04T23:13:01.303Z",
+  "source_updated": "2026-09-04T23:14:01.540Z",
   "counts": {
     "total": 39,
     "upcoming": 2,
@@ -1029,6 +1029,29 @@
       "src": "twitchdrops"
     },
     {
+      "id": "33e74b8b-b473-4f5c-bf91-a94a01f5302d",
+      "name": "ANNIVERSARY PREVIEW SUB",
+      "status": "ACTIVE",
+      "start_at": "2026-09-01T14:45:00Z",
+      "end_at": "2026-09-07T23:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/247e574a-926c-4b80-9240-d06a6be5ff49.png",
+      "details_url": "https://www.playdeltaforce.com/act/twitchdrops/index.html",
+      "game": "Delta Force",
+      "game_slug": "delta-force-hawk-ops",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1282866981_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "MP5 - Relentless Assault",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/43f84344-239a-4b35-bbe8-f579d9655ca6.png",
+          "minutes": 0
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
       "id": "e0ed32bc-7ecb-451b-8b1a-7953847dcb72",
       "name": "Wind and Snow Dreamscape",
       "status": "ACTIVE",
@@ -1156,59 +1179,6 @@
           "name": "NetEase Pay Gift Card",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1cc54bb0-bf3e-40ae-a930-3592f55f5f7b.png",
           "minutes": 90
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "1f01d5b8-ae8a-4c70-8d2a-cc94e2bb135f",
-      "name": "Fall 2026 Drops",
-      "status": "ACTIVE",
-      "start_at": "2026-09-03T14:44:46Z",
-      "end_at": "2026-10-01T14:43:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/94332dba-1d14-4e36-ae13-490ad64650df.png",
-      "details_url": "https://littygames.net/drops",
-      "game": "Coin Pusher Live",
-      "game_slug": "coin-pusher-live",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1426040084_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 720,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Maple Leaf - Fall 2026",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c3f52b4f-087d-4d9d-aa6f-5dfb47baa21b.png",
-          "minutes": 120
-        },
-        {
-          "name": "500 Coins",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0cf5fb89-ee43-4655-8db8-3f80e351a024.png",
-          "minutes": 120
-        },
-        {
-          "name": "Pumpkin - Fall 2026",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/dd6fcdeb-c779-407c-bac5-877c24ee4cf2.png",
-          "minutes": 240
-        },
-        {
-          "name": "1,000 Coins",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9b6a7691-4194-4cf9-b5b3-8bbeffb2d606.png",
-          "minutes": 240
-        },
-        {
-          "name": "Acorn - Fall 2026",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/69539658-4938-46aa-bfd3-ad02082a5755.png",
-          "minutes": 360
-        },
-        {
-          "name": "2,000 Coins!",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8207518e-fb71-4e7a-8090-e2937d1a6dc4.png",
-          "minutes": 360
-        },
-        {
-          "name": "Blood Moon - Fall 2026",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3aa9d5a1-933d-4760-8622-4dc94dba1fc8.png",
-          "minutes": 720
         }
       ],
       "src": "sunkwi"
