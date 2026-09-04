@@ -1,69 +1,64 @@
 {
-  "updated_at": "2026-09-04T19:32:09Z",
+  "updated_at": "2026-09-04T21:46:05Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-09-04T19:32:01.579Z",
+  "source_updated": "2026-09-04T21:46:01.540Z",
   "counts": {
-    "total": 40,
+    "total": 41,
     "upcoming": 2,
-    "active": 38,
+    "active": 39,
     "game_drops": 39,
-    "platform": 1,
+    "platform": 2,
     "badges": 6,
-    "fechadas_descartadas": 47,
-    "fora_da_lista": 35
+    "fechadas_descartadas": 45,
+    "fora_da_lista": 38
   },
   "campaigns": [
     {
-      "id": "c00d237b-f273-4baf-9ea3-17e8d0a4be11",
-      "name": "0.5.5 Launch Drops",
+      "id": "a82abb82-628f-4df5-a2bb-5df8cc373983",
+      "name": "Civ VII PAX 26 Livestream",
       "status": "UPCOMING",
-      "start_at": "2026-09-04T20:00:00.000Z",
-      "end_at": "2026-09-11T19:59:59.999Z",
+      "start_at": "2026-09-05T16:30:00.000Z",
+      "end_at": "2026-10-03T16:29:59.999Z",
       "image": null,
       "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
-      "game": "Path of Exile 2",
-      "game_slug": "path-of-exile-2",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1702520304_IGDB-285x380.jpg",
+      "game": "Sid Meier's Civilization VII",
+      "game_slug": "sid-meiers-civilization-vii",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/414822821_IGDB-285x380.jpg",
       "availability": "open",
-      "required_minutes": 120,
-      "reward_type": "game",
+      "required_minutes": 15,
+      "reward_type": "platform",
       "rewards": [
         {
-          "name": "Blade of the Champion Pet",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/71f7fa8c-7fb3-48b7-a895-50a2e336c196.png",
-          "minutes": 120
+          "name": "Exploration Age Banner ⭐️",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/dd2e00f2-3399-46cf-8cf4-2401e9601a4d.png",
+          "minutes": 15
         }
       ],
       "src": "fenris"
     },
     {
-      "id": "td-sid-meiers-civilization-vii-2026-09-05",
-      "name": "2 drops",
+      "id": "bf82818f-dba3-48fc-88c3-7472f577547e",
+      "name": "Civ VII Pax Livestream",
       "status": "UPCOMING",
-      "start_at": "2026-09-05T16:30:00Z",
+      "start_at": "2026-09-05T16:30:00.000Z",
       "end_at": "2026-10-03T16:29:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/caa65159-c9f7-4d00-b8f2-a9ee35fed36a.png",
-      "details_url": "https://twitchdrops.app/game/sid-meiers-civilization-vii",
+      "image": null,
+      "details_url": "https://twitch-drops.fenrisapps.com/campaigns",
       "game": "Sid Meier's Civilization VII",
       "game_slug": "sid-meiers-civilization-vii",
-      "game_box": null,
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/414822821_IGDB-285x380.jpg",
       "availability": "open",
-      "required_minutes": null,
+      "required_minutes": 30,
       "reward_type": "platform",
       "rewards": [
         {
           "name": "🌟Cavalry Charge Banner🌟",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "Exploration Age Banner ⭐️",
-          "image": null,
-          "minutes": null
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4aebfcd9-fd65-433f-a4e4-29df50f9f3ee.png",
+          "minutes": 30
         }
       ],
-      "src": "twitchdrops"
+      "src": "fenris"
     },
     {
       "id": "b3bf7ef1-3d9a-4438-8ef9-9fd6f8e92e26",
@@ -1270,29 +1265,6 @@
       "src": "sunkwi"
     },
     {
-      "id": "a6d28f1e-8dc5-4fe8-b9c9-01697e1fd5bf",
-      "name": "PoE1 ExileCon 1/4",
-      "status": "ACTIVE",
-      "start_at": "2026-09-03T21:00:00Z",
-      "end_at": "2026-09-04T20:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f36ac534-b501-4eae-aea6-5ff5652d755c.png",
-      "details_url": "https://www.pathofexile.com/twitchdrops",
-      "game": "Path of Exile",
-      "game_slug": "path-of-exile",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/29307_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 30,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Wild Footprints Effect",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b7bcc648-2cd3-45ed-bde4-01e615d2010c.png",
-          "minutes": 30
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "ac5e786e-e9bf-49e9-a550-0b1f075a1818",
       "name": "Onimusha Armament",
       "status": "ACTIVE",
@@ -1404,6 +1376,52 @@
         {
           "name": "100 Prism",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6b58f93b-3364-4d54-bf29-17742fe1569d.png",
+          "minutes": 120
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "a1de6b63-2662-499d-a422-834b14fb0ddc",
+      "name": "Sept26 PS+ 1",
+      "status": "ACTIVE",
+      "start_at": "2026-09-04T19:30:00Z",
+      "end_at": "2026-09-05T06:58:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/fc746765-2f39-4838-9c84-e52d92fba074.jpeg",
+      "details_url": "https://theshow.com/twitchdrops",
+      "game": "MLB The Show 26",
+      "game_slug": "mlb-the-show-26",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1832641890_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 300,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Twitch Pack",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bf72d199-fddb-4416-8204-66329eb41007.jpeg",
+          "minutes": 60
+        }
+      ],
+      "src": "sunkwi"
+    },
+    {
+      "id": "c00d237b-f273-4baf-9ea3-17e8d0a4be11",
+      "name": "0.5.5 Launch Drops",
+      "status": "ACTIVE",
+      "start_at": "2026-09-04T20:00:00Z",
+      "end_at": "2026-09-11T19:59:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/8f7b6fdb-5217-49ad-8638-807b517e118d.png",
+      "details_url": "https://www.pathofexile.com/twitchdrops",
+      "game": "Path of Exile 2",
+      "game_slug": "path-of-exile-2",
+      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1702520304_IGDB-120x160.jpg",
+      "availability": "open",
+      "required_minutes": 120,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Blade of the Champion Pet",
+          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/71f7fa8c-7fb3-48b7-a895-50a2e336c196.png",
           "minutes": 120
         }
       ],
