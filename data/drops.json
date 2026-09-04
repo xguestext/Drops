@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-09-04T13:44:27Z",
+  "updated_at": "2026-09-04T17:08:01Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-09-04T13:44:01.369Z",
+  "source_updated": "2026-09-04T17:08:01.312Z",
   "counts": {
-    "total": 39,
-    "upcoming": 1,
+    "total": 40,
+    "upcoming": 2,
     "active": 38,
     "game_drops": 39,
-    "platform": 0,
-    "badges": 7,
-    "fechadas_descartadas": 41,
-    "fora_da_lista": 39
+    "platform": 1,
+    "badges": 6,
+    "fechadas_descartadas": 50,
+    "fora_da_lista": 35
   },
   "campaigns": [
     {
@@ -36,6 +36,34 @@
         }
       ],
       "src": "fenris"
+    },
+    {
+      "id": "td-sid-meiers-civilization-vii-2026-09-05",
+      "name": "2 drops",
+      "status": "UPCOMING",
+      "start_at": "2026-09-05T16:30:00Z",
+      "end_at": "2026-10-03T16:29:59.999Z",
+      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/caa65159-c9f7-4d00-b8f2-a9ee35fed36a.png",
+      "details_url": "https://twitchdrops.app/game/sid-meiers-civilization-vii",
+      "game": "Sid Meier's Civilization VII",
+      "game_slug": "sid-meiers-civilization-vii",
+      "game_box": null,
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "platform",
+      "rewards": [
+        {
+          "name": "🌟Cavalry Charge Banner🌟",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Exploration Age Banner ⭐️",
+          "image": null,
+          "minutes": null
+        }
+      ],
+      "src": "twitchdrops"
     },
     {
       "id": "b3bf7ef1-3d9a-4438-8ef9-9fd6f8e92e26",
@@ -983,6 +1011,29 @@
       "src": "sunkwi"
     },
     {
+      "id": "td-sea-of-thieves-2026-09-01",
+      "name": "1 drop",
+      "status": "ACTIVE",
+      "start_at": "2026-09-01T12:00:00Z",
+      "end_at": "2026-09-28T12:00:00Z",
+      "image": "https://static-cdn.jtvnw.net/badges/v1/76048b17-33b4-475c-876f-404931858bfa/3",
+      "details_url": "https://twitchdrops.app/game/sea-of-thieves",
+      "game": "Sea of Thieves",
+      "game_slug": "sea-of-thieves",
+      "game_box": null,
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "TopReaper2026",
+          "image": null,
+          "minutes": null
+        }
+      ],
+      "src": "twitchdrops"
+    },
+    {
       "id": "e0ed32bc-7ecb-451b-8b1a-7953847dcb72",
       "name": "Wind and Snow Dreamscape",
       "status": "ACTIVE",
@@ -1024,6 +1075,34 @@
         }
       ],
       "src": "sunkwi"
+    },
+    {
+      "id": "td-trackmania-2026-09-02",
+      "name": "2 drops",
+      "status": "ACTIVE",
+      "start_at": "2026-09-02T16:00:00Z",
+      "end_at": "2026-09-30T16:00:00Z",
+      "image": "https://static-cdn.jtvnw.net/badges/v1/f723a88a-21ca-48a3-916a-6e006f0e3dd2/3",
+      "details_url": "https://twitchdrops.app/game/trackmania",
+      "game": "Trackmania",
+      "game_slug": "trackmania",
+      "game_box": null,
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Ghoulish Bug",
+          "image": null,
+          "minutes": null
+        },
+        {
+          "name": "Ghost Mantis",
+          "image": null,
+          "minutes": null
+        }
+      ],
+      "src": "twitchdrops"
     },
     {
       "id": "9b94b19f-17db-4edd-80dd-e2eca81f21df",
@@ -1135,34 +1214,6 @@
           "name": "Blood Moon - Fall 2026",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3aa9d5a1-933d-4760-8622-4dc94dba1fc8.png",
           "minutes": 720
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "e292f2c5-996a-4dc1-ac1f-4c24251d393c",
-      "name": "ZEVENT 2026",
-      "status": "ACTIVE",
-      "start_at": "2026-09-03T16:00:00Z",
-      "end_at": "2026-09-07T03:59:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/47165b14-c694-4484-8732-d9a0733a21d2.png",
-      "details_url": "https://help.twitch.tv/s/article/how-to-use-emotes",
-      "game": "ZEVENT",
-      "game_slug": "zevent",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/132735846-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 60,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "MegaphoneZ Emote",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/46153072-5c95-4cb2-b282-bcf9c505f821.png",
-          "minutes": 15
-        },
-        {
-          "name": "ZEVENT 2026",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fb64a3ba-6526-4058-84c4-ce5980e57e74.png",
-          "minutes": 60
         }
       ],
       "src": "sunkwi"
@@ -1326,54 +1377,6 @@
       "src": "twitchdrops"
     },
     {
-      "id": "7bc84f00-b7e0-49f2-9100-3f8c540767ed",
-      "name": "CB 7 anni Welcome",
-      "status": "ACTIVE",
-      "start_at": "2026-09-04T10:30:00Z",
-      "end_at": "2026-09-04T15:29:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/8b785685-44f5-4d09-86e7-009558f5cfb6.png",
-      "details_url": "https://www.conquerorsblade.com/en/twitch/twitchLink/",
-      "game": "Conqueror's Blade",
-      "game_slug": "conquerors-blade",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/498523-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 60,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Random Rare Artillery *4",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/806b0c3e-22eb-48a6-9157-2f853a180d6b.png",
-          "minutes": 15
-        },
-        {
-          "name": "S-Artificer's Stone *15",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f6b9fb6e-c6e1-4d29-b671-0e5ecfe8dc8d.jpeg",
-          "minutes": 15
-        },
-        {
-          "name": "10-Battle Unit XP Card *3",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/993f3142-1235-480a-89b8-eef5d7b7007c.png",
-          "minutes": 30
-        },
-        {
-          "name": "Rare Equipment Schem*2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e5092748-7a42-43b9-8bc9-397f150afd5e.jpeg",
-          "minutes": 30
-        },
-        {
-          "name": "Silver key*2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/58fb2c20-7473-4224-bfc0-c9ccd916f71f.jpeg",
-          "minutes": 60
-        },
-        {
-          "name": "S-Treatise *2",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d8d832c3-30cb-417a-8d96-dc5972972082.jpeg",
-          "minutes": 60
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
       "id": "f018e359-7334-42c3-b945-bbc519a41481",
       "name": "Prime OBT Drops",
       "status": "ACTIVE",
@@ -1408,13 +1411,6 @@
     }
   ],
   "badges": [
-    {
-      "title": "GTA RP Week - NoPixel V Badge",
-      "start_at": "2026-09-08T16:00:00Z",
-      "end_at": "2026-09-30T16:00:00Z",
-      "note": "**Start time subject to change until drop times is confirmed**                                    \nThis badge is earned by purchasing or gifting a subscription to a streamer in the",
-      "images": []
-    },
     {
       "title": "LEGO® Batman™: Legacy of the Dark Knight",
       "start_at": "2026-09-12T00:00:00Z",
