@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-05T19:34:16Z",
+  "updated_at": "2026-09-05T21:40:03Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-09-05T19:34:01.142Z",
+  "source_updated": "2026-09-05T21:40:01.526Z",
   "counts": {
     "total": 41,
     "upcoming": 0,
@@ -10,8 +10,8 @@
     "game_drops": 39,
     "platform": 2,
     "badges": 6,
-    "fechadas_descartadas": 49,
-    "fora_da_lista": 37
+    "fechadas_descartadas": 48,
+    "fora_da_lista": 39
   },
   "campaigns": [
     {
@@ -1011,34 +1011,6 @@
       "src": "twitchdrops"
     },
     {
-      "id": "td-peak-2025-2026-09-01",
-      "name": "2 drops",
-      "status": "ACTIVE",
-      "start_at": "2026-09-01T13:00:00Z",
-      "end_at": "2026-09-30T23:00:00Z",
-      "image": "https://static-cdn.jtvnw.net/badges/v1/5300aac4-9b33-45ca-93f8-a2467d6a5a94/3",
-      "details_url": "https://twitchdrops.app/game/peak-2025",
-      "game": "PEAK",
-      "game_slug": "peak-2025",
-      "game_box": null,
-      "availability": "open",
-      "required_minutes": null,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Stream-A-Thon 2026",
-          "image": null,
-          "minutes": null
-        },
-        {
-          "name": "Crimson Leaf",
-          "image": null,
-          "minutes": null
-        }
-      ],
-      "src": "twitchdrops"
-    },
-    {
       "id": "33e74b8b-b473-4f5c-bf91-a94a01f5302d",
       "name": "ANNIVERSARY PREVIEW SUB",
       "status": "ACTIVE",
@@ -1192,6 +1164,29 @@
         }
       ],
       "src": "sunkwi"
+    },
+    {
+      "id": "td-peak-2025-2026-09-03",
+      "name": "1 drop",
+      "status": "ACTIVE",
+      "start_at": "2026-09-03T17:00:00Z",
+      "end_at": "2026-09-30T23:00:00Z",
+      "image": "https://static-cdn.jtvnw.net/badges/v1/aeeb8f6a-6d4d-4e2d-9e1e-190143c1551d/3",
+      "details_url": "https://twitchdrops.app/game/peak-2025",
+      "game": "PEAK",
+      "game_slug": "peak-2025",
+      "game_box": null,
+      "availability": "open",
+      "required_minutes": null,
+      "reward_type": "game",
+      "rewards": [
+        {
+          "name": "Crimson Leaf",
+          "image": null,
+          "minutes": null
+        }
+      ],
+      "src": "twitchdrops"
     },
     {
       "id": "aa82829e-9f3c-4572-a120-39d2eb36729b",
