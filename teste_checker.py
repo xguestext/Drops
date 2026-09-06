@@ -177,19 +177,22 @@ def teste_lembranca():
         checker.CONHECIDAS_ARQ = arq
         try:
             viva = _camp("viva", "Dead by Daylight", canais=6)
-            fora1, _mem = checker.lembrar([viva], agora, agora_iso)
+            fora1, mem = checker.lembrar([viva], agora, agora_iso)
             checa("campanha vista entra", len(fora1) == 1 and fora1[0]["vista_agora"])
+            # quem grava e o guardar_conhecidas, DEPOIS da prova de abertura
+            checker.guardar_conhecidas(fora1, mem, agora_iso)
             checa("memoria foi gravada", os.path.exists(arq))
 
             # Rodada seguinte: ninguem ao vivo naquele jogo, mas a campanha vale.
             depois = agora + datetime.timedelta(hours=2)
-            fora2, _mem = checker.lembrar([], depois, "2026-09-06T14:00:00Z")
+            fora2, mem2 = checker.lembrar([], depois, "2026-09-06T14:00:00Z")
+            checker.guardar_conhecidas(fora2, mem2, "2026-09-06T14:00:00Z")
             checa("campanha some do ar mas continua no feed", len(fora2) == 1, len(fora2))
             checa("marcada como lembrada", fora2 and fora2[0]["vista_agora"] is False)
 
             # Passou o prazo de lembranca.
             muito_depois = agora + datetime.timedelta(hours=30)
-            fora3, _mem = checker.lembrar([], muito_depois, "2026-09-07T18:00:00Z")
+            fora3, _m3 = checker.lembrar([], muito_depois, "2026-09-07T18:00:00Z")
             checa("depois de 24h sem ver, esquece", fora3 == [], fora3)
 
             # Campanha que ja acabou nao volta nunca.
@@ -201,6 +204,63 @@ def teste_lembranca():
             checa("campanha expirada nao volta", fora4 == [], fora4)
         finally:
             checker.CONHECIDAS_ARQ = original
+
+
+def teste_prova_de_abertura():
+    """Campanha de evento (so canais convidados) tem que cair aqui."""
+    print("prova de abertura (canal comum tambem ganha?)")
+    orig_comuns, orig_camps = tw.canais_comuns, tw.campanhas_do_canal
+    try:
+        por_cat = {"League of Legends": {"nome": "League of Legends", "id": "21779"}}
+
+        # 1) ninguem comum ganha -> reprovada
+        tw.canais_comuns = lambda nome, limite=30: [
+            {"id": str(i), "login": "c%d" % i, "viewers": 100, "afiliado": True,
+             "parceiro": False, "marcado": False} for i in range(6)]
+        tw.campanhas_do_canal = lambda cid: [{"id": "outra"}]
+        c = _camp("Sub Drop", "League of Legends", canais=4)
+        ok, fora = checker.provar_abertura([c], por_cat, {})
+        checa("campanha de convidados e reprovada", not ok and len(fora) == 1)
+        checa("e o motivo fica gravado", fora and fora[0]["prova"] == "so convidados")
+
+        # 2) um canal comum ganha -> aprovada
+        tw.campanhas_do_canal = lambda cid: [{"id": "Sub Drop"}]
+        c2 = _camp("Sub Drop", "League of Legends", canais=4)
+        ok2, fora2 = checker.provar_abertura([c2], por_cat, {})
+        checa("campanha que qualquer um ganha passa", len(ok2) == 1 and not fora2)
+        checa("marcada como aberta", ok2[0]["prova"] == "aberta")
+
+        # 3) poucos canais pra perguntar -> NAO condena (falha aberto)
+        tw.canais_comuns = lambda nome, limite=30: [
+            {"id": "1", "login": "unico", "viewers": 9, "afiliado": True,
+             "parceiro": False, "marcado": False}]
+        tw.campanhas_do_canal = lambda cid: []
+        c3 = _camp("Sub Drop", "League of Legends", canais=4)
+        ok3, fora3 = checker.provar_abertura([c3], por_cat, {})
+        checa("sem gente pra testar, nao reprova", len(ok3) == 1 and not fora3)
+        checa("fica marcada como nao conferida", ok3[0]["prova"] == "nao deu pra conferir")
+
+        # 4) a Twitch fora do ar tambem nao condena
+        def explode(nome, limite=30):
+            raise tw.ErroGQL("timeout")
+        tw.canais_comuns = explode
+        c4 = _camp("Sub Drop", "League of Legends", canais=4)
+        ok4, fora4 = checker.provar_abertura([c4], por_cat, {})
+        checa("erro de rede nao reprova campanha", len(ok4) == 1 and not fora4)
+
+        # 5) resultado guardado nao repergunta
+        chamou = {"n": 0}
+        def conta(nome, limite=30):
+            chamou["n"] += 1
+            return []
+        tw.canais_comuns = conta
+        c5 = _camp("Sub Drop", "League of Legends", canais=4)
+        memoria = {c5["id"]: {"prova": "so convidados"}}
+        ok5, fora5 = checker.provar_abertura([c5], por_cat, memoria)
+        checa("usa o que ja sabia, sem perguntar de novo",
+              chamou["n"] == 0 and len(fora5) == 1, chamou["n"])
+    finally:
+        tw.canais_comuns, tw.campanhas_do_canal = orig_comuns, orig_camps
 
 
 def teste_jogos_fora():
@@ -393,6 +453,7 @@ def main():
     teste_jogo_da_campanha()
     teste_jogo_pequeno()
     teste_juntar_canais()
+    teste_prova_de_abertura()
     teste_coletar_nao_quebrou_o_alerta()
     teste_rodada_morta_nao_finge_saude()
     if "--ao-vivo" in sys.argv:

@@ -68,6 +68,13 @@ MAX_CATEGORIAS = 140
 CANAIS_POR_CATEGORIA = 6
 # Campanha vista em menos canais que isto nao e "aberta a qualquer streamer".
 MINIMO_CANAIS = 2
+# A PROVA DA ABERTURA: quantos canais COMUNS (afiliados sem a tag de drops) se
+# pergunta, e quantos precisam ter respondido pra valer uma condenacao.
+# Medido em 06/09: o "Split 3 - Sub Drop" do LoL nao aparecia em 8 canais comuns
+# (e drop de SUB dos canais oficiais) e o "NBA 2K27 Season 1" em nenhum dos 6
+# afiliados — os dois estavam no feed como se qualquer um pudesse fazer.
+CANAIS_PROVA = 6
+MINIMO_PROVA = 3
 # Categoria que ficou este tanto de dias sem nenhum drop sai da lista de vigiadas.
 DIAS_VIGIANDO = 45
 # Por quanto tempo uma campanha ja confirmada continua no feed sem ser vista de
@@ -165,6 +172,68 @@ def salva_vigiadas(vigiadas):
     return limpa
 
 
+def provar_abertura(campanhas, por_cat, memoria):
+    """Um canal COMUM da categoria tambem ganha? Devolve (aprovadas, reprovadas).
+
+    A peneira de cima ja separa item de jogo de badge de canal, mas ela nao
+    distingue "drop do jogo" de "drop do EVENTO": a campanha do ZEVENT, o sub
+    drop do LoL e o pacote da NBA 2K27 aparecem em varios canais — so que em
+    canais CONVIDADOS. Como o piloto so sobe live em canal dele, campanha assim
+    e live paga sem premio nenhum.
+
+    A pergunta que resolve: um afiliado qualquer da categoria, que nem marcou a
+    tag de drops, ganha isso? Se ganha, qualquer um ganha. Testado em 06/09:
+    "Conquest Mode Drops" 4 de 4 afiliados ganham; "NBA 2K27 Season 1", 0 de 6.
+
+    Falha ABERTO de proposito: so reprova com pelo menos MINIMO_PROVA canais
+    respondendo. Categoria sem afiliado comum no ar (ou so com parceiro) fica
+    como estava — barrar drop de verdade custa mais caro que uma live a toa, e o
+    piloto ainda tem a conferencia dele antes de gastar operario.
+    """
+    aprovadas, reprovadas = [], []
+    for c in campanhas:
+        lembrado = (memoria.get(c["id"]) or {}).get("prova")
+        if lembrado in ("aberta", "so convidados"):
+            c["prova"] = lembrado
+            (aprovadas if lembrado == "aberta" else reprovadas).append(c)
+            continue
+        info = por_cat.get(c["game"])
+        try:
+            lista = tw.canais_comuns(info["nome"] if info else c["game"])
+        except tw.ErroGQL:
+            c["prova"] = "nao deu pra conferir"
+            aprovadas.append(c)
+            continue
+        # O gemeo das contas do dono: afiliado, nao parceiro, sem a tag de drops.
+        iguais = [x for x in lista if x["afiliado"] and not x["parceiro"] and not x["marcado"]]
+        if len(iguais) < MINIMO_PROVA:
+            # Categoria de gente grande (LoL, e-sport) as vezes nao tem afiliado
+            # comum no ar. Ai vale qualquer canal sem a tag: se NEM o parceiro
+            # ganha, ninguem de fora ganha.
+            iguais += [x for x in lista
+                       if not x["marcado"] and x not in iguais]
+        ganham = perguntados = 0
+        for x in iguais[:CANAIS_PROVA]:
+            try:
+                vistas = tw.campanhas_do_canal(x["id"])
+            except tw.ErroGQL:
+                continue
+            perguntados += 1
+            if any(v.get("id") == c["id"] for v in vistas):
+                ganham += 1
+                break                      # um basta: ja provou que e aberta
+        if ganham:
+            c["prova"] = "aberta"
+            aprovadas.append(c)
+        elif perguntados >= MINIMO_PROVA:
+            c["prova"] = "so convidados"
+            reprovadas.append(c)
+        else:
+            c["prova"] = "nao deu pra conferir"
+            aprovadas.append(c)
+    return aprovadas, reprovadas
+
+
 # ---------------- memoria das campanhas ja confirmadas ----------------
 
 def carrega_conhecidas():
@@ -221,11 +290,22 @@ def lembrar(abertas, agora, agora_iso):
         copia["vista_agora"] = False
         lembradas.append(copia)
 
+    return abertas + lembradas, conhecidas
+
+
+def guardar_conhecidas(campanhas, memoria, agora_iso):
+    """Grava a memoria DEPOIS da prova de abertura.
+
+    Antes isto ficava dentro do `lembrar`, e a prova rodava depois: o campo
+    `prova` nunca chegava ao disco e toda rodada refazia as ~200 perguntas —
+    fora que a campanha lembrada entrava no feed sem nunca ser provada.
+    """
+    for c in campanhas:
+        memoria[c["id"]] = c
     os.makedirs(os.path.dirname(CONHECIDAS_ARQ), exist_ok=True)
     with open(CONHECIDAS_ARQ, "w", encoding="utf-8") as f:
-        json.dump({"updated_at": agora_iso, "campanhas": conhecidas}, f,
+        json.dump({"updated_at": agora_iso, "campanhas": memoria}, f,
                   ensure_ascii=False, indent=1, sort_keys=True)
-    return abertas + lembradas, conhecidas
 
 
 def juntar_canais(campanhas, agora, agora_iso):
@@ -374,6 +454,7 @@ def varrer():
     candidatas = candidatas[:MAX_CATEGORIAS]
 
     campanhas = {}
+    por_cat = {}                 # categoria -> info (serve pra prova de abertura)
     categorias_com_drop = 0
     perguntas = 0
     for nome in candidatas:
@@ -384,6 +465,7 @@ def varrer():
             continue
         if not info or not info["canais"]:
             continue
+        por_cat[info["nome"]] = info
         categorias_com_drop += 1
         amostra = tw.amostra_de_canais(info["canais"], CANAIS_POR_CATEGORIA)
         respondidos = 0                  # canais que REALMENTE responderam
@@ -422,6 +504,7 @@ def varrer():
                 campanhas[cid_camp].get("canais_perguntados") or 0, respondidos)
 
     return {"campanhas": list(campanhas.values()), "erros": erros,
+            "por_cat": por_cat,
             "categorias_olhadas": len(candidatas),
             "categorias_com_drop": categorias_com_drop,
             "canais_perguntados": perguntas, "vigiadas": vigiadas}
@@ -574,7 +657,16 @@ def main():
     # Rodada ruim NAO apaga a memoria. Se a Twitch nao respondeu, o que se sabia
     # continua valendo pelo prazo dela — o contrario publicaria "nenhum drop no
     # mundo" por causa de um tropeco de rede.
-    abertas, _memoria = lembrar(abertas, agora, result["updated_at"])
+    abertas, memoria = lembrar(abertas, agora, result["updated_at"])
+    # A PROVA FINAL, depois de juntar com as lembradas: campanha de EVENTO
+    # (canais convidados) passa na peneira de cima, porque aparece mesmo em
+    # varios canais. Aqui se pergunta a um canal comum da categoria — se nem
+    # ele ganha, nao e drop pra qualquer um. Campanha ja provada antes usa o
+    # que ficou guardado, entao isso nao custa uma rodada inteira de perguntas.
+    abertas, so_convidados = provar_abertura(abertas, col["por_cat"], memoria)
+    barradas += so_convidados
+    vistas_agora = min(vistas_agora, len(abertas))
+    guardar_conhecidas(abertas + so_convidados, memoria, result["updated_at"])
     # A lista de fora pode ter mudado desde a rodada passada: peneira de novo,
     # senao jogo recem-bloqueado voltaria pela memoria.
     abertas = [c for c in abertas if not esta_fora(c.get("game"), fora)]

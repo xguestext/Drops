@@ -193,6 +193,40 @@ def categoria_com_canais(nome, limite=100):
     }
 
 
+def canais_comuns(nome, limite=30):
+    """Canais QUAISQUER da categoria — SEM o filtro de drops — com o cargo deles.
+
+    E o teste definitivo de "aberta a qualquer streamer": se um afiliado comum,
+    que nem marcou a tag de drops, ganha a campanha, entao qualquer canal ganha.
+    O cargo importa porque muita campanha so vale pra AFILIADO/PARCEIRO, e as
+    contas do dono sao afiliadas — perguntar pra quem nao e afiliado responderia
+    "nao" sobre um drop que pra ele valeria.
+    """
+    d = consulta(
+        '{ game(name: %s) { streams(first: %d) { edges { node { viewersCount '
+        'freeformTags { name } broadcaster { id login roles { isAffiliate isPartner } } '
+        '} } } } }' % (_txt(nome), int(limite)))
+    g = d.get("game")
+    if not g:
+        return []
+    fora = []
+    for e in ((g.get("streams") or {}).get("edges") or []):
+        no = (e or {}).get("node") or {}
+        b = no.get("broadcaster") or {}
+        if not b.get("id"):
+            continue
+        papeis = b.get("roles") or {}
+        marcas = [(t.get("name") or "").lower() for t in (no.get("freeformTags") or [])]
+        fora.append({
+            "id": b["id"], "login": b.get("login") or "",
+            "viewers": no.get("viewersCount") or 0,
+            "afiliado": bool(papeis.get("isAffiliate")),
+            "parceiro": bool(papeis.get("isPartner")),
+            "marcado": any("drop" in m for m in marcas),
+        })
+    return fora
+
+
 def campanhas_do_canal(canal_id):
     """As campanhas que quem assiste ESTE canal ganha. Lista crua da Twitch.
 
