@@ -4,12 +4,30 @@ Site estático + grátis que lista as campanhas de **drops da Twitch** — **só
 qualquer streamer** (campanhas fechadas de canais específicos são descartadas e nem aparecem) —
 separando **item de jogo** de **badge/emote/plataforma**.
 
-- **Fontes (todas de terceiros, sem token/login/anti-bot — o checador NUNCA toca a Twitch):**
-  - **drops de item:** [sunkwi](https://twitch-drops-api.sunkwi.com/) (ativos) + [fenris](https://twitch-drops.fenrisapps.com/campaigns) (em breve) + [twitchdrops.app](https://twitchdrops.app/) (preenche lacunas). Fundidas por id + chave difusa (jogo+dia).
-  - **badges chegando:** [streamdatabase.com/events](https://www.streamdatabase.com/events) (eventos de badge global — categoria à parte dos drops).
-  - Motivo de várias fontes: cada agregador espelha a GQL da Twitch mas **perde campanhas diferentes**; juntando, o site fica mais completo. Nenhuma fonte pública antecede a Twitch (a origem é a GQL dela).
-- **Checador** (`checker.py`): roda no **GitHub Actions** a cada 10 min, filtra e escreve `data/drops.json`.
+- **Fonte: a GQL da Twitch, direto** (desde 06/09/2026 — sem agregador de terceiro, sem login, sem token).
+  - **Como:** o checador pergunta à Twitch **quais canais estão ao vivo com drop ligado** em cada
+    categoria e, para uma amostra desses canais (grandes **e** pequenos), **o que quem assiste ali
+    ganha** — é a mesma consulta que o player usa pra desenhar o aviso *"Drops habilitados"*.
+    Cada campanha listada aqui foi vista na resposta de um canal real, ao vivo, naquele minuto.
+  - **Por que mudou:** o `twitchdrops.app` (raspagem de HTML) publicou *"Minecraft — Amethyst Drone"*,
+    que a Twitch não tinha. O bot acreditou, abriu live e contratou 61 viewers pra 1 pessoa real.
+    Perguntada direto no mesmo minuto, a Twitch dizia o contrário: os 13 canais de Minecraft com
+    `DropsEnabled` tinham só **badge do próprio canal**. Intermediário erra e não avisa.
+  - **Peneira:** entra o que tem prêmio de **item de jogo** (a Twitch serve a imagem de
+    `/twitch-quests-assets/REWARD/`) **e** aparece em **2+ canais diferentes**. Badge de canal
+    (aniversário, subathon — imagem de `/badges/`) fica de fora, que é a regra de sempre:
+    *só o que qualquer streamer consegue*.
+  - **Memória** (`data/`): `categorias_vigiadas.json` (onde procurar — a Twitch não deixa paginar a
+    lista de categorias sem o token do navegador) e `campanhas_conhecidas.json` (campanha já
+    confirmada vale 24h mesmo que ninguém esteja ao vivo naquele jogo no momento).
+  - **badges chegando:** [streamdatabase.com/events](https://www.streamdatabase.com/events) — a única
+    coisa que **não** vem da Twitch, porque é sobre badge que ainda **vai** existir, e a GQL só
+    responde sobre o que está ativo num canal ao vivo agora. Nunca gerou live: o bot ignora essa chave.
+- **Checador** (`checker.py` + `twitch_gql.py`): roda no **GitHub Actions** a cada 10 min (~2 min por
+  rodada, ~310 perguntas à Twitch), filtra e escreve `data/drops.json`.
   Antes de escrever ele obedece o [`jogos-fora.txt`](jogos-fora.txt) (veja abaixo).
+- **Testes:** `python teste_checker.py` (offline, com respostas reais capturadas — inclusive as do
+  caso Minecraft) e `python teste_checker.py --ao-vivo` (fala com a Twitch).
 - **Site** (`index.html`): página única, sem build, lê o JSON e se atualiza sozinha a cada 5 min.
 - Hospedado no **GitHub Pages** → abre de qualquer PC.
 

@@ -1,44 +1,82 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Twitch Drops Radar - checador (multi-fonte).
+Twitch Drops Radar - checador.
 
-Este script NAO toca a Twitch: so consome fontes de terceiros. Roda em qualquer lugar.
+DE ONDE VEM O DADO (mudou em 06/09/2026)
+  So da GQL publica da Twitch, perguntada canal a canal. Nenhum agregador de
+  terceiro decide mais o que aparece aqui.
 
-DROPS (itens de jogo), fundidos por id + chave difusa (jogo+dia de inicio):
-  1) sunkwi  https://twitch-drops-api.sunkwi.com/v2/drops  -> ATIVOS + allow.channels (aberto/fechado)
-  2) fenris  https://twitch-drops.fenrisapps.com/campaigns -> EM BREVE + ativos (payload SSR/RSC)
-  3) twitchdrops.app                                       -> preenche lacunas (pega o que 1/2 perdem),
-     traz data-allchannels (respeita "so aberto") e nomes/imagens de recompensa.
-BADGES (evento de categoria, coisa diferente de drop de item):
-  4) streamdatabase.com/events -> badges CHEGANDO (secao propria no site)
+  Motivo: o twitchdrops.app (raspagem de HTML) publicou "Minecraft — Amethyst
+  Drone", o radar repassou, o piloto abriu live na Misaune e anunciou 61
+  operarios pra 1 pessoa real. Perguntada direto naquele mesmo minuto, a
+  Twitch disse o contrario: os 13 canais de Minecraft com DropsEnabled tinham
+  todos campanha de badge do proprio canal, e o canal da Misaune — ao vivo na
+  categoria — nao tinha campanha nenhuma. Intermediario erra e nao avisa; a
+  Twitch, perguntada sobre um canal que esta no ar, nao tem como errar.
+
+COMO A LISTA E MONTADA
+  1. Onde procurar: as categorias mais assistidas + as categorias que a Twitch
+     mostra com drop ligado agora + as que ja tiveram drop antes
+     (data/categorias_vigiadas.json, que o proprio checador vai engordando).
+  2. Em cada categoria, quem esta ao vivo COM drop ligado.
+  3. De uma amostra desses canais (grandes E pequenos), o que a Twitch responde
+     que o espectador ganha ali. Isso e a campanha, com nome, prazo, minutos de
+     watch e premios de verdade.
+  4. Sobra a peneira: premio de item de jogo (a Twitch serve a imagem de
+     /twitch-quests-assets/REWARD/) e visto em 2+ canais diferentes. Badge de
+     canal (aniversario, subathon: imagem de /badges/) fica de fora, que e a
+     mesma regra de sempre — "so o que qualquer streamer consegue".
+
+A UNICA COISA QUE NAO VEM DA TWITCH e a aba "Badges chegando" (streamdatabase),
+que anuncia badge de evento que AINDA VAI existir. A GQL so sabe do que esta
+ativo num canal ao vivo, entao nao ha como tirar isso dela. Essa aba nunca
+gerou live: o bot ignora a chave `badges` de proposito.
 
 Regras (pedido do dono):
-  - So ABERTO a qualquer streamer. Fechado (canais especificos) descartado.
-  - EXPIRED fora. UPCOMING no topo.
-  - reward_type: "game" (item de jogo) vs "platform" (badge/emote/etc, filtravel no site)
+  - So ABERTO a qualquer streamer. Campanha de canal especifico descartada.
+  - jogos-fora.txt manda: jogo listado nao aparece.
+  - reward_type: "game" (item de jogo) vs "platform" (badge/emote).
 """
 import json
 import os
 import re
-import html
 import unicodedata
 import datetime
 import urllib.request
 import urllib.error
 
-SUNKWI = "https://twitch-drops-api.sunkwi.com/v2/drops"
-FENRIS = "https://twitch-drops.fenrisapps.com/campaigns"
-TWITCHDROPS = "https://twitchdrops.app/"
+import twitch_gql as tw
+
 STREAMDB = "https://www.streamdatabase.com/events"
 # lista de jogos que eu nao quero ver, editavel pelo proprio github de
 # qualquer PC. Um jogo por linha, "#" e comentario.
-FORA_ARQ = os.path.join(os.path.dirname(os.path.abspath(__file__)), "jogos-fora.txt")
+AQUI = os.path.dirname(os.path.abspath(__file__))
+FORA_ARQ = os.path.join(AQUI, "jogos-fora.txt")
 FORA_URL = "https://raw.githubusercontent.com/xguestext/Drops/main/jogos-fora.txt"
-UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) drops-radar/2.0"}
+VIGIADAS_ARQ = os.path.join(AQUI, "data", "categorias_vigiadas.json")
+CONHECIDAS_ARQ = os.path.join(AQUI, "data", "campanhas_conhecidas.json")
+CANAIS_ARQ = os.path.join(AQUI, "data", "canais_por_campanha.json")
+UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) drops-radar/3.0"}
 
-PLATFORM_HINTS = ("badge", "emote", "emoticon", "subscri", "sub token",
-                  "bits", "turbo", "banner", "chat ", "profile", "avatar frame")
+# Quantas categorias no maximo se olha por rodada. Cada uma custa 1 chamada, e
+# as que tem canal com drop custam mais 6. Com 140 a rodada fica em ~2-4 min no
+# Actions, que roda de 10 em 10 min (na pratica 40-50).
+MAX_CATEGORIAS = 140
+# Quantos canais se pergunta por categoria. 6 ja separa campanha aberta (aparece
+# em todos) de campanha de um canal so, sem multiplicar o custo.
+CANAIS_POR_CATEGORIA = 6
+# Campanha vista em menos canais que isto nao e "aberta a qualquer streamer".
+MINIMO_CANAIS = 2
+# Categoria que ficou este tanto de dias sem nenhum drop sai da lista de vigiadas.
+DIAS_VIGIANDO = 45
+# Por quanto tempo uma campanha ja confirmada continua no feed sem ser vista de
+# novo. Existe porque a campanha so aparece se ALGUEM estiver ao vivo com drop
+# na categoria: jogo pequeno fica horas sem ninguem transmitindo, e some do
+# radar bem na hora em que ele e mais interessante (drop sem concorrencia).
+# Nao e chute: a campanha foi vista pela Twitch, com id e prazo dela — o que se
+# assume aqui e so que ela nao morreu antes da data que a propria Twitch deu.
+HORAS_LEMBRANDO = 24.0
 
 
 def now_utc():
@@ -54,20 +92,6 @@ def fetch(url, as_json=True):
     with urllib.request.urlopen(req, timeout=30) as r:
         body = r.read().decode("utf-8")
     return json.loads(body) if as_json else body
-
-
-def classify(rewards):
-    names = [r["name"].lower() for r in rewards if r.get("name")]
-    if names and all(any(h in n for h in PLATFORM_HINTS) for n in names):
-        return "platform"
-    return "game"
-
-
-def fuzzy_key(c):
-    """Chave para deduplicar entre fontes (que nem sempre tem o mesmo id)."""
-    g = re.sub(r"[^a-z0-9]", "", (c.get("game") or "").lower())
-    d = (c.get("start_at") or "")[:10]
-    return (g, d)
 
 
 # ---------------- a lista de fora ----------------
@@ -113,204 +137,351 @@ def esta_fora(nome, fora):
     return bool(k) and any(f in k for f in fora)
 
 
-# ---------------- fonte 1: sunkwi (ativos) ----------------
+# ---------------- categorias vigiadas (memoria do radar) ----------------
 
-def sunkwi_rewards(rw):
-    out, seen = [], set()
-    for tbd in rw.get("timeBasedDrops") or []:
-        mins = tbd.get("requiredMinutesWatched")
-        for edge in tbd.get("benefitEdges") or []:
-            b = (edge or {}).get("benefit") or {}
-            key = b.get("id") or b.get("name")
-            if b.get("name") and key not in seen:
-                seen.add(key)
-                out.append({"name": b["name"], "image": b.get("imageAssetURL"), "minutes": mins})
-    return out
+def carrega_vigiadas():
+    """{categoria: data ISO do ultimo drop visto ali}.
 
-
-def carrega_sunkwi():
-    d = fetch(SUNKWI)
-    abertas, fechadas_ids = [], set()
-    for camp in d.get("data") or []:
-        for rw in camp.get("rewards") or []:
-            if (rw.get("allow") or {}).get("channels"):
-                fechadas_ids.add(rw.get("id"))
-                continue
-            if rw.get("status") not in ("ACTIVE", "UPCOMING"):
-                continue
-            game = rw.get("game") or {}
-            rewards = sunkwi_rewards(rw)
-            mins = [t.get("requiredMinutesWatched") for t in (rw.get("timeBasedDrops") or [])
-                    if t.get("requiredMinutesWatched")]
-            abertas.append({
-                "id": rw.get("id"), "name": rw.get("name"), "status": rw.get("status"),
-                "start_at": rw.get("startAt"), "end_at": rw.get("endAt"),
-                "image": rw.get("imageURL"), "details_url": rw.get("detailsURL"),
-                "game": game.get("displayName") or camp.get("gameDisplayName"),
-                "game_slug": game.get("slug"), "game_box": camp.get("gameBoxArtURL"),
-                "availability": "open", "required_minutes": max(mins) if mins else None,
-                "reward_type": classify(rewards), "rewards": rewards, "src": "sunkwi",
-            })
-    return abertas, fechadas_ids, d.get("lastUpdatedAt")
+    Existe porque a Twitch nao deixa paginar a lista de categorias sem o token
+    do navegador: sem memoria, o radar so enxergaria as 30 categorias do topo e
+    perderia drop de jogo pequeno — que e justamente onde o piloto tem menos
+    concorrencia.
+    """
+    try:
+        with open(VIGIADAS_ARQ, encoding="utf-8") as f:
+            d = json.load(f)
+        return dict(d.get("categorias") or {})
+    except Exception:
+        return {}
 
 
-# ---------------- fonte 2: fenris (em breve) ----------------
-
-def _rsc_campaigns(html):
-    chunks = re.findall(r'self\.__next_f\.push\(\[1,"((?:[^"\\]|\\.)*)"\]\)', html)
-    text = json.loads('"' + "".join(chunks) + '"')
-    m = re.search(r'"campaigns":\[', text)
-    if not m:
-        raise ValueError("layout do fenris mudou")
-    objs, i = [], text.index("{", m.end() - 1)
-    while True:
-        obj = _extract_obj(text, i)
-        if not obj:
-            break
-        objs.append(json.loads(obj))
-        j = i + len(obj)
-        while j < len(text) and text[j] in " \n\t":
-            j += 1
-        if j < len(text) and text[j] == ",":
-            i = text.index("{", j)
-        else:
-            break
-    return objs
+def salva_vigiadas(vigiadas):
+    corte = (now_utc() - datetime.timedelta(days=DIAS_VIGIANDO)).strftime("%Y-%m-%d")
+    limpa = {k: v for k, v in vigiadas.items() if (v or "")[:10] >= corte}
+    os.makedirs(os.path.dirname(VIGIADAS_ARQ), exist_ok=True)
+    with open(VIGIADAS_ARQ, "w", encoding="utf-8") as f:
+        json.dump({"updated_at": now_iso(), "categorias": limpa}, f,
+                  ensure_ascii=False, indent=1, sort_keys=True)
+    return limpa
 
 
-def _extract_obj(s, i):
-    depth = 0
-    start = i
-    in_str = False
-    esc = False
-    while i < len(s):
-        ch = s[i]
-        if in_str:
-            if esc:
-                esc = False
-            elif ch == "\\":
-                esc = True
-            elif ch == '"':
-                in_str = False
-        else:
-            if ch == '"':
-                in_str = True
-            elif ch == "{":
-                depth += 1
-            elif ch == "}":
-                depth -= 1
-                if depth == 0:
-                    return s[start:i + 1]
-        i += 1
-    return None
+# ---------------- memoria das campanhas ja confirmadas ----------------
+
+def carrega_conhecidas():
+    try:
+        with open(CONHECIDAS_ARQ, encoding="utf-8") as f:
+            return dict((json.load(f).get("campanhas") or {}))
+    except Exception:
+        return {}
 
 
-def carrega_fenris():
-    return _rsc_campaigns(fetch(FENRIS, as_json=False))
+def _velha_demais(reg, agora):
+    visto = reg.get("visto_em") or ""
+    try:
+        quando = datetime.datetime.fromisoformat(visto.replace("Z", "+00:00"))
+    except Exception:
+        return True
+    if quando.tzinfo is None:
+        # Data sem fuso (arquivo mexido na mao) passa no parse e estoura na
+        # conta abaixo, que compara com `agora`, que TEM fuso. A memoria so e
+        # escrita em UTC: le como UTC em vez de derrubar a rodada inteira — e
+        # `main()` nao tem try, entao isso matava o commit do Actions e
+        # congelava o feed se dizendo fresco.
+        quando = quando.replace(tzinfo=datetime.timezone.utc)
+    return (agora - quando).total_seconds() > HORAS_LEMBRANDO * 3600
 
 
-def _dt(s):
-    return (s or "").replace("$D", "")
+def _ja_acabou(reg, agora_iso):
+    fim = reg.get("end_at") or ""
+    return bool(fim) and fim <= agora_iso
 
 
-def normaliza_fenris(o):
-    game = o.get("game") or {}
-    rewards, seen, mins = [], set(), []
-    for tbd in o.get("timeBasedDrops") or []:
-        m = tbd.get("requiredMinutesWatched")
-        if m:
-            mins.append(m)
-        for b in tbd.get("benefits") or []:
-            key = b.get("benefitId") or b.get("name")
-            if b.get("name") and key not in seen:
-                seen.add(key)
-                rewards.append({"name": b["name"], "image": b.get("imageAssetUrl"), "minutes": m})
+def lembrar(abertas, agora, agora_iso):
+    """Junta o que se viu AGORA com o que ainda vale da rodada passada.
+
+    Devolve (lista pro feed, memoria nova). Campanha vista agora manda: ela
+    entra com os dados frescos e reinicia o relogio da lembranca.
+    """
+    conhecidas = carrega_conhecidas()
+    vistas_agora = set()
+    for c in abertas:
+        c["vista_agora"] = True
+        c["visto_em"] = agora_iso
+        conhecidas[c["id"]] = c
+        vistas_agora.add(c["id"])
+
+    lembradas = []
+    for cid, reg in list(conhecidas.items()):
+        if _ja_acabou(reg, agora_iso) or _velha_demais(reg, agora):
+            conhecidas.pop(cid, None)
+            continue
+        if cid in vistas_agora:
+            continue
+        copia = dict(reg)
+        copia["vista_agora"] = False
+        lembradas.append(copia)
+
+    os.makedirs(os.path.dirname(CONHECIDAS_ARQ), exist_ok=True)
+    with open(CONHECIDAS_ARQ, "w", encoding="utf-8") as f:
+        json.dump({"updated_at": agora_iso, "campanhas": conhecidas}, f,
+                  ensure_ascii=False, indent=1, sort_keys=True)
+    return abertas + lembradas, conhecidas
+
+
+def juntar_canais(campanhas, agora, agora_iso):
+    """Soma os canais desta rodada aos que ja se viu da MESMA campanha antes.
+
+    MINIMO_CANAIS pede 2 canais distintos, e ate aqui os dois tinham que estar
+    ao vivo NO MESMO MINUTO. Jogo pequeno quase nunca tem dois ao mesmo tempo,
+    e campanha barrada nao deixava rastro nenhum: cada rodada recomecava do
+    zero. Medido em 06/09: "B&S NEO Reignited Drops" (Blade & Soul NEO, item de
+    jogo, 120 min de watch, prazo da propria Twitch) teve 1 canal as 08:19 e 1
+    canal as 08:34 — e nunca entrou no feed. Era justo o caso que mais interessa
+    pro dono: drop de verdade sem concorrencia.
+
+    A prova nao fica mais fraca por ser somada com o tempo: e o mesmo id de
+    campanha respondido por dois canais DIFERENTES, que e exatamente o que
+    MINIMO_CANAIS mede. Campanha de canal (subathon, aniversario) segue barrada
+    pra sempre — ela so existe naquele canal, por mais rodadas que passem.
+
+    Vale a mesma regua do resto da memoria: some quando a campanha acaba (pelo
+    end_at da propria Twitch) ou quando fica HORAS_LEMBRANDO sem ser vista.
+    """
+    try:
+        with open(CANAIS_ARQ, encoding="utf-8") as f:
+            antes = dict((json.load(f).get("campanhas") or {}))
+    except Exception:
+        antes = {}
+
+    novo = {}
+    for c in campanhas:
+        reg = antes.get(c["id"]) or {}
+        if reg and not (_ja_acabou(reg, agora_iso) or _velha_demais(reg, agora)):
+            for login in reg.get("canais_vistos") or []:
+                if login not in c["canais_vistos"]:
+                    c["canais_vistos"].append(login)
+        # So campanha de item precisa disto: badge e barrada pelo tipo do
+        # premio, nao pela contagem de canais.
+        if c.get("reward_type") == "game":
+            novo[c["id"]] = {"canais_vistos": list(c["canais_vistos"]),
+                             "end_at": c.get("end_at"), "visto_em": agora_iso}
+
+    # Quem nao apareceu nesta rodada fica guardado ate vencer: o unico canal
+    # daquele jogo pode estar offline agora e voltar na proxima.
+    for cid, reg in antes.items():
+        if cid in novo:
+            continue
+        if _ja_acabou(reg, agora_iso) or _velha_demais(reg, agora):
+            continue
+        novo[cid] = reg
+
+    os.makedirs(os.path.dirname(CANAIS_ARQ), exist_ok=True)
+    with open(CANAIS_ARQ, "w", encoding="utf-8") as f:
+        json.dump({"updated_at": agora_iso, "campanhas": novo}, f,
+                  ensure_ascii=False, indent=1, sort_keys=True)
+    return campanhas
+
+
+# ---------------- fonte unica: a GQL da Twitch ----------------
+
+def _janela(c):
+    """(inicio, fim) da campanha, em ISO.
+
+    A consulta do player nao devolve `startAt` no nivel da campanha — so dentro
+    de cada drop dela. Sem isso o feed sairia com start_at nulo em TUDO, e o bot
+    recusaria todas: `campanha_serve` (drops_auto.py) exige hora de inicio pra
+    medir a janela de 24h e responde "sem hora de inicio" pra quem nao tem.
+    Ou seja: faltar este campo nao daria drop errado, daria drop NENHUM.
+    """
+    inicios = [t.get("startAt") for t in (c.get("timeBasedDrops") or []) if t.get("startAt")]
+    fins = [t.get("endAt") for t in (c.get("timeBasedDrops") or []) if t.get("endAt")]
+    inicio = c.get("startAt") or (min(inicios) if inicios else None)
+    fim = c.get("endAt") or (max(fins) if fins else None)
+    return inicio, fim
+
+
+def _jogo_da_campanha(c, categoria, capa, slug):
+    """Que jogo carimbar: o que a PROPRIA campanha diz; a categoria e o plano B.
+
+    A mesma campanha aparece em canais de categorias diferentes: em 06/09 a
+    "First Partners Collection" (evento do Pokemon, jogo "Special Events")
+    respondia em Just Chatting E em Pokemon FireRed ao mesmo tempo. Como as
+    campanhas sao indexadas so pelo id, ela ficava com o jogo da PRIMEIRA
+    categoria varrida — e essa ordem muda a cada rodada, entao o mesmo drop
+    saia ora "Just Chatting", ora outro nome. Esse campo e o que o piloto usa
+    pra escolher a categoria da live, procurar gameplay e casar com o
+    jogos-fora.txt: nome que troca sozinho e nome que o dono nao consegue
+    barrar. Capa e slug sao da CATEGORIA — com jogo diferente, mentiriam.
+    """
+    g = c.get("game")
+    nome = ((g or {}).get("name") or "").strip() if isinstance(g, dict) else ""
+    if not nome or _chave_jogo(nome) == _chave_jogo(categoria):
+        return categoria, capa, slug
+    return nome, None, ""
+
+
+def _campanha_vazia(c, categoria, capa, slug):
+    inicio, fim = _janela(c)
+    categoria, capa, slug = _jogo_da_campanha(c, categoria, capa, slug)
     return {
-        "id": o.get("id"), "name": o.get("name"), "status": None,
-        "start_at": _dt(o.get("startAt")), "end_at": _dt(o.get("endAt")),
-        "image": None, "details_url": FENRIS,
-        "game": game.get("displayName"), "game_slug": game.get("slug"),
-        "game_box": game.get("boxArtUrl"), "availability": "open",
-        "required_minutes": max(mins) if mins else None,
-        "reward_type": classify(rewards), "rewards": rewards, "src": "fenris",
+        "id": c.get("id"),
+        "name": (c.get("name") or "").strip(),
+        "status": "ACTIVE",
+        "start_at": inicio,
+        "end_at": fim,
+        "image": c.get("imageURL") or "",
+        "details_url": c.get("detailsURL") or "",
+        "game": categoria,
+        "game_slug": slug or _chave_jogo(categoria),
+        "game_box": capa or None,
+        "availability": "open",
+        "channels": [],
+        "required_minutes": tw.minutos_de(c),
+        "reward_type": "game" if tw.tipo_da_campanha(c) == "game" else "platform",
+        "rewards": [{"name": n, "image": u, "minutes": m}
+                    for n, u, m in tw._premios(c)],
+        "src": "twitch-gql",
+        # Rastro de como se soube disso. Se um dia o dono desconfiar de uma
+        # campanha, esta e a lista de canais em que ela foi vista ao vivo.
+        "canais_vistos": [],
+        "canais_perguntados": 0,
     }
 
 
-# ---------------- fonte 3: twitchdrops.app (lacunas) ----------------
+def varrer():
+    """Varre a Twitch e devolve o material bruto ja agrupado por campanha."""
+    erros = []
+    vigiadas = carrega_vigiadas()
 
-def _attr(s, name):
-    m = re.search(r'%s="([^"]*)"' % re.escape(name), s)
-    return m.group(1) if m else None
+    candidatas = []
 
+    def junta(nomes):
+        for n in nomes:
+            if n and n not in candidatas:
+                candidatas.append(n)
 
-def carrega_twitchdrops(agora):
-    # `pagina`, nao `html`: a variavel local cobria o MODULO html e
-    # `html.unescape` virava AttributeError. A fonte inteira caia por isso, e
-    # o erro era engolido pelo try do coletar() — o radar rodava com 2 fontes
-    # em vez de 3 sem ninguem notar. Foi assim que o Marvel Snap, que estava
-    # aqui com data e tudo, nunca chegou no site (dono, 2026-08-25).
-    pagina = fetch(TWITCHDROPS, as_json=False)
-    out = []
-    for m in re.finditer(r'<a\b([^>]*\bgame-card\b[^>]*)>', pagina):
-        attrs = m.group(1)
-        if _attr(attrs, "data-allchannels") != "true":   # so aberto
+    try:
+        junta(tw.categorias_quentes())
+    except tw.ErroGQL as e:
+        erros.append("categorias com drop agora: %s" % e)
+    try:
+        junta([n for n, _v in tw.top_categorias(30)])
+    except tw.ErroGQL as e:
+        erros.append("categorias do topo: %s" % e)
+    # As vigiadas entram por ultimo e da mais recente pra mais velha: se o teto
+    # cortar alguem, corta quem ha mais tempo nao tem drop.
+    junta([n for n, _q in sorted(vigiadas.items(), key=lambda kv: kv[1], reverse=True)])
+    candidatas = candidatas[:MAX_CATEGORIAS]
+
+    campanhas = {}
+    categorias_com_drop = 0
+    perguntas = 0
+    for nome in candidatas:
+        try:
+            info = tw.categoria_com_canais(nome)
+        except tw.ErroGQL as e:
+            erros.append("%s: %s" % (nome, e))
             continue
-        end = pagina.find("</a>", m.end())
-        body = pagina[m.end():end] if end != -1 else ""
-        start = _attr(attrs, "data-start")
-        endat = _attr(attrs, "data-end")
-        if endat and endat < agora:                       # ja expirou
+        if not info or not info["canais"]:
             continue
-        title_m = re.search(r'card-title">([^<]+)<', body)
-        game = html.unescape(title_m.group(1).strip() if title_m else (_attr(attrs, "data-game") or "").title())
-        thumb = re.search(r'class="card-thumb"[^>]*src="([^"]+)"', body) \
-            or re.search(r'src="([^"]+)"[^>]*class="card-thumb"', body)
-        drops = _attr(attrs, "data-drops") or "?"
-        rimgs = re.findall(r'class="reward-thumb"[^>]*src="([^"]+)"', body)
-        rnames = [html.unescape(re.sub(r"\s+", " ", x).strip())
-                  for x in re.findall(r'class="reward-name">([^<]*)<', body)]
-        rewards = []
-        for k in range(max(len(rimgs), len(rnames))):
-            nm = rnames[k] if k < len(rnames) else "Recompensa"
-            im = rimgs[k] if k < len(rimgs) else None
-            if nm:
-                rewards.append({"name": nm, "image": im, "minutes": None})
-        # ID SINTETICO E ESTAVEL. Esta fonte nao publica o id da campanha, e o
-        # `None` fazia o drop chegar no site mas nunca virar live: o piloto
-        # recusa com "campanha sem id ou sem jogo", e o `processados` (que e
-        # indexado por id) nao tem como lembrar dele. Foi o que aconteceu com o
-        # MARVEL SNAP em 25/08/2026 — aparecia e nao servia pra nada.
-        # slug + dia de inicio: mesma campanha da sempre o mesmo id, e duas
-        # campanhas diferentes do mesmo jogo nao se confundem.
-        _slug = _attr(attrs, "data-slug") or re.sub(r"[^a-z0-9]+", "-", game.lower()).strip("-")
-        _id = "td-%s-%s" % (_slug, (start or "")[:10]) if _slug else None
-        out.append({
-            "id": _id,
-            "name": ("%s drop%s" % (drops, "" if drops == "1" else "s")),
-            "status": "UPCOMING" if (start or "") > agora else "ACTIVE",
-            "start_at": start, "end_at": endat,
-            "image": thumb.group(1) if thumb else None,
-            "details_url": "https://twitchdrops.app/game/" + (_attr(attrs, "data-slug") or ""),
-            # game_box fica VAZIO de proposito. Esta fonte so tem arte de
-            # CAMPANHA e de RECOMPENSA — nenhuma delas e a capa do jogo. Usar a
-            # miniatura do card aqui foi pior que nao ter nada: o Marvel Snap
-            # apareceu com a logo de um Draft e o Resonance com a silhueta de
-            # um touro (dono, 25/08/2026). Quem preenche a capa que falta e a
-            # Torre, pela Helix e pelo proxy — o caminho que ja tem credencial.
-            "game": game, "game_slug": _attr(attrs, "data-slug"),
-            "game_box": None,
-            "availability": "open",
-            "required_minutes": None,
-            "reward_type": classify(rewards), "rewards": rewards, "src": "twitchdrops",
-        })
-    return out
+        categorias_com_drop += 1
+        amostra = tw.amostra_de_canais(info["canais"], CANAIS_POR_CATEGORIA)
+        respondidos = 0                  # canais que REALMENTE responderam
+        daqui = []                       # campanhas vistas nesta categoria
+        for cid, login, _v in amostra:
+            try:
+                vistas = tw.campanhas_do_canal(cid)
+            except tw.ErroGQL as e:
+                erros.append("canal %s: %s" % (login, e))
+                continue
+            perguntas += 1
+            respondidos += 1
+            for c in vistas:
+                if not c.get("id"):
+                    continue
+                reg = campanhas.get(c["id"])
+                if reg is None:
+                    reg = _campanha_vazia(c, info["nome"], info["capa"], info["slug"])
+                    # Quantos canais existiam pra perguntar, e se a campanha e
+                    # do jogo DA CATEGORIA. Os dois so servem pro jogo pequeno
+                    # (`_tudo_que_dava_pra_ver`).
+                    reg["canais_na_categoria"] = len(info["canais"])
+                    reg["campanha_do_jogo"] = bool(info.get("id")) and (
+                        (c.get("game") or {}).get("id") == info["id"])
+                    campanhas[c["id"]] = reg
+                if c["id"] not in daqui:
+                    daqui.append(c["id"])
+                if login not in reg["canais_vistos"]:
+                    reg["canais_vistos"].append(login)
+        # Denominador honesto: quantos canais RESPONDERAM, nao quantos estavam
+        # na amostra. Canal que levou 429 nao perguntou nada, e categoria de
+        # jogo pequeno as vezes so tem UM streamer no ar — guardar o tamanho da
+        # amostra fazia "1 de 1 que respondeu" parecer "1 de 6".
+        for cid_camp in daqui:
+            campanhas[cid_camp]["canais_perguntados"] = max(
+                campanhas[cid_camp].get("canais_perguntados") or 0, respondidos)
+
+    return {"campanhas": list(campanhas.values()), "erros": erros,
+            "categorias_olhadas": len(candidatas),
+            "categorias_com_drop": categorias_com_drop,
+            "canais_perguntados": perguntas, "vigiadas": vigiadas}
 
 
-# ---------------- fonte 4: streamdatabase (badges chegando) ----------------
+def _tudo_que_dava_pra_ver(c):
+    """A campanha apareceu em poucos canais porque poucos canais existiam.
+
+    A Twitch so casa campanha com canal AO VIVO, entao categoria pequena as
+    vezes tem UM canal com drop ligado no mundo inteiro — e ai "2 canais" e uma
+    prova que ninguem consegue dar. Medido em 06/09: o drop do Blade & Soul NEO
+    (item, 120 min de watch) barrado porque a categoria tinha 1 canal no ar.
+
+    So passa com as DUAS travas juntas, senao volta a entrar lixo:
+      - a campanha e do jogo DA CATEGORIA (a Twitch responde o jogo dentro da
+        campanha). Campanha de canal chega com outro jogo — o "Ironmouse
+        Subathon 2026" vem como "Special Events" dentro de Kingdom Hearts — e
+        continua barrada.
+      - nao havia dois canais pra perguntar. Se havia e so um entregou, e
+        campanha de convidado (evento tipo ZEVENT) e continua barrada.
+    """
+    return (bool(c.get("campanha_do_jogo"))
+            and int(c.get("canais_na_categoria") or 0) <= 1
+            and int(c.get("canais_perguntados") or 0) <= 1
+            and len(c.get("canais_vistos") or []) >= 1)
+
+
+def peneirar(campanhas, fora):
+    """Separa o que vai pro site do que e descartado, e diz por que."""
+    abertas, de_canal, barradas, fora_da_lista = [], [], [], []
+    for c in campanhas:
+        if esta_fora(c["game"], fora):
+            fora_da_lista.append(c)
+            continue
+        if c["reward_type"] != "game":
+            # Badge/emote de canal: e a maioria esmagadora (84 de 97 numa
+            # medicao de 06/09) e nunca foi coisa que o piloto persegue.
+            de_canal.append(c)
+            continue
+        if len(c["canais_vistos"]) < MINIMO_CANAIS and not _tudo_que_dava_pra_ver(c):
+            # Item de jogo que so UM canal entrega, existindo outros pra
+            # perguntar: campanha de parceria com aquele streamer, nao vale pra
+            # quem abrir live agora.
+            barradas.append(c)
+            continue
+        abertas.append(c)
+    return abertas, de_canal, barradas, fora_da_lista
+
+
+# ---------------- badges chegando (unica coisa que a GQL nao sabe) ----------------
 
 def carrega_badges(agora):
-    html = fetch(STREAMDB, as_json=False)
-    m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', html, re.S)
+    """Badge de evento que ainda VAI existir (streamdatabase).
+
+    Nao vira drop nem live: o bot ignora esta chave de proposito. Fica porque e
+    a unica parte do site que fala do FUTURO — a Twitch so responde sobre o que
+    esta ativo num canal ao vivo neste minuto, entao nao ha como tirar dela.
+    """
+    pagina = fetch(STREAMDB, as_json=False)
+    m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', pagina, re.S)
     if not m:
         raise ValueError("layout do streamdatabase mudou")
     evs = (((json.loads(m.group(1)).get("props") or {}).get("pageProps") or {}).get("initialEvents")) or []
@@ -342,113 +513,130 @@ def carrega_badges(agora):
     return out
 
 
-# ---------------- principal ----------------
+# ---------------- feed pronto (alerta_drops.py e drops_tray.py) ----------------
 
-def write(result):
-    os.makedirs("data", exist_ok=True)
-    with open("data/drops.json", "w", encoding="utf-8") as f:
-        json.dump(result, f, ensure_ascii=False, indent=2)
-    print("ok=%s counts=%s warn=%s error=%s" % (
-        result["ok"], result.get("counts"), result.get("warn"), result.get("error")))
+FEED_URL = "https://xguestext.github.io/Drops/data/drops.json"
 
 
 def coletar(incluir_badges=True):
-    """Junta as fontes e devolve {camps, badges, fechadas, erros, source_updated}.
-    Usado pelo main() (site) e pelo alerta_drops.py (vigia local)."""
-    agora = now_utc().strftime("%Y-%m-%dT%H:%M:%S.999Z")
-    camps, fechadas_ids, erros = [], set(), []
-    badges, src_upd = [], None
+    """O que o site JA publicou, no formato que o alerta e a bandeja esperam.
 
-    # 1) sunkwi (ativos, com aberto/fechado)
-    try:
-        camps, fechadas_ids, src_upd = carrega_sunkwi()
-    except Exception as e:
-        erros.append("sunkwi: %s" % type(e).__name__)
+    Quem varre a Twitch canal a canal e o `varrer()`, e ele roda no GitHub
+    Actions: sao ~310 perguntas por rodada. Refazer isso no PC de casa a cada
+    5 minutos seria bater na Twitch pelo IP do dono — o alerta sempre existiu
+    justamente pra nao fazer isso. Entao aqui so se le o drops.json publicado:
+    o MESMO material do site e do piloto.
 
-    ids_ja = {c["id"] for c in camps if c.get("id")}
-    keys_ja = {fuzzy_key(c) for c in camps}
+    A assinatura e as chaves sao as de antes de propriedade: `alerta_drops.py` e
+    `drops_tray.py` (este sobe sozinho no boot do Windows) chamam
+    `coletar(incluir_badges=...)` e leem `camps`/`badges`. Quando esta funcao
+    virou a varredura, os dois passaram a morrer com TypeError — e o tray, que
+    engole excecao, ficaria mudo pra sempre sem ninguem perceber.
+    """
+    d = fetch(FEED_URL)
+    return {
+        "camps": d.get("campaigns") or [],
+        "badges": (d.get("badges") or []) if incluir_badges else [],
+        "fechadas": [],
+        "erros": [d["error"]] if d.get("error") else [],
+        "source_updated": d.get("source_updated") or d.get("updated_at"),
+    }
 
-    # 2) fenris (em breve + lacunas de ativo)
-    try:
-        for o in carrega_fenris():
-            c = normaliza_fenris(o)
-            if not c["id"] or c["id"] in ids_ja or c["id"] in fechadas_ids:
-                continue
-            if c["end_at"] and c["end_at"] < agora:
-                continue
-            c["status"] = "UPCOMING" if (c["start_at"] or "") > agora else "ACTIVE"
-            camps.append(c)
-            ids_ja.add(c["id"])
-            keys_ja.add(fuzzy_key(c))
-    except Exception as e:
-        erros.append("fenris: %s" % type(e).__name__)
 
-    # 3) twitchdrops.app (preenche o que 1 e 2 perdem)
-    try:
-        for c in carrega_twitchdrops(agora):
-            k = fuzzy_key(c)
-            if k in keys_ja:
-                continue
-            camps.append(c)
-            keys_ja.add(k)
-    except Exception as e:
-        erros.append("twitchdrops: %s" % type(e).__name__)
+# ---------------- principal ----------------
 
-    # 4) badges chegando
-    if incluir_badges:
-        try:
-            badges = carrega_badges(agora)
-        except Exception as e:
-            erros.append("streamdatabase(badges): %s" % type(e).__name__)
-
-    # 5) a lista da casa. Some aqui na origem, entao o jogo nao entra no
-    #    JSON e desaparece de uma vez do radar, do site e do alerta.
-    fora, n_fora = carrega_fora(), 0
-    if fora:
-        antes = len(camps) + len(badges)
-        camps = [c for c in camps if not esta_fora(c.get("game") or c.get("name"), fora)]
-        badges = [b for b in badges if not esta_fora(b.get("title"), fora)]
-        n_fora = antes - len(camps) - len(badges)
-
-    order_status = {"UPCOMING": 0, "ACTIVE": 1}
-    camps.sort(key=lambda c: (
-        order_status.get(c["status"], 2),
-        0 if c["reward_type"] == "game" else 1,
-        c.get("start_at") or "",
-    ))
-    return {"camps": camps, "badges": badges, "fechadas": fechadas_ids,
-            "erros": erros, "source_updated": src_upd, "fora": n_fora}
+def write(result):
+    destino = os.path.join(AQUI, "data")
+    os.makedirs(destino, exist_ok=True)
+    with open(os.path.join(destino, "drops.json"), "w", encoding="utf-8") as f:
+        json.dump(result, f, ensure_ascii=False, indent=1)
+    print("ok=%s campanhas=%d badges=%d" %
+          (result["ok"], len(result["campaigns"]), len(result["badges"])))
 
 
 def main():
+    agora = now_utc()
     result = {
-        "updated_at": now_iso(), "ok": False, "source": "sunkwi+fenris+twitchdrops+streamdatabase",
+        "updated_at": now_iso(), "ok": False, "source": "twitch-gql",
         "source_updated": None, "counts": {}, "campaigns": [], "badges": [],
         "error": None, "warn": None, "raw_hint": None,
     }
-    col = coletar()
-    camps, fechadas_ids, erros = col["camps"], col["fechadas"], col["erros"]
-    result["source_updated"] = col["source_updated"]
-    result["badges"] = col["badges"]
 
-    if camps:
+    col = varrer()
+    fora = carrega_fora()
+    # Antes de peneirar: soma os canais que ja se viu desta campanha em rodadas
+    # anteriores. Sem isso, drop de jogo pequeno (1 canal por vez) nunca junta
+    # os 2 canais que a peneira pede.
+    campanhas = juntar_canais(col["campanhas"], agora, result["updated_at"])
+    abertas, de_canal, barradas, fora_da_lista = peneirar(campanhas, fora)
+    vistas_agora = len(abertas)
+
+    # Rodada ruim NAO apaga a memoria. Se a Twitch nao respondeu, o que se sabia
+    # continua valendo pelo prazo dela — o contrario publicaria "nenhum drop no
+    # mundo" por causa de um tropeco de rede.
+    abertas, _memoria = lembrar(abertas, agora, result["updated_at"])
+    # A lista de fora pode ter mudado desde a rodada passada: peneira de novo,
+    # senao jogo recem-bloqueado voltaria pela memoria.
+    abertas = [c for c in abertas if not esta_fora(c.get("game"), fora)]
+
+    # UPCOMING no topo continuava sendo a ordem do site; sem fonte de campanha
+    # futura, a ordem passa a ser quem acaba primeiro (a urgencia real de quem
+    # quer farmar).
+    abertas.sort(key=lambda c: (c.get("end_at") or "9999", c.get("game") or ""))
+
+    try:
+        result["badges"] = carrega_badges(result["updated_at"])
+    except Exception as e:
+        col["erros"].append("badges (streamdatabase): %s" % e)
+
+    if abertas or col["canais_perguntados"]:
+        # Rodada valida: a Twitch respondeu. Zero campanha aberta e um resultado
+        # legitimo (ja aconteceu de nao haver drop bom no ar), desde que alguem
+        # tenha RESPONDIDO sobre campanha.
+        #
+        # O contador tem que ser esse e nao `categorias_com_drop`: aquele conta
+        # so a query CRUA (a lista de canais), e a campanha vem da persisted
+        # query, que pode morrer sozinha (hash rotacionado, integrity passando a
+        # ser exigido nela). Com o contador errado a rodada saia "ok" mesmo com
+        # as ~300 perguntas de campanha falhando — e `baixar_feed` (no bot) so
+        # olha o `ok`: passadas as 24h de memoria o feed viraria "nenhum drop no
+        # mundo", calado, pra sempre.
         result["ok"] = True
-        if erros:
-            result["warn"] = "Fonte parcial fora do ar: " + "; ".join(erros)
+        if col["erros"]:
+            result["warn"] = "Tropecos na varredura: " + "; ".join(col["erros"][:4])
     else:
-        result["error"] = "Nenhuma fonte de drops respondeu (%s)." % ("; ".join(erros) or "?")
+        result["error"] = (
+            "A Twitch nao respondeu sobre campanha nesta rodada (%d categorias "
+            "com canal no ar, nenhum canal respondeu): %s"
+            % (col["categorias_com_drop"], "; ".join(col["erros"][:3]) or "?"))
 
-    result["campaigns"] = camps
+    result["campaigns"] = abertas
+    result["source_updated"] = result["updated_at"]
     result["counts"] = {
-        "total": len(camps),
-        "upcoming": sum(1 for c in camps if c["status"] == "UPCOMING"),
-        "active": sum(1 for c in camps if c["status"] == "ACTIVE"),
-        "game_drops": sum(1 for c in camps if c["reward_type"] == "game"),
-        "platform": sum(1 for c in camps if c["reward_type"] == "platform"),
+        "total": len(abertas),
+        "upcoming": 0,
+        "active": len(abertas),
+        "game_drops": len(abertas),
+        "platform": 0,
         "badges": len(result["badges"]),
-        "fechadas_descartadas": len(fechadas_ids),
-        "fora_da_lista": col.get("fora", 0),
+        "fechadas_descartadas": len(de_canal) + len(barradas),
+        "fora_da_lista": len(fora_da_lista),
+        "categorias_olhadas": col["categorias_olhadas"],
+        "categorias_com_drop": col["categorias_com_drop"],
+        "canais_perguntados": col["canais_perguntados"],
+        "vistas_agora": vistas_agora,
+        "lembradas": len(abertas) - vistas_agora,
     }
+
+    # Memoria pro proximo ciclo: categoria que entregou drop aberto continua
+    # sendo vigiada mesmo quando cair do topo de audiencia.
+    vigiadas = col["vigiadas"]
+    hoje = now_iso()
+    for c in abertas:
+        if c.get("game"):
+            vigiadas[c["game"]] = hoje
+    salva_vigiadas(vigiadas)
+
     write(result)
 
 

@@ -3,7 +3,7 @@
 """
 Alerta local de drops da Twitch (roda no SEU pc, em loop).
 
-- Usa o MESMO motor de fontes do site (checker.coletar) -> so terceiros, NUNCA toca a Twitch.
+- Le o MESMO feed que o site publica (checker.coletar) -> nao varre a Twitch daqui.
 - Drop novo "EM BREVE" aberto a todos  -> toast no Windows + mensagem no Discord (webhook).
 - Drop vigiado COMECOU                  -> outro aviso (desligavel na config).
 - Lista de exclusao por jogo (ex.: Albion Online, Black Desert) na alerta_config.json.
@@ -227,6 +227,12 @@ def ciclo(cfg, st):
         # 1a rodada: nao spamma o que ja existe; so registra e confirma que ligou.
         for c in ups:
             vistos[chave(c)] = c.get("start_at") or ""
+        # Os ATIVOS de hoje tambem entram como ja avisados: desde 06/09 o feed
+        # vem da GQL da Twitch, que so sabe do que esta rolando AGORA — todo
+        # drop nasce ACTIVE, e sem este carimbo a primeira rodada dispararia um
+        # popup por campanha do mundo inteiro.
+        avisados |= {chave(c) for c in atv}
+        st["avisados_inicio"] = sorted(avisados)
         st["primeira_vez"] = False
         if cfg.get("toast", True):
             toast("Alerta de drops ligado",
@@ -257,6 +263,20 @@ def ciclo(cfg, st):
                 avisados.add(k)
                 st["avisados_inicio"] = sorted(avisados)
                 avisa_comecou(cfg, c)
+
+    # ATIVO NOVO = COMECOU. A lista de "em breve" e sempre vazia desde que a
+    # fonte virou a GQL da Twitch (ela nao conta campanha futura), entao sem
+    # este bloco o alerta nunca mais falaria: o de cima so avisa quem ele viu
+    # como upcoming antes.
+    if cfg.get("avisar_quando_comecar", True):
+        for c in atv:
+            k = chave(c)
+            if k in avisados:
+                continue
+            avisados.add(k)
+            vistos.setdefault(k, c.get("start_at") or "")
+            st["avisados_inicio"] = sorted(avisados)
+            avisa_comecou(cfg, c)
 
     # limpeza: vistos que nao existem mais em nenhuma lista ha muito tempo
     existentes = {chave(c) for c in camps}

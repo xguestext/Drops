@@ -14,6 +14,7 @@ on:
     paths:
       - "jogos-fora.txt"       # mexeu na lista de jogos, limpa o radar na hora
       - "checker.py"           # mexeu no coletor, recolhe tudo de novo
+      - "twitch_gql.py"        # o cliente da GQL da Twitch e parte do coletor
       - ".github/workflows/update-drops.yml"
   workflow_dispatch: {}       # botão "Run workflow" pra rodar na hora
 
@@ -27,6 +28,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
 
@@ -41,6 +43,14 @@ jobs:
         run: |
           git config user.name "drops-bot"
           git config user.email "drops-bot@users.noreply.github.com"
-          git add data/drops.json
+          # data/ inteiro: alem do drops.json, o radar agora guarda a memoria
+          # dele — categorias_vigiadas.json (onde procurar drop, ja que a Twitch
+          # nao deixa paginar a lista de categorias) e campanhas_conhecidas.json
+          # (campanha ja confirmada, que vale 24h mesmo sem ninguem ao vivo).
+          # Sem commitar isso, toda rodada comecaria do zero.
+          git add data/
           git diff --staged --quiet || git commit -m "drops $(date -u +%FT%TZ)"
+          # Outra rodada pode ter commitado no meio do caminho: rebase e tenta
+          # de novo em vez de perder a coleta desta.
+          git pull --rebase --autostash || true
           git push

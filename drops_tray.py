@@ -504,7 +504,8 @@ def abrir_painel():
     """Abre o painel local (e marca tudo como visto -> badge da bolinha zera)."""
     import time
     b = WIDGET.get("bolinha")
-    chaves = {al.chave(c) for c in CACHE["ups"]} | {chave_badge(x) for x in CACHE["badges"]}
+    chaves = ({al.chave(c) for c in CACHE["ups"]} | {al.chave(c) for c in CACHE["atv"]}
+              | {chave_badge(x) for x in CACHE["badges"]})
     VISTO["panel"] |= chaves
     if b and b.winfo_exists():
         b.desenha(0)
@@ -687,6 +688,12 @@ def vigia(q, parar, forca):
             if st.get("primeira_vez"):
                 for c in ups:
                     vistos[al.chave(c)] = c.get("start_at") or ""
+                # Os ATIVOS de agora tambem entram como ja avisados: desde
+                # 06/09 a fonte e a GQL da Twitch, que so sabe do que esta
+                # rolando — todo drop nasce ACTIVE. Sem isto a primeira rodada
+                # cuspiria um popup por campanha do mundo.
+                avisados |= {al.chave(c) for c in atv}
+                st["avisados_inicio"] = sorted(avisados)
                 st["primeira_vez"] = False
 
             for c in ups:
@@ -714,6 +721,24 @@ def vigia(q, parar, forca):
                                       al.resumo_recompensas(c)), al.VERDE,
                                    c.get("image") or c.get("game_box"))
 
+            # ATIVO NOVO = COMECOU. Sem "em breve" no feed (a Twitch nao conta
+            # campanha futura), o bloco de cima nunca dispara: ele so avisa quem
+            # ja tinha sido visto como upcoming. Este aqui e o que sobrou.
+            if cfg.get("avisar_quando_comecar", True):
+                for c in atv:
+                    k = al.chave(c)
+                    if k in avisados:
+                        continue
+                    avisados.add(k)
+                    vistos.setdefault(k, c.get("start_at") or "")
+                    st["avisados_inicio"] = sorted(avisados)
+                    q.put(("popup", monta_drop(c, comecou=True)))
+                    al.discord(cfg, "🟢 %s — começou!" % (c.get("game") or "?"),
+                               "**%s**\nJá dá pra farmar · termina %s\n%s"
+                               % (c.get("name") or "", al.hora_local(c.get("end_at")),
+                                  al.resumo_recompensas(c)), al.VERDE,
+                               c.get("image") or c.get("game_box"))
+
             vb = st["vistos_badges"]
             for b in badges:
                 k = chave_badge(b)
@@ -729,7 +754,10 @@ def vigia(q, parar, forca):
             primeira_badge = False
 
             # badge da bolinha: o que existe agora e o user ainda nao viu no painel
-            chaves_atual = {al.chave(c) for c in ups} | {chave_badge(b) for b in badges}
+            # Os ativos entram na conta: com o feed so de ACTIVE, contar apenas
+            # `ups` deixava a bolinha zerada pra sempre.
+            chaves_atual = ({al.chave(c) for c in ups} | {al.chave(c) for c in atv}
+                            | {chave_badge(b) for b in badges})
             VISTO["panel"] &= chaves_atual                      # esquece o que ja saiu do ar
             n_novos = len(chaves_atual - VISTO["panel"])
             st["panel_vistos"] = sorted(VISTO["panel"])
@@ -771,7 +799,7 @@ def icone_bandeja():
 
 def exemplo_para_teste(q):
     try:
-        if not CACHE["ups"] and not CACHE["badges"]:
+        if not CACHE["ups"] and not CACHE["atv"] and not CACHE["badges"]:
             cfg = al.carrega_config()
             col = checker.coletar(incluir_badges=True)
             camps = [c for c in col["camps"] if al.relevante(c, cfg)]
@@ -780,8 +808,9 @@ def exemplo_para_teste(q):
                          badges=[b for b in col["badges"] if not al.bloqueado(b.get("title"), cfg)],
                          quando=datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"))
             escreve_dados_painel()
-        if CACHE["ups"]:
-            q.put(("popup", monta_drop(CACHE["ups"][0])))
+        exemplo = CACHE["ups"] or CACHE["atv"]
+        if exemplo:
+            q.put(("popup", monta_drop(exemplo[0], comecou=not CACHE["ups"])))
         if CACHE["badges"]:
             q.put(("popup", monta_badge(CACHE["badges"][0])))
     except Exception:
