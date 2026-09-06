@@ -182,29 +182,46 @@ def discord(cfg, titulo, descricao, cor, imagem=None):
 AZUL, VERDE, ROXO = 0x3EA6FF, 0x2EC16A, 0x9147FF
 
 
+def o_que_e(c):
+    """"Drop" (item de jogo) ou "Badge" (fotinha do chat) — o dono quer saber qual e."""
+    return "Drop" if c.get("reward_type") == "game" else "Badge"
+
+
+def como_ganhar(c):
+    """A frase de resgate que o radar manda ("assistir 15 min", "dar 2 subs")."""
+    r = (c.get("resgate") or "").strip()
+    if r:
+        return r
+    m = int(c.get("required_minutes") or 0)
+    return ("assistir %d min" % m) if m else ""
+
+
 def avisa_novo(cfg, c):
     quando = hora_local(c.get("start_at"))
     rec = resumo_recompensas(c)
+    tipo, como = o_que_e(c), como_ganhar(c)
     if cfg.get("toast", True):
-        toast("Drop chegando: %s" % (c.get("game") or "?"),
-              "Comeca %s - %s" % (quando, rec))
-    discord(cfg, "🔜 %s" % (c.get("game") or "?"),
-            "**%s**\nComeça **%s** · aberto a todos os canais\n%s"
-            % (c.get("name") or "", quando, rec),
+        toast("%s chegando: %s" % (tipo, c.get("game") or "?"),
+              "Comeca %s - %s%s" % (quando, rec, (" - " + como) if como else ""))
+    discord(cfg, "🔜 %s · %s" % (c.get("game") or "?", tipo.upper()),
+            "**%s**\nComeça **%s** · aberto a todos os canais%s\n%s"
+            % (c.get("name") or "", quando, (" · %s" % como) if como else "", rec),
             AZUL, c.get("image") or c.get("game_box"))
-    log("AVISO novo em-breve: %s (%s)" % (c.get("game"), quando))
+    log("AVISO novo em-breve: %s (%s) %s" % (c.get("game"), quando, tipo))
 
 
 def avisa_comecou(cfg, c):
     rec = resumo_recompensas(c)
+    tipo, como = o_que_e(c), como_ganhar(c)
     if cfg.get("toast", True):
-        toast("Drop COMECOU: %s" % (c.get("game") or "?"),
-              "Ja da pra farmar - %s" % rec)
-    discord(cfg, "🟢 %s — começou!" % (c.get("game") or "?"),
-            "**%s**\nJá dá pra farmar · termina %s\n%s"
-            % (c.get("name") or "", hora_local(c.get("end_at")), rec),
+        toast("%s COMECOU: %s" % (tipo.upper(), c.get("game") or "?"),
+              "%s - %s" % ((como or "ja da pra farmar"), rec))
+    discord(cfg, "🟢 %s — %s começou!" % (c.get("game") or "?", tipo.lower()),
+            "**%s**\n%s · termina %s\n%s"
+            % (c.get("name") or "", (como or "Já dá pra farmar").capitalize(),
+               hora_local(c.get("end_at")), rec),
             VERDE, c.get("image") or c.get("game_box"))
-    log("AVISO comecou: %s" % c.get("game"))
+    log("AVISO comecou: %s (%s)" % (c.get("game"), tipo))
 
 
 # ---------------- ciclo ----------------

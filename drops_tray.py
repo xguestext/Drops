@@ -338,7 +338,8 @@ def renderiza_card(dado):
                 base.paste(th, (int(xi), int(y + 5 * S)), th)
             else:
                 d.ellipse([xi + 8 * S, y + 14 * S, xi + 14 * S, y + 20 * S], fill=ROXO)
-            min_txt = ("%d min" % min_r) if min_r else ""
+            # min_r pode vir como texto ("1 sub") quando a recompensa e por sub.
+            min_txt = (min_r if isinstance(min_r, str) else ("%d min" % min_r)) if min_r else ""
             wmin = d.textlength(min_txt, font=f_min) if min_txt else 0
             d.text((xi + 32 * S, y + 9 * S),
                    _corta(d, nome_r or "", f_rw, W - pad - xi - 40 * S - wmin - 12 * S),
@@ -434,8 +435,9 @@ class Notificacao(tk.Toplevel):
 
 def monta_drop(c, comecou=False):
     box = baixa_imagem(c.get("game_box") or c.get("image"))
+    # Drop e coisa do jogo; badge e a fotinha do chat da Twitch (dono, 06/09/2026).
     pill_tipo = ("Item de jogo", ROXO_LT, PILL_ROXO) if c.get("reward_type") == "game" \
-        else ("Badge / plataforma", FAINT, PILL_CINZA)
+        else ("BADGE da Twitch", AMBAR, PILL_AMBAR if "PILL_AMBAR" in globals() else PILL_CINZA)
     if comecou:
         pills = [("Ativo", VERDE, PILL_VERDE), pill_tipo]
         tempo = [("termina em ", DIM, False), (rel_curto(c.get("end_at")), TXT, True),
@@ -448,10 +450,17 @@ def monta_drop(c, comecou=False):
         if c.get("end_at"):
             tempo.append((" → até %s" % data_curta(c.get("end_at")), DIM, False))
         cor = AZUL
-    rewards = [(r.get("name"), r.get("minutes"), baixa_imagem(r.get("image")))
+    # Recompensa que so sai por sub nao tem minutos: mostra "N sub(s)" no lugar.
+    rewards = [(r.get("name"),
+                (r.get("minutes") or ("%d sub%s" % (int(r.get("subs") or 0), "" if int(r.get("subs") or 0) == 1 else "s")
+                                      if int(r.get("subs") or 0) > 0 else 0)),
+                baixa_imagem(r.get("image")))
                for r in (c.get("rewards") or [])[:3]]
     head = "RECOMPENSAS"
-    if c.get("required_minutes"):
+    # Como se ganha, do jeito que o radar manda: "assistir 15 min", "dar 2 subs".
+    if c.get("resgate"):
+        head += " · %s" % str(c["resgate"]).upper()
+    elif c.get("required_minutes"):
         head += " · ATÉ %d MIN ASSISTINDO" % c["required_minutes"]
     return dict(cor=cor, eyebrow=c.get("game"), cor_eyebrow=ROXO_LT,
                 titulo=c.get("name") or c.get("game"), pills=pills, tempo=tempo,
