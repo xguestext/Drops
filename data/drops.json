@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-09-06T05:52:01Z",
+  "updated_at": "2026-09-06T06:44:42Z",
   "ok": true,
   "source": "sunkwi+fenris+twitchdrops+streamdatabase",
-  "source_updated": "2026-09-06T05:52:01.421Z",
+  "source_updated": "2026-09-06T06:44:01.459Z",
   "counts": {
-    "total": 41,
+    "total": 40,
     "upcoming": 0,
-    "active": 41,
-    "game_drops": 39,
+    "active": 40,
+    "game_drops": 38,
     "platform": 2,
     "badges": 6,
     "fechadas_descartadas": 46,
-    "fora_da_lista": 39
+    "fora_da_lista": 41
   },
   "campaigns": [
     {
@@ -1304,29 +1304,6 @@
           "name": "Blade of the Champion Pet",
           "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/71f7fa8c-7fb3-48b7-a895-50a2e336c196.png",
           "minutes": 120
-        }
-      ],
-      "src": "sunkwi"
-    },
-    {
-      "id": "9b86cdad-631c-4fc9-bff8-ce1c13e75444",
-      "name": "Spore",
-      "status": "ACTIVE",
-      "start_at": "2026-09-06T01:31:24Z",
-      "end_at": "2026-09-12T23:29:59.999Z",
-      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/787e71f9-14c5-4ea7-87f2-0fab979b411b.png",
-      "details_url": "https://kirka.io/connectTwitch=1",
-      "game": "Kirka.io",
-      "game_slug": "kirka-io",
-      "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/356609813_IGDB-120x160.jpg",
-      "availability": "open",
-      "required_minutes": 900,
-      "reward_type": "game",
-      "rewards": [
-        {
-          "name": "Spore",
-          "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ec6f8bf7-25cc-4e40-b993-6ccc77d9aecc.png",
-          "minutes": 900
         }
       ],
       "src": "sunkwi"
