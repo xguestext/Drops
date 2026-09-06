@@ -23,10 +23,18 @@ COMO A LISTA E MONTADA
   3. De uma amostra desses canais (grandes E pequenos), o que a Twitch responde
      que o espectador ganha ali. Isso e a campanha, com nome, prazo, minutos de
      watch e premios de verdade.
-  4. Sobra a peneira: premio de item de jogo (a Twitch serve a imagem de
-     /twitch-quests-assets/REWARD/) e visto em 2+ canais diferentes. Badge de
-     canal (aniversario, subathon: imagem de /badges/) fica de fora, que e a
-     mesma regra de sempre — "so o que qualquer streamer consegue".
+  4. Sobra a peneira, toda por campo da PROPRIA campanha (nada de amostragem):
+     `allow`            aberta a todos x lista de canais convidados. Em 06/09 o
+                        ALGS do Apex (161 convidados) e o ZEVENT (338) passaram
+                        na peneira antiga por aparecerem em varios canais — a
+                        lista de permitidos e o que prova, nao a contagem.
+     `distributionType` item de jogo (DIRECT_ENTITLEMENT) x badge da Twitch
+                        (BADGE). Badge e a fotinha do chat; drop e coisa do
+                        jogo. Onimusha Armament, Sorcerer Rogier e Dawnwalker
+                        Launch sao BADGE servidas da mesma pasta de imagem dos
+                        itens — por isso a imagem nao decide mais.
+     `requiredSubs`     drop de sub ("Split 3 - Sub Drop", "ANNIVERSARY PREVIEW
+                        SUB") nao se ganha assistindo: fica de fora.
 
 A UNICA COISA QUE NAO VEM DA TWITCH e a aba "Badges chegando" (streamdatabase),
 que anuncia badge de evento que AINDA VAI existir. A GQL so sabe do que esta
@@ -36,7 +44,9 @@ gerou live: o bot ignora a chave `badges` de proposito.
 Regras (pedido do dono):
   - So ABERTO a qualquer streamer. Campanha de canal especifico descartada.
   - jogos-fora.txt manda: jogo listado nao aparece.
-  - reward_type: "game" (item de jogo) vs "platform" (badge/emote).
+  - reward_type: "game" (item de jogo) vs "platform" (badge/emote). Badge da
+    Twitch ABERTA a todos ate entra no feed, marcada "platform": o site separa
+    pelo selo e o bot ignora (campanha_serve exige "game").
 """
 import json
 import os
@@ -56,7 +66,6 @@ FORA_ARQ = os.path.join(AQUI, "jogos-fora.txt")
 FORA_URL = "https://raw.githubusercontent.com/xguestext/Drops/main/jogos-fora.txt"
 VIGIADAS_ARQ = os.path.join(AQUI, "data", "categorias_vigiadas.json")
 CONHECIDAS_ARQ = os.path.join(AQUI, "data", "campanhas_conhecidas.json")
-CANAIS_ARQ = os.path.join(AQUI, "data", "canais_por_campanha.json")
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) drops-radar/3.0"}
 
 # Quantas categorias no maximo se olha por rodada. Cada uma custa 1 chamada, e
@@ -66,15 +75,9 @@ MAX_CATEGORIAS = 140
 # Quantos canais se pergunta por categoria. 6 ja separa campanha aberta (aparece
 # em todos) de campanha de um canal so, sem multiplicar o custo.
 CANAIS_POR_CATEGORIA = 6
-# Campanha vista em menos canais que isto nao e "aberta a qualquer streamer".
-MINIMO_CANAIS = 2
-# A PROVA DA ABERTURA: quantos canais COMUNS (afiliados sem a tag de drops) se
-# pergunta, e quantos precisam ter respondido pra valer uma condenacao.
-# Medido em 06/09: o "Split 3 - Sub Drop" do LoL nao aparecia em 8 canais comuns
-# (e drop de SUB dos canais oficiais) e o "NBA 2K27 Season 1" em nenhum dos 6
-# afiliados — os dois estavam no feed como se qualquer um pudesse fazer.
-CANAIS_PROVA = 6
-MINIMO_PROVA = 3
+# Nao ha mais "minimo de canais" nem prova por amostragem: aberta ou fechada e
+# o `allow` da propria campanha (ver twitch_gql.aberta_a_todos). Uma campanha
+# aberta vista num canal so ja vale — e e justamente o drop sem concorrencia.
 # Categoria que ficou este tanto de dias sem nenhum drop sai da lista de vigiadas.
 DIAS_VIGIANDO = 45
 # Por quanto tempo uma campanha ja confirmada continua no feed sem ser vista de
@@ -172,68 +175,6 @@ def salva_vigiadas(vigiadas):
     return limpa
 
 
-def provar_abertura(campanhas, por_cat, memoria):
-    """Um canal COMUM da categoria tambem ganha? Devolve (aprovadas, reprovadas).
-
-    A peneira de cima ja separa item de jogo de badge de canal, mas ela nao
-    distingue "drop do jogo" de "drop do EVENTO": a campanha do ZEVENT, o sub
-    drop do LoL e o pacote da NBA 2K27 aparecem em varios canais — so que em
-    canais CONVIDADOS. Como o piloto so sobe live em canal dele, campanha assim
-    e live paga sem premio nenhum.
-
-    A pergunta que resolve: um afiliado qualquer da categoria, que nem marcou a
-    tag de drops, ganha isso? Se ganha, qualquer um ganha. Testado em 06/09:
-    "Conquest Mode Drops" 4 de 4 afiliados ganham; "NBA 2K27 Season 1", 0 de 6.
-
-    Falha ABERTO de proposito: so reprova com pelo menos MINIMO_PROVA canais
-    respondendo. Categoria sem afiliado comum no ar (ou so com parceiro) fica
-    como estava — barrar drop de verdade custa mais caro que uma live a toa, e o
-    piloto ainda tem a conferencia dele antes de gastar operario.
-    """
-    aprovadas, reprovadas = [], []
-    for c in campanhas:
-        lembrado = (memoria.get(c["id"]) or {}).get("prova")
-        if lembrado in ("aberta", "so convidados"):
-            c["prova"] = lembrado
-            (aprovadas if lembrado == "aberta" else reprovadas).append(c)
-            continue
-        info = por_cat.get(c["game"])
-        try:
-            lista = tw.canais_comuns(info["nome"] if info else c["game"])
-        except tw.ErroGQL:
-            c["prova"] = "nao deu pra conferir"
-            aprovadas.append(c)
-            continue
-        # O gemeo das contas do dono: afiliado, nao parceiro, sem a tag de drops.
-        iguais = [x for x in lista if x["afiliado"] and not x["parceiro"] and not x["marcado"]]
-        if len(iguais) < MINIMO_PROVA:
-            # Categoria de gente grande (LoL, e-sport) as vezes nao tem afiliado
-            # comum no ar. Ai vale qualquer canal sem a tag: se NEM o parceiro
-            # ganha, ninguem de fora ganha.
-            iguais += [x for x in lista
-                       if not x["marcado"] and x not in iguais]
-        ganham = perguntados = 0
-        for x in iguais[:CANAIS_PROVA]:
-            try:
-                vistas = tw.campanhas_do_canal(x["id"])
-            except tw.ErroGQL:
-                continue
-            perguntados += 1
-            if any(v.get("id") == c["id"] for v in vistas):
-                ganham += 1
-                break                      # um basta: ja provou que e aberta
-        if ganham:
-            c["prova"] = "aberta"
-            aprovadas.append(c)
-        elif perguntados >= MINIMO_PROVA:
-            c["prova"] = "so convidados"
-            reprovadas.append(c)
-        else:
-            c["prova"] = "nao deu pra conferir"
-            aprovadas.append(c)
-    return aprovadas, reprovadas
-
-
 # ---------------- memoria das campanhas ja confirmadas ----------------
 
 def carrega_conhecidas():
@@ -265,11 +206,26 @@ def _ja_acabou(reg, agora_iso):
     return bool(fim) and fim <= agora_iso
 
 
+def _ainda_serve(reg):
+    """Entrada da memoria que passaria na peneira de hoje.
+
+    A memoria guarda a campanha inteira, e a peneira mudou em 06/09: o que foi
+    gravado como "aberta" pela regra antiga (Apex ALGS, ZEVENT, badges com
+    imagem de item) voltaria pro feed por 24h se nao fosse reconferido aqui.
+    Entrada sem `tipo_premio` e do formato antigo e cai fora de uma vez.
+    """
+    return (isinstance(reg, dict) and "tipo_premio" in reg
+            and reg.get("reward_type") == "game"
+            and reg.get("availability") == "open"
+            and not reg.get("requer_sub"))
+
+
 def lembrar(abertas, agora, agora_iso):
     """Junta o que se viu AGORA com o que ainda vale da rodada passada.
 
-    Devolve (lista pro feed, memoria nova). Campanha vista agora manda: ela
-    entra com os dados frescos e reinicia o relogio da lembranca.
+    Devolve (lista pro feed, memoria). Campanha vista agora manda: ela entra
+    com os dados frescos e reinicia o relogio da lembranca. Quem grava a
+    memoria e `guardar_conhecidas`, depois — e so drop de jogo entra nela.
     """
     conhecidas = carrega_conhecidas()
     vistas_agora = set()
@@ -281,7 +237,8 @@ def lembrar(abertas, agora, agora_iso):
 
     lembradas = []
     for cid, reg in list(conhecidas.items()):
-        if _ja_acabou(reg, agora_iso) or _velha_demais(reg, agora):
+        if (_ja_acabou(reg, agora_iso) or _velha_demais(reg, agora)
+                or not _ainda_serve(reg)):
             conhecidas.pop(cid, None)
             continue
         if cid in vistas_agora:
@@ -289,7 +246,6 @@ def lembrar(abertas, agora, agora_iso):
         copia = dict(reg)
         copia["vista_agora"] = False
         lembradas.append(copia)
-
     return abertas + lembradas, conhecidas
 
 
@@ -306,60 +262,6 @@ def guardar_conhecidas(campanhas, memoria, agora_iso):
     with open(CONHECIDAS_ARQ, "w", encoding="utf-8") as f:
         json.dump({"updated_at": agora_iso, "campanhas": memoria}, f,
                   ensure_ascii=False, indent=1, sort_keys=True)
-
-
-def juntar_canais(campanhas, agora, agora_iso):
-    """Soma os canais desta rodada aos que ja se viu da MESMA campanha antes.
-
-    MINIMO_CANAIS pede 2 canais distintos, e ate aqui os dois tinham que estar
-    ao vivo NO MESMO MINUTO. Jogo pequeno quase nunca tem dois ao mesmo tempo,
-    e campanha barrada nao deixava rastro nenhum: cada rodada recomecava do
-    zero. Medido em 06/09: "B&S NEO Reignited Drops" (Blade & Soul NEO, item de
-    jogo, 120 min de watch, prazo da propria Twitch) teve 1 canal as 08:19 e 1
-    canal as 08:34 — e nunca entrou no feed. Era justo o caso que mais interessa
-    pro dono: drop de verdade sem concorrencia.
-
-    A prova nao fica mais fraca por ser somada com o tempo: e o mesmo id de
-    campanha respondido por dois canais DIFERENTES, que e exatamente o que
-    MINIMO_CANAIS mede. Campanha de canal (subathon, aniversario) segue barrada
-    pra sempre — ela so existe naquele canal, por mais rodadas que passem.
-
-    Vale a mesma regua do resto da memoria: some quando a campanha acaba (pelo
-    end_at da propria Twitch) ou quando fica HORAS_LEMBRANDO sem ser vista.
-    """
-    try:
-        with open(CANAIS_ARQ, encoding="utf-8") as f:
-            antes = dict((json.load(f).get("campanhas") or {}))
-    except Exception:
-        antes = {}
-
-    novo = {}
-    for c in campanhas:
-        reg = antes.get(c["id"]) or {}
-        if reg and not (_ja_acabou(reg, agora_iso) or _velha_demais(reg, agora)):
-            for login in reg.get("canais_vistos") or []:
-                if login not in c["canais_vistos"]:
-                    c["canais_vistos"].append(login)
-        # So campanha de item precisa disto: badge e barrada pelo tipo do
-        # premio, nao pela contagem de canais.
-        if c.get("reward_type") == "game":
-            novo[c["id"]] = {"canais_vistos": list(c["canais_vistos"]),
-                             "end_at": c.get("end_at"), "visto_em": agora_iso}
-
-    # Quem nao apareceu nesta rodada fica guardado ate vencer: o unico canal
-    # daquele jogo pode estar offline agora e voltar na proxima.
-    for cid, reg in antes.items():
-        if cid in novo:
-            continue
-        if _ja_acabou(reg, agora_iso) or _velha_demais(reg, agora):
-            continue
-        novo[cid] = reg
-
-    os.makedirs(os.path.dirname(CANAIS_ARQ), exist_ok=True)
-    with open(CANAIS_ARQ, "w", encoding="utf-8") as f:
-        json.dump({"updated_at": agora_iso, "campanhas": novo}, f,
-                  ensure_ascii=False, indent=1, sort_keys=True)
-    return campanhas
 
 
 # ---------------- fonte unica: a GQL da Twitch ----------------
@@ -403,6 +305,9 @@ def _jogo_da_campanha(c, categoria, capa, slug):
 def _campanha_vazia(c, categoria, capa, slug):
     inicio, fim = _janela(c)
     categoria, capa, slug = _jogo_da_campanha(c, categoria, capa, slug)
+    aberta = tw.aberta_a_todos(c)
+    tipo = tw.tipo_da_campanha(c)
+    permitidos = tw.canais_permitidos(c)
     return {
         "id": c.get("id"),
         "name": (c.get("name") or "").strip(),
@@ -410,19 +315,26 @@ def _campanha_vazia(c, categoria, capa, slug):
         "start_at": inicio,
         "end_at": fim,
         "image": c.get("imageURL") or "",
-        "details_url": c.get("detailsURL") or "",
+        "details_url": c.get("detailsURL") or c.get("accountLinkURL") or "",
         "game": categoria,
         "game_slug": slug or _chave_jogo(categoria),
         "game_box": capa or None,
-        "availability": "open",
-        "channels": [],
+        # "open" SO quando a Twitch diz que nao ha lista de convidados. Sem o
+        # campo (`unknown`) nao se publica como aberta: o dono prefere perder um
+        # drop a subir live num fechado e gastar credito a toa.
+        "availability": "open" if aberta else ("unknown" if aberta is None else "closed"),
+        "channels": permitidos[:12],
+        "canais_permitidos": len(permitidos),
         "required_minutes": tw.minutos_de(c),
-        "reward_type": "game" if tw.tipo_da_campanha(c) == "game" else "platform",
-        "rewards": [{"name": n, "image": u, "minutes": m}
-                    for n, u, m in tw._premios(c)],
+        "requer_sub": tw.exige_sub(c),
+        "reward_type": "game" if tipo == "game" else "platform",
+        "tipo_premio": tipo,
+        "rewards": [{"name": n, "image": u, "minutes": m, "type": t, "subs": sb}
+                    for n, u, m, t, sb in tw._premios(c)],
+        "dono": ((c.get("owner") or {}).get("name") or ""),
+        "descricao": (c.get("description") or "").strip()[:200],
         "src": "twitch-gql",
-        # Rastro de como se soube disso. Se um dia o dono desconfiar de uma
-        # campanha, esta e a lista de canais em que ela foi vista ao vivo.
+        # Rastro de como se soube disso: em que canais ao vivo ela foi vista.
         "canais_vistos": [],
         "canais_perguntados": 0,
     }
@@ -484,12 +396,7 @@ def varrer():
                 reg = campanhas.get(c["id"])
                 if reg is None:
                     reg = _campanha_vazia(c, info["nome"], info["capa"], info["slug"])
-                    # Quantos canais existiam pra perguntar, e se a campanha e
-                    # do jogo DA CATEGORIA. Os dois so servem pro jogo pequeno
-                    # (`_tudo_que_dava_pra_ver`).
                     reg["canais_na_categoria"] = len(info["canais"])
-                    reg["campanha_do_jogo"] = bool(info.get("id")) and (
-                        (c.get("game") or {}).get("id") == info["id"])
                     campanhas[c["id"]] = reg
                 if c["id"] not in daqui:
                     daqui.append(c["id"])
@@ -510,48 +417,33 @@ def varrer():
             "canais_perguntados": perguntas, "vigiadas": vigiadas}
 
 
-def _tudo_que_dava_pra_ver(c):
-    """A campanha apareceu em poucos canais porque poucos canais existiam.
-
-    A Twitch so casa campanha com canal AO VIVO, entao categoria pequena as
-    vezes tem UM canal com drop ligado no mundo inteiro — e ai "2 canais" e uma
-    prova que ninguem consegue dar. Medido em 06/09: o drop do Blade & Soul NEO
-    (item, 120 min de watch) barrado porque a categoria tinha 1 canal no ar.
-
-    So passa com as DUAS travas juntas, senao volta a entrar lixo:
-      - a campanha e do jogo DA CATEGORIA (a Twitch responde o jogo dentro da
-        campanha). Campanha de canal chega com outro jogo — o "Ironmouse
-        Subathon 2026" vem como "Special Events" dentro de Kingdom Hearts — e
-        continua barrada.
-      - nao havia dois canais pra perguntar. Se havia e so um entregou, e
-        campanha de convidado (evento tipo ZEVENT) e continua barrada.
-    """
-    return (bool(c.get("campanha_do_jogo"))
-            and int(c.get("canais_na_categoria") or 0) <= 1
-            and int(c.get("canais_perguntados") or 0) <= 1
-            and len(c.get("canais_vistos") or []) >= 1)
-
-
 def peneirar(campanhas, fora):
-    """Separa o que vai pro site do que e descartado, e diz por que."""
-    abertas, de_canal, barradas, fora_da_lista = [], [], [], []
+    """Separa o que vai pro site do que e descartado — e diz por que.
+
+    Tudo por campo da propria campanha (ver twitch_gql): a Twitch diz quem pode
+    (`allow`), o que e o premio (`distributionType`) e se precisa de sub.
+    """
+    b = {"abertas": [], "badges_abertas": [], "fechadas": [], "so_sub": [],
+         "de_canal": [], "sem_info": [], "fora_da_lista": []}
     for c in campanhas:
-        if esta_fora(c["game"], fora):
-            fora_da_lista.append(c)
-            continue
-        if c["reward_type"] != "game":
-            # Badge/emote de canal: e a maioria esmagadora (84 de 97 numa
-            # medicao de 06/09) e nunca foi coisa que o piloto persegue.
-            de_canal.append(c)
-            continue
-        if len(c["canais_vistos"]) < MINIMO_CANAIS and not _tudo_que_dava_pra_ver(c):
-            # Item de jogo que so UM canal entrega, existindo outros pra
-            # perguntar: campanha de parceria com aquele streamer, nao vale pra
-            # quem abrir live agora.
-            barradas.append(c)
-            continue
-        abertas.append(c)
-    return abertas, de_canal, barradas, fora_da_lista
+        if esta_fora(c.get("game"), fora):
+            b["fora_da_lista"].append(c)
+        elif c.get("availability") == "unknown":
+            # Sem `allow` na resposta nao da pra provar que e aberta.
+            b["sem_info"].append(c)
+        elif c.get("availability") != "open":
+            # Lista de convidados. Badge de canal (subathon, aniversario) e
+            # exatamente isso com um canal so; drop de evento (Apex ALGS,
+            # ZEVENT) idem, com centenas. Nenhum dos dois o piloto consegue.
+            (b["de_canal"] if c.get("reward_type") != "game" else b["fechadas"]).append(c)
+        elif c.get("reward_type") != "game":
+            # Badge da Twitch aberta a todos: informa no site, nao vale live.
+            b["badges_abertas"].append(c)
+        elif c.get("requer_sub"):
+            b["so_sub"].append(c)
+        else:
+            b["abertas"].append(c)
+    return b
 
 
 # ---------------- badges chegando (unica coisa que a GQL nao sabe) ----------------
@@ -647,34 +539,24 @@ def main():
 
     col = varrer()
     fora = carrega_fora()
-    # Antes de peneirar: soma os canais que ja se viu desta campanha em rodadas
-    # anteriores. Sem isso, drop de jogo pequeno (1 canal por vez) nunca junta
-    # os 2 canais que a peneira pede.
-    campanhas = juntar_canais(col["campanhas"], agora, result["updated_at"])
-    abertas, de_canal, barradas, fora_da_lista = peneirar(campanhas, fora)
+    pen = peneirar(col["campanhas"], fora)
+    abertas = pen["abertas"]
     vistas_agora = len(abertas)
 
     # Rodada ruim NAO apaga a memoria. Se a Twitch nao respondeu, o que se sabia
     # continua valendo pelo prazo dela — o contrario publicaria "nenhum drop no
-    # mundo" por causa de um tropeco de rede.
+    # mundo" por causa de um tropeco de rede. So drop de jogo aberto entra na
+    # memoria; badge e informativa e nao vale live.
     abertas, memoria = lembrar(abertas, agora, result["updated_at"])
-    # A PROVA FINAL, depois de juntar com as lembradas: campanha de EVENTO
-    # (canais convidados) passa na peneira de cima, porque aparece mesmo em
-    # varios canais. Aqui se pergunta a um canal comum da categoria — se nem
-    # ele ganha, nao e drop pra qualquer um. Campanha ja provada antes usa o
-    # que ficou guardado, entao isso nao custa uma rodada inteira de perguntas.
-    abertas, so_convidados = provar_abertura(abertas, col["por_cat"], memoria)
-    barradas += so_convidados
-    vistas_agora = min(vistas_agora, len(abertas))
-    guardar_conhecidas(abertas + so_convidados, memoria, result["updated_at"])
+    guardar_conhecidas(abertas, memoria, result["updated_at"])
     # A lista de fora pode ter mudado desde a rodada passada: peneira de novo,
     # senao jogo recem-bloqueado voltaria pela memoria.
     abertas = [c for c in abertas if not esta_fora(c.get("game"), fora)]
 
-    # UPCOMING no topo continuava sendo a ordem do site; sem fonte de campanha
-    # futura, a ordem passa a ser quem acaba primeiro (a urgencia real de quem
-    # quer farmar).
-    abertas.sort(key=lambda c: (c.get("end_at") or "9999", c.get("game") or ""))
+    # Quem acaba primeiro vem primeiro: a urgencia real de quem quer farmar.
+    ordem = lambda c: (c.get("end_at") or "9999", c.get("game") or "")
+    abertas.sort(key=ordem)
+    badges_abertas = sorted(pen["badges_abertas"], key=ordem)
 
     try:
         result["badges"] = carrega_badges(result["updated_at"])
@@ -683,16 +565,9 @@ def main():
 
     if abertas or col["canais_perguntados"]:
         # Rodada valida: a Twitch respondeu. Zero campanha aberta e um resultado
-        # legitimo (ja aconteceu de nao haver drop bom no ar), desde que alguem
-        # tenha RESPONDIDO sobre campanha.
-        #
-        # O contador tem que ser esse e nao `categorias_com_drop`: aquele conta
-        # so a query CRUA (a lista de canais), e a campanha vem da persisted
-        # query, que pode morrer sozinha (hash rotacionado, integrity passando a
-        # ser exigido nela). Com o contador errado a rodada saia "ok" mesmo com
-        # as ~300 perguntas de campanha falhando — e `baixar_feed` (no bot) so
-        # olha o `ok`: passadas as 24h de memoria o feed viraria "nenhum drop no
-        # mundo", calado, pra sempre.
+        # legitimo, desde que alguem tenha RESPONDIDO sobre campanha — o
+        # contador certo e `canais_perguntados`, que so sobe depois da pergunta
+        # que PRODUZ campanha responder (a lista de canais e outra query).
         result["ok"] = True
         if col["erros"]:
             result["warn"] = "Tropecos na varredura: " + "; ".join(col["erros"][:4])
@@ -702,22 +577,29 @@ def main():
             "com canal no ar, nenhum canal respondeu): %s"
             % (col["categorias_com_drop"], "; ".join(col["erros"][:3]) or "?"))
 
-    result["campaigns"] = abertas
+    # Drop de jogo primeiro; badge da Twitch aberta depois, marcada "platform".
+    # O site separa pelo selo, o bot ignora (campanha_serve exige "game"), e
+    # o dono ve a diferenca: drop e coisa do jogo, badge e a fotinha do chat.
+    result["campaigns"] = abertas + badges_abertas
     result["source_updated"] = result["updated_at"]
     result["counts"] = {
-        "total": len(abertas),
+        "total": len(result["campaigns"]),
         "upcoming": 0,
-        "active": len(abertas),
+        "active": len(result["campaigns"]),
         "game_drops": len(abertas),
-        "platform": 0,
+        "platform": len(badges_abertas),
         "badges": len(result["badges"]),
-        "fechadas_descartadas": len(de_canal) + len(barradas),
-        "fora_da_lista": len(fora_da_lista),
+        "fechadas_descartadas": len(pen["fechadas"]) + len(pen["de_canal"]),
+        "so_canais_escolhidos": len(pen["fechadas"]),
+        "badges_de_canal": len(pen["de_canal"]),
+        "so_sub": len(pen["so_sub"]),
+        "sem_permissao_info": len(pen["sem_info"]),
+        "fora_da_lista": len(pen["fora_da_lista"]),
         "categorias_olhadas": col["categorias_olhadas"],
         "categorias_com_drop": col["categorias_com_drop"],
         "canais_perguntados": col["canais_perguntados"],
         "vistas_agora": vistas_agora,
-        "lembradas": len(abertas) - vistas_agora,
+        "lembradas": max(0, len(abertas) - vistas_agora),
     }
 
     # Memoria pro proximo ciclo: categoria que entregou drop aberto continua

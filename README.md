@@ -13,21 +13,27 @@ separando **item de jogo** de **badge/emote/plataforma**.
     que a Twitch não tinha. O bot acreditou, abriu live e contratou 61 viewers pra 1 pessoa real.
     Perguntada direto no mesmo minuto, a Twitch dizia o contrário: os 13 canais de Minecraft com
     `DropsEnabled` tinham só **badge do próprio canal**. Intermediário erra e não avisa.
-  - **Peneira:** entra o que tem prêmio de **item de jogo** (a Twitch serve a imagem de
-    `/twitch-quests-assets/REWARD/`) **e** aparece em **2+ canais diferentes**. Badge de canal
-    (aniversário, subathon — imagem de `/badges/`) fica de fora, que é a regra de sempre:
-    *só o que qualquer streamer consegue*.
-  - **Memória** (`data/`): `categorias_vigiadas.json` (onde procurar — a Twitch não deixa paginar a
-    lista de categorias sem o token do navegador) e `campanhas_conhecidas.json` (campanha já
-    confirmada vale 24h mesmo que ninguém esteja ao vivo naquele jogo no momento).
+  - **Peneira (tudo campo da própria campanha, nada de amostragem):**
+    - `allow` — **aberta a todos** (`isEnabled: false`; na página da Twitch: *"Go to a participating live
+      channel"*) ou **só canais convidados** (`isEnabled: true` + lista; na página: *"including playapex,
+      NiceWigg... and more"*). Fechada não entra. Em 06/09 o ALGS do Apex (161 convidados) e o ZEVENT (338)
+      tinham passado por aparecerem em vários canais — a lista de permitidos é o que prova.
+    - `distributionType` — `DIRECT_ENTITLEMENT` = **item de jogo** (o selo *IN-GAME ITEM*); `BADGE` =
+      **badge da Twitch** (fotinha do chat). Badge aberta a todos entra marcada *Badge / plataforma*: o site
+      separa pelo selo e o bot ignora. A pasta da imagem não decide mais — Onimusha Armament e Sorcerer Rogier
+      são badges servidas da mesma pasta dos itens.
+    - `requiredSubs` — drop que exige sub não se ganha assistindo: fica de fora.
+  - **Memória** (`data/`, escrita **só pelo Actions**): `categorias_vigiadas.json` (onde procurar — a
+    Twitch não deixa paginar a lista de categorias sem o token do navegador) e `campanhas_conhecidas.json`
+    (drop de jogo já confirmado vale 24h mesmo que ninguém esteja ao vivo naquele jogo no momento).
   - **badges chegando:** [streamdatabase.com/events](https://www.streamdatabase.com/events) — a única
     coisa que **não** vem da Twitch, porque é sobre badge que ainda **vai** existir, e a GQL só
     responde sobre o que está ativo num canal ao vivo agora. Nunca gerou live: o bot ignora essa chave.
 - **Checador** (`checker.py` + `twitch_gql.py`): roda no **GitHub Actions** a cada 10 min (~2 min por
   rodada, ~310 perguntas à Twitch), filtra e escreve `data/drops.json`.
   Antes de escrever ele obedece o [`jogos-fora.txt`](jogos-fora.txt) (veja abaixo).
-- **Testes:** `python teste_checker.py` (offline, com respostas reais capturadas — inclusive as do
-  caso Minecraft) e `python teste_checker.py --ao-vivo` (fala com a Twitch).
+- **Testes:** `python teste_checker.py` (offline, com respostas reais capturadas — o caso Minecraft, o
+  Apex ALGS fechado, badges disfarçadas de item, drop de sub) e `python teste_checker.py --ao-vivo`.
 - **Site** (`index.html`): página única, sem build, lê o JSON e se atualiza sozinha a cada 5 min.
 - Hospedado no **GitHub Pages** → abre de qualquer PC.
 

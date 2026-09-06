@@ -17,7 +17,9 @@ O QUE A TWITCH RESPONDE SEM LOGIN NENHUM
   streams(first:30, options:{systemFilters:[DROPS_ENABLED]})   -> quem esta com drop AGORA
   game(name:X){ streams(options:{systemFilters:[DROPS_ENABLED]}) }
                                                                -> os canais com drop daquela categoria
-  DropsHighlightService_AvailableDrops(channelID)              -> AS CAMPANHAS DE VERDADE do canal
+  channel(id:X){ viewerDropCampaigns { ... allow ... distributionType ... } }
+                                                               -> AS CAMPANHAS DE VERDADE do canal, com
+                                                                  QUEM PODE (allow) e O QUE E o premio
 
 O QUE ELA NAO RESPONDE — e por isso o desenho e este
   Paginacao (`after:`) e `dropCampaign(id:)` pedem o token de integridade que
@@ -27,15 +29,23 @@ O QUE ELA NAO RESPONDE — e por isso o desenho e este
   e e por isso que ela nao tem como vir errada: cada campanha aqui foi vista
   na resposta de um canal real, ao vivo, naquele minuto.
 
-COMO SE SEPARA DROP DE VERDADE DE BADGE DE CANAL
-  Pela imagem do premio, que a propria Twitch serve de pastas diferentes:
-    /twitch-quests-assets/REWARD/ -> item de jogo (drop de verdade)
-    /badges/                      -> badge de canal (subathon, aniversario)
-  E pelo numero de canais: campanha aberta a qualquer streamer aparece em
-  VARIOS canais sem relacao entre si (GunZ: a mesma campanha em 7 canais);
-  campanha de canal aparece em um so. Medido em 06/09: 97 campanhas vistas,
-  84 badges de canal unico, e as 10 com premio de item bateram exatamente com
-  os drops reais do dia (Path of Exile 2, WoW, Dead by Daylight, NBA 2K27...).
+COMO SE SEPARA O QUE INTERESSA (tudo campo da propria campanha, 06/09/2026)
+  ABERTA x FECHADA: `allow`. `isEnabled: false` = qualquer canal ao vivo na
+    categoria da o drop (na pagina da Twitch: "Go to a participating live
+    channel"). `isEnabled: true` + lista de canais = so aqueles canais ganham
+    (na pagina: "including playapex, NiceWigg, algs1_team1... and more"). O ALGS
+    do Apex tinha 161 canais escolhidos e o ZEVENT 338 — os dois passaram na
+    peneira antiga por aparecerem em varios canais. Amostragem nao prova
+    abertura; a lista de permitidos prova.
+  DROP x BADGE: `benefit.distributionType`. DIRECT_ENTITLEMENT = item de jogo
+    (o selo "IN-GAME ITEM" da pagina). BADGE = badge da Twitch (fotinha do chat)
+    — e a Twitch serve a imagem de badge de campanha da MESMA pasta dos itens
+    (/twitch-quests-assets/REWARD/), entao a pasta da imagem NAO separa os dois:
+    Onimusha Armament, Sorcerer Rogier (ELDEN RING) e Dawnwalker Launch sao
+    BADGE com imagem em REWARD. A pasta so vale como plano B quando o campo
+    nao veio.
+  FARMAVEL: `requiredSubs`. Drop que exige sub ("Split 3 - Sub Drop", "ANNIVERSARY
+    PREVIEW SUB") nao se ganha assistindo — fica de fora.
 """
 import json
 import time
@@ -48,10 +58,21 @@ import urllib.error
 CLIENT_ID = "kimne78kx3ncx6brgo4mv6wki5h1ko"
 GQL = "https://gql.twitch.tv/gql"
 
-# Hash da persisted query que o proprio player usa pra desenhar o aviso
-# "Drops habilitados" embaixo do video. E a pergunta exata que interessa:
-# "quem assistir ESTE canal ganha o que?".
-HASH_DROPS_DO_CANAL = "9a62a09bce5b53e26e64a671e530bc599cb6aab1e5ba3cbd5d85966d3940716f"
+# O que se pede de cada campanha, e quem usa cada campo:
+#   allow             -> aberta a todos ou so canais escolhidos (o caso do Apex ALGS)
+#   distributionType  -> item de jogo (DIRECT_ENTITLEMENT) x badge da Twitch (BADGE)
+#   requiredSubs      -> drop de sub nao se farma assistindo
+#   startAt/endAt     -> janela da campanha (o bot recusa campanha sem hora de inicio)
+#   owner/description -> so pro site mostrar de quem e e o que promete
+# `self { ... }` e eventBasedDrops ficam de fora: exigem login e derrubam a query
+# inteira com "server error".
+CAMPOS_CAMPANHA = (
+    "id name status startAt endAt imageURL detailsURL accountLinkURL description "
+    "owner { id name } game { id name displayName boxArtURL } "
+    "allow { isEnabled channels { id name } } "
+    "timeBasedDrops { id name startAt endAt requiredMinutesWatched requiredSubs "
+    "benefitEdges { entitlementLimit benefit { id name imageAssetURL distributionType } } }"
+)
 
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) drops-radar/3.0"
 TIMEOUT = 25
@@ -60,7 +81,7 @@ TIMEOUT = 25
 # total e tiram a gente da faixa de "rajada".
 PAUSA_S = 0.06
 
-# Pastas de imagem que a Twitch usa pra cada tipo de recompensa.
+# Pastas de imagem — PLANO B, so quando a resposta nao traz distributionType.
 PREFIXO_ITEM = "/twitch-quests-assets/REWARD/"
 PREFIXO_BADGE = "/badges/"
 
@@ -193,56 +214,18 @@ def categoria_com_canais(nome, limite=100):
     }
 
 
-def canais_comuns(nome, limite=30):
-    """Canais QUAISQUER da categoria — SEM o filtro de drops — com o cargo deles.
-
-    E o teste definitivo de "aberta a qualquer streamer": se um afiliado comum,
-    que nem marcou a tag de drops, ganha a campanha, entao qualquer canal ganha.
-    O cargo importa porque muita campanha so vale pra AFILIADO/PARCEIRO, e as
-    contas do dono sao afiliadas — perguntar pra quem nao e afiliado responderia
-    "nao" sobre um drop que pra ele valeria.
-    """
-    d = consulta(
-        '{ game(name: %s) { streams(first: %d) { edges { node { viewersCount '
-        'freeformTags { name } broadcaster { id login roles { isAffiliate isPartner } } '
-        '} } } } }' % (_txt(nome), int(limite)))
-    g = d.get("game")
-    if not g:
-        return []
-    fora = []
-    for e in ((g.get("streams") or {}).get("edges") or []):
-        no = (e or {}).get("node") or {}
-        b = no.get("broadcaster") or {}
-        if not b.get("id"):
-            continue
-        papeis = b.get("roles") or {}
-        marcas = [(t.get("name") or "").lower() for t in (no.get("freeformTags") or [])]
-        fora.append({
-            "id": b["id"], "login": b.get("login") or "",
-            "viewers": no.get("viewersCount") or 0,
-            "afiliado": bool(papeis.get("isAffiliate")),
-            "parceiro": bool(papeis.get("isPartner")),
-            "marcado": any("drop" in m for m in marcas),
-        })
-    return fora
-
-
 def campanhas_do_canal(canal_id):
-    """As campanhas que quem assiste ESTE canal ganha. Lista crua da Twitch.
+    """As campanhas que quem assiste este canal ganha — com permissao e premio.
 
-    Canal fora do ar devolve lista vazia — a Twitch so casa campanha com canal
-    enquanto ele esta transmitindo na categoria.
+    Query CRUA (nao a persisted do player): e o que deixa pedir `allow`,
+    `distributionType` e `requiredSubs`, que a persisted nao devolve. Sem
+    login: testado em 06/09, a Twitch responde tudo isso pra qualquer canal
+    ao vivo. Canal fora do ar devolve lista vazia — ela so casa campanha com
+    canal enquanto ele esta transmitindo na categoria.
     """
-    d = _post({
-        "operationName": "DropsHighlightService_AvailableDrops",
-        "variables": {"channelID": str(canal_id)},
-        "extensions": {"persistedQuery": {"version": 1,
-                                          "sha256Hash": HASH_DROPS_DO_CANAL}},
-    })
-    if d.get("errors"):
-        raise ErroGQL(json.dumps(d["errors"], ensure_ascii=False)[:200])
-    canal = ((d.get("data") or {}).get("channel") or {})
-    return canal.get("viewerDropCampaigns") or []
+    d = consulta('{ channel(id: %s) { viewerDropCampaigns { %s } } }'
+                 % (_txt(str(canal_id)), CAMPOS_CAMPANHA))
+    return (d.get("channel") or {}).get("viewerDropCampaigns") or []
 
 
 def id_do_canal(login):
@@ -261,39 +244,74 @@ def id_do_canal(login):
 # ─────────────────────────────────────────────────────────────────────────────
 
 def _premios(camp):
-    """[(nome, imagem, minutos)] de todos os drops por tempo da campanha."""
+    """[(nome, imagem, minutos, tipo, subs)] de todos os drops por tempo."""
     fora = []
     for t in camp.get("timeBasedDrops") or []:
         minutos = t.get("requiredMinutesWatched")
+        subs = t.get("requiredSubs")
         for b in t.get("benefitEdges") or []:
             ben = b.get("benefit") or {}
             fora.append((ben.get("name") or "", ben.get("imageAssetURL") or "",
-                         minutos))
+                         minutos, ben.get("distributionType"), subs))
     return fora
 
 
 def tipo_da_campanha(camp):
-    """"game" (item de jogo) ou "badge" (recompensa de canal).
+    """"game" (item de jogo), "badge" (badge da Twitch) ou "platform" (outro).
 
-    Pela pasta da imagem, que e o unico sinal que nao depende de texto — nome
-    de campanha e escrito a mao pelo streamer e vem em qualquer idioma.
+    Pelo `distributionType` do premio, que e o mesmo campo que desenha o selo
+    "IN-GAME ITEM" na pagina da Twitch. A pasta da imagem so entra quando o
+    campo nao veio: badge de campanha (Onimusha Armament, Sorcerer Rogier) e
+    servida da MESMA pasta que item de jogo, entao a imagem sozinha mente.
     """
-    urls = [u for _n, u, _m in _premios(camp) if u]
+    tipos = {t for _n, _u, _m, t, _s in _premios(camp) if t}
+    if "DIRECT_ENTITLEMENT" in tipos:
+        return "game"
+    if tipos:
+        return "badge" if tipos <= {"BADGE"} else "platform"
+    urls = [u for _n, u, _m, _t, _s in _premios(camp) if u]
     if any(PREFIXO_ITEM in u for u in urls):
         return "game"
     if urls and all(PREFIXO_BADGE in u for u in urls):
         return "badge"
-    # Sem imagem nenhuma: a campanha da propria Twitch (imageURL da campanha)
-    # ainda desempata.
     if PREFIXO_BADGE in (camp.get("imageURL") or ""):
         return "badge"
     return "desconhecido"
 
 
+def aberta_a_todos(camp):
+    """Qualquer canal ao vivo na categoria da o drop? True/False; None se nao veio.
+
+    E a resposta do incidente do Apex ALGS: 161 canais escolhidos, e o radar
+    dizia "aberta" porque a campanha aparecia em varios deles. `allow.isEnabled`
+    e a Twitch dizendo, com todas as letras, que existe lista de convidados.
+    """
+    al = camp.get("allow")
+    if not isinstance(al, dict):
+        return None
+    return not bool(al.get("isEnabled"))
+
+
+def canais_permitidos(camp):
+    """Nomes dos canais escolhidos (vazio = aberta a todos ou sem informacao)."""
+    al = camp.get("allow") or {}
+    return [(c or {}).get("name") or "" for c in (al.get("channels") or []) if c]
+
+
+def exige_sub(camp):
+    """Nenhum drop da campanha se ganha so assistindo (todos pedem sub)."""
+    drops = camp.get("timeBasedDrops") or []
+    if not drops:
+        return False
+    return all(int(t.get("requiredSubs") or 0) > 0 for t in drops)
+
+
 def minutos_de(camp):
-    """Menor watch EXIGIDO (>0). 0 quando a campanha nao pede tempo."""
-    tempos = [m for _n, _u, m in _premios(camp)
-              if isinstance(m, int) and m > 0]
+    """Menor watch EXIGIDO (>0) entre os drops que NAO pedem sub. 0 se nao ha."""
+    tempos = [t.get("requiredMinutesWatched") for t in (camp.get("timeBasedDrops") or [])
+              if int(t.get("requiredSubs") or 0) == 0
+              and isinstance(t.get("requiredMinutesWatched"), int)
+              and t.get("requiredMinutesWatched") > 0]
     return min(tempos) if tempos else 0
 
 
