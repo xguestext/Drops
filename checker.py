@@ -34,7 +34,9 @@ COMO A LISTA E MONTADA
                         Launch sao BADGE servidas da mesma pasta de imagem dos
                         itens — por isso a imagem nao decide mais.
      `requiredSubs`     drop de sub ("Split 3 - Sub Drop", "ANNIVERSARY PREVIEW
-                        SUB") nao se ganha assistindo: fica de fora.
+                        SUB") nao se ganha assistindo. ENTRA marcado
+                        (requer_sub, subs_necessarios, resgate): pro dono do
+                        canal, sub presenteada e dinheiro — o bot decide.
 
 A UNICA COISA QUE NAO VEM DA TWITCH e a aba "Badges chegando" (streamdatabase),
 que anuncia badge de evento que AINDA VAI existir. A GQL so sabe do que esta
@@ -45,8 +47,10 @@ Regras (pedido do dono):
   - So ABERTO a qualquer streamer. Campanha de canal especifico descartada.
   - jogos-fora.txt manda: jogo listado nao aparece.
   - reward_type: "game" (item de jogo) vs "platform" (badge/emote). Badge da
-    Twitch ABERTA a todos ate entra no feed, marcada "platform": o site separa
-    pelo selo e o bot ignora (campanha_serve exige "game").
+    Twitch ABERTA a todos entra no feed marcada "platform", e o bot sobe live
+    nela tambem (dono, 06/09/2026) — anunciando BADGE no titulo em vez de
+    DROPS. `tipo_premio`, `resgate`, `required_minutes` e `subs_necessarios`
+    dizem ao bot o que e e como se ganha.
 """
 import json
 import os
@@ -215,9 +219,7 @@ def _ainda_serve(reg):
     Entrada sem `tipo_premio` e do formato antigo e cai fora de uma vez.
     """
     return (isinstance(reg, dict) and "tipo_premio" in reg
-            and reg.get("reward_type") == "game"
-            and reg.get("availability") == "open"
-            and not reg.get("requer_sub"))
+            and reg.get("availability") == "open")
 
 
 def lembrar(abertas, agora, agora_iso):
@@ -327,6 +329,9 @@ def _campanha_vazia(c, categoria, capa, slug):
         "canais_permitidos": len(permitidos),
         "required_minutes": tw.minutos_de(c),
         "requer_sub": tw.exige_sub(c),
+        "subs_necessarios": tw.subs_necessarios(c),
+        # Em portugues, pro painel e pra torre: "assistir 15 min", "dar 2 subs".
+        "resgate": tw.resgate(c),
         "reward_type": "game" if tipo == "game" else "platform",
         "tipo_premio": tipo,
         "rewards": [{"name": n, "image": u, "minutes": m, "type": t, "subs": sb}
@@ -421,9 +426,10 @@ def peneirar(campanhas, fora):
     """Separa o que vai pro site do que e descartado — e diz por que.
 
     Tudo por campo da propria campanha (ver twitch_gql): a Twitch diz quem pode
-    (`allow`), o que e o premio (`distributionType`) e se precisa de sub.
+    (`allow`) e o que e o premio (`distributionType`). Drop de sub NAO e mais
+    barrado aqui: entra marcado (requer_sub / subs_necessarios) e o bot decide.
     """
-    b = {"abertas": [], "badges_abertas": [], "fechadas": [], "so_sub": [],
+    b = {"abertas": [], "badges_abertas": [], "fechadas": [],
          "de_canal": [], "sem_info": [], "fora_da_lista": []}
     for c in campanhas:
         if esta_fora(c.get("game"), fora):
@@ -437,10 +443,8 @@ def peneirar(campanhas, fora):
             # ZEVENT) idem, com centenas. Nenhum dos dois o piloto consegue.
             (b["de_canal"] if c.get("reward_type") != "game" else b["fechadas"]).append(c)
         elif c.get("reward_type") != "game":
-            # Badge da Twitch aberta a todos: informa no site, nao vale live.
+            # Badge da Twitch aberta a todos: vale live tambem, anunciada como badge.
             b["badges_abertas"].append(c)
-        elif c.get("requer_sub"):
-            b["so_sub"].append(c)
         else:
             b["abertas"].append(c)
     return b
@@ -540,23 +544,23 @@ def main():
     col = varrer()
     fora = carrega_fora()
     pen = peneirar(col["campanhas"], fora)
-    abertas = pen["abertas"]
-    vistas_agora = len(abertas)
+    publicadas = pen["abertas"] + pen["badges_abertas"]
+    vistas_agora = len(publicadas)
 
     # Rodada ruim NAO apaga a memoria. Se a Twitch nao respondeu, o que se sabia
     # continua valendo pelo prazo dela — o contrario publicaria "nenhum drop no
-    # mundo" por causa de um tropeco de rede. So drop de jogo aberto entra na
-    # memoria; badge e informativa e nao vale live.
-    abertas, memoria = lembrar(abertas, agora, result["updated_at"])
-    guardar_conhecidas(abertas, memoria, result["updated_at"])
+    # mundo" por causa de um tropeco de rede. Badge aberta entra na memoria
+    # tambem: desde 06/09 ela vale live.
+    publicadas, memoria = lembrar(publicadas, agora, result["updated_at"])
+    guardar_conhecidas(publicadas, memoria, result["updated_at"])
     # A lista de fora pode ter mudado desde a rodada passada: peneira de novo,
     # senao jogo recem-bloqueado voltaria pela memoria.
-    abertas = [c for c in abertas if not esta_fora(c.get("game"), fora)]
+    publicadas = [c for c in publicadas if not esta_fora(c.get("game"), fora)]
 
     # Quem acaba primeiro vem primeiro: a urgencia real de quem quer farmar.
     ordem = lambda c: (c.get("end_at") or "9999", c.get("game") or "")
-    abertas.sort(key=ordem)
-    badges_abertas = sorted(pen["badges_abertas"], key=ordem)
+    abertas = sorted([c for c in publicadas if c.get("reward_type") == "game"], key=ordem)
+    badges_abertas = sorted([c for c in publicadas if c.get("reward_type") != "game"], key=ordem)
 
     try:
         result["badges"] = carrega_badges(result["updated_at"])
@@ -578,8 +582,7 @@ def main():
             % (col["categorias_com_drop"], "; ".join(col["erros"][:3]) or "?"))
 
     # Drop de jogo primeiro; badge da Twitch aberta depois, marcada "platform".
-    # O site separa pelo selo, o bot ignora (campanha_serve exige "game"), e
-    # o dono ve a diferenca: drop e coisa do jogo, badge e a fotinha do chat.
+    # O site separa pelo selo; o bot sobe live nos dois, anunciando o que e.
     result["campaigns"] = abertas + badges_abertas
     result["source_updated"] = result["updated_at"]
     result["counts"] = {
@@ -592,7 +595,7 @@ def main():
         "fechadas_descartadas": len(pen["fechadas"]) + len(pen["de_canal"]),
         "so_canais_escolhidos": len(pen["fechadas"]),
         "badges_de_canal": len(pen["de_canal"]),
-        "so_sub": len(pen["so_sub"]),
+        "so_sub": sum(1 for c in result["campaigns"] if c.get("requer_sub")),
         "sem_permissao_info": len(pen["sem_info"]),
         "fora_da_lista": len(pen["fora_da_lista"]),
         "categorias_olhadas": col["categorias_olhadas"],
@@ -606,7 +609,7 @@ def main():
     # sendo vigiada mesmo quando cair do topo de audiencia.
     vigiadas = col["vigiadas"]
     hoje = now_iso()
-    for c in abertas:
+    for c in abertas + badges_abertas:
         if c.get("game"):
             vigiadas[c["game"]] = hoje
     salva_vigiadas(vigiadas)

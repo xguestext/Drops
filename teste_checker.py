@@ -165,6 +165,15 @@ def teste_sub_e_minutos():
     checa("Civ nao exige sub", tw.exige_sub(CIV_ABERTA) is False)
     checa("sem info de sub nao exige", tw.exige_sub(SEM_ALLOW) is False)
     checa("minutos do Civ = 15", tw.minutos_de(CIV_ABERTA) == 15)
+    checa("subs_necessarios: Delta pede 1", tw.subs_necessarios(DELTA_SUB) == 1)
+    checa("subs_necessarios: Civ pede 0", tw.subs_necessarios(CIV_ABERTA) == 0)
+    checa("resgate do Civ", tw.resgate(CIV_ABERTA) == "assistir 15 min", tw.resgate(CIV_ABERTA))
+    checa("resgate do Delta", tw.resgate(DELTA_SUB) == "dar 1 sub", tw.resgate(DELTA_SUB))
+    checa("resgate do Great Ball", tw.resgate(GREAT_BALL) == "dar 2 subs", tw.resgate(GREAT_BALL))
+    checa("resgate do Kirka (15h)", tw.resgate(KIRKA_ABERTA) == "assistir 15h", tw.resgate(KIRKA_ABERTA))
+    misto = copy.deepcopy(CIV_ABERTA)
+    misto["timeBasedDrops"].append(_drop(0, 1, "Skin de sub", "DIRECT_ENTITLEMENT", REWARD % "z"))
+    checa("resgate com os dois caminhos", tw.resgate(misto) == "assistir 15 min ou dar 1 sub", tw.resgate(misto))
     checa("pega o menor watch de verdade (>0)", tw.minutos_de(DOIS_DEGRAUS) == 360, tw.minutos_de(DOIS_DEGRAUS))
     checa("drop so de sub nao tem minutos farmaveis", tw.minutos_de(DELTA_SUB) == 0)
     checa("nao explode com lista vazia", tw.minutos_de({}) == 0)
@@ -186,8 +195,8 @@ def teste_formato_do_feed():
     c = _camp(CIV_ABERTA)
     for campo in ("id", "name", "status", "start_at", "end_at", "game", "game_box",
                   "availability", "channels", "canais_permitidos", "required_minutes",
-                  "requer_sub", "reward_type", "tipo_premio", "rewards", "image",
-                  "details_url", "src", "dono", "descricao"):
+                  "requer_sub", "subs_necessarios", "resgate", "reward_type", "tipo_premio",
+                  "rewards", "image", "details_url", "src", "dono", "descricao"):
         checa("campo %s existe" % campo, campo in c)
     checa("start_at vem da campanha", c["start_at"] == "2026-09-05T16:30:00Z", c["start_at"])
     checa("availability open", c["availability"] == "open")
@@ -211,13 +220,15 @@ def teste_peneira():
     campanhas[-1]["game"] = "Fortnite"
     b = checker.peneirar(campanhas, ["fortnite"])
     nomes = lambda k: sorted(c["name"] for c in b[k])
-    checa("abertas = Civ e Kirka (1 canal so tambem vale)",
-          nomes("abertas") == ["Civ VII PAX 26 Livestream", "Spore"], nomes("abertas"))
+    checa("abertas = Civ, Kirka (1 canal so tambem vale) e o drop de sub, marcado",
+          nomes("abertas") == ["ANNIVERSARY PREVIEW SUB", "Civ VII PAX 26 Livestream", "Spore"], nomes("abertas"))
+    delta = next(c for c in b["abertas"] if c["name"] == "ANNIVERSARY PREVIEW SUB")
+    checa("drop de sub vem marcado", delta["requer_sub"] and delta["subs_necessarios"] == 1
+          and delta["resgate"] == "dar 1 sub", (delta["requer_sub"], delta["subs_necessarios"], delta["resgate"]))
     checa("Apex ALGS vai pra FECHADAS", nomes("fechadas") == ["ALGS Split 2 PL MD 9"], nomes("fechadas"))
     checa("badge de canal vai pra de_canal", nomes("de_canal") == ["LACY X MARLON MARATHON"])
     checa("badge aberta e Great Ball vao pra badges_abertas",
           nomes("badges_abertas") == ["First Partners Collection", "Onimusha Armament"], nomes("badges_abertas"))
-    checa("drop de sub vai pra so_sub", nomes("so_sub") == ["ANNIVERSARY PREVIEW SUB"])
     checa("sem allow vai pra sem_info", nomes("sem_info") == ["Global Launch Welcome Kit"])
     checa("jogos-fora manda", nomes("fora_da_lista") == ["Fortnite drops"])
 
@@ -263,7 +274,8 @@ def teste_lembranca():
             checa("depois de 24h sem ver, esquece", fora3 == [], fora3)
 
             # A memoria da regra ANTIGA nao pode voltar: Apex "aberto" gravado
-            # ontem, entrada sem tipo_premio, badge, drop de sub.
+            # ontem (formato antigo, sem tipo_premio) e campanha fechada. Badge
+            # aberta e drop de sub CONTINUAM: desde 06/09 valem live.
             velha_apex = dict(_camp(APEX_FECHADA), visto_em=agora_iso)
             velha_apex["availability"] = "open"; velha_apex.pop("tipo_premio")   # formato antigo
             badge = dict(_camp(ONIMUSHA_BADGE_ABERTA), visto_em=agora_iso)
@@ -272,8 +284,9 @@ def teste_lembranca():
             json.dump({"campanhas": {"a": velha_apex, "b": badge, "c": sub, "d": fechada}},
                       io.open(arq, "w", encoding="utf-8"))
             fora4, mem4 = checker.lembrar([], agora, agora_iso)
-            checa("memoria da regra antiga e purgada de uma vez", fora4 == [] and mem4 == {},
-                  (len(fora4), list(mem4)))
+            checa("formato antigo e fechada sao purgados; badge e sub ficam",
+                  sorted(c["name"] for c in fora4) == ["ANNIVERSARY PREVIEW SUB", "Onimusha Armament"]
+                  and sorted(mem4) == ["b", "c"], (sorted(c["name"] for c in fora4), sorted(mem4)))
 
             json.dump({"campanhas": {"velha": dict(_camp(CIV_ABERTA), end_at="2026-09-05T00:00:00Z",
                                                    visto_em=agora_iso)}}, io.open(arq, "w", encoding="utf-8"))
@@ -360,12 +373,13 @@ def teste_rodada_inteira():
         checker.main)
     jogos = [(c["game"], c["reward_type"]) for c in saida.get("campaigns") or []]
     checa("feed ok", saida.get("ok") is True, saida.get("error"))
-    checa("publica Civ como game e Onimusha como platform, mais nada",
-          jogos == [("Sid Meier's Civilization VII", "game"), ("Onimusha: Way of the Sword", "platform")], jogos)
+    checa("publica Civ e Delta (sub, marcado) como game e Onimusha como platform; Apex e Minecraft fora",
+          jogos == [("Delta Force", "game"), ("Sid Meier's Civilization VII", "game"),
+                    ("Onimusha: Way of the Sword", "platform")], jogos)   # ordem: quem acaba antes
     c = saida["counts"]
     checa("contou o Apex como so-canais-escolhidos", c.get("so_canais_escolhidos") == 1, c)
-    checa("contou a badge de canal e o drop de sub", c.get("badges_de_canal") == 1 and c.get("so_sub") == 1, c)
-    checa("game_drops=1 platform=1", c.get("game_drops") == 1 and c.get("platform") == 1)
+    checa("contou a badge de canal e o drop de sub publicado", c.get("badges_de_canal") == 1 and c.get("so_sub") == 1, c)
+    checa("game_drops=2 platform=1", c.get("game_drops") == 2 and c.get("platform") == 1, c)
 
 
 def teste_rodada_morta_nao_finge_saude():

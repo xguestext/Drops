@@ -22,7 +22,11 @@ separando **item de jogo** de **badge/emote/plataforma**.
       **badge da Twitch** (fotinha do chat). Badge aberta a todos entra marcada *Badge / plataforma*: o site
       separa pelo selo e o bot ignora. A pasta da imagem não decide mais — Onimusha Armament e Sorcerer Rogier
       são badges servidas da mesma pasta dos itens.
-    - `requiredSubs` — drop que exige sub não se ganha assistindo: fica de fora.
+    - `requiredSubs` / `requiredMinutesWatched` — cada campanha sai com **`resgate`** em português
+      ("assistir 15 min", "dar 2 subs", "assistir 1h ou dar 1 sub"), mais `required_minutes`,
+      `subs_necessarios` e `requer_sub`. Drop de sub **entra marcado**: pro dono do canal, sub
+      presenteada é dinheiro — o bot decide o que fazer com isso.
+    - Badge aberta a todos **vale live também** (o bot anuncia `[BADGE]` no título em vez de `[DROPS]`).
   - **Memória** (`data/`, escrita **só pelo Actions**): `categorias_vigiadas.json` (onde procurar — a
     Twitch não deixa paginar a lista de categorias sem o token do navegador) e `campanhas_conhecidas.json`
     (drop de jogo já confirmado vale 24h mesmo que ninguém esteja ao vivo naquele jogo no momento).

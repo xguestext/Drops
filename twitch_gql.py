@@ -44,8 +44,10 @@ COMO SE SEPARA O QUE INTERESSA (tudo campo da propria campanha, 06/09/2026)
     Onimusha Armament, Sorcerer Rogier (ELDEN RING) e Dawnwalker Launch sao
     BADGE com imagem em REWARD. A pasta so vale como plano B quando o campo
     nao veio.
-  FARMAVEL: `requiredSubs`. Drop que exige sub ("Split 3 - Sub Drop", "ANNIVERSARY
-    PREVIEW SUB") nao se ganha assistindo — fica de fora.
+  COMO SE RESGATA: `requiredMinutesWatched` e `requiredSubs`. Drop que exige sub
+    ("Split 3 - Sub Drop", "ANNIVERSARY PREVIEW SUB") nao se ganha assistindo —
+    entra no feed MARCADO (subs_necessarios, requer_sub, resgate), porque pro
+    dono do canal sub presenteada e dinheiro: o bot e que decide o que fazer.
 """
 import json
 import time
@@ -313,6 +315,46 @@ def minutos_de(camp):
               and isinstance(t.get("requiredMinutesWatched"), int)
               and t.get("requiredMinutesWatched") > 0]
     return min(tempos) if tempos else 0
+
+
+def subs_necessarios(camp):
+    """Menor numero de subs exigido entre os drops. 0 = da pra ganhar so assistindo."""
+    drops = camp.get("timeBasedDrops") or []
+    if not drops:
+        return 0
+    subs = [int(t.get("requiredSubs") or 0) for t in drops]
+    return 0 if 0 in subs else min(subs)
+
+
+def _fmt_min(m):
+    m = int(m or 0)
+    if m <= 0:
+        return ""
+    if m < 60:
+        return "%d min" % m
+    h, r = divmod(m, 60)
+    return "%dh%02d" % (h, r) if r else "%dh" % h
+
+
+def resgate(camp):
+    """Como o espectador ganha, numa frase em portugues (o painel e a torre mostram).
+
+    "assistir 15 min" | "dar 2 subs" | "assistir 1h ou dar 1 sub". E o que o dono
+    pediu: o bot saber quanto tempo e pra resgatar, ou quantos subs precisa dar.
+    """
+    drops = camp.get("timeBasedDrops") or []
+    assistindo = [int(t.get("requiredMinutesWatched") or 0) for t in drops
+                  if int(t.get("requiredSubs") or 0) == 0]
+    por_sub = [int(t.get("requiredSubs") or 0) for t in drops
+               if int(t.get("requiredSubs") or 0) > 0]
+    partes = []
+    if assistindo:
+        tempo = _fmt_min(min([m for m in assistindo if m > 0] or [0]))
+        partes.append(("assistir %s" % tempo) if tempo else "assistir (tempo nao informado)")
+    if por_sub:
+        n = min(por_sub)
+        partes.append("dar %d sub%s" % (n, "" if n == 1 else "s"))
+    return " ou ".join(partes)
 
 
 def amostra_de_canais(canais, k=8):
