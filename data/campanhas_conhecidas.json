@@ -2,11 +2,13 @@
  "campanhas": {
   "0f0f3203-1c8f-4bf1-85d5-e5484bfc822d": {
    "availability": "open",
-   "canais_na_categoria": 1,
-   "canais_perguntados": 1,
+   "canais_na_categoria": 3,
+   "canais_perguntados": 3,
    "canais_permitidos": 0,
    "canais_vistos": [
-    "zoeiittv"
+    "zoeiittv",
+    "darkwolfnl_",
+    "100_abc_tv"
    ],
    "channels": [],
    "descricao": "The Dungeon Manager has mandated all Goblin Maids wear the latest, hot Pool Party drop when working the dungeon shift; cleaning and resetting the traps for the next adventurers.",
@@ -73,7 +75,7 @@
    "subs_necessarios": 0,
    "tipo_premio": "game",
    "vista_agora": true,
-   "visto_em": "2026-09-12T11:07:16Z"
+   "visto_em": "2026-09-12T14:04:08Z"
   },
   "0f1b1514-fe01-4f81-8fea-d35049d204cd": {
    "availability": "open",
@@ -81,12 +83,12 @@
    "canais_perguntados": 6,
    "canais_permitidos": 0,
    "canais_vistos": [
-    "zelev_by_cv",
-    "spookyyluna",
-    "sproocket_",
-    "yagodayz",
-    "aliencow3",
-    "l4p1n87"
+    "royalewithcheesetv",
+    "lycketysyplt",
+    "gaminggodtv",
+    "mossypixie",
+    "wakachan93",
+    "hv2n"
    ],
    "channels": [],
    "descricao": "Once Human Console Launch Twitch Drops event will be live on Augest 25 - September 22, 2026. Connect your Once Human character and Twitch account to receive the reward. Watch a participating stream ch",
@@ -132,7 +134,87 @@
    "subs_necessarios": 0,
    "tipo_premio": "game",
    "vista_agora": true,
-   "visto_em": "2026-09-12T11:07:16Z"
+   "visto_em": "2026-09-12T14:04:08Z"
+  },
+  "177dcd62-7e11-4641-a832-1d1d935b7e18": {
+   "availability": "open",
+   "canais_na_categoria": 100,
+   "canais_perguntados": 6,
+   "canais_permitidos": 0,
+   "canais_vistos": [
+    "oskar1up",
+    "tangent",
+    "streamerhouse",
+    "radkhan",
+    "trn_shaka",
+    "silver4rick"
+   ],
+   "channels": [],
+   "descricao": "To celebrate the launch of Cosmos, the latest free update to No Man's Sky, any No Man's Sky streamer with \"Drops Enabled\" during the weekend of 10th to 14th September will unlock in-game rewards for t",
+   "details_url": "https://twitch.nomanssky.com",
+   "dono": "Hello Games",
+   "end_at": "2026-09-13T12:59:59.999Z",
+   "game": "No Man's Sky",
+   "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/458781_IGDB-120x160.jpg",
+   "game_slug": "no-mans-sky",
+   "id": "177dcd62-7e11-4641-a832-1d1d935b7e18",
+   "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e3c5d6c3-e8b5-4f55-9a10-8b3fdb76efd8.png",
+   "name": "Cosmos - Day 3",
+   "requer_sub": false,
+   "required_minutes": 15,
+   "resgate": "assistir 15 min",
+   "reward_type": "game",
+   "rewards": [
+    {
+     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/960050ac-7651-4321-bade-985488c10adf.png",
+     "minutes": 15,
+     "name": "Bake Sale Poster",
+     "subs": 0,
+     "type": "DIRECT_ENTITLEMENT"
+    },
+    {
+     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b962ffbe-7104-4c1f-96f6-cd8e1f3ee25b.png",
+     "minutes": 15,
+     "name": "Atlas Firework Pack",
+     "subs": 0,
+     "type": "DIRECT_ENTITLEMENT"
+    },
+    {
+     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b9607565-1f49-42fe-a438-277b891a0646.png",
+     "minutes": 30,
+     "name": "Ice Diplo Statue",
+     "subs": 0,
+     "type": "DIRECT_ENTITLEMENT"
+    },
+    {
+     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fed4da04-bf06-4bbf-ad11-7ab6664dd212.png",
+     "minutes": 60,
+     "name": "Hadal Freighter Trail",
+     "subs": 0,
+     "type": "DIRECT_ENTITLEMENT"
+    },
+    {
+     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5558a07a-500b-4328-8a50-8870608684ac.png",
+     "minutes": 120,
+     "name": "X Spellristeus Companion",
+     "subs": 0,
+     "type": "DIRECT_ENTITLEMENT"
+    },
+    {
+     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/129e763c-da6a-4345-9666-e7f1d1b6a494.png",
+     "minutes": 180,
+     "name": "A-Class Shuttle",
+     "subs": 0,
+     "type": "DIRECT_ENTITLEMENT"
+    }
+   ],
+   "src": "twitch-gql",
+   "start_at": "2026-09-12T13:00:00Z",
+   "status": "ACTIVE",
+   "subs_necessarios": 0,
+   "tipo_premio": "game",
+   "vista_agora": true,
+   "visto_em": "2026-09-12T14:04:08Z"
   },
   "19f00aac-6679-4e10-b36c-881beb654e52": {
    "availability": "open",
@@ -140,8 +222,8 @@
    "canais_perguntados": 6,
    "canais_permitidos": 0,
    "canais_vistos": [
-    "cptthreepwood",
-    "omvradio"
+    "kitefeel",
+    "pocketnetwork"
    ],
    "channels": [],
    "descricao": "First Partners Collection",
@@ -149,8 +231,8 @@
    "dono": "Twitch Gaming",
    "end_at": "2026-11-01T07:00:00Z",
    "game": "Special Events",
-   "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/509663-120x160.jpg",
-   "game_slug": "special-events",
+   "game_box": null,
+   "game_slug": "specialevents",
    "id": "19f00aac-6679-4e10-b36c-881beb654e52",
    "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/21cd725f-557a-4127-ab77-57586a683e3b.png",
    "name": "First Partners Collection",
@@ -187,20 +269,20 @@
    "subs_necessarios": 0,
    "tipo_premio": "platform",
    "vista_agora": true,
-   "visto_em": "2026-09-12T11:07:16Z"
+   "visto_em": "2026-09-12T14:04:08Z"
   },
   "2627f082-1448-4a4b-a721-41e942aa5bc6": {
    "availability": "open",
-   "canais_na_categoria": 46,
+   "canais_na_categoria": 61,
    "canais_perguntados": 6,
    "canais_permitidos": 0,
    "canais_vistos": [
     "xalisa",
-    "metallygg",
     "knightmar3frame",
-    "tiocareca74",
-    "hahahaaa",
-    "therecringe"
+    "icetrixxxx",
+    "sasamioriginal3",
+    "austen_huff",
+    "jakedoe1"
    ],
    "channels": [],
    "descricao": "Karel's Mothership: Conquest is now available! Tune in to our Twitch livestreams and earn exclusive Drops while you watch. Don't miss out on all the rewards waiting for you.",
@@ -253,20 +335,20 @@
    "subs_necessarios": 0,
    "tipo_premio": "game",
    "vista_agora": true,
-   "visto_em": "2026-09-12T11:07:16Z"
+   "visto_em": "2026-09-12T14:04:08Z"
   },
   "412be155-a987-41ba-8f9e-30f0909e54cb": {
    "availability": "open",
-   "canais_na_categoria": 100,
+   "canais_na_categoria": 98,
    "canais_perguntados": 6,
    "canais_permitidos": 0,
    "canais_vistos": [
+    "hyper2374",
     "mrpokke",
-    "singollo",
-    "nekomatsuri_25",
-    "ray_gamechannel",
-    "ninja_nadl",
-    "entityslendy"
+    "alexyukiii",
+    "iklaaaaaaa",
+    "havol31",
+    "ziniferpru"
    ],
    "channels": [],
    "descricao": "Honkai: Star Rail Drops Campaign",
@@ -326,20 +408,20 @@
    "subs_necessarios": 0,
    "tipo_premio": "game",
    "vista_agora": true,
-   "visto_em": "2026-09-12T11:07:16Z"
+   "visto_em": "2026-09-12T14:04:08Z"
   },
   "454244f1-aeb4-427e-86d9-35b878bfd66a": {
    "availability": "open",
-   "canais_na_categoria": 11,
+   "canais_na_categoria": 14,
    "canais_perguntados": 6,
    "canais_permitidos": 0,
    "canais_vistos": [
-    "ziluki",
+    "callfishduo",
     "daskotkt94",
-    "velocity_n1",
-    "monkeytripped",
-    "relinkiserh",
-    "vght_1233"
+    "cadentcartoonx",
+    "jaqujcz",
+    "jeyjeydlastar",
+    "100gameplaynomic"
    ],
    "channels": [],
    "descricao": "Based on the iconic IP, The Seven Deadly Sins: Origin follows Tristan on a new journey through a multiverse where time and space have collided. Experience next-generation gameplay with immersive explo",
@@ -399,20 +481,20 @@
    "subs_necessarios": 0,
    "tipo_premio": "game",
    "vista_agora": true,
-   "visto_em": "2026-09-12T11:07:16Z"
+   "visto_em": "2026-09-12T14:04:08Z"
   },
   "4a750183-d375-48ac-9814-3650bd3a7534": {
    "availability": "open",
-   "canais_na_categoria": 26,
+   "canais_na_categoria": 37,
    "canais_perguntados": 6,
    "canais_permitidos": 0,
    "canais_vistos": [
     "dhelra",
     "thedropcreator",
-    "moyanka",
-    "rmier200",
-    "kohono_yu",
-    "shuffleshift"
+    "kontro",
+    "ttvjimbob19",
+    "kali_461997",
+    "random_gtv"
    ],
    "channels": [],
    "descricao": "Earning this reward is simple. You only need to link your IOI Account to your Twitch account and then watch a 007 FIrst Light stream on Twitch during the drop campaign duration.",
@@ -444,17 +526,16 @@
    "subs_necessarios": 0,
    "tipo_premio": "game",
    "vista_agora": true,
-   "visto_em": "2026-09-12T11:07:16Z"
+   "visto_em": "2026-09-12T14:04:08Z"
   },
   "4c33fd54-c219-43c2-9509-066778b9c77e": {
    "availability": "open",
-   "canais_na_categoria": 100,
+   "canais_na_categoria": 99,
    "canais_perguntados": 6,
    "canais_permitidos": 0,
    "canais_vistos": [
-    "yu03_11",
-    "yamamotogod0",
-    "crown_crr"
+    "n1ya_fps",
+    "the_gary_fallen_fox"
    ],
    "channels": [],
    "descricao": "Join Twitch creators to kick off the 2nd Anniversary with the new Season: Reorientation! Tune in to Delta Force live streams and grab exclusive Twitch Drops rewards along the way.",
@@ -514,7 +595,82 @@
    "subs_necessarios": 0,
    "tipo_premio": "game",
    "vista_agora": true,
-   "visto_em": "2026-09-12T11:07:16Z"
+   "visto_em": "2026-09-12T14:04:08Z"
+  },
+  "4cd6da06-5e0c-449a-88ae-58fe1d3b502e": {
+   "availability": "open",
+   "canais_na_categoria": 28,
+   "canais_perguntados": 6,
+   "canais_permitidos": 0,
+   "canais_vistos": [
+    "jc6nine"
+   ],
+   "channels": [],
+   "descricao": "Celebrate the release of the LEGO Batman: Legacy of the Dark Knight Mayhem Collection with another opportunity to earn exclusive Twitch Drops!",
+   "details_url": "https://rewards.wbgames.com/games/lego-batman-legacy-of-the-dark-knight/twitch-drops/game-launch",
+   "dono": "Warner Bros. Interactive",
+   "end_at": "2026-09-28T06:59:59.999Z",
+   "game": "LEGO Batman: Legacy of the Dark Knight",
+   "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/1813168901_IGDB-120x160.jpg",
+   "game_slug": "lego-batman-legacy-of-the-dark-knight",
+   "id": "4cd6da06-5e0c-449a-88ae-58fe1d3b502e",
+   "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/0338c0f3-e6e5-43dc-a86c-26967c96b53c.png",
+   "name": "Mayhem Collection Launch",
+   "requer_sub": false,
+   "required_minutes": 30,
+   "resgate": "assistir 30 min",
+   "reward_type": "game",
+   "rewards": [
+    {
+     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/99f41b63-2a52-45ec-a12d-97cdd93d3507.png",
+     "minutes": 30,
+     "name": "Controller Stand",
+     "subs": 0,
+     "type": "DIRECT_ENTITLEMENT"
+    },
+    {
+     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4cbe450c-9de1-41db-bd0b-23edba5ecd76.png",
+     "minutes": 90,
+     "name": "Controller Backdrop",
+     "subs": 0,
+     "type": "DIRECT_ENTITLEMENT"
+    },
+    {
+     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d6d4ad1b-a8fd-44aa-8526-94ac897bb44c.png",
+     "minutes": 120,
+     "name": "Collectible Display Case",
+     "subs": 0,
+     "type": "DIRECT_ENTITLEMENT"
+    },
+    {
+     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8fb2c9e9-3b97-47ed-b9a9-292236d97ebf.png",
+     "minutes": 60,
+     "name": "Drinks Fridge",
+     "subs": 0,
+     "type": "DIRECT_ENTITLEMENT"
+    },
+    {
+     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/dffedae7-9e5a-48e9-bb3e-4107cf3307fb.png",
+     "minutes": 180,
+     "name": "Gamer Desk",
+     "subs": 0,
+     "type": "DIRECT_ENTITLEMENT"
+    },
+    {
+     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/38a382eb-11c6-4120-83f7-ba093ba473d8.png",
+     "minutes": 150,
+     "name": "Gaming Chair",
+     "subs": 0,
+     "type": "DIRECT_ENTITLEMENT"
+    }
+   ],
+   "src": "twitch-gql",
+   "start_at": "2026-09-12T07:00:00Z",
+   "status": "ACTIVE",
+   "subs_necessarios": 0,
+   "tipo_premio": "game",
+   "vista_agora": true,
+   "visto_em": "2026-09-12T14:04:08Z"
   },
   "57c84a37-de55-4de4-ba40-331029d9cab7": {
    "availability": "open",
@@ -522,9 +678,9 @@
    "canais_perguntados": 3,
    "canais_permitidos": 0,
    "canais_vistos": [
-    "metro902",
-    "kurage_gamelive",
-    "official_yman"
+    "pixqq",
+    "thatguyjt420",
+    "metro902"
    ],
    "channels": [],
    "descricao": "Watch any Super Animal Royale stream (with drops enabled) to earn your own Highlander Set in-game! Play free on PC, Mac, Nintendo Switch, PlayStation 4, PlayStation 5, Xbox One, and Xbox Series X|S al",
@@ -570,11 +726,11 @@
    "subs_necessarios": 0,
    "tipo_premio": "game",
    "vista_agora": true,
-   "visto_em": "2026-09-12T11:07:16Z"
+   "visto_em": "2026-09-12T14:04:08Z"
   },
   "7d64c672-6183-425b-92e2-57546404f25c": {
    "availability": "open",
-   "canais_na_categoria": 23,
+   "canais_na_categoria": 28,
    "canais_perguntados": 6,
    "canais_permitidos": 0,
    "canais_vistos": [
@@ -582,7 +738,6 @@
     "ifadedcoffee",
     "samdavison1",
     "datatimebase",
-    "badgesunlock",
     "badges_available"
    ],
    "channels": [],
@@ -615,20 +770,20 @@
    "subs_necessarios": 1,
    "tipo_premio": "badge",
    "vista_agora": true,
-   "visto_em": "2026-09-12T11:07:16Z"
+   "visto_em": "2026-09-12T14:04:08Z"
   },
   "87301354-542a-4bd8-b44e-5b21cc2fe2dd": {
    "availability": "open",
-   "canais_na_categoria": 99,
+   "canais_na_categoria": 100,
    "canais_perguntados": 6,
    "canais_permitidos": 0,
    "canais_vistos": [
-    "esskayuwu",
-    "gale",
     "necros",
-    "lyzard11th",
-    "kaiirohh_",
-    "davyp_"
+    "yznsa",
+    "kragiee",
+    "pawwwtressss",
+    "iitscardi",
+    "tortillaroll"
    ],
    "channels": [],
    "descricao": "Tune into your favorite streamers and gain exclusive twitch drops",
@@ -681,7 +836,7 @@
    "subs_necessarios": 0,
    "tipo_premio": "game",
    "vista_agora": true,
-   "visto_em": "2026-09-12T11:07:16Z"
+   "visto_em": "2026-09-12T14:04:08Z"
   },
   "8944a299-6bfc-48ff-9c6a-3928ef1f9c1d": {
    "availability": "open",
@@ -730,12 +885,14 @@
   },
   "89ce7f50-00c2-4029-b3ca-e54630cfafd4": {
    "availability": "open",
-   "canais_na_categoria": 2,
-   "canais_perguntados": 2,
+   "canais_na_categoria": 4,
+   "canais_perguntados": 4,
    "canais_permitidos": 0,
    "canais_vistos": [
+    "tmemoryy",
     "shiratama__3",
-    "xxasti38"
+    "der_nebel_88",
+    "jasonmurder3111"
    ],
    "channels": [],
    "descricao": "Join our Drops to earn rewards and an exclusive Twitch 67 Emote! Each IGG ID can redeem the drops only once.",
@@ -843,21 +1000,21 @@
    "status": "ACTIVE",
    "subs_necessarios": 0,
    "tipo_premio": "game",
-   "vista_agora": false,
-   "visto_em": "2026-09-12T06:27:38Z"
+   "vista_agora": true,
+   "visto_em": "2026-09-12T14:04:08Z"
   },
   "90589949-1d2e-4161-8def-3aee51e1f721": {
    "availability": "open",
-   "canais_na_categoria": 44,
+   "canais_na_categoria": 70,
    "canais_perguntados": 6,
    "canais_permitidos": 0,
    "canais_vistos": [
+    "victoriavee",
     "hazelscorp",
     "bloodnnights",
-    "v0ltm4n",
-    "clurua",
-    "igwynbleidd69",
-    "preacher45"
+    "kaelra_sen",
+    "davulikz",
+    "xd_nace"
    ],
    "channels": [],
    "descricao": "Come celebrate the launch of Resonance: A Plague Tale Legacy and grab the exclusive chat badge!",
@@ -889,20 +1046,20 @@
    "subs_necessarios": 0,
    "tipo_premio": "badge",
    "vista_agora": true,
-   "visto_em": "2026-09-12T11:07:16Z"
+   "visto_em": "2026-09-12T14:04:08Z"
   },
   "94084529-b24c-4d1a-9863-e815865f16f5": {
    "availability": "open",
-   "canais_na_categoria": 9,
+   "canais_na_categoria": 13,
    "canais_perguntados": 6,
    "canais_permitidos": 0,
    "canais_vistos": [
-    "takahasi_sun",
-    "noranekokuro0105",
-    "purupuru_nishino",
-    "lucasbrand90",
-    "ryotoem",
-    "massu0210"
+    "fenbren82",
+    "kiyonesera",
+    "andy_yusya",
+    "odynbane",
+    "massu0210",
+    "naeujohnjae"
    ],
    "channels": [],
    "descricao": "Important: Connect your Twitch account to your Blue Protocol: Star Resonance game account via the Drops connection page BEFORE claiming your Drops rewards.",
@@ -962,7 +1119,7 @@
    "subs_necessarios": 0,
    "tipo_premio": "game",
    "vista_agora": true,
-   "visto_em": "2026-09-12T11:07:16Z"
+   "visto_em": "2026-09-12T14:04:08Z"
   },
   "9b94b19f-17db-4edd-80dd-e2eca81f21df": {
    "availability": "open",
@@ -970,12 +1127,12 @@
    "canais_perguntados": 6,
    "canais_permitidos": 0,
    "canais_vistos": [
-    "39daph",
     "pressea",
-    "slowwalkthroughs",
-    "morixus",
-    "ziraely",
-    "minouximus"
+    "39daph",
+    "nisqyy",
+    "mortillusvt",
+    "astralies_",
+    "sgterulaya"
    ],
    "channels": [],
    "descricao": "Come celebrate the launch of The Blood of Dawnwalker and grab exclusive chat badges!",
@@ -1014,24 +1171,32 @@
    "subs_necessarios": 0,
    "tipo_premio": "badge",
    "vista_agora": true,
-   "visto_em": "2026-09-12T11:07:16Z"
+   "visto_em": "2026-09-12T14:04:08Z"
   },
   "9bdb6607-22c2-4317-b18a-1b6924e555d6": {
    "availability": "open",
-   "canais_na_categoria": 95,
+   "canais_na_categoria": 25,
    "canais_perguntados": 6,
    "canais_permitidos": 0,
    "canais_vistos": [
-    "kato_junichi0817",
-    "metashi12",
-    "ironmouse",
+    "mitianinka",
+    "dkincc",
+    "sam1268",
+    "forsen",
+    "yanagranl",
+    "koordinata",
     "zepho",
-    "saisette_rnmsn",
-    "sinticalive",
-    "sfunclub",
+    "mattp1tommy",
+    "kurt0411",
+    "soymotor",
+    "hejalina",
+    "padrecannonau",
+    "anjisdagbok",
     "pedrotim23_",
-    "feinekatze",
-    "thirdcorenetwork"
+    "sfunclub",
+    "corgicam",
+    "revuhhh",
+    "storm_shadow_147"
    ],
    "channels": [],
    "descricao": "First Partners Collection",
@@ -1077,20 +1242,20 @@
    "subs_necessarios": 1,
    "tipo_premio": "platform",
    "vista_agora": true,
-   "visto_em": "2026-09-12T11:07:16Z"
+   "visto_em": "2026-09-12T14:04:08Z"
   },
   "9e8bc1ec-c085-4abb-bbd1-962574b7a55b": {
    "availability": "open",
-   "canais_na_categoria": 16,
+   "canais_na_categoria": 21,
    "canais_perguntados": 6,
    "canais_permitidos": 0,
    "canais_vistos": [
     "vm0px",
     "tiolixace",
-    "systemshin",
-    "sapomonch",
-    "yoclary",
-    "boshu_gaming"
+    "nyammuuu",
+    "shuo_v",
+    "linga0804",
+    "ruta0603"
    ],
    "channels": [],
    "descricao": "Watch Identity V streams to get massive rewards, including Clues, Golden Apples and NetEase Pay Gift Card!",
@@ -1136,20 +1301,20 @@
    "subs_necessarios": 0,
    "tipo_premio": "game",
    "vista_agora": true,
-   "visto_em": "2026-09-12T11:07:16Z"
+   "visto_em": "2026-09-12T14:04:08Z"
   },
   "9ff2d241-3b92-4f86-b625-1362dbbdbafc": {
    "availability": "open",
-   "canais_na_categoria": 32,
+   "canais_na_categoria": 56,
    "canais_perguntados": 6,
    "canais_permitidos": 0,
    "canais_vistos": [
-    "nordenheim",
     "liivgames",
-    "amberjessie",
-    "iryna_life_style",
-    "fawkesphantom",
-    "goolie101"
+    "masethemoose",
+    "nordenheim",
+    "boyeshi",
+    "cara0409",
+    "liza_m"
    ],
    "channels": [],
    "descricao": "Celebrate the Fall's Faire: Petals & Portraits (Patch 0.206) update and get a head start on contributing to the debut Civic Project: Kilima Docks with Twitch Drop rewards! Tune-in to your favorite Pal",
@@ -1223,20 +1388,20 @@
    "subs_necessarios": 0,
    "tipo_premio": "game",
    "vista_agora": true,
-   "visto_em": "2026-09-12T11:07:16Z"
+   "visto_em": "2026-09-12T14:04:08Z"
   },
   "a32d43f5-2c18-4205-9480-d1149b3558d2": {
    "availability": "open",
-   "canais_na_categoria": 10,
+   "canais_na_categoria": 15,
    "canais_perguntados": 6,
    "canais_permitidos": 0,
    "canais_vistos": [
     "alyjosa",
-    "clovemm",
     "rur1_chan",
-    "prophecyreaps",
-    "2032413",
-    "simulaventura"
+    "n4cht4r4",
+    "lillinox",
+    "simulaventura",
+    "babygoblin"
    ],
    "channels": [],
    "descricao": "Watch Infinity Nikki on Twitch and earn exclusive in-game rewards!\n\nWatch Time Rewards:\n⏱️ Watch 15 mins – Diamond ×10\n⏱️ Watch 30 mins – Diamond ×20\n⏱️ Watch 45 mins – Bling ×20,000\n⏱️ Watch 1 hour –",
@@ -1303,7 +1468,7 @@
    "subs_necessarios": 0,
    "tipo_premio": "game",
    "vista_agora": true,
-   "visto_em": "2026-09-12T11:07:16Z"
+   "visto_em": "2026-09-12T14:04:08Z"
   },
   "a3f7a56a-f943-46d2-a780-3700684883f1": {
    "availability": "open",
@@ -1311,12 +1476,12 @@
    "canais_perguntados": 6,
    "canais_permitidos": 0,
    "canais_vistos": [
-    "onpam",
-    "divvity",
-    "jennniffler",
-    "neondoublejump",
-    "sablewww",
-    "atrideska"
+    "saruei",
+    "zoodle",
+    "gustafgabel",
+    "paraf11n",
+    "darkssas",
+    "emperor_conrados"
    ],
    "channels": [],
    "descricao": "This badge was earned by subscribing or gifting a sub to a streamer in the ELDEN RING category.",
@@ -1348,20 +1513,20 @@
    "subs_necessarios": 1,
    "tipo_premio": "badge",
    "vista_agora": true,
-   "visto_em": "2026-09-12T11:07:16Z"
+   "visto_em": "2026-09-12T14:04:08Z"
   },
   "a490aaea-7490-4f94-9066-7834653c0899": {
    "availability": "open",
-   "canais_na_categoria": 88,
+   "canais_na_categoria": 100,
    "canais_perguntados": 6,
    "canais_permitidos": 0,
    "canais_vistos": [
+    "tanna",
     "shaoztv",
-    "hyruledragon",
-    "miroichii",
-    "home_ninja",
-    "rikka27",
-    "nongitim_jubujubu"
+    "slyraf",
+    "ranwybb",
+    "worldoffight84",
+    "astrobuni_"
    ],
    "channels": [],
    "descricao": "The V3.6 Wuthering Waves Twitch Drops event has commenced!  By streaming Wuthering Waves, you enable your viewers to claim multiple rewards, including the Astrite!  Hasten to broadcast Wuthering Waves",
@@ -1421,20 +1586,20 @@
    "subs_necessarios": 0,
    "tipo_premio": "game",
    "vista_agora": true,
-   "visto_em": "2026-09-12T11:07:16Z"
+   "visto_em": "2026-09-12T14:04:08Z"
   },
   "a79bead9-e221-402a-996b-e0fa4e2f8912": {
    "availability": "open",
-   "canais_na_categoria": 97,
+   "canais_na_categoria": 96,
    "canais_perguntados": 6,
    "canais_permitidos": 0,
    "canais_vistos": [
-    "lev_britvaaa",
     "shinyatheninja",
-    "lyesval",
-    "mainslimelive",
-    "brantorino",
-    "lizard__squad3__"
+    "lev_britvaaa",
+    "monkeyjet",
+    "ttv_quix_lapitx",
+    "ttv_maxou_officiel",
+    "brantorino"
    ],
    "channels": [],
    "descricao": "Live Update 1.42.0",
@@ -1473,18 +1638,20 @@
    "subs_necessarios": 0,
    "tipo_premio": "game",
    "vista_agora": true,
-   "visto_em": "2026-09-12T11:07:16Z"
+   "visto_em": "2026-09-12T14:04:08Z"
   },
   "a82abb82-628f-4df5-a2bb-5df8cc373983": {
    "availability": "open",
-   "canais_na_categoria": 4,
-   "canais_perguntados": 4,
+   "canais_na_categoria": 9,
+   "canais_perguntados": 6,
    "canais_permitidos": 0,
    "canais_vistos": [
     "mordredviking",
-    "masfielymejoramigo",
-    "j4msta",
-    "nieblacha"
+    "borderlinevibez",
+    "ghostsooo",
+    "becandyde",
+    "stupot44",
+    "ogata_mizuki"
    ],
    "channels": [],
    "descricao": "Watch for 15 minutes and claim the reward: Exploration Age Banner profile cosmetic!",
@@ -1516,7 +1683,7 @@
    "subs_necessarios": 0,
    "tipo_premio": "game",
    "vista_agora": true,
-   "visto_em": "2026-09-12T11:07:16Z"
+   "visto_em": "2026-09-12T14:04:08Z"
   },
   "aa82829e-9f3c-4572-a120-39d2eb36729b": {
    "availability": "open",
@@ -1524,12 +1691,12 @@
    "canais_perguntados": 6,
    "canais_permitidos": 0,
    "canais_vistos": [
-    "zrush",
-    "stodeh",
-    "kenki521",
-    "dannydanchou",
-    "smiiill",
-    "merpperoni"
+    "hutchmf",
+    "k4sen",
+    "recrent",
+    "berghy__",
+    "redstone_gamer_1",
+    "kazuuutv"
    ],
    "channels": [],
    "descricao": "This is WARDOGS. Celebrate the Closed Beta & Early Access launch and snag these exclusive chat badges by supporting your favourite WARDOGS streamers.",
@@ -1568,20 +1735,20 @@
    "subs_necessarios": 0,
    "tipo_premio": "badge",
    "vista_agora": true,
-   "visto_em": "2026-09-12T11:07:16Z"
+   "visto_em": "2026-09-12T14:04:08Z"
   },
   "ac5e786e-e9bf-49e9-a550-0b1f075a1818": {
    "availability": "open",
-   "canais_na_categoria": 97,
+   "canais_na_categoria": 100,
    "canais_perguntados": 6,
    "canais_permitidos": 0,
    "canais_vistos": [
     "singsing",
-    "tabula",
-    "yunocy",
-    "odaruu",
-    "neveresttt",
-    "young_blink_"
+    "peter",
+    "juice",
+    "ytnibzz",
+    "d4nt05",
+    "dada80502"
    ],
    "channels": [],
    "descricao": "This badge was earned by subscribing or gifting a sub to a streamer in the Onimusha: Way of the Sword category during the game launch!",
@@ -1613,20 +1780,20 @@
    "subs_necessarios": 1,
    "tipo_premio": "badge",
    "vista_agora": true,
-   "visto_em": "2026-09-12T11:07:16Z"
+   "visto_em": "2026-09-12T14:04:08Z"
   },
   "b6581084-0574-452c-9c00-d881d4fea78e": {
    "availability": "open",
-   "canais_na_categoria": 12,
+   "canais_na_categoria": 16,
    "canais_perguntados": 6,
    "canais_permitidos": 0,
    "canais_vistos": [
-    "genp",
+    "voidaspect220",
+    "celllie",
     "theharryn",
-    "moodehh",
-    "oldruin",
-    "shaharkami",
-    "kay2494"
+    "itscruzctrl",
+    "lee_sanguin",
+    "starterdungeon"
    ],
    "channels": [],
    "descricao": "Earning this reward is simple. You only need to link your IOI Account to your Twitch account and then watch a cumulative 1 hour of HITMAN World of Assassination on Twitch during the drop campaign dura",
@@ -1658,20 +1825,20 @@
    "subs_necessarios": 0,
    "tipo_premio": "game",
    "vista_agora": true,
-   "visto_em": "2026-09-12T11:07:16Z"
+   "visto_em": "2026-09-12T14:04:08Z"
   },
   "c7936644-f76f-4bc6-a540-a415a56c4712": {
    "availability": "open",
-   "canais_na_categoria": 47,
+   "canais_na_categoria": 85,
    "canais_perguntados": 6,
    "canais_permitidos": 0,
    "canais_vistos": [
-    "vstephv",
-    "reisvoid",
-    "yungnoct",
-    "xxfoxkitsunefoxx",
-    "cubepapa",
-    "barbiehashkiller"
+    "emii",
+    "caito",
+    "mionkokomo",
+    "xshay_",
+    "xitman_hukun",
+    "winterbeaaar"
    ],
    "channels": [],
    "descricao": "Watch Where Winds Meet on Twitch and Get Exclusive Rewards! \nStep1- Log in Your Where Winds Meet Account on https://www.wherewindsmeetgame.com/ \nStep2- Connect Your Twitch Account  \nStep3- Watch Where",
@@ -1738,19 +1905,19 @@
    "subs_necessarios": 0,
    "tipo_premio": "game",
    "vista_agora": true,
-   "visto_em": "2026-09-12T11:07:16Z"
+   "visto_em": "2026-09-12T14:04:08Z"
   },
   "de253dac-3f0e-4a55-8daf-432da97ef8da": {
    "availability": "open",
-   "canais_na_categoria": 95,
+   "canais_na_categoria": 96,
    "canais_perguntados": 6,
    "canais_permitidos": 0,
    "canais_vistos": [
+    "gocchanmikey",
     "shlorox",
-    "jack",
-    "diables",
-    "sugarock_jp",
-    "dayodayo_dayo",
+    "uhsnow",
+    "justerzx",
+    "vladislavscrd",
     "badgevault"
    ],
    "channels": [],
@@ -1783,20 +1950,20 @@
    "subs_necessarios": 1,
    "tipo_premio": "badge",
    "vista_agora": true,
-   "visto_em": "2026-09-12T11:07:16Z"
+   "visto_em": "2026-09-12T14:04:08Z"
   },
   "e0ed32bc-7ecb-451b-8b1a-7953847dcb72": {
    "availability": "open",
-   "canais_na_categoria": 34,
+   "canais_na_categoria": 41,
    "canais_perguntados": 6,
    "canais_permitidos": 0,
    "canais_vistos": [
-    "laila_valoria",
-    "hazard_dead",
-    "laryone",
-    "wandefull64",
-    "preparetofun",
-    "nayu_78"
+    "zacko87",
+    "anisunrise",
+    "korameronya",
+    "meekalul",
+    "playground1",
+    "horgaloten"
    ],
    "channels": [],
    "descricao": "Join the Arknights: Endfield Twitch Drops event and treat your community to exclusive rewards just for watching!",
@@ -1856,20 +2023,20 @@
    "subs_necessarios": 0,
    "tipo_premio": "game",
    "vista_agora": true,
-   "visto_em": "2026-09-12T11:07:16Z"
+   "visto_em": "2026-09-12T14:04:08Z"
   },
   "f6e63738-9f19-47e3-8336-9d31482e91ad": {
    "availability": "open",
-   "canais_na_categoria": 8,
+   "canais_na_categoria": 16,
    "canais_perguntados": 6,
    "canais_permitidos": 0,
    "canais_vistos": [
-    "adela_486",
-    "s1lrus__",
+    "juzu",
     "leifyval",
-    "billeway",
-    "tmpickletickle",
-    "sentinelcz184"
+    "s1lrus__",
+    "akku7070",
+    "kazvicks_2025",
+    "chemtrail36"
    ],
    "channels": [],
    "descricao": "Watch any FragPunk New Season streaming and keep an eye out for FragPunk rewards!",
@@ -1922,88 +2089,8 @@
    "subs_necessarios": 0,
    "tipo_premio": "game",
    "vista_agora": true,
-   "visto_em": "2026-09-12T11:07:16Z"
-  },
-  "f7a6a399-b258-4db6-abf9-c5bb1f0775c0": {
-   "availability": "open",
-   "canais_na_categoria": 99,
-   "canais_perguntados": 6,
-   "canais_permitidos": 0,
-   "canais_vistos": [
-    "streamerhouse",
-    "dunc",
-    "mee_shell",
-    "oasis102",
-    "hyperlilchux",
-    "ewok_nano"
-   ],
-   "channels": [],
-   "descricao": "To celebrate the launch of Cosmos, the latest free update to No Man's Sky, any No Man's Sky streamer with \"Drops Enabled\" during the weekend of 10th to 14th September will unlock in-game rewards for t",
-   "details_url": "https://twitch.nomanssky.com",
-   "dono": "Hello Games",
-   "end_at": "2026-09-12T12:59:59.999Z",
-   "game": "No Man's Sky",
-   "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/458781_IGDB-120x160.jpg",
-   "game_slug": "no-mans-sky",
-   "id": "f7a6a399-b258-4db6-abf9-c5bb1f0775c0",
-   "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a3049a3f-bf35-4a26-9e8b-512ca6289905.png",
-   "name": "Cosmos - Day 2",
-   "requer_sub": false,
-   "required_minutes": 15,
-   "resgate": "assistir 15 min",
-   "reward_type": "game",
-   "rewards": [
-    {
-     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/04afefd6-27c9-4ef6-a87f-4b46ea73ae44.png",
-     "minutes": 15,
-     "name": "Ship Parts Poster",
-     "subs": 0,
-     "type": "DIRECT_ENTITLEMENT"
-    },
-    {
-     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6a9d167b-ffcd-499c-b1ca-13b51f882643.png",
-     "minutes": 15,
-     "name": "Atlas Firework Pack",
-     "subs": 0,
-     "type": "DIRECT_ENTITLEMENT"
-    },
-    {
-     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/206c1c01-374d-4d56-b1d3-f0304c2a4183.png",
-     "minutes": 30,
-     "name": "Industrial Crane",
-     "subs": 0,
-     "type": "DIRECT_ENTITLEMENT"
-    },
-    {
-     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2210f71e-6579-4f39-acef-129c4de679f7.png",
-     "minutes": 60,
-     "name": "Liquidator Mech Right Arm",
-     "subs": 0,
-     "type": "DIRECT_ENTITLEMENT"
-    },
-    {
-     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ea55216b-fa59-4ef3-a145-9e3dcbdcac9b.png",
-     "minutes": 120,
-     "name": "A-Class Multi-Tool",
-     "subs": 0,
-     "type": "DIRECT_ENTITLEMENT"
-    },
-    {
-     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9533e7e0-8c18-4d29-abfd-5defdc2d94b0.png",
-     "minutes": 180,
-     "name": "A-Class Explorer",
-     "subs": 0,
-     "type": "DIRECT_ENTITLEMENT"
-    }
-   ],
-   "src": "twitch-gql",
-   "start_at": "2026-09-11T13:00:00Z",
-   "status": "ACTIVE",
-   "subs_necessarios": 0,
-   "tipo_premio": "game",
-   "vista_agora": true,
-   "visto_em": "2026-09-12T11:07:16Z"
+   "visto_em": "2026-09-12T14:04:08Z"
   }
  },
- "updated_at": "2026-09-12T11:07:16Z"
+ "updated_at": "2026-09-12T14:04:08Z"
 }
