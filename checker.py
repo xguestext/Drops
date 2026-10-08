@@ -74,8 +74,10 @@ UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) drops-radar/3.0"}
 
 # Quantas categorias no maximo se olha por rodada. Cada uma custa 1 chamada, e
 # as que tem canal com drop custam mais 6. Com 140 a rodada fica em ~2-4 min no
-# Actions, que roda de 10 em 10 min (na pratica 40-50).
-MAX_CATEGORIAS = 140
+# Actions, que roda de 10 em 10 min (na pratica 40-50). Subiu pra 200 em
+# 08/10/2026: os jogos anunciados (categorias_anunciadas) entraram na lista e,
+# com 140, o teto cortava as vigiadas mais antigas.
+MAX_CATEGORIAS = 200
 # Quantos canais se pergunta por categoria. 6 ja separa campanha aberta (aparece
 # em todos) de campanha de um canal so, sem multiplicar o custo.
 CANAIS_POR_CATEGORIA = 6
@@ -345,7 +347,41 @@ def _campanha_vazia(c, categoria, capa, slug):
     }
 
 
-def varrer():
+# Anuncios publicos de campanha (twitchdrops.app via gist): o MESMO arquivo que o
+# bot le pra mostrar o "em breve".
+ANUNCIOS_URL = ("https://gist.githubusercontent.com/zarmstrong/"
+                "72433778ae596815f4c6ff5e1d278cd2/raw/twitch-drops.json")
+
+
+def categorias_anunciadas(agora_iso):
+    """Jogos com campanha anunciada ABERTA a todos que ainda nao acabou.
+
+    So diz ONDE perguntar. Quem confirma continua sendo a Twitch, canal a canal,
+    com a mesma peneira de sempre: o anuncio nunca vira campanha publicada.
+
+    Por que (08/10/2026): o radar so olhava o topo, os streams com drop do topo e
+    quem ja tinha tido drop. Campanha nova de jogo pequeno ficava de fora ate
+    alguem grande transmitir: Vaultbreakers e Dragon's Dogma II abriram de tarde
+    e nao apareciam no site nem no painel, enquanto a coleta da Miviye ja mostrava
+    as duas. Ela acha porque tambem pergunta nas categorias que ja conhece por
+    outra fonte (a base de badges dela); aqui a fonte e o anuncio, que cobre
+    drop E badge.
+    """
+    d = fetch(ANUNCIOS_URL)
+    nomes = []
+    for g in d.get("games") or []:
+        jogo = (g.get("game") or "").strip()
+        if not jogo or jogo in nomes:
+            continue
+        for chave in ("campaigns", "upcoming_campaigns", "non_watch_campaigns"):
+            if any(c.get("all_channels") and (c.get("ends_at") or "9999") > agora_iso
+                   for c in g.get(chave) or []):
+                nomes.append(jogo)
+                break
+    return nomes
+
+
+def varrer(fora=None):
     """Varre a Twitch e devolve o material bruto ja agrupado por campanha."""
     erros = []
     vigiadas = carrega_vigiadas()
@@ -365,6 +401,11 @@ def varrer():
         junta([n for n, _v in tw.top_categorias(30)])
     except tw.ErroGQL as e:
         erros.append("categorias do topo: %s" % e)
+    # Jogo bloqueado no jogos-fora.txt nem e perguntado: sairia na peneira mesmo.
+    try:
+        junta([n for n in categorias_anunciadas(now_iso()) if not esta_fora(n, fora or [])])
+    except Exception as e:
+        erros.append("jogos anunciados: %s" % e)
     # As vigiadas entram por ultimo e da mais recente pra mais velha: se o teto
     # cortar alguem, corta quem ha mais tempo nao tem drop.
     junta([n for n, _q in sorted(vigiadas.items(), key=lambda kv: kv[1], reverse=True)])
@@ -541,8 +582,8 @@ def main():
         "error": None, "warn": None, "raw_hint": None,
     }
 
-    col = varrer()
     fora = carrega_fora()
+    col = varrer(fora)
     pen = peneirar(col["campanhas"], fora)
     publicadas = pen["abertas"] + pen["badges_abertas"]
     vistas_agora = len(publicadas)

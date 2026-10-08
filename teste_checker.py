@@ -336,12 +336,13 @@ def _com_twitch_fingida(respostas_por_canal, corpo):
     """Roda main() com a Twitch trocada por respostas fixas; devolve o feed."""
     orig = (tw.top_categorias, tw.categorias_quentes, tw.categoria_com_canais, tw.campanhas_do_canal,
             checker.write, checker.carrega_badges, checker.carrega_fora,
-            checker.CONHECIDAS_ARQ, checker.VIGIADAS_ARQ)
+            checker.CONHECIDAS_ARQ, checker.VIGIADAS_ARQ, checker.categorias_anunciadas)
     saida = {}
     with tempfile.TemporaryDirectory() as tmp:
         try:
             tw.top_categorias = lambda n=30: [("Jogo", 10)]
             tw.categorias_quentes = lambda: []
+            checker.categorias_anunciadas = lambda agora_iso: []
             tw.categoria_com_canais = lambda nome, limite=100: {
                 "id": "1", "nome": nome, "slug": "j", "capa": "c.jpg", "viewers": 10,
                 "canais": [("i%d" % i, "c%d" % i, 10 - i) for i in range(len(respostas_por_canal))]}
@@ -361,8 +362,72 @@ def _com_twitch_fingida(respostas_por_canal, corpo):
         finally:
             (tw.top_categorias, tw.categorias_quentes, tw.categoria_com_canais, tw.campanhas_do_canal,
              checker.write, checker.carrega_badges, checker.carrega_fora,
-             checker.CONHECIDAS_ARQ, checker.VIGIADAS_ARQ) = orig
+             checker.CONHECIDAS_ARQ, checker.VIGIADAS_ARQ, checker.categorias_anunciadas) = orig
     return saida
+
+
+def teste_jogos_anunciados():
+    """08/10/2026: Vaultbreakers e Dragon's Dogma II abertas e fora do radar."""
+    print("jogos anunciados viram categoria pra perguntar")
+    gist = {"games": [
+        {"game": "Vaultbreakers", "campaigns": [
+            {"all_channels": True, "ends_at": "2026-11-05T16:59:59.999000+00:00"}]},
+        {"game": "So Convidados", "campaigns": [
+            {"all_channels": False, "ends_at": "2026-11-05T16:59:59.999000+00:00"}]},
+        {"game": "Ja Acabou", "campaigns": [
+            {"all_channels": True, "ends_at": "2026-10-01T00:00:00.000000+00:00"}]},
+        {"game": "Dark and Darker", "upcoming_campaigns": [
+            {"all_channels": True, "ends_at": "2026-10-20T00:00:00.000000+00:00"}]},
+        {"game": "Sub Badge", "non_watch_campaigns": [
+            {"all_channels": True, "ends_at": None}]},
+        {"game": "Black Desert", "campaigns": [
+            {"all_channels": True, "ends_at": "2026-11-05T16:59:59.999000+00:00"}]},
+    ]}
+    original = checker.fetch
+    checker.fetch = lambda url, as_json=True: gist
+    try:
+        nomes = checker.categorias_anunciadas("2026-10-08T20:00:00Z")
+    finally:
+        checker.fetch = original
+    checa("so aberta e viva (ativa, em breve e por sub)",
+          nomes == ["Vaultbreakers", "Dark and Darker", "Sub Badge", "Black Desert"], nomes)
+
+    perguntadas = []
+    orig = (tw.top_categorias, tw.categorias_quentes, tw.categoria_com_canais,
+            checker.categorias_anunciadas, checker.VIGIADAS_ARQ)
+    with tempfile.TemporaryDirectory() as tmp:
+        try:
+            tw.top_categorias = lambda n=30: [("Just Chatting", 10)]
+            tw.categorias_quentes = lambda: []
+            checker.categorias_anunciadas = lambda agora_iso: ["Vaultbreakers", "Black Desert Online"]
+            checker.VIGIADAS_ARQ = os.path.join(tmp, "vigiadas.json")
+            tw.categoria_com_canais = lambda nome, limite=100: perguntadas.append(nome)
+            col = checker.varrer(["blackdesert"])
+        finally:
+            (tw.top_categorias, tw.categorias_quentes, tw.categoria_com_canais,
+             checker.categorias_anunciadas, checker.VIGIADAS_ARQ) = orig
+    checa("pergunta a categoria anunciada", "Vaultbreakers" in perguntadas, perguntadas)
+    checa("jogo do jogos-fora nem e perguntado", "Black Desert Online" not in perguntadas, perguntadas)
+    checa("topo continua sendo perguntado", "Just Chatting" in perguntadas, perguntadas)
+
+    def quebra(agora_iso):
+        raise ValueError("gist fora do ar")
+    orig = (tw.top_categorias, tw.categorias_quentes, tw.categoria_com_canais,
+            checker.categorias_anunciadas, checker.VIGIADAS_ARQ)
+    perguntadas.clear()
+    with tempfile.TemporaryDirectory() as tmp:
+        try:
+            tw.top_categorias = lambda n=30: [("Just Chatting", 10)]
+            tw.categorias_quentes = lambda: []
+            checker.categorias_anunciadas = quebra
+            checker.VIGIADAS_ARQ = os.path.join(tmp, "vigiadas.json")
+            tw.categoria_com_canais = lambda nome, limite=100: perguntadas.append(nome)
+            col = checker.varrer([])
+        finally:
+            (tw.top_categorias, tw.categorias_quentes, tw.categoria_com_canais,
+             checker.categorias_anunciadas, checker.VIGIADAS_ARQ) = orig
+    checa("anuncio fora do ar nao derruba a rodada", perguntadas == ["Just Chatting"], perguntadas)
+    checa("e vira aviso", any("anunciados" in e for e in col["erros"]), col["erros"])
 
 
 def teste_rodada_inteira():
@@ -428,6 +493,7 @@ def main():
     teste_coletar_nao_quebrou_o_alerta()
     teste_rodada_inteira()
     teste_rodada_morta_nao_finge_saude()
+    teste_jogos_anunciados()
     if "--ao-vivo" in sys.argv:
         testes_ao_vivo()
     print()
