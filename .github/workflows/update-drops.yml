@@ -17,6 +17,12 @@ on:
       - "twitch_gql.py"        # o cliente da GQL da Twitch e parte do coletor
       - ".github/workflows/update-drops.yml"
   workflow_dispatch: {}       # botão "Run workflow" pra rodar na hora
+  # O pedido de 15 em 15 min do bot (bot/radar_disparo.py). Este evento so
+  # precisa de "Contents: write" no token, que o sync do jogos-fora ja usa; o
+  # workflow_dispatch pede "Actions: write" e levava 403 — o radar ficava preso
+  # no cron, de 7 em 7 h (03/11/2026: o drop do Enshrouded abriu e nao apareceu).
+  repository_dispatch:
+    types: [rodar-radar]
 
 permissions:
   contents: write
