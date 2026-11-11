@@ -1,8 +1,8 @@
 {
- "updated_at": "2026-11-11T13:04:34Z",
+ "updated_at": "2026-11-11T13:20:32Z",
  "ok": true,
  "source": "twitch-gql",
- "source_updated": "2026-11-11T13:04:34Z",
+ "source_updated": "2026-11-11T13:20:32Z",
  "counts": {
   "total": 36,
   "upcoming": 0,
@@ -15,9 +15,9 @@
   "badges_de_canal": 1,
   "so_sub": 3,
   "sem_permissao_info": 0,
-  "fora_da_lista": 12,
-  "categorias_olhadas": 150,
-  "categorias_com_drop": 76,
+  "fora_da_lista": 10,
+  "categorias_olhadas": 149,
+  "categorias_com_drop": 73,
   "canais_perguntados": 247,
   "vistas_agora": 31,
   "lembradas": 0
@@ -84,18 +84,17 @@
    "descricao": "V3.3 Zenless Zone Zero",
    "src": "twitch-gql",
    "canais_vistos": [
-    "olezha27",
     "sereja_gl1n",
     "narutsuuu",
+    "sword_tv_",
     "maronanunya",
     "cleandagger",
-    "pyrexchan",
-    "raugh1103"
+    "drakonthanatoshoard"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 90,
+   "canais_na_categoria": 89,
    "vista_agora": true,
-   "visto_em": "2026-11-11T13:04:34Z"
+   "visto_em": "2026-11-11T13:20:32Z"
   },
   {
    "id": "68a2b071-2498-49ed-8c68-8873534841ea",
@@ -169,13 +168,13 @@
     "dropbadges",
     "bulletthekrazygamer",
     "jeannezplainleq",
-    "kaelon00",
-    "blatarak_"
+    "miobarbatos",
+    "engedoras"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 73,
+   "canais_na_categoria": 75,
    "vista_agora": true,
-   "visto_em": "2026-11-11T13:04:34Z"
+   "visto_em": "2026-11-11T13:20:32Z"
   },
   {
    "id": "853eaf12-2ecb-446c-b382-717c278f8af2",
@@ -238,17 +237,17 @@
    "descricao": "Join the Arknights: Endfield Twitch Drops event and treat your community to exclusive rewards just for watching!",
    "src": "twitch-gql",
    "canais_vistos": [
-    "minosura",
     "libardonii",
     "baaatoru",
+    "yoharuyuji",
+    "mitorigaming",
     "kimura1001",
-    "narazag",
-    "rengu4704"
+    "narazag"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 27,
+   "canais_na_categoria": 29,
    "vista_agora": true,
-   "visto_em": "2026-11-11T13:04:34Z"
+   "visto_em": "2026-11-11T13:20:32Z"
   },
   {
    "id": "98f17628-ca8f-431d-9779-f898645b03d3",
@@ -318,17 +317,17 @@
    "descricao": "Watch Where Winds Meet on Twitch and Get Exclusive Rewards! \nStep1- Log in Your Where Winds Meet Account on https://www.wherewindsmeetgame.com/ \nStep2- Connect Your Twitch Account  \nStep3- Watch Where",
    "src": "twitch-gql",
    "canais_vistos": [
-    "mewmiyu",
     "mirukuforce",
+    "wnpuc",
     "yuni",
-    "sbgworkshop",
-    "jc6nine",
-    "barksdalejr689"
+    "cubepapa",
+    "barksdalejr689",
+    "nycwebheadx"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 46,
+   "canais_na_categoria": 52,
    "vista_agora": true,
-   "visto_em": "2026-11-11T13:04:34Z"
+   "visto_em": "2026-11-11T13:20:32Z"
   },
   {
    "id": "437a3bed-7c38-4136-91e3-04cc9ce618b5",
@@ -379,15 +378,15 @@
    "canais_vistos": [
     "clutchmeister",
     "dailydoseofrose",
-    "camdamp",
+    "vainatau",
     "lukaskywalker67",
     "nobutalent",
     "cdjgibbo"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 21,
+   "canais_na_categoria": 25,
    "vista_agora": true,
-   "visto_em": "2026-11-11T13:04:34Z"
+   "visto_em": "2026-11-11T13:20:32Z"
   },
   {
    "id": "cc721e50-8eae-4210-9a71-d7d0817fb82e",
@@ -438,15 +437,15 @@
    "canais_vistos": [
     "huskypuppies35",
     "ralex_ita_",
-    "crazy_songyy",
+    "aklasbr",
+    "xinfamis666x",
     "onionigiriii",
-    "nevrgivup72",
     "diegotteok"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 11,
+   "canais_na_categoria": 10,
    "vista_agora": true,
-   "visto_em": "2026-11-11T13:04:34Z"
+   "visto_em": "2026-11-11T13:20:32Z"
   },
   {
    "availability": "open",
@@ -613,12 +612,13 @@
    "src": "twitch-gql",
    "canais_vistos": [
     "icoffee_",
-    "gabepprestes"
+    "gabepprestes",
+    "andyashesgb"
    ],
-   "canais_perguntados": 2,
-   "canais_na_categoria": 2,
+   "canais_perguntados": 3,
+   "canais_na_categoria": 3,
    "vista_agora": true,
-   "visto_em": "2026-11-11T13:04:34Z"
+   "visto_em": "2026-11-11T13:20:32Z"
   },
   {
    "id": "0bfcc7fb-d3e0-4718-9098-9e58c44b9c49",
@@ -656,14 +656,14 @@
     "absoluteforcetv",
     "mark5man71",
     "naderiaplays",
+    "runzombies1989",
     "lukaszekepl",
-    "gamerpro34nobbi",
-    "vicelive27"
+    "gamerpro34nobbi"
    ],
    "canais_perguntados": 6,
    "canais_na_categoria": 10,
    "vista_agora": true,
-   "visto_em": "2026-11-11T13:04:34Z"
+   "visto_em": "2026-11-11T13:20:32Z"
   },
   {
    "availability": "open",
@@ -762,14 +762,14 @@
     "royalewithcheesetv",
     "girlfromict",
     "akumaspkplayer26",
-    "galaxyphxttv",
-    "grimr33ferreaper",
-    "claudialhamazaki"
+    "duckionator",
+    "sapphire_vixen_tt",
+    "panda_grut"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 98,
+   "canais_na_categoria": 99,
    "vista_agora": true,
-   "visto_em": "2026-11-11T13:04:34Z"
+   "visto_em": "2026-11-11T13:20:32Z"
   },
   {
    "availability": "open",
@@ -904,12 +904,13 @@
     "maj0rh",
     "denizolcay56",
     "steiny94",
+    "setokaibuh",
     "bearfire"
    ],
-   "canais_perguntados": 5,
-   "canais_na_categoria": 5,
+   "canais_perguntados": 6,
+   "canais_na_categoria": 6,
    "vista_agora": true,
-   "visto_em": "2026-11-11T13:04:34Z"
+   "visto_em": "2026-11-11T13:20:32Z"
   },
   {
    "id": "df576175-0f22-467e-8ba7-955603a16567",
@@ -946,15 +947,15 @@
    "canais_vistos": [
     "lazydata",
     "malevile",
-    "ollessa",
+    "oncle_s_a_m",
+    "killerdog33",
     "paralyticforce",
-    "kombuchaklubtv",
-    "killerdog33"
+    "kombuchaklubtv"
    ],
    "canais_perguntados": 6,
    "canais_na_categoria": 13,
    "vista_agora": true,
-   "visto_em": "2026-11-11T13:04:34Z"
+   "visto_em": "2026-11-11T13:20:32Z"
   },
   {
    "id": "c4ce70e7-0f5e-48e6-9cc0-e71272244966",
@@ -1004,16 +1005,16 @@
    "src": "twitch-gql",
    "canais_vistos": [
     "eutaylorindo",
-    "lynkeez_",
+    "rawgain_",
     "frumppytv",
-    "kingkay_x",
-    "tadeo92837",
-    "itsyaboybluee"
+    "itsyaboybluee",
+    "lordcatsmaster",
+    "queenberlyi"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 28,
+   "canais_na_categoria": 30,
    "vista_agora": true,
-   "visto_em": "2026-11-11T13:04:34Z"
+   "visto_em": "2026-11-11T13:20:32Z"
   },
   {
    "id": "96bdfce5-e774-457f-aa8f-f693144ee50f",
@@ -1055,17 +1056,17 @@
    "descricao": "Watch 2 Hours: Sacred Scarab / Eye of Ra - Watch 4 Hours: Builder's Obelisk",
    "src": "twitch-gql",
    "canais_vistos": [
+    "pirolino1966",
     "gimiccc",
-    "mayllone_",
-    "achturban",
+    "sixteenbitninja",
+    "babemagus",
     "derschneewolf",
-    "pedrobertott",
-    "nytmare_95"
+    "pedrobertott"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 19,
+   "canais_na_categoria": 18,
    "vista_agora": true,
-   "visto_em": "2026-11-11T13:04:34Z"
+   "visto_em": "2026-11-11T13:20:32Z"
   },
   {
    "id": "20ad1ac0-78f4-4e4f-aadf-e59d8840b295",
@@ -1138,14 +1139,14 @@
     "limmy",
     "cassies_turtlepod",
     "giianiinaa98",
-    "mumei_shingetsu",
-    "sinhizuki",
-    "oppositaman"
+    "minazuki_mikoto",
+    "ty_f0xy_22",
+    "redfelld"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 97,
+   "canais_na_categoria": 99,
    "vista_agora": true,
-   "visto_em": "2026-11-11T13:04:34Z"
+   "visto_em": "2026-11-11T13:20:32Z"
   },
   {
    "id": "f2d96e03-08ba-40b3-a0e6-05e02ce1c039",
@@ -1211,14 +1212,14 @@
     "streamerhouse",
     "gcrock6",
     "lanza",
-    "dlorac_",
-    "mbg05mbg",
-    "ultimatenzo13"
+    "nsr_neo",
+    "dr1ryu0",
+    "dlorac_"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 98,
+   "canais_na_categoria": 100,
    "vista_agora": true,
-   "visto_em": "2026-11-11T13:04:34Z"
+   "visto_em": "2026-11-11T13:20:32Z"
   },
   {
    "id": "d6a79a3e-fd63-43ed-906d-3a8443cd8184",
@@ -1305,14 +1306,14 @@
     "cozygamingcave_",
     "mukadelavega",
     "t3rrakosai",
-    "kehvn86",
-    "starra2006",
-    "ovecchietti"
+    "oofpoof37",
+    "kykylor",
+    "tbyrdsworld"
    ],
    "canais_perguntados": 6,
    "canais_na_categoria": 25,
    "vista_agora": true,
-   "visto_em": "2026-11-11T13:04:34Z"
+   "visto_em": "2026-11-11T13:20:32Z"
   },
   {
    "id": "fab904fd-96c0-4b4c-8775-d2cb829f4563",
@@ -1414,13 +1415,13 @@
     "fanfan",
     "wakayashi",
     "fenrir_fen_",
-    "orto_die_locke92",
-    "m4n4f1"
+    "mrsweetysuit",
+    "dreamingdragontv"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 99,
+   "canais_na_categoria": 100,
    "vista_agora": true,
-   "visto_em": "2026-11-11T13:04:34Z"
+   "visto_em": "2026-11-11T13:20:32Z"
   },
   {
    "id": "3fbad26b-3224-4246-ad9d-0a2c56e39d2b",
@@ -1476,154 +1477,155 @@
    "descricao": "Celebrate the 4th Anniversary of GODDESS OF VICTORY: NIKKE with Twitch Drops!\nFrom October 29 to November 18, 2026 (UTC+9), watch Drops-enabled streams in the GODDESS OF VICTORY: NIKKE category to ear",
    "src": "twitch-gql",
    "canais_vistos": [
-    "c0mander73",
     "pontadays",
+    "lyynn_e",
     "karadestare",
-    "muffin2dolphin",
-    "onkarian",
-    "kuroseyuran"
+    "gashio_gs",
+    "shirase_suu",
+    "muffin2dolphin"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 25,
+   "canais_na_categoria": 20,
    "vista_agora": true,
-   "visto_em": "2026-11-11T13:04:34Z"
+   "visto_em": "2026-11-11T13:20:32Z"
   },
   {
-   "id": "69f32da3-7abf-4716-b051-085a879cb112",
-   "name": "UNO! Mobile Twitch Drops",
-   "status": "ACTIVE",
-   "start_at": "2026-10-22T00:00:00Z",
-   "end_at": "2026-11-18T23:59:59.999Z",
-   "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/50cd713b-6484-4c9d-8c53-bfd1c059f924.jpeg",
-   "details_url": "https://uno.mattel163.com/twitchdrops",
-   "game": "UNO! Mobile",
-   "game_slug": "uno-mobile",
-   "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/869745621_IGDB-120x160.jpg",
    "availability": "open",
-   "channels": [],
+   "canais_na_categoria": 1,
+   "canais_perguntados": 1,
    "canais_permitidos": 0,
-   "required_minutes": 15,
-   "requer_sub": false,
-   "subs_necessarios": 0,
-   "resgate": "assistir 15 min",
-   "reward_type": "game",
-   "tipo_premio": "game",
-   "rewards": [
-    {
-     "name": "300 Coins",
-     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/db3b989a-e047-48d0-b673-f40f8a8975f1.png",
-     "minutes": 15,
-     "type": "DIRECT_ENTITLEMENT",
-     "subs": 0
-    },
-    {
-     "name": "500 Coins",
-     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/60e70130-825a-4d92-8b13-a9c6a2da63bf.png",
-     "minutes": 30,
-     "type": "DIRECT_ENTITLEMENT",
-     "subs": 0
-    },
-    {
-     "name": "10 Diamonds",
-     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/35b0893b-1c8e-4786-ae6c-715fa86edcb2.png",
-     "minutes": 45,
-     "type": "DIRECT_ENTITLEMENT",
-     "subs": 0
-    },
-    {
-     "name": "20 Diamonds",
-     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/86761851-4e19-4bc6-bc24-9f9757492f94.png",
-     "minutes": 60,
-     "type": "DIRECT_ENTITLEMENT",
-     "subs": 0
-    },
-    {
-     "name": "UCS Avatar Frame (30-Day)",
-     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/746ab40d-5461-4c67-aced-baa7b30c172d.png",
-     "minutes": 90,
-     "type": "DIRECT_ENTITLEMENT",
-     "subs": 0
-    },
-    {
-     "name": "UCS Deck (7-Day Trial)",
-     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/46a4257b-8ccf-47e2-ae79-6f5fd5861342.png",
-     "minutes": 120,
-     "type": "DIRECT_ENTITLEMENT",
-     "subs": 0
-    }
-   ],
-   "dono": "Mattel163",
-   "descricao": "UNO Championship Series is now playable in UNO! Mobile!",
-   "src": "twitch-gql",
    "canais_vistos": [
     "lauraaa1243"
    ],
-   "canais_perguntados": 1,
-   "canais_na_categoria": 1,
-   "vista_agora": true,
-   "visto_em": "2026-11-11T13:04:34Z"
-  },
-  {
-   "availability": "open",
-   "canais_na_categoria": 99,
-   "canais_perguntados": 6,
-   "canais_permitidos": 0,
-   "canais_vistos": [
-    "37918",
-    "ayodocta"
-   ],
    "channels": [],
-   "descricao": "Watch 120 mins to get all 4 paintjobs for Quadra Turbo-R V-Tech!",
-   "details_url": "https://cyberpunk.net/twitch-drops",
-   "dono": "CD PROJEKT RED",
-   "end_at": "2026-11-19T09:59:59.999Z",
-   "game": "Cyberpunk 2077",
-   "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/65876-120x160.jpg",
-   "game_slug": "cyberpunk-2077",
-   "id": "17de3088-e3f3-423d-aa84-101002ac41df",
-   "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/eed6260a-3316-484c-b57e-3648ded3d594.jpeg",
-   "name": "Quadra Paintjobs",
+   "descricao": "UNO Championship Series is now playable in UNO! Mobile!",
+   "details_url": "https://uno.mattel163.com/twitchdrops",
+   "dono": "Mattel163",
+   "end_at": "2026-11-18T23:59:59.999Z",
+   "game": "UNO! Mobile",
+   "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/869745621_IGDB-120x160.jpg",
+   "game_slug": "uno-mobile",
+   "id": "69f32da3-7abf-4716-b051-085a879cb112",
+   "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/50cd713b-6484-4c9d-8c53-bfd1c059f924.jpeg",
+   "name": "UNO! Mobile Twitch Drops",
    "requer_sub": false,
-   "required_minutes": 120,
-   "resgate": "assistir 2h",
+   "required_minutes": 15,
+   "resgate": "assistir 15 min",
    "reward_type": "game",
    "rewards": [
     {
-     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/60432b12-7384-409b-b7d1-7a045d875563.png",
-     "minutes": 120,
-     "name": "Short-Fuse Neon",
+     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/db3b989a-e047-48d0-b673-f40f8a8975f1.png",
+     "minutes": 15,
+     "name": "300 Coins",
      "subs": 0,
      "type": "DIRECT_ENTITLEMENT"
     },
     {
-     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/12ba580c-0037-4b03-9fa2-d9d330b96b7f.png",
-     "minutes": 120,
-     "name": "Tactical Warning",
+     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/60e70130-825a-4d92-8b13-a9c6a2da63bf.png",
+     "minutes": 30,
+     "name": "500 Coins",
      "subs": 0,
      "type": "DIRECT_ENTITLEMENT"
     },
     {
-     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/65093c7b-c36d-499f-aa9b-96c6986de71f.png",
-     "minutes": 120,
-     "name": "Road Scar",
+     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/35b0893b-1c8e-4786-ae6c-715fa86edcb2.png",
+     "minutes": 45,
+     "name": "10 Diamonds",
      "subs": 0,
      "type": "DIRECT_ENTITLEMENT"
     },
     {
-     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5681470d-bbae-456a-948b-f880c17bf573.png",
+     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/86761851-4e19-4bc6-bc24-9f9757492f94.png",
+     "minutes": 60,
+     "name": "20 Diamonds",
+     "subs": 0,
+     "type": "DIRECT_ENTITLEMENT"
+    },
+    {
+     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/746ab40d-5461-4c67-aced-baa7b30c172d.png",
+     "minutes": 90,
+     "name": "UCS Avatar Frame (30-Day)",
+     "subs": 0,
+     "type": "DIRECT_ENTITLEMENT"
+    },
+    {
+     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/46a4257b-8ccf-47e2-ae79-6f5fd5861342.png",
      "minutes": 120,
-     "name": "Dazzling Encore",
+     "name": "UCS Deck (7-Day Trial)",
      "subs": 0,
      "type": "DIRECT_ENTITLEMENT"
     }
    ],
    "src": "twitch-gql",
-   "start_at": "2026-10-22T10:00:00Z",
+   "start_at": "2026-10-22T00:00:00Z",
    "status": "ACTIVE",
    "subs_necessarios": 0,
    "tipo_premio": "game",
    "vista_agora": false,
-   "visto_em": "2026-11-11T12:48:26Z"
+   "visto_em": "2026-11-11T13:04:34Z"
+  },
+  {
+   "id": "17de3088-e3f3-423d-aa84-101002ac41df",
+   "name": "Quadra Paintjobs",
+   "status": "ACTIVE",
+   "start_at": "2026-10-22T10:00:00Z",
+   "end_at": "2026-11-19T09:59:59.999Z",
+   "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/eed6260a-3316-484c-b57e-3648ded3d594.jpeg",
+   "details_url": "https://cyberpunk.net/twitch-drops",
+   "game": "Cyberpunk 2077",
+   "game_slug": "cyberpunk-2077",
+   "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/65876-120x160.jpg",
+   "availability": "open",
+   "channels": [],
+   "canais_permitidos": 0,
+   "required_minutes": 120,
+   "requer_sub": false,
+   "subs_necessarios": 0,
+   "resgate": "assistir 2h",
+   "reward_type": "game",
+   "tipo_premio": "game",
+   "rewards": [
+    {
+     "name": "Short-Fuse Neon",
+     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/60432b12-7384-409b-b7d1-7a045d875563.png",
+     "minutes": 120,
+     "type": "DIRECT_ENTITLEMENT",
+     "subs": 0
+    },
+    {
+     "name": "Tactical Warning",
+     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/12ba580c-0037-4b03-9fa2-d9d330b96b7f.png",
+     "minutes": 120,
+     "type": "DIRECT_ENTITLEMENT",
+     "subs": 0
+    },
+    {
+     "name": "Road Scar",
+     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/65093c7b-c36d-499f-aa9b-96c6986de71f.png",
+     "minutes": 120,
+     "type": "DIRECT_ENTITLEMENT",
+     "subs": 0
+    },
+    {
+     "name": "Dazzling Encore",
+     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5681470d-bbae-456a-948b-f880c17bf573.png",
+     "minutes": 120,
+     "type": "DIRECT_ENTITLEMENT",
+     "subs": 0
+    }
+   ],
+   "dono": "CD PROJEKT RED",
+   "descricao": "Watch 120 mins to get all 4 paintjobs for Quadra Turbo-R V-Tech!",
+   "src": "twitch-gql",
+   "canais_vistos": [
+    "tcr_beta",
+    "hermitsquirtle",
+    "mandaanga"
+   ],
+   "canais_perguntados": 6,
+   "canais_na_categoria": 97,
+   "vista_agora": true,
+   "visto_em": "2026-11-11T13:20:32Z"
   },
   {
    "id": "d31f0a01-c61e-4170-bf68-60c9132efaaf",
@@ -1668,14 +1670,14 @@
     "kate",
     "t1nksy",
     "calmcaleb",
-    "waka1985",
-    "zetravoltex",
+    "misseprincessedu12",
+    "tokwaxiv",
     "marrnoji"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 42,
+   "canais_na_categoria": 48,
    "vista_agora": true,
-   "visto_em": "2026-11-11T13:04:34Z"
+   "visto_em": "2026-11-11T13:20:32Z"
   },
   {
    "availability": "open",
@@ -1778,17 +1780,17 @@
    "descricao": "Watch any FragPunk Farlands streaming and keep an eye out for FragPunk rewards!",
    "src": "twitch-gql",
    "canais_vistos": [
-    "misslostydevil",
     "leifyval",
-    "velqtt",
-    "tendon_900yen",
-    "yousefalf33_2",
+    "grustim_life",
+    "miststueck90",
+    "lzy1_",
+    "einsamerwolf14",
     "xcaptainsygx"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 12,
+   "canais_na_categoria": 14,
    "vista_agora": true,
-   "visto_em": "2026-11-11T13:04:34Z"
+   "visto_em": "2026-11-11T13:20:32Z"
   },
   {
    "id": "a013ca5d-a41b-4ead-a282-c78f6c2c3183",
@@ -1866,9 +1868,9 @@
     "bellamyvtuber"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 7,
+   "canais_na_categoria": 8,
    "vista_agora": true,
-   "visto_em": "2026-11-11T13:04:34Z"
+   "visto_em": "2026-11-11T13:20:32Z"
   },
   {
    "id": "2cc95940-886e-42a2-9dee-23269cabfa47",
@@ -1919,15 +1921,15 @@
    "canais_vistos": [
     "migmh",
     "isyourlulu",
-    "lazyr1co",
-    "rikooidns",
+    "apatti0714",
+    "malice_mischief",
     "ovidiusblack625",
-    "malice_mischief"
+    "amiralborsalino"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 19,
+   "canais_na_categoria": 22,
    "vista_agora": true,
-   "visto_em": "2026-11-11T13:04:34Z"
+   "visto_em": "2026-11-11T13:20:32Z"
   },
   {
    "id": "94263f50-6ae7-45a8-bd72-5f612c5b1243",
@@ -1991,8 +1993,8 @@
    "src": "twitch-gql",
    "canais_vistos": [
     "takahasi_sun",
-    "noranekokuro0105",
     "ice_s2__",
+    "noranekokuro0105",
     "sasimi29twitch",
     "kazukku",
     "bakajinsventure"
@@ -2000,7 +2002,7 @@
    "canais_perguntados": 6,
    "canais_na_categoria": 11,
    "vista_agora": true,
-   "visto_em": "2026-11-11T13:04:34Z"
+   "visto_em": "2026-11-11T13:20:32Z"
   },
   {
    "id": "a0e134ff-e391-46bc-9ac6-0b1b2c826795",
@@ -2043,16 +2045,16 @@
    "src": "twitch-gql",
    "canais_vistos": [
     "swagg",
+    "skyrroztv",
     "enkeo_",
-    "zyro",
-    "lasauvagerietv1",
-    "c0zzed",
-    "1reverser"
+    "mamadisim0o",
+    "ajanelley",
+    "pebbles216"
    ],
    "canais_perguntados": 6,
    "canais_na_categoria": 99,
    "vista_agora": true,
-   "visto_em": "2026-11-11T13:04:34Z"
+   "visto_em": "2026-11-11T13:20:32Z"
   },
   {
    "id": "a0a98fc0-ccc4-435c-bff4-877b5dc33902",
@@ -2118,14 +2120,14 @@
     "failverde",
     "wtf_winds123",
     "mrpokke",
-    "mr_henry945",
-    "babypinachan",
-    "jackieakaneko"
+    "aemeth_nebula",
+    "afntv",
+    "alina_marcorn"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 98,
+   "canais_na_categoria": 93,
    "vista_agora": true,
-   "visto_em": "2026-11-11T13:04:34Z"
+   "visto_em": "2026-11-11T13:20:32Z"
   },
   {
    "id": "556b21e6-9e53-471e-ad40-730910c6c6f5",
@@ -2160,15 +2162,15 @@
    "descricao": "Watch the 2026 League of Legends World Championship to unlock your favorite bands' chat badges on Twitch!",
    "src": "twitch-gql",
    "canais_vistos": [
-    "k4sen",
-    "247loltyler1",
-    "ruhasg",
-    "yahimox"
+    "ceros127",
+    "leonieflive",
+    "meat_66",
+    "peppeloc0"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 92,
+   "canais_na_categoria": 97,
    "vista_agora": true,
-   "visto_em": "2026-11-11T13:04:34Z"
+   "visto_em": "2026-11-11T13:20:32Z"
   },
   {
    "id": "8fbafdec-31ee-4878-a9ca-9ebbe07ca74d",
@@ -2204,16 +2206,16 @@
    "src": "twitch-gql",
    "canais_vistos": [
     "deadp47_",
-    "aurateur",
     "reidboyy",
-    "royceshotcha",
-    "abzeichenfinder",
-    "0tyryrygames0"
+    "parasite",
+    "lyrica_ttv",
+    "yuzu_no_ha",
+    "gplaytv2"
    ],
    "canais_perguntados": 6,
    "canais_na_categoria": 95,
    "vista_agora": true,
-   "visto_em": "2026-11-11T13:04:34Z"
+   "visto_em": "2026-11-11T13:20:32Z"
   },
   {
    "id": "a9c2f298-5a53-439a-9a8c-41b4d88937e1",
@@ -2250,15 +2252,12 @@
    "canais_vistos": [
     "lunateac",
     "eternityforcetv",
-    "ririmochi_",
-    "tesr_",
-    "lizzyyyaaa",
-    "hvk_oro"
+    "ririmochi_"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 98,
+   "canais_na_categoria": 97,
    "vista_agora": true,
-   "visto_em": "2026-11-11T13:04:34Z"
+   "visto_em": "2026-11-11T13:20:32Z"
   },
   {
    "id": "7fd0b5de-69c5-4f30-924e-59adaa29a362",
@@ -2317,14 +2316,14 @@
     "diables",
     "nieuczesana",
     "badgetracker",
+    "r8y1",
     "dacetv1",
-    "t3xn1k",
-    "badgesf2p"
+    "t3xn1k"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 51,
+   "canais_na_categoria": 50,
    "vista_agora": true,
-   "visto_em": "2026-11-11T13:04:34Z"
+   "visto_em": "2026-11-11T13:20:32Z"
   },
   {
    "id": "882ccb61-0d4c-4fe6-a5c5-3156e8a033ab",
@@ -2362,14 +2361,14 @@
     "dunkorslam",
     "romainjacques_",
     "zoodle",
-    "rzem_myk",
-    "cold_fire_117",
-    "ban_ka10"
+    "baconbootsbronco",
+    "kakiottv",
+    "dankku003"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 96,
+   "canais_na_categoria": 99,
    "vista_agora": true,
-   "visto_em": "2026-11-11T13:04:34Z"
+   "visto_em": "2026-11-11T13:20:32Z"
   }
  ],
  "badges": [
@@ -2398,6 +2397,6 @@
   }
  ],
  "error": null,
- "warn": "Tropecos na varredura: canal handofblood: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal peereira7: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal r20cs: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal charlle05: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]",
+ "warn": "Tropecos na varredura: canal peereira7: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal handofblood: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal riza: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal lowyyy95: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]",
  "raw_hint": null
 }
