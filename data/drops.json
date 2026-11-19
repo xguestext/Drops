@@ -1,8 +1,8 @@
 {
- "updated_at": "2026-11-19T12:20:35Z",
+ "updated_at": "2026-11-19T12:36:50Z",
  "ok": true,
  "source": "twitch-gql",
- "source_updated": "2026-11-19T12:20:35Z",
+ "source_updated": "2026-11-19T12:36:50Z",
  "counts": {
   "total": 25,
   "upcoming": 0,
@@ -15,11 +15,11 @@
   "badges_de_canal": 0,
   "so_sub": 4,
   "sem_permissao_info": 0,
-  "fora_da_lista": 11,
-  "categorias_olhadas": 146,
+  "fora_da_lista": 9,
+  "categorias_olhadas": 145,
   "categorias_com_drop": 71,
-  "canais_perguntados": 227,
-  "vistas_agora": 23,
+  "canais_perguntados": 218,
+  "vistas_agora": 22,
   "lembradas": 0
  },
  "campaigns": [
@@ -64,13 +64,12 @@
    "src": "twitch-gql",
    "canais_vistos": [
     "princess_bstar",
-    "driftingfurby",
-    "shxmmie_"
+    "driftingfurby"
    ],
-   "canais_perguntados": 3,
-   "canais_na_categoria": 3,
+   "canais_perguntados": 2,
+   "canais_na_categoria": 2,
    "vista_agora": true,
-   "visto_em": "2026-11-19T12:20:35Z"
+   "visto_em": "2026-11-19T12:36:50Z"
   },
   {
    "id": "9fb013a1-3155-4a30-858c-dc8f75e25b94",
@@ -114,15 +113,15 @@
    "canais_vistos": [
     "zizaran",
     "pathofexilebota",
-    "madarapoe",
-    "gentei721",
-    "aoechan",
-    "diaobudiao"
+    "fubgun",
+    "tel4ick",
+    "drdexxer",
+    "luweibaby"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 99,
+   "canais_na_categoria": 100,
    "vista_agora": true,
-   "visto_em": "2026-11-19T12:20:35Z"
+   "visto_em": "2026-11-19T12:36:50Z"
   },
   {
    "id": "fb4fdeef-7147-48df-8e71-54fbb07bcc5f",
@@ -172,16 +171,16 @@
    "src": "twitch-gql",
    "canais_vistos": [
     "feitmvp",
+    "matchelooooo",
     "mrsekai_",
-    "masa000010",
-    "freaksterun",
-    "yellowbunny503",
+    "lemarkiemark",
+    "feartheluke",
     "zapieksoon"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 12,
+   "canais_na_categoria": 15,
    "vista_agora": true,
-   "visto_em": "2026-11-19T12:20:35Z"
+   "visto_em": "2026-11-19T12:36:50Z"
   },
   {
    "availability": "open",
@@ -288,12 +287,13 @@
     "chuddemi",
     "93_ace_93",
     "vovachka_tv",
-    "tendon_900yen"
+    "chillgamingspace",
+    "zari224"
    ],
-   "canais_perguntados": 5,
-   "canais_na_categoria": 5,
+   "canais_perguntados": 6,
+   "canais_na_categoria": 7,
    "vista_agora": true,
-   "visto_em": "2026-11-19T12:20:35Z"
+   "visto_em": "2026-11-19T12:36:50Z"
   },
   {
    "id": "a013ca5d-a41b-4ead-a282-c78f6c2c3183",
@@ -366,14 +366,14 @@
     "milkameluna",
     "kukkoriku",
     "alyjosa",
-    "jerribun",
     "pointy96",
+    "jerribun",
     "wiwii556"
    ],
    "canais_perguntados": 6,
    "canais_na_categoria": 9,
    "vista_agora": true,
-   "visto_em": "2026-11-19T12:20:35Z"
+   "visto_em": "2026-11-19T12:36:50Z"
   },
   {
    "id": "2cc95940-886e-42a2-9dee-23269cabfa47",
@@ -423,16 +423,16 @@
    "src": "twitch-gql",
    "canais_vistos": [
     "joerze",
-    "neonwooo",
     "justin0000",
-    "kelvinginola",
+    "neonwooo",
+    "agesun3",
     "helloliere",
     "fa101qi"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 11,
+   "canais_na_categoria": 13,
    "vista_agora": true,
-   "visto_em": "2026-11-19T12:20:35Z"
+   "visto_em": "2026-11-19T12:36:50Z"
   },
   {
    "id": "2965fe2b-6ebb-4547-929c-e70112337fda",
@@ -527,13 +527,13 @@
     "futcher",
     "jimpanse",
     "tanitani_ttv",
-    "willsony2",
-    "machasuk0918"
+    "machasuk0918",
+    "ezotica"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 99,
+   "canais_na_categoria": 98,
    "vista_agora": true,
-   "visto_em": "2026-11-19T12:20:35Z"
+   "visto_em": "2026-11-19T12:36:50Z"
   },
   {
    "id": "b3b7f221-9897-4f39-be29-9b58fbea4806",
@@ -582,17 +582,17 @@
    "descricao": "The Intergalactic Aerospace Expo 2956 is here, and so are new Twitch Drops! Celebrate the long-awaited arrival of the RSI Galaxy with a flight-ready look to match. Watch any Drops-enabled Star Citizen",
    "src": "twitch-gql",
    "canais_vistos": [
-    "deathangelde",
-    "knebel_de",
     "saltemike",
-    "pulsenetlive",
+    "knebel_de",
+    "arkvenger_tv",
     "ami_air_tv",
+    "m00n_0044",
     "ka1into"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 69,
+   "canais_na_categoria": 65,
    "vista_agora": true,
-   "visto_em": "2026-11-19T12:20:35Z"
+   "visto_em": "2026-11-19T12:36:50Z"
   },
   {
    "id": "e9058a21-33e0-44c1-8d56-8ab9a5f2be92",
@@ -627,17 +627,16 @@
    "descricao": "https://trainer.pokemon.com/rewards",
    "src": "twitch-gql",
    "canais_vistos": [
-    "pkambara",
     "amoura5",
-    "mrdemonblack",
     "shosachannel",
+    "mrdemonblack",
     "fizzidrinks",
     "24goshitsu"
    ],
-   "canais_perguntados": 6,
-   "canais_na_categoria": 6,
+   "canais_perguntados": 5,
+   "canais_na_categoria": 5,
    "vista_agora": true,
-   "visto_em": "2026-11-19T12:20:35Z"
+   "visto_em": "2026-11-19T12:36:50Z"
   },
   {
    "id": "94263f50-6ae7-45a8-bd72-5f612c5b1243",
@@ -702,7 +701,7 @@
    "canais_vistos": [
     "takahasi_sun",
     "mochizuki_aoi_",
-    "hoshizono_yui",
+    "mettyamattya3",
     "warioman_007",
     "ladypazuzu",
     "goutin_mm"
@@ -710,7 +709,7 @@
    "canais_perguntados": 6,
    "canais_na_categoria": 15,
    "vista_agora": true,
-   "visto_em": "2026-11-19T12:20:35Z"
+   "visto_em": "2026-11-19T12:36:50Z"
   },
   {
    "id": "4a77ccb5-95e6-4bc6-8567-de0eb09b0214",
@@ -769,14 +768,14 @@
     "royalewithcheesetv",
     "forcedropstv",
     "1vampire",
-    "xelohs",
-    "kuro___gaming",
-    "shielaland1111"
+    "paulo89ferreira",
+    "yagodayz",
+    "gamakatsu130"
    ],
    "canais_perguntados": 6,
    "canais_na_categoria": 99,
    "vista_agora": true,
-   "visto_em": "2026-11-19T12:20:35Z"
+   "visto_em": "2026-11-19T12:36:50Z"
   },
   {
    "availability": "open",
@@ -901,16 +900,16 @@
    "src": "twitch-gql",
    "canais_vistos": [
     "kspksp",
-    "failverde",
+    "gcc_tw",
     "greentea",
-    "a9utonnnn",
-    "raideningbird",
-    "boyaki_janshi"
+    "izumi_jp",
+    "boyaki_janshi",
+    "asagi_227"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 65,
+   "canais_na_categoria": 67,
    "vista_agora": true,
-   "visto_em": "2026-11-19T12:20:35Z"
+   "visto_em": "2026-11-19T12:36:50Z"
   },
   {
    "id": "a0a98fc0-ccc4-435c-bff4-877b5dc33902",
@@ -973,17 +972,17 @@
    "descricao": "Honkai: Star Rail Drops Campaign",
    "src": "twitch-gql",
    "canais_vistos": [
-    "mrpokke",
     "myst",
     "hopelessmixa",
-    "vespion_",
-    "datbentobox",
-    "nyoma_tv"
+    "pepperz09",
+    "mochizukirhi",
+    "fckoffcandeez",
+    "nelnai"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 55,
+   "canais_na_categoria": 58,
    "vista_agora": true,
-   "visto_em": "2026-11-19T12:20:35Z"
+   "visto_em": "2026-11-19T12:36:50Z"
   },
   {
    "id": "101c5286-f541-4183-bfa7-dd8eea691ed9",
@@ -1042,14 +1041,14 @@
     "icetrixxxx",
     "sxventv",
     "xalisa",
-    "lob0guara",
     "hahahaaa",
-    "meowmewka"
+    "meowmewka",
+    "lubitten1"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 47,
+   "canais_na_categoria": 48,
    "vista_agora": true,
-   "visto_em": "2026-11-19T12:20:35Z"
+   "visto_em": "2026-11-19T12:36:50Z"
   },
   {
    "id": "21cf91ef-20d7-11f0-ac3d-0a58a9feac02",
@@ -1112,16 +1111,17 @@
    "descricao": "The V3.8 Wuthering Waves Twitch Drops event has commenced!  By streaming Wuthering Waves, you enable your viewers to claim multiple rewards, including the Astrite!  Hasten to broadcast Wuthering Waves",
    "src": "twitch-gql",
    "canais_vistos": [
+    "ennaouii",
     "hyper2374",
     "miroichii",
+    "oxurz",
     "xlrsystem",
-    "rayhan354",
-    "bluetime_"
+    "rayhan354"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 97,
+   "canais_na_categoria": 94,
    "vista_agora": true,
-   "visto_em": "2026-11-19T12:20:35Z"
+   "visto_em": "2026-11-19T12:36:50Z"
   },
   {
    "id": "904ca319-27f6-4e7b-87c2-fece8381f91e",
@@ -1192,12 +1192,13 @@
    "src": "twitch-gql",
    "canais_vistos": [
     "emeowrald",
-    "velenohiyoko"
+    "velenohiyoko",
+    "lapwaire"
    ],
-   "canais_perguntados": 2,
-   "canais_na_categoria": 2,
+   "canais_perguntados": 3,
+   "canais_na_categoria": 3,
    "vista_agora": true,
-   "visto_em": "2026-11-19T12:20:35Z"
+   "visto_em": "2026-11-19T12:36:50Z"
   },
   {
    "id": "7fd0b5de-69c5-4f30-924e-59adaa29a362",
@@ -1257,13 +1258,13 @@
     "oxoxotes",
     "badgetracking",
     "ciomorgann",
-    "badgedatahub",
-    "riceanbunnynest"
+    "julyfps_",
+    "badgedatahub"
    ],
    "canais_perguntados": 6,
    "canais_na_categoria": 14,
    "vista_agora": true,
-   "visto_em": "2026-11-19T12:20:35Z"
+   "visto_em": "2026-11-19T12:36:50Z"
   },
   {
    "id": "882ccb61-0d4c-4fe6-a5c5-3156e8a033ab",
@@ -1301,14 +1302,14 @@
     "asmongold247",
     "romainjacques_",
     "karssi",
-    "guybgaming",
-    "grady80",
-    "lsstdpfefe"
+    "drsithis",
+    "2ucuk",
+    "jo0cey"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 70,
+   "canais_na_categoria": 80,
    "vista_agora": true,
-   "visto_em": "2026-11-19T12:20:35Z"
+   "visto_em": "2026-11-19T12:36:50Z"
   },
   {
    "id": "1f04121b-9c6b-4ae8-bdd5-9833c96a64ae",
@@ -1345,53 +1346,55 @@
    "canais_vistos": [
     "sick_nerd",
     "dino_xx",
-    "gnomonkey",
+    "westham",
+    "tabecattv",
+    "konradema",
     "badgely"
    ],
    "canais_perguntados": 6,
    "canais_na_categoria": 99,
    "vista_agora": true,
-   "visto_em": "2026-11-19T12:20:35Z"
+   "visto_em": "2026-11-19T12:36:50Z"
   },
   {
-   "id": "a8ce1281-5c82-4fbe-9a18-3e7d02e1e7b6",
-   "name": "OSRS Hardcore Worlds",
-   "status": "ACTIVE",
-   "start_at": "2026-11-18T13:06:33Z",
-   "end_at": "2026-11-30T23:59:59.999Z",
-   "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/facbef0f-30a9-4652-be8e-3706e72b1fb7.png",
-   "details_url": "https://www.twitch.tv/drops/campaigns",
-   "game": "Old School RuneScape",
-   "game_slug": "old-school-runescape",
-   "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/459931_IGDB-120x160.jpg",
    "availability": "open",
-   "channels": [],
+   "canais_na_categoria": 99,
+   "canais_perguntados": 6,
    "canais_permitidos": 0,
-   "required_minutes": 60,
-   "requer_sub": false,
-   "subs_necessarios": 0,
-   "resgate": "assistir 1h",
-   "reward_type": "platform",
-   "tipo_premio": "badge",
-   "rewards": [
-    {
-     "name": "RuneScape Bones",
-     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3f8997fa-c97e-4f13-8d6c-1fd689a84d9f.png",
-     "minutes": 60,
-     "type": "BADGE",
-     "subs": 0
-    }
-   ],
-   "dono": "Twitch Gaming",
-   "descricao": "This badge was awarded to people who viewed any eligible channel in the Old School RuneScape category for one hour.",
-   "src": "twitch-gql",
    "canais_vistos": [
     "itsbauwau",
     "heidiplaceman"
    ],
-   "canais_perguntados": 6,
-   "canais_na_categoria": 99,
-   "vista_agora": true,
+   "channels": [],
+   "descricao": "This badge was awarded to people who viewed any eligible channel in the Old School RuneScape category for one hour.",
+   "details_url": "https://www.twitch.tv/drops/campaigns",
+   "dono": "Twitch Gaming",
+   "end_at": "2026-11-30T23:59:59.999Z",
+   "game": "Old School RuneScape",
+   "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/459931_IGDB-120x160.jpg",
+   "game_slug": "old-school-runescape",
+   "id": "a8ce1281-5c82-4fbe-9a18-3e7d02e1e7b6",
+   "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/facbef0f-30a9-4652-be8e-3706e72b1fb7.png",
+   "name": "OSRS Hardcore Worlds",
+   "requer_sub": false,
+   "required_minutes": 60,
+   "resgate": "assistir 1h",
+   "reward_type": "platform",
+   "rewards": [
+    {
+     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3f8997fa-c97e-4f13-8d6c-1fd689a84d9f.png",
+     "minutes": 60,
+     "name": "RuneScape Bones",
+     "subs": 0,
+     "type": "BADGE"
+    }
+   ],
+   "src": "twitch-gql",
+   "start_at": "2026-11-18T13:06:33Z",
+   "status": "ACTIVE",
+   "subs_necessarios": 0,
+   "tipo_premio": "badge",
+   "vista_agora": false,
    "visto_em": "2026-11-19T12:20:35Z"
   },
   {
@@ -1479,14 +1482,14 @@
     "ishowspeed",
     "shadowkekw",
     "trymacs",
-    "linca",
-    "qucee",
-    "rhladenko"
+    "kiruma_ch",
+    "rumathra",
+    "mazoni"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 98,
+   "canais_na_categoria": 99,
    "vista_agora": true,
-   "visto_em": "2026-11-19T12:20:35Z"
+   "visto_em": "2026-11-19T12:36:50Z"
   },
   {
    "id": "5acbe8a4-35f3-45c8-afaa-3f0483fd17bb",
@@ -1529,9 +1532,9 @@
     "thiagoloopes"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 14,
+   "canais_na_categoria": 13,
    "vista_agora": true,
-   "visto_em": "2026-11-19T12:20:35Z"
+   "visto_em": "2026-11-19T12:36:50Z"
   },
   {
    "id": "a1fbeb48-f98d-49d4-845c-9591328aae55",
@@ -1570,13 +1573,13 @@
     "badgeseeker",
     "yujimiin",
     "blackskulthunder",
-    "setohotate",
-    "badgezvous"
+    "badgezvous",
+    "gotzfps"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 11,
+   "canais_na_categoria": 12,
    "vista_agora": true,
-   "visto_em": "2026-11-19T12:20:35Z"
+   "visto_em": "2026-11-19T12:36:50Z"
   }
  ],
  "badges": [
@@ -1596,6 +1599,6 @@
   }
  ],
  "error": null,
- "warn": "Tropecos na varredura: canal honzajcz: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal ugiugi_dog: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal iiii_vi: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal pnk2p_q: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]",
+ "warn": "Tropecos na varredura: canal rinalucsper: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal honzajcz: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal ugiugi_dog: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal st074: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]",
  "raw_hint": null
 }
