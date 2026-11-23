@@ -1,8 +1,8 @@
 {
- "updated_at": "2026-11-23T10:35:07Z",
+ "updated_at": "2026-11-23T10:51:52Z",
  "ok": true,
  "source": "twitch-gql",
- "source_updated": "2026-11-23T10:35:07Z",
+ "source_updated": "2026-11-23T10:51:52Z",
  "counts": {
   "total": 18,
   "upcoming": 0,
@@ -18,7 +18,7 @@
   "fora_da_lista": 18,
   "categorias_olhadas": 152,
   "categorias_com_drop": 72,
-  "canais_perguntados": 224,
+  "canais_perguntados": 225,
   "vistas_agora": 17,
   "lembradas": 0
  },
@@ -73,14 +73,14 @@
     "dingdangvic",
     "jm_star_lord",
     "thoven02",
-    "feitmvp",
     "neon_dem0n",
+    "fother_ttv",
     "therealrokkoutt"
    ],
    "canais_perguntados": 6,
    "canais_na_categoria": 9,
    "vista_agora": true,
-   "visto_em": "2026-11-23T10:35:07Z"
+   "visto_em": "2026-11-23T10:51:52Z"
   },
   {
    "id": "2965fe2b-6ebb-4547-929c-e70112337fda",
@@ -172,16 +172,16 @@
    "src": "twitch-gql",
    "canais_vistos": [
     "albright55",
-    "futcher",
     "jimpanse",
-    "sergeant_dee",
+    "futcher",
+    "generalleegenerallee",
     "pigund",
-    "bmwjunior"
+    "n1kalin"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 97,
+   "canais_na_categoria": 98,
    "vista_agora": true,
-   "visto_em": "2026-11-23T10:35:07Z"
+   "visto_em": "2026-11-23T10:51:52Z"
   },
   {
    "id": "b3b7f221-9897-4f39-be29-9b58fbea4806",
@@ -234,13 +234,13 @@
     "deathangelde_tv",
     "madchimpboy",
     "pulsenetlive",
-    "australisspacealliance",
-    "duhbuhhuh"
+    "boja__",
+    "mohanajitv"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 76,
+   "canais_na_categoria": 73,
    "vista_agora": true,
-   "visto_em": "2026-11-23T10:35:07Z"
+   "visto_em": "2026-11-23T10:51:52Z"
   },
   {
    "id": "e9058a21-33e0-44c1-8d56-8ab9a5f2be92",
@@ -281,7 +281,7 @@
    "canais_perguntados": 2,
    "canais_na_categoria": 2,
    "vista_agora": true,
-   "visto_em": "2026-11-23T10:35:07Z"
+   "visto_em": "2026-11-23T10:51:52Z"
   },
   {
    "id": "94263f50-6ae7-45a8-bd72-5f612c5b1243",
@@ -347,14 +347,14 @@
     "takahasi_sun",
     "azoz",
     "h4b4kiry",
-    "tanakakunnnnnn",
     "manlulumiruru",
+    "tanakakunnnnnn",
     "ladypazuzu"
    ],
    "canais_perguntados": 6,
    "canais_na_categoria": 8,
    "vista_agora": true,
-   "visto_em": "2026-11-23T10:35:07Z"
+   "visto_em": "2026-11-23T10:51:52Z"
   },
   {
    "id": "4a77ccb5-95e6-4bc6-8567-de0eb09b0214",
@@ -413,14 +413,14 @@
     "forcedropstv",
     "dropbadges",
     "thebling026",
-    "lilnoplays",
-    "neizvestno001",
-    "jadejinzo"
+    "carcassplays",
+    "kryptonite3000",
+    "lilnoplays"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 99,
+   "canais_na_categoria": 100,
    "vista_agora": true,
-   "visto_em": "2026-11-23T10:35:07Z"
+   "visto_em": "2026-11-23T10:51:52Z"
   },
   {
    "id": "cb35d877-6cdc-469b-a540-a110082c829b",
@@ -500,14 +500,14 @@
     "fitzadri",
     "eutaylorindo",
     "zvg_",
+    "ethenpov",
     "nytmare_95",
-    "riyonxx",
     "kingluffy1056"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 7,
+   "canais_na_categoria": 6,
    "vista_agora": true,
-   "visto_em": "2026-11-23T10:35:07Z"
+   "visto_em": "2026-11-23T10:51:52Z"
   },
   {
    "id": "60db69f2-75b5-45c6-8edd-28721d8a038e",
@@ -566,14 +566,14 @@
     "raisinnnnnn",
     "theoneranger",
     "nikkashouka",
-    "hoshiumine",
     "shinamonmaki",
-    "kawasejpy"
+    "kawasejpy",
+    "key_man_256"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 19,
+   "canais_na_categoria": 20,
    "vista_agora": true,
-   "visto_em": "2026-11-23T10:35:07Z"
+   "visto_em": "2026-11-23T10:51:52Z"
   },
   {
    "id": "a0a98fc0-ccc4-435c-bff4-877b5dc33902",
@@ -636,17 +636,17 @@
    "descricao": "Honkai: Star Rail Drops Campaign",
    "src": "twitch-gql",
    "canais_vistos": [
-    "hyper2374",
     "mrpokke",
     "normandyren",
-    "deliaionas",
-    "madamfilch",
-    "matsubi65"
+    "lenxac",
+    "matsubi65",
+    "chloeisuniquenewzealander",
+    "patate_douse"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 52,
+   "canais_na_categoria": 51,
    "vista_agora": true,
-   "visto_em": "2026-11-23T10:35:07Z"
+   "visto_em": "2026-11-23T10:51:52Z"
   },
   {
    "id": "101c5286-f541-4183-bfa7-dd8eea691ed9",
@@ -705,14 +705,14 @@
     "icetrixxxx",
     "xalisa",
     "zoeiittv",
-    "senpaifunny",
     "kriskosmo",
-    "dravenx666"
+    "dravenx666",
+    "combatunit316"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 31,
+   "canais_na_categoria": 30,
    "vista_agora": true,
-   "visto_em": "2026-11-23T10:35:07Z"
+   "visto_em": "2026-11-23T10:51:52Z"
   },
   {
    "id": "21cf91ef-20d7-11f0-ac3d-0a58a9feac02",
@@ -777,15 +777,15 @@
    "canais_vistos": [
     "singollo",
     "narutsuuu",
-    "miroichii",
-    "volpeblu9",
+    "libardonii",
     "masterstar77777",
-    "good_story_game"
+    "tw_gim",
+    "djpedro99"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 78,
+   "canais_na_categoria": 75,
    "vista_agora": true,
-   "visto_em": "2026-11-23T10:35:07Z"
+   "visto_em": "2026-11-23T10:51:52Z"
   },
   {
    "id": "7fd0b5de-69c5-4f30-924e-59adaa29a362",
@@ -842,16 +842,16 @@
    "src": "twitch-gql",
    "canais_vistos": [
     "thedropcreator",
+    "badgerewards",
     "badgetracking",
-    "syst3nfps",
-    "pro_noobz",
-    "mulirotv",
-    "mai_waifu_"
+    "julyfps_",
+    "mai_waifu_",
+    "speed_clue"
    ],
    "canais_perguntados": 6,
    "canais_na_categoria": 15,
    "vista_agora": true,
-   "visto_em": "2026-11-23T10:35:07Z"
+   "visto_em": "2026-11-23T10:51:52Z"
   },
   {
    "id": "882ccb61-0d4c-4fe6-a5c5-3156e8a033ab",
@@ -889,14 +889,14 @@
     "asmongold247",
     "marmaladey",
     "kidashita",
-    "omotikinaco",
     "satoshiyou",
+    "noob_gaming619",
     "meverick_gaming"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 61,
+   "canais_na_categoria": 56,
    "vista_agora": true,
-   "visto_em": "2026-11-23T10:35:07Z"
+   "visto_em": "2026-11-23T10:51:52Z"
   },
   {
    "id": "1f04121b-9c6b-4ae8-bdd5-9833c96a64ae",
@@ -934,14 +934,14 @@
     "gnomonkey",
     "westham",
     "mmorpg",
-    "ahnknown_",
     "struggledawg12",
-    "gielinorcasino"
+    "gielinorcasino",
+    "noisyskyz"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 77,
+   "canais_na_categoria": 86,
    "vista_agora": true,
-   "visto_em": "2026-11-23T10:35:07Z"
+   "visto_em": "2026-11-23T10:51:52Z"
   },
   {
    "availability": "open",
@@ -1067,15 +1067,16 @@
    "canais_vistos": [
     "caseoh_",
     "montanablack88",
-    "sasatikk",
-    "deviantsev",
-    "novasobored",
-    "harmless"
+    "dmitry_lixxx",
+    "tanetenshi",
+    "harmless",
+    "secreti4",
+    "idemonyc"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 88,
+   "canais_na_categoria": 93,
    "vista_agora": true,
-   "visto_em": "2026-11-23T10:35:07Z"
+   "visto_em": "2026-11-23T10:51:52Z"
   },
   {
    "id": "5acbe8a4-35f3-45c8-afaa-3f0483fd17bb",
@@ -1110,17 +1111,17 @@
    "descricao": "Subscribe or Gift a Sub to a DOOM: The Dark Ages streamer during the launch of Slaughter Mode to earn the DOOM: The Dark Ages chat badge!",
    "src": "twitch-gql",
    "canais_vistos": [
+    "juicerewards",
     "y0ncecs",
     "badging247",
-    "informalmiku_",
+    "thiagoloopes",
     "badgely",
-    "dougw8688",
     "lugohh"
    ],
    "canais_perguntados": 6,
    "canais_na_categoria": 18,
    "vista_agora": true,
-   "visto_em": "2026-11-23T10:35:07Z"
+   "visto_em": "2026-11-23T10:51:52Z"
   },
   {
    "id": "a1fbeb48-f98d-49d4-845c-9591328aae55",
@@ -1158,14 +1159,14 @@
     "veyranova",
     "badgegets",
     "irranium",
-    "redjuan22",
     "badgezvous",
+    "redjuan22",
     "badgeloot"
    ],
    "canais_perguntados": 6,
    "canais_na_categoria": 13,
    "vista_agora": true,
-   "visto_em": "2026-11-23T10:35:07Z"
+   "visto_em": "2026-11-23T10:51:52Z"
   }
  ],
  "badges": [
@@ -1185,6 +1186,6 @@
   }
  ],
  "error": null,
- "warn": "Tropecos na varredura: canal tortedelini: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal goremateri: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal ruina_2300: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal arkeeq: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]",
+ "warn": "Tropecos na varredura: canal oscarespinalstudio: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal tortedelini: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal goremateri: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal ruina_2300: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]",
  "raw_hint": null
 }
