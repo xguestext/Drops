@@ -1,8 +1,8 @@
 {
- "updated_at": "2026-11-24T09:44:16Z",
+ "updated_at": "2026-11-24T10:01:01Z",
  "ok": true,
  "source": "twitch-gql",
- "source_updated": "2026-11-24T09:44:16Z",
+ "source_updated": "2026-11-24T10:01:01Z",
  "counts": {
   "total": 16,
   "upcoming": 0,
@@ -17,8 +17,8 @@
   "sem_permissao_info": 0,
   "fora_da_lista": 19,
   "categorias_olhadas": 152,
-  "categorias_com_drop": 65,
-  "canais_perguntados": 216,
+  "categorias_com_drop": 64,
+  "canais_perguntados": 222,
   "vistas_agora": 14,
   "lembradas": 0
  },
@@ -33,7 +33,7 @@
    "details_url": "https://account.wardogs.com",
    "game": "WARDOGS",
    "game_slug": "wardogs",
-   "game_box": null,
+   "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/743893402_IGDB-120x160.jpg",
    "availability": "open",
    "channels": [],
    "canais_permitidos": 0,
@@ -112,18 +112,17 @@
    "descricao": "Get access to gear, equipment, vehicles, and weapons into your WARDOGS Vault by watching streamers play WARDOGS.",
    "src": "twitch-gql",
    "canais_vistos": [
-    "pearlynka",
     "maplewood_tv",
     "shadow_gg_",
     "wicked",
-    "chris_pandagaming",
-    "midikat",
-    "manitoser"
+    "papakow",
+    "awaysquad",
+    "nametakentv"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 4,
+   "canais_na_categoria": 99,
    "vista_agora": true,
-   "visto_em": "2026-11-24T09:44:16Z"
+   "visto_em": "2026-11-24T10:01:01Z"
   },
   {
    "id": "b3b7f221-9897-4f39-be29-9b58fbea4806",
@@ -175,14 +174,14 @@
     "deathangelde",
     "knebel_de",
     "bambz",
-    "pulsenetlive",
-    "cin_le_gardien",
-    "marcusreed_"
+    "marcusreed_",
+    "mr_tinktink",
+    "raptor__powell"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 79,
+   "canais_na_categoria": 75,
    "vista_agora": true,
-   "visto_em": "2026-11-24T09:44:16Z"
+   "visto_em": "2026-11-24T10:01:01Z"
   },
   {
    "id": "94263f50-6ae7-45a8-bd72-5f612c5b1243",
@@ -252,7 +251,7 @@
    "canais_perguntados": 3,
    "canais_na_categoria": 3,
    "vista_agora": true,
-   "visto_em": "2026-11-24T09:44:16Z"
+   "visto_em": "2026-11-24T10:01:01Z"
   },
   {
    "id": "4a77ccb5-95e6-4bc6-8567-de0eb09b0214",
@@ -311,14 +310,14 @@
     "forcedropstv",
     "dropbadges",
     "thebling026",
+    "lilredjacoby",
     "carcassplays",
-    "koubaipopo",
     "whitefoxbdo"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 86,
+   "canais_na_categoria": 79,
    "vista_agora": true,
-   "visto_em": "2026-11-24T09:44:16Z"
+   "visto_em": "2026-11-24T10:01:01Z"
   },
   {
    "availability": "open",
@@ -459,14 +458,14 @@
     "eutaylorindo",
     "vergilcount",
     "zvg_",
+    "jordybazan",
     "laggybeatzz",
-    "mooauanmilk",
-    "jordybazan"
+    "izustreams"
    ],
    "canais_perguntados": 6,
    "canais_na_categoria": 6,
    "vista_agora": true,
-   "visto_em": "2026-11-24T09:44:16Z"
+   "visto_em": "2026-11-24T10:01:01Z"
   },
   {
    "id": "60db69f2-75b5-45c6-8edd-28721d8a038e",
@@ -522,17 +521,17 @@
    "descricao": "Watch stream to earn in-game rewards. Before connecting your accounts, go to [Mahjong Soul > Settings > Other > User Center] to confirm your bound email address. More detailed information about Twitch",
    "src": "twitch-gql",
    "canais_vistos": [
-    "dokidokisophi",
-    "takjj",
     "kamicozyjoe",
-    "tealwolfowo",
+    "theoneranger",
+    "hika_tin115",
+    "zenhao_",
     "pecoru311",
-    "heroishiro"
+    "tealwolfowo"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 15,
+   "canais_na_categoria": 10,
    "vista_agora": true,
-   "visto_em": "2026-11-24T09:44:16Z"
+   "visto_em": "2026-11-24T10:01:01Z"
   },
   {
    "id": "101c5286-f541-4183-bfa7-dd8eea691ed9",
@@ -591,14 +590,14 @@
     "ornerybiscuitty",
     "xalisa",
     "icetrixxxx",
-    "tiocareca74",
-    "mokaji",
-    "senpaifunny"
+    "ausairis0721",
+    "anunimiss",
+    "tiocareca74"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 32,
+   "canais_na_categoria": 29,
    "vista_agora": true,
-   "visto_em": "2026-11-24T09:44:16Z"
+   "visto_em": "2026-11-24T10:01:01Z"
   },
   {
    "id": "21cf91ef-20d7-11f0-ac3d-0a58a9feac02",
@@ -661,17 +660,17 @@
    "descricao": "The V3.8 Wuthering Waves Twitch Drops event has commenced!  By streaming Wuthering Waves, you enable your viewers to claim multiple rewards, including the Astrite!  Hasten to broadcast Wuthering Waves",
    "src": "twitch-gql",
    "canais_vistos": [
+    "aspig",
     "miroichii",
-    "danielmx_gaming",
-    "libardonii",
-    "miyabuh",
+    "narutsuuu",
+    "leoisgaming1",
     "skywytie_2",
     "jnxb07"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 58,
+   "canais_na_categoria": 51,
    "vista_agora": true,
-   "visto_em": "2026-11-24T09:44:16Z"
+   "visto_em": "2026-11-24T10:01:01Z"
   },
   {
    "id": "7fd0b5de-69c5-4f30-924e-59adaa29a362",
@@ -729,15 +728,15 @@
    "canais_vistos": [
     "thedropcreator",
     "badgerewards",
-    "badgetracking",
+    "oxoxotes",
     "badgehubes",
-    "julyfps_",
-    "hemedved"
+    "hemedved",
+    "julyfps_"
    ],
    "canais_perguntados": 6,
    "canais_na_categoria": 12,
    "vista_agora": true,
-   "visto_em": "2026-11-24T09:44:16Z"
+   "visto_em": "2026-11-24T10:01:01Z"
   },
   {
    "id": "882ccb61-0d4c-4fe6-a5c5-3156e8a033ab",
@@ -774,15 +773,15 @@
    "canais_vistos": [
     "asmongold247",
     "liasplaythrough",
-    "savannahlow",
+    "bluemeria",
     "terrid2331",
-    "sweetcobra54",
-    "yashamidori"
+    "yashamidori",
+    "sweetcobra54"
    ],
    "canais_perguntados": 6,
    "canais_na_categoria": 78,
    "vista_agora": true,
-   "visto_em": "2026-11-24T09:44:16Z"
+   "visto_em": "2026-11-24T10:01:01Z"
   },
   {
    "id": "1f04121b-9c6b-4ae8-bdd5-9833c96a64ae",
@@ -820,14 +819,14 @@
     "skiddler",
     "badgeworld",
     "badgestatus",
-    "struggledawg12",
     "alertadropsmx",
-    "gielinorcasino"
+    "gielinorcasino",
+    "simplyspeedruns"
    ],
    "canais_perguntados": 6,
    "canais_na_categoria": 45,
    "vista_agora": true,
-   "visto_em": "2026-11-24T09:44:16Z"
+   "visto_em": "2026-11-24T10:01:01Z"
   },
   {
    "availability": "open",
@@ -954,14 +953,14 @@
     "montanablack88",
     "sasatikk",
     "ironmouse",
-    "emilycc",
-    "vassilly",
-    "alphaazur"
+    "nixstah",
+    "slowwalkthroughs",
+    "badgecollectors"
    ],
    "canais_perguntados": 6,
    "canais_na_categoria": 96,
    "vista_agora": true,
-   "visto_em": "2026-11-24T09:44:16Z"
+   "visto_em": "2026-11-24T10:01:01Z"
   },
   {
    "id": "5acbe8a4-35f3-45c8-afaa-3f0483fd17bb",
@@ -1006,7 +1005,7 @@
    "canais_perguntados": 6,
    "canais_na_categoria": 19,
    "vista_agora": true,
-   "visto_em": "2026-11-24T09:44:16Z"
+   "visto_em": "2026-11-24T10:01:01Z"
   },
   {
    "id": "a1fbeb48-f98d-49d4-845c-9591328aae55",
@@ -1051,7 +1050,7 @@
    "canais_perguntados": 6,
    "canais_na_categoria": 9,
    "vista_agora": true,
-   "visto_em": "2026-11-24T09:44:16Z"
+   "visto_em": "2026-11-24T10:01:01Z"
   }
  ],
  "badges": [
@@ -1071,6 +1070,6 @@
   }
  ],
  "error": null,
- "warn": "Tropecos na varredura: canal arrowcs: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal zonixxcs: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal psp1g: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal michelia3: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]",
+ "warn": "Tropecos na varredura: canal arrowcs: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal psp1g: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal zonixxcs: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal m1rabash: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]",
  "raw_hint": null
 }
