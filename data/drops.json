@@ -1,8 +1,8 @@
 {
- "updated_at": "2026-11-26T17:53:06Z",
+ "updated_at": "2026-11-26T18:09:53Z",
  "ok": true,
  "source": "twitch-gql",
- "source_updated": "2026-11-26T17:53:06Z",
+ "source_updated": "2026-11-26T18:09:53Z",
  "counts": {
   "total": 16,
   "upcoming": 0,
@@ -15,11 +15,11 @@
   "badges_de_canal": 0,
   "so_sub": 4,
   "sem_permissao_info": 0,
-  "fora_da_lista": 20,
-  "categorias_olhadas": 143,
-  "categorias_com_drop": 78,
-  "canais_perguntados": 246,
-  "vistas_agora": 15,
+  "fora_da_lista": 18,
+  "categorias_olhadas": 142,
+  "categorias_com_drop": 80,
+  "canais_perguntados": 240,
+  "vistas_agora": 16,
   "lembradas": 0
  },
  "campaigns": [
@@ -73,82 +73,82 @@
     "knebeltv",
     "hortyunderscore",
     "arkvenger_tv",
-    "jlmc_gd",
-    "romayplaytv",
-    "malakie"
+    "snip3rit",
+    "phx_horizon",
+    "happierparsley8"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 97,
+   "canais_na_categoria": 100,
    "vista_agora": true,
-   "visto_em": "2026-11-26T17:53:06Z"
+   "visto_em": "2026-11-26T18:09:53Z"
   },
   {
-   "availability": "open",
-   "canais_na_categoria": 1,
-   "canais_perguntados": 1,
-   "canais_permitidos": 0,
-   "canais_vistos": [
-    "goutin_mm"
-   ],
-   "channels": [],
-   "descricao": "Important: Connect your Twitch account to your Blue Protocol: Star Resonance game account via the Drops connection page BEFORE claiming your Drops rewards.",
-   "details_url": "https://www.playbpsr.com/twitch_bind",
-   "dono": "A PLUS JAPAN Inc.",
-   "end_at": "2026-12-02T12:29:59.999Z",
-   "game": "Blue Protocol: Star Resonance",
-   "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/266795834_IGDB-120x160.jpg",
-   "game_slug": "star-resonance",
    "id": "94263f50-6ae7-45a8-bd72-5f612c5b1243",
-   "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a536a5aa-86cd-4409-b7ec-e8fa582e0854.png",
    "name": "Season 4 Special Drops",
-   "requer_sub": false,
+   "status": "ACTIVE",
+   "start_at": "2026-11-05T12:30:00Z",
+   "end_at": "2026-12-02T12:29:59.999Z",
+   "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a536a5aa-86cd-4409-b7ec-e8fa582e0854.png",
+   "details_url": "https://www.playbpsr.com/twitch_bind",
+   "game": "Blue Protocol: Star Resonance",
+   "game_slug": "star-resonance",
+   "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/266795834_IGDB-120x160.jpg",
+   "availability": "open",
+   "channels": [],
+   "canais_permitidos": 0,
    "required_minutes": 15,
+   "requer_sub": false,
+   "subs_necessarios": 0,
    "resgate": "assistir 15 min",
    "reward_type": "game",
+   "tipo_premio": "game",
    "rewards": [
     {
+     "name": "Stray Stars Reunion Box*1",
      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/586b1f33-7f41-48fc-9a12-82e7867efd2d.png",
      "minutes": 300,
-     "name": "Stray Stars Reunion Box*1",
-     "subs": 0,
-     "type": "DIRECT_ENTITLEMENT"
+     "type": "DIRECT_ENTITLEMENT",
+     "subs": 0
     },
     {
+     "name": "Rose Orb (Bound) *100",
      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/491cc566-a6ba-4f6b-ba2f-333ebd50d545.png",
      "minutes": 15,
-     "name": "Rose Orb (Bound) *100",
-     "subs": 0,
-     "type": "DIRECT_ENTITLEMENT"
+     "type": "DIRECT_ENTITLEMENT",
+     "subs": 0
     },
     {
+     "name": "S1-S4 Adv. Materials S*3",
      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f67ecc7f-5911-4452-a959-dad4c836452e.png",
      "minutes": 30,
-     "name": "S1-S4 Adv. Materials S*3",
-     "subs": 0,
-     "type": "DIRECT_ENTITLEMENT"
+     "type": "DIRECT_ENTITLEMENT",
+     "subs": 0
     },
     {
+     "name": "Dye Box *10",
      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/95c8e6bf-72b0-4699-a77b-1632127d5d11.png",
      "minutes": 60,
-     "name": "Dye Box *10",
-     "subs": 0,
-     "type": "DIRECT_ENTITLEMENT"
+     "type": "DIRECT_ENTITLEMENT",
+     "subs": 0
     },
     {
+     "name": "Meowlux Headwear Select*1",
      "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a021f7d1-cca9-445f-b433-79d9f388de44.png",
      "minutes": 180,
-     "name": "Meowlux Headwear Select*1",
-     "subs": 0,
-     "type": "DIRECT_ENTITLEMENT"
+     "type": "DIRECT_ENTITLEMENT",
+     "subs": 0
     }
    ],
+   "dono": "A PLUS JAPAN Inc.",
+   "descricao": "Important: Connect your Twitch account to your Blue Protocol: Star Resonance game account via the Drops connection page BEFORE claiming your Drops rewards.",
    "src": "twitch-gql",
-   "start_at": "2026-11-05T12:30:00Z",
-   "status": "ACTIVE",
-   "subs_necessarios": 0,
-   "tipo_premio": "game",
-   "vista_agora": false,
-   "visto_em": "2026-11-26T17:02:43Z"
+   "canais_vistos": [
+    "furienfontaine"
+   ],
+   "canais_perguntados": 1,
+   "canais_na_categoria": 1,
+   "vista_agora": true,
+   "visto_em": "2026-11-26T18:09:53Z"
   },
   {
    "id": "4caddcc2-2599-4d82-8559-cc0a1cb600c2",
@@ -211,17 +211,17 @@
    "descricao": "TCD2 Y8S4.0 SpearFall LaunchNov26    Reward Strategy:   Watch - 30 MIN Reward - ARM PATCH Watch - 1 HOUR Reward - CACHE Watch - 2 HOURS Reward - ARM PATCH Watch - 3 HOURS Reward - CACHE Watch - 4 HOUR",
    "src": "twitch-gql",
    "canais_vistos": [
-    "charlescimeaurant",
     "gcrock6",
-    "widdz",
-    "joey_ru",
-    "spring4817",
-    "drayker_tv"
+    "charlescimeaurant",
+    "nothingbutskillz",
+    "wilzera_x",
+    "konflex_og",
+    "jaymadeitlookezz"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 95,
+   "canais_na_categoria": 97,
    "vista_agora": true,
-   "visto_em": "2026-11-26T17:53:06Z"
+   "visto_em": "2026-11-26T18:09:53Z"
   },
   {
    "id": "4a77ccb5-95e6-4bc6-8567-de0eb09b0214",
@@ -280,14 +280,14 @@
     "dropbadges",
     "forcedropstv",
     "jpretty_streaming",
-    "baldhawk412",
-    "fdff999",
-    "ufo13x1"
+    "hatterthe13",
+    "lechasseurbourre",
+    "baldhawk412"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 96,
+   "canais_na_categoria": 93,
    "vista_agora": true,
-   "visto_em": "2026-11-26T17:53:06Z"
+   "visto_em": "2026-11-26T18:09:53Z"
   },
   {
    "id": "cb35d877-6cdc-469b-a540-a110082c829b",
@@ -366,15 +366,15 @@
    "canais_vistos": [
     "blastz_off",
     "alexmarticiu97",
-    "zvg_",
+    "eutaylorindo",
+    "fenrirdblnews",
     "mathieucambet40",
-    "andrewgiusty7",
-    "gcg_alvaro2002"
+    "andrewgiusty7"
    ],
    "canais_perguntados": 6,
    "canais_na_categoria": 19,
    "vista_agora": true,
-   "visto_em": "2026-11-26T17:53:06Z"
+   "visto_em": "2026-11-26T18:09:53Z"
   },
   {
    "id": "60db69f2-75b5-45c6-8edd-28721d8a038e",
@@ -430,17 +430,17 @@
    "descricao": "Watch stream to earn in-game rewards. Before connecting your accounts, go to [Mahjong Soul > Settings > Other > User Center] to confirm your bound email address. More detailed information about Twitch",
    "src": "twitch-gql",
    "canais_vistos": [
-    "atmiyabi",
     "decaylacarne",
+    "atmiyabi",
     "exz0rcist",
-    "eugene5478",
-    "tuyune_minazuki",
-    "hokuto_hokuto"
+    "hokuto_hokuto",
+    "djchiffon_hiryu",
+    "tuyune_minazuki"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 15,
+   "canais_na_categoria": 16,
    "vista_agora": true,
-   "visto_em": "2026-11-26T17:53:06Z"
+   "visto_em": "2026-11-26T18:09:53Z"
   },
   {
    "id": "101c5286-f541-4183-bfa7-dd8eea691ed9",
@@ -499,14 +499,14 @@
     "sxventv",
     "cbadropdead",
     "hunt2win",
-    "dragonslurpee",
-    "warcanixd",
-    "senpaifunny"
+    "anto26412",
+    "senpaifunny",
+    "fafforaffo"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 34,
+   "canais_na_categoria": 41,
    "vista_agora": true,
-   "visto_em": "2026-11-26T17:53:06Z"
+   "visto_em": "2026-11-26T18:09:53Z"
   },
   {
    "id": "21cf91ef-20d7-11f0-ac3d-0a58a9feac02",
@@ -572,14 +572,14 @@
     "maliwan",
     "julleeusch",
     "libardonii",
-    "takoyaki1903",
-    "vo1dvoyageer",
-    "sonferaptigame"
+    "sonferaptigame",
+    "tkaskan1",
+    "shinto08"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 89,
+   "canais_na_categoria": 85,
    "vista_agora": true,
-   "visto_em": "2026-11-26T17:53:06Z"
+   "visto_em": "2026-11-26T18:09:53Z"
   },
   {
    "id": "03b4ee27-3aac-4d60-98f2-fb7225337744",
@@ -618,13 +618,13 @@
     "bexvalentine",
     "theharryn",
     "alilarhatum",
-    "aidgor",
-    "zacnjoe1"
+    "zacnjoe1",
+    "taco_223_"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 24,
+   "canais_na_categoria": 25,
    "vista_agora": true,
-   "visto_em": "2026-11-26T17:53:06Z"
+   "visto_em": "2026-11-26T18:09:53Z"
   },
   {
    "id": "7fd0b5de-69c5-4f30-924e-59adaa29a362",
@@ -683,14 +683,14 @@
     "thedropcreator",
     "badgetracking",
     "badgerewards",
+    "hushedstream",
     "xxyourtargetxx",
-    "struggledawg12",
-    "jaxzqq"
+    "struggledawg12"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 24,
+   "canais_na_categoria": 25,
    "vista_agora": true,
-   "visto_em": "2026-11-26T17:53:06Z"
+   "visto_em": "2026-11-26T18:09:53Z"
   },
   {
    "id": "882ccb61-0d4c-4fe6-a5c5-3156e8a033ab",
@@ -728,14 +728,14 @@
     "bonjwa",
     "c_a_k_e",
     "mahluna",
-    "thelaconicfane",
-    "sinscenegamer",
-    "thedeltarayo"
+    "systemazz",
+    "akirochka___",
+    "malak_ooo"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 88,
+   "canais_na_categoria": 99,
    "vista_agora": true,
-   "visto_em": "2026-11-26T17:53:06Z"
+   "visto_em": "2026-11-26T18:09:53Z"
   },
   {
    "id": "1f04121b-9c6b-4ae8-bdd5-9833c96a64ae",
@@ -771,15 +771,15 @@
    "src": "twitch-gql",
    "canais_vistos": [
     "sick_nerd",
-    "dino_xx",
     "faux",
-    "arrmine",
-    "monoboys"
+    "mmorpg",
+    "lifeskillmachine",
+    "wintahs"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 99,
+   "canais_na_categoria": 96,
    "vista_agora": true,
-   "visto_em": "2026-11-26T17:53:06Z"
+   "visto_em": "2026-11-26T18:09:53Z"
   },
   {
    "id": "a8ce1281-5c82-4fbe-9a18-3e7d02e1e7b6",
@@ -814,12 +814,12 @@
    "descricao": "This badge was awarded to people who viewed any eligible channel in the Old School RuneScape category for one hour.",
    "src": "twitch-gql",
    "canais_vistos": [
-    "blainathan"
+    "goldgrinder38"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 99,
+   "canais_na_categoria": 96,
    "vista_agora": true,
-   "visto_em": "2026-11-26T17:53:06Z"
+   "visto_em": "2026-11-26T18:09:53Z"
   },
   {
    "id": "b7669f9e-c69c-4a9b-a3b2-36266c1bdfc0",
@@ -904,16 +904,16 @@
    "src": "twitch-gql",
    "canais_vistos": [
     "ohnepixel",
+    "illojuan",
     "zarbex",
-    "bratishkinoff",
-    "surskity11",
-    "bearki",
-    "brucegrannec"
+    "nieuczesana",
+    "vader",
+    "babbalucy"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 96,
+   "canais_na_categoria": 97,
    "vista_agora": true,
-   "visto_em": "2026-11-26T17:53:06Z"
+   "visto_em": "2026-11-26T18:09:53Z"
   },
   {
    "id": "5acbe8a4-35f3-45c8-afaa-3f0483fd17bb",
@@ -958,7 +958,7 @@
    "canais_perguntados": 6,
    "canais_na_categoria": 22,
    "vista_agora": true,
-   "visto_em": "2026-11-26T17:53:06Z"
+   "visto_em": "2026-11-26T18:09:53Z"
   },
   {
    "id": "a1fbeb48-f98d-49d4-845c-9591328aae55",
@@ -995,15 +995,15 @@
    "canais_vistos": [
     "veyranova",
     "badgegets",
-    "weedboysl__",
-    "notthisonewhoy",
+    "badgesdrops",
     "fiorennt",
-    "zerodragoon0"
+    "badgezvous",
+    "notthisonewhoy"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 17,
+   "canais_na_categoria": 15,
    "vista_agora": true,
-   "visto_em": "2026-11-26T17:53:06Z"
+   "visto_em": "2026-11-26T18:09:53Z"
   }
  ],
  "badges": [
@@ -1023,6 +1023,6 @@
   }
  ],
  "error": null,
- "warn": "Tropecos na varredura: canal sasavot: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal ailincia: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal guthriee: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal elluzkaa: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]",
+ "warn": "Tropecos na varredura: canal peereira7: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal jltomy: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal msvosch: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal aseylia: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]",
  "raw_hint": null
 }
