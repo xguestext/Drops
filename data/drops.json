@@ -1,8 +1,8 @@
 {
- "updated_at": "2026-11-27T19:21:15Z",
+ "updated_at": "2026-11-27T19:38:10Z",
  "ok": true,
  "source": "twitch-gql",
- "source_updated": "2026-11-27T19:21:15Z",
+ "source_updated": "2026-11-27T19:38:10Z",
  "counts": {
   "total": 19,
   "upcoming": 0,
@@ -10,16 +10,16 @@
   "game_drops": 13,
   "platform": 6,
   "badges": 2,
-  "fechadas_descartadas": 3,
-  "so_canais_escolhidos": 3,
+  "fechadas_descartadas": 4,
+  "so_canais_escolhidos": 4,
   "badges_de_canal": 0,
   "so_sub": 4,
   "sem_permissao_info": 0,
   "fora_da_lista": 24,
-  "categorias_olhadas": 146,
-  "categorias_com_drop": 89,
-  "canais_perguntados": 277,
-  "vistas_agora": 19,
+  "categorias_olhadas": 145,
+  "categorias_com_drop": 87,
+  "canais_perguntados": 273,
+  "vistas_agora": 17,
   "lembradas": 0
  },
  "campaigns": [
@@ -73,82 +73,20 @@
     "knebeltv",
     "arkvenger_tv",
     "sadpocky",
-    "kaltal_",
-    "andreanan1",
-    "stianunited"
+    "jefe_7pc",
+    "kirator_",
+    "quimera_starcitizen"
    ],
    "canais_perguntados": 6,
    "canais_na_categoria": 98,
    "vista_agora": true,
-   "visto_em": "2026-11-27T19:21:15Z"
+   "visto_em": "2026-11-27T19:38:10Z"
   },
   {
-   "id": "9740d719-b805-4712-804f-cf551ed11acb",
-   "name": "Пятница 27.11.2026",
-   "status": "ACTIVE",
-   "start_at": "2026-11-27T15:00:00Z",
-   "end_at": "2026-11-29T20:59:59.999Z",
-   "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a9e12abe-bd7e-4832-a9ca-dddc8585290c.png",
-   "details_url": "https://playcaliber.com/",
-   "game": "Caliber",
-   "game_slug": "caliber",
-   "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/514013_IGDB-120x160.jpg",
    "availability": "open",
-   "channels": [],
+   "canais_na_categoria": 7,
+   "canais_perguntados": 6,
    "canais_permitidos": 0,
-   "required_minutes": 20,
-   "requer_sub": false,
-   "subs_necessarios": 0,
-   "resgate": "assistir 20 min",
-   "reward_type": "game",
-   "tipo_premio": "game",
-   "rewards": [
-    {
-     "name": "20 000 credits 27.11",
-     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3a257cbb-30f0-4231-877e-4b1b90c98326.png",
-     "minutes": 20,
-     "type": "DIRECT_ENTITLEMENT",
-     "subs": 0
-    },
-    {
-     "name": "50 fragments 27.11",
-     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4ff48459-5c33-4bfb-b82c-6d95a065fd6d.png",
-     "minutes": 30,
-     "type": "DIRECT_ENTITLEMENT",
-     "subs": 0
-    },
-    {
-     "name": "20 000 credits (2) 27.11",
-     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9186cdfb-8716-4670-824e-2a67d85d7f0e.png",
-     "minutes": 45,
-     "type": "DIRECT_ENTITLEMENT",
-     "subs": 0
-    },
-    {
-     "name": "Army Surplus 27.11",
-     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/42e879c6-5904-48be-b0e0-3e0a604601ca.png",
-     "minutes": 60,
-     "type": "DIRECT_ENTITLEMENT",
-     "subs": 0
-    },
-    {
-     "name": "20 000 credits (3) 27.11",
-     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/55269eec-190b-4aa4-a4f2-e0efcb626f8a.png",
-     "minutes": 90,
-     "type": "DIRECT_ENTITLEMENT",
-     "subs": 0
-    },
-    {
-     "name": "Weapon container 27.11",
-     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/42b9083d-87e9-4d3f-94bd-d4c57890337f.png",
-     "minutes": 120,
-     "type": "DIRECT_ENTITLEMENT",
-     "subs": 0
-    }
-   ],
-   "dono": "1C-777 Limited",
-   "descricao": "Смотри прямые трансляции и получай награды!",
-   "src": "twitch-gql",
    "canais_vistos": [
     "zelehb_tv",
     "visader",
@@ -157,9 +95,71 @@
     "legend89_tv",
     "rest_in_peace_caliber"
    ],
-   "canais_perguntados": 6,
-   "canais_na_categoria": 7,
-   "vista_agora": true,
+   "channels": [],
+   "descricao": "Смотри прямые трансляции и получай награды!",
+   "details_url": "https://playcaliber.com/",
+   "dono": "1C-777 Limited",
+   "end_at": "2026-11-29T20:59:59.999Z",
+   "game": "Caliber",
+   "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/514013_IGDB-120x160.jpg",
+   "game_slug": "caliber",
+   "id": "9740d719-b805-4712-804f-cf551ed11acb",
+   "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a9e12abe-bd7e-4832-a9ca-dddc8585290c.png",
+   "name": "Пятница 27.11.2026",
+   "requer_sub": false,
+   "required_minutes": 20,
+   "resgate": "assistir 20 min",
+   "reward_type": "game",
+   "rewards": [
+    {
+     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3a257cbb-30f0-4231-877e-4b1b90c98326.png",
+     "minutes": 20,
+     "name": "20 000 credits 27.11",
+     "subs": 0,
+     "type": "DIRECT_ENTITLEMENT"
+    },
+    {
+     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4ff48459-5c33-4bfb-b82c-6d95a065fd6d.png",
+     "minutes": 30,
+     "name": "50 fragments 27.11",
+     "subs": 0,
+     "type": "DIRECT_ENTITLEMENT"
+    },
+    {
+     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9186cdfb-8716-4670-824e-2a67d85d7f0e.png",
+     "minutes": 45,
+     "name": "20 000 credits (2) 27.11",
+     "subs": 0,
+     "type": "DIRECT_ENTITLEMENT"
+    },
+    {
+     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/42e879c6-5904-48be-b0e0-3e0a604601ca.png",
+     "minutes": 60,
+     "name": "Army Surplus 27.11",
+     "subs": 0,
+     "type": "DIRECT_ENTITLEMENT"
+    },
+    {
+     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/55269eec-190b-4aa4-a4f2-e0efcb626f8a.png",
+     "minutes": 90,
+     "name": "20 000 credits (3) 27.11",
+     "subs": 0,
+     "type": "DIRECT_ENTITLEMENT"
+    },
+    {
+     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/42b9083d-87e9-4d3f-94bd-d4c57890337f.png",
+     "minutes": 120,
+     "name": "Weapon container 27.11",
+     "subs": 0,
+     "type": "DIRECT_ENTITLEMENT"
+    }
+   ],
+   "src": "twitch-gql",
+   "start_at": "2026-11-27T15:00:00Z",
+   "status": "ACTIVE",
+   "subs_necessarios": 0,
+   "tipo_premio": "game",
+   "vista_agora": false,
    "visto_em": "2026-11-27T19:21:15Z"
   },
   {
@@ -217,9 +217,9 @@
     "hiyaburb"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 49,
+   "canais_na_categoria": 43,
    "vista_agora": true,
-   "visto_em": "2026-11-27T19:21:15Z"
+   "visto_em": "2026-11-27T19:38:10Z"
   },
   {
    "id": "95804ad6-7ef2-4e28-a6ef-107a781598aa",
@@ -303,12 +303,13 @@
    "descricao": "Watch the live broadcast on our official Twitch channel and reach the required cumulative viewing milestones to earn the exclusive YMIR Cup limited-edition ground companion, Isrun, along with special ",
    "src": "twitch-gql",
    "canais_vistos": [
+    "future01224",
     "iamkrypton_"
    ],
-   "canais_perguntados": 1,
-   "canais_na_categoria": 1,
+   "canais_perguntados": 2,
+   "canais_na_categoria": 2,
    "vista_agora": true,
-   "visto_em": "2026-11-27T19:21:15Z"
+   "visto_em": "2026-11-27T19:38:10Z"
   },
   {
    "id": "fa68d774-d481-417c-9695-7dcaa06c06e7",
@@ -381,14 +382,14 @@
     "dekkster",
     "jeeeeet13",
     "ninaisnoob",
-    "crazy_songyy",
-    "pixou_lab",
-    "iam_fif3"
+    "iam_fif3",
+    "itzaweebers",
+    "pixou_lab"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 9,
+   "canais_na_categoria": 10,
    "vista_agora": true,
-   "visto_em": "2026-11-27T19:21:15Z"
+   "visto_em": "2026-11-27T19:38:10Z"
   },
   {
    "id": "94263f50-6ae7-45a8-bd72-5f612c5b1243",
@@ -457,7 +458,7 @@
    "canais_perguntados": 2,
    "canais_na_categoria": 2,
    "vista_agora": true,
-   "visto_em": "2026-11-27T19:21:15Z"
+   "visto_em": "2026-11-27T19:38:10Z"
   },
   {
    "id": "4caddcc2-2599-4d82-8559-cc0a1cb600c2",
@@ -522,15 +523,15 @@
    "canais_vistos": [
     "nothingbutskillz",
     "widdz",
-    "charlescimeaurant",
+    "kamikazevondoom",
     "tyrael40",
-    "leonskir6",
-    "s3b4sva"
+    "kuzmitch",
+    "nightwolf_x"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 100,
+   "canais_na_categoria": 98,
    "vista_agora": true,
-   "visto_em": "2026-11-27T19:21:15Z"
+   "visto_em": "2026-11-27T19:38:10Z"
   },
   {
    "id": "4a77ccb5-95e6-4bc6-8567-de0eb09b0214",
@@ -586,17 +587,17 @@
    "descricao": "Once Human S5 Drops event will be live on Nov 19 - Dec 3, 2026.Connect your Once Human character and Twitch account to receive the reward. Watch a participating stream channel to join the activity. Yo",
    "src": "twitch-gql",
    "canais_vistos": [
-    "alphaprim1",
+    "jsmotoa",
+    "cyberdesecrator",
     "royalewithcheesetv",
-    "kirby_by",
-    "krizmatic_",
-    "revealightsyt",
-    "barbatospf"
+    "track3m",
+    "dark_blue_79",
+    "kingrichardxv"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 99,
+   "canais_na_categoria": 100,
    "vista_agora": true,
-   "visto_em": "2026-11-27T19:21:15Z"
+   "visto_em": "2026-11-27T19:38:10Z"
   },
   {
    "id": "cb35d877-6cdc-469b-a540-a110082c829b",
@@ -675,15 +676,15 @@
    "canais_vistos": [
     "eutaylorindo",
     "zvg_",
-    "nindoxttv",
+    "ezio__off",
     "dropactive2",
     "isaiahsupyo29",
-    "sergitenma"
+    "dadhinyo13k04"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 11,
+   "canais_na_categoria": 13,
    "vista_agora": true,
-   "visto_em": "2026-11-27T19:21:15Z"
+   "visto_em": "2026-11-27T19:38:10Z"
   },
   {
    "id": "60db69f2-75b5-45c6-8edd-28721d8a038e",
@@ -741,15 +742,15 @@
    "canais_vistos": [
     "aster_0102",
     "turbomouse",
-    "infinitygoat",
+    "mima_radio",
+    "rembo65",
     "sagami_ahiru",
-    "kumonashizuki_vtuber",
     "meaokai"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 15,
+   "canais_na_categoria": 13,
    "vista_agora": true,
-   "visto_em": "2026-11-27T19:21:15Z"
+   "visto_em": "2026-11-27T19:38:10Z"
   },
   {
    "id": "101c5286-f541-4183-bfa7-dd8eea691ed9",
@@ -807,15 +808,15 @@
    "canais_vistos": [
     "kartoffelschtriem",
     "sxventv",
-    "imthehavok_",
-    "dragonslurpee",
-    "senpaifunny",
-    "dangersdolli82"
+    "masterpato_1377",
+    "luffy9411",
+    "dangersdolli82",
+    "javiicho10"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 34,
+   "canais_na_categoria": 38,
    "vista_agora": true,
-   "visto_em": "2026-11-27T19:21:15Z"
+   "visto_em": "2026-11-27T19:38:10Z"
   },
   {
    "id": "21cf91ef-20d7-11f0-ac3d-0a58a9feac02",
@@ -881,14 +882,14 @@
     "zrush",
     "saintontas",
     "fgrav_",
-    "osina_s",
-    "lhewaton",
-    "glowpath"
+    "eienno3tyairuka",
+    "glowpath",
+    "hesitationsnow"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 73,
+   "canais_na_categoria": 74,
    "vista_agora": true,
-   "visto_em": "2026-11-27T19:21:15Z"
+   "visto_em": "2026-11-27T19:38:10Z"
   },
   {
    "id": "03b4ee27-3aac-4d60-98f2-fb7225337744",
@@ -924,8 +925,8 @@
    "src": "twitch-gql",
    "canais_vistos": [
     "sephiroth333",
-    "theharryn",
     "meowmewka",
+    "theharryn",
     "green_cyber",
     "maladroa",
     "alilarhatum"
@@ -933,7 +934,7 @@
    "canais_perguntados": 6,
    "canais_na_categoria": 25,
    "vista_agora": true,
-   "visto_em": "2026-11-27T19:21:15Z"
+   "visto_em": "2026-11-27T19:38:10Z"
   },
   {
    "id": "882ccb61-0d4c-4fe6-a5c5-3156e8a033ab",
@@ -972,13 +973,13 @@
     "riirex",
     "seriouschallenges",
     "spikeaniki",
-    "aussiesplasher",
-    "neennc"
+    "joetrue",
+    "alwipewpew"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 97,
+   "canais_na_categoria": 98,
    "vista_agora": true,
-   "visto_em": "2026-11-27T19:21:15Z"
+   "visto_em": "2026-11-27T19:38:10Z"
   },
   {
    "id": "1f04121b-9c6b-4ae8-bdd5-9833c96a64ae",
@@ -1016,52 +1017,53 @@
     "sick_nerd",
     "alfie",
     "mmorpg",
-    "imegan420",
-    "cass_the_god"
+    "80hdbarbie",
+    "jroking",
+    "compi128"
    ],
    "canais_perguntados": 6,
    "canais_na_categoria": 100,
    "vista_agora": true,
-   "visto_em": "2026-11-27T19:21:15Z"
+   "visto_em": "2026-11-27T19:38:10Z"
   },
   {
-   "id": "a8ce1281-5c82-4fbe-9a18-3e7d02e1e7b6",
-   "name": "OSRS Hardcore Worlds",
-   "status": "ACTIVE",
-   "start_at": "2026-11-18T13:06:33Z",
-   "end_at": "2026-11-30T23:59:59.999Z",
-   "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/facbef0f-30a9-4652-be8e-3706e72b1fb7.png",
-   "details_url": "https://www.twitch.tv/drops/campaigns",
-   "game": "Old School RuneScape",
-   "game_slug": "old-school-runescape",
-   "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/459931_IGDB-120x160.jpg",
    "availability": "open",
-   "channels": [],
+   "canais_na_categoria": 100,
+   "canais_perguntados": 6,
    "canais_permitidos": 0,
-   "required_minutes": 60,
-   "requer_sub": false,
-   "subs_necessarios": 0,
-   "resgate": "assistir 1h",
-   "reward_type": "platform",
-   "tipo_premio": "badge",
-   "rewards": [
-    {
-     "name": "RuneScape Bones",
-     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3f8997fa-c97e-4f13-8d6c-1fd689a84d9f.png",
-     "minutes": 60,
-     "type": "BADGE",
-     "subs": 0
-    }
-   ],
-   "dono": "Twitch Gaming",
-   "descricao": "This badge was awarded to people who viewed any eligible channel in the Old School RuneScape category for one hour.",
-   "src": "twitch-gql",
    "canais_vistos": [
     "danyb_osrs"
    ],
-   "canais_perguntados": 6,
-   "canais_na_categoria": 100,
-   "vista_agora": true,
+   "channels": [],
+   "descricao": "This badge was awarded to people who viewed any eligible channel in the Old School RuneScape category for one hour.",
+   "details_url": "https://www.twitch.tv/drops/campaigns",
+   "dono": "Twitch Gaming",
+   "end_at": "2026-11-30T23:59:59.999Z",
+   "game": "Old School RuneScape",
+   "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/459931_IGDB-120x160.jpg",
+   "game_slug": "old-school-runescape",
+   "id": "a8ce1281-5c82-4fbe-9a18-3e7d02e1e7b6",
+   "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/facbef0f-30a9-4652-be8e-3706e72b1fb7.png",
+   "name": "OSRS Hardcore Worlds",
+   "requer_sub": false,
+   "required_minutes": 60,
+   "resgate": "assistir 1h",
+   "reward_type": "platform",
+   "rewards": [
+    {
+     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3f8997fa-c97e-4f13-8d6c-1fd689a84d9f.png",
+     "minutes": 60,
+     "name": "RuneScape Bones",
+     "subs": 0,
+     "type": "BADGE"
+    }
+   ],
+   "src": "twitch-gql",
+   "start_at": "2026-11-18T13:06:33Z",
+   "status": "ACTIVE",
+   "subs_necessarios": 0,
+   "tipo_premio": "badge",
+   "vista_agora": false,
    "visto_em": "2026-11-27T19:21:15Z"
   },
   {
@@ -1148,15 +1150,15 @@
    "canais_vistos": [
     "alanzoka",
     "bratishkinoff",
-    "egorkreed",
+    "nickeh30",
     "bonkol",
-    "surskity11",
-    "gtawiseguy"
+    "mrssparkk",
+    "tatiana_tv"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 99,
+   "canais_na_categoria": 96,
    "vista_agora": true,
-   "visto_em": "2026-11-27T19:21:15Z"
+   "visto_em": "2026-11-27T19:38:10Z"
   },
   {
    "id": "5acbe8a4-35f3-45c8-afaa-3f0483fd17bb",
@@ -1193,15 +1195,15 @@
    "canais_vistos": [
     "zg__",
     "absoluteforcetv",
-    "wmoralestv",
+    "transforms",
     "badgely",
-    "deadpanzak",
-    "itsbadgecollector"
+    "oursgrogneur",
+    "mrdrehkippfenster"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 25,
+   "canais_na_categoria": 28,
    "vista_agora": true,
-   "visto_em": "2026-11-27T19:21:15Z"
+   "visto_em": "2026-11-27T19:38:10Z"
   },
   {
    "id": "a1fbeb48-f98d-49d4-845c-9591328aae55",
@@ -1239,14 +1241,14 @@
     "notthisonewhoy",
     "irranium",
     "badgerewards",
-    "9_thorwill",
-    "risettagames",
-    "malal_tv"
+    "badgezvous",
+    "malal_tv",
+    "risettagames"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 19,
+   "canais_na_categoria": 20,
    "vista_agora": true,
-   "visto_em": "2026-11-27T19:21:15Z"
+   "visto_em": "2026-11-27T19:38:10Z"
   }
  ],
  "badges": [
@@ -1266,6 +1268,6 @@
   }
  ],
  "error": null,
- "warn": "Tropecos na varredura: canal jltomy: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal nilo: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal elsukr: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal 9m_819: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]",
+ "warn": "Tropecos na varredura: canal jltomy: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal nilo: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal elsukr: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal peereira7: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]",
  "raw_hint": null
 }
