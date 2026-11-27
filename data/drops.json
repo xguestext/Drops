@@ -1,13 +1,13 @@
 {
- "updated_at": "2026-11-27T17:23:38Z",
+ "updated_at": "2026-11-27T17:40:27Z",
  "ok": true,
  "source": "twitch-gql",
- "source_updated": "2026-11-27T17:23:38Z",
+ "source_updated": "2026-11-27T17:40:27Z",
  "counts": {
-  "total": 17,
+  "total": 18,
   "upcoming": 0,
-  "active": 17,
-  "game_drops": 11,
+  "active": 18,
+  "game_drops": 12,
   "platform": 6,
   "badges": 2,
   "fechadas_descartadas": 3,
@@ -16,10 +16,10 @@
   "so_sub": 4,
   "sem_permissao_info": 0,
   "fora_da_lista": 23,
-  "categorias_olhadas": 150,
-  "categorias_com_drop": 89,
-  "canais_perguntados": 271,
-  "vistas_agora": 17,
+  "categorias_olhadas": 151,
+  "categorias_com_drop": 85,
+  "canais_perguntados": 287,
+  "vistas_agora": 18,
   "lembradas": 0
  },
  "campaigns": [
@@ -73,14 +73,14 @@
     "knebeltv",
     "arkvenger_tv",
     "thedarklaw",
-    "termogad",
-    "superqqq",
+    "lucabshow",
+    "rsncorp",
     "radiooretani"
    ],
    "canais_perguntados": 6,
    "canais_na_categoria": 99,
    "vista_agora": true,
-   "visto_em": "2026-11-27T17:23:38Z"
+   "visto_em": "2026-11-27T17:40:27Z"
   },
   {
    "id": "9740d719-b805-4712-804f-cf551ed11acb",
@@ -150,12 +150,14 @@
    "descricao": "Смотри прямые трансляции и получай награды!",
    "src": "twitch-gql",
    "canais_vistos": [
-    "legend89_tv"
+    "enot_02_02",
+    "panchu316",
+    "rest_in_peace_caliber"
    ],
-   "canais_perguntados": 1,
-   "canais_na_categoria": 1,
+   "canais_perguntados": 3,
+   "canais_na_categoria": 3,
    "vista_agora": true,
-   "visto_em": "2026-11-27T17:23:38Z"
+   "visto_em": "2026-11-27T17:40:27Z"
   },
   {
    "id": "8d69de9a-d8fd-4bd5-a274-fc7c094a3ccd",
@@ -205,16 +207,106 @@
    "src": "twitch-gql",
    "canais_vistos": [
     "alderiate",
-    "splinter",
     "wakzlol",
+    "splinter",
     "likon505",
-    "brownbomberz420",
-    "hamumasutaa"
+    "hamumasutaa",
+    "pyxiz10"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 53,
+   "canais_na_categoria": 52,
    "vista_agora": true,
-   "visto_em": "2026-11-27T17:23:38Z"
+   "visto_em": "2026-11-27T17:40:27Z"
+  },
+  {
+   "id": "95804ad6-7ef2-4e28-a6ef-107a781598aa",
+   "name": "YMIR Cup: LIVE NOW",
+   "status": "ACTIVE",
+   "start_at": "2026-11-27T15:00:00Z",
+   "end_at": "2026-11-30T14:59:59.999Z",
+   "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/2d56b04f-128a-40ee-b8a3-3b3507b92e9a.jpeg",
+   "details_url": "https://www.legendofymir.com/news/notice/763008",
+   "game": "Legend of YMIR",
+   "game_slug": "legend-of-ymir",
+   "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/889298168_IGDB-120x160.jpg",
+   "availability": "open",
+   "channels": [],
+   "canais_permitidos": 0,
+   "required_minutes": 60,
+   "requer_sub": false,
+   "subs_necessarios": 0,
+   "resgate": "assistir 1h",
+   "reward_type": "game",
+   "tipo_premio": "game",
+   "rewards": [
+    {
+     "name": "Shining Horn (Bound)",
+     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/46815e01-7302-4efa-8a54-07ad6a8e864a.png",
+     "minutes": 60,
+     "type": "DIRECT_ENTITLEMENT",
+     "subs": 0
+    },
+    {
+     "name": "Rech. Stone Select Chest",
+     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f9c31731-cbbb-41c7-9fee-047c3b606739.png",
+     "minutes": 120,
+     "type": "DIRECT_ENTITLEMENT",
+     "subs": 0
+    },
+    {
+     "name": "Sol's Summon Ticket x11",
+     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8a803b16-804d-48c4-86ea-abc5a819b071.png",
+     "minutes": 180,
+     "type": "DIRECT_ENTITLEMENT",
+     "subs": 0
+    },
+    {
+     "name": "[R] Companion: Isrun",
+     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/68453b89-dc2d-48f9-9da1-c2833748366b.png",
+     "minutes": 300,
+     "type": "DIRECT_ENTITLEMENT",
+     "subs": 0
+    },
+    {
+     "name": "Andvari's Secret Keys",
+     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1983e019-3279-4ab0-a477-32d8aad38112.png",
+     "minutes": 330,
+     "type": "DIRECT_ENTITLEMENT",
+     "subs": 0
+    },
+    {
+     "name": "Andvari's Secret Key",
+     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/efb92a12-7ce3-42e7-9c98-cd4d5989dc0a.png",
+     "minutes": 360,
+     "type": "DIRECT_ENTITLEMENT",
+     "subs": 0
+    },
+    {
+     "name": "Andvari's Secret Key",
+     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5121ea37-12bc-46fa-af89-d3943cc7320c.png",
+     "minutes": 450,
+     "type": "DIRECT_ENTITLEMENT",
+     "subs": 0
+    },
+    {
+     "name": "Andvari's Secret Key",
+     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/43860a91-00dc-4a96-ac79-b5780aefb552.png",
+     "minutes": 480,
+     "type": "DIRECT_ENTITLEMENT",
+     "subs": 0
+    }
+   ],
+   "dono": "Wemade Entertainment",
+   "descricao": "Watch the live broadcast on our official Twitch channel and reach the required cumulative viewing milestones to earn the exclusive YMIR Cup limited-edition ground companion, Isrun, along with special ",
+   "src": "twitch-gql",
+   "canais_vistos": [
+    "severancebrasil",
+    "iamkrypton_"
+   ],
+   "canais_perguntados": 2,
+   "canais_na_categoria": 2,
+   "vista_agora": true,
+   "visto_em": "2026-11-27T17:40:27Z"
   },
   {
    "id": "94263f50-6ae7-45a8-bd72-5f612c5b1243",
@@ -283,7 +375,7 @@
    "canais_perguntados": 2,
    "canais_na_categoria": 2,
    "vista_agora": true,
-   "visto_em": "2026-11-27T17:23:38Z"
+   "visto_em": "2026-11-27T17:40:27Z"
   },
   {
    "id": "4caddcc2-2599-4d82-8559-cc0a1cb600c2",
@@ -349,14 +441,14 @@
     "widdz",
     "nothingbutskillz",
     "charlescimeaurant",
-    "flow2080",
-    "1clerik1",
-    "knete_im_hirn"
+    "voodoohandz",
+    "samy_gamer98",
+    "n1ghtk1"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 100,
+   "canais_na_categoria": 98,
    "vista_agora": true,
-   "visto_em": "2026-11-27T17:23:38Z"
+   "visto_em": "2026-11-27T17:40:27Z"
   },
   {
    "id": "4a77ccb5-95e6-4bc6-8567-de0eb09b0214",
@@ -415,14 +507,14 @@
     "royalewithcheesetv",
     "dropbadges",
     "forcedropstv",
-    "lowvki",
-    "in462",
-    "lildarkage_"
+    "exportedmanx237",
+    "thefrenchenc_le",
+    "ha_ruk"
    ],
    "canais_perguntados": 6,
    "canais_na_categoria": 97,
    "vista_agora": true,
-   "visto_em": "2026-11-27T17:23:38Z"
+   "visto_em": "2026-11-27T17:40:27Z"
   },
   {
    "id": "cb35d877-6cdc-469b-a540-a110082c829b",
@@ -499,17 +591,17 @@
    "descricao": "\"DRAGON BALL LEGENDS\" LEGENDS FESTIVAL 2026 Twitch Drops: Vol.1 is Here! \nDon't miss out on the chance to get in-game items such as Chrono Crystals!",
    "src": "twitch-gql",
    "canais_vistos": [
-    "dokamdave",
     "eutaylorindo",
     "zvg_",
+    "tynanashi",
     "ssj_legendary",
     "jordybazan",
     "fenrirdblnews"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 9,
+   "canais_na_categoria": 8,
    "vista_agora": true,
-   "visto_em": "2026-11-27T17:23:38Z"
+   "visto_em": "2026-11-27T17:40:27Z"
   },
   {
    "id": "60db69f2-75b5-45c6-8edd-28721d8a038e",
@@ -567,15 +659,15 @@
    "canais_vistos": [
     "aster_0102",
     "turbomouse",
-    "odaaaaant",
-    "rinri39",
-    "htmr8810",
+    "tsukasavt",
+    "tyanevergreen",
+    "m3mb0y",
     "meaokai"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 34,
+   "canais_na_categoria": 26,
    "vista_agora": true,
-   "visto_em": "2026-11-27T17:23:38Z"
+   "visto_em": "2026-11-27T17:40:27Z"
   },
   {
    "id": "101c5286-f541-4183-bfa7-dd8eea691ed9",
@@ -634,14 +726,14 @@
     "kartoffelschtriem",
     "groanola",
     "virtuallybob",
-    "pascalbassus",
+    "senpaifunny",
     "perfectviper1042",
     "dangersdolli82"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 36,
+   "canais_na_categoria": 33,
    "vista_agora": true,
-   "visto_em": "2026-11-27T17:23:38Z"
+   "visto_em": "2026-11-27T17:40:27Z"
   },
   {
    "id": "21cf91ef-20d7-11f0-ac3d-0a58a9feac02",
@@ -707,14 +799,14 @@
     "zrush",
     "maliwan",
     "s4ninha",
-    "shhmady",
-    "isekai0404",
-    "migiwa_tought"
+    "osina_s",
+    "glowpath",
+    "shhmady"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 70,
+   "canais_na_categoria": 72,
    "vista_agora": true,
-   "visto_em": "2026-11-27T17:23:38Z"
+   "visto_em": "2026-11-27T17:40:27Z"
   },
   {
    "id": "03b4ee27-3aac-4d60-98f2-fb7225337744",
@@ -750,16 +842,16 @@
    "src": "twitch-gql",
    "canais_vistos": [
     "sephiroth333",
-    "nekoneisan",
     "theharryn",
-    "teallen1996",
-    "niftyontwitch",
-    "zer0_sud0"
+    "meowmewka",
+    "myrnae",
+    "zer0_sud0",
+    "onmids"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 24,
+   "canais_na_categoria": 22,
    "vista_agora": true,
-   "visto_em": "2026-11-27T17:23:38Z"
+   "visto_em": "2026-11-27T17:40:27Z"
   },
   {
    "id": "882ccb61-0d4c-4fe6-a5c5-3156e8a033ab",
@@ -797,14 +889,14 @@
     "c_a_k_e",
     "seriouschallenges",
     "galdrakaarl",
-    "mas0n05w",
-    "therealshab",
-    "mwi_l"
+    "raylordfawkr",
+    "yukumabear",
+    "karadehestia"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 100,
+   "canais_na_categoria": 99,
    "vista_agora": true,
-   "visto_em": "2026-11-27T17:23:38Z"
+   "visto_em": "2026-11-27T17:40:27Z"
   },
   {
    "id": "1f04121b-9c6b-4ae8-bdd5-9833c96a64ae",
@@ -840,15 +932,14 @@
    "src": "twitch-gql",
    "canais_vistos": [
     "sick_nerd",
-    "dino_xx",
+    "coxie",
     "alfie",
-    "skaimr_",
-    "fearlesswow"
+    "skaimr_"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 97,
+   "canais_na_categoria": 100,
    "vista_agora": true,
-   "visto_em": "2026-11-27T17:23:38Z"
+   "visto_em": "2026-11-27T17:40:27Z"
   },
   {
    "id": "a8ce1281-5c82-4fbe-9a18-3e7d02e1e7b6",
@@ -883,12 +974,13 @@
    "descricao": "This badge was awarded to people who viewed any eligible channel in the Old School RuneScape category for one hour.",
    "src": "twitch-gql",
    "canais_vistos": [
-    "ironandinstants"
+    "unemployedchicken",
+    "gnarlynarwhal59"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 97,
+   "canais_na_categoria": 100,
    "vista_agora": true,
-   "visto_em": "2026-11-27T17:23:38Z"
+   "visto_em": "2026-11-27T17:40:27Z"
   },
   {
    "id": "b7669f9e-c69c-4a9b-a3b2-36266c1bdfc0",
@@ -974,15 +1066,16 @@
    "canais_vistos": [
     "cohhcarnage",
     "bratishkinoff",
-    "domingo",
-    "mrssparkk",
-    "csyon",
-    "radlerauge"
+    "egorkreed",
+    "gtawiseguy",
+    "yumie0306",
+    "louu",
+    "angelkacs"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 96,
+   "canais_na_categoria": 97,
    "vista_agora": true,
-   "visto_em": "2026-11-27T17:23:38Z"
+   "visto_em": "2026-11-27T17:40:27Z"
   },
   {
    "id": "5acbe8a4-35f3-45c8-afaa-3f0483fd17bb",
@@ -1017,17 +1110,17 @@
    "descricao": "Subscribe or Gift a Sub to a DOOM: The Dark Ages streamer during the launch of Slaughter Mode to earn the DOOM: The Dark Ages chat badge!",
    "src": "twitch-gql",
    "canais_vistos": [
+    "zg__",
     "absoluteforcetv",
     "transforms",
-    "thiagoloopes",
+    "badgely",
     "itsbadgecollector",
-    "pandaflk",
-    "black_ursus"
+    "daou_fpv"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 25,
+   "canais_na_categoria": 26,
    "vista_agora": true,
-   "visto_em": "2026-11-27T17:23:38Z"
+   "visto_em": "2026-11-27T17:40:27Z"
   },
   {
    "id": "a1fbeb48-f98d-49d4-845c-9591328aae55",
@@ -1063,16 +1156,16 @@
    "src": "twitch-gql",
    "canais_vistos": [
     "veyranova",
-    "irranium",
     "notthisonewhoy",
+    "badgerewards",
+    "9_thorwill",
     "liken_liekun",
-    "badgezvous",
-    "9_thorwill"
+    "badgezvous"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 19,
+   "canais_na_categoria": 18,
    "vista_agora": true,
-   "visto_em": "2026-11-27T17:23:38Z"
+   "visto_em": "2026-11-27T17:40:27Z"
   }
  ],
  "badges": [
@@ -1092,6 +1185,6 @@
   }
  ],
  "error": null,
- "warn": "Tropecos na varredura: canal sasavot: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal plexooh: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal peereira7: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal haumpah: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]",
+ "warn": "Tropecos na varredura: canal plexooh: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal peereira7: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal zombanomm: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal malucc10: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]",
  "raw_hint": null
 }
