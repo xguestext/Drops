@@ -1,8 +1,8 @@
 {
- "updated_at": "2026-11-27T20:22:25Z",
+ "updated_at": "2026-11-27T20:39:13Z",
  "ok": true,
  "source": "twitch-gql",
- "source_updated": "2026-11-27T20:22:25Z",
+ "source_updated": "2026-11-27T20:39:13Z",
  "counts": {
   "total": 18,
   "upcoming": 0,
@@ -10,16 +10,16 @@
   "game_drops": 12,
   "platform": 6,
   "badges": 2,
-  "fechadas_descartadas": 3,
-  "so_canais_escolhidos": 3,
+  "fechadas_descartadas": 4,
+  "so_canais_escolhidos": 4,
   "badges_de_canal": 0,
   "so_sub": 4,
   "sem_permissao_info": 0,
-  "fora_da_lista": 24,
-  "categorias_olhadas": 145,
-  "categorias_com_drop": 88,
-  "canais_perguntados": 280,
-  "vistas_agora": 16,
+  "fora_da_lista": 23,
+  "categorias_olhadas": 146,
+  "categorias_com_drop": 90,
+  "canais_perguntados": 294,
+  "vistas_agora": 15,
   "lembradas": 0
  },
  "campaigns": [
@@ -153,14 +153,14 @@
     "zizaran",
     "steelmage",
     "datmodz",
-    "arkani010",
-    "wordthatsjay",
-    "hiyaburb"
+    "hiyaburb",
+    "acalamitysin",
+    "saeyonshanks"
    ],
    "canais_perguntados": 6,
    "canais_na_categoria": 39,
    "vista_agora": true,
-   "visto_em": "2026-11-27T20:22:25Z"
+   "visto_em": "2026-11-27T20:39:13Z"
   },
   {
    "id": "95804ad6-7ef2-4e28-a6ef-107a781598aa",
@@ -250,7 +250,7 @@
    "canais_perguntados": 2,
    "canais_na_categoria": 2,
    "vista_agora": true,
-   "visto_em": "2026-11-27T20:22:25Z"
+   "visto_em": "2026-11-27T20:39:13Z"
   },
   {
    "id": "fa68d774-d481-417c-9695-7dcaa06c06e7",
@@ -322,82 +322,82 @@
    "canais_vistos": [
     "dekkster",
     "ninaisnoob",
-    "jeeeeet13",
-    "el_dxny",
+    "kaicchuu",
     "alphaasura",
+    "subbot_",
     "iam_fif3"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 13,
+   "canais_na_categoria": 12,
    "vista_agora": true,
-   "visto_em": "2026-11-27T20:22:25Z"
+   "visto_em": "2026-11-27T20:39:13Z"
   },
   {
-   "id": "94263f50-6ae7-45a8-bd72-5f612c5b1243",
-   "name": "Season 4 Special Drops",
-   "status": "ACTIVE",
-   "start_at": "2026-11-05T12:30:00Z",
-   "end_at": "2026-12-02T12:29:59.999Z",
-   "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a536a5aa-86cd-4409-b7ec-e8fa582e0854.png",
-   "details_url": "https://www.playbpsr.com/twitch_bind",
-   "game": "Blue Protocol: Star Resonance",
-   "game_slug": "star-resonance",
-   "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/266795834_IGDB-120x160.jpg",
    "availability": "open",
-   "channels": [],
+   "canais_na_categoria": 1,
+   "canais_perguntados": 1,
    "canais_permitidos": 0,
-   "required_minutes": 15,
-   "requer_sub": false,
-   "subs_necessarios": 0,
-   "resgate": "assistir 15 min",
-   "reward_type": "game",
-   "tipo_premio": "game",
-   "rewards": [
-    {
-     "name": "Stray Stars Reunion Box*1",
-     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/586b1f33-7f41-48fc-9a12-82e7867efd2d.png",
-     "minutes": 300,
-     "type": "DIRECT_ENTITLEMENT",
-     "subs": 0
-    },
-    {
-     "name": "Rose Orb (Bound) *100",
-     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/491cc566-a6ba-4f6b-ba2f-333ebd50d545.png",
-     "minutes": 15,
-     "type": "DIRECT_ENTITLEMENT",
-     "subs": 0
-    },
-    {
-     "name": "S1-S4 Adv. Materials S*3",
-     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f67ecc7f-5911-4452-a959-dad4c836452e.png",
-     "minutes": 30,
-     "type": "DIRECT_ENTITLEMENT",
-     "subs": 0
-    },
-    {
-     "name": "Dye Box *10",
-     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/95c8e6bf-72b0-4699-a77b-1632127d5d11.png",
-     "minutes": 60,
-     "type": "DIRECT_ENTITLEMENT",
-     "subs": 0
-    },
-    {
-     "name": "Meowlux Headwear Select*1",
-     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a021f7d1-cca9-445f-b433-79d9f388de44.png",
-     "minutes": 180,
-     "type": "DIRECT_ENTITLEMENT",
-     "subs": 0
-    }
-   ],
-   "dono": "A PLUS JAPAN Inc.",
-   "descricao": "Important: Connect your Twitch account to your Blue Protocol: Star Resonance game account via the Drops connection page BEFORE claiming your Drops rewards.",
-   "src": "twitch-gql",
    "canais_vistos": [
     "cokeon_gaming"
    ],
-   "canais_perguntados": 1,
-   "canais_na_categoria": 1,
-   "vista_agora": true,
+   "channels": [],
+   "descricao": "Important: Connect your Twitch account to your Blue Protocol: Star Resonance game account via the Drops connection page BEFORE claiming your Drops rewards.",
+   "details_url": "https://www.playbpsr.com/twitch_bind",
+   "dono": "A PLUS JAPAN Inc.",
+   "end_at": "2026-12-02T12:29:59.999Z",
+   "game": "Blue Protocol: Star Resonance",
+   "game_box": "https://static-cdn.jtvnw.net/ttv-boxart/266795834_IGDB-120x160.jpg",
+   "game_slug": "star-resonance",
+   "id": "94263f50-6ae7-45a8-bd72-5f612c5b1243",
+   "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a536a5aa-86cd-4409-b7ec-e8fa582e0854.png",
+   "name": "Season 4 Special Drops",
+   "requer_sub": false,
+   "required_minutes": 15,
+   "resgate": "assistir 15 min",
+   "reward_type": "game",
+   "rewards": [
+    {
+     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/586b1f33-7f41-48fc-9a12-82e7867efd2d.png",
+     "minutes": 300,
+     "name": "Stray Stars Reunion Box*1",
+     "subs": 0,
+     "type": "DIRECT_ENTITLEMENT"
+    },
+    {
+     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/491cc566-a6ba-4f6b-ba2f-333ebd50d545.png",
+     "minutes": 15,
+     "name": "Rose Orb (Bound) *100",
+     "subs": 0,
+     "type": "DIRECT_ENTITLEMENT"
+    },
+    {
+     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f67ecc7f-5911-4452-a959-dad4c836452e.png",
+     "minutes": 30,
+     "name": "S1-S4 Adv. Materials S*3",
+     "subs": 0,
+     "type": "DIRECT_ENTITLEMENT"
+    },
+    {
+     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/95c8e6bf-72b0-4699-a77b-1632127d5d11.png",
+     "minutes": 60,
+     "name": "Dye Box *10",
+     "subs": 0,
+     "type": "DIRECT_ENTITLEMENT"
+    },
+    {
+     "image": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a021f7d1-cca9-445f-b433-79d9f388de44.png",
+     "minutes": 180,
+     "name": "Meowlux Headwear Select*1",
+     "subs": 0,
+     "type": "DIRECT_ENTITLEMENT"
+    }
+   ],
+   "src": "twitch-gql",
+   "start_at": "2026-11-05T12:30:00Z",
+   "status": "ACTIVE",
+   "subs_necessarios": 0,
+   "tipo_premio": "game",
+   "vista_agora": false,
    "visto_em": "2026-11-27T20:22:25Z"
   },
   {
@@ -465,13 +465,13 @@
     "widdz",
     "kamikazevondoom",
     "srebiii",
-    "schippy74",
-    "1clerik1"
+    "bummiunddiezentrale",
+    "xxkikoxxonlypvp"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 94,
+   "canais_na_categoria": 95,
    "vista_agora": true,
-   "visto_em": "2026-11-27T20:22:25Z"
+   "visto_em": "2026-11-27T20:39:13Z"
   },
   {
    "id": "4a77ccb5-95e6-4bc6-8567-de0eb09b0214",
@@ -527,17 +527,17 @@
    "descricao": "Once Human S5 Drops event will be live on Nov 19 - Dec 3, 2026.Connect your Once Human character and Twitch account to receive the reward. Watch a participating stream channel to join the activity. Yo",
    "src": "twitch-gql",
    "canais_vistos": [
-    "cyberdesecrator",
-    "kurolaos",
+    "powergirls01",
     "royalewithcheesetv",
-    "devil_of_games",
-    "linger0213",
-    "hangiecuis"
+    "dropbadges",
+    "ohdeviationhunt",
+    "track3m",
+    "flavinhakoala_br"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 92,
+   "canais_na_categoria": 99,
    "vista_agora": true,
-   "visto_em": "2026-11-27T20:22:25Z"
+   "visto_em": "2026-11-27T20:39:13Z"
   },
   {
    "id": "cb35d877-6cdc-469b-a540-a110082c829b",
@@ -618,13 +618,13 @@
     "eutaylorindo",
     "zvg_",
     "gamingsucc",
-    "volking334",
-    "jordybazan"
+    "jordybazan",
+    "volking334"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 14,
+   "canais_na_categoria": 15,
    "vista_agora": true,
-   "visto_em": "2026-11-27T20:22:25Z"
+   "visto_em": "2026-11-27T20:39:13Z"
   },
   {
    "id": "60db69f2-75b5-45c6-8edd-28721d8a038e",
@@ -682,15 +682,15 @@
    "canais_vistos": [
     "turbomouse",
     "chinochimu",
-    "mima_radio",
+    "shimm3rko",
+    "awen8787dd",
     "weirdomaxim",
-    "aviforsjh",
-    "meaokai"
+    "aviforsjh"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 13,
+   "canais_na_categoria": 10,
    "vista_agora": true,
-   "visto_em": "2026-11-27T20:22:25Z"
+   "visto_em": "2026-11-27T20:39:13Z"
   },
   {
    "id": "101c5286-f541-4183-bfa7-dd8eea691ed9",
@@ -750,13 +750,13 @@
     "masterpato_1377",
     "imthehavok_",
     "lilmissmoth",
-    "dragonslurpee",
-    "dangersdolli82"
+    "dangersdolli82",
+    "x666xsatantitof"
    ],
    "canais_perguntados": 6,
    "canais_na_categoria": 23,
    "vista_agora": true,
-   "visto_em": "2026-11-27T20:22:25Z"
+   "visto_em": "2026-11-27T20:39:13Z"
   },
   {
    "id": "21cf91ef-20d7-11f0-ac3d-0a58a9feac02",
@@ -822,14 +822,14 @@
     "zrush",
     "saintontas",
     "libardonii",
-    "sasha_seferis",
-    "seriicatt",
+    "lhewaton",
+    "zantetsu_tv",
     "hesitationsnow"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 76,
+   "canais_na_categoria": 80,
    "vista_agora": true,
-   "visto_em": "2026-11-27T20:22:25Z"
+   "visto_em": "2026-11-27T20:39:13Z"
   },
   {
    "id": "03b4ee27-3aac-4d60-98f2-fb7225337744",
@@ -864,17 +864,17 @@
    "descricao": "Earning this reward is simple. You only need to link your IOI Account to your Twitch account and then watch a cumulative 1 hour of HITMAN World of Assassination on Twitch during the drop campaign dura",
    "src": "twitch-gql",
    "canais_vistos": [
-    "sephiroth333",
     "meowmewka",
     "theharryn",
-    "maladroa",
-    "agentnightfox",
-    "alilarhatum"
+    "turaku",
+    "junior2740",
+    "random_gtv",
+    "agentnightfox"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 26,
+   "canais_na_categoria": 29,
    "vista_agora": true,
-   "visto_em": "2026-11-27T20:22:25Z"
+   "visto_em": "2026-11-27T20:39:13Z"
   },
   {
    "id": "882ccb61-0d4c-4fe6-a5c5-3156e8a033ab",
@@ -910,15 +910,16 @@
    "src": "twitch-gql",
    "canais_vistos": [
     "riirex",
-    "seriouschallenges",
     "hyakujin",
-    "juanenpruebas",
-    "apurill"
+    "lilithix_",
+    "bromodon",
+    "alwipewpew",
+    "akirochka___"
    ],
-   "canais_perguntados": 5,
-   "canais_na_categoria": 100,
+   "canais_perguntados": 6,
+   "canais_na_categoria": 99,
    "vista_agora": true,
-   "visto_em": "2026-11-27T20:22:25Z"
+   "visto_em": "2026-11-27T20:39:13Z"
   },
   {
    "id": "1f04121b-9c6b-4ae8-bdd5-9833c96a64ae",
@@ -956,14 +957,14 @@
     "sick_nerd",
     "alfie",
     "mmorpg",
-    "fairgrieve",
-    "haroldfishburger",
-    "80hdbarbie"
+    "qweps",
+    "dakaau",
+    "fairgrieve"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 99,
+   "canais_na_categoria": 96,
    "vista_agora": true,
-   "visto_em": "2026-11-27T20:22:25Z"
+   "visto_em": "2026-11-27T20:39:13Z"
   },
   {
    "availability": "open",
@@ -1090,14 +1091,14 @@
     "alanzoka",
     "bratishkinoff",
     "nickeh30",
-    "obkatiekat",
-    "qucee",
-    "hollyrex"
+    "hamariri_vt",
+    "d4ws7n",
+    "domanoo_"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 97,
+   "canais_na_categoria": 99,
    "vista_agora": true,
-   "visto_em": "2026-11-27T20:22:25Z"
+   "visto_em": "2026-11-27T20:39:13Z"
   },
   {
    "id": "5acbe8a4-35f3-45c8-afaa-3f0483fd17bb",
@@ -1135,14 +1136,14 @@
     "zg__",
     "absoluteforcetv",
     "transforms",
-    "doomdroplive",
     "badgely",
-    "deadpanzak"
+    "deadpanzak",
+    "itsbadgecollector"
    ],
    "canais_perguntados": 6,
    "canais_na_categoria": 29,
    "vista_agora": true,
-   "visto_em": "2026-11-27T20:22:25Z"
+   "visto_em": "2026-11-27T20:39:13Z"
   },
   {
    "id": "a1fbeb48-f98d-49d4-845c-9591328aae55",
@@ -1180,14 +1181,14 @@
     "veyranova",
     "notthisonewhoy",
     "irranium",
-    "ichbinloewe",
-    "lilly_gothic",
+    "skyecloud2011",
+    "risettagames",
     "badgezvous"
    ],
    "canais_perguntados": 6,
    "canais_na_categoria": 22,
    "vista_agora": true,
-   "visto_em": "2026-11-27T20:22:25Z"
+   "visto_em": "2026-11-27T20:39:13Z"
   }
  ],
  "badges": [
@@ -1207,6 +1208,6 @@
   }
  ],
  "error": null,
- "warn": "Tropecos na varredura: canal jltomy: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal nilo: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal elsukr: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal jeerax21: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]",
+ "warn": "Tropecos na varredura: canal peereira7: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal captain_robs_adventures: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal alexandraxalmonte: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal jltomy: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]",
  "raw_hint": null
 }
