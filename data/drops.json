@@ -1,8 +1,8 @@
 {
- "updated_at": "2026-11-28T07:37:04Z",
+ "updated_at": "2026-11-28T07:53:54Z",
  "ok": true,
  "source": "twitch-gql",
- "source_updated": "2026-11-28T07:37:04Z",
+ "source_updated": "2026-11-28T07:53:54Z",
  "counts": {
   "total": 16,
   "upcoming": 0,
@@ -10,15 +10,15 @@
   "game_drops": 10,
   "platform": 6,
   "badges": 2,
-  "fechadas_descartadas": 1,
-  "so_canais_escolhidos": 1,
+  "fechadas_descartadas": 0,
+  "so_canais_escolhidos": 0,
   "badges_de_canal": 0,
   "so_sub": 4,
   "sem_permissao_info": 0,
-  "fora_da_lista": 24,
+  "fora_da_lista": 25,
   "categorias_olhadas": 144,
-  "categorias_com_drop": 79,
-  "canais_perguntados": 238,
+  "categorias_com_drop": 76,
+  "canais_perguntados": 224,
   "vistas_agora": 16,
   "lembradas": 0
  },
@@ -57,16 +57,16 @@
    "src": "twitch-gql",
    "canais_vistos": [
     "jenazad",
-    "yclin",
-    "neemeses",
+    "witness1129",
+    "joek5",
     "wolfdd_",
     "loopshyft",
     "eevhu06"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 13,
+   "canais_na_categoria": 10,
    "vista_agora": true,
-   "visto_em": "2026-11-28T07:37:04Z"
+   "visto_em": "2026-11-28T07:53:54Z"
   },
   {
    "id": "8d69de9a-d8fd-4bd5-a274-fc7c094a3ccd",
@@ -115,17 +115,17 @@
    "descricao": "Arkheron Early Access Launch Drops! Look good while climbing the tower!",
    "src": "twitch-gql",
    "canais_vistos": [
-    "zaicks",
     "ezioo_show",
-    "bytheebest",
-    "2031_argus",
     "psychometal_dev",
+    "bytheebest",
+    "hikou0427",
+    "2031_argus",
     "shadowkiller326"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 13,
+   "canais_na_categoria": 10,
    "vista_agora": true,
-   "visto_em": "2026-11-28T07:37:04Z"
+   "visto_em": "2026-11-28T07:53:54Z"
   },
   {
    "id": "fa68d774-d481-417c-9695-7dcaa06c06e7",
@@ -195,17 +195,16 @@
    "descricao": "Watch your favorite creators play Draft and claim great rewards",
    "src": "twitch-gql",
    "canais_vistos": [
-    "shneerp",
     "interrobange",
     "crazy_songyy",
     "miviye",
     "goku_enjoyer_",
     "niceguysfinishfast"
    ],
-   "canais_perguntados": 6,
-   "canais_na_categoria": 6,
+   "canais_perguntados": 5,
+   "canais_na_categoria": 5,
    "vista_agora": true,
-   "visto_em": "2026-11-28T07:37:04Z"
+   "visto_em": "2026-11-28T07:53:54Z"
   },
   {
    "id": "94263f50-6ae7-45a8-bd72-5f612c5b1243",
@@ -278,7 +277,7 @@
    "canais_perguntados": 6,
    "canais_na_categoria": 6,
    "vista_agora": true,
-   "visto_em": "2026-11-28T07:37:04Z"
+   "visto_em": "2026-11-28T07:53:54Z"
   },
   {
    "id": "4caddcc2-2599-4d82-8559-cc0a1cb600c2",
@@ -344,14 +343,14 @@
     "azuki2021",
     "bigsmoke_prime",
     "vfoxygirlvyt",
-    "renfo27",
-    "blueyatagarasu",
+    "amnghost5",
+    "zars004",
     "superdave_55"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 95,
+   "canais_na_categoria": 93,
    "vista_agora": true,
-   "visto_em": "2026-11-28T07:37:04Z"
+   "visto_em": "2026-11-28T07:53:54Z"
   },
   {
    "id": "4a77ccb5-95e6-4bc6-8567-de0eb09b0214",
@@ -410,14 +409,14 @@
     "eimalada",
     "paultz1107",
     "seely_jenny_valdez",
-    "yumekodemonlab",
-    "pinkaholic_23",
-    "sooy_jooe"
+    "offline5326",
+    "zyend93",
+    "track3m"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 99,
+   "canais_na_categoria": 93,
    "vista_agora": true,
-   "visto_em": "2026-11-28T07:37:04Z"
+   "visto_em": "2026-11-28T07:53:54Z"
   },
   {
    "id": "cb35d877-6cdc-469b-a540-a110082c829b",
@@ -497,14 +496,13 @@
     "eutaylorindo",
     "zvg_",
     "dropactive2",
-    "mrtimbson",
     "jordybazan",
     "isaiahsupyo29"
    ],
-   "canais_perguntados": 6,
-   "canais_na_categoria": 6,
+   "canais_perguntados": 5,
+   "canais_na_categoria": 5,
    "vista_agora": true,
-   "visto_em": "2026-11-28T07:37:04Z"
+   "visto_em": "2026-11-28T07:53:54Z"
   },
   {
    "id": "101c5286-f541-4183-bfa7-dd8eea691ed9",
@@ -563,14 +561,14 @@
     "plainoldsimple",
     "cinderraynetv",
     "kanjirusan",
-    "victim_ttk",
-    "xdomx_scrubs",
-    "trev661"
+    "dangersdolli82",
+    "ani_gaming2000",
+    "aliefcodeine"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 31,
+   "canais_na_categoria": 32,
    "vista_agora": true,
-   "visto_em": "2026-11-28T07:37:04Z"
+   "visto_em": "2026-11-28T07:53:54Z"
   },
   {
    "id": "21cf91ef-20d7-11f0-ac3d-0a58a9feac02",
@@ -636,14 +634,14 @@
     "nebulora_",
     "libardonii",
     "thepeper21",
-    "pinash",
+    "ozy_goomy",
     "bdksauce",
-    "gachagame_lover"
+    "turntuchiha77"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 51,
+   "canais_na_categoria": 47,
    "vista_agora": true,
-   "visto_em": "2026-11-28T07:37:04Z"
+   "visto_em": "2026-11-28T07:53:54Z"
   },
   {
    "id": "03b4ee27-3aac-4d60-98f2-fb7225337744",
@@ -678,17 +676,17 @@
    "descricao": "Earning this reward is simple. You only need to link your IOI Account to your Twitch account and then watch a cumulative 1 hour of HITMAN World of Assassination on Twitch during the drop campaign dura",
    "src": "twitch-gql",
    "canais_vistos": [
+    "genp",
     "theharryn",
     "meowmewka",
-    "genp",
+    "eegyptianking",
     "zeyahrealgaming",
-    "joshthegamer55live",
     "cashboitotrill"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 18,
+   "canais_na_categoria": 14,
    "vista_agora": true,
-   "visto_em": "2026-11-28T07:37:04Z"
+   "visto_em": "2026-11-28T07:53:54Z"
   },
   {
    "id": "882ccb61-0d4c-4fe6-a5c5-3156e8a033ab",
@@ -724,16 +722,16 @@
    "src": "twitch-gql",
    "canais_vistos": [
     "badgebase",
-    "repaz247",
     "palm",
+    "repaz247",
+    "burryboy29",
     "caioplotz",
-    "hushcrusher",
-    "burryboy29"
+    "aki_morris"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 98,
+   "canais_na_categoria": 97,
    "vista_agora": true,
-   "visto_em": "2026-11-28T07:37:04Z"
+   "visto_em": "2026-11-28T07:53:54Z"
   },
   {
    "id": "1f04121b-9c6b-4ae8-bdd5-9833c96a64ae",
@@ -771,13 +769,13 @@
     "asmongold247",
     "gnomonkey",
     "sanchovies",
-    "heatmyser",
-    "xmxj90x"
+    "2_big_peaches",
+    "burpgurk"
    ],
    "canais_perguntados": 6,
    "canais_na_categoria": 97,
    "vista_agora": true,
-   "visto_em": "2026-11-28T07:37:04Z"
+   "visto_em": "2026-11-28T07:53:54Z"
   },
   {
    "id": "a8ce1281-5c82-4fbe-9a18-3e7d02e1e7b6",
@@ -812,12 +810,12 @@
    "descricao": "This badge was awarded to people who viewed any eligible channel in the Old School RuneScape category for one hour.",
    "src": "twitch-gql",
    "canais_vistos": [
-    "ekenspoon"
+    "thefamousjohnyd"
    ],
    "canais_perguntados": 6,
    "canais_na_categoria": 97,
    "vista_agora": true,
-   "visto_em": "2026-11-28T07:37:04Z"
+   "visto_em": "2026-11-28T07:53:54Z"
   },
   {
    "id": "b7669f9e-c69c-4a9b-a3b2-36266c1bdfc0",
@@ -901,17 +899,17 @@
    "descricao": "Unlock six Bling Badge viewership badges by watching GTAVI streamers for one hour each day on six different days between November 18–30. Subscribe three times to streamers in the GTAVI Category betwee",
    "src": "twitch-gql",
    "canais_vistos": [
-    "cellbit",
     "ludwig",
     "prodbydoma",
-    "justmaliyah",
-    "ethannestor",
-    "sadkawaai"
+    "cellbit",
+    "zeuz_0",
+    "garek",
+    "the_dirtyspoon"
    ],
    "canais_perguntados": 6,
-   "canais_na_categoria": 94,
+   "canais_na_categoria": 95,
    "vista_agora": true,
-   "visto_em": "2026-11-28T07:37:04Z"
+   "visto_em": "2026-11-28T07:53:54Z"
   },
   {
    "id": "5acbe8a4-35f3-45c8-afaa-3f0483fd17bb",
@@ -956,7 +954,7 @@
    "canais_perguntados": 6,
    "canais_na_categoria": 18,
    "vista_agora": true,
-   "visto_em": "2026-11-28T07:37:04Z"
+   "visto_em": "2026-11-28T07:53:54Z"
   },
   {
    "id": "a1fbeb48-f98d-49d4-845c-9591328aae55",
@@ -994,14 +992,14 @@
     "veyranova",
     "notthisonewhoy",
     "irranium",
-    "redjuan22",
+    "badgezvous",
     "kleekario",
     "ichbinloewe"
    ],
    "canais_perguntados": 6,
    "canais_na_categoria": 20,
    "vista_agora": true,
-   "visto_em": "2026-11-28T07:37:04Z"
+   "visto_em": "2026-11-28T07:53:54Z"
   }
  ],
  "badges": [
@@ -1021,6 +1019,6 @@
   }
  ],
  "error": null,
- "warn": "Tropecos na varredura: canal failverde: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal qrushcsgo: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal arrowcs: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal zonixxcs: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]",
+ "warn": "Tropecos na varredura: canal hanini1104: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal failverde: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal yi_ruru1111: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]; canal qrushcsgo: [{\"message\": \"service error\", \"path\": [\"channel\", \"viewerDropCampaigns\", 0, \"owner\"]}]",
  "raw_hint": null
 }
